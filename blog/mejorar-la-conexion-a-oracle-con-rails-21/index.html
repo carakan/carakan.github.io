@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>
+      
+          Mejorar la conexión a Oracle con Rails 2.1 - carakan
+      
+  </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="map[]" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://carakan.github.io/img/favicon.ico">
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://carakan.github.io/style.min.a6cab246517742ad1189b209575fc61556550e663cdfe02a0aab0632b39e978b.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  
+  
+
+  <meta property="og:title" content="Mejorar la conexión a Oracle con Rails 2.1" />
+<meta property="og:description" content="Dentro del trabajo con Oracle y Rails, existen dos gemas que nos permiten conectar y manipular los datos estas son las gemas OCI-8 y active-record-oracle-adapter, pero existen algunos fallos dentro del Active-Record-Oracle-Adapter, uno lo indique en un post anterior, es por eso que en rayapps se escribe sobre como mejorar algunas cosas a este adaptador, es por eso que el autor de esos post publica ahora una gema que tiene incluido los patch y algunas mejoras esto es la gema activerecord-oracle_enhanced-adapter" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://carakan.github.io/blog/mejorar-la-conexion-a-oracle-con-rails-21/" />
+<meta property="article:published_time" content="2008-06-07T22:31:58&#43;00:00"/>
+<meta property="article:modified_time" content="2008-06-07T22:31:58&#43;00:00"/>
+
+<meta itemprop="name" content="Mejorar la conexión a Oracle con Rails 2.1">
+<meta itemprop="description" content="Dentro del trabajo con Oracle y Rails, existen dos gemas que nos permiten conectar y manipular los datos estas son las gemas OCI-8 y active-record-oracle-adapter, pero existen algunos fallos dentro del Active-Record-Oracle-Adapter, uno lo indique en un post anterior, es por eso que en rayapps se escribe sobre como mejorar algunas cosas a este adaptador, es por eso que el autor de esos post publica ahora una gema que tiene incluido los patch y algunas mejoras esto es la gema activerecord-oracle_enhanced-adapter">
+
+
+<meta itemprop="datePublished" content="2008-06-07T22:31:58&#43;00:00" />
+<meta itemprop="dateModified" content="2008-06-07T22:31:58&#43;00:00" />
+<meta itemprop="wordCount" content="130">
+
+
+
+<meta itemprop="keywords" content="oracle,oracle,ruby,ruby on rails,ruby on rails,web 2.0," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Mejorar la conexión a Oracle con Rails 2.1"/>
+<meta name="twitter:description" content="Dentro del trabajo con Oracle y Rails, existen dos gemas que nos permiten conectar y manipular los datos estas son las gemas OCI-8 y active-record-oracle-adapter, pero existen algunos fallos dentro del Active-Record-Oracle-Adapter, uno lo indique en un post anterior, es por eso que en rayapps se escribe sobre como mejorar algunas cosas a este adaptador, es por eso que el autor de esos post publica ahora una gema que tiene incluido los patch y algunas mejoras esto es la gema activerecord-oracle_enhanced-adapter"/>
+
+  <!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-5022449-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+</head>
+
+  <body>
+    
+  <h1>Mejorar la conexión a Oracle con Rails 2.1</h1>
+  <header>
+  
+  <div class="avatar">
+    <img class="avatarMask" src="https://carakan.github.io//img/avatar.jpg">
+    <a href="https://carakan.github.io/"><img src="https://carakan.github.io//img/avatar-border.svg" }}></a>
+  </div>
+  
+  <h2><a class="author" href="https://carakan.github.io/">Carlos Ramos</a></h2>
+</header>
+
+  
+  
+  <p class="date">June 7, 2008</p>
+  
+  <div id="contentBody">
+    <p>Dentro del trabajo con Oracle y Rails, existen dos gemas que nos permiten conectar y manipular los datos estas son las gemas OCI-8 y active-record-oracle-adapter, pero existen algunos fallos dentro del Active-Record-Oracle-Adapter, uno lo <a href="http://carakan.com/index.php/2008/01/14/conectarse-de-rails-202-a-oracle/">indique en un post anterior</a>, es por eso que en <a href="http://blog.rayapps.com">rayapps</a> se escribe sobre como mejorar algunas cosas a este adaptador, es por eso que el autor de esos post publica ahora una gema que tiene incluido los patch y algunas mejoras esto es la gema activerecord-oracle_enhanced-adapter</p>
+
+<p>Su instalación es simple:</p>
+
+<p>gem install activerecord-oracle_enhanced-adapter</p>
+
+<p>Tiene muchas características que se describen <a href="http://blog.rayapps.com/2008/05/13/activerecord-oracle-enhanced-adapter/">aquí</a>.</p>
+
+<p>Para su utilización simplemente se debe cambiar dentro del database.yml  el adapter de oracle a oracle_ enhanced</p>
+
+<p>development:</p>
+
+<p>adapter: oracle_enhanced</p>
+
+<p>database: wiebia</p>
+
+<p>username: scott</p>
+
+<p>password: gotama</p>
+
+<p>Un gran aporte para los que trabajamos con oracle</p>
+
+  </div>
+  <footer>
+  <p>
+  &copy; 2019 Carlos Ramos.
+  Powered by <a href="https://gohugo.io/">Hugo</a>
+  using the <a href="https://github.com/koirand/pulp/">pulp</a> theme.
+  </p>
+</footer>
+
+
+  </body>
+</html>

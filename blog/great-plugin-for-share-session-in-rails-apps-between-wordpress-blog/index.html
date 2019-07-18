@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>
+      
+          great plugin for share session in rails apps between wordpress blog - carakan
+      
+  </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="map[]" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://carakan.github.io/img/favicon.ico">
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://carakan.github.io/style.min.a6cab246517742ad1189b209575fc61556550e663cdfe02a0aab0632b39e978b.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  
+  
+
+  <meta property="og:title" content="great plugin for share session in rails apps between wordpress blog" />
+<meta property="og:description" content="In one project, the client wants to share same user credentials between rails app to wordpress site, I&rsquo;ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:
+rails login
+
+this plugin only need a small API for enable login i created this code in model user:
+def wp_json { user: { email: self." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://carakan.github.io/blog/great-plugin-for-share-session-in-rails-apps-between-wordpress-blog/" />
+<meta property="article:published_time" content="2015-03-13T01:11:09&#43;00:00"/>
+<meta property="article:modified_time" content="2015-03-13T01:11:09&#43;00:00"/>
+
+<meta itemprop="name" content="great plugin for share session in rails apps between wordpress blog">
+<meta itemprop="description" content="In one project, the client wants to share same user credentials between rails app to wordpress site, I&rsquo;ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:
+rails login
+
+this plugin only need a small API for enable login i created this code in model user:
+def wp_json { user: { email: self.">
+
+
+<meta itemprop="datePublished" content="2015-03-13T01:11:09&#43;00:00" />
+<meta itemprop="dateModified" content="2015-03-13T01:11:09&#43;00:00" />
+<meta itemprop="wordCount" content="142">
+
+
+
+<meta itemprop="keywords" content="database session,Rails,tips," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="great plugin for share session in rails apps between wordpress blog"/>
+<meta name="twitter:description" content="In one project, the client wants to share same user credentials between rails app to wordpress site, I&rsquo;ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:
+rails login
+
+this plugin only need a small API for enable login i created this code in model user:
+def wp_json { user: { email: self."/>
+
+  <!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-5022449-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+</head>
+
+  <body>
+    
+  <h1>great plugin for share session in rails apps between wordpress blog</h1>
+  <header>
+  
+  <div class="avatar">
+    <img class="avatarMask" src="https://carakan.github.io//img/avatar.jpg">
+    <a href="https://carakan.github.io/"><img src="https://carakan.github.io//img/avatar-border.svg" }}></a>
+  </div>
+  
+  <h2><a class="author" href="https://carakan.github.io/">Carlos Ramos</a></h2>
+</header>
+
+  
+  
+  <p class="date">March 13, 2015</p>
+  
+  <div id="contentBody">
+    <p>In one project, the client wants to share same user credentials between rails app to wordpress site, I&rsquo;ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:</p>
+
+<p><a href="https://wordpress.org/plugins/rails-login/" title="wordpress plugin for share session with rails app">rails login<br />
+</a><br />
+this plugin only need a small API for enable login i created this code in model user:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">wp_json</span>
+  {
+    <span style="color:#b8860b">user</span>: {
+      <span style="color:#b8860b">email</span>: <span style="color:#a2f">self</span><span style="color:#666">.</span>email,
+      <span style="color:#b8860b">first_name</span>: <span style="color:#a2f">self</span><span style="color:#666">.</span>firstname,
+      <span style="color:#b8860b">last_name</span>: <span style="color:#a2f">self</span><span style="color:#666">.</span>lastname,
+      <span style="color:#b8860b">description</span>: <span style="color:#b44">&#39;&#39;</span>,
+      <span style="color:#b8860b">username</span>: <span style="color:#a2f">self</span><span style="color:#666">.</span>usernames,
+      <span style="color:#b8860b">login</span>: <span style="color:#a2f">self</span><span style="color:#666">.</span>email,
+      <span style="color:#b8860b">nickname</span>: <span style="color:#a2f">self</span><span style="color:#666">.</span>firstname,
+      <span style="color:#b8860b">display_name</span>: <span style="color:#b44">&#34;</span><span style="color:#b68;font-weight:bold">#{</span><span style="color:#a2f">self</span><span style="color:#666">.</span>firstname<span style="color:#b68;font-weight:bold">}</span><span style="color:#b44"> </span><span style="color:#b68;font-weight:bold">#{</span><span style="color:#a2f">self</span><span style="color:#666">.</span>lastname<span style="color:#b68;font-weight:bold">}</span><span style="color:#b44">&#34;</span>,
+      <span style="color:#b8860b">url</span>: <span style="color:#b44">&#39;http://my-wp-installation.com&#39;</span>
+    }
+  }
+<span style="color:#a2f;font-weight:bold">end</span></code></pre></div>
+<p>and in the rails controller I created this:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">current</span>
+  session <span style="color:#666">=</span> <span style="color:#800">Session</span><span style="color:#666">.</span>where(<span style="color:#b8860b">session_id</span>: params<span style="color:#666">[</span><span style="color:#b8860b">:id</span><span style="color:#666">]</span>)<span style="color:#666">.</span>first
+  respond_to <span style="color:#a2f;font-weight:bold">do</span> <span style="color:#666">|</span><span style="color:#a2f">format</span><span style="color:#666">|</span>
+    <span style="color:#a2f">format</span><span style="color:#666">.</span>json <span style="color:#a2f;font-weight:bold">do</span>
+      <span style="color:#a2f;font-weight:bold">if</span> session <span style="color:#666">&amp;&amp;</span> session<span style="color:#666">.</span>user
+        render <span style="color:#b8860b">json</span>: session<span style="color:#666">.</span>user<span style="color:#666">.</span>wp_json
+      <span style="color:#a2f;font-weight:bold">else</span>
+        render <span style="color:#b8860b">json</span>: { <span style="color:#b8860b">user</span>: <span style="color:#b44">&#39;&#39;</span> }<span style="color:#666">.</span>to_json
+      <span style="color:#a2f;font-weight:bold">end</span>
+    <span style="color:#a2f;font-weight:bold">end</span>
+  <span style="color:#a2f;font-weight:bold">end</span>
+<span style="color:#a2f;font-weight:bold">end</span></code></pre></div>
+<p>to work this integration the project must need to use database session store.</p>
+
+  </div>
+  <footer>
+  <p>
+  &copy; 2019 Carlos Ramos.
+  Powered by <a href="https://gohugo.io/">Hugo</a>
+  using the <a href="https://github.com/koirand/pulp/">pulp</a> theme.
+  </p>
+</footer>
+
+
+  </body>
+</html>

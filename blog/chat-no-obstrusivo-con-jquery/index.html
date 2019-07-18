@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>
+      
+          Chat AJAX no-obstrusivo con Jquery - carakan
+      
+  </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="map[]" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://carakan.github.io/img/favicon.ico">
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://carakan.github.io/style.min.a6cab246517742ad1189b209575fc61556550e663cdfe02a0aab0632b39e978b.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  
+  
+
+  <meta property="og:title" content="Chat AJAX no-obstrusivo con Jquery" />
+<meta property="og:description" content="El desarrollo web actual esta evolucionando gracias a la tecnología que cambia dia a dia, perfeccionándose, pero esto puede ser inútil si no va ligada a una metodología o guias de estilo proporcionadas por personas con experiencia, recientemente apareció el termino de javascript no obtrusivo, que la propia wikipedia define como:
+  Separación de la funcionalidad JavaScript (la &ldquo;capa del comportamiento&rdquo;) de las capas de estructura/contenido y de presentación de un página." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://carakan.github.io/blog/chat-no-obstrusivo-con-jquery/" />
+<meta property="article:published_time" content="2008-08-21T20:36:43&#43;00:00"/>
+<meta property="article:modified_time" content="2008-08-21T20:36:43&#43;00:00"/>
+
+<meta itemprop="name" content="Chat AJAX no-obstrusivo con Jquery">
+<meta itemprop="description" content="El desarrollo web actual esta evolucionando gracias a la tecnología que cambia dia a dia, perfeccionándose, pero esto puede ser inútil si no va ligada a una metodología o guias de estilo proporcionadas por personas con experiencia, recientemente apareció el termino de javascript no obtrusivo, que la propia wikipedia define como:
+  Separación de la funcionalidad JavaScript (la &ldquo;capa del comportamiento&rdquo;) de las capas de estructura/contenido y de presentación de un página.">
+
+
+<meta itemprop="datePublished" content="2008-08-21T20:36:43&#43;00:00" />
+<meta itemprop="dateModified" content="2008-08-21T20:36:43&#43;00:00" />
+<meta itemprop="wordCount" content="506">
+
+
+
+<meta itemprop="keywords" content="ajax,ajax,javascript no obtrusivo,jquery,jquery," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Chat AJAX no-obstrusivo con Jquery"/>
+<meta name="twitter:description" content="El desarrollo web actual esta evolucionando gracias a la tecnología que cambia dia a dia, perfeccionándose, pero esto puede ser inútil si no va ligada a una metodología o guias de estilo proporcionadas por personas con experiencia, recientemente apareció el termino de javascript no obtrusivo, que la propia wikipedia define como:
+  Separación de la funcionalidad JavaScript (la &ldquo;capa del comportamiento&rdquo;) de las capas de estructura/contenido y de presentación de un página."/>
+
+  <!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-5022449-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+</head>
+
+  <body>
+    
+  <h1>Chat AJAX no-obstrusivo con Jquery</h1>
+  <header>
+  
+  <div class="avatar">
+    <img class="avatarMask" src="https://carakan.github.io//img/avatar.jpg">
+    <a href="https://carakan.github.io/"><img src="https://carakan.github.io//img/avatar-border.svg" }}></a>
+  </div>
+  
+  <h2><a class="author" href="https://carakan.github.io/">Carlos Ramos</a></h2>
+</header>
+
+  
+  
+  <p class="date">August 21, 2008</p>
+  
+  <div id="contentBody">
+    <p>El desarrollo web actual esta evolucionando gracias a la tecnología que cambia dia a dia, perfeccionándose, pero esto puede ser inútil si no va ligada a una metodología o guias de estilo proporcionadas por personas con experiencia, recientemente apareció el termino de <a href="http://es.wikipedia.org/wiki/JavaScript_no_obstructivo">javascript no obtrusivo</a>, que la propia wikipedia define como:</p>
+
+<blockquote>
+<ul>
+<li>Separación de la funcionalidad JavaScript (la &ldquo;capa del comportamiento&rdquo;) de las capas de estructura/contenido y de presentación de un página.</li>
+<li>Uso de buenas prácticas a fin de evitar los problemas de incompatibilidad de la programación tradicional en JavaScript (tales como inconsistencias entre <a href="http://es.wikipedia.org/wiki/Navegador_web" title="Navegador web">navegadores</a> y falta de <a href="http://es.wikipedia.org/wiki/Escalabilidad" title="Escalabilidad">escalabilidad</a>)</li>
+</ul>
+</blockquote>
+
+<p>Esto es que se crea dentro de cada pagina Html normal, tres capas distinguibles que son:</p>
+
+<ul>
+<li>La capa de información (Html)</li>
+<li>La capa de presentación y diseño (CSS)</li>
+<li>La capa de interacción y eventos (Javascript)</li>
+</ul>
+
+<p>Esto nos recuerda al patrón MVC utilizada en Ruby on Rails y otros frameworks actuales (Django, Cake, Code Igniter, etc.), esto facilita enormemente el desarrollo ya que focaliza y ordena las funciones de cada capa. Ahora con esta pequeña introducción veamos como podemos ver en la practica la teoría, para ello utilizaremos a la biblioteca javascript: Jquery, que dentro de ella ya tiene las funciones comunes para desarrollo como: Ajax, manipulación de Dom, effectos, etc. Bien empezamos desarrollando lo que sera el esqueleto de la aplicación el html en si:<code>
+ **index.html**
+&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+        &lt;title&gt;Chat con jquery unobtrusivo&lt;/title&gt;
+        &lt;link href=&quot;style.css&quot; media=&quot;screen&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+        &lt;script src=&quot;jquery-1.2.6.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;chat.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;
+            Chat con jquery unobtrusivo.
+        &lt;/h1&gt;
+        &lt;div id=&quot;chat&quot;&gt;
+        &lt;/div&gt;
+        &lt;form action=&quot;chat.php&quot; method=&quot;GET&quot;&gt;
+            &lt;input id=&quot;name&quot; name=&quot;name&quot; size=&quot;10&quot; type=&quot;text&quot;&gt; -
+            &lt;input id=&quot;message&quot; name=&quot;message&quot; size=&quot;10&quot; type=&quot;text&quot; class=&quot;message&quot;&gt;
+            &lt;input name=&quot;commit&quot; value=&quot;Enviar&quot; type=&quot;submit&quot;&gt;
+        &lt;/form&gt;
+    &lt;/body&gt;
+&lt;/html&gt; 
+</code>Como vemos el código html esta liberado de todo enlace a funciones javascript dentro de los eventos, solamente se hace referencia a dos archivos javascript que son: el propio jquery y un archivo chat.js que tiene las funciones y el manejo de eventos a acciones del HTML. Ahora el código de la presentación::<code>
+**style.css**
+*{
+  margin:0;
+  padding:0;
+}
+html,body{
+  height:100%;
+}
+body{
+  padding:30px;
+  font:13px/15px 'helvetica neue',arial,helvetica,sans-serif;
+  color:#343434;
+}
+h1{
+  padding:10px;
+}
+#chat{
+  padding:25px;
+  font-family:Monaco,Courier,monospace;
+  font-size:12px;margin-bottom:15px;
+  -webkit-border-radius:9px;
+  -moz-border-radius:9px;
+  background-color:#1F1100;
+  border:0;
+  color:#E7ECF1;
+  overflow:auto;
+  width:400px;
+  height:380px;
+}
+.footer{
+  margin-top:50px;
+  font-style:italic;
+} 
+</code>Y finalmente el código javascript:```
+<strong>chat.js</strong>
+$(document).ready(
+    function(){
+        $(&ldquo;form&rdquo;).submit( function () {
+            $.ajax({
+                data:$.param($(this).serializeArray()),
+                dataType:&lsquo;script&rsquo;,
+                type:&lsquo;get&rsquo;,
+                url:&lsquo;chat.php&rsquo;,
+                complete : function(){
+                    $(&ldquo;#chat&rdquo;).animate({
+                        scrollTop: 2000
+                    }, 15 );
+                    $(&lsquo;input#message&rsquo;).val(&ldquo;&rdquo;);
+                }
+            });
+            return false;
+        } );
+    })</p>
+
+<p>setInterval(function() {
+    $.ajax({
+        success:function(request){
+            $(&lsquo;#chat&rsquo;).html(request);
+        },
+        url:&lsquo;chat.html&rsquo;,
+        cache: false
+    })
+}, 2000)
+```Aquí quiero dar énfasis a la manera en que se encadeno el evento del submit con una función ajax que actualiza el documento chat.html a traves de un script PHP que encontré por internet que realiza las funciones de chat, bloqueando palabras ofensivas y el uso por spammers, recomendable. dejo el <a href="http://carakan.com/proyectos/chat.zip">codigo fuente del chat</a> para que lo puedas ver, además si quieres verlo en acción al chat: <strong><a href="http://carakan.com/proyectos/chat/" title="Sala de Chat No Obtrusivo con jquery">Sala de Chat unobtrusivo. (actualizado)</a></strong> <strong>Notas 13/feb/2010</strong>: Actualize el script, y de nuevo hice funcional el demo :D</p>
+
+  </div>
+  <footer>
+  <p>
+  &copy; 2019 Carlos Ramos.
+  Powered by <a href="https://gohugo.io/">Hugo</a>
+  using the <a href="https://github.com/koirand/pulp/">pulp</a> theme.
+  </p>
+</footer>
+
+
+  </body>
+</html>
