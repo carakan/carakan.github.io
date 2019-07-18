@@ -3,12 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://carakan.github.io/series/</loc>
+    <loc>https://carakan.github.io/blog/</loc>
+    <lastmod>2019-07-18T12:31:26-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://carakan.github.io/blog/my-first-post/</loc>
+    <lastmod>2019-07-18T12:31:26-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://carakan.github.io/</loc>
+    <lastmod>2019-07-18T12:31:26-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/series/</loc>
     <priority>0</priority>
   </url>
   
