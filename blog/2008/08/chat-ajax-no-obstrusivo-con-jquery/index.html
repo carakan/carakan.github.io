@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="description" content="Simple minimalist theme">
+<meta name="keywords" content="minimalist,blog,goa,hugo,developer">
+
+<base href="https://carakan.github.io/">
+
+<title>carakan</title>
+
+<meta name="generator" content="Hugo 0.55.6" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400|Roboto+Slab:400,700|Roboto:300,300i,400,400i,500,500i,700,700i">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+<link rel="stylesheet" href="https://carakan.github.io/css/main.css">
+
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://carakan.github.io/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="https://carakan.github.io/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://carakan.github.io/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="https://carakan.github.io/manifest.json">
+<link rel="mask-icon" href="https://carakan.github.io/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+<body lang="en-US">
+<div class="container">
+
+
+<header class="row text-left title">
+  <h1 class="title">Chat AJAX no-obstrusivo con Jquery</h1>
+</header>
+<section id="category-pane" class="row meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-left meta">
+        PUBLISHED ON AUG 21, 2008 
+      
+    </h6>
+  </div>
+  
+</section>
+<section id="content-pane" class="row">
+  <div class="col-md-12 text-justify content">
+    <p>El desarrollo web actual esta evolucionando gracias a la tecnología que cambia dia a dia, perfeccionándose, pero esto puede ser inútil si no va ligada a una metodología o guias de estilo proporcionadas por personas con experiencia, recientemente apareció el termino de <a href="http://es.wikipedia.org/wiki/JavaScript_no_obstructivo">javascript no obtrusivo</a>, que la propia wikipedia define como:</p>
+
+<blockquote>
+<ul>
+<li>Separación de la funcionalidad JavaScript (la &ldquo;capa del comportamiento&rdquo;) de las capas de estructura/contenido y de presentación de un página.</li>
+<li>Uso de buenas prácticas a fin de evitar los problemas de incompatibilidad de la programación tradicional en JavaScript (tales como inconsistencias entre <a href="http://es.wikipedia.org/wiki/Navegador_web" title="Navegador web">navegadores</a> y falta de <a href="http://es.wikipedia.org/wiki/Escalabilidad" title="Escalabilidad">escalabilidad</a>)</li>
+</ul>
+</blockquote>
+
+<p>Esto es que se crea dentro de cada pagina Html normal, tres capas distinguibles que son:</p>
+
+<ul>
+<li>La capa de información (Html)</li>
+<li>La capa de presentación y diseño (CSS)</li>
+<li>La capa de interacción y eventos (Javascript)</li>
+</ul>
+
+<p>Esto nos recuerda al patrón MVC utilizada en Ruby on Rails y otros frameworks actuales (Django, Cake, Code Igniter, etc.), esto facilita enormemente el desarrollo ya que focaliza y ordena las funciones de cada capa. Ahora con esta pequeña introducción veamos como podemos ver en la practica la teoría, para ello utilizaremos a la biblioteca javascript: Jquery, que dentro de ella ya tiene las funciones comunes para desarrollo como: Ajax, manipulación de Dom, effectos, etc. Bien empezamos desarrollando lo que sera el esqueleto de la aplicación el html en si:<code>
+ **index.html**
+&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+        &lt;title&gt;Chat con jquery unobtrusivo&lt;/title&gt;
+        &lt;link href=&quot;style.css&quot; media=&quot;screen&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+        &lt;script src=&quot;jquery-1.2.6.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;chat.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;
+            Chat con jquery unobtrusivo.
+        &lt;/h1&gt;
+        &lt;div id=&quot;chat&quot;&gt;
+        &lt;/div&gt;
+        &lt;form action=&quot;chat.php&quot; method=&quot;GET&quot;&gt;
+            &lt;input id=&quot;name&quot; name=&quot;name&quot; size=&quot;10&quot; type=&quot;text&quot;&gt; -
+            &lt;input id=&quot;message&quot; name=&quot;message&quot; size=&quot;10&quot; type=&quot;text&quot; class=&quot;message&quot;&gt;
+            &lt;input name=&quot;commit&quot; value=&quot;Enviar&quot; type=&quot;submit&quot;&gt;
+        &lt;/form&gt;
+    &lt;/body&gt;
+&lt;/html&gt; 
+</code>Como vemos el código html esta liberado de todo enlace a funciones javascript dentro de los eventos, solamente se hace referencia a dos archivos javascript que son: el propio jquery y un archivo chat.js que tiene las funciones y el manejo de eventos a acciones del HTML. Ahora el código de la presentación::<code>
+**style.css**
+*{
+  margin:0;
+  padding:0;
+}
+html,body{
+  height:100%;
+}
+body{
+  padding:30px;
+  font:13px/15px 'helvetica neue',arial,helvetica,sans-serif;
+  color:#343434;
+}
+h1{
+  padding:10px;
+}
+#chat{
+  padding:25px;
+  font-family:Monaco,Courier,monospace;
+  font-size:12px;margin-bottom:15px;
+  -webkit-border-radius:9px;
+  -moz-border-radius:9px;
+  background-color:#1F1100;
+  border:0;
+  color:#E7ECF1;
+  overflow:auto;
+  width:400px;
+  height:380px;
+}
+.footer{
+  margin-top:50px;
+  font-style:italic;
+} 
+</code>Y finalmente el código javascript:```
+<strong>chat.js</strong>
+$(document).ready(
+    function(){
+        $(&ldquo;form&rdquo;).submit( function () {
+            $.ajax({
+                data:$.param($(this).serializeArray()),
+                dataType:&lsquo;script&rsquo;,
+                type:&lsquo;get&rsquo;,
+                url:&lsquo;chat.php&rsquo;,
+                complete : function(){
+                    $(&ldquo;#chat&rdquo;).animate({
+                        scrollTop: 2000
+                    }, 15 );
+                    $(&lsquo;input#message&rsquo;).val(&ldquo;&rdquo;);
+                }
+            });
+            return false;
+        } );
+    })</p>
+
+<p>setInterval(function() {
+    $.ajax({
+        success:function(request){
+            $(&lsquo;#chat&rsquo;).html(request);
+        },
+        url:&lsquo;chat.html&rsquo;,
+        cache: false
+    })
+}, 2000)
+```Aquí quiero dar énfasis a la manera en que se encadeno el evento del submit con una función ajax que actualiza el documento chat.html a traves de un script PHP que encontré por internet que realiza las funciones de chat, bloqueando palabras ofensivas y el uso por spammers, recomendable. dejo el <a href="http://carakan.com/proyectos/chat.zip">codigo fuente del chat</a> para que lo puedas ver, además si quieres verlo en acción al chat: <strong><a href="http://carakan.com/proyectos/chat/" title="Sala de Chat No Obtrusivo con jquery">Sala de Chat unobtrusivo. (actualizado)</a></strong> <strong>Notas 13/feb/2010</strong>: Actualize el script, y de nuevo hice funcional el demo :D</p>
+
+  </div>
+</section>
+<section id="tag-pane" class="row meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-right meta">
+      
+      
+      
+      TAGS:
+      
+      
+      <a class="meta" href="https://carakan.github.io/tags/ajax">AJAX</a>, 
+      
+      <a class="meta" href="https://carakan.github.io/tags/ajax">AJAX</a>, 
+      
+      <a class="meta" href="https://carakan.github.io/tags/javascript-no-obtrusivo">JAVASCRIPT NO OBTRUSIVO</a>, 
+      
+      <a class="meta" href="https://carakan.github.io/tags/jquery">JQUERY</a>, 
+      
+      <a class="meta" href="https://carakan.github.io/tags/jquery">JQUERY</a>
+      
+      
+      
+    </h6>
+  </div>
+  
+</section>
+
+
+
+
+
+
+
+
+<section id="menu-pane" class="row menu text-center">
+  
+  
+  <span><a class="menu-item" href="https://carakan.github.io/blog/2008/08/enlaces-interesantes-19-agosto-2008/">&lt; prev | </a></span>
+  
+  
+  <span><a class="menu-item" href="https://carakan.github.io/blog">blog</a></span>
+  
+  
+  <span><a class="menu-item" href="https://carakan.github.io/blog/2008/08/batido-de-iphone/"> | next &gt;</a></span>
+  
+  
+  <h4 class="text-center"><a class="menu-item" href="https://carakan.github.io/">home</a></h4>
+</section>
+
+
+
+<footer class="row text-center footer">
+  <hr />
+  
+  <h6 class="text-center copyright">© 2019. Carlos Ramos. <a href="http://creativecommons.org/licenses/by/3.0/">Some Rights Reserved</a>.</h6>
+  
+  
+</footer>
+
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+
+<script type="text/javascript">
+hljs.initHighlightingOnLoad();
+</script>
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-5022449-3', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+
+

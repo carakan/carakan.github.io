@@ -3,12 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://carakan.github.io/blog/blockchain-iot-ai-and-any-hipster-tech/</loc>
+    <loc>https://carakan.github.io/blog/2017/09/blockchain-iot-ai-and-any-hipster-tech/</loc>
     <lastmod>2017-09-08T16:08:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://carakan.github.io/blog/</loc>
+    <lastmod>2017-09-08T16:08:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/</loc>
+    <lastmod>2017-09-08T16:08:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/blockchain/</loc>
     <lastmod>2017-09-08T16:08:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -20,1676 +32,2122 @@
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/install-passenger-5-ruby-2-x-nginx-1-10-x-and-enable-http2/</loc>
+    <loc>https://carakan.github.io/tags/emprendimiento/</loc>
+    <lastmod>2017-09-08T16:08:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/startups/</loc>
+    <lastmod>2017-09-08T16:08:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/devop/</loc>
+    <lastmod>2016-06-24T17:27:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/http2/</loc>
+    <lastmod>2016-06-24T17:27:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2016/06/install-passenger-5-ruby-2.x-nginx-1.10.x-and-enable-http/2/</loc>
     <lastmod>2016-06-24T17:27:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/my-dotfiles/</loc>
+    <loc>https://carakan.github.io/tags/passenger/</loc>
+    <lastmod>2016-06-24T17:27:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/ruby/</loc>
+    <lastmod>2016-06-24T17:27:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2015/12/my-dotfiles/</loc>
     <lastmod>2015-12-21T02:57:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/learning-elixir-programming-language/</loc>
+    <loc>https://carakan.github.io/tags/vim/</loc>
+    <lastmod>2015-12-21T02:57:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/dotfiles/</loc>
+    <lastmod>2015-12-21T02:57:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/elixir/</loc>
+    <lastmod>2015-11-24T03:17:52+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2015/11/learning-elixir-programming-language/</loc>
     <lastmod>2015-11-24T03:17:52+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/restarting-to-write-in-this-blog/</loc>
+    <loc>https://carakan.github.io/tags/folgama/</loc>
+    <lastmod>2015-11-24T03:17:52+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2015/03/restarting-to-write-in-this-blog/</loc>
     <lastmod>2015-03-13T01:15:24+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/great-plugin-for-share-session-in-rails-apps-between-wordpress-blog/</loc>
+    <loc>https://carakan.github.io/tags/uncategorized/</loc>
+    <lastmod>2015-03-13T01:15:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/rails/</loc>
+    <lastmod>2015-03-13T01:11:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/database-session/</loc>
+    <lastmod>2015-03-13T01:11:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2015/03/great-plugin-for-share-session-in-rails-apps-between-wordpress-blog/</loc>
     <lastmod>2015-03-13T01:11:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/sesion-de-fotos-a-topcena-thais-alejandra/</loc>
+    <loc>https://carakan.github.io/tags/tips/</loc>
+    <lastmod>2015-03-13T01:11:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2014/09/sesi%C3%B3n-de-fotos-a-topce%C3%B1a-thais-alejandra/</loc>
     <lastmod>2014-09-16T17:07:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/blog/</loc>
+    <loc>https://carakan.github.io/tags/fotografia/</loc>
+    <lastmod>2014-09-16T17:07:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/modelaje/</loc>
+    <lastmod>2014-09-16T17:07:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/thais/</loc>
+    <lastmod>2014-09-16T17:07:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2014/05/blog/</loc>
     <lastmod>2014-05-13T15:09:40+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/fotografia/</loc>
+    <loc>https://carakan.github.io/blog/2014/05/fotograf%C3%ADa/</loc>
     <lastmod>2014-05-13T14:58:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/revivi/</loc>
+    <loc>https://carakan.github.io/blog/2014/05/revivi/</loc>
     <lastmod>2014-05-13T04:29:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/un-breve-resumen-de-lo-que-acontecio-hasta-este-momento/</loc>
+    <loc>https://carakan.github.io/tags/carakan/</loc>
+    <lastmod>2014-05-13T04:29:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/2013/</loc>
+    <lastmod>2013-06-27T22:50:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/bolivia/</loc>
+    <lastmod>2013-06-27T22:50:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2013/06/un-breve-resumen-de-lo-que-aconteci%C3%B3-hasta-este-momento/</loc>
     <lastmod>2013-06-27T22:50:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/carnaval-de-oruro-2012/</loc>
+    <loc>https://carakan.github.io/blog/2012/02/carnaval-de-oruro-2012/</loc>
     <lastmod>2012-02-20T23:43:14+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/canon-digital-en-argentina-la-nada-invade-latinoamerica/</loc>
+    <loc>https://carakan.github.io/tags/carnaval-oruro/</loc>
+    <lastmod>2012-02-20T23:43:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2011/06/canon-digital-en-argentina-la-nada-invade-latinoamerica/</loc>
     <lastmod>2011-06-29T03:34:45+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/charla-de-martin-varsavsky-sobre-la-situacion-de-espana-y-latinoamerica/</loc>
+    <loc>https://carakan.github.io/tags/canon-digital/</loc>
+    <lastmod>2011-06-29T03:34:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/libertad-de-expresion/</loc>
+    <lastmod>2011-06-29T03:34:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/periodismo/</loc>
+    <lastmod>2011-06-29T03:34:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/2011/</loc>
+    <lastmod>2011-06-27T15:04:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2011/06/charla-de-martin-varsavsky-sobre-la-situaci%C3%B3n-de-espa%C3%B1a-y-latinoam%C3%A9rica/</loc>
     <lastmod>2011-06-27T15:04:54+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/como-poder-cantar-a-duo-contigo-mismo-comments/</loc>
+    <loc>https://carakan.github.io/blog/2011/03/como-poder-cantar-a-duo-contigo-mismo/</loc>
     <lastmod>2011-03-22T02:37:23+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/como-poder-cantar-a-duo-contigo-mismo/</loc>
+    <loc>https://carakan.github.io/tags/sorprendente/</loc>
     <lastmod>2011-03-22T02:37:23+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/se-aprobo-la-ley-sinde-en-espana-comments/</loc>
+    <loc>https://carakan.github.io/tags/ocio/</loc>
+    <lastmod>2011-03-22T02:37:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/youtube/</loc>
+    <lastmod>2011-03-22T02:37:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2011/02/se-aprob%C3%B3-la-ley-sinde-en-espa%C3%B1a/</loc>
     <lastmod>2011-02-15T17:13:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/se-aprobo-la-ley-sinde-en-espana/</loc>
+    <loc>https://carakan.github.io/blog/2011/02/se-aprob%C3%B3-la-ley-sinde-en-espa%C3%B1a/</loc>
     <lastmod>2011-02-15T17:13:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/feliz-ano-2011/</loc>
+    <loc>https://carakan.github.io/tags/web-2.0/</loc>
+    <lastmod>2011-02-15T17:13:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2010/12/feliz-a%C3%B1o-2011/</loc>
     <lastmod>2010-12-31T19:19:34+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/por-que-creo-que-el-gasolinazo-es-nuestra-salvacion-comments/</loc>
+    <loc>https://carakan.github.io/blog/2010/12/por-que-creo-que-el-gasolinazo-es-nuestra-salvaci%C3%B3n./</loc>
     <lastmod>2010-12-28T13:09:16+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/por-que-creo-que-el-gasolinazo-es-nuestra-salvacion/</loc>
-    <lastmod>2010-12-28T13:09:16+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/500-anos-mas-de-esclavitud-comments/</loc>
+    <loc>https://carakan.github.io/blog/2010/12/500-a%C3%B1os-mas-de-esclavitud/</loc>
     <lastmod>2010-12-21T12:39:49+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/500-anos-mas-de-esclavitud/</loc>
+    <loc>https://carakan.github.io/tags/internet-en-bolivia/</loc>
     <lastmod>2010-12-21T12:39:49+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/que-como-cuando-y-donde-comments/</loc>
+    <loc>https://carakan.github.io/tags/ideales/</loc>
+    <lastmod>2010-12-21T12:39:49+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/web-2.0-en-bolivia/</loc>
+    <lastmod>2010-12-21T12:39:49+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2010/11/que-como-cuando-y-donde/</loc>
     <lastmod>2010-11-18T12:18:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/que-como-cuando-y-donde/</loc>
+    <loc>https://carakan.github.io/blog/2010/11/que-como-cuando-y-donde/</loc>
     <lastmod>2010-11-18T12:18:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/facebook-script-for-select-all-friends-comments/</loc>
+    <loc>https://carakan.github.io/tags/emprender/</loc>
+    <lastmod>2010-11-18T12:18:03+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/redes-sociales/</loc>
+    <lastmod>2010-11-18T12:18:03+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/web-2.5/</loc>
+    <lastmod>2010-11-18T12:18:03+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2010/10/facebook-script-for-select-all-friends/</loc>
     <lastmod>2010-10-13T01:56:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/facebook-script-for-select-all-friends/</loc>
+    <loc>https://carakan.github.io/tags/social-media/</loc>
     <lastmod>2010-10-13T01:56:35+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/a-un-ao-del-lanzamiento-oficial-de-la-red-social-del-folklore-folgamacom-comments/</loc>
+    <loc>https://carakan.github.io/tags/facebook/</loc>
+    <lastmod>2010-10-13T01:56:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2010/06/a-un-a%C3%B1o-del-lanzamiento-oficial-de-la-red-social-del-folklore-folgama.com/</loc>
     <lastmod>2010-06-07T12:03:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/a-un-ao-del-lanzamiento-oficial-de-la-red-social-del-folklore-folgamacom/</loc>
+    <loc>https://carakan.github.io/blog/2010/06/a-un-a%C3%B1o-del-lanzamiento-oficial-de-la-red-social-del-folklore-folgama.com/</loc>
     <lastmod>2010-06-07T12:03:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/que-alejandro-delius-deje-de-cantar-ex-quirquia-comments/</loc>
+    <loc>https://carakan.github.io/tags/umsa/</loc>
+    <lastmod>2010-06-07T12:03:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/latino-america/</loc>
+    <lastmod>2010-06-07T12:03:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2010/05/que-alejandro-delius-deje-de-cantar-ex-quirqui%C3%B1a/</loc>
     <lastmod>2010-05-13T00:57:59+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/que-alejandro-delius-deje-de-cantar-ex-quirquia/</loc>
-    <lastmod>2010-05-13T00:57:59+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/damien-walters-desafiando-las-leyes-de-la-fsica-increible/</loc>
+    <loc>https://carakan.github.io/blog/2010/05/damien-walters-desafiando-las-leyes-de-la-f%C3%ADsica-increible/</loc>
     <lastmod>2010-05-08T23:37:18+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/balladarez-cantante-boliviano-comments/</loc>
+    <loc>https://carakan.github.io/tags/no-se/</loc>
+    <lastmod>2010-05-08T23:37:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2010/05/balladarez-cantante-boliviano/</loc>
     <lastmod>2010-05-07T03:07:27+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/balladarez-cantante-boliviano/</loc>
-    <lastmod>2010-05-07T03:07:27+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/la-cancion-oficial-del-feisbuk-p-comments/</loc>
+    <loc>https://carakan.github.io/blog/2010/05/la-cancion-oficial-del-feisbu-o-feisbuc-p/</loc>
     <lastmod>2010-05-02T17:21:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/la-cancion-oficial-del-feisbuk-p/</loc>
+    <loc>https://carakan.github.io/tags/humor/</loc>
     <lastmod>2010-05-02T17:21:51+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/novedades-2-comments/</loc>
+    <loc>https://carakan.github.io/blog/2010/04/novedades-abril-2010/</loc>
     <lastmod>2010-04-25T21:42:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/novedades-2/</loc>
+    <loc>https://carakan.github.io/tags/mexico/</loc>
     <lastmod>2010-04-25T21:42:51+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/novedades-dentro-de-folgama/</loc>
+    <loc>https://carakan.github.io/tags/personal/</loc>
+    <lastmod>2010-04-25T21:42:51+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2010/02/novedades-dentro-de-folgama/</loc>
     <lastmod>2010-02-13T01:15:14+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/mis-propsitos-para-este-ao-comments/</loc>
+    <loc>https://carakan.github.io/blog/2010/02/mis-prop%C3%B3sitos-para-este-a%C3%B1o/</loc>
     <lastmod>2010-02-07T13:23:44+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/mis-propsitos-para-este-ao/</loc>
-    <lastmod>2010-02-07T13:23:44+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/felices-fiestas-de-fin-de-ano/</loc>
+    <loc>https://carakan.github.io/blog/2009/12/felices-fiestas-de-fin-de-a%C3%B1o/</loc>
     <lastmod>2009-12-24T19:22:28+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/soy-una-super-estrella/</loc>
+    <loc>https://carakan.github.io/tags/navidad/</loc>
+    <lastmod>2009-12-24T19:22:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/2009/</loc>
+    <lastmod>2009-12-20T01:32:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2009/12/soy-una-super-estrella/</loc>
     <lastmod>2009-12-20T01:32:21+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/hackearon-mi-site-comments/</loc>
+    <loc>https://carakan.github.io/blog/2009/12/hackearon-mi-site/</loc>
     <lastmod>2009-12-06T16:02:46+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/hackearon-mi-site/</loc>
+    <loc>https://carakan.github.io/tags/hackeado/</loc>
     <lastmod>2009-12-06T16:02:46+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/asentndome-de-a-poco-en-buenos-aires-comments/</loc>
+    <loc>https://carakan.github.io/blog/2009/09/asent%C3%A1ndome-de-a-poco-en-buenos-aires/</loc>
     <lastmod>2009-09-19T20:40:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/asentndome-de-a-poco-en-buenos-aires/</loc>
-    <lastmod>2009-09-19T20:40:51+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/mi-viaje-a-argentina-y-mi-trabajo-en-teracode-comments/</loc>
+    <loc>https://carakan.github.io/blog/2009/09/mi-viaje-a-argentina-y-mi-trabajo-en-teracode/</loc>
     <lastmod>2009-09-17T00:01:34+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/mi-viaje-a-argentina-y-mi-trabajo-en-teracode/</loc>
+    <loc>https://carakan.github.io/blog/2009/09/mi-viaje-a-argentina-y-mi-trabajo-en-teracode/</loc>
     <lastmod>2009-09-17T00:01:34+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/el-feisbu-o-facebook-comments/</loc>
+    <loc>https://carakan.github.io/blog/2009/08/el-feisbu-o-facebook/</loc>
     <lastmod>2009-08-24T14:11:53+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/el-feisbu-o-facebook/</loc>
-    <lastmod>2009-08-24T14:11:53+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/listado-de-espacio-libre-dentro-de-una-maquina-linux-comments/</loc>
+    <loc>https://carakan.github.io/blog/2009/08/listado-de-espacio-libre-dentro-de-una-maquina-linux/</loc>
     <lastmod>2009-08-11T23:53:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/listado-de-espacio-libre-dentro-de-una-maquina-linux/</loc>
-    <lastmod>2009-08-11T23:53:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/una-ong-brasilea-recomienda-mearse-en-la-ducha-para-ahorrar-agua/</loc>
+    <loc>https://carakan.github.io/blog/2009/08/una-ong-brasile%C3%B1a-recomienda-mearse-en-la-ducha-para-ahorrar-agua/</loc>
     <lastmod>2009-08-07T14:55:59+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/seinfeld-contra-el-blackberry-y-el-iphone/</loc>
+    <loc>https://carakan.github.io/blog/2009/07/seinfeld-contra-el-blackberry-y-el-iphone/</loc>
     <lastmod>2009-07-29T15:45:21+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/folgama-es-el-patrocinador-oficial-via-web-de-la-xxii-entrada-universitaria-comments/</loc>
+    <loc>https://carakan.github.io/blog/2009/07/folgama-es-el-patrocinador-oficial-via-web-de-la-xxii-entrada-universitaria/</loc>
     <lastmod>2009-07-21T14:25:12+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/folgama-es-el-patrocinador-oficial-via-web-de-la-xxii-entrada-universitaria/</loc>
+    <loc>https://carakan.github.io/blog/2009/07/folgama-es-el-patrocinador-oficial-via-web-de-la-xxii-entrada-universitaria/</loc>
     <lastmod>2009-07-21T14:25:12+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/y-ya-vamos-por-los-once-numeros-de-la-revista-atix/</loc>
+    <loc>https://carakan.github.io/blog/2009/07/y-ya-vamos-por-los-once-numeros-de-la-revista-atix/</loc>
     <lastmod>2009-07-14T03:03:45+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/robot-transformer-casero-hecho-en-casa-comments/</loc>
+    <loc>https://carakan.github.io/tags/atix/</loc>
+    <lastmod>2009-07-14T03:03:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2009/07/robot-transformer-casero-hecho-en-casa/</loc>
     <lastmod>2009-07-01T23:57:24+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/robot-transformer-casero-hecho-en-casa/</loc>
-    <lastmod>2009-07-01T23:57:24+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/cumplo-dos-aos-en-este-blog-comments/</loc>
+    <loc>https://carakan.github.io/blog/2009/06/cumplo-dos-a%C3%B1os-en-este-blog/</loc>
     <lastmod>2009-06-24T23:17:32+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/cumplo-dos-aos-en-este-blog/</loc>
+    <loc>https://carakan.github.io/blog/2009/06/cumplo-dos-a%C3%B1os-en-este-blog/</loc>
     <lastmod>2009-06-24T23:17:32+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/supuestas-fotos-del-accidente-del-avin-de-air-france-fail-comments/</loc>
+    <loc>https://carakan.github.io/tags/dos-a%C3%B1os/</loc>
+    <lastmod>2009-06-24T23:17:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/un-a%C3%B1o/</loc>
+    <lastmod>2009-06-24T23:17:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/canal-pat/</loc>
+    <lastmod>2009-06-20T00:11:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/lost/</loc>
+    <lastmod>2009-06-20T00:11:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2009/06/supuestas-fotos-del-accidente-del-avi%C3%B3n-de-air-france.-fail/</loc>
     <lastmod>2009-06-20T00:11:20+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/supuestas-fotos-del-accidente-del-avin-de-air-france-fail/</loc>
+    <loc>https://carakan.github.io/blog/2009/06/supuestas-fotos-del-accidente-del-avi%C3%B3n-de-air-france.-fail/</loc>
     <lastmod>2009-06-20T00:11:20+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/nuestro-folclore-nuestra-tierra/</loc>
+    <loc>https://carakan.github.io/blog/2009/06/nuestro-folclore-nuestra-tierra/</loc>
     <lastmod>2009-06-19T16:56:16+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/version-real-de-street-fighter-comments/</loc>
+    <loc>https://carakan.github.io/blog/2009/06/version-real-de-street-fighter/</loc>
     <lastmod>2009-06-15T04:27:29+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/version-real-de-street-fighter/</loc>
-    <lastmod>2009-06-15T04:27:29+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/lanzamiento-oficial-de-la-red-social-del-folclore-folgamacom-comments/</loc>
+    <loc>https://carakan.github.io/blog/2009/06/lanzamiento-oficial-de-la-red-social-del-folclore-folgama.com/</loc>
     <lastmod>2009-06-05T15:17:59+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/lanzamiento-oficial-de-la-red-social-del-folclore-folgamacom/</loc>
+    <loc>https://carakan.github.io/blog/2009/06/lanzamiento-oficial-de-la-red-social-del-folclore-folgama.com/</loc>
     <lastmod>2009-06-05T15:17:59+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/off-topic-perd-a-una-de-mis-gatas/</loc>
+    <loc>https://carakan.github.io/tags/empredimiento/</loc>
+    <lastmod>2009-06-05T15:17:59+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2009/06/off-topic-perd%C3%AD-a-una-de-mis-gatas/</loc>
     <lastmod>2009-06-05T00:24:30+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/revista-atix-numero-10/</loc>
+    <loc>https://carakan.github.io/tags/garfield/</loc>
+    <lastmod>2009-06-05T00:24:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/sorojchi/</loc>
+    <lastmod>2009-06-05T00:24:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2009/06/revista-atix-numero-10/</loc>
     <lastmod>2009-06-01T22:43:25+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/el-emprendedor-comments/</loc>
+    <loc>https://carakan.github.io/blog/2009/05/el-emprendedor/</loc>
     <lastmod>2009-05-26T20:38:37+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/el-emprendedor/</loc>
-    <lastmod>2009-05-26T20:38:37+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/los-problemas-de-no-ser-abiertos-en-facebook/</loc>
+    <loc>https://carakan.github.io/blog/2009/05/los-problemas-de-no-ser-abiertos-en-facebook/</loc>
     <lastmod>2009-05-25T16:18:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/que-es-un-troll-comments/</loc>
+    <loc>https://carakan.github.io/blog/2009/05/que-es-un-troll/</loc>
     <lastmod>2009-05-19T00:49:02+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/que-es-un-troll/</loc>
+    <loc>https://carakan.github.io/blog/2009/05/que-es-un-troll/</loc>
     <lastmod>2009-05-19T00:49:02+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/transmisin-de-un-viaje-espacial-en-twitter/</loc>
+    <loc>https://carakan.github.io/blog/2009/05/transmisi%C3%B3n-de-un-viaje-espacial-en-twitter/</loc>
     <lastmod>2009-05-12T13:45:46+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/actualiza-tu-mensaje-personal-del-messenger-desde-twitter-reload-comments/</loc>
+    <loc>https://carakan.github.io/tags/twitter/</loc>
+    <lastmod>2009-05-12T13:45:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2009/04/actualiza-tu-mensaje-personal-del-messenger-desde-twitter-reload/</loc>
     <lastmod>2009-04-24T00:05:36+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/actualiza-tu-mensaje-personal-del-messenger-desde-twitter-reload/</loc>
+    <loc>https://carakan.github.io/blog/2009/04/actualiza-tu-mensaje-personal-del-messenger-desde-twitter-reload/</loc>
     <lastmod>2009-04-24T00:05:36+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/libero-mi-primer-proyecto-grande-en-rails-tematic/</loc>
+    <loc>https://carakan.github.io/tags/messenger/</loc>
+    <lastmod>2009-04-24T00:05:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2009/04/libero-mi-primer-proyecto-grande-en-rails-tematic/</loc>
     <lastmod>2009-04-23T00:32:39+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/revista-atix-numero-9-celebracin-de-su-primer-ao-comments/</loc>
+    <loc>https://carakan.github.io/tags/ruby-on-rails/</loc>
+    <lastmod>2009-04-23T00:32:39+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2009/04/revista-atix-numero-9-celebraci%C3%B3n-de-su-primer-a%C3%B1o/</loc>
     <lastmod>2009-04-20T23:38:53+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/revista-atix-numero-9-celebracin-de-su-primer-ao/</loc>
-    <lastmod>2009-04-20T23:38:53+00:00</lastmod>
+    <loc>https://carakan.github.io/tags/mujeres/</loc>
+    <lastmod>2009-04-08T15:06:41+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/video-cholita-de-carla-ortiz-comments/</loc>
+    <loc>https://carakan.github.io/blog/2009/04/video-cholita-de-carla-ortiz/</loc>
     <lastmod>2009-04-08T15:06:41+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/video-cholita-de-carla-ortiz/</loc>
-    <lastmod>2009-04-08T15:06:41+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/exclusivo-video-en-el-que-el-coyote-come-a-correcaminos/</loc>
+    <loc>https://carakan.github.io/blog/2009/04/exclusivo-video-en-el-que-el-coyote-come-a-correcaminos/</loc>
     <lastmod>2009-04-07T00:09:32+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/bao-geek/</loc>
+    <loc>https://carakan.github.io/blog/2009/04/ba%C3%B1o-geek/</loc>
     <lastmod>2009-04-02T14:52:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/comprate-la-computadora-de-la-iniciativa-dharma/</loc>
+    <loc>https://carakan.github.io/blog/2009/04/comprate-la-computadora-de-la-iniciativa-dharma/</loc>
     <lastmod>2009-04-01T21:09:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/las-consecuencias-de-la-crisis/</loc>
+    <loc>https://carakan.github.io/blog/2009/03/las-consecuencias-de-la-crisis/</loc>
     <lastmod>2009-03-25T23:53:33+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/el-rap-del-dengue-comments/</loc>
+    <loc>https://carakan.github.io/tags/dengue/</loc>
+    <lastmod>2009-03-13T22:14:22+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2009/03/el-rap-del-dengue/</loc>
     <lastmod>2009-03-13T22:14:22+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/el-rap-del-dengue/</loc>
+    <loc>https://carakan.github.io/blog/2009/03/el-rap-del-dengue/</loc>
     <lastmod>2009-03-13T22:14:22+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/revista-atix-numero-8/</loc>
+    <loc>https://carakan.github.io/blog/2009/03/revista-atix-numero-8/</loc>
     <lastmod>2009-03-09T22:46:49+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/el-pez-de-cabeza-transparente/</loc>
+    <loc>https://carakan.github.io/blog/2009/03/el-pez-de-cabeza-transparente/</loc>
     <lastmod>2009-03-09T16:28:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/google-maps-en-todas-las-ciudades-de-bolivia-comments/</loc>
+    <loc>https://carakan.github.io/tags/curiosidades/</loc>
+    <lastmod>2009-03-09T16:28:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2009/02/google-maps-en-todas-las-ciudades-de-bolivia/</loc>
     <lastmod>2009-02-28T00:16:57+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/google-maps-en-todas-las-ciudades-de-bolivia/</loc>
+    <loc>https://carakan.github.io/tags/casasmap/</loc>
     <lastmod>2009-02-28T00:16:57+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/pos-es-da-de-san-valentn/</loc>
+    <loc>https://carakan.github.io/tags/google-maps/</loc>
+    <lastmod>2009-02-28T00:16:57+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2009/02/pues-es-el-d%C3%ADa-de-san-valent%C3%ADn/</loc>
     <lastmod>2009-02-14T16:21:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/mensajes-ocultos-en-canciones/</loc>
+    <loc>https://carakan.github.io/blog/2009/02/mensajes-ocultos-en-canciones/</loc>
     <lastmod>2009-02-11T15:26:18+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/tili-rock-calaveras-cantando-comments/</loc>
+    <loc>https://carakan.github.io/tags/artistas-2.0/</loc>
+    <lastmod>2009-01-28T16:17:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2009/01/tili-rock-calaveras-cantando/</loc>
     <lastmod>2009-01-28T16:17:08+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/tili-rock-calaveras-cantando/</loc>
-    <lastmod>2009-01-28T16:17:08+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/revista-atix-numero-7-liberado/</loc>
+    <loc>https://carakan.github.io/blog/2009/01/revista-atix-numero-7-liberado./</loc>
     <lastmod>2009-01-27T15:36:32+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/sobreviviendo-en-el-alto-un-libro-de-imgenes-y-relatos-de-juan-carlos-chamorro/</loc>
+    <loc>https://carakan.github.io/tags/git/</loc>
+    <lastmod>2009-01-27T15:36:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2009/01/sobreviviendo-en-el-alto-un-libro-de-im%C3%A1genes-y-relatos-de-juan-carlos-chamorro/</loc>
     <lastmod>2009-01-26T23:50:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/off-topic-el-referndum-en-bolivia/</loc>
+    <loc>https://carakan.github.io/tags/libro/</loc>
+    <lastmod>2009-01-26T23:50:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2009/01/off-topic-el-refer%C3%A9ndum-en-bolivia/</loc>
     <lastmod>2009-01-26T16:31:26+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/presentacin-de-casasmap-en-webprende-bolivia/</loc>
+    <loc>https://carakan.github.io/tags/off-topic/</loc>
+    <lastmod>2009-01-26T16:31:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/referendum/</loc>
+    <lastmod>2009-01-26T16:31:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2009/01/presentaci%C3%B3n-de-casasmap-en-webprende-bolivia/</loc>
     <lastmod>2009-01-23T23:21:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/lost-5-temporada-el-trailer/</loc>
+    <loc>https://carakan.github.io/tags/bienes-raices-bolivia/</loc>
+    <lastmod>2009-01-23T23:21:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/startup/</loc>
+    <lastmod>2009-01-23T23:21:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2009/01/lost-5%C2%AA-temporada-el-trailer/</loc>
     <lastmod>2009-01-21T22:51:49+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/frase-del-da/</loc>
+    <loc>https://carakan.github.io/blog/2009/01/frase-del-d%C3%ADa/</loc>
     <lastmod>2009-01-20T16:56:05+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/evento-fiasco-2009/</loc>
+    <loc>https://carakan.github.io/tags/obama-2.0/</loc>
+    <lastmod>2009-01-20T16:56:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2009/01/evento-fiasco-2009/</loc>
     <lastmod>2009-01-15T15:44:06+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/un-ao-en-40-segundos/</loc>
+    <loc>https://carakan.github.io/blog/2009/01/un-a%C3%B1o-en-40-segundos/</loc>
     <lastmod>2009-01-13T23:20:18+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/el-english-del-presidente-de-santander/</loc>
+    <loc>https://carakan.github.io/blog/2009/01/el-english-del-presidente-del-banco-santander/</loc>
     <lastmod>2009-01-05T16:32:37+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/you-tube-el-ao-en-un-video-comments/</loc>
+    <loc>https://carakan.github.io/tags/ingles/</loc>
+    <lastmod>2009-01-05T16:32:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2009/01/you-tube-el-a%C3%B1o-en-un-video/</loc>
     <lastmod>2009-01-02T15:42:21+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/you-tube-el-ao-en-un-video/</loc>
+    <loc>https://carakan.github.io/blog/2009/01/you-tube-el-a%C3%B1o-en-un-video/</loc>
     <lastmod>2009-01-02T15:42:21+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/usted-lo-sabia-comments/</loc>
+    <loc>https://carakan.github.io/tags/videos/</loc>
+    <lastmod>2009-01-02T15:42:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/12/usted-lo-sabia/</loc>
     <lastmod>2008-12-26T21:21:22+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/usted-lo-sabia/</loc>
-    <lastmod>2008-12-26T21:21:22+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/felices-fiestas-2-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/12/felices-fiestas/</loc>
     <lastmod>2008-12-24T16:42:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/felices-fiestas-2/</loc>
-    <lastmod>2008-12-24T16:42:09+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/medir-la-calidad-de-tu-codigo/</loc>
+    <loc>https://carakan.github.io/blog/2008/12/medir-la-calidad-de-tu-codigo/</loc>
     <lastmod>2008-12-23T15:11:39+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/conclusiones-del-primer-encuentro-de-emprendedores-web-en-bolivia-webprende/</loc>
+    <loc>https://carakan.github.io/blog/2008/12/conclusiones-del-primer-encuentro-de-emprendedores-web-en-bolivia-webprende/</loc>
     <lastmod>2008-12-18T15:29:34+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/revista-atix-numero-6-liberado/</loc>
+    <loc>https://carakan.github.io/tags/empremdimiento/</loc>
+    <lastmod>2008-12-18T15:29:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/webprende/</loc>
+    <lastmod>2008-12-18T15:29:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/12/revista-atix-numero-6-liberado./</loc>
     <lastmod>2008-12-17T21:02:17+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/novedades-en-bolivia-webprende-comments/</loc>
+    <loc>https://carakan.github.io/tags/revista-atix/</loc>
+    <lastmod>2008-12-17T21:02:17+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/software-libre/</loc>
+    <lastmod>2008-12-17T21:02:17+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/12/novedades-en-bolivia-webprende/</loc>
     <lastmod>2008-12-17T00:07:02+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/novedades-en-bolivia-webprende/</loc>
+    <loc>https://carakan.github.io/tags/informatica/</loc>
     <lastmod>2008-12-17T00:07:02+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/bolivia-webprende-encuentro-de-emprendedores-web-en-bolivia-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/12/bolivia-webprende-encuentro-de-emprendedores-web-en-bolivia/</loc>
     <lastmod>2008-12-11T22:27:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/bolivia-webprende-encuentro-de-emprendedores-web-en-bolivia/</loc>
+    <loc>https://carakan.github.io/blog/2008/12/bolivia-webprende-encuentro-de-emprendedores-web-en-bolivia/</loc>
     <lastmod>2008-12-11T22:27:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/que-rodrigo-zelaya-deje-de-cantar-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/12/que-rodrigo-zelaya-deje-de-cantar/</loc>
     <lastmod>2008-12-10T19:13:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/que-rodrigo-zelaya-deje-de-cantar/</loc>
-    <lastmod>2008-12-10T19:13:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/videos-sobre-los-informticos/</loc>
+    <loc>https://carakan.github.io/blog/2008/12/videos-sobre-los-inform%C3%A1ticos/</loc>
     <lastmod>2008-12-10T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/entrevistas-a-blogs-internacionales-listao-comments/</loc>
+    <loc>https://carakan.github.io/tags/tecnologia/</loc>
+    <lastmod>2008-12-10T13:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/12/entrevistas-a-blogs-internacionales-listao/</loc>
     <lastmod>2008-12-03T13:30:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/entrevistas-a-blogs-internacionales-listao/</loc>
+    <loc>https://carakan.github.io/tags/entrevistas-a-blogs-internacionales/</loc>
     <lastmod>2008-12-03T13:30:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/wiebia-y-casasmap-estarn-en-la-expomype-2008-comments/</loc>
+    <loc>https://carakan.github.io/tags/expomype/</loc>
+    <lastmod>2008-12-02T20:53:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/expomype-2008/</loc>
+    <lastmod>2008-12-02T20:53:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/12/wiebia-y-casasmap-estar%C3%A1n-en-la-expomype-2008/</loc>
     <lastmod>2008-12-02T20:53:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/wiebia-y-casasmap-estarn-en-la-expomype-2008/</loc>
-    <lastmod>2008-12-02T20:53:42+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/bruce-lee-jugando-al-ping-pong-con-sus-nunchuck/</loc>
+    <loc>https://carakan.github.io/blog/2008/12/bruce-lee-jugando-al-ping-pong-con-sus-nunchuck/</loc>
     <lastmod>2008-12-01T16:03:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/y-facebook-se-vuelve-cada-da-mas-usual-comments/</loc>
+    <loc>https://carakan.github.io/tags/bruce-lee/</loc>
+    <lastmod>2008-12-01T16:03:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/11/y-facebook-se-vuelve-cada-d%C3%ADa-mas-usual/</loc>
     <lastmod>2008-11-28T14:04:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/y-facebook-se-vuelve-cada-da-mas-usual/</loc>
+    <loc>https://carakan.github.io/blog/2008/11/y-facebook-se-vuelve-cada-d%C3%ADa-mas-usual/</loc>
     <lastmod>2008-11-28T14:04:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/google-no-cree-en-el-periodismo-web/</loc>
+    <loc>https://carakan.github.io/blog/2008/11/google-no-cree-en-el-periodismo-web/</loc>
     <lastmod>2008-11-28T14:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/lo-que-sera-la-web-25/</loc>
+    <loc>https://carakan.github.io/blog/2008/11/lo-que-sera-la-web-2.5/</loc>
     <lastmod>2008-11-27T16:04:27+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/mobuzz-no-va-mas-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/11/mobuzz-no-va-mas/</loc>
     <lastmod>2008-11-26T22:18:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/mobuzz-no-va-mas/</loc>
+    <loc>https://carakan.github.io/blog/2008/11/mobuzz-no-va-mas/</loc>
     <lastmod>2008-11-26T22:18:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/noticias-breves-4/</loc>
+    <loc>https://carakan.github.io/blog/2008/11/noticias-breves/</loc>
     <lastmod>2008-11-24T22:24:19+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/carta-de-emprendedores-de-usa-a-obama-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/11/carta-de-emprendedores-de-usa-a-obama/</loc>
     <lastmod>2008-11-20T19:10:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/carta-de-emprendedores-de-usa-a-obama/</loc>
-    <lastmod>2008-11-20T19:10:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/ya-se-puede-cambiar-el-theme-de-gmail-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/11/ya-se-puede-cambiar-el-theme-de-gmail/</loc>
     <lastmod>2008-11-20T00:44:46+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/ya-se-puede-cambiar-el-theme-de-gmail/</loc>
+    <loc>https://carakan.github.io/blog/2008/11/ya-se-puede-cambiar-el-theme-de-gmail/</loc>
     <lastmod>2008-11-20T00:44:46+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/lucha-contra-los-grandes-blogs-comments/</loc>
+    <loc>https://carakan.github.io/tags/gmail/</loc>
+    <lastmod>2008-11-20T00:44:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/11/lucha-contra-los-grandes-blogs/</loc>
     <lastmod>2008-11-19T21:30:04+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/lucha-contra-los-grandes-blogs/</loc>
+    <loc>https://carakan.github.io/tags/red-de-blogs/</loc>
     <lastmod>2008-11-19T21:30:04+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/bob-esponja-de-carne-y-hueso-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/11/bob-esponja-de-carne-y-hueso/</loc>
     <lastmod>2008-11-19T14:11:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/bob-esponja-de-carne-y-hueso/</loc>
+    <loc>https://carakan.github.io/blog/2008/11/bob-esponja-de-carne-y-hueso/</loc>
     <lastmod>2008-11-19T14:11:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/presidente-y-fundador-de-yahoo-es-despedido-de-su-cargo/</loc>
+    <loc>https://carakan.github.io/tags/si-existe/</loc>
+    <lastmod>2008-11-19T14:11:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/11/presidente-y-fundador-de-yahoo-es-despedido-de-su-cargo/</loc>
     <lastmod>2008-11-18T16:25:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/cmo-usar-linkedin-comments/</loc>
+    <loc>https://carakan.github.io/tags/yahoo/</loc>
+    <lastmod>2008-11-18T16:25:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/linkedin/</loc>
+    <lastmod>2008-11-15T13:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/11/c%C3%B3mo-usar-linkedin/</loc>
     <lastmod>2008-11-15T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/cmo-usar-linkedin/</loc>
-    <lastmod>2008-11-15T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/el-emprendimiento-debe-tener-un-objetivo-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/11/el-emprendimiento-debe-tener-un-objetivo.../</loc>
     <lastmod>2008-11-13T19:45:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/el-emprendimiento-debe-tener-un-objetivo/</loc>
-    <lastmod>2008-11-13T19:45:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/la-verdad-de-las-redes-sociales-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/11/la-verdad-de-las-redes-sociales/</loc>
     <lastmod>2008-11-12T14:20:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/la-verdad-de-las-redes-sociales/</loc>
-    <lastmod>2008-11-12T14:20:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/revista-atix-numero-5/</loc>
+    <loc>https://carakan.github.io/blog/2008/11/revista-atix-numero-5/</loc>
     <lastmod>2008-11-11T14:07:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/seores-somos-informticos-no-imbciles/</loc>
+    <loc>https://carakan.github.io/blog/2008/11/se%C3%B1ores-somos-inform%C3%A1ticos-no-imb%C3%A9ciles/</loc>
     <lastmod>2008-11-10T22:49:43+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/kamasutra-de-los-geeks/</loc>
+    <loc>https://carakan.github.io/blog/2008/11/kamasutra-de-los-geeks/</loc>
     <lastmod>2008-11-07T23:24:17+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/tema-wordpress-goyi-comments/</loc>
+    <loc>https://carakan.github.io/tags/goyi/</loc>
+    <lastmod>2008-11-05T13:00:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/11/tema-wordpress-goyi/</loc>
     <lastmod>2008-11-05T13:00:54+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/tema-wordpress-goyi/</loc>
+    <loc>https://carakan.github.io/tags/tema-goyi/</loc>
     <lastmod>2008-11-05T13:00:54+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/seguir-las-elecciones-de-usa-por-twitter/</loc>
+    <loc>https://carakan.github.io/tags/tema-worpress/</loc>
+    <lastmod>2008-11-05T13:00:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/thema-wordpress/</loc>
+    <lastmod>2008-11-05T13:00:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/wordpress/</loc>
+    <lastmod>2008-11-05T13:00:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/elecciones-usa-2008/</loc>
+    <lastmod>2008-11-04T15:24:59+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/11/seguir-las-elecciones-de-usa-por-twitter/</loc>
     <lastmod>2008-11-04T15:24:59+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/se-un-maestro-en-css/</loc>
+    <loc>https://carakan.github.io/tags/politica-2.0/</loc>
+    <lastmod>2008-11-04T15:24:59+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/11/se-un-maestro-en-css/</loc>
     <lastmod>2008-11-04T14:26:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/en-que-se-parecen-windows-y-google-crome-comments/</loc>
+    <loc>https://carakan.github.io/tags/css/</loc>
+    <lastmod>2008-11-04T14:26:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/11/en-que-se-parecen-windows-y-google-crome/</loc>
     <lastmod>2008-11-03T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/en-que-se-parecen-windows-y-google-crome/</loc>
+    <loc>https://carakan.github.io/blog/2008/11/en-que-se-parecen-windows-y-google-crome/</loc>
     <lastmod>2008-11-03T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/obama-el-monstruo-del-marketing-comments/</loc>
+    <loc>https://carakan.github.io/tags/google-crome/</loc>
+    <lastmod>2008-11-03T13:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/windows/</loc>
+    <lastmod>2008-11-03T13:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/11/obama-el-monstruo-del-marketing-2.0/</loc>
     <lastmod>2008-11-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/obama-el-monstruo-del-marketing/</loc>
-    <lastmod>2008-11-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/cantando-por-un-canario/</loc>
+    <loc>https://carakan.github.io/blog/2008/10/cantando-por-un-canario/</loc>
     <lastmod>2008-10-29T20:45:41+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/folkloric-social-network-folgama/</loc>
+    <loc>https://carakan.github.io/blog/2008/10/folkloric-social-network-folgama/</loc>
     <lastmod>2008-10-28T21:32:29+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/mapa-de-las-redes-sociales-en-el-mundo-comments/</loc>
+    <loc>https://carakan.github.io/tags/wiebia/</loc>
+    <lastmod>2008-10-28T21:32:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/10/mapa-de-las-redes-sociales-en-el-mundo/</loc>
     <lastmod>2008-10-27T16:33:20+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/mapa-de-las-redes-sociales-en-el-mundo/</loc>
+    <loc>https://carakan.github.io/blog/2008/10/mapa-de-las-redes-sociales-en-el-mundo/</loc>
     <lastmod>2008-10-27T16:33:20+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/azafatas-la-rails-summit-latina-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/10/azafatas-de-la-rails-summit-latino-americano/</loc>
     <lastmod>2008-10-23T16:39:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/azafatas-la-rails-summit-latina/</loc>
+    <loc>https://carakan.github.io/tags/rails-summit-brazil-2008/</loc>
     <lastmod>2008-10-23T16:39:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/garfield-si-existe-y-ii-comments/</loc>
+    <loc>https://carakan.github.io/tags/azafatas/</loc>
+    <lastmod>2008-10-23T16:39:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/10/garfield-si-existe-y-ii/</loc>
     <lastmod>2008-10-23T15:47:30+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/garfield-si-existe-y-ii/</loc>
+    <loc>https://carakan.github.io/blog/2008/10/garfield-si-existe-y-ii/</loc>
     <lastmod>2008-10-23T15:47:30+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/nokia-1100-vs-iphone-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/10/nokia-1100-vs.-iphone/</loc>
     <lastmod>2008-10-15T13:26:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/nokia-1100-vs-iphone/</loc>
+    <loc>https://carakan.github.io/tags/iphone/</loc>
     <lastmod>2008-10-15T13:26:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/entrevistas-a-blogs-bolivianos-instituto-del-delirio-comments/</loc>
+    <loc>https://carakan.github.io/tags/entrevistas-a-blogs-bolivianos/</loc>
+    <lastmod>2008-10-13T14:56:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/10/entrevistas-a-blogs-bolivianos-instituto-del-delirio/</loc>
     <lastmod>2008-10-13T14:56:23+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/entrevistas-a-blogs-bolivianos-instituto-del-delirio/</loc>
-    <lastmod>2008-10-13T14:56:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/cosas-chistosas-que-se-encuentran-en-cocha-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/10/cosas-chistosas-que-se-encuentran-en-cochabamba/</loc>
     <lastmod>2008-10-09T15:48:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/cosas-chistosas-que-se-encuentran-en-cocha/</loc>
-    <lastmod>2008-10-09T15:48:42+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/noticias-breves-3/</loc>
+    <loc>https://carakan.github.io/blog/2008/10/noticias-breves/</loc>
     <lastmod>2008-10-09T01:10:12+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/frase-del-dia/</loc>
+    <loc>https://carakan.github.io/blog/2008/10/frase-del-dia/</loc>
     <lastmod>2008-10-07T16:44:06+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/eliminar-el-virus-alert/</loc>
+    <loc>https://carakan.github.io/blog/2008/10/eliminar-el-virus-alert/</loc>
     <lastmod>2008-10-03T23:59:17+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/noticias-breves-2/</loc>
+    <loc>https://carakan.github.io/tags/malware/</loc>
+    <lastmod>2008-10-03T23:59:17+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/virus/</loc>
+    <lastmod>2008-10-03T23:59:17+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/virus-alert/</loc>
+    <lastmod>2008-10-03T23:59:17+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/dominio-gratis/</loc>
+    <lastmod>2008-09-30T16:10:52+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/09/noticias-breves/</loc>
     <lastmod>2008-09-30T16:10:52+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/novedades/</loc>
+    <loc>https://carakan.github.io/blog/2008/09/novedades/</loc>
     <lastmod>2008-09-29T17:13:41+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/contacto/</loc>
+    <loc>https://carakan.github.io/blog/2008/09/contacto/</loc>
     <lastmod>2008-09-22T16:46:41+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/nueva-imagen-de-bolivia-on-rails-y-tema-wp-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/09/nueva-imagen-de-bolivia-on-rails-y-tema-wp-espa%C3%B1ol/</loc>
     <lastmod>2008-09-22T15:07:58+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/nueva-imagen-de-bolivia-on-rails-y-tema-wp/</loc>
+    <loc>https://carakan.github.io/blog/2008/09/nueva-imagen-de-bolivia-on-rails-y-tema-wp-espa%C3%B1ol/</loc>
     <lastmod>2008-09-22T15:07:58+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/entrevistas-a-blogs-de-bolivia-ninoska-nogales-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/09/entrevistas-a-blogs-de-bolivia-ninoska-nogales/</loc>
     <lastmod>2008-09-19T13:06:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/entrevistas-a-blogs-de-bolivia-ninoska-nogales/</loc>
-    <lastmod>2008-09-19T13:06:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/recuento-de-lo-sucedido-hasta-el-momento/</loc>
+    <loc>https://carakan.github.io/blog/2008/09/recuento-de-lo-sucedido-hasta-el-momento/</loc>
     <lastmod>2008-09-17T21:33:40+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/entrevistas-a-blogs-de-bolivia-masaco-comments/</loc>
+    <loc>https://carakan.github.io/tags/qhacer/</loc>
+    <lastmod>2008-09-17T21:33:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/09/entrevistas-a-blogs-de-bolivia-masaco/</loc>
     <lastmod>2008-09-17T13:09:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/entrevistas-a-blogs-de-bolivia-masaco/</loc>
-    <lastmod>2008-09-17T13:09:35+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/entrevistas-a-blogs-importantes-de-bolivia-rocko-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/09/entrevistas-a-blogs-importantes-de-bolivia-rocko/</loc>
     <lastmod>2008-09-16T13:04:11+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/entrevistas-a-blogs-importantes-de-bolivia-rocko/</loc>
-    <lastmod>2008-09-16T13:04:11+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/entrevistas-a-blogs-bolivianos-sakura-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/09/entrevistas-a-blogs-bolivianos-sakura/</loc>
     <lastmod>2008-09-12T13:04:16+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/entrevistas-a-blogs-bolivianos-sakura/</loc>
-    <lastmod>2008-09-12T13:04:16+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/notas-breves-8-agosto-2008-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/09/notas-breves-8-agosto-2008/</loc>
     <lastmod>2008-09-08T22:24:21+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/notas-breves-8-agosto-2008/</loc>
-    <lastmod>2008-09-08T22:24:21+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/entrevistas-a-blogs-de-bolivia-capsula-del-tiempo-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/09/entrevistas-a-blogs-de-bolivia-capsula-del-tiempo/</loc>
     <lastmod>2008-09-06T13:03:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/entrevistas-a-blogs-de-bolivia-capsula-del-tiempo/</loc>
-    <lastmod>2008-09-06T13:03:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/mi-blog-destacado-por-blogsboliviacom-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/09/mi-blog-destacado-por-blogsbolivia.com/</loc>
     <lastmod>2008-09-05T20:40:46+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/mi-blog-destacado-por-blogsboliviacom/</loc>
+    <loc>https://carakan.github.io/tags/bloguiviano-destacado/</loc>
     <lastmod>2008-09-05T20:40:46+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/sobre-las-redes-sociales/</loc>
+    <loc>https://carakan.github.io/blog/2008/09/sobre-las-redes-sociales/</loc>
     <lastmod>2008-09-03T20:55:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/%c2%a1abraza-a-un-desarrollador-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/09/abraza-a-un-desarrollador/</loc>
     <lastmod>2008-09-02T22:27:28+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/%c2%a1abraza-a-un-desarrollador/</loc>
-    <lastmod>2008-09-02T22:27:28+00:00</lastmod>
+    <loc>https://carakan.github.io/tags/google-chrome/</loc>
+    <lastmod>2008-09-02T21:15:50+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/salio-chrome-el-navegador-de-google-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/09/salio-chrome-el-navegador-de-google/</loc>
     <lastmod>2008-09-02T21:15:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/salio-chrome-el-navegador-de-google/</loc>
-    <lastmod>2008-09-02T21:15:50+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/recuento-de-la-semana-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/08/recuento-de-la-semana/</loc>
     <lastmod>2008-08-29T14:00:31+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/recuento-de-la-semana/</loc>
+    <loc>https://carakan.github.io/tags/resumen/</loc>
     <lastmod>2008-08-29T14:00:31+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/entrevistas-a-blogs-bolivianos-maria-escandalo-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/08/entrevistas-a-blogs-bolivianos-maria-esc%C3%A1ndalo/</loc>
     <lastmod>2008-08-28T13:56:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/entrevistas-a-blogs-bolivianos-maria-escandalo/</loc>
-    <lastmod>2008-08-28T13:56:35+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/enlaces-interesantes-27-agosto-2008/</loc>
+    <loc>https://carakan.github.io/blog/2008/08/enlaces-interesantes-27-agosto-2008/</loc>
     <lastmod>2008-08-27T22:39:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/entrevistas-a-blogs-bolivianos-willy-andres-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/08/entrevistas-a-blogs-bolivianos-willy-andres/</loc>
     <lastmod>2008-08-27T13:05:30+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/entrevistas-a-blogs-bolivianos-willy-andres/</loc>
-    <lastmod>2008-08-27T13:05:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/entrevistas-a-blogs-bolivianos-angelcaido666x-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/08/entrevistas-a-blogs-bolivianos-angelcaido666x/</loc>
     <lastmod>2008-08-26T13:10:45+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/entrevistas-a-blogs-bolivianos-angelcaido666x/</loc>
-    <lastmod>2008-08-26T13:10:45+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/entrevistas-a-blogs-bolivianos-maria-cristina-moreno-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/08/entrevistas-a-blogs-bolivianos-maria-cristina-moreno/</loc>
     <lastmod>2008-08-25T14:10:44+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/entrevistas-a-blogs-bolivianos-maria-cristina-moreno/</loc>
-    <lastmod>2008-08-25T14:10:44+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/batido-de-iphone-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/08/batido-de-iphone/</loc>
     <lastmod>2008-08-23T00:30:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/batido-de-iphone/</loc>
-    <lastmod>2008-08-23T00:30:51+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/chat-no-obstrusivo-con-jquery-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/08/chat-ajax-no-obstrusivo-con-jquery/</loc>
     <lastmod>2008-08-21T20:36:43+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/chat-no-obstrusivo-con-jquery/</loc>
+    <loc>https://carakan.github.io/tags/ajax/</loc>
     <lastmod>2008-08-21T20:36:43+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/enlaces-interesantes-19-agosto-2008-comments/</loc>
+    <loc>https://carakan.github.io/tags/javascript-no-obtrusivo/</loc>
+    <lastmod>2008-08-21T20:36:43+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/jquery/</loc>
+    <lastmod>2008-08-21T20:36:43+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/08/enlaces-interesantes-19-agosto-2008/</loc>
     <lastmod>2008-08-19T23:34:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/enlaces-interesantes-19-agosto-2008/</loc>
+    <loc>https://carakan.github.io/tags/enlaces/</loc>
     <lastmod>2008-08-19T23:34:55+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/tema-para-wordpress-y-logo-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/08/tema-para-wordpress-y-logo/</loc>
     <lastmod>2008-08-18T15:08:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/tema-para-wordpress-y-logo/</loc>
-    <lastmod>2008-08-18T15:08:13+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/directorio-de-blogs-de-bolivia-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/08/directorio-de-blogs-de-bolivia/</loc>
     <lastmod>2008-08-15T15:55:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/directorio-de-blogs-de-bolivia/</loc>
+    <loc>https://carakan.github.io/tags/bloguivianos/</loc>
     <lastmod>2008-08-15T15:55:09+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/breves-11082008/</loc>
+    <loc>https://carakan.github.io/blog/2008/08/breves-11/08/2008/</loc>
     <lastmod>2008-08-11T22:12:06+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/teclado-para-superprogramadores-comments/</loc>
+    <loc>https://carakan.github.io/tags/breves/</loc>
+    <lastmod>2008-08-11T22:12:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/08/teclado-para-superprogramadores/</loc>
     <lastmod>2008-08-09T15:39:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/teclado-para-superprogramadores/</loc>
-    <lastmod>2008-08-09T15:39:48+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/que-es-una-red-social/</loc>
+    <loc>https://carakan.github.io/blog/2008/08/que-es-una-red-social/</loc>
     <lastmod>2008-08-07T15:06:08+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/nuevo-version-del-interprete-ruby-para-entornos-windows/</loc>
+    <loc>https://carakan.github.io/blog/2008/08/nuevo-version-del-interprete-ruby-para-entornos-windows/</loc>
     <lastmod>2008-08-07T14:59:08+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/problema-de-imagemagick-y-passenger-mod_rails-comments/</loc>
+    <loc>https://carakan.github.io/tags/imagemagick/</loc>
+    <lastmod>2008-08-06T18:59:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/08/problema-de-imagemagick-rmagick-y-passenger-mod_rails/</loc>
     <lastmod>2008-08-06T18:59:05+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/problema-de-imagemagick-y-passenger-mod_rails/</loc>
+    <loc>https://carakan.github.io/tags/mod_rails/</loc>
     <lastmod>2008-08-06T18:59:05+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/bloguivianos-encuentro-de-bloggers-bolivianos/</loc>
+    <loc>https://carakan.github.io/blog/2008/08/bloguivianos-encuentro-de-bloggers-bolivianos/</loc>
     <lastmod>2008-08-05T00:24:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/sobre-saturacion-de-la-web-2/</loc>
+    <loc>https://carakan.github.io/blog/2008/07/sobre-saturacion-de-la-web-2.0/</loc>
     <lastmod>2008-07-23T23:29:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/si-las-fuentes-hablaran/</loc>
+    <loc>https://carakan.github.io/blog/2008/07/si-las-fuentes-hablaran/</loc>
     <lastmod>2008-07-23T16:27:59+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/google-va-por-digg/</loc>
+    <loc>https://carakan.github.io/tags/parodia/</loc>
+    <lastmod>2008-07-23T16:27:59+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/07/google-va-por-digg/</loc>
     <lastmod>2008-07-23T15:35:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/open-id-y-rails/</loc>
+    <loc>https://carakan.github.io/tags/webs-sociales/</loc>
+    <lastmod>2008-07-23T15:35:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/07/open-id-rest-y-rails/</loc>
     <lastmod>2008-07-18T16:29:31+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/mejorado-nuestro-sistema-de-blogs/</loc>
+    <loc>https://carakan.github.io/tags/open-id/</loc>
+    <lastmod>2008-07-18T16:29:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/rest/</loc>
+    <lastmod>2008-07-18T16:29:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/07/mejorado-nuestro-sistema-de-blogs/</loc>
     <lastmod>2008-07-16T18:54:27+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/migracion-del-blog/</loc>
+    <loc>https://carakan.github.io/blog/2008/07/migraci%C3%B3n-del-blog/</loc>
     <lastmod>2008-07-16T17:19:05+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/nace-bolivia-on-rails/</loc>
+    <loc>https://carakan.github.io/blog/2008/07/nace-bolivia-on-rails/</loc>
     <lastmod>2008-07-14T23:47:19+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/rails-summit-de-brazil-en-espanol/</loc>
+    <loc>https://carakan.github.io/blog/2008/07/rails-summit-de-brazil-en-espa%C3%B1ol/</loc>
     <lastmod>2008-07-12T17:31:26+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/una-railsconf-latina-en-brasil/</loc>
+    <loc>https://carakan.github.io/blog/2008/07/una-railsconf-latina-en-brasil/</loc>
     <lastmod>2008-07-10T18:35:18+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/un-ano-blogueando/</loc>
+    <loc>https://carakan.github.io/blog/2008/06/un-a%C3%B1o-blogueando/</loc>
     <lastmod>2008-06-25T18:36:43+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/cambie-mi-enlace-rss-4/</loc>
+    <loc>https://carakan.github.io/blog/2008/06/cambie-mi-enlace-rss/</loc>
     <lastmod>2008-06-24T18:56:43+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/miedo-al-cambio/</loc>
+    <loc>https://carakan.github.io/blog/2008/06/miedo-al-cambio/</loc>
     <lastmod>2008-06-24T14:52:57+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/actualize-mi-blog-a-word-press-251-2/</loc>
+    <loc>https://carakan.github.io/tags/innovacion/</loc>
+    <lastmod>2008-06-24T14:52:57+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/06/actualize-mi-blog-a-word-press-2.5.1/</loc>
     <lastmod>2008-06-19T19:04:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/en-puerto-rico-lo-ven-ahora-en-argentina-lo-vieron-hace-tres-anos-y-en-bolivia-hace-un-ano-2/</loc>
+    <loc>https://carakan.github.io/blog/2008/06/en-puerto-rico-lo-ven-ahora-en-argentina-lo-vieron-hace-tres-a%C3%B1os-y-en-bolivia-hace-un-a%C3%B1o/</loc>
     <lastmod>2008-06-16T19:11:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/trabajos/</loc>
+    <loc>https://carakan.github.io/blog/2008/06/trabajos/</loc>
     <lastmod>2008-06-16T17:10:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/lanzamos-la-primera-comunidad-de-blogs-de-bolivia-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/06/lanzamos-la-comunidad-de-blogs-de-bolivia/</loc>
     <lastmod>2008-06-13T22:43:20+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/lanzamos-la-primera-comunidad-de-blogs-de-bolivia/</loc>
-    <lastmod>2008-06-13T22:43:20+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/llamar-a-procedimientos-plsql-de-oracle-con-ruby-plsql-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/06/llamar-a-procedimientos-pl/sql-de-oracle-con-ruby-plsql/</loc>
     <lastmod>2008-06-11T15:58:41+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/llamar-a-procedimientos-plsql-de-oracle-con-ruby-plsql/</loc>
+    <loc>https://carakan.github.io/tags/gemas/</loc>
     <lastmod>2008-06-11T15:58:41+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/salio-a-la-luz-ruby-enterprise-edition/</loc>
+    <loc>https://carakan.github.io/tags/oracle/</loc>
+    <lastmod>2008-06-11T15:58:41+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/pl-sql/</loc>
+    <lastmod>2008-06-11T15:58:41+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/06/salio-a-la-luz-ruby-enterprise-edition/</loc>
     <lastmod>2008-06-10T18:29:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/la-primera-red-social-boliviana/</loc>
+    <loc>https://carakan.github.io/blog/2008/06/la-primera-red-social-boliviana/</loc>
     <lastmod>2008-06-09T11:09:34+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/mejorar-la-conexion-a-oracle-con-rails-21/</loc>
+    <loc>https://carakan.github.io/blog/2008/06/mejorar-la-conexi%C3%B3n-a-oracle-con-rails-2.1/</loc>
     <lastmod>2008-06-07T22:31:58+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/programar-o-desarrollar-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/06/programar-o-desarrollar/</loc>
     <lastmod>2008-06-06T21:11:20+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/programar-o-desarrollar/</loc>
+    <loc>https://carakan.github.io/tags/metodologias/</loc>
     <lastmod>2008-06-06T21:11:20+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/hoy-a-las-1300-la-paz-bolivia-descarguen-firefox-3-2/</loc>
+    <loc>https://carakan.github.io/blog/2008/06/hoy-a-las-1300-la-paz-bolivia-descarguen-firefox-3/</loc>
     <lastmod>2008-06-06T19:04:14+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/emprendimientos-bolivianos-en-torno-a-la-web-20-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/06/emprendimientos-bolivianos-en-torno-a-la-web-2.0/</loc>
     <lastmod>2008-06-03T16:11:24+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/emprendimientos-bolivianos-en-torno-a-la-web-20/</loc>
-    <lastmod>2008-06-03T16:11:24+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/lanzamiento-de-rails-21-y-ruby-187-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/06/lanzamiento-de-rails-2.1-y-ruby-1.8.7/</loc>
     <lastmod>2008-06-02T19:42:24+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/lanzamiento-de-rails-21-y-ruby-187/</loc>
+    <loc>https://carakan.github.io/blog/2008/06/lanzamiento-de-rails-2.1-y-ruby-1.8.7/</loc>
     <lastmod>2008-06-02T19:42:24+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/noticias-breves/</loc>
+    <loc>https://carakan.github.io/blog/2008/05/noticias-breves/</loc>
     <lastmod>2008-05-29T20:40:57+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/video-tutoriales-de-git/</loc>
+    <loc>https://carakan.github.io/blog/2008/05/video-tutoriales-de-git/</loc>
     <lastmod>2008-05-28T22:45:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/off-topic-el-equipo-de-wiebia/</loc>
+    <loc>https://carakan.github.io/blog/2008/04/off-topic-el-equipo-de-wiebia/</loc>
     <lastmod>2008-04-29T14:31:08+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/windows-xp-sp3-saldra-la-siguiente-semana/</loc>
+    <loc>https://carakan.github.io/blog/2008/04/windows-xp-sp3-saldra-la-siguiente-semana/</loc>
     <lastmod>2008-04-22T15:58:34+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/qhacer-ya-esta-online-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/04/qhacer-ya-esta-online./</loc>
     <lastmod>2008-04-18T15:36:19+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/qhacer-ya-esta-online/</loc>
-    <lastmod>2008-04-18T15:36:19+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/garfield-si-existe-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/04/garfield-si-existe/</loc>
     <lastmod>2008-04-18T15:06:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/garfield-si-existe/</loc>
-    <lastmod>2008-04-18T15:06:51+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/y-ahora-que-es-lo-que-hacemos-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/04/y-ahora-que-es-lo-que-hacemos/</loc>
     <lastmod>2008-04-16T15:31:54+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/y-ahora-que-es-lo-que-hacemos/</loc>
+    <loc>https://carakan.github.io/blog/2008/04/y-ahora-que-es-lo-que-hacemos/</loc>
     <lastmod>2008-04-16T15:31:54+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/migrando-migrando/</loc>
+    <loc>https://carakan.github.io/blog/2008/04/migrando-migrando/</loc>
     <lastmod>2008-04-07T22:21:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/problemas-con-el-servidor/</loc>
+    <loc>https://carakan.github.io/blog/2008/03/problemas-con-el-servidor/</loc>
     <lastmod>2008-03-11T13:39:41+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/novedades-en-ruby-19-y-lanzamiento-de-ruby-187/</loc>
+    <loc>https://carakan.github.io/blog/2008/03/novedades-en-ruby-1.9-y-proximo-lanzamiento-de-ruby-1.8.7/</loc>
     <lastmod>2008-03-05T14:04:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/que-es-ser-obrero-20-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/03/que-es-ser-obrero-2.0/</loc>
     <lastmod>2008-03-04T13:42:30+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/que-es-ser-obrero-20/</loc>
+    <loc>https://carakan.github.io/blog/2008/03/que-es-ser-obrero-2.0/</loc>
     <lastmod>2008-03-04T13:42:30+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/enlaces-20080303/</loc>
+    <loc>https://carakan.github.io/blog/2008/03/enlaces-2008/03/03/</loc>
     <lastmod>2008-03-03T15:31:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/aprendiendo-cake-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/03/aprendiendo-cake/</loc>
     <lastmod>2008-03-03T13:31:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/aprendiendo-cake/</loc>
+    <loc>https://carakan.github.io/tags/cake/</loc>
     <lastmod>2008-03-03T13:31:50+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/pensamiento-del-dia/</loc>
+    <loc>https://carakan.github.io/blog/2008/02/pensamiento-del-dia/</loc>
     <lastmod>2008-02-18T14:00:45+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/historias-0-y-i-de-un-emprendedor/</loc>
+    <loc>https://carakan.github.io/blog/2008/02/historias-0-y-i-de-un-emprendedor/</loc>
     <lastmod>2008-02-07T23:27:59+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/bienes-raices-bastante-friki-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/02/bienes-raices-bastante-friki/</loc>
     <lastmod>2008-02-07T16:23:36+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/bienes-raices-bastante-friki/</loc>
+    <loc>https://carakan.github.io/tags/bienes-raices/</loc>
     <lastmod>2008-02-07T16:23:36+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/noticias-cortas/</loc>
+    <loc>https://carakan.github.io/tags/laboratorio/</loc>
+    <lastmod>2008-02-07T16:23:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2008/02/noticias-cortas/</loc>
     <lastmod>2008-02-01T17:09:52+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/nuestra-primera-pagina-web-desarrollada/</loc>
+    <loc>https://carakan.github.io/blog/2008/01/nuestra-primera-pagina-web-desarrollada/</loc>
     <lastmod>2008-01-17T22:42:23+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/conectarse-de-rails-202-a-oracle-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/01/conectarse-de-rails-2.0.2-a-oracle-en-windows/</loc>
     <lastmod>2008-01-14T22:16:57+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/conectarse-de-rails-202-a-oracle/</loc>
+    <loc>https://carakan.github.io/tags/netbeans/</loc>
     <lastmod>2008-01-14T22:16:57+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/sali-a-la-venta-el-peridico-crnica-comments/</loc>
+    <loc>https://carakan.github.io/blog/2008/01/sali%C3%B3-a-la-venta-el-peri%C3%B3dico-cr%C3%B3nica/</loc>
     <lastmod>2008-01-10T23:15:07+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/sali-a-la-venta-el-peridico-crnica/</loc>
+    <loc>https://carakan.github.io/blog/2008/01/sali%C3%B3-a-la-venta-el-peri%C3%B3dico-cr%C3%B3nica/</loc>
     <lastmod>2008-01-10T23:15:07+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/novedades-para-el-2008/</loc>
+    <loc>https://carakan.github.io/tags/cronica/</loc>
+    <lastmod>2008-01-10T23:15:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/oruro/</loc>
+    <lastmod>2008-01-10T23:15:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2007/12/novedades-para-el-2008/</loc>
     <lastmod>2007-12-28T21:38:49+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/felices-fiestas-comments/</loc>
+    <loc>https://carakan.github.io/blog/2007/12/felices-fiestas/</loc>
     <lastmod>2007-12-22T00:36:44+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/felices-fiestas/</loc>
-    <lastmod>2007-12-22T00:36:44+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/remontando-comments/</loc>
+    <loc>https://carakan.github.io/blog/2007/12/remontando.../</loc>
     <lastmod>2007-12-19T20:40:06+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/remontando/</loc>
+    <loc>https://carakan.github.io/tags/sali-de-la-u/</loc>
     <lastmod>2007-12-19T20:40:06+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/como-actualizar-a-rails-201-y-solucin-a-problemas/</loc>
+    <loc>https://carakan.github.io/blog/2007/12/como-actualizar-a-rails-2.0.1-y-soluci%C3%B3n-a-problemas/</loc>
     <lastmod>2007-12-11T22:46:29+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/manual-de-jquery-y-lo-que-debes-de-saber-antes-de-meterte-a-ajax-comments/</loc>
+    <loc>https://carakan.github.io/blog/2007/12/manual-de-jquery-y-lo-que-debes-de-saber-antes-de-meterte-a-ajax/</loc>
     <lastmod>2007-12-09T05:39:40+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/manual-de-jquery-y-lo-que-debes-de-saber-antes-de-meterte-a-ajax/</loc>
+    <loc>https://carakan.github.io/blog/2007/12/manual-de-jquery-y-lo-que-debes-de-saber-antes-de-meterte-a-ajax/</loc>
     <lastmod>2007-12-09T05:39:40+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/realice-mi-predefenza-de-mi-proyecto-de-grado-comments/</loc>
+    <loc>https://carakan.github.io/tags/proyecto-de-grado/</loc>
+    <lastmod>2007-12-08T13:10:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2007/12/realice-mi-predefensa-de-mi-proyecto-de-grado/</loc>
     <lastmod>2007-12-08T13:10:36+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/realice-mi-predefenza-de-mi-proyecto-de-grado/</loc>
-    <lastmod>2007-12-08T13:10:36+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/parieron-a-rails-20/</loc>
+    <loc>https://carakan.github.io/blog/2007/12/parieron-a-rails-2.0/</loc>
     <lastmod>2007-12-07T22:54:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/acerca-de-desarrollador-5-estrellas-dce-comments/</loc>
+    <loc>https://carakan.github.io/blog/2007/12/acerca-de-desarrollador-5-estrellas-dce/</loc>
     <lastmod>2007-12-06T21:55:05+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/acerca-de-desarrollador-5-estrellas-dce/</loc>
+    <loc>https://carakan.github.io/tags/dce/</loc>
     <lastmod>2007-12-06T21:55:05+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/alucinante-ilusion-optica/</loc>
+    <loc>https://carakan.github.io/blog/2007/12/alucinante-ilusion-optica/</loc>
     <lastmod>2007-12-05T00:02:08+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/salio-netbeans-60-comments/</loc>
+    <loc>https://carakan.github.io/blog/2007/12/salio-netbeans-6.0/</loc>
     <lastmod>2007-12-04T23:13:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/salio-netbeans-60/</loc>
-    <lastmod>2007-12-04T23:13:35+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/quieres-tener-un-blog-gratuito-en-wiebia-comments/</loc>
+    <loc>https://carakan.github.io/blog/2007/11/quieres-tener-un-blog-gratuito-en-wiebia/</loc>
     <lastmod>2007-11-28T20:44:36+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/quieres-tener-un-blog-gratuito-en-wiebia/</loc>
-    <lastmod>2007-11-28T20:44:36+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/conferencias-del-congreso-rails-hispano-2007-comments/</loc>
+    <loc>https://carakan.github.io/blog/2007/11/conferencias-del-congreso-rails-hispano-2007/</loc>
     <lastmod>2007-11-28T20:17:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/conferencias-del-congreso-rails-hispano-2007/</loc>
-    <lastmod>2007-11-28T20:17:48+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/mozilla-3-beta-1-no-se-deja-con-rest/</loc>
+    <loc>https://carakan.github.io/blog/2007/11/mozilla-3-beta-1-no-se-deja-con-rest-ruby-on-rails/</loc>
     <lastmod>2007-11-26T22:16:59+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/como-evoluciona-un-blog-comments/</loc>
+    <loc>https://carakan.github.io/blog/2007/11/como-evoluciona-un-blog/</loc>
     <lastmod>2007-11-22T17:52:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/como-evoluciona-un-blog/</loc>
-    <lastmod>2007-11-22T17:52:35+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/propuesta-de-desarrollo-web-20/</loc>
+    <loc>https://carakan.github.io/blog/2007/11/propuesta-de-desarrollo-web-2.0/</loc>
     <lastmod>2007-11-16T00:33:53+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/existen-aun-esperanzasen-mi-proyecto-de-grado-comments/</loc>
+    <loc>https://carakan.github.io/blog/2007/11/existen-aun-esperanzasen-mi-proyecto-de-grado/</loc>
     <lastmod>2007-11-12T22:46:41+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/existen-aun-esperanzasen-mi-proyecto-de-grado/</loc>
-    <lastmod>2007-11-12T22:46:41+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/el-problema-de-teoria-y-la-practica/</loc>
+    <loc>https://carakan.github.io/blog/2007/11/el-problema-de-teoria-y-la-practica/</loc>
     <lastmod>2007-11-08T01:26:14+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/salio-netbeans-60-beta-2/</loc>
+    <loc>https://carakan.github.io/tags/rup-y-uml/</loc>
+    <lastmod>2007-11-08T01:26:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2007/10/salio-netbeans-6.0-beta-2/</loc>
     <lastmod>2007-10-23T21:55:22+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/scrum-en-la-intemperie-ii-identificacion-de-roles-y-actores/</loc>
+    <loc>https://carakan.github.io/blog/2007/10/scrum-en-la-intemperie-ii-identificaci%C3%B3n-de-roles-y-actores/</loc>
     <lastmod>2007-10-05T19:40:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/usando-netbeans-en-linux-comments/</loc>
+    <loc>https://carakan.github.io/tags/scrum/</loc>
+    <lastmod>2007-10-05T19:40:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2007/10/usando-netbeans-en-linux/</loc>
     <lastmod>2007-10-03T14:39:18+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/usando-netbeans-en-linux/</loc>
-    <lastmod>2007-10-03T14:39:18+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/lanzamos-nuestra-empresa-de-desarrollo-de-paginas-web/</loc>
+    <loc>https://carakan.github.io/blog/2007/10/lanzamos-nuestra-empresa-de-desarrollo-de-paginas-web/</loc>
     <lastmod>2007-10-01T22:22:52+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/mandamos-el-perfil-de-nuestro-negocio-a-ideas-emprendedoras-comments/</loc>
+    <loc>https://carakan.github.io/blog/2007/10/mandamos-el-perfil-de-nuestro-negocio-a-ideas-emprendedoras/</loc>
     <lastmod>2007-10-01T19:45:30+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/mandamos-el-perfil-de-nuestro-negocio-a-ideas-emprendedoras/</loc>
+    <loc>https://carakan.github.io/blog/2007/10/mandamos-el-perfil-de-nuestro-negocio-a-ideas-emprendedoras/</loc>
     <lastmod>2007-10-01T19:45:30+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/aprender-a-manejar-los-feeds-y-google-reader-comments/</loc>
+    <loc>https://carakan.github.io/blog/2007/09/aprender-a-manejar-los-feeds-y-google-reader/</loc>
     <lastmod>2007-09-25T21:46:28+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/aprender-a-manejar-los-feeds-y-google-reader/</loc>
-    <lastmod>2007-09-25T21:46:28+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/conbinando-scrum-y-rails-comments/</loc>
+    <loc>https://carakan.github.io/blog/2007/09/scrum-en-la-intemperie-combinando-scrum-y-rails/</loc>
     <lastmod>2007-09-19T22:37:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/conbinando-scrum-y-rails/</loc>
-    <lastmod>2007-09-19T22:37:42+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/premio-por-desarrollador-4-estrellas/</loc>
+    <loc>https://carakan.github.io/blog/2007/09/premio-por-desarrollador-4-estrellas/</loc>
     <lastmod>2007-09-11T21:15:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/salio-la-guia-definitiva-de-la-materia-inf-121-comments/</loc>
+    <loc>https://carakan.github.io/tags/c-sharp/</loc>
+    <lastmod>2007-09-11T21:15:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2007/09/salio-la-guia-definitiva-de-la-materia-inf-121/</loc>
     <lastmod>2007-09-11T20:15:22+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/salio-la-guia-definitiva-de-la-materia-inf-121/</loc>
+    <loc>https://carakan.github.io/blog/2007/09/salio-la-guia-definitiva-de-la-materia-inf-121/</loc>
     <lastmod>2007-09-11T20:15:22+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/ver-que-tan-blogger-eres/</loc>
+    <loc>https://carakan.github.io/tags/inf-121/</loc>
+    <lastmod>2007-09-11T20:15:22+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2007/07/ver-que-tan-blogger-eres/</loc>
     <lastmod>2007-07-02T17:06:12+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/hola-comments/</loc>
+    <loc>https://carakan.github.io/blog/2007/06/hola/</loc>
     <lastmod>2007-06-24T16:58:14+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/hola/</loc>
+    <loc>https://carakan.github.io/tags/inicio/</loc>
     <lastmod>2007-06-24T16:58:14+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/sobre_mi/</loc>
+    <loc>https://carakan.github.io/blog/2007/06/sobre-mi/</loc>
     <lastmod>2007-06-24T14:36:47+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/algunas-ideas-sobre-el-protocolo-de-twitte/</loc>
+    <loc>https://carakan.github.io/blog/1/01/algunas-ideas-sobre-el-protocolo-de-twitter/</loc>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/series/</loc>
+    <loc>https://carakan.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="description" content="Simple minimalist theme">
+<meta name="keywords" content="minimalist,blog,goa,hugo,developer">
+
+<base href="https://carakan.github.io/">
+
+<title>carakan</title>
+
+<meta name="generator" content="Hugo 0.55.6" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400|Roboto+Slab:400,700|Roboto:300,300i,400,400i,500,500i,700,700i">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+<link rel="stylesheet" href="https://carakan.github.io/css/main.css">
+
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://carakan.github.io/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="https://carakan.github.io/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://carakan.github.io/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="https://carakan.github.io/manifest.json">
+<link rel="mask-icon" href="https://carakan.github.io/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+<body lang="en-US">
+<div class="container">
+
+
+<header class="row text-left title">
+  <h1 class="title">install passenger 5, ruby 2.x, nginx 1.10.x and enable HTTP/2</h1>
+</header>
+<section id="category-pane" class="row meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-left meta">
+        PUBLISHED ON JUN 24, 2016 
+      
+    </h6>
+  </div>
+  
+</section>
+<section id="content-pane" class="row">
+  <div class="col-md-12 text-justify content">
+    
+
+<p>Recently I found that passenger in the last version now uses nginx 1.10.x by default, as you knows since nginx 1.9.x nginx enables support for <a href="https://en.wikipedia.org/wiki/HTTP/2">http2</a> but the 1.9.x on nginx is <em>beta</em> and when released the line 1.10 is production ready. The process will be describe for ubuntu 14.4 and 16.4:</p>
+
+<h2 id="install-dependencies">Install Dependencies</h2>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">apt-get update -y
+apt-get upgrade -y
+apt-get install sudo -y</code></pre></div>
+<p>install the required packages:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate python-docutils pkg-config cmake nodejs git-core</code></pre></div>
+<h2 id="install-ruby">Install Ruby</h2>
+
+<p>For production sites is a <em>MUST</em> install from sources without using any versions managers like RVM, RENV or whatever this is why leads to hard to diagnose problems. Remove the old Ruby 1.8 if present:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get remove ruby1.8</code></pre></div>
+<p>Download Ruby and compile it:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir /tmp/ruby <span style="color:#666">&amp;&amp;</span> <span style="color:#a2f">cd</span> /tmp/ruby
+curl -O --progress https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.1.tar.gz
+tar xzf ruby-2.3.1.tar.gz
+<span style="color:#a2f">cd</span> ruby-2.3.1
+./configure --disable-install-rdoc
+make
+sudo make install</code></pre></div>
+<p>Install the passenger Gem:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo gem install passenger --no-ri --no-rdoc</code></pre></div>
+<p>Now we need to install nginx manually, enable http2 and add the dependency to passenger:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir /tmp/nginx <span style="color:#666">&amp;&amp;</span> <span style="color:#a2f">cd</span> /tmp/nginx
+curl -O --progress https://nginx.org/download/nginx-1.10.1.tar.gz
+tar xzf nginx-1.10.1.tar.gz
+<span style="color:#a2f">cd</span> nginx-1.10.1
+<span style="color:#080;font-style:italic"># this contains all defaults options using the command passenger-install-nginx-module and http2 support</span>
+./configure --prefix<span style="color:#666">=</span><span style="color:#b44">&#39;/opt/nginx&#39;</span> <span style="color:#b62;font-weight:bold">\\</span>
+--with-http<span style="color:#b62;font-weight:bold">\_</span>ssl<span style="color:#b62;font-weight:bold">\_</span>module <span style="color:#b62;font-weight:bold">\\</span>
+--with-http<span style="color:#b62;font-weight:bold">\_</span>gzip<span style="color:#b62;font-weight:bold">\_</span>static<span style="color:#b62;font-weight:bold">\_</span>module <span style="color:#b62;font-weight:bold">\\</span>
+--with-http<span style="color:#b62;font-weight:bold">\_</span>stub<span style="color:#b62;font-weight:bold">\_</span>status<span style="color:#b62;font-weight:bold">\_</span>module <span style="color:#b62;font-weight:bold">\\</span>
+--with-cc-opt<span style="color:#666">=</span>-Wno-error <span style="color:#b62;font-weight:bold">\\</span>
+--with-ld-opt<span style="color:#666">=</span><span style="color:#b44">&#39;&#39;</span> <span style="color:#b62;font-weight:bold">\\</span>
+--add-module<span style="color:#666">=</span><span style="color:#a2f;font-weight:bold">$(</span>passenger-config --nginx-addon-dir<span style="color:#a2f;font-weight:bold">)</span> <span style="color:#b62;font-weight:bold">\\</span>
+--with-http<span style="color:#b62;font-weight:bold">\_</span>v2<span style="color:#b62;font-weight:bold">\_</span>module
+make
+sudo make install</code></pre></div>
+<p>and thats it! you now have nginx + passenger + http2</p>
+
+<h2 id="enable-http2-on-vhost">Enable http2 on vhost</h2>
+
+<p><a href="https://http2.github.io/faq/#does-http2-require-encryption">only in https ;)</a></p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">server <span style="color:#666">{</span>
+             listen              <span style="color:#666">443</span> ssl **http2**;
+             server<span style="color:#b62;font-weight:bold">\_</span>name         somedomain.com;
+             ssl<span style="color:#b62;font-weight:bold">\_</span>certificate     path<span style="color:#b62;font-weight:bold">\_</span>to<span style="color:#b62;font-weight:bold">\_</span>your.crt;
+             ssl<span style="color:#b62;font-weight:bold">\_</span>certificate<span style="color:#b62;font-weight:bold">\_</span>key path<span style="color:#b62;font-weight:bold">\_</span>to<span style="color:#b62;font-weight:bold">\_</span>your.key;
+             root /path/to/your/rails/public;
+             passenger<span style="color:#b62;font-weight:bold">\_</span>enabled on;
+             passenger<span style="color:#b62;font-weight:bold">\_</span>set<span style="color:#b62;font-weight:bold">\_</span>header HTTP<span style="color:#b62;font-weight:bold">\_</span>X<span style="color:#b62;font-weight:bold">\_</span>FORWARDED<span style="color:#b62;font-weight:bold">\_</span>PROTO https;
+         <span style="color:#666">}</span></code></pre></div>
+  </div>
+</section>
+<section id="tag-pane" class="row meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-right meta">
+      
+      
+      
+      TAGS:
+      
+      
+      <a class="meta" href="https://carakan.github.io/tags/devop">DEVOP</a>, 
+      
+      <a class="meta" href="https://carakan.github.io/tags/http2">HTTP2</a>, 
+      
+      <a class="meta" href="https://carakan.github.io/tags/passenger">PASSENGER</a>, 
+      
+      <a class="meta" href="https://carakan.github.io/tags/ruby">RUBY</a>
+      
+      
+      
+    </h6>
+  </div>
+  
+</section>
+
+
+
+
+
+
+
+
+<section id="menu-pane" class="row menu text-center">
+  
+  
+  <span><a class="menu-item" href="https://carakan.github.io/blog/2015/12/my-dotfiles/">&lt; prev | </a></span>
+  
+  
+  <span><a class="menu-item" href="https://carakan.github.io/blog">blog</a></span>
+  
+  
+  <span><a class="menu-item" href="https://carakan.github.io/blog/2017/09/blockchain-iot-ai-and-any-hipster-tech/"> | next &gt;</a></span>
+  
+  
+  <h4 class="text-center"><a class="menu-item" href="https://carakan.github.io/">home</a></h4>
+</section>
+
+
+
+<footer class="row text-center footer">
+  <hr />
+  
+  <h6 class="text-center copyright">© 2019. Carlos Ramos. <a href="http://creativecommons.org/licenses/by/3.0/">Some Rights Reserved</a>.</h6>
+  
+  
+</footer>
+
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+
+<script type="text/javascript">
+hljs.initHighlightingOnLoad();
+</script>
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-5022449-3', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+
+
