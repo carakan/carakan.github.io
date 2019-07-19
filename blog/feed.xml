@@ -31,9 +31,9 @@ If you like try to install only follow this link or search in Extensions “New 
       
       <guid>https://carakan.github.io/blog/2018/10/my-first-elixir-library-softrepo/</guid>
       <description>don’t destroy sensible data
-It’s a placer to announce my first library, this handle soft-delete using directly a Repo wrapper, so the idea is to have a global lib that represent all the logic of do a soft-delete on Ecto.
-The setup and usage have been written in the README of the repo.
-Future The idea is to have a basic library that handles soft-delete, but I have ideas about the future as:</description>
+It’s a placer to announce my first library, this handle soft-delete using directly a Repo wrapper, so the main idea is to have a global lib/module that represent all of the logic to do soft-delete of records.
+The setup and usage has been written on the README of soft_repo.
+Future The idea is to have a basic library that handles soft-delete, but in a future I&amp;rsquo;ll implement:</description>
     </item>
     
     <item>

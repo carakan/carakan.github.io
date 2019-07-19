@@ -57,21 +57,24 @@
   <div class="col-md-12 text-justify content">
     
 
-<p><img src="https://carakan.github.io/blog/2018-10-03_my-first-elixir-library-softrepo/images/1.jpeg" alt="image" /></p>
+<p><img src="https://carakan.github.io/blog/2018/10/my-first-elixir-library-softrepo/images/1.jpeg" alt="image" /></p>
 
 <p>don’t destroy sensible data</p>
 
-<p>It’s a placer to announce my first library, this handle soft-delete using directly a Repo wrapper, so the idea is to have a global lib that represent all the logic of do a soft-delete on Ecto.</p>
+<p>It’s a placer to announce my first library, this handle soft-delete using directly
+a Repo wrapper, so the main idea is to have a global lib/module that represent all
+of the logic to do soft-delete of records.</p>
 
-<p>The setup and usage have been written in the <a href="https://github.com/carakan/soft_repo">README</a> of the repo.</p>
+<p>The setup and usage has been written on the <a href="https://github.com/carakan/soft_repo">README of soft_repo</a>.</p>
 
-<h3 id="future"><strong>Future</strong></h3>
+<h3 id="future">Future</h3>
 
-<p>The idea is to have a basic library that handles soft-delete, but I have ideas about the future as:</p>
+<p>The idea is to have a basic library that handles soft-delete, but in a future I&rsquo;ll implement:</p>
 
 <ul>
-<li>Support relationships: like has_many(:whatevers, on_delete: :soft_delete)</li>
-<li>Change from using a already module using Ecto and overwrite the function to inject code using<code>use</code> following behaviours of Ecto.</li>
+<li>Support relationships: like <code>has_many(:whatevers, on_delete: :soft_delete)</code></li>
+<li>Change from use an existing module with injected <code>Ecto</code> and overwrites the functions to metapromming
+code with keyword <code>use</code> and following behaviours of Ecto.</li>
 </ul>
 
   </div>
