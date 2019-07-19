@@ -6,10 +6,46 @@
     <description>Recent content in Blogs on carakan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 08 Sep 2017 16:08:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Nov 2018 21:51:19 +0000</lastBuildDate>
     
 	<atom:link href="https://carakan.github.io/blog/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>“NewRailscasts” My first VScode Theme</title>
+      <link>https://carakan.github.io/blog/2018/11/newrailscasts-my-first-vscode-theme/</link>
+      <pubDate>Tue, 27 Nov 2018 21:51:19 +0000</pubDate>
+      
+      <guid>https://carakan.github.io/blog/2018/11/newrailscasts-my-first-vscode-theme/</guid>
+      <description>I ported my adaption of the ancient railscasts theme for (neo)vim to VSCode, its solarized, supports very well javascript, typescript, ruby and elixir, here’s some screenshots:
+TypeScript
+Html + erb
+Elixir
+If you like try to install only follow this link or search in Extensions “New Railscasts”, also if you use vim you can install the new-railscasts from my repo.</description>
+    </item>
+    
+    <item>
+      <title>My first elixir library: SoftRepo</title>
+      <link>https://carakan.github.io/blog/2018/10/my-first-elixir-library-softrepo/</link>
+      <pubDate>Wed, 03 Oct 2018 18:49:26 +0000</pubDate>
+      
+      <guid>https://carakan.github.io/blog/2018/10/my-first-elixir-library-softrepo/</guid>
+      <description>don’t destroy sensible data
+It’s a placer to announce my first library, this handle soft-delete using directly a Repo wrapper, so the idea is to have a global lib that represent all the logic of do a soft-delete on Ecto.
+The setup and usage have been written in the README of the repo.
+Future The idea is to have a basic library that handles soft-delete, but I have ideas about the future as:</description>
+    </item>
+    
+    <item>
+      <title>Lint and Format code with vim and ALE</title>
+      <link>https://carakan.github.io/blog/2017/11/lint-and-format-code-with-vim-and-ale/</link>
+      <pubDate>Wed, 15 Nov 2017 00:11:01 +0000</pubDate>
+      
+      <guid>https://carakan.github.io/blog/2017/11/lint-and-format-code-with-vim-and-ale/</guid>
+      <description>Currently I’m writing JS and Elixir code and I’ve using a lot of plugins to help me about misspelling in my code, first I was using Syntastic, later I was using Neomake but now I fell in love with ALE and I try to explain why.
+Ale knows clearly about if a plugin/addon shows an error that plugin/addon can fix that error if is possible.
+For example if I’m using eslint and I see this error:</description>
+    </item>
     
     <item>
       <title>Blockchain, IOT, AI and any ‘hipster’ tech</title>

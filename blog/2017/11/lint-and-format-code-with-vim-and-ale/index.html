@@ -41,13 +41,13 @@
 
 
 <header class="row text-left title">
-  <h1 class="title">Bob Esponja de carne y hueso</h1>
+  <h1 class="title">Lint and Format code with vim and ALE</h1>
 </header>
 <section id="category-pane" class="row meta">
   
   <div class="col-md-12">
     <h6 class="text-left meta">
-        PUBLISHED ON NOV 19, 2008 
+        PUBLISHED ON NOV 15, 2017 
       
     </h6>
   </div>
@@ -55,15 +55,34 @@
 </section>
 <section id="content-pane" class="row">
   <div class="col-md-12 text-justify content">
-    <p><a href="http://www.nadie007.com" title="ndie007@gmail.com">nadie007</a> - <time datetime="2008-11-19 10:41:03">Nov 3, 2008</time></p>
+    <p>Currently I’m writing JS and Elixir code and I’ve using a lot of plugins to help me about misspelling in my code, first I was using Syntastic, later I was using Neomake but now I fell in love with <a href="https://github.com/w0rp/ale">ALE</a> and I try to explain why.</p>
 
-<p>xdxd excelente! vaya que si se parece abra que buscar a patricio pro ahi!
-<hr /></p>
+<p>Ale knows clearly about if a plugin/addon shows an error that plugin/addon can fix that error if is possible.</p>
 
-<p>[tuenti]( &ldquo;secretosecreto1@hotmail.es&rdquo;) - <time datetime="2011-02-19 13:27:33">Feb 6, 2011</time></p>
+<p>For example if I’m using eslint and I see this error:</p>
 
-<p>dios que foto mas falsaaaaaaa es una mierda de fotoooo vallla valla esto es lo que faltabaaaaa ai que verrrrrr jjajajaajajaj que tontos sois los que habeis ello la fotiko xD Xd
-<hr /></p>
+<p><img src="https://carakan.github.io/blog/2017-11-15_lint-and-format-code-with-vim-and-ale/images/1.png" alt="before" /></p>
+
+<p>I want to ALE fix this (<em>automatically</em>) to:</p>
+
+<p><img src="https://carakan.github.io/blog/2017-11-15_lint-and-format-code-with-vim-and-ale/images/2.png" alt="after" /></p>
+
+<p>That is easy and is built-in by default.</p>
+
+<p>Another amazing feature is to queue fixer’s, let me explain this:</p>
+
+<p>Prettier is a amazing <strong>opinionated</strong> code formatter for a lot of languages and provides a few options to configure, and if we can use ‘prettier + eslint’, I see a lot of issues with this combination, for example <a href="https://github.com/prettier/prettier/issues/812">this</a>. To avoid this, people made a lot of workarounds (npm’s, disabling rules, etc.), but in my opinion any code formatter only live in the IDE/editor and not in the project as dependency.</p>
+
+<p>So with Ale you can only do that:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim"><span style="color:#080;font-style:italic">&#34; vimrc</span><span style="">
+</span><span style=""></span><span style="color:#a2f;font-weight:bold">let</span> g:ale_fixers = {<span style="">
+</span><span style=""></span>\   <span style="color:#b44">&#39;javascript&#39;</span>: [<span style="color:#b44">&#39;prettier&#39;</span>, <span style="color:#b44">&#39;eslint&#39;</span>]<span style="">
+</span><span style=""></span>\}</code></pre></div>
+<p>then Ale first apply fixes/format from prettier and later with eslint, AWESOME!</p>
+
+<p>Finally <a href="https://github.com/w0rp/ale/pull/1017">Ale has support to newest elixir code formatter</a>!</p>
+
+<p>Later in a next post I would like to explain step by step all the configurations.</p>
 
   </div>
 </section>
@@ -71,19 +90,6 @@
   
   <div class="col-md-12">
     <h6 class="text-right meta">
-      
-      
-      
-      TAGS:
-      
-      
-      <a class="meta" href="https://carakan.github.io/tags/humor">HUMOR</a>, 
-      
-      <a class="meta" href="https://carakan.github.io/tags/humor">HUMOR</a>, 
-      
-      <a class="meta" href="https://carakan.github.io/tags/si-existe">SI EXISTE</a>
-      
-      
       
     </h6>
   </div>
@@ -100,13 +106,13 @@
 <section id="menu-pane" class="row menu text-center">
   
   
-  <span><a class="menu-item" href="https://carakan.github.io/blog/2008/11/bob-esponja-de-carne-y-hueso/">&lt; prev | </a></span>
+  <span><a class="menu-item" href="https://carakan.github.io/blog/2017/09/blockchain-iot-ai-and-any-hipster-tech/">&lt; prev | </a></span>
   
   
   <span><a class="menu-item" href="https://carakan.github.io/blog">blog</a></span>
   
   
-  <span><a class="menu-item" href="https://carakan.github.io/blog/2008/11/lucha-contra-los-grandes-blogs/"> | next &gt;</a></span>
+  <span><a class="menu-item" href="https://carakan.github.io/blog/2018/10/my-first-elixir-library-softrepo/"> | next &gt;</a></span>
   
   
   <h4 class="text-center"><a class="menu-item" href="https://carakan.github.io/">home</a></h4>

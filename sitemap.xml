@@ -3,14 +3,35 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://carakan.github.io/blog/2017/09/blockchain-iot-ai-and-any-hipster-tech/</loc>
-    <lastmod>2017-09-08T16:08:00+00:00</lastmod>
+    <loc>https://carakan.github.io/blog/</loc>
+    <lastmod>2019-07-18T21:50:22-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/blog/</loc>
-    <lastmod>2017-09-08T16:08:00+00:00</lastmod>
+    <loc>https://carakan.github.io/</loc>
+    <lastmod>2019-07-18T21:50:22-04:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2018/11/newrailscasts-my-first-vscode-theme/</loc>
+    <lastmod>2019-07-18T21:50:22-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2018/10/my-first-elixir-library-softrepo/</loc>
+    <lastmod>2019-07-18T21:50:21-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2017/11/lint-and-format-code-with-vim-and-ale/</loc>
+    <lastmod>2019-07-18T21:50:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2017/09/blockchain-iot-ai-and-any-hipster-tech/</loc>
+    <lastmod>2017-09-08T16:08:00+00:00</lastmod>
   </url>
   
   <url>
@@ -21,12 +42,6 @@
   
   <url>
     <loc>https://carakan.github.io/tags/blockchain/</loc>
-    <lastmod>2017-09-08T16:08:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/</loc>
     <lastmod>2017-09-08T16:08:00+00:00</lastmod>
     <priority>0</priority>
   </url>
