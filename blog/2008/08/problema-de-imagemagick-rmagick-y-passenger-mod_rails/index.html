@@ -59,20 +59,37 @@
 <section id="content-pane" class="row">
   <div class="col-md-12 text-justify content">
     
-    <p>Recientemente en uno de mis proyectos estamos utilizando el plugin para subir archivos <a href="http://jimneath.org/2008/04/17/paperclip-attaching-files-in-rails/">paperclip tutorial</a>, este plugin tiene características de re-dimension de imágenes pero dentro de nuestro servidor web no funcionaba, lo que nos parecio bastante raro, buscando por internet encontré que el problema se debía al momento de usar mod_rails, el cual no cargaba las librerías necesarias, en este caso a ImageMagick, <a href="http://blog.rayapps.com/2008/05/21/using-mod_rails-with-rails-applications-on-oracle/">aqui el mismo problema pero para oracle y algunas de sus librerias</a>. La solución es la siguiente: Ir a la carpeta del ejecutable de ruby, en mi caso utilizo <a href="http://www.rubyenterpriseedition.com/">ruby-enterprise</a> y que instale en /opt/ruby/bin, o en una carpeta cualquiera que tengas acceso se crea el archivo ruby_rmagick asi:```
-sudo vi /opt/ruby/ruby_rmagick</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Y dentro de este archivo se añade:```" data-lang="Y dentro de este archivo se añade:```"><span style="color:#080">#!/bin/bash
-</span><span style="color:#080"></span><span style="color:#a2f">export</span> <span style="color:#b8860b">MAGICK_HOME</span><span style="color:#666">=</span><span style="color:#b44">&#34;/usr/local/lib/ImageMagick-6.4.2&#34;</span> <span style="color:#080;font-style:italic"># ruta a ImageMagick</span>
-<span style="color:#a2f">export</span> <span style="color:#b8860b">DYLD_LIBRARY_PATH</span><span style="color:#666">=</span><span style="color:#b44">&#34;</span><span style="color:#b8860b">$MAGICK_HOME</span><span style="color:#b44">/lib&#34;</span>
-<span style="color:#a2f">export</span> <span style="color:#b8860b">PATH</span><span style="color:#666">=</span><span style="color:#b8860b">$MAGICK_HOME</span>/bin:/usr/local/bin/:<span style="color:#b8860b">$PATH</span> /opt/ruby/bin/ruby <span style="color:#b8860b">$*</span>  <span style="color:#080;font-style:italic"># ruta al Interprete de ruby</span> </code></pre></div>
-<p>Esto añade las variables necesarias y llama al interprete de ruby, lo guardamos y le asignamos permisos de ejecucion:```
-sudo chmod +x /opt/ruby/ruby_rmagick</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Ahora editamos el archivo con el que se configuro mod\_rails para que cargue el nuevo archivo que acabamos de grabar:```" data-lang="Ahora editamos el archivo con el que se configuro mod\_rails para que cargue el nuevo archivo que acabamos de grabar:```">LoadModule passenger_module /opt/ruby/lib/ruby/gems/1.8/gems/passenger-2.0.2/ext/apache2/mod_passenger.so
+    <p>Recientemente en uno de mis proyectos estamos utilizando el plugin para subir archivos <a href="http://jimneath.org/2008/04/17/paperclip-attaching-files-in-rails/">paperclip tutorial</a>, este plugin tiene características de re-dimension de imágenes pero dentro de nuestro servidor web no funcionaba, lo que nos parecio bastante raro, buscando por internet encontré que el problema se debía al momento de usar mod_rails, el cual no cargaba las librerías necesarias, en este caso a ImageMagick, <a href="http://blog.rayapps.com/2008/05/21/using-mod_rails-with-rails-applications-on-oracle/">aqui el mismo problema pero para oracle y algunas de sus librerias</a>. La solución es la siguiente: Ir a la carpeta del ejecutable de ruby, en mi caso utilizo <a href="http://www.rubyenterpriseedition.com/">ruby-enterprise</a> y que instale en /opt/ruby/bin, o en una carpeta cualquiera que tengas acceso se crea el archivo ruby_rmagick asi:</p>
+
+<pre><code>sudo vi /opt/ruby/ruby_rmagick
+</code></pre>
+
+<p>Y dentro de este archivo se añade:</p>
+
+<pre><code>#!/bin/bash
+export MAGICK_HOME=&quot;/usr/local/lib/ImageMagick-6.4.2&quot; # ruta a ImageMagick
+export DYLD_LIBRARY_PATH=&quot;$MAGICK_HOME/lib&quot;
+export PATH=$MAGICK_HOME/bin:/usr/local/bin/:$PATH /opt/ruby/bin/ruby $*  # ruta al Interprete de ruby 
+</code></pre>
+
+<p>Esto añade las variables necesarias y llama al interprete de ruby, lo guardamos y le asignamos permisos de ejecucion:</p>
+
+<pre><code>sudo chmod +x /opt/ruby/ruby_rmagick
+</code></pre>
+
+<p>Ahora editamos el archivo con el que se configuro mod_rails para que cargue el nuevo archivo que acabamos de grabar:</p>
+
+<pre><code>LoadModule passenger_module /opt/ruby/lib/ruby/gems/1.8/gems/passenger-2.0.2/ext/apache2/mod_passenger.so
 PassengerRoot /opt/ruby/lib/ruby/gems/1.8/gems/passenger-2.0.2
-PassengerRuby /opt/ruby/bin/ruby_rmagick    # Aqui se cambia al nuevo interprete</code></pre></div>
-<p>Este archivo de configuracion es para passenger 2.0.2 para versiones 1.X.X debes de cambiar<code>
-RailsRuby /usr/local/bin/ruby_rmagick 
-</code>Actualizacion: <strong>18 junio 2009</strong> He arreglado un poco las instrucciones, al parecer lo hice muy a la rapida.</p>
+PassengerRuby /opt/ruby/bin/ruby_rmagick    # Aqui se cambia al nuevo interprete
+</code></pre>
+
+<p>Este archivo de configuracion es para passenger 2.0.2 para versiones 1.X.X debes de cambiar</p>
+
+<pre><code>RailsRuby /usr/local/bin/ruby_rmagick 
+</code></pre>
+
+<p>Actualizacion: <strong>18 junio 2009</strong> He arreglado un poco las instrucciones, al parecer lo hice muy a la rapida.</p>
 
       
       
@@ -86,9 +103,9 @@ RailsRuby /usr/local/bin/ruby_rmagick
 	
     <li><p><a href="https://carakan.github.io/blog/2008/06/lanzamiento-de-rails-2.1-y-ruby-1.8.7/">Lanzamiento de Rails 2.1 y ruby 1.8.7</a></p></li>
 	
-    <li><p><a href="https://carakan.github.io/blog/2008/06/lanzamiento-de-rails-2.1-y-ruby-1.8.7/">Lanzamiento de Rails 2.1 y ruby 1.8.7</a></p></li>
-	
     <li><p><a href="https://carakan.github.io/blog/2008/07/nace-bolivia-on-rails/">Nace Bolivia on Rails</a></p></li>
+	
+    <li><p><a href="https://carakan.github.io/blog/2008/06/en-puerto-rico-lo-ven-ahora-en-argentina-lo-vieron-hace-tres-a%C3%B1os-y-en-bolivia-hace-un-a%C3%B1o/">En Puerto Rico lo ven ahora, en Argentina lo vieron hace tres años y en Bolivia hace un año</a></p></li>
 	
 </ul>
 

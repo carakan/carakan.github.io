@@ -85,8 +85,8 @@ sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdb
       <pubDate>Mon, 21 Dec 2015 02:57:00 +0000</pubDate>
       
       <guid>https://carakan.github.io/blog/2015/12/my-dotfiles/</guid>
-      <description>Yes, I finally finished my work environment across my differents machines, I used for that:
- Tmux Powerline fonts patched (I uploaded my fonts patched) Iterm2 (beta3) NeoVim Oh-My-Zsh Spf13 vim configuration  Check out my public repo in that I wrote how to install if you want reuse my config.</description>
+      <description>Yes, I finally setup my work environment to work across in my differents machines, I used this tools for that:
+ Tmux Powerline fonts patched (I uploaded my fonts patched) Iterm2 (v3.3) NeoVim Oh-My-Zsh Spf13 vim configuration  Check out my public repo in that I wrote how to install if you want reuse my config.</description>
     </item>
     
     <item>
@@ -628,16 +628,6 @@ Así que empecemos a cambiar poco a poco pero decididamente, nuestra forma de vi
       <guid>https://carakan.github.io/blog/2009/05/los-problemas-de-no-ser-abiertos-en-facebook/</guid>
       <description>Desde hace ya tiempo han sucedido una serie de problemas en la privacidad dentro de la información de los usuarios que se almacena en una de las redes mas sociales del mundo facebook, es por que ahora vemos que facebook pronto arremeterá como en tiempos de Microsoft y tratar de cobrar por todo y nada.
 Digo esto por que recientemente estoy realizando una pequeña aplicación dentro de facebook y la plataforma que te brindan no es la mas “Abierta” que se diga al contrario de Twitter que recientemente presento su integración con OAuth que es mas transparente y de lejos la mejor, pero lo malo es que las personas normales usan Facebook y los Geeks twitter, así que no se puede elegir, sino que elijan por ti.</description>
-    </item>
-    
-    <item>
-      <title>Que es un Troll?</title>
-      <link>https://carakan.github.io/blog/2009/05/que-es-un-troll/</link>
-      <pubDate>Tue, 19 May 2009 00:49:02 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2009/05/que-es-un-troll/</guid>
-      <description>[BertLimb]( &amp;ldquo;katarirebelde@gmail.com&amp;rdquo;) - May 0, 2009
-Hola! q tal iba navegando y me halle tu blog esta de verdad muy bueno, yo soy un paisano tuyo de Sucre tb aficionado a la tecnologia, el codigo fuente y todo lo q tenga q ver con informatica xD, felicitarte por el blog q llevas, ya me tienes suscrito a tu feed xD y deseando q cada vez existan mas blogeros Bolivianos dedicados a la tecnologia xD bueno eso es todo adios y suerte!</description>
     </item>
     
     <item>
@@ -1485,16 +1475,6 @@ Lo mas curioso es el dominio de este blog que subio de -1 a 3 en dos meses desde
       <pubDate>Mon, 22 Sep 2008 15:07:58 +0000</pubDate>
       
       <guid>https://carakan.github.io/blog/2008/09/nueva-imagen-de-bolivia-on-rails-y-tema-wp-espa%C3%B1ol/</guid>
-      <description>Sebastian - Sep 1, 2008
-Buena :) Un abrazo. </description>
-    </item>
-    
-    <item>
-      <title>Nueva imagen de Bolivia On Rails y tema wp español</title>
-      <link>https://carakan.github.io/blog/2008/09/nueva-imagen-de-bolivia-on-rails-y-tema-wp-espa%C3%B1ol/</link>
-      <pubDate>Mon, 22 Sep 2008 15:07:58 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2008/09/nueva-imagen-de-bolivia-on-rails-y-tema-wp-espa%C3%B1ol/</guid>
       <description>Este fin de semana estuve trabajando en la nueva imagen de Bolivia on Rails, un sitio dedicado al desarrollo de ruby on rails dentro y fuera de Bolivia, lo deje un poco estancado este proyecto pero gracias a la colaboración de Boris Barroso estoy retomando el camino y además quiero informar de que ahora los tutoriales o cosas relacionadas con Rails serán publicadas en el Sitio de Bolivia on rails. [caption id=&amp;ldquo;attachment_420&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;563&amp;rdquo; caption=&amp;ldquo;Bolivia on rails&amp;rdquo;][/caption] Otra noticia que se hará costumbre es que pongo a disposición el thema en Wordpress para que puedan utilizarlo en sus propios blogs, es un tema oscuro que me gusta por la combinación de colores, lo traduje y ahora lo comparto además que dejo el fuente de la cabecera en photoshop para que puedan editarlo, así que disfrútenlo.</description>
     </item>
     
@@ -1982,16 +1962,6 @@ Si tenemos el siguiente paquete:
       
       <guid>https://carakan.github.io/blog/2008/06/emprendimientos-bolivianos-en-torno-a-la-web-2.0/</guid>
       <description>Dentro de mi querida Bolivia, ya estan empezando a manifestarse lo que son los blogs, redes sociales, etc. (Y eso que ya estamos a 4 años de la acuñacion del termino) y es por eso que ahora voy a escribir de unos cuantos proyectos que vi en dentro de la red: Bloguivianos, el nombre es creativo, el logotipo me gusta, recientemente formando escribiendo algunos post sobre su formación de este blog.</description>
-    </item>
-    
-    <item>
-      <title>Lanzamiento de Rails 2.1 y ruby 1.8.7</title>
-      <link>https://carakan.github.io/blog/2008/06/lanzamiento-de-rails-2.1-y-ruby-1.8.7/</link>
-      <pubDate>Mon, 02 Jun 2008 19:42:24 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2008/06/lanzamiento-de-rails-2.1-y-ruby-1.8.7/</guid>
-      <description>Asics Revolve Le - Mar 5, 2011
-May I simply say nice to read a help to find someone who really understands just what they&amp;rsquo;re discussing on the internet. You actually realize how to bring a major issue to light and allow it to important. Even more people require to read this and understand it aspect of the story. I can&amp;rsquo;t believe you aren&amp;rsquo;t very popular because you surely have the gift.</description>
     </item>
     
     <item>
