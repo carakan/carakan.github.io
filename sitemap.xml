@@ -3,27 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://carakan.github.io/blog/</loc>
+    <lastmod>2019-09-11T18:22:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/</loc>
+    <lastmod>2019-09-11T18:22:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2019/09/create-a-form-with-two-actions-on-activeadmin/</loc>
+    <lastmod>2019-09-11T18:22:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/</loc>
+    <lastmod>2019-09-11T18:22:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/til/</loc>
+    <lastmod>2019-09-11T18:22:45-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://carakan.github.io/about/</loc>
     <lastmod>2019-08-27T09:20:38-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carakan.github.io/</loc>
-    <lastmod>2019-08-27T09:20:38-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/</loc>
-    <lastmod>2019-07-18T21:50:22-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://carakan.github.io/tags/railscasts/</loc>
-    <lastmod>2019-07-18T21:50:22-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/tags/</loc>
     <lastmod>2019-07-18T21:50:22-04:00</lastmod>
   </url>
   
