@@ -17,7 +17,7 @@
       <pubDate>Tue, 27 Aug 2019 09:20:38 -0400</pubDate>
       
       <guid>https://carakan.github.io/about/</guid>
-      <description>I am a Computer Scientist with experience in development and agile practices. I have been working with Ruby on Rails for about 10+ years and is my framework of choice. Fell in love with the Ruby way of doing things and its syntax but currently open minded with functional programing and Elixir. I am obsessed to write code elegant and tested, also I am a big fan of DDD as my choice when needed architect decisions.</description>
+      <description>I am a Computer Scientist with experience in development and agile practices. I have been working with Ruby on Rails for about 10+ years and is my framework of choice. Fell in love with the Ruby way of doing things and its syntax but recently open-minded with functional programming and Elixir. I am obsessed to write code elegant and tested, also I am a big fan of DDD as my choice when needed architect decisions.</description>
     </item>
     
     <item>
@@ -117,9 +117,7 @@ happy blogging.</description>
       
       <guid>https://carakan.github.io/blog/2015/03/great-plugin-for-share-session-in-rails-apps-between-wordpress-blog/</guid>
       <description>In one project, the client wants to share same user credentials between rails app to wordpress site, I&amp;rsquo;ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:
-rails login
-
-this plugin only need a small API for enable login i created this code in model user:
+rails login  this plugin only need a small API for enable login i created this code in model user:
 def wp_json { user: { email: self.</description>
     </item>
     
@@ -130,24 +128,6 @@ def wp_json { user: { email: self.</description>
       
       <guid>https://carakan.github.io/blog/2014/09/sesi%C3%B3n-de-fotos-a-topce%C3%B1a-thais-alejandra/</guid>
       <description>Una muestra de fotos con la palla de la entrada universitaria 2014 que la publique en mi pagina de facebook Carlos Ramos, fotografo</description>
-    </item>
-    
-    <item>
-      <title>Blog</title>
-      <link>https://carakan.github.io/blog/2014/05/blog/</link>
-      <pubDate>Tue, 13 May 2014 15:09:40 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2014/05/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fotografía</title>
-      <link>https://carakan.github.io/blog/2014/05/fotograf%C3%ADa/</link>
-      <pubDate>Tue, 13 May 2014 14:58:00 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2014/05/fotograf%C3%ADa/</guid>
-      <description>[image-carousel]</description>
     </item>
     
     <item>
@@ -215,17 +195,6 @@ Visto en el denker uber</description>
       <pubDate>Tue, 15 Feb 2011 17:13:13 +0000</pubDate>
       
       <guid>https://carakan.github.io/blog/2011/02/se-aprob%C3%B3-la-ley-sinde-en-espa%C3%B1a/</guid>
-      <description>Twitter Trackbacks for discurso de Álex de la Iglesia, director de La Academia del Cine en España #Espana #LeySinde [carakan.com] on Topsy.com - Feb 2, 2011
-[&amp;hellip;] discurso de Álex de la Iglesia, director de La Academia del Cine en España #Espana #LeySinde carakan.com/2011/02/15/se-aprobo-la-ley-sinde-en-espana/ – view page – cached Tags [&amp;hellip;] María Cristina - Feb 4, 2011
-Es cierto el internet ha cambiado toda nuestra forma de informarnos y comunicarnos </description>
-    </item>
-    
-    <item>
-      <title>Se aprobó la ley sinde en España</title>
-      <link>https://carakan.github.io/blog/2011/02/se-aprob%C3%B3-la-ley-sinde-en-espa%C3%B1a/</link>
-      <pubDate>Tue, 15 Feb 2011 17:13:13 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2011/02/se-aprob%C3%B3-la-ley-sinde-en-espa%C3%B1a/</guid>
       <description>A pesar de esta campaña y las magnificas palabras de Álex de la Iglesia, director de La Academia del Cine en España, se aprobo la ley anti descargas, les dejo el vídeo de Alex de la Igesia que me impresiono y que dejo a continuación: Excelente manera de explicar como internet esta cambiando la forma de llegar a ver una pelicula, esperemos que jamas llegue una ley similar por latinoamerica. LIBERTAD DE EXPRESIÓN!</description>
     </item>
     
@@ -263,16 +232,6 @@ Aprovechar las oportunidades.</description>
       <pubDate>Thu, 18 Nov 2010 12:18:03 +0000</pubDate>
       
       <guid>https://carakan.github.io/blog/2010/11/que-como-cuando-y-donde/</guid>
-      <description>Twitter Trackbacks for Que? Como? Cuando? y Donde? | carakan =&amp;gt; web 2.0 y otras cosas. [carakan.com] on Topsy.com - Nov 4, 2010
-[&amp;hellip;] Que? Como? Cuando? y Donde? | carakan =&amp;gt; web 2.0 y otras cosas. carakan.com/2010/11/18/que-como-cuando-y-donde/ – view page – cached Mi vision de Folgama.com, la Primera red social del Folklore. Tweets about this link [&amp;hellip;] </description>
-    </item>
-    
-    <item>
-      <title>Que? Como? Cuando? y Donde?</title>
-      <link>https://carakan.github.io/blog/2010/11/que-como-cuando-y-donde/</link>
-      <pubDate>Thu, 18 Nov 2010 12:18:03 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2010/11/que-como-cuando-y-donde/</guid>
       <description>[caption id=&amp;ldquo;attachment_727&amp;rdquo; align=&amp;ldquo;alignleft&amp;rdquo; width=&amp;ldquo;300&amp;rdquo; caption=&amp;ldquo;folgama&amp;rdquo;][/caption] Lamento no haber escrito por meses!!! pero &amp;hellip; He estado estos dias en muchos ajetreos dentro de lo que esta poco a poco acaparando mi vida sin querer, les hablo de mi pequeño emprendimiento la Red social del Folklore y de eventos Folgama, primero comentarles sobre la transmisión exitosa de la Entrada Folklorica de la Universidad Publica de la Ciudad del Alto (UPEA), Gracias al apoyo del equipo EaBlogs.</description>
     </item>
     
@@ -283,16 +242,6 @@ Aprovechar las oportunidades.</description>
       
       <guid>https://carakan.github.io/blog/2010/10/facebook-script-for-select-all-friends/</guid>
       <description>This code is like to fs.select_all() javascript:elms=document.getElementById(&amp;lsquo;friends&amp;rsquo;).getElementsByTagName(&amp;lsquo;li&amp;rsquo;);for(var fid in elms){if(typeof elms[fid] === &amp;lsquo;object&amp;rsquo; &amp;amp;&amp;amp; elms[fid].className != &amp;ldquo;disabled&amp;rdquo;){fs.click(elms[fid]);}} Only select the new friends whitout invites. Enjoy It!!</description>
-    </item>
-    
-    <item>
-      <title>A un año del lanzamiento oficial de la red social del Folklore, Folgama.com</title>
-      <link>https://carakan.github.io/blog/2010/06/a-un-a%C3%B1o-del-lanzamiento-oficial-de-la-red-social-del-folklore-folgama.com/</link>
-      <pubDate>Mon, 07 Jun 2010 12:03:00 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2010/06/a-un-a%C3%B1o-del-lanzamiento-oficial-de-la-red-social-del-folklore-folgama.com/</guid>
-      <description>replica - Jun 4, 2010
-Good,Is right that this </description>
     </item>
     
     <item>
@@ -416,16 +365,6 @@ Ahora estoy descansando y a la ves paseando por diferentes calles y lugares de B
       <pubDate>Thu, 17 Sep 2009 00:01:34 +0000</pubDate>
       
       <guid>https://carakan.github.io/blog/2009/09/mi-viaje-a-argentina-y-mi-trabajo-en-teracode/</guid>
-      <description>[Pedro]( &amp;ldquo;pedroherna@gmail.com&amp;rdquo;) - Jan 1, 2011
-Estas contento trabajando en TERACODE, me interesa la empresa, podrias contar tu experiencia? gracias! </description>
-    </item>
-    
-    <item>
-      <title>Mi Viaje a Argentina y mi trabajo en Teracode</title>
-      <link>https://carakan.github.io/blog/2009/09/mi-viaje-a-argentina-y-mi-trabajo-en-teracode/</link>
-      <pubDate>Thu, 17 Sep 2009 00:01:34 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2009/09/mi-viaje-a-argentina-y-mi-trabajo-en-teracode/</guid>
       <description>Si ya estoy en Buenos Aires, menudo viaje que tuve (lo hice por bus), en el que tuve una serie de acontecimientos raros que me ayudaran a realizar a un futuro unas mejoras tanto personales como colectivas, y al fin el sábado a eso de las 6:30 PM llegue a la terminal Liniers, y me encontré con mi amigo Luis, que tuvo la gentiliza de esperarme y mostrarme un poco lo de la ciudad y sus alrededores.</description>
     </item>
     
@@ -476,16 +415,6 @@ Fuente</description>
       <pubDate>Tue, 21 Jul 2009 14:25:12 +0000</pubDate>
       
       <guid>https://carakan.github.io/blog/2009/07/folgama-es-el-patrocinador-oficial-via-web-de-la-xxii-entrada-universitaria/</guid>
-      <description>Alberto Medrano - Jul 2, 2009
-Carakan como te dije via celular haber si me escribes a mi correo con el objetivo de tratar de coadyuvar algo para la Entrada Universitaria de la UMSA. Saludos @medranoprensa </description>
-    </item>
-    
-    <item>
-      <title>Folgama es el patrocinador oficial via web, de la XXII Entrada Universitaria</title>
-      <link>https://carakan.github.io/blog/2009/07/folgama-es-el-patrocinador-oficial-via-web-de-la-xxii-entrada-universitaria/</link>
-      <pubDate>Tue, 21 Jul 2009 14:25:12 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2009/07/folgama-es-el-patrocinador-oficial-via-web-de-la-xxii-entrada-universitaria/</guid>
       <description>Esta semana fue para mi muy ajetreada, desde el domingo que salíamos como de costumbre con mis socios de CasasMap.com a la feria dominical de la Av. del Prado, con nuestros instrumentos de trabajo – Una televisor LCD de 40’ y una laptop – llegando vimos que no estaba armado nuestro stand, así que nosotros empezamos a hacerlo…En un momento de descuido nos robaron la laptop, en la que se encontraba además el modem 3G de tigo, no sabíamos que hacer, era algo frustrante… Pero hoy es un gran día para mi el poder dar a conocer que folgama.</description>
     </item>
     
@@ -514,31 +443,8 @@ visto en Video: DIY transformer.</description>
       <pubDate>Wed, 24 Jun 2009 23:17:32 +0000</pubDate>
       
       <guid>https://carakan.github.io/blog/2009/06/cumplo-dos-a%C3%B1os-en-este-blog/</guid>
-      <description>Vania B. - Jun 4, 2009
-Felicidades Carlos! que sean muchos años más en la blogósfera. [Michael]( &amp;ldquo;broseph4521@gmail.com&amp;rdquo;) - Jun 5, 2009
-Hey, have you seen this news article? New details about Michael Jackson&amp;rsquo;s Death Emerge I was wondering if you were going to blog about this&amp;hellip; </description>
-    </item>
-    
-    <item>
-      <title>Cumplo dos años en este Blog</title>
-      <link>https://carakan.github.io/blog/2009/06/cumplo-dos-a%C3%B1os-en-este-blog/</link>
-      <pubDate>Wed, 24 Jun 2009 23:17:32 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2009/06/cumplo-dos-a%C3%B1os-en-este-blog/</guid>
       <description>Lo que se inicio por simple curiosidad, después de dos años ya es una pagina personal donde he estado redactando mis vivencias, algunas cosas divertidas que encontré por ahí, y mas que nada aprovechar el medio para mostrar mis iniciativas y emprendimientos.
 Y ahora a trabajar mas ….</description>
-    </item>
-    
-    <item>
-      <title>Supuestas fotos del accidente del avión de Air France. FAIL!!!</title>
-      <link>https://carakan.github.io/blog/2009/06/supuestas-fotos-del-accidente-del-avi%C3%B3n-de-air-france.-fail/</link>
-      <pubDate>Sat, 20 Jun 2009 00:11:20 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2009/06/supuestas-fotos-del-accidente-del-avi%C3%B3n-de-air-france.-fail/</guid>
-      <description>SSTRM - Jun 5, 2009
-Epic Fail Indeed. dkk - Jun 6, 2009
-Supuestas fotos del accidente del avion de Air France. FAIL!!! http://linkk.me/2zg [Katy]( &amp;ldquo;myndmachine43@gmail.com&amp;rdquo;) - Jun 2, 2009
-Pretty good post. I just came by your site and wanted to say that I have really liked browsing your posts. Any way I&amp;rsquo;ll be subscribing to your feed and I hope you post again soon! </description>
     </item>
     
     <item>
@@ -566,19 +472,6 @@ Pretty good post. I just came by your site and wanted to say that I have really 
       
       <guid>https://carakan.github.io/blog/2009/06/version-real-de-street-fighter/</guid>
       <description>Navegando por internet me encontre con este video algo irreal pero me dejo atonito, en mi momento de descanso.</description>
-    </item>
-    
-    <item>
-      <title>Lanzamiento oficial de la red social del folclore Folgama.com</title>
-      <link>https://carakan.github.io/blog/2009/06/lanzamiento-oficial-de-la-red-social-del-folclore-folgama.com/</link>
-      <pubDate>Fri, 05 Jun 2009 15:17:59 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2009/06/lanzamiento-oficial-de-la-red-social-del-folclore-folgama.com/</guid>
-      <description>[I Make Thousands of Dollars a Month Posting Links on Google from Home]( &amp;ldquo;mikesmoney9984@gmail.com&amp;rdquo;) - Jun 2, 2009
-Nice post, thanks. Selpulcral - Jun 0, 2009
-GENIAL! unamos fuerzas y le incluímos un foro&amp;hellip; te parece? te mandé un mail. me encantaría trabajar contigo. Besos! [sixpack]( &amp;ldquo;sixpack@yahoo.com&amp;rdquo;) - Jun 2, 2009
-Esa pagina nacio muerta &amp;hellip;.no hay nadie alfredo - Jul 5, 2009
-Hola como estas, antes que nada te mando un saludo y felicidades por este sitio.</description>
     </item>
     
     <item>
@@ -648,17 +541,6 @@ Digo esto por que recientemente estoy realizando una pequeña aplicación dentro
       <guid>https://carakan.github.io/blog/2009/05/transmisi%C3%B3n-de-un-viaje-espacial-en-twitter/</guid>
       <description>Simplemente genial, morí de risa 10 minutos.
 Via</description>
-    </item>
-    
-    <item>
-      <title>Actualiza tu mensaje personal del Messenger desde Twitter (reload)</title>
-      <link>https://carakan.github.io/blog/2009/04/actualiza-tu-mensaje-personal-del-messenger-desde-twitter-reload/</link>
-      <pubDate>Fri, 24 Apr 2009 00:05:36 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2009/04/actualiza-tu-mensaje-personal-del-messenger-desde-twitter-reload/</guid>
-      <description>[José Alfredo Fuentes V]( &amp;ldquo;riquibrus@hotmail.com&amp;rdquo;) - May 1, 2009
-Mi estimado, que barabro!!ya hize la prueba y funciona perfectamente gracias por el dato XD!!! [Karina]( &amp;ldquo;karina10@hotmail.com&amp;rdquo;) - Mar 1, 2012
-funciona perfectamente gracias! </description>
     </item>
     
     <item>
@@ -741,16 +623,6 @@ Un año de emprendimiento y la satisfacción de haber cumplido nuestro primer ci
       
       <guid>https://carakan.github.io/blog/2009/03/las-consecuencias-de-la-crisis/</guid>
       <description>Sin palabras :D</description>
-    </item>
-    
-    <item>
-      <title>El rap del dengue</title>
-      <link>https://carakan.github.io/blog/2009/03/el-rap-del-dengue/</link>
-      <pubDate>Fri, 13 Mar 2009 22:14:22 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2009/03/el-rap-del-dengue/</guid>
-      <description>Hellen CLARK - Mar 1, 2009
-Hey, I justed wanted to give you a compliment on your blog, keep up the great work. I will be back to check it out in the near future. </description>
     </item>
     
     <item>
@@ -926,16 +798,6 @@ One year in 40 seconds from Eirik Solheim on Vimeo.</description>
       <pubDate>Fri, 02 Jan 2009 15:42:21 +0000</pubDate>
       
       <guid>https://carakan.github.io/blog/2009/01/you-tube-el-a%C3%B1o-en-un-video/</guid>
-      <description>Alberto Medrano - Jan 0, 2009
-Hola amigo, que tal? como andas? te invito a visitar mi blog: http://elaltonoticias.blogspot.com, espero me des criticas y comentarios saludos </description>
-    </item>
-    
-    <item>
-      <title>You tube el año en un video</title>
-      <link>https://carakan.github.io/blog/2009/01/you-tube-el-a%C3%B1o-en-un-video/</link>
-      <pubDate>Fri, 02 Jan 2009 15:42:21 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2009/01/you-tube-el-a%C3%B1o-en-un-video/</guid>
       <description>You Tube apuesta siempre por la viralidad, y ahora nos muestran un video bastante insolito.
 via: blog de You Tube y Desde mi blog.</description>
     </item>
@@ -986,16 +848,6 @@ Felices Fiestas y prospero año nuevo.   Creo que me dedicare al año a bailar :
       
       <guid>https://carakan.github.io/blog/2008/12/novedades-en-bolivia-webprende/</guid>
       <description>como comente en el anterior post, se realizo con gran éxito el encuentro de emprendedores web en Bolivia, en el cual se pudo ver lo que existe mucho potencial dentro de nuestro país, lo siguiente que se logro acordar es de elaborar un listado de personas que tengan conocimientos en cuanto a tecnología y desarrollo, para ver el nivel con el que contamos y así poder nivelar a otros que tengan ganas de aprender, así que publico la encuesta a pedido de grupo conformado en Webprende, si no asististe al evento también puedes participar llenando el formulario.</description>
-    </item>
-    
-    <item>
-      <title>Bolivia webprende, Encuentro de emprendedores web en Bolivia</title>
-      <link>https://carakan.github.io/blog/2008/12/bolivia-webprende-encuentro-de-emprendedores-web-en-bolivia/</link>
-      <pubDate>Thu, 11 Dec 2008 22:27:09 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2008/12/bolivia-webprende-encuentro-de-emprendedores-web-en-bolivia/</guid>
-      <description>Novedades en Bolivia - Webprende | carakan =&amp;gt; web 2.0 y otras cosas. - Dec 2, 2008
-[&amp;hellip;] comente en el anterior post, se realizo con gran éxito el encuentro de emprendedores web en Bolivia, en el cual se pudo ver lo que existe mucho potencial dentro de nuestro país, lo siguiente que se [&amp;hellip;] Conclusiones del primer encuentro de emprendedores Web en Bolivia (Webprende) | carakan =&amp;gt; web 2.0 y otras cosas.</description>
     </item>
     
     <item>
@@ -1060,16 +912,6 @@ Como anteriormente escribí Casasmap es una mashup que utiliza Google Maps (Geol
       <pubDate>Fri, 28 Nov 2008 14:04:00 +0000</pubDate>
       
       <guid>https://carakan.github.io/blog/2008/11/y-facebook-se-vuelve-cada-d%C3%ADa-mas-usual/</guid>
-      <description>Maria Cristina - Nov 0, 2008
-es cierto tambien otra frase foto para el Face, si no es publiciado en el facebook no es foto de veritas jajaja, saludos y buen inicio de semana </description>
-    </item>
-    
-    <item>
-      <title>Y facebook se vuelve cada día mas usual</title>
-      <link>https://carakan.github.io/blog/2008/11/y-facebook-se-vuelve-cada-d%C3%ADa-mas-usual/</link>
-      <pubDate>Fri, 28 Nov 2008 14:04:00 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2008/11/y-facebook-se-vuelve-cada-d%C3%ADa-mas-usual/</guid>
       <description>Solo esta caricatura demuestra lo usual que es utilizar facebook en un mundo que cada dia esta mas y mas conectado:</description>
     </item>
     
@@ -1092,16 +934,6 @@ Via</description>
       <guid>https://carakan.github.io/blog/2008/11/lo-que-sera-la-web-2.5/</guid>
       <description>Después del cierre definitivo de Mobuzz, con una forma muy disimulada de generar dinero, que ha sido además muy arriesgado por el cierre del sitio, pero de haber dado resultado hubiera sido una formula mas para ganar dinero sobre un sitio, ahora lo que se plantea en los sitios web 2.0 es crear maneras ingeniosas de negocios.
 Una de más radicales es la de cobrar anualmente por usar los servicios usuales, algo como lo que actualmente es la televisión por cable, sitios como: youtube, facebook, twitter y otros, que hacerlo ahora no sería muy prudente y además arriesgado, pero dentro de cinco o diez años, cuando la generación de los nativos digitales actual sea más creciente, entonces ellos pagaran con una sonrisa para que existan los servicios para ellos “vitales”.</description>
-    </item>
-    
-    <item>
-      <title>Mobuzz no va mas</title>
-      <link>https://carakan.github.io/blog/2008/11/mobuzz-no-va-mas/</link>
-      <pubDate>Wed, 26 Nov 2008 22:18:13 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2008/11/mobuzz-no-va-mas/</guid>
-      <description>Lo que sera la web 2.5 | carakan =&amp;gt; web 2.0 y otras cosas. - Nov 4, 2008
-[&amp;hellip;] del cierre definitivo de Mobuzz, con una forma muy disimulada de generar dinero, que ha sido además muy arriesgado por el cierre [&amp;hellip;] </description>
     </item>
     
     <item>
@@ -1140,16 +972,6 @@ Comunicado de Mobuzz MobuzzTv comunica a todos sus seguidores con profundo pesar
       <pubDate>Thu, 20 Nov 2008 00:44:46 +0000</pubDate>
       
       <guid>https://carakan.github.io/blog/2008/11/ya-se-puede-cambiar-el-theme-de-gmail/</guid>
-      <description>nadie007 - Nov 3, 2008
-vaya quedaron muy lindo! XD solo que todavia no estan disponibles XD </description>
-    </item>
-    
-    <item>
-      <title>Ya se puede cambiar el Theme de gmail</title>
-      <link>https://carakan.github.io/blog/2008/11/ya-se-puede-cambiar-el-theme-de-gmail/</link>
-      <pubDate>Thu, 20 Nov 2008 00:44:46 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2008/11/ya-se-puede-cambiar-el-theme-de-gmail/</guid>
       <description>Es lo que esta recorriendo la noticia en toda la web, aca los diseños, que por lo que vi todavía a mi no me funciona dentro del idioma español ni en el ingles y el el blog oficial dicen que estará listo dentro de pocos días, que manera de difundir la noticia, pero si quieres probar solamente has click a este enlace. Noticia en el blog oficial de Google, y en muchos otros blogs.</description>
     </item>
     
@@ -1160,17 +982,6 @@ vaya quedaron muy lindo! XD solo que todavia no estan disponibles XD </descripti
       
       <guid>https://carakan.github.io/blog/2008/11/lucha-contra-los-grandes-blogs/</guid>
       <description>La cara verdadera de la web 2.0 ya se esta mostrando, poco a poco se están formando los imperios, los mas conocidos Google y Facebook, que ostentan gran poder como para aplastar y comprarse a proyectos pequeños que interesen agregar. Lo mismo ocurre con los Blogs, que hace años eran simplemente un pasatiempo o una forma de expresarse, y que ahora se volvió un negocio para las grandes redes de blogs que captan a miles de usuarios, dejando a un lado a blogs de tipo personal o de nivel mas pequeño, es por eso que en el blog de extremisimo, que levanta un alto a los blogs grandes y quitarles publico, una gran inicitiva!</description>
-    </item>
-    
-    <item>
-      <title>Bob Esponja de carne y hueso</title>
-      <link>https://carakan.github.io/blog/2008/11/bob-esponja-de-carne-y-hueso/</link>
-      <pubDate>Wed, 19 Nov 2008 14:11:00 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2008/11/bob-esponja-de-carne-y-hueso/</guid>
-      <description>nadie007 - Nov 3, 2008
-xdxd excelente! vaya que si se parece abra que buscar a patricio pro ahi! [tuenti]( &amp;ldquo;secretosecreto1@hotmail.es&amp;rdquo;) - Feb 6, 2011
-dios que foto mas falsaaaaaaa es una mierda de fotoooo vallla valla esto es lo que faltabaaaaa ai que verrrrrr jjajajaajajaj que tontos sois los que habeis ello la fotiko xD Xd </description>
     </item>
     
     <item>
@@ -1282,16 +1093,6 @@ Maestro CSS, destripando estilos. Capitulo 1 - Resetea tu CSS.</description>
       <pubDate>Mon, 03 Nov 2008 13:00:00 +0000</pubDate>
       
       <guid>https://carakan.github.io/blog/2008/11/en-que-se-parecen-windows-y-google-crome/</guid>
-      <description>Maria Cristina - Nov 1, 2008
-buenisimo Carlitos, saludos enormes para ti </description>
-    </item>
-    
-    <item>
-      <title>En que se parecen Windows y Google Crome?</title>
-      <link>https://carakan.github.io/blog/2008/11/en-que-se-parecen-windows-y-google-crome/</link>
-      <pubDate>Mon, 03 Nov 2008 13:00:00 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2008/11/en-que-se-parecen-windows-y-google-crome/</guid>
       <description>Ahora se por que se odian :D Visto en Ribosomatic</description>
     </item>
     
@@ -1331,16 +1132,6 @@ Si ese es el titulo con el que entramos al concurso, no se si llamarlo así, que
       <pubDate>Mon, 27 Oct 2008 16:33:20 +0000</pubDate>
       
       <guid>https://carakan.github.io/blog/2008/10/mapa-de-las-redes-sociales-en-el-mundo/</guid>
-      <description>Alfabetización Digital &amp;raquo; Blog Archive &amp;raquo; Mapa de las redes sociales - Oct 1, 2008
-[&amp;hellip;] en Carakan, Alianzo, Noticias Tecnológicas, No entres a mi blog y muchos otros [&amp;hellip;] </description>
-    </item>
-    
-    <item>
-      <title>Mapa de las redes sociales en el mundo</title>
-      <link>https://carakan.github.io/blog/2008/10/mapa-de-las-redes-sociales-en-el-mundo/</link>
-      <pubDate>Mon, 27 Oct 2008 16:33:20 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2008/10/mapa-de-las-redes-sociales-en-el-mundo/</guid>
       <description>Me acabo de encontrar con el mapa de redes sociales en el mundo lo que me sorprende es que para nuestro país Bolivia predomina Facebook, una red social horizontal, para cuando una red social vertical para latinoamerica?  Visto en muchos blogs.</description>
     </item>
     
@@ -1351,17 +1142,6 @@ Si ese es el titulo con el que entramos al concurso, no se si llamarlo así, que
       
       <guid>https://carakan.github.io/blog/2008/10/azafatas-de-la-rails-summit-latino-americano/</guid>
       <description>Ya termino el evento de la Rails Summit de Sao Paulo Brasil, no pude ir por factores económicos (si voy por una laptop), la verdad que me quede con las ganas de ir y sobre las cosas que hubiera aprendido, como un consuelo encontré algo que me gusto de este encuentro fue la creación de un proyecto (repositorio) en GitHub llamado morena open source, donde se recolectan fotos y videos referidas a las azafatas brasileras del evento, unas son estas.</description>
-    </item>
-    
-    <item>
-      <title>Garfield si existe (y II)</title>
-      <link>https://carakan.github.io/blog/2008/10/garfield-si-existe-y-ii/</link>
-      <pubDate>Thu, 23 Oct 2008 15:47:30 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2008/10/garfield-si-existe-y-ii/</guid>
-      <description>[caminante_x]( &amp;ldquo;caminante_x@yahoo.com&amp;rdquo;) - Oct 4, 2008
-Wow, doc, es cierto Garfield existe! solo falta que encontres a Odi ! XD saludos Jimmy Piña - Jan 2, 2009
-Necesito saber con urgencia es que no lo encuentro es mi trabajo actualizar esta pagina </description>
     </item>
     
     <item>
@@ -1907,7 +1687,7 @@ Gracias a un post mio sobre emprendimientos web 2.0 y a la colaboracion de Ramir
       <guid>https://carakan.github.io/blog/2008/06/llamar-a-procedimientos-pl/sql-de-oracle-con-ruby-plsql/</guid>
       <description>Buscando una manera mas sencilla de poder llamar a procedimientos almacenados de Oracle pl/sql, encontré la gema ruby-plsql que es una simple API para procedimientos almacenados en oracle, su uso es muy sencillo como el siguiente:
 Si tenemos el siguiente paquete:
- CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCHAR2, p_out OUT VARCHAR2) IS BEGIN p_out := &#39;Se introdujo: &#39; || p_in; END; END;  Ahora dentro del código, como ejemplo dentro del controlador:</description>
+CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCHAR2, p_out OUT VARCHAR2) IS BEGIN p_out := &amp;#39;Se introdujo: &amp;#39; || p_in; END; END; Ahora dentro del código, como ejemplo dentro del controlador:</description>
     </item>
     
     <item>
@@ -2035,16 +1815,6 @@ Si tenemos el siguiente paquete:
       <pubDate>Wed, 16 Apr 2008 15:31:54 +0000</pubDate>
       
       <guid>https://carakan.github.io/blog/2008/04/y-ahora-que-es-lo-que-hacemos/</guid>
-      <description>carakan | web 2.0 y otras cosas. &amp;raquo; QHacer ya esta online. - Apr 5, 2008
-[&amp;hellip;] explique anteriormente, es un sitio para compartir tus actividades importantes, al modo 2.0, y que ademas empezo como una [&amp;hellip;] </description>
-    </item>
-    
-    <item>
-      <title>Y ahora que es lo que hacemos???</title>
-      <link>https://carakan.github.io/blog/2008/04/y-ahora-que-es-lo-que-hacemos/</link>
-      <pubDate>Wed, 16 Apr 2008 15:31:54 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2008/04/y-ahora-que-es-lo-que-hacemos/</guid>
       <description>Escribo de tiempo y es que el trabajo me esta apresando :( , pero ahora quiero hablar de uno de los proyectos que estamos desarrollando en Wiebia labs, bastante profesional el nombresito no?, bueno nuestro hijo que todavía se esta gestando es qhacer.com una web 2.0 para poder compartir nuestras actividades importantes y diarias, esta en fase bastante alpha :) asi que visitenla y sugieran mejoras. Ahh el sitio esta siendo desarrollado por Elmer Freddy Mendoza, un compañero que esta fascinado igualmente que yo con el mundo Rails, junto con Ramiro Huayller, ya somos tres las personas que publicamente saben de Ruby on Rails en Bolivia!</description>
     </item>
     
@@ -2073,19 +1843,6 @@ Si tenemos el siguiente paquete:
       
       <guid>https://carakan.github.io/blog/2008/03/novedades-en-ruby-1.9-y-proximo-lanzamiento-de-ruby-1.8.7/</guid>
       <description>Segun leo en pagina de infoq, ya se lanzo una nueva versión de desarrollo de ruby en la rama 1.9, que todavia esta en desarrollo :( Ruby 1.9.0-1, el cual corrigen y mejoran esta versión, ademas que se viene para el mes de abril la versión 1.8.7 (estable) una versión que se aproximara a la 1.9 en algunas caracteristicas. Visto en InfoQ.</description>
-    </item>
-    
-    <item>
-      <title>Que es ser obrero 2.0?</title>
-      <link>https://carakan.github.io/blog/2008/03/que-es-ser-obrero-2.0/</link>
-      <pubDate>Tue, 04 Mar 2008 13:42:30 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2008/03/que-es-ser-obrero-2.0/</guid>
-      <description>que te - Mar 5, 2008
-ddd Tigran - Nov 4, 2008
-a good theme, and you can read more camilo - Apr 2, 2011
-jajajjaajaa [gabii]( &amp;ldquo;gabiiuzu@hotmail.com&amp;rdquo;) - Oct 5, 2011
-jijijiji :D No Entiendo Nada </description>
     </item>
     
     <item>
@@ -2177,17 +1934,6 @@ visto en No quiero se funcionario.</description>
       <pubDate>Thu, 10 Jan 2008 23:15:07 +0000</pubDate>
       
       <guid>https://carakan.github.io/blog/2008/01/sali%C3%B3-a-la-venta-el-peri%C3%B3dico-cr%C3%B3nica/</guid>
-      <description>[sandra citlali becerra sànchez]( &amp;ldquo;citlali2009@hotmail.com&amp;rdquo;) - Feb 3, 2009
-quiero encotra periodicos interesantes por favor y si quieren llamar el numero es celular:3221603663 [sandra citlali becerra sànchez]( &amp;ldquo;citlali2009@hotmail.com&amp;rdquo;) - Feb 3, 2009
-por favor quiero un pediorico interesante para mi tarea de mi escuela pueden llammar a este numero celular:3221603663 gracias por allu dar y muy buena pagina </description>
-    </item>
-    
-    <item>
-      <title>Salió a la venta el periódico crónica</title>
-      <link>https://carakan.github.io/blog/2008/01/sali%C3%B3-a-la-venta-el-peri%C3%B3dico-cr%C3%B3nica/</link>
-      <pubDate>Thu, 10 Jan 2008 23:15:07 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2008/01/sali%C3%B3-a-la-venta-el-peri%C3%B3dico-cr%C3%B3nica/</guid>
       <description>Ayer un poco tarde salió el primer ejemplar del periódico orureño Crónica, escribo esta entrada para desearle los mejores augurios, incluido a mi padre Esteban Ramos el encargado de talleres e impresión, para que les vaya muy bien en este año. Aunque la tecnología aumenta siempre es mejor lo tradicional. Mi apoyo incondicional a este nuevo periódico !!!!</description>
     </item>
     
@@ -2227,18 +1973,6 @@ Feliz navidad y prospero año 2008.</description>
       <guid>https://carakan.github.io/blog/2007/12/como-actualizar-a-rails-2.0.1-y-soluci%C3%B3n-a-problemas/</guid>
       <description>Si bien ya salió la versión 2 de rails, estaba bastante afanoso a por probar en mi vps el poder de esta nueva versión.
 El problema es que al momento de estar actualizando rails me mostraba un mensaje de error algo con la memoria, la causa era que se habían cambiado los índices de gemas del repositorio, algo explicado aqui. La solución que me funciono es de actualizar rubygems a la mas actual 0.</description>
-    </item>
-    
-    <item>
-      <title>Manual de Jquery y lo que debes de saber antes de meterte a Ajax</title>
-      <link>https://carakan.github.io/blog/2007/12/manual-de-jquery-y-lo-que-debes-de-saber-antes-de-meterte-a-ajax/</link>
-      <pubDate>Sun, 09 Dec 2007 05:39:40 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2007/12/manual-de-jquery-y-lo-que-debes-de-saber-antes-de-meterte-a-ajax/</guid>
-      <description>[Guillermo]( &amp;ldquo;gobregonortiz@gmail.com&amp;rdquo;) - Oct 4, 2008
-mejor tarde q nunca dicen por aca jaja, por fin llegue, gracias por el manual, me viene de 10 para meterme con esta libreria Un año blogueando | carakan | web 2.0 y otras cosas. - Jul 3, 2008
-[&amp;hellip;] Manual de Jquery y lo que debes de saber antes de meterte a Ajax (589 visitas) [&amp;hellip;] [fonsek]( &amp;ldquo;fonsecovic@hotmail.com&amp;rdquo;) - Oct 2, 2009
-excelente el link al manual de JQuery &amp;hellip;me es de ultra gran utilidad ya que en mi &amp;ldquo;proyecto de grado&amp;rdquo; me piden implementar el marco de trabajo &amp;ldquo;Scrum&amp;rdquo; con &amp;ldquo;Ajax&amp;rdquo; lo cual implica que debo manejar bien algunos framework (Jquery) y sobre todo aprender Drag-Drop&amp;hellip;.</description>
     </item>
     
     <item>
@@ -2407,16 +2141,6 @@ Quiero agradecer el apoyo de la Sra. Anne Marie Van Swinderen que nos esta solve
       <pubDate>Mon, 01 Oct 2007 19:45:30 +0000</pubDate>
       
       <guid>https://carakan.github.io/blog/2007/10/mandamos-el-perfil-de-nuestro-negocio-a-ideas-emprendedoras/</guid>
-      <description>ramiro - Oct 1, 2007
-vamos a ganar carajo!&amp;hellip;sino que venga un terremoto para que nos lleve a la mierda a todos </description>
-    </item>
-    
-    <item>
-      <title>Mandamos el perfil de nuestro negocio a IDEAS Emprendedoras</title>
-      <link>https://carakan.github.io/blog/2007/10/mandamos-el-perfil-de-nuestro-negocio-a-ideas-emprendedoras/</link>
-      <pubDate>Mon, 01 Oct 2007 19:45:30 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2007/10/mandamos-el-perfil-de-nuestro-negocio-a-ideas-emprendedoras/</guid>
       <description>Si hasta el anterior viernes 28 de sábado, mandamos nuestra propuesta de negocio:
 Educación del siglo 21
 Esperamos que nos salga bien esto de apostar por una educación mas acorde a la tecnología actual, usando además Software Libre, como ser Moodle, muchas gracias a Ramiro, que cráneo bastante como se haría el Negocio de esta idea.
@@ -2449,17 +2173,6 @@ Si no tienes idea de que trata esto es proponer una idea de negocio, registrarla
       
       <guid>https://carakan.github.io/blog/2007/09/premio-por-desarrollador-4-estrellas/</guid>
       <description>Si me llego el premio de la Microsoft por obtener la cuarta estrella en el programa desarrollador cinco estrellas, es un CD con un Emulador de vuelos Flight Simulator X, lo instale y no se, no me atrayen estas cosas, gane la cuarta estrella cuando aparecio, fui el primero en Bolivia, ademas la intencion de la estrella solidaria con la idea que solamente den &amp;ldquo;premio&amp;rdquo; a los tres primeros paises que tengan mas desarrolladores 4 estrellas, humm me hace pensar&amp;hellip;.</description>
-    </item>
-    
-    <item>
-      <title>Salio la guia definitiva de la materia INF-121</title>
-      <link>https://carakan.github.io/blog/2007/09/salio-la-guia-definitiva-de-la-materia-inf-121/</link>
-      <pubDate>Tue, 11 Sep 2007 20:15:22 +0000</pubDate>
-      
-      <guid>https://carakan.github.io/blog/2007/09/salio-la-guia-definitiva-de-la-materia-inf-121/</guid>
-      <description>att cellular long distance - Jan 5, 2009
-att cellular long distance I completely agree. [Cuanza]( &amp;ldquo;rojutolan@hotmail.com&amp;rdquo;) - Aug 2, 2009
-el link como que no da </description>
     </item>
     
     <item>
