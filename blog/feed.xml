@@ -6,10 +6,22 @@
     <description>Recent content in Blogs on carakan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 12 Sep 2019 12:15:47 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 12 Sep 2019 15:49:33 -0400</lastBuildDate>
     
 	<atom:link href="https://carakan.github.io/blog/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to Show Hex Colors on Neovim</title>
+      <link>https://carakan.github.io/blog/2019/09/how-to-show-hex-colors-on-neovim/</link>
+      <pubDate>Thu, 12 Sep 2019 15:49:33 -0400</pubDate>
+      
+      <guid>https://carakan.github.io/blog/2019/09/how-to-show-hex-colors-on-neovim/</guid>
+      <description>One thing that I like is to show HEX colors on css, html and even on javascript using NEOVIM, to do that I was using Colorizer plugin but now I switched to use vim-hexokinase and it&amp;rsquo;s asynchronous!
+to install you might need to install before go language:
+brew install go and this is my config:
+let g:Hexokinase_ftOptInPatterns = {\ &amp;#39;css&amp;#39;: &amp;#39;full_hex,triple_hex,rgb,rgba,hsl,hsla,colour_names&amp;#39;,\ &amp;#39;html&amp;#39;: &amp;#39;full_hex,rgb,rgba,hsl,hsla&amp;#39;,\ &amp;#39;javascript&amp;#39;: &amp;#39;full_hex,rgb,rgba,hsl,hsla&amp;#39;\ }let g:Hexokinase_virtualText = &amp;#39; ██████&amp;#39; watch all of my dotfiles</description>
+    </item>
     
     <item>
       <title>How to Manage Environment Variables</title>

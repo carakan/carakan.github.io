@@ -4,12 +4,32 @@
   
   <url>
     <loc>https://carakan.github.io/blog/</loc>
-    <lastmod>2019-09-12T12:15:47-04:00</lastmod>
+    <lastmod>2019-09-12T15:49:33-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://carakan.github.io/</loc>
-    <lastmod>2019-09-12T12:15:47-04:00</lastmod>
+    <lastmod>2019-09-12T15:49:33-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2019/09/how-to-show-hex-colors-on-neovim/</loc>
+    <lastmod>2019-09-12T15:49:33-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/neovim/</loc>
+    <lastmod>2019-09-12T15:49:33-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/</loc>
+    <lastmod>2019-09-12T15:49:33-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/til/</loc>
+    <lastmod>2019-09-12T15:49:33-04:00</lastmod>
   </url>
   
   <url>
@@ -24,16 +44,6 @@
   
   <url>
     <loc>https://carakan.github.io/blog/2019/09/how-to-manage-environment-variables/</loc>
-    <lastmod>2019-09-12T12:15:47-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/tags/</loc>
-    <lastmod>2019-09-12T12:15:47-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/tags/til/</loc>
     <lastmod>2019-09-12T12:15:47-04:00</lastmod>
   </url>
   
