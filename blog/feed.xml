@@ -31,7 +31,7 @@ let g:Hexokinase_ftOptInPatterns = {\ &amp;#39;css&amp;#39;: &amp;#39;full_hex,t
       <guid>https://carakan.github.io/blog/2019/09/how-to-manage-environment-variables/</guid>
       <description>In many projects that i have been working I want to manage GLOBAL&amp;rsquo;s variables, so to do that use direnv.
 to install (MacOS):
-brew install direnv Now the project needs to create a .envrc like this:
+brew install direnv Now the project needs to create a file .envrc like this:
 # Stripe Credentials export STRIPE_PRIVATE_KEY=&amp;#34;xxxxxxxxxxxx&amp;#34; export STRIPE_WEBHOOK_SECRET=&amp;#34;xxxxxxxxxxxxxxxx&amp;#34; entering in that directory direnv asks to allow the execution and use of that variables, so:
 direnv allow . And that&amp;rsquo;s it! you don&amp;rsquo;t need a custom solution for every programming language.</description>
     </item>
