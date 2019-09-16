@@ -97,8 +97,11 @@ pre {
   border-radius: 4px;
 }
 
+.til header h1 {
+  color: #542800;
+}
 .til section#category-pane {
-  background-color: #efe9d7;
+  background-color: #f2eee3;
 }
 
 .til section#category-pane div h6::after {
@@ -106,3 +109,4 @@ pre {
   font-weight: bold;
   float: right;
 }
+

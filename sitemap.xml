@@ -4,12 +4,37 @@
   
   <url>
     <loc>https://carakan.github.io/blog/</loc>
-    <lastmod>2019-09-12T15:49:33-04:00</lastmod>
+    <lastmod>2019-09-16T10:16:01-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://carakan.github.io/</loc>
-    <lastmod>2019-09-12T15:49:33-04:00</lastmod>
+    <lastmod>2019-09-16T10:16:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/emberjs/</loc>
+    <lastmod>2019-09-16T10:16:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2019/09/enable-prettier-in-ember-templates/</loc>
+    <lastmod>2019-09-16T10:16:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/prettier/</loc>
+    <lastmod>2019-09-16T10:16:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/</loc>
+    <lastmod>2019-09-16T10:16:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/til/</loc>
+    <lastmod>2019-09-16T10:16:01-04:00</lastmod>
   </url>
   
   <url>
@@ -19,16 +44,6 @@
   
   <url>
     <loc>https://carakan.github.io/tags/neovim/</loc>
-    <lastmod>2019-09-12T15:49:33-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/tags/</loc>
-    <lastmod>2019-09-12T15:49:33-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/tags/til/</loc>
     <lastmod>2019-09-12T15:49:33-04:00</lastmod>
   </url>
   
