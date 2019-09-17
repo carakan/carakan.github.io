@@ -3,13 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://carakan.github.io/tags/asdf/</loc>
+    <lastmod>2019-09-17T10:44:57-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://carakan.github.io/blog/</loc>
-    <lastmod>2019-09-16T10:16:01-04:00</lastmod>
+    <lastmod>2019-09-17T10:44:57-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://carakan.github.io/</loc>
-    <lastmod>2019-09-16T10:16:01-04:00</lastmod>
+    <lastmod>2019-09-17T10:44:57-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/</loc>
+    <lastmod>2019-09-17T10:44:57-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/til/</loc>
+    <lastmod>2019-09-17T10:44:57-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2019/09/upgrade-to-last-version-on-asdf/</loc>
+    <lastmod>2019-09-17T10:44:57-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/version-manager/</loc>
+    <lastmod>2019-09-17T10:44:57-04:00</lastmod>
   </url>
   
   <url>
@@ -24,16 +49,6 @@
   
   <url>
     <loc>https://carakan.github.io/tags/prettier/</loc>
-    <lastmod>2019-09-16T10:16:01-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/tags/</loc>
-    <lastmod>2019-09-16T10:16:01-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/tags/til/</loc>
     <lastmod>2019-09-16T10:16:01-04:00</lastmod>
   </url>
   

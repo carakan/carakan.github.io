@@ -6,10 +6,23 @@
     <description>Recent content on carakan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 16 Sep 2019 10:16:01 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 17 Sep 2019 10:44:57 -0400</lastBuildDate>
     
 	<atom:link href="https://carakan.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Upgrade to Last Version on ASDF</title>
+      <link>https://carakan.github.io/blog/2019/09/upgrade-to-last-version-on-asdf/</link>
+      <pubDate>Tue, 17 Sep 2019 10:44:57 -0400</pubDate>
+      
+      <guid>https://carakan.github.io/blog/2019/09/upgrade-to-last-version-on-asdf/</guid>
+      <description>ASDF is an incredible version manager, to install/upgrade to latest version available of an language you can do the following steps:
+asdf list-all &amp;lt;language&amp;gt; this show all of the versions available to install, select the latest:
+asdf install &amp;lt;language&amp;gt; x.y.z and edit if you have a global ~/.tool-versions to use that version everywhere:
+&amp;lt;languaje&amp;gt; x.y.z  real example to upgrade to latest version of erlang (10/17/2019):
+asdf list-all erlang asdf install erlang 22.</description>
+    </item>
     
     <item>
       <title>Enable Prettier in Ember templates</title>
@@ -18,7 +31,7 @@
       
       <guid>https://carakan.github.io/blog/2019/09/enable-prettier-in-ember-templates/</guid>
       <description>Prettier is an opinated code formatter, has built-in a lot of code formatters for languages, one of that is for handlebars (glimmer/mustache) but is hidden by default, to enable we only need to do this:
-create a .prettierrc in your home (~):
+create a .prettierrc in your home (~) with :
 { &amp;#34;overrides&amp;#34;: [ { &amp;#34;files&amp;#34;: &amp;#34;*.hbs&amp;#34;, &amp;#34;options&amp;#34;: { &amp;#34;parser&amp;#34;: &amp;#34;glimmer&amp;#34; // ... other custom configurations } } ] } and now you can use in your favorite editor or simple use directly with the CLI, for example:</description>
     </item>
     
