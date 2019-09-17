@@ -78,12 +78,12 @@ using NEOVIM, to do that I was using <code>Colorizer</code> plugin but now I swi
 <p>to install you might need to install before go language:</p>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">brew install go</code></pre></div>
 <p>and this is my config:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim"><span style="color:#a2f;font-weight:bold">let</span> g:Hexokinase_ftOptInPatterns = {<span style="">
-</span><span style=""></span>\     <span style="color:#b44">&#39;css&#39;</span>: <span style="color:#b44">&#39;full_hex,triple_hex,rgb,rgba,hsl,hsla,colour_names&#39;</span>,<span style="">
-</span><span style=""></span>\     <span style="color:#b44">&#39;html&#39;</span>: <span style="color:#b44">&#39;full_hex,rgb,rgba,hsl,hsla&#39;</span>,<span style="">
-</span><span style=""></span>\     <span style="color:#b44">&#39;javascript&#39;</span>: <span style="color:#b44">&#39;full_hex,rgb,rgba,hsl,hsla&#39;</span><span style="">
-</span><span style=""></span>\ }<span style="">
-</span><span style=""></span><span style="color:#a2f;font-weight:bold">let</span> g:Hexokinase_virtualText = <span style="color:#b44">&#39;     ██████&#39;</span></code></pre></div>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#a2f">let</span> g:Hexokinase_ftOptInPatterns <span style="color:#666">=</span> <span style="color:#666">{</span>
+<span style="color:#b62;font-weight:bold">\ </span>    <span style="color:#b44">&#39;css&#39;</span>: <span style="color:#b44">&#39;full_hex,triple_hex,rgb,rgba,hsl,hsla,colour_names&#39;</span>,
+<span style="color:#b62;font-weight:bold">\ </span>    <span style="color:#b44">&#39;html&#39;</span>: <span style="color:#b44">&#39;full_hex,rgb,rgba,hsl,hsla&#39;</span>,
+<span style="color:#b62;font-weight:bold">\ </span>    <span style="color:#b44">&#39;javascript&#39;</span>: <span style="color:#b44">&#39;full_hex,rgb,rgba,hsl,hsla&#39;</span>
+<span style="color:#b62;font-weight:bold">\ </span><span style="color:#666">}</span>
+<span style="color:#a2f">let</span> g:Hexokinase_virtualText <span style="color:#666">=</span> <span style="color:#b44">&#39;     ██████&#39;</span></code></pre></div>
 <p><a href="https://github.com/carakan/dotfiles">watch all of my dotfiles</a></p>
 
 <p>Happy coding!</p>

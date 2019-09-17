@@ -78,8 +78,8 @@ h6.meta {
   margin: 0 5px;
 }
 
-code: not(.hljs) {
-  color: #526d7a !important;
+code:not(.hljs) {
+  color: #52636b !important;
   background-color: #f1f5f9 !important;
 }
 
@@ -92,13 +92,13 @@ pre {
   color: #333;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #f2f2f2;
+  background-color: #f4f4f4 !important;
   border: 0px solid #ccc;
   border-radius: 4px;
 }
 
-.til pre{
-  background-color: #f2eade;
+.til pre {
+  background-color: #f2ede6 !important;
 }
 
 .til header h1 {
@@ -112,4 +112,8 @@ pre {
   content: '→ Today I Learned';
   font-weight: bold;
   float: right;
+}
+
+.til code:not(.hljs) {
+  color: #5b3400 !important;
 }

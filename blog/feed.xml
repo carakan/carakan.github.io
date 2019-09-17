@@ -44,7 +44,7 @@ create a .prettierrc in your home (~) with :
       <description>One thing that I like is to show HEX colors on css, html and even on javascript using NEOVIM, to do that I was using Colorizer plugin but now I switched to use vim-hexokinase and it&amp;rsquo;s asynchronous!
 to install you might need to install before go language:
 brew install go and this is my config:
-let g:Hexokinase_ftOptInPatterns = {\ &amp;#39;css&amp;#39;: &amp;#39;full_hex,triple_hex,rgb,rgba,hsl,hsla,colour_names&amp;#39;,\ &amp;#39;html&amp;#39;: &amp;#39;full_hex,rgb,rgba,hsl,hsla&amp;#39;,\ &amp;#39;javascript&amp;#39;: &amp;#39;full_hex,rgb,rgba,hsl,hsla&amp;#39;\ }let g:Hexokinase_virtualText = &amp;#39; ██████&amp;#39; watch all of my dotfiles</description>
+let g:Hexokinase_ftOptInPatterns = { \  &amp;#39;css&amp;#39;: &amp;#39;full_hex,triple_hex,rgb,rgba,hsl,hsla,colour_names&amp;#39;, \  &amp;#39;html&amp;#39;: &amp;#39;full_hex,rgb,rgba,hsl,hsla&amp;#39;, \  &amp;#39;javascript&amp;#39;: &amp;#39;full_hex,rgb,rgba,hsl,hsla&amp;#39; \ } let g:Hexokinase_virtualText = &amp;#39; ██████&amp;#39; watch all of my dotfiles</description>
     </item>
     
     <item>
