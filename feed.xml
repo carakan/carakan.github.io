@@ -6,10 +6,20 @@
     <description>Recent content on carakan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 17 Sep 2019 10:44:57 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 22 Sep 2019 22:30:04 -0400</lastBuildDate>
     
 	<atom:link href="https://carakan.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Configure and install last elixir-ls in Neovim</title>
+      <link>https://carakan.github.io/blog/2019/09/configure-and-install-last-elixir-ls-in-neovim/</link>
+      <pubDate>Sun, 22 Sep 2019 22:30:04 -0400</pubDate>
+      
+      <guid>https://carakan.github.io/blog/2019/09/configure-and-install-last-elixir-ls-in-neovim/</guid>
+      <description>Last version of ElixirLS have a lot of improvements, for example a new robust code sugestion provided by elixir-sense, intellisense with code documentation and other larger changes, but now i didn&amp;rsquo;t see an actual release to use it, so in this post we will clone the last repo, compile and will install in our local dev to take advantage of this new features.
+First clone and generate the executables of elixirLS:</description>
+    </item>
     
     <item>
       <title>Upgrade to Last Version on ASDF</title>

@@ -3,27 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://carakan.github.io/tags/asdf/</loc>
-    <lastmod>2019-09-17T10:44:57-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://carakan.github.io/blog/</loc>
-    <lastmod>2019-09-17T10:44:57-04:00</lastmod>
+    <lastmod>2019-09-22T22:30:04-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://carakan.github.io/</loc>
-    <lastmod>2019-09-17T10:44:57-04:00</lastmod>
+    <lastmod>2019-09-22T22:30:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2019/09/configure-and-install-last-elixir-ls-in-neovim/</loc>
+    <lastmod>2019-09-22T22:30:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/elixirls/</loc>
+    <lastmod>2019-09-22T22:30:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/neovim/</loc>
+    <lastmod>2019-09-22T22:30:04-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://carakan.github.io/tags/</loc>
-    <lastmod>2019-09-17T10:44:57-04:00</lastmod>
+    <lastmod>2019-09-22T22:30:04-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://carakan.github.io/tags/til/</loc>
+    <lastmod>2019-09-22T22:30:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/asdf/</loc>
     <lastmod>2019-09-17T10:44:57-04:00</lastmod>
   </url>
   
@@ -54,11 +69,6 @@
   
   <url>
     <loc>https://carakan.github.io/blog/2019/09/how-to-show-hex-colors-on-neovim/</loc>
-    <lastmod>2019-09-12T15:49:33-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/tags/neovim/</loc>
     <lastmod>2019-09-12T15:49:33-04:00</lastmod>
   </url>
   
