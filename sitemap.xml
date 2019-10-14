@@ -3,32 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://carakan.github.io/blog/2019/10/add-array-of-types-in-a-column-using-postgres-and-rails/</loc>
+    <lastmod>2019-10-14T11:09:24-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://carakan.github.io/tags/asdf/</loc>
-    <lastmod>2019-09-24T12:14:44-04:00</lastmod>
+    <lastmod>2019-10-14T11:09:24-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://carakan.github.io/blog/</loc>
-    <lastmod>2019-09-24T12:14:44-04:00</lastmod>
+    <lastmod>2019-10-14T11:09:24-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://carakan.github.io/</loc>
-    <lastmod>2019-09-24T12:14:44-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/blog/2019/09/install-yarn-if-you-are-using-nodejs-with-asdf/</loc>
-    <lastmod>2019-09-24T12:14:44-04:00</lastmod>
+    <lastmod>2019-10-14T11:09:24-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://carakan.github.io/tags/</loc>
-    <lastmod>2019-09-24T12:14:44-04:00</lastmod>
+    <lastmod>2019-10-14T11:09:24-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://carakan.github.io/tags/til/</loc>
+    <lastmod>2019-10-14T11:09:24-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/version-manager/</loc>
+    <lastmod>2019-10-14T11:09:24-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2019/09/install-yarn-if-you-are-using-nodejs-with-asdf/</loc>
     <lastmod>2019-09-24T12:14:44-04:00</lastmod>
   </url>
   
@@ -49,11 +59,6 @@
   
   <url>
     <loc>https://carakan.github.io/blog/2019/09/upgrade-to-latest-version-on-asdf/</loc>
-    <lastmod>2019-09-17T10:44:57-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/tags/version-manager/</loc>
     <lastmod>2019-09-17T10:44:57-04:00</lastmod>
   </url>
   
