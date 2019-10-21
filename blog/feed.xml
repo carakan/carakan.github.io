@@ -6,10 +6,22 @@
     <description>Recent content in Blogs on carakan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 14 Oct 2019 11:09:24 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 21 Oct 2019 11:51:11 -0400</lastBuildDate>
     
 	<atom:link href="https://carakan.github.io/blog/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to Sync Vscode Plugins Over Your Dotfiles</title>
+      <link>https://carakan.github.io/blog/2019/10/how-to-sync-vscode-plugins-over-your-dotfiles/</link>
+      <pubDate>Mon, 21 Oct 2019 11:51:11 -0400</pubDate>
+      
+      <guid>https://carakan.github.io/blog/2019/10/how-to-sync-vscode-plugins-over-your-dotfiles/</guid>
+      <description>I was looking a simple way to get sync all of my current setup of vscode, I did&amp;rsquo;t found a proper way to do with another plugin, but I found a commands to do this sync.
+first to have a list of plugins installed and save to a file:
+code --list-extensions &amp;gt; vscode-extensions.list to restore, read that file and install all plugins:
+cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat vscode-extensions.</description>
+    </item>
     
     <item>
       <title>Add Array of Types in a Column using Postgres and Rails</title>
