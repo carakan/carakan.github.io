@@ -76,23 +76,23 @@ rails
     <h2 id="context">Context</h2>
 <ul>
 <li>
-<p>The idea is to develop the same idea as devise describe in <a href="https://github.com/plataformatec/devise/wiki/How-To:-Email-only-sign-up">their guide</a>:</p>
+<p>The idea is to develop the same requirement as devise describe in <a href="https://github.com/plataformatec/devise/wiki/How-To:-Email-only-sign-up">their guide</a>:</p>
 </li>
 <li>
 <p>The project is using the <code>admin_user</code> approach and sets the default setup included on activeadmin.</p>
 </li>
 <li>
-<p><strong>(NOTE)</strong> One other solution and recommended is to migrate the <code>admin_user</code> model to <code>user</code> and configure devise
+<p><strong>(NOTE)</strong> One other recommended solution is to migrate the <code>admin_user</code> model to <code>user</code> and configure devise
 normally as a separate engine.</p>
 </li>
 </ul>
 <h2 id="guide">Guide</h2>
 <ul>
 <li>
-<p>If you haven't already, enable the confirmable module</p>
+<p>If you haven't already, enable the <a href="https://github.com/plataformatec/devise/#configuring-models">confirmable module</a></p>
 </li>
 <li>
-<p>If you haven't already, follow the Devise instructions for configuring views, install in <code>app/views/active_admin/devise</code></p>
+<p>If you haven't already, follow the Devise instructions for <a href="https://github.com/plataformatec/devise#configuring-views">configuring views</a>, install in <code>app/views/active_admin/devise</code></p>
 </li>
 <li>
 <p>Remove the password and password_confirmation inputs from your <code>views/active_admin/devise/registrations/new.html.erb</code></p>
@@ -110,9 +110,6 @@ normally as a separate engine.</p>
 <li>the page title from &ldquo;Change your password&rdquo; to &ldquo;Set your password&rdquo;</li>
 <li>the submit button value from &ldquo;Change my password&rdquo; to &ldquo;Set my password&rdquo;</li>
 </ul>
-</li>
-<li>
-<p>If you haven't already, follow the Devise instructions for configuring controllers specifically for ConfirmationsController</p>
 </li>
 <li>
 <p>Override the Devise definition of <code>after_confirmation_path_for</code> in your <code>ConfirmationsController</code>:</p>
@@ -141,8 +138,8 @@ normally as a separate engine.</p>
 </code></pre></div></li>
 </ul>
 <h2 id="conclusions">Conclusions</h2>
-<p>The solution provides here is not recommended to use only follow this guide if
-you don't mind moving from hacky active-admin devise default setup to a separate
+<p>The solution provides here is not recommended to use, only follow this guide if
+you don't mind moving from hacky activeadmin-devise default installation to a separate
 devise installation by lack of time, experience or the migration is nonsense at
 this moment.</p>
 
