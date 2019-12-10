@@ -16,7 +16,7 @@
   carakan - Llamar a procedimientos PL/SQL de Oracle con ruby-plsql 
 </title>
 
-<meta name="generator" content="Hugo 0.59.0" />
+<meta name="generator" content="Hugo 0.60.1" />
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
@@ -84,30 +84,28 @@ ruby on rails
   <div class="col-md-12 text-justify content">
     
     <p>Buscando una manera mas sencilla de poder llamar a procedimientos almacenados de Oracle pl/sql, encontré la gema ruby-plsql que es una simple API para procedimientos almacenados en oracle, su uso es muy sencillo como el siguiente:</p>
-
 <p>Si tenemos el siguiente paquete:</p>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#a2f;font-weight:bold">CREATE</span> <span style="color:#a2f;font-weight:bold">OR</span> <span style="color:#a2f;font-weight:bold">REPLACE</span> PACKAGE BODY scott.pck_prueba <span style="color:#a2f;font-weight:bold">IS</span>
     <span style="color:#a2f;font-weight:bold">PROCEDURE</span> LeeDatos(p_in VARCHAR2, p_out <span style="color:#a2f;font-weight:bold">OUT</span> VARCHAR2) <span style="color:#a2f;font-weight:bold">IS</span>
        <span style="color:#a2f;font-weight:bold">BEGIN</span>
-       p_out :<span style="color:#666">=</span> <span style="color:#b44">&#39;Se introdujo: &#39;</span> <span style="color:#666">||</span> p_in;
+       p_out :<span style="color:#666">=</span> <span style="color:#b44">&#39;</span><span style="color:#b44">Se introdujo: </span><span style="color:#b44">&#39;</span> <span style="color:#666">|</span><span style="color:#666">|</span> p_in;
     <span style="color:#a2f;font-weight:bold">END</span>;
-<span style="color:#a2f;font-weight:bold">END</span>;</code></pre></div>
-<p>Ahora dentro del código, como ejemplo dentro del controlador:</p>
+<span style="color:#a2f;font-weight:bold">END</span>;
+</code></pre></div><p>Ahora dentro del código, como ejemplo dentro del controlador:</p>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#a2f">require</span> <span style="">“</span>ruby_plsql<span style="">”</span>
 <span style="color:#a2f;font-weight:bold">class</span> <span style="color:#00f">UsuariosController</span> <span style="color:#666">&lt;</span> <span style="color:#800">ApplicationController</span>
-  <span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">index</span>
+  <span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00f"></span><span style="color:#666"></span><span style="color:#00a000">index</span>
     @usuarios <span style="color:#666">=</span> <span style="color:#800">Usuario</span><span style="color:#666">.</span>all
     plsql<span style="color:#666">.</span>connection <span style="color:#666">=</span> <span style="color:#800">OCI8</span><span style="color:#666">.</span>new(<span style="">”</span><span style="color:#800">SCOTT</span><span style="">”</span>, <span style="">“</span><span style="color:#800">PASS</span><span style="">”</span>)
     @hola <span style="color:#666">=</span> plsql<span style="color:#666">.</span>pck_prueba<span style="color:#666">.</span>LeeDatos(<span style="">”</span><span style="color:#800">Hola</span> desde <span style="color:#800">Oracle</span><span style="">”</span>)
     plsql<span style="color:#666">.</span>logoff
   <span style="color:#a2f;font-weight:bold">end</span>
-<span style="color:#a2f;font-weight:bold">end</span></code></pre></div>
-<p>Y para mostrar el dato, en la vista:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-erb" data-lang="erb"> &lt;%= @hola[:p_out] %&gt;</code></pre></div>
-<p>Para poder instalar la gema solamente teclee:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#666">[</span>sudo<span style="color:#666">]</span> gem install ruby-plsql</code></pre></div>
-<p>Realmente me facilito bastante el trabajo, me gusta el concepto y el uso que engloba la metaprogramacion.</p>
-
+<span style="color:#a2f;font-weight:bold">end</span>
+</code></pre></div><p>Y para mostrar el dato, en la vista:</p>
+<pre><code class="language-erb" data-lang="erb"> &lt;%= @hola[:p_out] %&gt;
+</code></pre><p>Para poder instalar la gema solamente teclee:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#666">[</span>sudo<span style="color:#666">]</span> gem install ruby-plsql
+</code></pre></div><p>Realmente me facilito bastante el trabajo, me gusta el concepto y el uso que engloba la metaprogramacion.</p>
 <p><strong>Nota.-</strong> Trabajando con la gema note que no trabaja en procedimientos con variables de entrada y salida, sino solamente de entrada o salida.</p>
 
       

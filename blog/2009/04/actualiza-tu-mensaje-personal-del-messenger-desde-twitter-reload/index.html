@@ -16,7 +16,7 @@
   carakan - Actualiza tu mensaje personal del Messenger desde Twitter (reload) 
 </title>
 
-<meta name="generator" content="Hugo 0.59.0" />
+<meta name="generator" content="Hugo 0.60.1" />
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
@@ -76,25 +76,20 @@ twitter
   <div class="col-md-12 text-justify content">
     
     <p>Con este pequeño y sencillo tutorial lograremos que nuestro mensaje personal del Windows Live Messenger se actualice de acuerdo a lo que publiquemos en <a href="http://twitter.com">Twitter</a>.</p>
-
 <p>Requerimientos:</p>
-
 <ul>
-<li><p>Cualquier versión de <a href="http://get.live.com">Windows Live Messenger</a></p></li>
-
-<li><p><a href="http://www.msgpluslive.es/download/">Messenger Plus! Live</a></p></li>
+<li>
+<p>Cualquier versión de <a href="http://get.live.com">Windows Live Messenger</a></p>
+</li>
+<li>
+<p><a href="http://www.msgpluslive.es/download/">Messenger Plus! Live</a></p>
+</li>
 </ul>
-
 <p>Una vez que tengamos instalado ambos programas nos dirigimos al menú <strong>Plus!</strong> del Messenger.</p>
-
-<p><a href="http://www.carakan.info/wp-content/uploads/2009/04/image.png"><img src="http://www.carakan.info/wp-content/uploads/2009/04/image-thumb.png" alt="image" title="image" /></a></p>
-
+<p><a href="http://www.carakan.info/wp-content/uploads/2009/04/image.png"><img src="http://www.carakan.info/wp-content/uploads/2009/04/image-thumb.png" alt="image" title="image"></a></p>
 <p>Luego de que estemos en el recuadro de  “<strong>Preferencias y opciones</strong>” nos dirigimos a “<strong>Scripts</strong>”. Hacemos clic en “<strong>Crear nuevo…</strong>” le ponemos el nombre que deseamos y <strong>aceptamos</strong>.</p>
-
-<p><a href="http://www.carakan.info/wp-content/uploads/2009/04/image1.png"><img src="http://www.carakan.info/wp-content/uploads/2009/04/image-thumb1.png" alt="image" title="image" /></a></p>
-
+<p><a href="http://www.carakan.info/wp-content/uploads/2009/04/image1.png"><img src="http://www.carakan.info/wp-content/uploads/2009/04/image-thumb1.png" alt="image" title="image"></a></p>
 <p>A continuación se nos presenta un recuadro en el que debemos ingresas las siguientes líneas de código, en aqui la parte resaltada (usuario_twitter) tenemos que cambiar por nuestro nick en twitter, el original (link mas abajo) sacaba de tu mail, el cual casi siempre no es el mismo de tu cuenta en twitter:</p>
-
 <pre><code> var originalMessage = null;
 var lastTwitt = null;
 // we assume that the user has
@@ -140,10 +135,7 @@ function OnEvent_Timer(id) {
         MsgPlus.AddTimer(&quot;twittTimer&quot;, 1000 * 60);
     }
 } 
-</code></pre>
-
-<p>Con esto tendremos de manera automática que cambien los mensajes de actualización de twitter en tu Messenger, sin introducir ninguna contraseña.</p>
-
+</code></pre><p>Con esto tendremos de manera automática que cambien los mensajes de actualización de twitter en tu Messenger, sin introducir ninguna contraseña.</p>
 <p><a href="http://www.xploit29.com/2009/04/actualiza-tu-mensaje-personal-del-messenger-desde-twitter/">Inspiración.</a></p>
 
       

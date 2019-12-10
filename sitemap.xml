@@ -3,13 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://carakan.github.io/tags/active-admin/</loc>
+    <lastmod>2019-12-10T12:22:05-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://carakan.github.io/blog/</loc>
-    <lastmod>2019-10-21T11:51:11-04:00</lastmod>
+    <lastmod>2019-12-10T12:22:05-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://carakan.github.io/</loc>
-    <lastmod>2019-10-21T11:51:11-04:00</lastmod>
+    <lastmod>2019-12-10T12:22:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/devise/</loc>
+    <lastmod>2019-12-10T12:22:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/blog/2019/12/how-to-do-email-only-sign-up-using-default-active-admin-setup/</loc>
+    <lastmod>2019-12-10T12:22:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/rails/</loc>
+    <lastmod>2019-12-10T12:22:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/</loc>
+    <lastmod>2019-12-10T12:22:05-04:00</lastmod>
   </url>
   
   <url>
@@ -19,11 +44,6 @@
   
   <url>
     <loc>https://carakan.github.io/blog/2019/10/how-to-sync-vscode-plugins-over-your-dotfiles/</loc>
-    <lastmod>2019-10-21T11:51:11-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/tags/</loc>
     <lastmod>2019-10-21T11:51:11-04:00</lastmod>
   </url>
   
@@ -114,11 +134,6 @@
   
   <url>
     <loc>https://carakan.github.io/blog/2019/09/create-a-form-with-two-actions-on-activeadmin/</loc>
-    <lastmod>2019-09-11T18:22:45-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/tags/rails/</loc>
     <lastmod>2019-09-11T18:22:45-04:00</lastmod>
   </url>
   

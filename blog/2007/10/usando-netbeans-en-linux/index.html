@@ -16,7 +16,7 @@
   carakan - Usando NetBeans en Linux 
 </title>
 
-<meta name="generator" content="Hugo 0.59.0" />
+<meta name="generator" content="Hugo 0.60.1" />
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
@@ -73,60 +73,34 @@ tecnologia
 <section id="content-pane" class="row">
   <div class="col-md-12 text-justify content">
     
-    
+    <nav id="TableOfContents"></nav>
     
     <p>Estoy tratando de migrar mis desarrollos de ruby on rails a la plataforma Linux por que el guindows me hace renegar bastante, Leopart donde esta que no te veo?, un problema al principio fue el poder utilizar <a href="http://rubyforge.org/frs/?group_id=855">gettext 1.9</a> en mi proyecto, Video-Tutorial gracias al compañero <a href="http://www.vicentgozalbes.com/articles/category/tutoriales/" title="Videotutoriales de Ruby on rails">Vincent Gozalves</a>, a un principio funciono, un simple controlador y sus dos vistas, funciona!!!, me dije por mis dentros así que empecé a desarrollar todo el sitio, terminando ahora me faltaba solamente la traducción, así que hice mi “rake updatepo” y me mando este maldito mensaje:</p>
-
 <p>(in E:/InstantRails/rails_apps/instituto)</p>
-
 <p>Error occurs in app/models/aula.rb</p>
-
 <p>rake aborted!</p>
-
 <p>undefined method `untranslate_all?&rsquo; for Aula:Class</p>
-
 <p>E:/InstantRails/rails_apps/instituto/rakefile:18</p>
-
 <p>(See full trace by running task with &ndash;trace)</p>
-
 <p>Que maldito mensaje…</p>
-
 <p>Bueno pensé en su momento que solamente era un error en el <em>tipeo</em>, pero nada todos tenían sus benditos _(‘’), rebusque y nada.</p>
-
 <p>Asi que intente probar en mi recién instalado <a href="http://ubuntusoftware.info/Ubuntu_Ultimate_1.4/" title="El poder de Linux">Ubuntu ultímate 1.4</a> con Ruby on rails 1.2.3, me había costado instalar ruby, las gemas y rails, pero gracias a estos <a href="http://wiki.onrails.com.ar/wiki/show/Instalacion+de+Ruby+on+Rails+local">tutoriales</a> y aunque me costo, para colmo aca, Bolivia, es un tanto difícil de conseguir una decente conexión de internet, tuve que estar bajando manualmente las gemas, <em>source code</em>, y demás vainas, pero logre instalar todo.</p>
-
 <p>Ahora le toca instalar la gema Gettext, que alivio no tiene dependencias, así que descargue la 1.9 la ultima version me trajo problemas, la 1.10, en mi VPS, así que ahorrarme problemas con el 1.9 esta bien y si funciona, no me muestra los errores del guindows que mostre mas arriba, veo con rabia contenida a mi partición C con su instalación guindows XP, ni pensar instalar Vista.</p>
-
 <p>Ahora bien para poder trabajar con soltura necesito mi poderoso IDE Aptana + RadRails, que es para mi un excelente IDE de trabajo, pero lastimosamente no puedo por que la versión descargable solamente contiene Aptana y no RadRails, busco por internet pero nada, ¿Qué hago?, el mero hecho de abrir Aptana y instalar RadRails no lo puedo necesitaría de instalar Linux y hacer correr Aptana, quise hacer una virtuolizacion de pclinux, todo iba bien cuando de repente no reconocía la red WTF?? Maldito Windows, y Virtual PC, así que resignado tuve que manejar dos sistemas operativos: hacia el desarrollo en Windows y luego para la traducción Ubuntu, hasta que…</p>
-
 <p>Veía uno de los <a href="http://www.cduv.org/">blogs</a> que realmente es bueno en cuestión de Rails, y en uno de sus post realizo un <a href="http://www.cduv.org/2007/09/25/netbeans-ide-60-beta-1-screencast/"><em>screencast</em></a> del manejo de NetBeans 6 beta 1, anteriormente probé la versión M10 y entre Aptana y NetBeans opte por mucho Aptana, pero ..hum.. Tiene la versión para que corra en Linux, y además lo han separado de toda la vaina de desarrollo de Java un instalador de solamente 20 Megas, esta es formidable!!! Lo <a href="http://dlc.sun.com/netbeans/download/6_0/beta1/">descargue</a> era un archivo .sh, de muy fácil instalación pero además debes de tener instalado el JDK 1.5+ asi que baje el bendito <a href="http://java.sun.com/javase/downloads/index.jsp">jdk1.6.0.2</a> de unos 50 megas, y este es el procedimiento de instalación:</p>
-
 <p>Dentro de una carpeta, podría ser usr/java copias los dos archivos, abres la terminal y te sitúas en la carpeta creada y tipeas lo siguiente:</p>
-
 <p>(baje el jdk con extensión .bin que es para cualquier plataforma :) )</p>
-
 <p><strong>chmod +x jdk-6u2-linux-i586.bin</strong></p>
-
 <p><strong>./</strong> <strong>jdk-6u2-linux-i586.bin</strong></p>
-
 <p>Ahora dentro de la consola nos presenta la licencia del jdk, apretas enter hasta cansarte y una ves terminado solamente escribes yes y listo, comienza a descomprimirse dentro de la carpeta creada /usr/java es aquí donde se ha instalado el jdk recuérdalo.</p>
-
 <p>Ahora instalamos NetBeans:</p>
-
 <p>chmod +x netbeans-6.0beta1-ruby-linux.sh</p>
-
-<p><strong>./</strong>netbeans-6.0beta1-ruby-linux.sh</p>
-
+<p>**./**netbeans-6.0beta1-ruby-linux.sh</p>
 <p>Si no encuentra la ruta donde instalaste JDK, solamente le das la ruta de donde instalaste como lo siguiente:</p>
-
 <p>./netbeans-6.0beta1-ruby-linux.sh &ndash;javahome /ruta/a/JDKd</p>
-
 <p>Te presenta un asistente donde instalar el IDE, haces next hasta terminarlo.</p>
-
 <p>Una ves instalado te comunico que nuestro querido NetBeans, por defecto instala y utiliza el Jruby, una versión Java de Ruby, mandando a un lado nuestra instalación Ruby 1.8.6 que tanto me costo, pero no es problema nos vamos a Tools -&gt; Options -&gt; Ruby y cambiamos el interprete, podemos cambiar de maquina virtual a cualquier momento.</p>
-
 <p>Bueno se ve esta muy bueno este IDE, lo que faltaría seria un buen editor RHTML, incorporar la ayuda RI, además creo tener un manejador de servidores como el Grandioso y pesado Aptana, bueno espero mas de este IDE, veremos como se pinta la versión final.</p>
-
 <p>Espero que les haya servido.</p>
 
       

@@ -16,7 +16,7 @@
   carakan - install passenger 5, ruby 2.x, nginx 1.10.x and enable HTTP/2 
 </title>
 
-<meta name="generator" content="Hugo 0.59.0" />
+<meta name="generator" content="Hugo 0.60.1" />
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
@@ -75,31 +75,27 @@ ruby
 <section id="content-pane" class="row">
   <div class="col-md-12 text-justify content">
     
-    
-
-<p>Recently I found that passenger in the last version now uses nginx 1.10.x by default, as you knows since nginx 1.9.x nginx enables support for <a href="https://en.wikipedia.org/wiki/HTTP/2">http2</a> but the 1.9.x on nginx is <em>beta</em> and when released the line 1.10 is production ready. The process will be describe for ubuntu 14.4 and 16.4:</p>
-
+    <p>Recently I found that passenger in the last version now uses nginx 1.10.x by default, as you knows since nginx 1.9.x nginx enables support for <a href="https://en.wikipedia.org/wiki/HTTP/2">http2</a> but the 1.9.x on nginx is <em>beta</em> and when released the line 1.10 is production ready. The process will be describe for ubuntu 14.4 and 16.4:</p>
 <h2 id="install-dependencies">Install Dependencies</h2>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">apt-get update -y
 apt-get upgrade -y
-apt-get install sudo -y</code></pre></div>
-<p>install the required packages:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate python-docutils pkg-config cmake nodejs git-core</code></pre></div>
-<h2 id="install-ruby">Install Ruby</h2>
-
+apt-get install sudo -y
+</code></pre></div><p>install the required packages:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate python-docutils pkg-config cmake nodejs git-core
+</code></pre></div><h2 id="install-ruby">Install Ruby</h2>
 <p>For production sites is a <em>MUST</em> install from sources without using any versions managers like RVM, RENV or whatever this is why leads to hard to diagnose problems. Remove the old Ruby 1.8 if present:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get remove ruby1.8</code></pre></div>
-<p>Download Ruby and compile it:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get remove ruby1.8
+</code></pre></div><p>Download Ruby and compile it:</p>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir /tmp/ruby <span style="color:#666">&amp;&amp;</span> <span style="color:#a2f">cd</span> /tmp/ruby
 curl -O --progress https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.1.tar.gz
 tar xzf ruby-2.3.1.tar.gz
 <span style="color:#a2f">cd</span> ruby-2.3.1
 ./configure --disable-install-rdoc
 make
-sudo make install</code></pre></div>
-<p>Install the passenger Gem:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo gem install passenger --no-ri --no-rdoc</code></pre></div>
-<p>Now we need to install nginx manually, enable http2 and add the dependency to passenger:</p>
+sudo make install
+</code></pre></div><p>Install the passenger Gem:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo gem install passenger --no-ri --no-rdoc
+</code></pre></div><p>Now we need to install nginx manually, enable http2 and add the dependency to passenger:</p>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir /tmp/nginx <span style="color:#666">&amp;&amp;</span> <span style="color:#a2f">cd</span> /tmp/nginx
 curl -O --progress https://nginx.org/download/nginx-1.10.1.tar.gz
 tar xzf nginx-1.10.1.tar.gz
@@ -114,11 +110,9 @@ tar xzf nginx-1.10.1.tar.gz
 --add-module<span style="color:#666">=</span><span style="color:#a2f;font-weight:bold">$(</span>passenger-config --nginx-addon-dir<span style="color:#a2f;font-weight:bold">)</span> <span style="color:#b62;font-weight:bold">\\</span>
 --with-http<span style="color:#b62;font-weight:bold">\_</span>v2<span style="color:#b62;font-weight:bold">\_</span>module
 make
-sudo make install</code></pre></div>
-<p>and thats it! you now have nginx + passenger + http2</p>
-
+sudo make install
+</code></pre></div><p>and thats it! you now have nginx + passenger + http2</p>
 <h2 id="enable-http2-on-vhost">Enable http2 on vhost</h2>
-
 <p><a href="https://http2.github.io/faq/#does-http2-require-encryption">only in https ;)</a></p>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">server <span style="color:#666">{</span>
              listen              <span style="color:#666">443</span> ssl **http2**;
@@ -128,7 +122,8 @@ sudo make install</code></pre></div>
              root /path/to/your/rails/public;
              passenger<span style="color:#b62;font-weight:bold">\_</span>enabled on;
              passenger<span style="color:#b62;font-weight:bold">\_</span>set<span style="color:#b62;font-weight:bold">\_</span>header HTTP<span style="color:#b62;font-weight:bold">\_</span>X<span style="color:#b62;font-weight:bold">\_</span>FORWARDED<span style="color:#b62;font-weight:bold">\_</span>PROTO https;
-         <span style="color:#666">}</span></code></pre></div>
+         <span style="color:#666">}</span>
+</code></pre></div>
       
       
 

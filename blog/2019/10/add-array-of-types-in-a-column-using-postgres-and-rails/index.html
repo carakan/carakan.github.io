@@ -16,7 +16,7 @@
   carakan - Add Array of Types in a Column using Postgres and Rails 
 </title>
 
-<meta name="generator" content="Hugo 0.59.0" />
+<meta name="generator" content="Hugo 0.60.1" />
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
@@ -75,18 +75,18 @@ version manager
     
     <p>Recently I found a nice feature when defining a column on migrations, is to use <code>array</code>
 option in the creation of a column:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#a2f;font-weight:bold">class</span> <span style="color:#00f">MyMigration</span> <span style="color:#666">&lt;</span> <span style="color:#800">ActiveRecord</span><span style="color:#666">::</span><span style="color:#800">Migration</span><span style="color:#666">[</span><span style="color:#666">5</span><span style="color:#666">.</span><span style="color:#666">2</span><span style="color:#666">]</span>
-  <span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">change</span>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#a2f;font-weight:bold">class</span> <span style="color:#00f">MyMigration</span> <span style="color:#666">&lt;</span> <span style="color:#800">ActiveRecord</span><span style="color:#666">::</span><span style="color:#800">Migration</span><span style="color:#666">[</span><span style="color:#666">5</span><span style="color:#666"></span><span style="color:#666">.</span><span style="color:#666">2</span><span style="color:#666"></span><span style="color:#666">]</span>
+  <span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00f"></span><span style="color:#666"></span><span style="color:#00a000">change</span>
     <span style="color:#080;font-style:italic"># Defines a column that stores an array of a type.</span>
-    add_column <span style="color:#b8860b">:transactions</span>, <span style="color:#b8860b">:categories</span>, <span style="color:#b8860b">:string</span>, <span style="color:#b8860b">array</span>: <span style="color:#a2f">true</span>, <span style="color:#b8860b">default</span>: <span style="color:#666">[]</span>
+    add_column <span style="color:#b8860b">:transactions</span>, <span style="color:#b8860b">:categories</span>, <span style="color:#b8860b">:string</span>, <span style="color:#b8860b">array</span>: <span style="color:#a2f">true</span>, <span style="color:#b8860b">default</span>: <span style="color:#666">[</span><span style="color:#666">]</span>
   <span style="color:#a2f;font-weight:bold">end</span>
-<span style="color:#a2f;font-weight:bold">end</span></code></pre></div>
-<p>With this on <code>categories</code> you can storage an array of values, it&rsquo;s useful instead of use
+<span style="color:#a2f;font-weight:bold">end</span>
+</code></pre></div><p>With this on <code>categories</code> you can storage an array of values, it's useful instead of use
 <code>jsonb</code> because as json you may also need to create the key to store values (hash).</p>
-
 <p>this is how to use:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">record<span style="color:#666">.</span>categories <span style="color:#666">=</span> <span style="color:#666">[</span><span style="color:#b44">&#34;food&#34;</span>, <span style="color:#b44">&#34;travel&#34;</span><span style="color:#666">]</span>
-record<span style="color:#666">.</span>save</code></pre></div>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">record<span style="color:#666">.</span>categories <span style="color:#666">=</span> <span style="color:#666">[</span><span style="color:#b44">&#34;</span><span style="color:#b44">food</span><span style="color:#b44">&#34;</span>, <span style="color:#b44">&#34;</span><span style="color:#b44">travel</span><span style="color:#b44">&#34;</span><span style="color:#666">]</span>
+record<span style="color:#666">.</span>save
+</code></pre></div>
       
       
 

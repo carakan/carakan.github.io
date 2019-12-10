@@ -16,7 +16,7 @@
   carakan - Configure and install last elixir-ls in Neovim 
 </title>
 
-<meta name="generator" content="Hugo 0.59.0" />
+<meta name="generator" content="Hugo 0.60.1" />
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
@@ -76,10 +76,9 @@ til
     <p>Last version of ElixirLS have a lot of improvements, for example a new robust code
 sugestion provided by <a href="https://github.com/elixir-lsp/elixir_sense"><code>elixir-sense</code></a>,
 intellisense with code documentation and
-other larger changes, but now i didn&rsquo;t see an actual release to use it, so in this
+other larger changes, but now i didn't see an actual release to use it, so in this
 post we will clone the last repo, compile and
 will install in our local dev to take advantage of this new features.</p>
-
 <p>First clone and generate the executables of
 <a href="https://github.com/elixir-lsp/elixir-ls"><code>elixirLS</code></a>:</p>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">mkdir ~/lsp
@@ -87,8 +86,8 @@ git clone https://github.com/elixir-lsp/elixir-ls.git
 <span style="color:#a2f">cd</span> elixir-ls
 mix deps.get
 mix compile
-<span style="color:#b8860b">MIX_ENV</span><span style="color:#666">=</span>production mix elixir_ls.release -o ~/lsp/elixir-ls</code></pre></div>
-<p>now we need to configure into <a href="https://github.com/neoclide/coc.nvim"><code>coc.nvim</code></a>
+<span style="color:#b8860b">MIX_ENV</span><span style="color:#666">=</span>production mix elixir_ls.release -o ~/lsp/elixir-ls
+</code></pre></div><p>now we need to configure into <a href="https://github.com/neoclide/coc.nvim"><code>coc.nvim</code></a>
 to use this new LSP server in section <code>languageserver</code>:</p>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">  <span style="color:#b44">&#34;languageserver&#34;</span><span style="">:</span> {
     <span style="color:#008000;font-weight:bold">&#34;elixir&#34;</span>: {
@@ -103,9 +102,8 @@ to use this new LSP server in section <code>languageserver</code>:</p>
         }
       }
     }
-  }<span style="">,</span></code></pre></div>
-<p>And that is it!</p>
-
+  }<span style="">,</span>
+</code></pre></div><p>And that is it!</p>
 <ul>
 <li><strong>Update</strong> I uploaded last compiled version of this in <a href="https://github.com/carakan/elixir-ls/releases/tag/v0.3.0-alpha5">my fork repo</a>.</li>
 <li><a href="https://github.com/neoclide/coc.nvim/wiki/Install-coc.nvim">how to install Coc.nvim</a></li>

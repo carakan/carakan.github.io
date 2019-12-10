@@ -16,7 +16,7 @@
   carakan - Lint and Format code with vim and ALE 
 </title>
 
-<meta name="generator" content="Hugo 0.59.0" />
+<meta name="generator" content="Hugo 0.60.1" />
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
@@ -72,32 +72,21 @@ vim
   <div class="col-md-12 text-justify content">
     
     <p>Currently I’m writing JS and Elixir code and I’ve using a lot of plugins to help me about misspelling in my code, first I was using Syntastic, later I was using Neomake but now I fell in love with <a href="https://github.com/w0rp/ale">ALE</a> and I try to explain why.</p>
-
 <p>Ale knows clearly about if a plugin/addon shows an error that plugin/addon can fix that error if is possible.</p>
-
 <p>For example if I’m using eslint and I see this error:</p>
-
-<p><img src="https://carakan.github.io/blog/2017/11/lint-and-format-code-with-vim-and-ale/images/1.png" alt="before" /></p>
-
+<p><img src="https://carakan.github.io/blog/2017/11/lint-and-format-code-with-vim-and-ale/images/1.png" alt="before"></p>
 <p>I want to ALE fix this (<em>automatically</em>) to:</p>
-
-<p><img src="https://carakan.github.io/blog/2017/11/lint-and-format-code-with-vim-and-ale/images/2.png" alt="after" /></p>
-
+<p><img src="https://carakan.github.io/blog/2017/11/lint-and-format-code-with-vim-and-ale/images/2.png" alt="after"></p>
 <p>That is easy and is built-in by default.</p>
-
 <p>Another amazing feature is to queue fixer’s, let me explain this:</p>
-
 <p>Prettier is a amazing <strong>opinionated</strong> code formatter for a lot of languages and provides a few options to configure, and if we can use ‘prettier + eslint’, I see a lot of issues with this combination, for example <a href="https://github.com/prettier/prettier/issues/812">this</a>. To avoid this, people made a lot of workarounds (npm’s, disabling rules, etc.), but in my opinion any code formatter only live in the IDE/editor and not in the project as dependency.</p>
-
 <p>So with Ale you can only do that:</p>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim"><span style="color:#080;font-style:italic">&#34; vimrc</span><span style="">
 </span><span style=""></span><span style="color:#a2f;font-weight:bold">let</span> g:ale_fixers = {<span style="">
 </span><span style=""></span>\   <span style="color:#b44">&#39;javascript&#39;</span>: [<span style="color:#b44">&#39;prettier&#39;</span>, <span style="color:#b44">&#39;eslint&#39;</span>]<span style="">
-</span><span style=""></span>\}</code></pre></div>
-<p>then Ale first apply fixes/format from prettier and later with eslint, AWESOME!</p>
-
+</span><span style=""></span>\}<span style="">
+</span></code></pre></div><p>then Ale first apply fixes/format from prettier and later with eslint, AWESOME!</p>
 <p>Finally <a href="https://github.com/w0rp/ale/pull/1017">Ale has support to newest elixir code formatter</a>!</p>
-
 <p>Later in a next post I would like to explain step by step all the configurations.</p>
 
       

@@ -16,7 +16,7 @@
   carakan - My first elixir library: SoftRepo 
 </title>
 
-<meta name="generator" content="Hugo 0.59.0" />
+<meta name="generator" content="Hugo 0.60.1" />
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
@@ -71,22 +71,14 @@ open source
 <section id="content-pane" class="row">
   <div class="col-md-12 text-justify content">
     
-    
-
-<p><img src="https://carakan.github.io/blog/2018/10/my-first-elixir-library-softrepo/images/1.jpeg" alt="image" /></p>
-
+    <p><img src="https://carakan.github.io/blog/2018/10/my-first-elixir-library-softrepo/images/1.jpeg" alt="image"></p>
 <p>don’t destroy sensible data</p>
-
 <p>It’s a placer to announce my first library, this handle soft-delete using directly
 a Repo wrapper, so the main idea is to have a global lib/module that represent all
 of the logic to do soft-delete of records.</p>
-
 <p>The setup and usage has been written on the <a href="https://github.com/carakan/soft_repo">README of soft_repo</a>.</p>
-
 <h3 id="future">Future</h3>
-
-<p>The idea is to have a basic library that handles soft-delete, but in a future I&rsquo;ll implement:</p>
-
+<p>The idea is to have a basic library that handles soft-delete, but in a future I'll implement:</p>
 <ul>
 <li>Support relationships: like <code>has_many(:whatevers, on_delete: :soft_delete)</code></li>
 <li>Change from use an existing module with injected <code>Ecto</code> and overwrites the functions to metapromming

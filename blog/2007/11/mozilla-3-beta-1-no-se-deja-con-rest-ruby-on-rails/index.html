@@ -16,7 +16,7 @@
   carakan - mozilla 3 beta 1 no se deja con REST (Ruby on rails) 
 </title>
 
-<meta name="generator" content="Hugo 0.59.0" />
+<meta name="generator" content="Hugo 0.60.1" />
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
@@ -70,9 +70,7 @@ ruby on rails
   <div class="col-md-12 text-justify content">
     
     <p>Haciendo mi proyecto de grado/trabajo, trabajando e implementando diferentes tipos de respuestas bajo el diseño REST, cuando al estar probando Mozilla 3 B1, veía que no respondia a las peticiones vacias que no tenian el formato ej: <strong>/inscritos</strong>, me daba el error. Aparentemente no encontraba el valor del format en la linea de codigo:</p>
-
 <p><strong>respond_to do |format|</strong></p>
-
 <p>y según parece el valor de format no lo llena al hacer la petición en el navegador Mozilla 3 B1, así que tuve que desintalar este beta, debe de tener ciertos problemas o bugs de desarrollo(que macana el 2.0.9 me chupa la <a href="http://www.anieto2k.com/2007/11/22/%c2%bfcuanta-memoria-esta-consumiendo-firefox-en-el-mundo/">memoria</a>). Lo mas curioso es que trate de arreglar este supuesto error del format, haciendo en cada request una filtración del parámetro params[:format], que por defecto sea html y si es Ajax (request.xhr?) no asignaba el valor .html. Perdi como tres horas tratando de arreglar este supuesto error :( <strong>Nota (18 agosto 2008):</strong> Vi que este error solo ocurren en la rama 1.2.x de Rails asi que solamente queda actualizar los proyectos a una rama superior, la actual es (2.1.0).</p>
 
       

@@ -16,7 +16,7 @@
   carakan - Upgrade to Latest Version on ASDF 
 </title>
 
-<meta name="generator" content="Hugo 0.59.0" />
+<meta name="generator" content="Hugo 0.60.1" />
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
@@ -73,24 +73,19 @@ version manager
 <section id="content-pane" class="row">
   <div class="col-md-12 text-justify content">
     
-    
-
-<p>ASDF is an incredible version manager, to install/upgrade to latest version available
+    <p>ASDF is an incredible version manager, to install/upgrade to latest version available
 of an language you can do the following steps:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">asdf list-all &lt;language&gt;</code></pre></div>
-<p>this show all of the versions available to install, select the latest:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">asdf install &lt;language&gt; x.y.z</code></pre></div>
-<p>and edit if you have a global <code>~/.tool-versions</code> to use that version everywhere:</p>
-
-<pre><code>&lt;languaje&gt; x.y.z
-</code></pre>
-
-<h2 id="real-example">real example</h2>
-
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">asdf list-all &lt;language&gt;
+</code></pre></div><p>this show all of the versions available to install, select the latest:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">asdf install &lt;language&gt; x.y.z
+</code></pre></div><p>and edit if you have a global <code>~/.tool-versions</code> to use that version everywhere:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-txt" data-lang="txt">&lt;languaje&gt; x.y.z
+</code></pre></div><h2 id="real-example">real example</h2>
 <p>to upgrade to latest version of erlang <strong>(10/17/2019)</strong>:</p>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">asdf list-all erlang
-asdf install erlang <span style="color:#666">22</span>.1
-asdf global erlang <span style="color:#666">22</span>.1</code></pre></div>
+asdf install erlang 22.1
+asdf global erlang 22.1
+</code></pre></div>
       
       
 

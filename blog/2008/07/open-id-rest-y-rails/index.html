@@ -16,7 +16,7 @@
   carakan - Open ID, REST y Rails 
 </title>
 
-<meta name="generator" content="Hugo 0.59.0" />
+<meta name="generator" content="Hugo 0.60.1" />
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
@@ -75,16 +75,11 @@ ruby on rails
 <section id="content-pane" class="row">
   <div class="col-md-12 text-justify content">
     
-    
-
-<p>Estoy trabajando en el desarrollo de un portal deportivo, dentro de desarrollo del mismo se eligió el soporte a Open ID dentro de la autentificación, al estar desarrollando el mismo me presentaba un problema bastante raro, después de identificarme dentro del proveedor de Open ID me rediria al controlador de manejo de sesiones pero a la acción show, debería de redirigirme a create para la evaluacion de la identificacion, el problema se soluciona subiendo el map.open_id_complete antes de definir el map.resource para las sesiones, la ruta correcta es como sigue:```</p>
-
-<h1 id="open-id-complete-siempre-debe-de-estar-por-encima-de-el-recurso-de-session">open_id_complete siempre debe de estar por encima de el recurso de session</h1>
-
+    <p>Estoy trabajando en el desarrollo de un portal deportivo, dentro de desarrollo del mismo se eligió el soporte a Open ID dentro de la autentificación, al estar desarrollando el mismo me presentaba un problema bastante raro, después de identificarme dentro del proveedor de Open ID me rediria al controlador de manejo de sesiones pero a la acción show, debería de redirigirme a create para la evaluacion de la identificacion, el problema se soluciona subiendo el map.open_id_complete antes de definir el map.resource para las sesiones, la ruta correcta es como sigue:```</p>
+<h1 id="openidcomplete-siempre-debe-de-estar-por-encima-de-el-recurso-de-session">open_id_complete siempre debe de estar por encima de el recurso de session</h1>
 <p>map.open_id_complete &lsquo;session&rsquo;, :controller =&gt; &ldquo;sessions&rdquo;, :action =&gt; &ldquo;create&rdquo;, :requirements =&gt; { :method =&gt; :get }
-map.resource :session
-```Una simple solucion a seis horas de estar comparando codigo, espero que les sirva.</p>
-
+map.resource :session</p>
+<pre><code class="language-Una" data-lang="Una"></code></pre>
       
       
 

@@ -16,7 +16,7 @@
   carakan - Como actualizar a rails 2.0.1 y solución a problemas 
 </title>
 
-<meta name="generator" content="Hugo 0.59.0" />
+<meta name="generator" content="Hugo 0.60.1" />
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
@@ -70,23 +70,14 @@ uncategorized
   <div class="col-md-12 text-justify content">
     
     <p>Si bien ya salió la versión 2 de rails, estaba bastante afanoso a por probar en mi vps el poder de esta nueva versión.</p>
-
 <p>El problema es que al momento de estar actualizando rails me mostraba un mensaje de error algo con la memoria, la causa era que se habían cambiado los índices de gemas del repositorio, algo explicado <a href="http://gastonramos.wordpress.com/2007/11/15/rubygems-lento/">aqui</a>. La solución que me funciono es de actualizar rubygems a la mas actual 0.9.5, el proceso es el siguiente:</p>
-
 <p>gem update &ndash;system</p>
-
 <p>Si no funcionara, tenemos la siguiente alternativa:</p>
-
 <p>bajar el gem <a href="http://rubyforge.org/frs/download.php/28173/rubygems-update-0.9.5.gem">rubygems-update-0.9.5.gem</a></p>
-
 <p>gem install rubygems-update-0.9.5.gem</p>
-
 <p>update_rubygems</p>
-
 <p>y ahora si puedes hacer:</p>
-
 <p>gem install rails &ndash;include-dependencies</p>
-
 <p>Que lo disfrutes.</p>
 
       
