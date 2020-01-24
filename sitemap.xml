@@ -18,6 +18,21 @@
   </url>
   
   <url>
+    <loc>https://carakan.github.io/tags/ruby/</loc>
+    <lastmod>2020-01-24T15:46:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/</loc>
+    <lastmod>2020-01-24T15:46:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.github.io/tags/til/</loc>
+    <lastmod>2020-01-24T15:46:05-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://carakan.github.io/tags/active-admin/</loc>
     <lastmod>2019-12-10T12:22:05-04:00</lastmod>
   </url>
@@ -38,22 +53,12 @@
   </url>
   
   <url>
-    <loc>https://carakan.github.io/tags/</loc>
-    <lastmod>2019-12-10T12:22:05-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://carakan.github.io/tags/dotfiles/</loc>
     <lastmod>2019-10-21T11:51:11-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://carakan.github.io/blog/2019/10/how-to-sync-vscode-plugins-over-your-dotfiles/</loc>
-    <lastmod>2019-10-21T11:51:11-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/tags/til/</loc>
     <lastmod>2019-10-21T11:51:11-04:00</lastmod>
   </url>
   
@@ -224,11 +229,6 @@
   
   <url>
     <loc>https://carakan.github.io/tags/passenger/</loc>
-    <lastmod>2016-06-24T17:27:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.github.io/tags/ruby/</loc>
     <lastmod>2016-06-24T17:27:00+00:00</lastmod>
   </url>
   

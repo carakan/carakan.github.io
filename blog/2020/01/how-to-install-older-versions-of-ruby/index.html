@@ -42,6 +42,16 @@
 <body lang="en-US">
 <div class="container
 
+
+
+
+
+ruby
+
+til
+
+
+
 ">
 
 
@@ -61,15 +71,20 @@
 <section id="content-pane" class="row">
   <div class="col-md-12 text-justify content">
     
-    <p>to install older versions of ruby 2.5&gt; with support for openssl 1.0x you can follow
-this instructions.</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#a2f">cd</span> /usr/local/src
+    <p>To install older versions of ruby 2.5&gt; with support for openssl 1.0x you can follow
+these instructions:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#080;font-style:italic"># before you must install command line tools and gcc</span>
+xcode-select --install
+brew install gcc
+
+<span style="color:#080;font-style:italic"># installation procedure</span>
+<span style="color:#a2f">cd</span> /usr/local/src
 curl -O https://www.openssl.org/source/openssl-1.0.2t.tar.gz
 tar xzf openssl-1.0.2t.tar.gz
 <span style="color:#a2f">cd</span> openssl-1.0.2t
 ./Configure darwin64-x86_64-cc
 make
-make install
+sudo make install
 <span style="color:#a2f">export</span> <span style="color:#b8860b">LDFLAGS</span><span style="color:#666">=</span>“-L/usr/local/ssl/lib”
 <span style="color:#a2f">export</span> <span style="color:#b8860b">CPPFLAGS</span><span style="color:#666">=</span>“-I/usr/local/ssl/include”
 <span style="color:#a2f">export</span> <span style="color:#b8860b">PKG_CONFIG_PATH</span><span style="color:#666">=</span>“/usr/local/ssl/lib/pkgconfig”
@@ -77,6 +92,21 @@ rvm reinstall 2.3.8 --with-openssl-dir<span style="color:#666">=</span>/usr/loca
 </code></pre></div>
       
       
+
+<h1>See Also</h1>
+<ul>
+	
+    <li><p><a href="https://carakan.github.io/blog/2009/01/revista-atix-numero-7-liberado./">Revista Atix numero 7 liberado.</a></p></li>
+	
+    <li><p><a href="https://carakan.github.io/blog/2008/12/revista-atix-numero-6-liberado./">Revista Atix numero 6 liberado.</a></p></li>
+	
+    <li><p><a href="https://carakan.github.io/blog/2008/09/nueva-imagen-de-bolivia-on-rails-y-tema-wp-espa%C3%B1ol/">Nueva imagen de Bolivia On Rails y tema wp español</a></p></li>
+	
+    <li><p><a href="https://carakan.github.io/blog/2008/08/nuevo-version-del-interprete-ruby-para-entornos-windows/">Nuevo version del interprete ruby para entornos windows</a></p></li>
+	
+    <li><p><a href="https://carakan.github.io/blog/2008/08/problema-de-imagemagick-rmagick-y-passenger-mod_rails/">Problema de ImageMagick (rmagick) y passenger (mod_rails)</a></p></li>
+	
+</ul>
 
   
       
@@ -86,6 +116,17 @@ rvm reinstall 2.3.8 --with-openssl-dir<span style="color:#666">=</span>/usr/loca
   
   <div class="col-md-12">
     <h6 class="text-right meta">
+      
+      
+      
+      TAGS:
+      
+      
+      <a class="meta" href="https://carakan.github.io/tags/ruby">RUBY</a>, 
+      
+      <a class="meta" href="https://carakan.github.io/tags/til">TIL</a>
+      
+      
       
     </h6>
   </div>
