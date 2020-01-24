@@ -17,8 +17,9 @@
       <pubDate>Fri, 24 Jan 2020 15:46:05 -0400</pubDate>
       
       <guid>https://carakan.github.io/blog/2020/01/how-to-install-older-versions-of-ruby/</guid>
-      <description>To install older versions of ruby 2.5&amp;gt; with support for openssl 1.0x you can follow these instructions:
-# before you must install command line tools and gcc xcode-select --install brew install gcc # installation procedure cd /usr/local/src curl -O https://www.openssl.org/source/openssl-1.0.2t.tar.gz tar xzf openssl-1.0.2t.tar.gz cd openssl-1.0.2t ./Configure darwin64-x86_64-cc make sudo make install export LDFLAGS=“-L/usr/local/ssl/lib” export CPPFLAGS=“-I/usr/local/ssl/include” export PKG_CONFIG_PATH=“/usr/local/ssl/lib/pkgconfig” rvm reinstall 2.3.8 --with-openssl-dir=/usr/local/ssl --with-openssl-include=/usr/local/ssl/include </description>
+      <description>The problem is with RVM and not in renv or asdf, so my first suggestion is to change to asdf
+if you keep RVM: install older versions of ruby 2.5&amp;gt; with support for openssl 1.0x you can follow these instructions:
+# before you must install command line tools and gcc xcode-select --install brew install gcc # installation procedure cd /usr/local/src curl -O https://www.openssl.org/source/openssl-1.0.2t.tar.gz tar xzf openssl-1.0.2t.tar.gz cd openssl-1.0.2t ./Configure darwin64-x86_64-cc make sudo make install export LDFLAGS=“-L/usr/local/ssl/lib” export CPPFLAGS=“-I/usr/local/ssl/include” export PKG_CONFIG_PATH=“/usr/local/ssl/lib/pkgconfig” rvm reinstall 2.</description>
     </item>
     
     <item>
