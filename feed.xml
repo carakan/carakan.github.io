@@ -6,10 +6,20 @@
     <description>Recent content on carakan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 10 Dec 2019 12:22:05 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jan 2020 15:46:05 -0400</lastBuildDate>
     
 	<atom:link href="https://carakan.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to Install Older Versions of Ruby</title>
+      <link>https://carakan.github.io/blog/2020/01/how-to-install-older-versions-of-ruby/</link>
+      <pubDate>Fri, 24 Jan 2020 15:46:05 -0400</pubDate>
+      
+      <guid>https://carakan.github.io/blog/2020/01/how-to-install-older-versions-of-ruby/</guid>
+      <description>to install older versions of ruby 2.5&amp;gt; with support for openssl 1.0x you can follow this instructions.
+cd /usr/local/src curl -O https://www.openssl.org/source/openssl-1.0.2t.tar.gz tar xzf openssl-1.0.2t.tar.gz cd openssl-1.0.2t ./Configure darwin64-x86_64-cc make make install export LDFLAGS=“-L/usr/local/ssl/lib” export CPPFLAGS=“-I/usr/local/ssl/include” export PKG_CONFIG_PATH=“/usr/local/ssl/lib/pkgconfig” rvm reinstall 2.3.8 --with-openssl-dir=/usr/local/ssl --with-openssl-include=/usr/local/ssl/include </description>
+    </item>
     
     <item>
       <title>How to do email only sign up using default active-admin setup</title>
@@ -20,7 +30,7 @@
       <description>Context   The idea is to develop the same requirement as devise describe in their guide:
   The project is using the admin_user approach and sets the default setup included on activeadmin.
   (NOTE) One other recommended solution is to migrate the admin_user model to user and configure devise normally as a separate engine.
-  Guide   If you haven&#39;t already, enable the confirmable module</description>
+  Guide   If you haven&amp;rsquo;t already, enable the confirmable module</description>
     </item>
     
     <item>
@@ -29,7 +39,7 @@
       <pubDate>Mon, 21 Oct 2019 11:51:11 -0400</pubDate>
       
       <guid>https://carakan.github.io/blog/2019/10/how-to-sync-vscode-plugins-over-your-dotfiles/</guid>
-      <description>I was looking a simple way to get sync all of my current setup of vscode, I did&#39;t found a proper way to do with another plugin, but I found a commands to do this sync.
+      <description>I was looking a simple way to get sync all of my current setup of vscode, I did&amp;rsquo;t found a proper way to do with another plugin, but I found a commands to do this sync.
 first to have a list of plugins installed and save to a file:
 code --list-extensions &amp;gt; vscode-extensions.list to restore, read that file and install all plugins:
 cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat vscode-extensions.</description>
@@ -42,7 +52,7 @@ cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat
       
       <guid>https://carakan.github.io/blog/2019/10/add-array-of-types-in-a-column-using-postgres-and-rails/</guid>
       <description>Recently I found a nice feature when defining a column on migrations, is to use array option in the creation of a column:
-class MyMigration &amp;lt; ActiveRecord::Migration[5.2] def change # Defines a column that stores an array of a type. add_column :transactions, :categories, :string, array: true, default: [] end end With this on categories you can storage an array of values, it&#39;s useful instead of use jsonb because as json you may also need to create the key to store values (hash).</description>
+class MyMigration &amp;lt; ActiveRecord::Migration[5.2] def change # Defines a column that stores an array of a type. add_column :transactions, :categories, :string, array: true, default: [] end end With this on categories you can storage an array of values, it&amp;rsquo;s useful instead of use jsonb because as json you may also need to create the key to store values (hash).</description>
     </item>
     
     <item>
@@ -61,7 +71,7 @@ I found a practical solution: is to install a separate yarn recipe into ASDF.</d
       <pubDate>Sun, 22 Sep 2019 22:30:04 -0400</pubDate>
       
       <guid>https://carakan.github.io/blog/2019/09/configure-and-install-last-elixir-ls-in-neovim/</guid>
-      <description>Last version of ElixirLS have a lot of improvements, for example a new robust code sugestion provided by elixir-sense, intellisense with code documentation and other larger changes, but now i didn&#39;t see an actual release to use it, so in this post we will clone the last repo, compile and will install in our local dev to take advantage of this new features.
+      <description>Last version of ElixirLS have a lot of improvements, for example a new robust code sugestion provided by elixir-sense, intellisense with code documentation and other larger changes, but now i didn&amp;rsquo;t see an actual release to use it, so in this post we will clone the last repo, compile and will install in our local dev to take advantage of this new features.
 First clone and generate the executables of elixirLS:</description>
     </item>
     
@@ -95,7 +105,7 @@ create a .prettierrc in your home (~) with :
       <pubDate>Thu, 12 Sep 2019 15:49:33 -0400</pubDate>
       
       <guid>https://carakan.github.io/blog/2019/09/how-to-show-hex-colors-on-neovim/</guid>
-      <description>One thing that I like is to show HEX colors on css, html and even on javascript using NEOVIM, to do that I was using Colorizer plugin but now I switched to use vim-hexokinase and it&#39;s asynchronous!
+      <description>One thing that I like is to show HEX colors on css, html and even on javascript using NEOVIM, to do that I was using Colorizer plugin but now I switched to use vim-hexokinase and it&amp;rsquo;s asynchronous!
 to install you might need to install before go language:
 brew install go and this is my config:
 let g:Hexokinase_ftOptInPatterns = { \  &amp;#39;css&amp;#39;: &amp;#39;full_hex,triple_hex,rgb,rgba,hsl,hsla,colour_names&amp;#39;, \  &amp;#39;html&amp;#39;: &amp;#39;full_hex,rgb,rgba,hsl,hsla&amp;#39;, \  &amp;#39;javascript&amp;#39;: &amp;#39;full_hex,rgb,rgba,hsl,hsla&amp;#39; \ } let g:Hexokinase_virtualText = &amp;#39; ██████&amp;#39; watch all of my dotfiles</description>
@@ -107,11 +117,11 @@ let g:Hexokinase_ftOptInPatterns = { \  &amp;#39;css&amp;#39;: &amp;#39;full_hex
       <pubDate>Thu, 12 Sep 2019 12:15:47 -0400</pubDate>
       
       <guid>https://carakan.github.io/blog/2019/09/how-to-manage-environment-variables/</guid>
-      <description>In many projects that i have been working I want to manage GLOBAL&#39;s variables, so to do that use direnv.
+      <description>In many projects that i have been working I want to manage GLOBAL&amp;rsquo;s variables, so to do that use direnv.
 to install (MacOS):
 brew install direnv Now the project needs to create a file .envrc like this:
 # Stripe Credentials export STRIPE_PRIVATE_KEY=&amp;#34;xxxxxxxxxxxx&amp;#34; export STRIPE_WEBHOOK_SECRET=&amp;#34;xxxxxxxxxxxxxxxx&amp;#34; entering in that directory direnv asks to allow the execution and use of that variables, so:
-direnv allow . And that&#39;s it! you don&#39;t need a custom solution for every programming language.</description>
+direnv allow . And that&amp;rsquo;s it! you don&amp;rsquo;t need a custom solution for every programming language.</description>
     </item>
     
     <item>
@@ -155,7 +165,7 @@ If you like try to install only follow this link or search in Extensions “New 
       <description>don’t destroy sensible data
 It’s a placer to announce my first library, this handle soft-delete using directly a Repo wrapper, so the main idea is to have a global lib/module that represent all of the logic to do soft-delete of records.
 The setup and usage has been written on the README of soft_repo.
-Future The idea is to have a basic library that handles soft-delete, but in a future I&#39;ll implement:</description>
+Future The idea is to have a basic library that handles soft-delete, but in a future I&amp;rsquo;ll implement:</description>
     </item>
     
     <item>
@@ -229,7 +239,7 @@ happy blogging.</description>
       <pubDate>Fri, 13 Mar 2015 01:11:09 +0000</pubDate>
       
       <guid>https://carakan.github.io/blog/2015/03/great-plugin-for-share-session-in-rails-apps-between-wordpress-blog/</guid>
-      <description>In one project, the client wants to share same user credentials between rails app to wordpress site, I&#39;ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:
+      <description>In one project, the client wants to share same user credentials between rails app to wordpress site, I&amp;rsquo;ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:
 rails login  this plugin only need a small API for enable login i created this code in model user:
 def wp_json { user: { email: self.</description>
     </item>
@@ -805,7 +815,7 @@ Visto en el blog de Carlos Leopoldo.</description>
       <pubDate>Wed, 28 Jan 2009 16:17:08 +0000</pubDate>
       
       <guid>https://carakan.github.io/blog/2009/01/tili-rock-calaveras-cantando/</guid>
-      <description> T&#39;ili Rock (Rock chiquito), es una banda de calaveritas que se presentaron en La Paz, en la céntrica avenida el prado, y que me gusto bastante, subí unos videos para que vean el talento que tienen las calaveras de los Rolling Stones.
+      <description> T&amp;rsquo;ili Rock (Rock chiquito), es una banda de calaveritas que se presentaron en La Paz, en la céntrica avenida el prado, y que me gusto bastante, subí unos videos para que vean el talento que tienen las calaveras de los Rolling Stones.
 Parte 1 Parte 2 </description>
     </item>
     
@@ -940,7 +950,7 @@ Felices Fiestas y prospero año nuevo.   Creo que me dedicare al año a bailar :
       <pubDate>Thu, 18 Dec 2008 15:29:34 +0000</pubDate>
       
       <guid>https://carakan.github.io/blog/2008/12/conclusiones-del-primer-encuentro-de-emprendedores-web-en-bolivia-webprende/</guid>
-      <description>Como antes anuncie el anterior domingo se desarrollo un encuentro de Emprendedores Web bolivianos y como una forma de plasmar este encuentro en ideas que permitan en un futuro próximo formar mas iniciativas del tipo, se formaron cuatro mesas de dialogo en las cuales se sacaron tres conclusiones por mesa, las conclusiones se subieron a youtube gracias a los chicos de webprende, difundo los videos de cada mesa**:** A. Mesa de Comercio Electrónico: **B.</description>
+      <description>Como antes anuncie el anterior domingo se desarrollo un encuentro de Emprendedores Web bolivianos y como una forma de plasmar este encuentro en ideas que permitan en un futuro próximo formar mas iniciativas del tipo, se formaron cuatro mesas de dialogo en las cuales se sacaron tres conclusiones por mesa, las conclusiones se subieron a youtube gracias a los chicos de webprende, difundo los videos de cada mesa**:** **A. Mesa de Comercio Electrónico:** **B.</description>
     </item>
     
     <item>
@@ -1377,7 +1387,7 @@ Lo mas curioso es el dominio de este blog que subio de -1 a 3 en dos meses desde
       <pubDate>Fri, 19 Sep 2008 13:06:56 +0000</pubDate>
       
       <guid>https://carakan.github.io/blog/2008/09/entrevistas-a-blogs-de-bolivia-ninoska-nogales/</guid>
-      <description>Entrevistas a blog&#39;s importantes de Bolivia Ficha técnica:
+      <description>Entrevistas a blog&amp;rsquo;s importantes de Bolivia Ficha técnica:
  Nombre: Ninoska Nogales Url Blog: http://ninogales.blogspot.com/ Proyectos: de Tácticas y Estrategias  [caption id=&amp;quot;attachment_412&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;570&amp;rdquo; caption=&amp;quot;DE TÁCTICAS Y ESTRATEGIAS&amp;hellip;. &amp;ldquo;][/caption] ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)? Una ex docente de la universidad, hoy una gran amiga, me había recomendado leer el blog de Exeni; ingresé, para mi, un mundo totalmente nuevo&amp;hellip; empecé leyendo tímidamente y posteriormente navegando y navegando en la Red, había encontrado ya varios blogs bolivianos; entre ellos el blog de María Escándalo, el Estido, la Vero Vero, con el tiempo muchos otros más que se fueron constituyendo en mis favoritos y son la lectura obligada con seguridad también; puedo mencionar al utópico, Lilyth invisible y cosmobolita (excelente recomendación de mi amigo utópico), Rebelde, Boris y su ventarrón, Maité Sandoval, Vania y su Cápsula, las ocurrencias del Curucusí, los haikus de Sebastián, Cristibel y su Luna, Mundana y muchos muchos más&amp;hellip; peco de nombrarlos, porque con seguridad son muchos más, incluso los amigos de otros países que gracias a la magia de la tecnología pude conocer!</description>
     </item>
     
@@ -1416,7 +1426,7 @@ Lo mas curioso es el dominio de este blog que subio de -1 a 3 en dos meses desde
       <pubDate>Fri, 12 Sep 2008 13:04:16 +0000</pubDate>
       
       <guid>https://carakan.github.io/blog/2008/09/entrevistas-a-blogs-bolivianos-sakura/</guid>
-      <description>Entrevistas a blog&#39;s importantes de Bolivia Ficha técnica:
+      <description>Entrevistas a blog&amp;rsquo;s importantes de Bolivia Ficha técnica:
  Nombre: Sakura, alias: &amp;ldquo;Cecilia Contreras&amp;rdquo; Url Blog: http://ceenlasalturas.blogspot.com Proyectos: Vivencias, Bloguivianos 2008  [caption id=&amp;quot;attachment_376&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;551&amp;rdquo; caption=&amp;quot;blog de Cecilia Contreras&amp;rdquo;][/caption] ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)? Mi encuentro con los blogs fue muy casual, tenía tiempo de sobra en Internet, y estuve buscando algo que leer para pasar el tiempo (cuando disque trabajaba) y entre navegar por muchas páginas me encontré con un blog (ya no recuerdo el nombre), al principio no entendía muy bien la dinámica pero me llamó la atención la forma de poder comentar y cómo la persona escribía los textos y entonces fui buscando más blogs y mi interés fue creciendo.</description>
     </item>
     
@@ -1481,7 +1491,7 @@ Lo mas curioso es el dominio de este blog que subio de -1 a 3 en dos meses desde
       <pubDate>Fri, 29 Aug 2008 14:00:31 +0000</pubDate>
       
       <guid>https://carakan.github.io/blog/2008/08/recuento-de-la-semana/</guid>
-      <description>Esta semana inicie una serie de entrevistas a diferentes blogger&#39;s bolivianos, que se iran repetiendo por las siguientes semanas, les dejo las frases mas emotivas dentro de esta serie de entrevistas a blogs bolivianos: Maria Escandalo
+      <description>Esta semana inicie una serie de entrevistas a diferentes blogger&amp;rsquo;s bolivianos, que se iran repetiendo por las siguientes semanas, les dejo las frases mas emotivas dentro de esta serie de entrevistas a blogs bolivianos: Maria Escandalo
  Cada quien tiene una idea formada de lo que va a leer en los diferentes blogs bolivianos. Generalmente son respuestas interesantes, a veces simples, otras de crítica lo cual me agrada pero también hay aquellos que no están de acuerdo con nada de lo que uno escribe y lo reflejan con comentarios groseros, por suerte son pocos.</description>
     </item>
     
