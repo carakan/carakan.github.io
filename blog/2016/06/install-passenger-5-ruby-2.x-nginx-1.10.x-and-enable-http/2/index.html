@@ -96,34 +96,37 @@ sudo make install
 </code></pre></div><p>Install the passenger Gem:</p>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo gem install passenger --no-ri --no-rdoc
 </code></pre></div><p>Now we need to install nginx manually, enable http2 and add the dependency to passenger:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir /tmp/nginx <span style="color:#666">&amp;&amp;</span> <span style="color:#a2f">cd</span> /tmp/nginx
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">mkdir /tmp/nginx <span style="color:#666">&amp;&amp;</span> <span style="color:#a2f">cd</span> /tmp/nginx
 curl -O --progress https://nginx.org/download/nginx-1.10.1.tar.gz
 tar xzf nginx-1.10.1.tar.gz
 <span style="color:#a2f">cd</span> nginx-1.10.1
 <span style="color:#080;font-style:italic"># this contains all defaults options using the command passenger-install-nginx-module and http2 support</span>
-./configure --prefix<span style="color:#666">=</span><span style="color:#b44">&#39;/opt/nginx&#39;</span> <span style="color:#b62;font-weight:bold">\\</span>
---with-http<span style="color:#b62;font-weight:bold">\_</span>ssl<span style="color:#b62;font-weight:bold">\_</span>module <span style="color:#b62;font-weight:bold">\\</span>
---with-http<span style="color:#b62;font-weight:bold">\_</span>gzip<span style="color:#b62;font-weight:bold">\_</span>static<span style="color:#b62;font-weight:bold">\_</span>module <span style="color:#b62;font-weight:bold">\\</span>
---with-http<span style="color:#b62;font-weight:bold">\_</span>stub<span style="color:#b62;font-weight:bold">\_</span>status<span style="color:#b62;font-weight:bold">\_</span>module <span style="color:#b62;font-weight:bold">\\</span>
---with-cc-opt<span style="color:#666">=</span>-Wno-error <span style="color:#b62;font-weight:bold">\\</span>
---with-ld-opt<span style="color:#666">=</span><span style="color:#b44">&#39;&#39;</span> <span style="color:#b62;font-weight:bold">\\</span>
---add-module<span style="color:#666">=</span><span style="color:#a2f;font-weight:bold">$(</span>passenger-config --nginx-addon-dir<span style="color:#a2f;font-weight:bold">)</span> <span style="color:#b62;font-weight:bold">\\</span>
---with-http<span style="color:#b62;font-weight:bold">\_</span>v2<span style="color:#b62;font-weight:bold">\_</span>module
+./configure --prefix<span style="color:#666">=</span><span style="color:#b44">&#39;/opt/nginx&#39;</span> <span style="color:#b62;font-weight:bold">\
+</span><span style="color:#b62;font-weight:bold"></span>--with-http_ssl_module <span style="color:#b62;font-weight:bold">\
+</span><span style="color:#b62;font-weight:bold"></span>--with-http_gzip_static_module <span style="color:#b62;font-weight:bold">\
+</span><span style="color:#b62;font-weight:bold"></span>--with-http_stub_status_module <span style="color:#b62;font-weight:bold">\
+</span><span style="color:#b62;font-weight:bold"></span>--with-cc-opt<span style="color:#666">=</span>-Wno-error <span style="color:#b62;font-weight:bold">\
+</span><span style="color:#b62;font-weight:bold"></span>--with-ld-opt<span style="color:#666">=</span><span style="color:#b44">&#39;&#39;</span> <span style="color:#b62;font-weight:bold">\
+</span><span style="color:#b62;font-weight:bold"></span>--add-module<span style="color:#666">=</span><span style="color:#a2f;font-weight:bold">$(</span>passenger-config --nginx-addon-dir<span style="color:#a2f;font-weight:bold">)</span> <span style="color:#b62;font-weight:bold">\
+</span><span style="color:#b62;font-weight:bold"></span>--with-http_v2_module
 make
 sudo make install
 </code></pre></div><p>and thats it! you now have nginx + passenger + http2</p>
 <h2 id="enable-http2-on-vhost">Enable http2 on vhost</h2>
 <p><a href="https://http2.github.io/faq/#does-http2-require-encryption">only in https ;)</a></p>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">server <span style="color:#666">{</span>
-             listen              <span style="color:#666">443</span> ssl **http2**;
-             server<span style="color:#b62;font-weight:bold">\_</span>name         somedomain.com;
-             ssl<span style="color:#b62;font-weight:bold">\_</span>certificate     path<span style="color:#b62;font-weight:bold">\_</span>to<span style="color:#b62;font-weight:bold">\_</span>your.crt;
-             ssl<span style="color:#b62;font-weight:bold">\_</span>certificate<span style="color:#b62;font-weight:bold">\_</span>key path<span style="color:#b62;font-weight:bold">\_</span>to<span style="color:#b62;font-weight:bold">\_</span>your.key;
-             root /path/to/your/rails/public;
-             passenger<span style="color:#b62;font-weight:bold">\_</span>enabled on;
-             passenger<span style="color:#b62;font-weight:bold">\_</span>set<span style="color:#b62;font-weight:bold">\_</span>header HTTP<span style="color:#b62;font-weight:bold">\_</span>X<span style="color:#b62;font-weight:bold">\_</span>FORWARDED<span style="color:#b62;font-weight:bold">\_</span>PROTO https;
-         <span style="color:#666">}</span>
-</code></pre></div>
+    listen              <span style="color:#666">443</span> ssl http2;
+    server_name         somedomain.com;
+    ssl_certificate     path_to_your.crt;
+    ssl_certificate_key path_to_your.key;
+    root /path/to/your/rails/public;
+    passenger_enabled on;
+    passenger_set_header HTTP_X_FORWARDED_PROTO https;
+<span style="color:#666">}</span>
+</code></pre></div><h1 id="init-script">Init script</h1>
+<p>Due install from source this doesn&rsquo;t install as service to put a correct init I suggest to use
+this <a href="https://github.com/JasonGiedymin/nginx-init-ubuntu">awesome init.d</a>.</p>
+
       
       
 
