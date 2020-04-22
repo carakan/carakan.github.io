@@ -6,7 +6,7 @@
     <description>Recent content on Carlos Ramos - Software Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 24 Jan 2020 15:46:05 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 27 Aug 2019 09:20:38 -0400</lastBuildDate>
     
 	<atom:link href="https://carakan.net/feed.xml" rel="self" type="application/rss+xml" />
     
@@ -72,7 +72,7 @@ I found a practical solution: is to install a separate yarn recipe into ASDF.</d
       <pubDate>Sun, 22 Sep 2019 22:30:04 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2019/09/configure-and-install-last-elixir-ls-in-neovim/</guid>
-      <description>Last version of ElixirLS have a lot of improvements, for example a new robust code sugestion provided by elixir-sense, intellisense with code documentation and other larger changes, but now i didn&amp;rsquo;t see an actual release to use it, so in this post we will clone the last repo, compile and will install in our local dev to take advantage of this new features.
+      <description>The last version of ElixirLS have a lot of improvements, for example a new robust code suggestion provided by elixir-sense, intellisense with code documentation and other larger changes, but now i didn&amp;rsquo;t see an actual release to use it, so in this post we will clone the last repo, compile and will install in our local dev to take advantage of these new features.
 First clone and generate the executables of elixirLS:</description>
     </item>
     
@@ -95,7 +95,7 @@ asdf list-all erlang asdf install erlang 22.</description>
       <pubDate>Mon, 16 Sep 2019 10:16:01 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2019/09/enable-prettier-in-ember-templates/</guid>
-      <description>Prettier is an opinated code formatter, has built-in a lot of code formatters for languages, one of that is for handlebars (glimmer/mustache) but is hidden by default, to enable we only need to do this:
+      <description>Prettier is an opinionated code formatter, has built-in a lot of code formatters for languages, one of that is for handlebars (glimmer/mustache) but is hidden by default, to enable we only need to do this:
 create a .prettierrc in your home (~) with :
 { &amp;#34;overrides&amp;#34;: [ { &amp;#34;files&amp;#34;: &amp;#34;*.hbs&amp;#34;, &amp;#34;options&amp;#34;: { &amp;#34;parser&amp;#34;: &amp;#34;glimmer&amp;#34; // ... other custom configurations } } ] } and now you can use in your favorite editor or simple use directly with the CLI, for example:</description>
     </item>
@@ -141,7 +141,7 @@ ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :stu
       <pubDate>Tue, 27 Aug 2019 09:20:38 -0400</pubDate>
       
       <guid>https://carakan.net/about/</guid>
-      <description>I am a computer scientist with experience in development and agile practices. I have been working with Ruby on Rails for about 10+ years and is my framework of choice. Fell in love with the Ruby way of doing things and its syntax, also recently open-minded with functional programming and Elixir language and the ocean of knowledge with OTP. I am obsessed with writing elegant code and well tested; I am a big fan of DDD as my choice when need to take architect decisions.</description>
+      <description>I am a computer scientist with experience in development and agile practices. I have been working with Ruby on Rails for about 10+ years and is my framework of choice. Fell in love with the Ruby way of doing things and its syntax, also recently open-minded with functional programming and Elixir language and the ocean of knowledge with OTP. I am obsessed with writing elegant code and well tested; I am a big fan of DDD as my choice when need to take architect decisions.</description>
     </item>
     
     <item>
@@ -1465,7 +1465,7 @@ Lo mas curioso es el dominio de este blog que subio de -1 a 3 en dos meses desde
       <pubDate>Wed, 03 Sep 2008 20:55:48 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/09/sobre-las-redes-sociales/</guid>
-      <description>Facebook, la red social mas importante de estos tiempos esta cambiando la manera de socializar dentro de Internet, una muestra de ello es lo que publico Alberto montt, en su blog, la típica competencia por ser el mas popular: [](http://www.dosisdiarias.com/2008/08/2008-08-15.html) Via.</description>
+      <description>Facebook, la red social mas importante de estos tiempos esta cambiando la manera de socializar dentro de Internet, una muestra de ello es lo que publico Alberto montt, en su blog, la típica competencia por ser el mas popular:  Via.</description>
     </item>
     
     <item>
@@ -1556,7 +1556,7 @@ Había animado a un amigo a que se abra un blog, en el 2006, su blog trata de te
       <pubDate>Sat, 23 Aug 2008 00:30:51 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/08/batido-de-iphone/</guid>
-      <description>Desde la llegada del iphone, se ha creado una cultura de admiración a tan fantástico aparatito, ahora alguien se animaria a probar un batido de iphone? con lo que cuesta tener uno, a mi me dolio ver esto :P will it blend[](http://lt1982.blogspot.com/2008/07/will-it-blend.html)</description>
+      <description>Desde la llegada del iphone, se ha creado una cultura de admiración a tan fantástico aparatito, ahora alguien se animaria a probar un batido de iphone? con lo que cuesta tener uno, a mi me dolio ver esto :P will it blend</description>
     </item>
     
     <item>
@@ -1798,9 +1798,7 @@ Via</description>
       <pubDate>Fri, 13 Jun 2008 22:43:20 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/06/lanzamos-la-comunidad-de-blogs-de-bolivia/</guid>
-      <description>[](http://carakan.com/index.php/2008/06/13/lanzamos-la-primera-comunidad-de-blogs-de-bolivia/primera-red-de-blogs-de-bolivia/ &amp;ldquo;Primera Red de Blogs de Bolivia&amp;rdquo;)
-
-Gracias a un post mio sobre emprendimientos web 2.0 y a la colaboracion de Ramiro, que instalo el wp-mu, hemos iniciado una nueva red de blogs Bolivianos, a falta de uno propio, por que el actual directorio de blogs de Bolivia, casi en su totalidad estan en blogger.com, queremos formar algo nuestro con ese saborcito nacional que siempre gusta, pero queremos apoyo, asi que si estan interesados bolivianos o residentes bolivianos o que tenga algo de boliviano en su corazon :D escriban en los comentarios de este post o a los correos carakan @ gmail .</description>
+      <description>Gracias a un post mio sobre emprendimientos web 2.0 y a la colaboracion de Ramiro, que instalo el wp-mu, hemos iniciado una nueva red de blogs Bolivianos, a falta de uno propio, por que el actual directorio de blogs de Bolivia, casi en su totalidad estan en blogger.com, queremos formar algo nuestro con ese saborcito nacional que siempre gusta, pero queremos apoyo, asi que si estan interesados bolivianos o residentes bolivianos o que tenga algo de boliviano en su corazon :D escriban en los comentarios de este post o a los correos carakan @ gmail .</description>
     </item>
     
     <item>
@@ -1919,7 +1917,7 @@ CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCH
       <pubDate>Fri, 18 Apr 2008 15:36:19 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/04/qhacer-ya-esta-online./</guid>
-      <description>La version beta permanente ya esta lista, gracias al esfuerzo de Elmer.[](http://carakan.com/index.php/2008/04/18/qhacer-ya-esta-online/y-ahora-que-es-lo-que-hacemos/ &amp;ldquo;Y ahora que es lo que hacemos&amp;rdquo;)
+      <description>La version beta permanente ya esta lista, gracias al esfuerzo de Elmer.
 
  Como explique anteriormente, es un sitio para compartir tus actividades importantes, al modo 2.0, y que ademas empezo como una web para el aprendizaje de Ruby on Rails, pero ahora le estamos metiendo ganas y vamos a hacer un referente dentro de la web 2.0 en Bolivia.</description>
     </item>

@@ -16,7 +16,7 @@
   Carlos Ramos - Software Developer - great plugin for share session in rails apps between wordpress blog 
 </title>
 
-<meta name="generator" content="Hugo 0.64.0" />
+<meta name="generator" content="Hugo 0.69.0" />
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
@@ -77,7 +77,7 @@ tips
 <p><a href="https://wordpress.org/plugins/rails-login/" title="wordpress plugin for share session with rails app">rails login
 </a>
 this plugin only need a small API for enable login i created this code in model user:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00f"></span><span style="color:#666"></span><span style="color:#00a000">wp_json</span>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">wp_json</span>
   {
     <span style="color:#b8860b">user</span>: {
       <span style="color:#b8860b">email</span>: <span style="color:#a2f">self</span><span style="color:#666">.</span>email,
@@ -93,7 +93,7 @@ this plugin only need a small API for enable login i created this code in model 
   }
 <span style="color:#a2f;font-weight:bold">end</span>
 </code></pre></div><p>and in the rails controller I created this:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00f"></span><span style="color:#666"></span><span style="color:#00a000">current</span>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">current</span>
   session <span style="color:#666">=</span> <span style="color:#800">Session</span><span style="color:#666">.</span>where(<span style="color:#b8860b">session_id</span>: params<span style="color:#666">[</span><span style="color:#b8860b">:id</span><span style="color:#666">]</span>)<span style="color:#666">.</span>first
   respond_to <span style="color:#a2f;font-weight:bold">do</span> <span style="color:#666">|</span><span style="color:#a2f">format</span><span style="color:#666">|</span>
     <span style="color:#a2f">format</span><span style="color:#666">.</span>json <span style="color:#a2f;font-weight:bold">do</span>
@@ -142,16 +142,6 @@ this plugin only need a small API for enable login i created this code in model 
 
 
 
-<div id="disqus_thread"></div>
-<script>
-(function() {
-var d = document, s = d.createElement('script');
-s.src = 'https://carakan.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 
 <section id="menu-pane" class="row menu text-center">

@@ -16,7 +16,7 @@
   Carlos Ramos - Software Developer - How to do email only sign up using default active-admin setup 
 </title>
 
-<meta name="generator" content="Hugo 0.64.0" />
+<meta name="generator" content="Hugo 0.69.0" />
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
@@ -101,7 +101,7 @@ normally as a separate engine.</p>
 <p>Override the Devise definition of password_required? in your model <code>admin_user</code>:</p>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#a2f">protected</span>
 
-<span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00f"></span><span style="color:#666"></span><span style="color:#00a000">password_required?</span>
+<span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">password_required?</span>
   confirmed? ? <span style="color:#a2f;font-weight:bold">super</span> : <span style="color:#a2f">false</span>
 <span style="color:#a2f;font-weight:bold">end</span>
 </code></pre></div></li>
@@ -117,7 +117,7 @@ normally as a separate engine.</p>
 <p>To work correctly you must need to create a monkey patching as described below:</p>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#080;font-style:italic"># config/initializers/active_admin_devise_confirmations_controller.rb</span>
 <span style="color:#a2f;font-weight:bold">class</span> <span style="color:#00f">ActiveAdmin</span><span style="color:#666">::</span><span style="color:#800">Devise</span><span style="color:#666">::</span><span style="color:#800">ConfirmationsController</span>
-  <span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00f"></span><span style="color:#666"></span><span style="color:#00a000">after_confirmation_path_for</span>(_resource_name, resource)
+  <span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">after_confirmation_path_for</span>(_resource_name, resource)
     token <span style="color:#666">=</span> resource<span style="color:#666">.</span>send(<span style="color:#b8860b">:set_reset_password_token</span>)
     edit_password_url(resource, <span style="color:#b8860b">reset_password_token</span>: token)
   <span style="color:#a2f;font-weight:bold">end</span>
@@ -187,16 +187,6 @@ this moment.</p>
 
 
 
-<div id="disqus_thread"></div>
-<script>
-(function() {
-var d = document, s = d.createElement('script');
-s.src = 'https://carakan.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 
 <section id="menu-pane" class="row menu text-center">

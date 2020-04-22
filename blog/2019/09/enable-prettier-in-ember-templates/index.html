@@ -16,7 +16,7 @@
   Carlos Ramos - Software Developer - Enable Prettier in Ember templates 
 </title>
 
-<meta name="generator" content="Hugo 0.64.0" />
+<meta name="generator" content="Hugo 0.69.0" />
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
@@ -73,7 +73,7 @@ til
 <section id="content-pane" class="row">
   <div class="col-md-12 text-justify content">
     
-    <p>Prettier is an opinated code formatter, has built-in a lot of code formatters for languages,
+    <p>Prettier is an opinionated code formatter, has built-in a lot of code formatters for languages,
 one of that is for handlebars (glimmer/mustache) but is hidden by default, to enable we only
 need to do this:</p>
 <p>create a <code>.prettierrc</code> in your home (~) with :</p>
@@ -83,7 +83,7 @@ need to do this:</p>
       <span style="color:#008000;font-weight:bold">&#34;files&#34;</span>: <span style="color:#b44">&#34;*.hbs&#34;</span>,
       <span style="color:#008000;font-weight:bold">&#34;options&#34;</span>: {
         <span style="color:#008000;font-weight:bold">&#34;parser&#34;</span>: <span style="color:#b44">&#34;glimmer&#34;</span>
-        <span style="">/</span><span style="">/</span> <span style="">.</span><span style="">.</span><span style="">.</span> <span style="">o</span><span style="">t</span><span style="">h</span><span style="">e</span><span style="">r</span> <span style="">c</span><span style="">u</span><span style="">s</span><span style="">t</span><span style="">o</span><span style="">m</span> <span style="">c</span><span style="">o</span><span style="">n</span><span style="">f</span><span style="">i</span><span style="">g</span><span style="">u</span><span style="">r</span><span style="">a</span><span style="">t</span><span style="">i</span><span style="">o</span><span style="">n</span><span style="">s</span>
+        <span style="">//</span> <span style="">...</span> <span style="">other</span> <span style="">custom</span> <span style="">configurations</span>
       }
     }
   ]
@@ -91,7 +91,7 @@ need to do this:</p>
 </code></pre></div><p>and now you can use in your favorite editor or simple use directly with the CLI,
 for example:</p>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">prettier --write <span style="color:#b44">&#34;**/*.hbs&#34;</span>
-</code></pre></div><p><a href="https://prettier.io/docs/en/configuration.html">Know more of configurating prettier</a></p>
+</code></pre></div><p><a href="https://prettier.io/docs/en/configuration.html">Know more of configuration prettier</a></p>
 <p><a href="https://github.com/carakan/dotfiles/blob/master/prettierrc">An example of .prettierrc config file</a></p>
 
       
@@ -140,16 +140,6 @@ for example:</p>
 
 
 
-<div id="disqus_thread"></div>
-<script>
-(function() {
-var d = document, s = d.createElement('script');
-s.src = 'https://carakan.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 
 <section id="menu-pane" class="row menu text-center">
