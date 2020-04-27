@@ -6,10 +6,21 @@
     <description>Recent content in Blogs on Carlos Ramos - Software Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 24 Jan 2020 15:46:05 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2020 15:17:47 -0400</lastBuildDate>
     
 	<atom:link href="https://carakan.net/blog/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Configuring Python3 on Neovim</title>
+      <link>https://carakan.net/blog/2020/04/configuring-python3-on-neovim/</link>
+      <pubDate>Mon, 27 Apr 2020 15:17:47 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2020/04/configuring-python3-on-neovim/</guid>
+      <description>The idea is to configure correctly the support of python3 into neovim, let&amp;rsquo;s start.
+first this configuration is using macOS, by default python3 is installed on macOS and the default route of the executables are:
+which python3 # =&amp;gt; /usr/bin/python3 which pip3 # =&amp;gt; /usr/bin/pip3 And that&amp;rsquo;s it! but normally if you are using homebrew you also installed the python3 using a formula, personally I do not to recomend that but it will work.</description>
+    </item>
     
     <item>
       <title>How to Install Older Versions of Ruby</title>
