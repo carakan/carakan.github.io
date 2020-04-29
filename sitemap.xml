@@ -13,22 +13,27 @@
   </url>
   
   <url>
+    <loc>https://carakan.net/tags/neovim/</loc>
+    <lastmod>2020-04-27T15:17:47-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.net/tags/</loc>
+    <lastmod>2020-04-27T15:17:47-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.net/tags/til/</loc>
+    <lastmod>2020-04-27T15:17:47-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://carakan.net/blog/2020/01/how-to-install-older-versions-of-ruby/</loc>
     <lastmod>2020-01-24T15:46:05-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://carakan.net/tags/ruby/</loc>
-    <lastmod>2020-01-24T15:46:05-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.net/tags/</loc>
-    <lastmod>2020-01-24T15:46:05-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.net/tags/til/</loc>
     <lastmod>2020-01-24T15:46:05-04:00</lastmod>
   </url>
   
@@ -94,11 +99,6 @@
   
   <url>
     <loc>https://carakan.net/tags/elixirls/</loc>
-    <lastmod>2019-09-22T22:30:04-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.net/tags/neovim/</loc>
     <lastmod>2019-09-22T22:30:04-04:00</lastmod>
   </url>
   
