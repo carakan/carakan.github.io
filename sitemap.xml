@@ -4,7 +4,37 @@
   
   <url>
     <loc>https://carakan.net/blog/</loc>
-    <lastmod>2020-04-27T15:17:47-04:00</lastmod>
+    <lastmod>2020-08-19T20:41:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.net/tags/bundle/</loc>
+    <lastmod>2020-08-19T20:41:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.net/</loc>
+    <lastmod>2020-08-19T20:41:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.net/blog/2020/08/how-to-install-mariadb-mysql2-driver-ruby/</loc>
+    <lastmod>2020-08-19T20:41:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.net/tags/ruby/</loc>
+    <lastmod>2020-08-19T20:41:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.net/tags/</loc>
+    <lastmod>2020-08-19T20:41:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.net/tags/til/</loc>
+    <lastmod>2020-08-19T20:41:10-04:00</lastmod>
   </url>
   
   <url>
@@ -18,22 +48,7 @@
   </url>
   
   <url>
-    <loc>https://carakan.net/tags/</loc>
-    <lastmod>2020-04-27T15:17:47-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.net/tags/til/</loc>
-    <lastmod>2020-04-27T15:17:47-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://carakan.net/blog/2020/01/how-to-install-older-versions-of-ruby/</loc>
-    <lastmod>2020-01-24T15:46:05-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.net/tags/ruby/</loc>
     <lastmod>2020-01-24T15:46:05-04:00</lastmod>
   </url>
   
@@ -93,11 +108,6 @@
   </url>
   
   <url>
-    <loc>https://carakan.net/tags/elixir/</loc>
-    <lastmod>2019-09-22T22:30:04-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://carakan.net/tags/elixirls/</loc>
     <lastmod>2019-09-22T22:30:04-04:00</lastmod>
   </url>
@@ -153,11 +163,6 @@
   </url>
   
   <url>
-    <loc>https://carakan.net/</loc>
-    <lastmod>2019-08-27T09:20:38-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://carakan.net/tags/railscasts/</loc>
     <lastmod>2019-07-18T21:50:22-04:00</lastmod>
   </url>
@@ -170,6 +175,11 @@
   <url>
     <loc>https://carakan.net/blog/2018/11/newrailscasts-my-first-vscode-theme/</loc>
     <lastmod>2019-07-18T21:50:22-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.net/tags/elixir/</loc>
+    <lastmod>2019-07-18T21:50:21-04:00</lastmod>
   </url>
   
   <url>
@@ -209,11 +219,6 @@
   
   <url>
     <loc>https://carakan.net/tags/emprendimiento/</loc>
-    <lastmod>2017-09-08T16:08:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carakan.net/tags/startup/</loc>
     <lastmod>2017-09-08T16:08:00+00:00</lastmod>
   </url>
   
@@ -863,17 +868,17 @@
   </url>
   
   <url>
-    <loc>https://carakan.net/tags/bienes-raices/</loc>
-    <lastmod>2009-01-23T23:21:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://carakan.net/tags/bienes-raices-bolivia/</loc>
     <lastmod>2009-01-23T23:21:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://carakan.net/blog/2009/01/presentaci%C3%B3n-de-casasmap-en-webprende-bolivia/</loc>
+    <lastmod>2009-01-23T23:21:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.net/tags/startup/</loc>
     <lastmod>2009-01-23T23:21:00+00:00</lastmod>
   </url>
   
@@ -1770,6 +1775,11 @@
   <url>
     <loc>https://carakan.net/blog/2008/02/historias-0-y-i-de-un-emprendedor/</loc>
     <lastmod>2008-02-07T23:27:59+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carakan.net/tags/bienes-raices/</loc>
+    <lastmod>2008-02-07T16:23:36+00:00</lastmod>
   </url>
   
   <url>

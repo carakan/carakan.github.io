@@ -16,7 +16,7 @@
   Carlos Ramos - Software Developer - install passenger 5, ruby 2.x, nginx 1.10.x and enable HTTP/2 
 </title>
 
-<meta name="generator" content="Hugo 0.69.2" />
+<meta name="generator" content="Hugo 0.74.3" />
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
@@ -83,7 +83,9 @@ apt-get install sudo -y
 </code></pre></div><p>install the required packages:</p>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate python-docutils pkg-config cmake nodejs git-core
 </code></pre></div><h2 id="install-ruby">Install Ruby</h2>
-<p>For production sites is a <em>MUST</em> install from sources without using any versions managers like RVM, RENV or whatever this is why leads to hard to diagnose problems. Remove the old Ruby 1.8 if present:</p>
+<p>For production sites is a <em>MUST</em> install from sources without using any versions
+managers like RVM, RENV or whatever this is why leads to hard to diagnose
+problems. Remove the old Ruby 1.8 if present:</p>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get remove ruby1.8
 </code></pre></div><p>Download Ruby and compile it:</p>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir /tmp/ruby <span style="color:#666">&amp;&amp;</span> <span style="color:#a2f">cd</span> /tmp/ruby
@@ -115,17 +117,17 @@ sudo make install
 <h2 id="enable-http2-on-vhost">Enable http2 on vhost</h2>
 <p><a href="https://http2.github.io/faq/#does-http2-require-encryption">only in https ;)</a></p>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">server <span style="color:#666">{</span>
-    listen              <span style="color:#666">443</span> ssl http2;
-    server_name         somedomain.com;
-    ssl_certificate     path_to_your.crt;
-    ssl_certificate_key path_to_your.key;
-    root /path/to/your/rails/public;
-    passenger_enabled on;
-    passenger_set_header HTTP_X_FORWARDED_PROTO https;
+  listen <span style="color:#666">443</span> ssl http2;
+  server_name somedomain.com;
+  ssl_certificate path_to_your.crt;
+  ssl_certificate_key path_to_your.key;
+  root /path/to/your/rails/public;
+  passenger_enabled on;
+  passenger_set_header HTTP_X_FORWARDED_PROTO https;
 <span style="color:#666">}</span>
 </code></pre></div><h1 id="init-script">Init script</h1>
-<p>Due install from source this doesn&rsquo;t install as service to put a correct init I suggest to use
-this <a href="https://github.com/JasonGiedymin/nginx-init-ubuntu">awesome init.d</a>.</p>
+<p>Due to install from source this method doesn&rsquo;t install as a OS service, to put a
+correct init I suggest to use this <a href="https://github.com/JasonGiedymin/nginx-init-ubuntu">awesome init.d</a>.</p>
 
       
       
@@ -179,6 +181,16 @@ this <a href="https://github.com/JasonGiedymin/nginx-init-ubuntu">awesome init.d
 
 
 
+<div id="disqus_thread"></div>
+<script>
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://carakan.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 
 <section id="menu-pane" class="row menu text-center">

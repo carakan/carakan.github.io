@@ -6,10 +6,21 @@
     <description>Recent content on Carlos Ramos - Software Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 27 Aug 2019 09:20:38 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2020 20:41:10 -0400</lastBuildDate>
     
 	<atom:link href="https://carakan.net/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to Install Mariadb Mysql2 Driver Ruby</title>
+      <link>https://carakan.net/blog/2020/08/how-to-install-mariadb-mysql2-driver-ruby/</link>
+      <pubDate>Wed, 19 Aug 2020 20:41:10 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2020/08/how-to-install-mariadb-mysql2-driver-ruby/</guid>
+      <description>In a project I had troubles triying to install mysql2 gem with a older version of mariadb installed via homebrew.
+the solution is to send the path of the installation.
+gem install mysql2 -- --with-mysql-config=$(brew --prefix mariadb@10.2)/bin/mysql_config </description>
+    </item>
     
     <item>
       <title>Configuring Python3 on Neovim</title>
@@ -152,7 +163,7 @@ ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :stu
       <pubDate>Tue, 27 Aug 2019 09:20:38 -0400</pubDate>
       
       <guid>https://carakan.net/about/</guid>
-      <description>I am a computer scientist with experience in development and agile practices. I have been working with Ruby on Rails for about 10+ years and is my framework of choice. Fell in love with the Ruby way of doing things and its syntax, also recently open-minded with functional programming and Elixir language and the ocean of knowledge with OTP. I am obsessed with writing elegant code and well tested; I am a big fan of DDD as my choice when need to take architect decisions.</description>
+      <description>I am a computer scientist with experience in development and agile practices. I have been working with Ruby on Rails for about 10+ years and is my framework of choice. Fell in love with the Ruby way of doing things and its syntax, also recently open-minded with functional programming and Elixir language and the ocean of knowledge with OTP. I am obsessed with writing elegant code and well tested; I am a big fan of DDD as my choice when need to take architect decisions.</description>
     </item>
     
     <item>
@@ -1429,7 +1440,7 @@ Lo mas curioso es el dominio de este blog que subio de -1 a 3 en dos meses desde
       
       <guid>https://carakan.net/blog/2008/09/entrevistas-a-blogs-importantes-de-bolivia-rocko/</guid>
       <description>Ficha técnica:
- Nombre: Rolando López T. Url Blog: http://rocko.blogia.com Proyectos: No sabe / No responde  [caption id=&amp;quot;attachment_384&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;550&amp;rdquo; caption=&amp;quot;El blog es el protagonista.&amp;quot;][/caption] Me es un placer el poder ahora publicar la entrevista del que fue el pionero en la blogosfera boliviana, el primer blog boliviano, un personaje que define que &amp;ldquo;El blog es una herramienta individual que te hace universal&amp;quot;, ahora con esta pequeña descripción sigamos con la entrevista.</description>
+ Nombre: Rolando López T. Url Blog: http://rocko.blogia.com Proyectos: No sabe / No responde  [caption id=&amp;quot;attachment_384&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;550&amp;rdquo; caption=&amp;quot;El blog es el protagonista.&amp;quot;][/caption] Me es un placer el poder ahora publicar la entrevista del que fue el pionero en la blogosfera boliviana, el primer blog boliviano, un personaje que define que &amp;ldquo;El blog es una herramienta individual que te hace universal&amp;rdquo;, ahora con esta pequeña descripción sigamos con la entrevista.</description>
     </item>
     
     <item>
@@ -2123,7 +2134,7 @@ El problema es que al momento de estar actualizando rails me mostraba un mensaje
       <pubDate>Sat, 08 Dec 2007 13:10:36 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2007/12/realice-mi-predefensa-de-mi-proyecto-de-grado/</guid>
-      <description>Como una de los requisitos para la culminación de mi carrera es la predefensa de mi proyecto de grado, lo realice bien, con esto ya estoy a un paso de defenderla. Mi proyecto se realiza bajo los conceptos de Scrum, Web 2.0 y frameworks de desarrollo, el titulo es &amp;ldquo;Sistema web integrado de planificación pedagógica y control de pagos&amp;quot;, desarrollado en Ruby on rails, con la colaboración exhaustiva de mis docentes tutor: Lic.</description>
+      <description>Como una de los requisitos para la culminación de mi carrera es la predefensa de mi proyecto de grado, lo realice bien, con esto ya estoy a un paso de defenderla. Mi proyecto se realiza bajo los conceptos de Scrum, Web 2.0 y frameworks de desarrollo, el titulo es &amp;ldquo;Sistema web integrado de planificación pedagógica y control de pagos&amp;rdquo;, desarrollado en Ruby on rails, con la colaboración exhaustiva de mis docentes tutor: Lic.</description>
     </item>
     
     <item>
