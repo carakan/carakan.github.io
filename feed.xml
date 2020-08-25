@@ -6,10 +6,22 @@
     <description>Recent content on Carlos Ramos - Software Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 19 Aug 2020 20:41:10 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2020 09:39:14 -0400</lastBuildDate>
     
 	<atom:link href="https://carakan.net/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Configure Vim Test to Work With Docker</title>
+      <link>https://carakan.net/blog/2020/08/configure-vim-test-to-work-with-docker/</link>
+      <pubDate>Tue, 25 Aug 2020 09:39:14 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2020/08/configure-vim-test-to-work-with-docker/</guid>
+      <description>Recently I started to work with Docker in a project, and I ever use vim-test to run test using vim, now to integrate in current docker workflow we need to configure vim test.
+Fork example to configure to run rspec test:
+let test#ruby#rspec#executable = &amp;#39;docker-compose exec -e RAILS_ENV=test app rspec&amp;#39;to run inside to already running app docker container.
+It is very important to add -e RAILS_ENV=test to send envinroment variables and set test env inside the rails app.</description>
+    </item>
     
     <item>
       <title>How to Install Mariadb Mysql2 Driver Ruby</title>
