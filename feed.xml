@@ -6,10 +6,16 @@
     <description>Recent content on Carlos Ramos - Software Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 25 Aug 2020 09:39:14 -0400</lastBuildDate>
-    
-	<atom:link href="https://carakan.net/feed.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Wed, 25 Nov 2020 12:24:29 -0400</lastBuildDate><atom:link href="https://carakan.net/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Ancient Gems Ffi</title>
+      <link>https://carakan.net/blog/2020/11/install-ancient-gems-ffi/</link>
+      <pubDate>Wed, 25 Nov 2020 12:24:29 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2020/11/install-ancient-gems-ffi/</guid>
+      <description>To install a ancient ffi (&amp;lt;= 1.9.18) in Catalina MacOS or newer OS we need to use this command:
+gem install ffi -v &amp;#39;1.9.18&amp;#39; -- --with-cflags=&amp;#34;-Wno-error=implicit-function-declaration&amp;#34; </description>
+    </item>
     
     <item>
       <title>Configure Vim Test to Work With Docker</title>
@@ -390,7 +396,7 @@ Aprovechar las oportunidades.</description>
       <pubDate>Thu, 18 Nov 2010 12:18:03 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2010/11/que-como-cuando-y-donde/</guid>
-      <description>[caption id=&amp;quot;attachment_727&amp;rdquo; align=&amp;quot;alignleft&amp;rdquo; width=&amp;quot;300&amp;rdquo; caption=&amp;quot;folgama&amp;rdquo;][/caption] Lamento no haber escrito por meses!!! pero &amp;hellip; He estado estos dias en muchos ajetreos dentro de lo que esta poco a poco acaparando mi vida sin querer, les hablo de mi pequeño emprendimiento la Red social del Folklore y de eventos Folgama, primero comentarles sobre la transmisión exitosa de la Entrada Folklorica de la Universidad Publica de la Ciudad del Alto (UPEA), Gracias al apoyo del equipo EaBlogs.</description>
+      <description>[caption id=&amp;ldquo;attachment_727&amp;rdquo; align=&amp;ldquo;alignleft&amp;rdquo; width=&amp;ldquo;300&amp;rdquo; caption=&amp;ldquo;folgama&amp;rdquo;][/caption] Lamento no haber escrito por meses!!! pero &amp;hellip; He estado estos dias en muchos ajetreos dentro de lo que esta poco a poco acaparando mi vida sin querer, les hablo de mi pequeño emprendimiento la Red social del Folklore y de eventos Folgama, primero comentarles sobre la transmisión exitosa de la Entrada Folklorica de la Universidad Publica de la Ciudad del Alto (UPEA), Gracias al apoyo del equipo EaBlogs.</description>
     </item>
     
     <item>
@@ -582,7 +588,7 @@ Fuente</description>
       <pubDate>Tue, 14 Jul 2009 03:03:45 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2009/07/y-ya-vamos-por-los-once-numeros-de-la-revista-atix/</guid>
-      <description>[caption id=&amp;quot;attachment_685&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;220&amp;rdquo; caption=&amp;quot;Revista ATIX 11&amp;rdquo;][/caption] En éste décimo primer número ponderamos los proyectos latinos finalistas del Comunity Choice Awards, seguros estamos que estos abren las puertas para otros proyectos de origen latino, los mejores deseos de éxito para todos ellos. Cada vez somos más y así nos fortalecemos. Descargar</description>
+      <description>[caption id=&amp;ldquo;attachment_685&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;220&amp;rdquo; caption=&amp;ldquo;Revista ATIX 11&amp;rdquo;][/caption] En éste décimo primer número ponderamos los proyectos latinos finalistas del Comunity Choice Awards, seguros estamos que estos abren las puertas para otros proyectos de origen latino, los mejores deseos de éxito para todos ellos. Cada vez somos más y así nos fortalecemos. Descargar</description>
     </item>
     
     <item>
@@ -771,7 +777,7 @@ Un año de emprendimiento y la satisfacción de haber cumplido nuestro primer ci
       <pubDate>Wed, 01 Apr 2009 21:09:15 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2009/04/comprate-la-computadora-de-la-iniciativa-dharma/</guid>
-      <description>Si eres un fanatico de la serie Lost, te facinara este poster que invita a chatear con tus familiares y amigos, algo bastante geek y retro. [caption id=&amp;quot;attachment_632&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;566&amp;rdquo; caption=&amp;quot;Poster de Dharma Inititive&amp;rdquo;][/caption] Que opinas al respecto? Las fotos originales</description>
+      <description>Si eres un fanatico de la serie Lost, te facinara este poster que invita a chatear con tus familiares y amigos, algo bastante geek y retro. [caption id=&amp;ldquo;attachment_632&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;566&amp;rdquo; caption=&amp;ldquo;Poster de Dharma Inititive&amp;rdquo;][/caption] Que opinas al respecto? Las fotos originales</description>
     </item>
     
     <item>
@@ -1042,7 +1048,7 @@ Felices Fiestas y prospero año nuevo.   Creo que me dedicare al año a bailar :
       
       <guid>https://carakan.net/blog/2008/12/entrevistas-a-blogs-internacionales-listao/</guid>
       <description>Ficha técnica:
- Nombre: Hernán Nadal. Blog: Listao. Url Blog: http://www.listao.com.ar Proyectos:  [caption id=&amp;rdquo;&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;576&amp;rdquo; caption=&amp;quot;Blog argentino Listao&amp;rdquo;][/caption] Inicio la serie de entrevistas a Blogs internacionales, Gracias a Hernán Nadal, de Argentina que nos muestra un poco sobre su blog. [caption id=&amp;quot;attachment_558&amp;rdquo; align=&amp;quot;alignright&amp;rdquo; width=&amp;quot;180&amp;rdquo; caption=&amp;quot;Hernán Nadal&amp;rdquo;][/caption] ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)? Me inicie con Listao en abril del 2004. Antes de eso me comunicaba con mis lectores mediante Yahoo Groups.</description>
+ Nombre: Hernán Nadal. Blog: Listao. Url Blog: http://www.listao.com.ar Proyectos:  [caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;576&amp;rdquo; caption=&amp;ldquo;Blog argentino Listao&amp;rdquo;][/caption] Inicio la serie de entrevistas a Blogs internacionales, Gracias a Hernán Nadal, de Argentina que nos muestra un poco sobre su blog. [caption id=&amp;ldquo;attachment_558&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;180&amp;rdquo; caption=&amp;ldquo;Hernán Nadal&amp;rdquo;][/caption] ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)? Me inicie con Listao en abril del 2004. Antes de eso me comunicaba con mis lectores mediante Yahoo Groups.</description>
     </item>
     
     <item>
@@ -1187,7 +1193,7 @@ Laurence J. peter. Las Fórmulas de Peter
       <pubDate>Wed, 12 Nov 2008 14:20:00 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/11/la-verdad-de-las-redes-sociales/</guid>
-      <description>Encontré esto por internet, me hace recapacitar por que me encuentro en la primera opción, muy chistoso y recomendable, hice unos pequeños retoques a la imagen, espero que les guste. [caption id=&amp;rdquo;&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;503&amp;rdquo; caption=&amp;quot;la verdad de las redes sociales&amp;rdquo;][/caption]</description>
+      <description>Encontré esto por internet, me hace recapacitar por que me encuentro en la primera opción, muy chistoso y recomendable, hice unos pequeños retoques a la imagen, espero que les guste. [caption id=&amp;quot;&amp;quot; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;503&amp;rdquo; caption=&amp;ldquo;la verdad de las redes sociales&amp;rdquo;][/caption]</description>
     </item>
     
     <item>
@@ -1223,7 +1229,7 @@ Laurence J. peter. Las Fórmulas de Peter
       <pubDate>Wed, 05 Nov 2008 13:00:54 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/11/tema-wordpress-goyi/</guid>
-      <description>[caption id=&amp;quot;attachment_499&amp;rdquo; align=&amp;quot;alignright&amp;rdquo; width=&amp;quot;250&amp;rdquo; caption=&amp;quot;Suplento Goyi de Bolivia&amp;rdquo;][/caption] Uno de los mas grandes personajes infantiles por Bolivia, es sin duda Goyi, que por estos momentos ha entrado en el olvido, muchos se acordaran el suplemento de Goyi que fue muy acogido por la niñez boliviana, como una forma de dar gracias a este personaje que con sus vivencias enseño a muchas generaciones de niños, El tema que presento es simple y moderno en español y tonos pasteles que espero que les guste, actualize muchas cosas con la API de Wordpress, incluye: avatars, trackbacks y no es muy pesado.</description>
+      <description>[caption id=&amp;ldquo;attachment_499&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;250&amp;rdquo; caption=&amp;ldquo;Suplento Goyi de Bolivia&amp;rdquo;][/caption] Uno de los mas grandes personajes infantiles por Bolivia, es sin duda Goyi, que por estos momentos ha entrado en el olvido, muchos se acordaran el suplemento de Goyi que fue muy acogido por la niñez boliviana, como una forma de dar gracias a este personaje que con sus vivencias enseño a muchas generaciones de niños, El tema que presento es simple y moderno en español y tonos pasteles que espero que les guste, actualize muchas cosas con la API de Wordpress, incluye: avatars, trackbacks y no es muy pesado.</description>
     </item>
     
     <item>
@@ -1327,7 +1333,7 @@ Si ese es el titulo con el que entramos al concurso, no se si llamarlo así, que
       
       <guid>https://carakan.net/blog/2008/10/entrevistas-a-blogs-bolivianos-instituto-del-delirio/</guid>
       <description>Ficha técnica: Nombre: Juan Pablo Rodríguez Camacho. Url Blog: www.elinstitutodeldelirio.com Proyectos:
- Convertir El Instituto del Delirio en una empresa dedicada a la producción de contenidos de televisión y radio. Ganar el premio nacional de periodismo Conducir un programa de televisión Ganarme el respeto de los enemigos Encontrar una mujer de la cual enamorarme Escribir un libro de cuentos Participar de una obra de una obra de teatro E involucrarme en la gestión cultural  [caption id=&amp;quot;attachment_460&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;499&amp;rdquo; caption=&amp;quot;Instituto del delirio&amp;rdquo;][/caption] ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)?</description>
+ Convertir El Instituto del Delirio en una empresa dedicada a la producción de contenidos de televisión y radio. Ganar el premio nacional de periodismo Conducir un programa de televisión Ganarme el respeto de los enemigos Encontrar una mujer de la cual enamorarme Escribir un libro de cuentos Participar de una obra de una obra de teatro E involucrarme en la gestión cultural  [caption id=&amp;ldquo;attachment_460&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;499&amp;rdquo; caption=&amp;ldquo;Instituto del delirio&amp;rdquo;][/caption] ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)?</description>
     </item>
     
     <item>
@@ -1413,7 +1419,7 @@ Lo mas curioso es el dominio de este blog que subio de -1 a 3 en dos meses desde
       <pubDate>Mon, 22 Sep 2008 15:07:58 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/09/nueva-imagen-de-bolivia-on-rails-y-tema-wp-espa%C3%B1ol/</guid>
-      <description>Este fin de semana estuve trabajando en la nueva imagen de Bolivia on Rails, un sitio dedicado al desarrollo de ruby on rails dentro y fuera de Bolivia, lo deje un poco estancado este proyecto pero gracias a la colaboración de Boris Barroso estoy retomando el camino y además quiero informar de que ahora los tutoriales o cosas relacionadas con Rails serán publicadas en el Sitio de Bolivia on rails. [caption id=&amp;quot;attachment_420&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;563&amp;rdquo; caption=&amp;quot;Bolivia on rails&amp;rdquo;][/caption] Otra noticia que se hará costumbre es que pongo a disposición el thema en Wordpress para que puedan utilizarlo en sus propios blogs, es un tema oscuro que me gusta por la combinación de colores, lo traduje y ahora lo comparto además que dejo el fuente de la cabecera en photoshop para que puedan editarlo, así que disfrútenlo.</description>
+      <description>Este fin de semana estuve trabajando en la nueva imagen de Bolivia on Rails, un sitio dedicado al desarrollo de ruby on rails dentro y fuera de Bolivia, lo deje un poco estancado este proyecto pero gracias a la colaboración de Boris Barroso estoy retomando el camino y además quiero informar de que ahora los tutoriales o cosas relacionadas con Rails serán publicadas en el Sitio de Bolivia on rails. [caption id=&amp;ldquo;attachment_420&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;563&amp;rdquo; caption=&amp;ldquo;Bolivia on rails&amp;rdquo;][/caption] Otra noticia que se hará costumbre es que pongo a disposición el thema en Wordpress para que puedan utilizarlo en sus propios blogs, es un tema oscuro que me gusta por la combinación de colores, lo traduje y ahora lo comparto además que dejo el fuente de la cabecera en photoshop para que puedan editarlo, así que disfrútenlo.</description>
     </item>
     
     <item>
@@ -1423,7 +1429,7 @@ Lo mas curioso es el dominio de este blog que subio de -1 a 3 en dos meses desde
       
       <guid>https://carakan.net/blog/2008/09/entrevistas-a-blogs-de-bolivia-ninoska-nogales/</guid>
       <description>Entrevistas a blog&amp;rsquo;s importantes de Bolivia Ficha técnica:
- Nombre: Ninoska Nogales Url Blog: http://ninogales.blogspot.com/ Proyectos: de Tácticas y Estrategias  [caption id=&amp;quot;attachment_412&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;570&amp;rdquo; caption=&amp;quot;DE TÁCTICAS Y ESTRATEGIAS&amp;hellip;. &amp;ldquo;][/caption] ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)? Una ex docente de la universidad, hoy una gran amiga, me había recomendado leer el blog de Exeni; ingresé, para mi, un mundo totalmente nuevo&amp;hellip; empecé leyendo tímidamente y posteriormente navegando y navegando en la Red, había encontrado ya varios blogs bolivianos; entre ellos el blog de María Escándalo, el Estido, la Vero Vero, con el tiempo muchos otros más que se fueron constituyendo en mis favoritos y son la lectura obligada con seguridad también; puedo mencionar al utópico, Lilyth invisible y cosmobolita (excelente recomendación de mi amigo utópico), Rebelde, Boris y su ventarrón, Maité Sandoval, Vania y su Cápsula, las ocurrencias del Curucusí, los haikus de Sebastián, Cristibel y su Luna, Mundana y muchos muchos más&amp;hellip; peco de nombrarlos, porque con seguridad son muchos más, incluso los amigos de otros países que gracias a la magia de la tecnología pude conocer!</description>
+ Nombre: Ninoska Nogales Url Blog: http://ninogales.blogspot.com/ Proyectos: de Tácticas y Estrategias  [caption id=&amp;ldquo;attachment_412&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;570&amp;rdquo; caption=&amp;ldquo;DE TÁCTICAS Y ESTRATEGIAS&amp;hellip;. &amp;ldquo;][/caption] ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)? Una ex docente de la universidad, hoy una gran amiga, me había recomendado leer el blog de Exeni; ingresé, para mi, un mundo totalmente nuevo&amp;hellip; empecé leyendo tímidamente y posteriormente navegando y navegando en la Red, había encontrado ya varios blogs bolivianos; entre ellos el blog de María Escándalo, el Estido, la Vero Vero, con el tiempo muchos otros más que se fueron constituyendo en mis favoritos y son la lectura obligada con seguridad también; puedo mencionar al utópico, Lilyth invisible y cosmobolita (excelente recomendación de mi amigo utópico), Rebelde, Boris y su ventarrón, Maité Sandoval, Vania y su Cápsula, las ocurrencias del Curucusí, los haikus de Sebastián, Cristibel y su Luna, Mundana y muchos muchos más&amp;hellip; peco de nombrarlos, porque con seguridad son muchos más, incluso los amigos de otros países que gracias a la magia de la tecnología pude conocer!</description>
     </item>
     
     <item>
@@ -1441,8 +1447,8 @@ Lo mas curioso es el dominio de este blog que subio de -1 a 3 en dos meses desde
       <pubDate>Wed, 17 Sep 2008 13:09:35 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/09/entrevistas-a-blogs-de-bolivia-masaco/</guid>
-      <description>[caption id=&amp;quot;attachment_395&amp;rdquo; align=&amp;quot;alignright&amp;rdquo; width=&amp;quot;73&amp;rdquo; caption=&amp;quot;masaco&amp;rdquo;][/caption] Ficha técnica:
- Nombre: Julio Ricardo Zuna Cossío Url Blog: http://masaco.blogspot.com Proyectos: twittbo.com , plurkbo.com  [caption id=&amp;quot;attachment_394&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;550&amp;rdquo; caption=&amp;quot;Blog de masaco&amp;rdquo;][/caption] ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)? Me inicie el año 2005 cuando el fenómeno de la blogosfera estaba arrancando, en ese momento tener un blog no era algo relevante pero cuando conocí esta tecnología me pareció ideal para mostrar mi trabajo ya que inicialmente utilice el blog para compartir los artículos que publicaba en la prensa local, luego para poder sacarle provecho a este medio decidí hablar de la temática que mas me interesa &amp;ldquo;la cultura&amp;rdquo;, es así que ahora hablo de todo un poco en el blog.</description>
+      <description>[caption id=&amp;ldquo;attachment_395&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;73&amp;rdquo; caption=&amp;ldquo;masaco&amp;rdquo;][/caption] Ficha técnica:
+ Nombre: Julio Ricardo Zuna Cossío Url Blog: http://masaco.blogspot.com Proyectos: twittbo.com , plurkbo.com  [caption id=&amp;ldquo;attachment_394&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;550&amp;rdquo; caption=&amp;ldquo;Blog de masaco&amp;rdquo;][/caption] ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)? Me inicie el año 2005 cuando el fenómeno de la blogosfera estaba arrancando, en ese momento tener un blog no era algo relevante pero cuando conocí esta tecnología me pareció ideal para mostrar mi trabajo ya que inicialmente utilice el blog para compartir los artículos que publicaba en la prensa local, luego para poder sacarle provecho a este medio decidí hablar de la temática que mas me interesa &amp;ldquo;la cultura&amp;rdquo;, es así que ahora hablo de todo un poco en el blog.</description>
     </item>
     
     <item>
@@ -1452,7 +1458,7 @@ Lo mas curioso es el dominio de este blog que subio de -1 a 3 en dos meses desde
       
       <guid>https://carakan.net/blog/2008/09/entrevistas-a-blogs-importantes-de-bolivia-rocko/</guid>
       <description>Ficha técnica:
- Nombre: Rolando López T. Url Blog: http://rocko.blogia.com Proyectos: No sabe / No responde  [caption id=&amp;quot;attachment_384&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;550&amp;rdquo; caption=&amp;quot;El blog es el protagonista.&amp;quot;][/caption] Me es un placer el poder ahora publicar la entrevista del que fue el pionero en la blogosfera boliviana, el primer blog boliviano, un personaje que define que &amp;ldquo;El blog es una herramienta individual que te hace universal&amp;rdquo;, ahora con esta pequeña descripción sigamos con la entrevista.</description>
+ Nombre: Rolando López T. Url Blog: http://rocko.blogia.com Proyectos: No sabe / No responde  [caption id=&amp;ldquo;attachment_384&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;550&amp;rdquo; caption=&amp;ldquo;El blog es el protagonista.&amp;quot;][/caption] Me es un placer el poder ahora publicar la entrevista del que fue el pionero en la blogosfera boliviana, el primer blog boliviano, un personaje que define que &amp;ldquo;El blog es una herramienta individual que te hace universal&amp;rdquo;, ahora con esta pequeña descripción sigamos con la entrevista.</description>
     </item>
     
     <item>
@@ -1462,7 +1468,7 @@ Lo mas curioso es el dominio de este blog que subio de -1 a 3 en dos meses desde
       
       <guid>https://carakan.net/blog/2008/09/entrevistas-a-blogs-bolivianos-sakura/</guid>
       <description>Entrevistas a blog&amp;rsquo;s importantes de Bolivia Ficha técnica:
- Nombre: Sakura, alias: &amp;ldquo;Cecilia Contreras&amp;rdquo; Url Blog: http://ceenlasalturas.blogspot.com Proyectos: Vivencias, Bloguivianos 2008  [caption id=&amp;quot;attachment_376&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;551&amp;rdquo; caption=&amp;quot;blog de Cecilia Contreras&amp;rdquo;][/caption] ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)? Mi encuentro con los blogs fue muy casual, tenía tiempo de sobra en Internet, y estuve buscando algo que leer para pasar el tiempo (cuando disque trabajaba) y entre navegar por muchas páginas me encontré con un blog (ya no recuerdo el nombre), al principio no entendía muy bien la dinámica pero me llamó la atención la forma de poder comentar y cómo la persona escribía los textos y entonces fui buscando más blogs y mi interés fue creciendo.</description>
+ Nombre: Sakura, alias: &amp;ldquo;Cecilia Contreras&amp;rdquo; Url Blog: http://ceenlasalturas.blogspot.com Proyectos: Vivencias, Bloguivianos 2008  [caption id=&amp;ldquo;attachment_376&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;551&amp;rdquo; caption=&amp;ldquo;blog de Cecilia Contreras&amp;rdquo;][/caption] ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)? Mi encuentro con los blogs fue muy casual, tenía tiempo de sobra en Internet, y estuve buscando algo que leer para pasar el tiempo (cuando disque trabajaba) y entre navegar por muchas páginas me encontré con un blog (ya no recuerdo el nombre), al principio no entendía muy bien la dinámica pero me llamó la atención la forma de poder comentar y cómo la persona escribía los textos y entonces fui buscando más blogs y mi interés fue creciendo.</description>
     </item>
     
     <item>
@@ -1481,7 +1487,7 @@ Lo mas curioso es el dominio de este blog que subio de -1 a 3 en dos meses desde
       
       <guid>https://carakan.net/blog/2008/09/entrevistas-a-blogs-de-bolivia-capsula-del-tiempo/</guid>
       <description>Ficha técnica:
- Nombre: Vania Balderrama Url Blog: http://balduquesa.blogspot.com Proyectos: Cápsula del Tiempo  [caption id=&amp;quot;attachment_356&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;500&amp;rdquo; caption=&amp;quot;blog de Vania Aguirre.&amp;quot;][/caption] ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)? Me inicié por pura casualidad, buscando la foto de un árbol (toborochi) para ponerlo en mi perfil de Skype de la oficina. Buscando la foto del mentado árbol, me tropecé con el blog de Puky Gutiérrez &amp;ldquo;Toborochi urbano&amp;rdquo; que esas veces formaba parte del portal de Mundo al Revés.</description>
+ Nombre: Vania Balderrama Url Blog: http://balduquesa.blogspot.com Proyectos: Cápsula del Tiempo  [caption id=&amp;ldquo;attachment_356&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; caption=&amp;ldquo;blog de Vania Aguirre.&amp;quot;][/caption] ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)? Me inicié por pura casualidad, buscando la foto de un árbol (toborochi) para ponerlo en mi perfil de Skype de la oficina. Buscando la foto del mentado árbol, me tropecé con el blog de Puky Gutiérrez &amp;ldquo;Toborochi urbano&amp;rdquo; que esas veces formaba parte del portal de Mundo al Revés.</description>
     </item>
     
     <item>
@@ -1490,7 +1496,7 @@ Lo mas curioso es el dominio de este blog que subio de -1 a 3 en dos meses desde
       <pubDate>Fri, 05 Sep 2008 20:40:46 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/09/mi-blog-destacado-por-blogsbolivia.com/</guid>
-      <description>[caption id=&amp;quot;attachment_363&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;548&amp;rdquo; caption=&amp;quot;Mi Blog destacado por BlogsBolivia.Com&amp;rdquo;][/caption] Gracias a BlogsBolivia, por elegirme como un Bloguiviano destacado, y a toda las personas que estan detras de este proyecto, eso me da mas fuerzas para seguir con mi blog, y de nuevo Muchas gracias.</description>
+      <description>[caption id=&amp;ldquo;attachment_363&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;548&amp;rdquo; caption=&amp;ldquo;Mi Blog destacado por BlogsBolivia.Com&amp;rdquo;][/caption] Gracias a BlogsBolivia, por elegirme como un Bloguiviano destacado, y a toda las personas que estan detras de este proyecto, eso me da mas fuerzas para seguir con mi blog, y de nuevo Muchas gracias.</description>
     </item>
     
     <item>
@@ -1537,7 +1543,7 @@ Lo mas curioso es el dominio de este blog que subio de -1 a 3 en dos meses desde
       
       <guid>https://carakan.net/blog/2008/08/entrevistas-a-blogs-bolivianos-maria-esc%C3%A1ndalo/</guid>
       <description>El Perfil:
- Nombre: María Escándalo Url Blog: http://sergayenbolivia.blogspot.com Proyectos: Si la libre expresión es un proyecto, entonces eso es el mío.  [caption id=&amp;quot;attachment_303&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;500&amp;rdquo; caption=&amp;quot;Blog de Maria Escándalo&amp;rdquo;][/caption]
+ Nombre: María Escándalo Url Blog: http://sergayenbolivia.blogspot.com Proyectos: Si la libre expresión es un proyecto, entonces eso es el mío.  [caption id=&amp;ldquo;attachment_303&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; caption=&amp;ldquo;Blog de Maria Escándalo&amp;rdquo;][/caption]
 ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)?
 Había animado a un amigo a que se abra un blog, en el 2006, su blog trata de temas políticos&amp;hellip; muy interesante, al ver que tenía visitas y comentarios, alguno que otro análisis interesante por parte de sus comentaristas habituales me hicieron pensar que no todos los blogs deberían ser monotemáticos.</description>
     </item>
@@ -1557,9 +1563,9 @@ Había animado a un amigo a que se abra un blog, en el 2006, su blog trata de te
       <pubDate>Wed, 27 Aug 2008 13:05:30 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/08/entrevistas-a-blogs-bolivianos-willy-andres/</guid>
-      <description>[caption id=&amp;quot;attachment_290&amp;rdquo; align=&amp;quot;alignright&amp;rdquo; width=&amp;quot;110&amp;rdquo; caption=&amp;quot;Willy Andres&amp;rdquo;][/caption] El Perfil:
+      <description>[caption id=&amp;ldquo;attachment_290&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;110&amp;rdquo; caption=&amp;ldquo;Willy Andres&amp;rdquo;][/caption] El Perfil:
  Nombre: Willy A. Acosta Ortega Url Blog: Proyectos:  www.creaticaltda.com www.corbecsoluciones.com www.firefoxbolivia.com www.piensabolivia.com www.camiridigital.com www.blogsbolivia.com y otros que se vienen.
-[caption id=&amp;quot;attachment_292&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;500&amp;rdquo; caption=&amp;quot;Blog de Willy Andres.&amp;quot;][/caption] ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)? Es una historia interesante y curiosa. Conocí a Sebastina Molina (www.planb.com.bo) quien ya estaba con esto de los blogs y me muestra la herramienta wordpress (www.</description>
+[caption id=&amp;ldquo;attachment_292&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; caption=&amp;ldquo;Blog de Willy Andres.&amp;quot;][/caption] ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)? Es una historia interesante y curiosa. Conocí a Sebastina Molina (www.planb.com.bo) quien ya estaba con esto de los blogs y me muestra la herramienta wordpress (www.</description>
     </item>
     
     <item>
@@ -1568,10 +1574,10 @@ Había animado a un amigo a que se abra un blog, en el 2006, su blog trata de te
       <pubDate>Tue, 26 Aug 2008 13:10:45 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/08/entrevistas-a-blogs-bolivianos-angelcaido666x/</guid>
-      <description>[caption id=&amp;quot;attachment_296&amp;rdquo; align=&amp;quot;alignright&amp;rdquo; width=&amp;quot;93&amp;rdquo; caption=&amp;quot;AngelCaido666x&amp;rdquo;][/caption] Ficha técnica:
+      <description>[caption id=&amp;ldquo;attachment_296&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;93&amp;rdquo; caption=&amp;ldquo;AngelCaido666x&amp;rdquo;][/caption] Ficha técnica:
  Nombre: angelcaido666x Url Blog: http://angelcaido666x.blogspot.com Proyectos:  Actualmente:
  http://www.club-sanjose.com, http://ingenieracivil.blogspot.com, http://vocesbolivianas.org, http://futboldebolivia.blogspot.com, apuntesingenierialegal.blogspot.com, http://www.hugomiranda.com  Antes:
- http://blog.mundoalreves.com, http://sanjose.boliviadigital.com, http://clubsanjose.net.  [caption id=&amp;quot;attachment_285&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;500&amp;rdquo; caption=&amp;quot;Portada del blog de AngelCaido666x&amp;rdquo;][/caption] ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)? El 2005 luego de un Chat con Jaffet Castro del Blog De Real Potosí, el menciono la palabra Blog, y de esa forma a través de miarroba.</description>
+ http://blog.mundoalreves.com, http://sanjose.boliviadigital.com, http://clubsanjose.net.  [caption id=&amp;ldquo;attachment_285&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; caption=&amp;ldquo;Portada del blog de AngelCaido666x&amp;rdquo;][/caption] ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)? El 2005 luego de un Chat con Jaffet Castro del Blog De Real Potosí, el menciono la palabra Blog, y de esa forma a través de miarroba.</description>
     </item>
     
     <item>
@@ -1581,7 +1587,7 @@ Había animado a un amigo a que se abra un blog, en el 2006, su blog trata de te
       
       <guid>https://carakan.net/blog/2008/08/entrevistas-a-blogs-bolivianos-maria-cristina-moreno/</guid>
       <description>El Perfil:
- Nombre: Maria Cristina Moreno. Url Blog: www.mariacristinamoreno.blogspot.com Proyectos: Estar entre los 10 más leídos de Bolivia.  [caption id=&amp;quot;attachment_280&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;500&amp;rdquo; caption=&amp;quot;Portada del blog de Maria Cristina Moreno.&amp;quot;][/caption] ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)? Me inicie en el mundo de Blogger el 26 de Agosto del 2006, mi primer post fue titulado de &amp;ldquo;Hormiga a Gigante&amp;rdquo;, referente a que antes sin un blog era una persona común y corriente, y el tener acceso a un blog me daba la posibilidad de viajar por todo el mundo gratis y así mismo conocer a mucha gente que quiere expresar los que siente o piensa.</description>
+ Nombre: Maria Cristina Moreno. Url Blog: www.mariacristinamoreno.blogspot.com Proyectos: Estar entre los 10 más leídos de Bolivia.  [caption id=&amp;ldquo;attachment_280&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; caption=&amp;ldquo;Portada del blog de Maria Cristina Moreno.&amp;quot;][/caption] ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)? Me inicie en el mundo de Blogger el 26 de Agosto del 2006, mi primer post fue titulado de &amp;ldquo;Hormiga a Gigante&amp;rdquo;, referente a que antes sin un blog era una persona común y corriente, y el tener acceso a un blog me daba la posibilidad de viajar por todo el mundo gratis y así mismo conocer a mucha gente que quiere expresar los que siente o piensa.</description>
     </item>
     
     <item>
@@ -1619,7 +1625,7 @@ Había animado a un amigo a que se abra un blog, en el 2006, su blog trata de te
       
       <guid>https://carakan.net/blog/2008/08/tema-para-wordpress-y-logo/</guid>
       <description>Estando con un poco mas de tiempo vi que era necesario renovar un poco el diseño del blog, me gusta los colores asi que lo deje casi tal cual esta, el tema que estaba utilizando anteriormente se lo debo a g30rg3_x, asi que me cree mi propio logo el cual es este, haber que opinan:
-[caption id=&amp;quot;attachment_261&amp;rdquo; align=&amp;quot;alignright&amp;rdquo; width=&amp;quot;300&amp;rdquo; caption=&amp;quot;Logo de mi sitio carakan.com&amp;rdquo;][/caption]
+[caption id=&amp;ldquo;attachment_261&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;300&amp;rdquo; caption=&amp;ldquo;Logo de mi sitio carakan.com&amp;rdquo;][/caption]
 Ademas pongo a disposicion para que descarguen el tema que he modificado, las mejoras que incorpore son:</description>
     </item>
     
@@ -1933,7 +1939,7 @@ CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCH
       <pubDate>Tue, 29 Apr 2008 14:31:08 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/04/off-topic-el-equipo-de-wiebia/</guid>
-      <description>Escribo para presentar al equipo de desarrollo de software de wiebia. [caption id=&amp;rdquo;&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;574&amp;rdquo; caption=&amp;quot;Foto de los emprendedores&amp;rdquo;][/caption] De izquierda a derecha son : Ramiro Huayller, Elmer Mendoza y yo (Carlos Ramos) Aqui faltan Rolando Guarachi y los perdidos de siempre: Juan Carlos Condori y Marcelo Arteaga.</description>
+      <description>Escribo para presentar al equipo de desarrollo de software de wiebia. [caption id=&amp;quot;&amp;quot; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;574&amp;rdquo; caption=&amp;ldquo;Foto de los emprendedores&amp;rdquo;][/caption] De izquierda a derecha son : Ramiro Huayller, Elmer Mendoza y yo (Carlos Ramos) Aqui faltan Rolando Guarachi y los perdidos de siempre: Juan Carlos Condori y Marcelo Arteaga.</description>
     </item>
     
     <item>
@@ -2365,7 +2371,7 @@ Mingle2 - Online Dating No esta nada mal.</description>
       <pubDate>Sun, 24 Jun 2007 14:36:47 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2007/06/sobre-mi/</guid>
-      <description>[caption id=&amp;rdquo;&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;580&amp;rdquo; caption=&amp;quot;Carlos Ramos (carakan) Trabajando&amp;rdquo;][/caption] Blog personal de Carlos Alberto Ramos Kantuta mas conocido en la web como carakan, boliviano, paceño, apasionado para las artes graficas y cayo en la computación :S, ademas es un desarrollador en C# (Desarrollador cuatro CINCO estrellas platino 2005) y recientemente maestro en Ruby con el framework Ruby on Rails( que ego, por eso no leen el blog :D ). También parrandero como todo paceño.</description>
+      <description>[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;580&amp;rdquo; caption=&amp;ldquo;Carlos Ramos (carakan) Trabajando&amp;rdquo;][/caption] Blog personal de Carlos Alberto Ramos Kantuta mas conocido en la web como carakan, boliviano, paceño, apasionado para las artes graficas y cayo en la computación :S, ademas es un desarrollador en C# (Desarrollador cuatro CINCO estrellas platino 2005) y recientemente maestro en Ruby con el framework Ruby on Rails( que ego, por eso no leen el blog :D ). También parrandero como todo paceño.</description>
     </item>
     
     <item>
