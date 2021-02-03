@@ -6,9 +6,28 @@
     <description>Recent content in Blogs on Carlos Ramos - Software Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 25 Nov 2020 12:24:29 -0400</lastBuildDate><atom:link href="https://carakan.net/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Feb 2021 22:12:37 -0400</lastBuildDate><atom:link href="https://carakan.net/blog/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Install Ancient Gems Ffi</title>
+      <title>Postgres: Create Db User and bring Access</title>
+      <link>https://carakan.net/blog/2021/02/postgres-create-db-user-and-bring-access/</link>
+      <pubDate>Tue, 02 Feb 2021 22:12:37 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2021/02/postgres-create-db-user-and-bring-access/</guid>
+      <description>Short version:
+sudo -u postgres psql create database mydb; create user myuser with encrypted password &amp;#39;password&amp;#39;; grant all privileges on database mydb to myuser; </description>
+    </item>
+    
+    <item>
+      <title>Tips and Tricks for Bundler</title>
+      <link>https://carakan.net/blog/2021/01/tips-and-tricks-for-bundler/</link>
+      <pubDate>Sun, 24 Jan 2021 11:17:33 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2021/01/tips-and-tricks-for-bundler/</guid>
+      <description>bundle lock --add-platform ruby bundle lock --add-platform x86_64-linux bundle config force_ruby_platform true </description>
+    </item>
+    
+    <item>
+      <title>Install Ancient Gems ffi</title>
       <link>https://carakan.net/blog/2020/11/install-ancient-gems-ffi/</link>
       <pubDate>Wed, 25 Nov 2020 12:24:29 -0400</pubDate>
       
