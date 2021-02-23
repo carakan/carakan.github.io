@@ -6,7 +6,19 @@
     <description>Recent content on Carlos Ramos - Software Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 02 Feb 2021 22:12:37 -0400</lastBuildDate><atom:link href="https://carakan.net/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Feb 2021 17:01:57 -0400</lastBuildDate><atom:link href="https://carakan.net/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Make Backup Postgres Database With No Owner</title>
+      <link>https://carakan.net/blog/2021/02/make-backup-postgres-database-with-no-owner/</link>
+      <pubDate>Tue, 23 Feb 2021 17:01:57 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2021/02/make-backup-postgres-database-with-no-owner/</guid>
+      <description>to do backup:
+pg_dump dbname -O -x &amp;gt; backupname.sql To restore:
+psql dbname &amp;lt; backupname.sql option documentation:
+-O &amp;lt;&amp;ndash; No owner -x &amp;lt;&amp;ndash; No privileges</description>
+    </item>
+    
     <item>
       <title>Postgres: Create Db User and bring Access</title>
       <link>https://carakan.net/blog/2021/02/postgres-create-db-user-and-bring-access/</link>
