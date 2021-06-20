@@ -8,15 +8,15 @@
     <language>en-US</language>
     <lastBuildDate>Tue, 23 Feb 2021 17:01:57 -0400</lastBuildDate><atom:link href="https://carakan.net/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Make Backup Postgres Database With No Owner</title>
-      <link>https://carakan.net/blog/2021/02/make-backup-postgres-database-with-no-owner/</link>
+      <title>Make Backup/Restore Postgres Database With No Owner</title>
+      <link>https://carakan.net/blog/2021/02/make-backup/restore-postgres-database-with-no-owner/</link>
       <pubDate>Tue, 23 Feb 2021 17:01:57 -0400</pubDate>
       
-      <guid>https://carakan.net/blog/2021/02/make-backup-postgres-database-with-no-owner/</guid>
+      <guid>https://carakan.net/blog/2021/02/make-backup/restore-postgres-database-with-no-owner/</guid>
       <description>to do backup:
 pg_dump dbname -O -x &amp;gt; backupname.sql To restore:
-psql dbname &amp;lt; backupname.sql option documentation:
--O &amp;lt;&amp;ndash; No owner -x &amp;lt;&amp;ndash; No privileges</description>
+psql dbname &amp;lt; backupname.sql Options documentation:
+-O &amp;lt;-- No owner -x &amp;lt;-- No privileges </description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@ psql dbname &amp;lt; backupname.sql option documentation:
       
       <guid>https://carakan.net/blog/2021/02/postgres-create-db-user-and-bring-access/</guid>
       <description>Short version:
-sudo -u postgres psql create database mydb; create user myuser with encrypted password &amp;#39;password&amp;#39;; grant all privileges on database mydb to myuser; </description>
+sudo -u postgres psql createdatabasemydb;createusermyuserwithencryptedpassword&amp;#39;password&amp;#39;;grantallprivilegesondatabasemydbtomyuser;</description>
     </item>
     
     <item>
@@ -1871,7 +1871,8 @@ Via</description>
       <guid>https://carakan.net/blog/2008/06/llamar-a-procedimientos-pl/sql-de-oracle-con-ruby-plsql/</guid>
       <description>Buscando una manera mas sencilla de poder llamar a procedimientos almacenados de Oracle pl/sql, encontré la gema ruby-plsql que es una simple API para procedimientos almacenados en oracle, su uso es muy sencillo como el siguiente:
 Si tenemos el siguiente paquete:
-CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCHAR2, p_out OUT VARCHAR2) IS BEGIN p_out := &amp;#39;Se introdujo: &amp;#39; || p_in; END; END; Ahora dentro del código, como ejemplo dentro del controlador:</description>
+CREATEORREPLACEPACKAGEBODYscott.pck_pruebaISPROCEDURELeeDatos(p_inVARCHAR2,p_outOUTVARCHAR2)ISBEGINp_out:=&amp;#39;Se introdujo: &amp;#39;||p_in;END;END;Ahora dentro del código, como ejemplo dentro del controlador:
+require “ruby_plsql” class UsuariosController &amp;lt; ApplicationController def index @usuarios = Usuario.all plsql.connection = OCI8.new(”SCOTT”, “PASS”) @hola = plsql.pck_prueba.LeeDatos(”Hola desde Oracle”) plsql.</description>
     </item>
     
     <item>
@@ -2017,7 +2018,8 @@ CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCH
       <pubDate>Tue, 11 Mar 2008 13:39:41 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/03/problemas-con-el-servidor/</guid>
-      <description>Tenemos unos pequeños problemas que ya se solucionaron, nosotros trabajamos con el servidor lighttpd y como nunca nos cansamos de estar aprendiendo, pues en una de esas se nos paso la mano y tuvimos la baja del servicio por tres dias :P pero ya esta solucionado. Saludos.</description>
+      <description>Tenemos unos pequeños problemas que ya se solucionaron, nosotros trabajamos con el servidor lighttpd y como nunca nos cansamos de estar aprendiendo, pues en una de esas se nos paso la mano y tuvimos la baja del servicio por tres dias :P pero ya esta solucionado.
+Saludos.</description>
     </item>
     
     <item>

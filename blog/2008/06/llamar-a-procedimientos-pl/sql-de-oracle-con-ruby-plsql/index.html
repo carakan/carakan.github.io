@@ -16,7 +16,7 @@
   Carlos Ramos - Software Developer - Llamar a procedimientos PL/SQL de Oracle con ruby-plsql 
 </title>
 
-<meta name="generator" content="Hugo 0.80.0" />
+<meta name="generator" content="Hugo 0.84.0" />
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
@@ -85,13 +85,13 @@ ruby on rails
     
     <p>Buscando una manera mas sencilla de poder llamar a procedimientos almacenados de Oracle pl/sql, encontré la gema ruby-plsql que es una simple API para procedimientos almacenados en oracle, su uso es muy sencillo como el siguiente:</p>
 <p>Si tenemos el siguiente paquete:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#a2f;font-weight:bold">CREATE</span> <span style="color:#a2f;font-weight:bold">OR</span> <span style="color:#a2f;font-weight:bold">REPLACE</span> PACKAGE BODY scott.pck_prueba <span style="color:#a2f;font-weight:bold">IS</span>
-    <span style="color:#a2f;font-weight:bold">PROCEDURE</span> LeeDatos(p_in VARCHAR2, p_out <span style="color:#a2f;font-weight:bold">OUT</span> VARCHAR2) <span style="color:#a2f;font-weight:bold">IS</span>
-       <span style="color:#a2f;font-weight:bold">BEGIN</span>
-       p_out :<span style="color:#666">=</span> <span style="color:#b44">&#39;Se introdujo: &#39;</span> <span style="color:#666">||</span> p_in;
-    <span style="color:#a2f;font-weight:bold">END</span>;
-<span style="color:#a2f;font-weight:bold">END</span>;
-</code></pre></div><p>Ahora dentro del código, como ejemplo dentro del controlador:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#a2f;font-weight:bold">CREATE</span><span style="color:#bbb"> </span><span style="color:#a2f;font-weight:bold">OR</span><span style="color:#bbb"> </span><span style="color:#a2f;font-weight:bold">REPLACE</span><span style="color:#bbb"> </span>PACKAGE<span style="color:#bbb"> </span>BODY<span style="color:#bbb"> </span>scott.pck_prueba<span style="color:#bbb"> </span><span style="color:#a2f;font-weight:bold">IS</span><span style="color:#bbb">
+</span><span style="color:#bbb">    </span><span style="color:#a2f;font-weight:bold">PROCEDURE</span><span style="color:#bbb"> </span>LeeDatos(p_in<span style="color:#bbb"> </span>VARCHAR2,<span style="color:#bbb"> </span>p_out<span style="color:#bbb"> </span><span style="color:#a2f;font-weight:bold">OUT</span><span style="color:#bbb"> </span>VARCHAR2)<span style="color:#bbb"> </span><span style="color:#a2f;font-weight:bold">IS</span><span style="color:#bbb">
+</span><span style="color:#bbb">       </span><span style="color:#a2f;font-weight:bold">BEGIN</span><span style="color:#bbb">
+</span><span style="color:#bbb">       </span>p_out<span style="color:#bbb"> </span>:<span style="color:#666">=</span><span style="color:#bbb"> </span><span style="color:#b44">&#39;Se introdujo: &#39;</span><span style="color:#bbb"> </span><span style="color:#666">||</span><span style="color:#bbb"> </span>p_in;<span style="color:#bbb">
+</span><span style="color:#bbb">    </span><span style="color:#a2f;font-weight:bold">END</span>;<span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#a2f;font-weight:bold">END</span>;<span style="color:#bbb">
+</span></code></pre></div><p>Ahora dentro del código, como ejemplo dentro del controlador:</p>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#a2f">require</span> <span style="">“</span>ruby_plsql<span style="">”</span>
 <span style="color:#a2f;font-weight:bold">class</span> <span style="color:#00f">UsuariosController</span> <span style="color:#666">&lt;</span> <span style="color:#800">ApplicationController</span>
   <span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">index</span>

@@ -13,7 +13,7 @@
 <base href="https://carakan.net/">
 
 <title>
-  Carlos Ramos - Software Developer - Conferencias del congreso Rails Hispano 2007 
+  Carlos Ramos - Software Developer - Make Backup/Restore Postgres Database With No Owner 
 </title>
 
 <meta name="generator" content="Hugo 0.84.0" />
@@ -46,7 +46,11 @@
 
 
 
-ruby on rails
+backups
+
+postgresql
+
+til
 
 
 
@@ -54,13 +58,13 @@ ruby on rails
 
 
 <header class="row text-left title">
-  <h1 class="title">Conferencias del congreso Rails Hispano 2007</h1>
+  <h1 class="title">Make Backup/Restore Postgres Database With No Owner</h1>
 </header>
 <section id="category-pane" class="row meta">
   
   <div class="col-md-12">
     <h6 class="text-left meta">
-        PUBLISHED ON NOV 28, 2007 
+        PUBLISHED ON FEB 23, 2021 
       
     </h6>
   </div>
@@ -69,23 +73,29 @@ ruby on rails
 <section id="content-pane" class="row">
   <div class="col-md-12 text-justify content">
     
-    <p>Siguiendo a varios blogs que hablan sobre Ror, con <a href="http://carakan.com/index.php/2007/09/25/aprender-a-manejar-los-feeds-y-google-reader/">Google Reader</a>, veo que la anterior semana termino la conferencia Rails Hispana, allá en España, y la verdad uno quisiera que existan tales conferencias acá en Latinoamerica, pero siguiendo unos <a href="http://feeds.feedburner.com/~r/javiervidal/~3/190592010/">post</a> vi que publicaban sus ponencias, además me intereso como hacerle <a href="http://www.jaimeiniesta.com/2007/11/26/codigos-del-taller-de-aranas-web/">competencia a google con rails</a>, busque todas las ponencias, muy buenas por cierto, y están alojadas en slideshare <a href="http://www.slideshare.net/tag/conferenciarails2007" title="Todos las conferencias de Rails Hispan0 2007"><strong>aqui</strong></a>.</p>
-<p>También encontré un post con enlaces a diferentes blogs y sus ponencias de la mano de <a href="http://apuntesderails.amaiac.net/archives/2007/11/25/presentaciones_online_de_la_conferencia_rails_2007/">apuntes de rails</a>, bueno espero que allá en España no se enojen por publicar sus ponencias :)</p>
-<p>Y cuando una para Latinoamerica???, bueno hago un llamado a <a href="http://peruonrails.com/">PeruonRails</a>, <a href="http://onrails.com.ar/">ArgentinaOnRails</a> y <a href="http://www.chileonrails.cl/">ChileOnRails</a>, la unión hace la fuerza, ahh cuando tenga algo de <a href="http://carakan.com/index.php/2007/11/12/existen-aun-esperanzasen-mi-proyecto-de-grado/">tiempo</a> creo BoliviaOnRails :)</p>
-
+    <p>to do backup:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">pg_dump dbname -O -x &gt; backupname.sql
+</code></pre></div><p>To restore:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">psql dbname &lt; backupname.sql
+</code></pre></div><p>Options documentation:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-txt" data-lang="txt">-O &lt;-- No owner
+-x &lt;-- No privileges
+</code></pre></div>
       
       
 
 <h1>See Also</h1>
 <ul>
 	
-    <li><p><a href="https://carakan.net/blog/2007/11/mozilla-3-beta-1-no-se-deja-con-rest-ruby-on-rails/">mozilla 3 beta 1 no se deja con REST (Ruby on rails)</a></p></li>
+    <li><p><a href="https://carakan.net/blog/2021/02/postgres-create-db-user-and-bring-access/">Postgres: Create Db User and bring Access</a></p></li>
 	
-    <li><p><a href="https://carakan.net/blog/2007/10/salio-netbeans-6.0-beta-2/">Salio netbeans 6.0 beta 2</a></p></li>
+    <li><p><a href="https://carakan.net/blog/2020/11/install-ancient-gems-ffi/">Install Ancient Gems ffi</a></p></li>
 	
-    <li><p><a href="https://carakan.net/blog/2007/10/usando-netbeans-en-linux/">Usando NetBeans en Linux</a></p></li>
+    <li><p><a href="https://carakan.net/blog/2020/08/configure-vim-test-to-work-with-docker/">Configure Vim Test to Work With Docker</a></p></li>
 	
-    <li><p><a href="https://carakan.net/blog/2007/09/scrum-en-la-intemperie-combinando-scrum-y-rails/">Scrum en la intemperie - Combinando scrum y rails</a></p></li>
+    <li><p><a href="https://carakan.net/blog/2020/08/how-to-install-mariadb-mysql2-driver-ruby/">How to Install Mariadb Mysql2 Driver Ruby</a></p></li>
+	
+    <li><p><a href="https://carakan.net/blog/2020/04/configuring-python3-on-neovim/">Configuring Python3 on Neovim</a></p></li>
 	
 </ul>
 
@@ -103,7 +113,11 @@ ruby on rails
       TAGS:
       
       
-      <a class="meta" href="https://carakan.net/tags/ruby-on-rails">RUBY ON RAILS</a>
+      <a class="meta" href="https://carakan.net/tags/backups">BACKUPS</a>, 
+      
+      <a class="meta" href="https://carakan.net/tags/postgresql">POSTGRESQL</a>, 
+      
+      <a class="meta" href="https://carakan.net/tags/til">TIL</a>
       
       
       
@@ -132,14 +146,12 @@ s.setAttribute('data-timestamp', +new Date());
 <section id="menu-pane" class="row menu text-center">
   
   
-  <span><a class="menu-item" href="https://carakan.net/blog/2007/11/mozilla-3-beta-1-no-se-deja-con-rest-ruby-on-rails/"><i class="fa fa-arrow-left" aria-hidden="true"></i></a></span>
+  <span><a class="menu-item" href="https://carakan.net/blog/2021/02/postgres-create-db-user-and-bring-access/"><i class="fa fa-arrow-left" aria-hidden="true"></i></a></span>
   
   
   
   <span><a class="menu-item" href="https://carakan.net/blog"><i class="fa fa-bars" aria-hidden="true"></i></a></span>
   
-  
-  <span><a class="menu-item" href="https://carakan.net/blog/2007/11/quieres-tener-un-blog-gratuito-en-wiebia/"><i class="fa fa-arrow-right" aria-hidden="true"></i></a></span>
   
   
   <h4 class="text-center"><a class="menu-item" href="https://carakan.net/"><i class="fa fa-home" aria-hidden="true"></i></a></h4>
