@@ -6,7 +6,17 @@
     <description>Recent content on Carlos Ramos - Software Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 23 Feb 2021 17:01:57 -0400</lastBuildDate><atom:link href="https://carakan.net/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Jun 2021 11:15:20 -0400</lastBuildDate><atom:link href="https://carakan.net/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dropbox ignore files/directories</title>
+      <link>https://carakan.net/blog/2021/06/dropbox-ignore-files-directories/</link>
+      <pubDate>Fri, 25 Jun 2021 11:15:20 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2021/06/dropbox-ignore-files-directories/</guid>
+      <description>Ignoring files or directories in dropbox is a hard thing, I thought it has like git, a .gitignore to config that, but no, we need to do a command for each file/dir, for example to ignore the files that creates a lightroom catalog (.lrcat) we need to do:
+xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previews.lrdata xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previews.lrdata xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Helper.lrdata and to not longer ignore files we need this command:</description>
+    </item>
+    
     <item>
       <title>Make Backup/Restore Postgres Database With No Owner</title>
       <link>https://carakan.net/blog/2021/02/make-backup/restore-postgres-database-with-no-owner/</link>

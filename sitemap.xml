@@ -2,25 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://carakan.net/tags/backups/</loc>
-    <lastmod>2021-02-23T17:01:57-04:00</lastmod>
-  </url><url>
     <loc>https://carakan.net/blog/</loc>
-    <lastmod>2021-02-23T17:01:57-04:00</lastmod>
+    <lastmod>2021-06-25T11:15:20-04:00</lastmod>
   </url><url>
     <loc>https://carakan.net/</loc>
+    <lastmod>2021-06-25T11:15:20-04:00</lastmod>
+  </url><url>
+    <loc>https://carakan.net/blog/2021/06/dropbox-ignore-files-directories/</loc>
+    <lastmod>2021-06-25T11:15:20-04:00</lastmod>
+  </url><url>
+    <loc>https://carakan.net/tags/lightroom/</loc>
+    <lastmod>2021-06-25T11:15:20-04:00</lastmod>
+  </url><url>
+    <loc>https://carakan.net/tags/</loc>
+    <lastmod>2021-06-25T11:15:20-04:00</lastmod>
+  </url><url>
+    <loc>https://carakan.net/tags/til/</loc>
+    <lastmod>2021-06-25T11:15:20-04:00</lastmod>
+  </url><url>
+    <loc>https://carakan.net/tags/backups/</loc>
     <lastmod>2021-02-23T17:01:57-04:00</lastmod>
   </url><url>
     <loc>https://carakan.net/blog/2021/02/make-backup/restore-postgres-database-with-no-owner/</loc>
     <lastmod>2021-02-23T17:01:57-04:00</lastmod>
   </url><url>
     <loc>https://carakan.net/tags/postgresql/</loc>
-    <lastmod>2021-02-23T17:01:57-04:00</lastmod>
-  </url><url>
-    <loc>https://carakan.net/tags/</loc>
-    <lastmod>2021-02-23T17:01:57-04:00</lastmod>
-  </url><url>
-    <loc>https://carakan.net/tags/til/</loc>
     <lastmod>2021-02-23T17:01:57-04:00</lastmod>
   </url><url>
     <loc>https://carakan.net/blog/2021/02/postgres-create-db-user-and-bring-access/</loc>
