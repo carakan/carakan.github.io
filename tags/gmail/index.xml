@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>gmail on carakan</title>
+    <link>https://carakan.net/tags/gmail/</link>
+    <description>Recent content in gmail on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 20 Nov 2008 00:44:46 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/gmail/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ya se puede cambiar el Theme de gmail</title>
+      <link>https://carakan.net/blog/ya-se-puede-cambiar-el-theme-de-gmail/</link>
+      <pubDate>Thu, 20 Nov 2008 00:44:46 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/ya-se-puede-cambiar-el-theme-de-gmail/</guid>
+      <description>Es lo que esta recorriendo la noticia en toda la web, aca los diseños, que por lo que vi todavía a mi no me funciona dentro del idioma español ni en el ingles y el el blog oficial dicen que estará listo dentro de pocos días, que manera de difundir la noticia, pero si quieres probar solamente has click a este enlace. Noticia en el [blog oficial de Google](cambiar theme gmail), y en muchos otros blogs.</description>
+    </item>
+    
+  </channel>
+</rss>

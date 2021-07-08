@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>twitter on carakan</title>
+    <link>https://carakan.net/tags/twitter/</link>
+    <description>Recent content in twitter on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 12 May 2009 13:45:46 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Transmisión de un viaje espacial en twitter</title>
+      <link>https://carakan.net/blog/transmisin-de-un-viaje-espacial-en-twitter/</link>
+      <pubDate>Tue, 12 May 2009 13:45:46 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/transmisin-de-un-viaje-espacial-en-twitter/</guid>
+      <description>Simplemente genial, morí de risa 10 minutos.
+Via</description>
+    </item>
+    
+    <item>
+      <title>Actualiza tu mensaje personal del Messenger desde Twitter (reload)</title>
+      <link>https://carakan.net/blog/actualiza-tu-mensaje-personal-del-messenger-desde-twitter-reload/</link>
+      <pubDate>Fri, 24 Apr 2009 00:05:36 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/actualiza-tu-mensaje-personal-del-messenger-desde-twitter-reload/</guid>
+      <description>Con este pequeño y sencillo tutorial lograremos que nuestro mensaje personal del Windows Live Messenger se actualice de acuerdo a lo que publiquemos en Twitter.
+Requerimientos:
+  Cualquier versión de Windows Live Messenger
+  Messenger Plus! Live
+  Una vez que tengamos instalado ambos programas nos dirigimos al menú Plus! del Messenger.
+
+Luego de que estemos en el recuadro de “Preferencias y opciones” nos dirigimos a “Scripts”.</description>
+    </item>
+    
+    <item>
+      <title>Seguir las elecciones de USA por twitter</title>
+      <link>https://carakan.net/blog/seguir-las-elecciones-de-usa-por-twitter/</link>
+      <pubDate>Tue, 04 Nov 2008 15:24:59 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/seguir-las-elecciones-de-usa-por-twitter/</guid>
+      <description>Hoy es un día especial para los estadounidenses, se realizan las elecciones presidenciales, el principal Candidato a la presidencia Obama, que en un anterior post dijimos que es el monstruo del marketing, por que el manejo con atino los nuevos medios de comunicación que se encuentran en internet, si estas bastante interesado en seguir las elecciones presidenciales USA, Twitter ha habilitado, utilizando su servicio de Twitter search, un espacio de “actualización en vivo” de los acontecimientos de estas elecciones presidenciales.</description>
+    </item>
+    
+    <item>
+      <title>Sobre saturacion de la web (2.0)</title>
+      <link>https://carakan.net/blog/sobre-saturacion-de-la-web-2/</link>
+      <pubDate>Wed, 23 Jul 2008 23:29:03 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/sobre-saturacion-de-la-web-2/</guid>
+      <description>Solo estos dos ejemplos:   Se esta saturando la web (2.0)?</description>
+    </item>
+    
+  </channel>
+</rss>

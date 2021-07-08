@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>virus on carakan</title>
+    <link>https://carakan.net/tags/virus/</link>
+    <description>Recent content in virus on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 03 Oct 2008 23:59:17 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/virus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eliminar el &#34;virus alert&#34;</title>
+      <link>https://carakan.net/blog/eliminar-el-virus-alert/</link>
+      <pubDate>Fri, 03 Oct 2008 23:59:17 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/eliminar-el-virus-alert/</guid>
+      <description>Si te encontraste que tu maquina se vuelve loca y que muestra un bonito mensaje de VIRUS ALERT en tu reloj y a cada rato automáticamente se abre el IE que abre una página parecida a virusscan2008.com es que tienes el &amp;ldquo;virus alert&amp;rdquo;. Busque la forma de eliminar esto de mi compu, es dificultoso nada fácil, todos eran un conjunto de pasos, que uno los leía y luego en los comentarios decían que no funcionaba así que busque alternativas encontré una y además añadí un programa que me salva siempre la vida, detallo ahora la solución: Primero se baja el programa que permite que puedas tener de nuevo privilegios de administrador, ver archivos ocultos, modificar el registro, etc.</description>
+    </item>
+    
+  </channel>
+</rss>

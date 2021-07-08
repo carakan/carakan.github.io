@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Social Media on carakan</title>
+    <link>https://carakan.net/tags/social-media/</link>
+    <description>Recent content in Social Media on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 13 Oct 2010 01:56:35 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/social-media/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Facebook script for select all friends</title>
+      <link>https://carakan.net/blog/facebook-script-for-select-all-friends/</link>
+      <pubDate>Wed, 13 Oct 2010 01:56:35 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/facebook-script-for-select-all-friends/</guid>
+      <description>This code is like to fs.select_all() javascript:elms=document.getElementById(&amp;lsquo;friends&amp;rsquo;).getElementsByTagName(&amp;lsquo;li&amp;rsquo;);for(var fid in elms){if(typeof elms[fid] === &amp;lsquo;object&amp;rsquo; &amp;amp;&amp;amp; elms[fid].className != &amp;ldquo;disabled&amp;rdquo;){fs.click(elms[fid]);}} Only select the new friends whitout invites. Enjoy It!!</description>
+    </item>
+    
+  </channel>
+</rss>

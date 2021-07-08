@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>enlaces on carakan</title>
+    <link>https://carakan.net/tags/enlaces/</link>
+    <description>Recent content in enlaces on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 19 Aug 2008 23:34:55 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/enlaces/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enlaces interesantes 19 agosto 2008</title>
+      <link>https://carakan.net/blog/enlaces-interesantes-19-agosto-2008/</link>
+      <pubDate>Tue, 19 Aug 2008 23:34:55 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/enlaces-interesantes-19-agosto-2008/</guid>
+      <description> 35 ejemplos de uso de los social media por parte de las empresas Generating static maps with attachment_fu and static-gmaps gem Los medios escritos empiezan a citar a los blogs Y la mas mejor: Rails 2.2 To Be Thread Safe !!!!  </description>
+    </item>
+    
+  </channel>
+</rss>

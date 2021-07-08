@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>javascript no obtrusivo on carakan</title>
+    <link>https://carakan.net/tags/javascript-no-obtrusivo/</link>
+    <description>Recent content in javascript no obtrusivo on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 21 Aug 2008 20:36:43 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/javascript-no-obtrusivo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chat AJAX no-obstrusivo con Jquery</title>
+      <link>https://carakan.net/blog/chat-no-obstrusivo-con-jquery/</link>
+      <pubDate>Thu, 21 Aug 2008 20:36:43 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/chat-no-obstrusivo-con-jquery/</guid>
+      <description>El desarrollo web actual esta evolucionando gracias a la tecnología que cambia dia a dia, perfeccionándose, pero esto puede ser inútil si no va ligada a una metodología o guias de estilo proporcionadas por personas con experiencia, recientemente apareció el termino de javascript no obtrusivo, que la propia wikipedia define como:
+  Separación de la funcionalidad JavaScript (la &amp;ldquo;capa del comportamiento&amp;rdquo;) de las capas de estructura/contenido y de presentación de un página.</description>
+    </item>
+    
+  </channel>
+</rss>

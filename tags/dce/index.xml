@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DCE on carakan</title>
+    <link>https://carakan.net/tags/dce/</link>
+    <description>Recent content in DCE on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 06 Dec 2007 21:55:05 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/dce/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Acerca de desarrollador 5 estrellas DCE</title>
+      <link>https://carakan.net/blog/acerca-de-desarrollador-5-estrellas-dce/</link>
+      <pubDate>Thu, 06 Dec 2007 21:55:05 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/acerca-de-desarrollador-5-estrellas-dce/</guid>
+      <description>Como sabran soy desarrollador cuatro estrellas del programa DCE 2005 de la microsoft, recientemente se lanzo la ultima estrella, la quinta, solamente por tener completo el programa hasta la cuarta es que me anime a darlo, me costo bastante el tener que aprender, poner en practica y desenvolverme en esta tecnología de &amp;ldquo;punta&amp;rdquo;, en mi opinion mas avanzado y simple es el framework Rails, pero si se empieza algo se debe de terminar.</description>
+    </item>
+    
+    <item>
+      <title>Premio por desarrollador 4 estrellas</title>
+      <link>https://carakan.net/blog/premio-por-desarrollador-4-estrellas/</link>
+      <pubDate>Tue, 11 Sep 2007 21:15:35 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/premio-por-desarrollador-4-estrellas/</guid>
+      <description>Si me llego el premio de la Microsoft por obtener la cuarta estrella en el programa desarrollador cinco estrellas, es un CD con un Emulador de vuelos Flight Simulator X, lo instale y no se, no me atrayen estas cosas, gane la cuarta estrella cuando aparecio, fui el primero en Bolivia, ademas la intencion de la estrella solidaria con la idea que solamente den &amp;ldquo;premio&amp;rdquo; a los tres primeros paises que tengan mas desarrolladores 4 estrellas, humm me hace pensar&amp;hellip;.</description>
+    </item>
+    
+  </channel>
+</rss>

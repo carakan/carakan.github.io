@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>bienes raices bolivia on carakan</title>
+    <link>https://carakan.net/tags/bienes-raices-bolivia/</link>
+    <description>Recent content in bienes raices bolivia on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 23 Jan 2009 23:21:00 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/bienes-raices-bolivia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Presentación de CasasMap en Webprende Bolivia</title>
+      <link>https://carakan.net/blog/presentacin-de-casasmap-en-webprende-bolivia/</link>
+      <pubDate>Fri, 23 Jan 2009 23:21:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/presentacin-de-casasmap-en-webprende-bolivia/</guid>
+      <description>Presentamos dentro del primer evento de tecnología y emprendimiento web 2.0 en Bolivia, nuestra empresa Wiebia Labs, y nuestro producto CasasMap del que tambien presentamos en ExpoMype 2008 y Qhacer, del cual presento el video.
+Live TV : Ustream</description>
+    </item>
+    
+  </channel>
+</rss>

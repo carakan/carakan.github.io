@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>gemas on carakan</title>
+    <link>https://carakan.net/tags/gemas/</link>
+    <description>Recent content in gemas on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 11 Jun 2008 15:58:41 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/gemas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Llamar a procedimientos PL/SQL de Oracle con ruby-plsql</title>
+      <link>https://carakan.net/blog/llamar-a-procedimientos-plsql-de-oracle-con-ruby-plsql/</link>
+      <pubDate>Wed, 11 Jun 2008 15:58:41 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/llamar-a-procedimientos-plsql-de-oracle-con-ruby-plsql/</guid>
+      <description>Buscando una manera mas sencilla de poder llamar a procedimientos almacenados de Oracle pl/sql, encontré la gema ruby-plsql que es una simple API para procedimientos almacenados en oracle, su uso es muy sencillo como el siguiente:
+Si tenemos el siguiente paquete:
+CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCHAR2, p_out OUT VARCHAR2) IS BEGIN p_out := &amp;#39;Se introdujo: &amp;#39; || p_in; END; END; Ahora dentro del código, como ejemplo dentro del controlador:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>prettier on carakan</title>
+    <link>https://carakan.net/tags/prettier/</link>
+    <description>Recent content in prettier on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 16 Sep 2019 10:16:01 -0400</lastBuildDate><atom:link href="https://carakan.net/tags/prettier/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enable Prettier in Ember templates</title>
+      <link>https://carakan.net/blog/2019/enable-prettier-in-handlebars-ember/</link>
+      <pubDate>Mon, 16 Sep 2019 10:16:01 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2019/enable-prettier-in-handlebars-ember/</guid>
+      <description>Prettier is an opinionated code formatter, has built-in a lot of code formatters for languages, one of that is for handlebars (glimmer/mustache) but is hidden by default, to enable we only need to do this:
+create a .prettierrc in your home (~) with :
+{ &amp;#34;overrides&amp;#34;: [ { &amp;#34;files&amp;#34;: &amp;#34;*.hbs&amp;#34;, &amp;#34;options&amp;#34;: { &amp;#34;parser&amp;#34;: &amp;#34;glimmer&amp;#34; // ... other custom configurations } } ] } and now you can use in your favorite editor or simple use directly with the CLI, for example:</description>
+    </item>
+    
+  </channel>
+</rss>

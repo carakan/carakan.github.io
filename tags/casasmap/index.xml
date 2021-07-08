@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>casasmap on carakan</title>
+    <link>https://carakan.net/tags/casasmap/</link>
+    <description>Recent content in casasmap on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 28 Feb 2009 00:16:57 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/casasmap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Maps en todas las ciudades de Bolivia</title>
+      <link>https://carakan.net/blog/google-maps-en-todas-las-ciudades-de-bolivia/</link>
+      <pubDate>Sat, 28 Feb 2009 00:16:57 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/google-maps-en-todas-las-ciudades-de-bolivia/</guid>
+      <description>Gracias al Blog de Google maps para Latinoamérica, y que estamos en constante monitoreo de las actividades en relación al mejoramiento del servicio que se ofrece a Bolivia, nos enteramos que ya se cubrió el servicio de Google maps en las 10 ciudades principales de Bolivia.
+Anteriormente solo se disponía el servicio en las ciudades de La Paz y El Alto, y se relegaban a por lo menos dos ciudades también importantes como son Cochabamba y Santa Cruz, esto es gracias Map Maker, el cual permite personalizar varios lugares, los mas generales fueron actualizados en Google Maps, enriqueciéndolo y haciéndolo mas completo.</description>
+    </item>
+    
+    <item>
+      <title>Presentación de CasasMap en Webprende Bolivia</title>
+      <link>https://carakan.net/blog/presentacin-de-casasmap-en-webprende-bolivia/</link>
+      <pubDate>Fri, 23 Jan 2009 23:21:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/presentacin-de-casasmap-en-webprende-bolivia/</guid>
+      <description>Presentamos dentro del primer evento de tecnología y emprendimiento web 2.0 en Bolivia, nuestra empresa Wiebia Labs, y nuestro producto CasasMap del que tambien presentamos en ExpoMype 2008 y Qhacer, del cual presento el video.
+Live TV : Ustream</description>
+    </item>
+    
+    <item>
+      <title>Wiebia y CasasMap estarán en la ExpoMype 2008</title>
+      <link>https://carakan.net/blog/wiebia-y-casasmap-estarn-en-la-expomype-2008/</link>
+      <pubDate>Tue, 02 Dec 2008 20:53:42 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/wiebia-y-casasmap-estarn-en-la-expomype-2008/</guid>
+      <description>Wiebia, desarrollo web 2.0 en Bolivia, y su producto Casasmap, venta de Bienes Raíces, serán presentados a la comunidad Boliviana en la feria ExpoMypes 2008, que se llevara a cabo los días 5, 6 y 7 de diciembre en Santa Cruz – Bolivia.
+Como anteriormente escribí Casasmap es una mashup que utiliza Google Maps (Geolocalización), fotos, videos de Youtube y posibilidad de ingresar comentarios por cada anuncio, lo interesante de esto es que es totalmente gratuito el registro de la primer anuncio, así como el registro del usuario.</description>
+    </item>
+    
+    <item>
+      <title>Recuento de lo sucedido hasta el momento</title>
+      <link>https://carakan.net/blog/recuento-de-lo-sucedido-hasta-el-momento/</link>
+      <pubDate>Wed, 17 Sep 2008 21:33:40 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/recuento-de-lo-sucedido-hasta-el-momento/</guid>
+      <description>Escribo ya un post de tanto tiempo, aunque la verdad no los deje tan solos, hice pequeños resumenes y lo de las entrevistas, he estado en bastantes trabajos e iniciativas que la verdad no he tenido bastante tiempo para escribir en este blog, ahora quiero un poco mostrar lo que he estado realizando, pues bien he estado realizando lo que podría ser la primera red social de Bolivia, (ojo real) del cual todavía no puedo dar detalles al respecto, pero ya esta finalizado la primera parte.</description>
+    </item>
+    
+    <item>
+      <title>Bienes raices bastante friki</title>
+      <link>https://carakan.net/blog/bienes-raices-bastante-friki/</link>
+      <pubDate>Thu, 07 Feb 2008 16:23:36 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/bienes-raices-bastante-friki/</guid>
+      <description>Nuestra pagina bienes raices en Bolivia, compramos el dominio hace 5 minutos. :) Hay que trabajar bastante&amp;hellip;&amp;hellip;.. Actualizacion Tambien estamos creando dentro de nuestra wiebia-lab, qhacer, una agenda web 2.0 en fase bastante, bastante alpha que bien lo explica ramiro :)</description>
+    </item>
+    
+  </channel>
+</rss>

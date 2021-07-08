@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>asdf on carakan</title>
+    <link>https://carakan.net/tags/asdf/</link>
+    <description>Recent content in asdf on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 14 Oct 2019 11:09:24 -0400</lastBuildDate><atom:link href="https://carakan.net/tags/asdf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Add Array of Types in a Column using Postgres and Rails</title>
+      <link>https://carakan.net/blog/2019/add-array-of-types-in-a-column-postgres-rails/</link>
+      <pubDate>Mon, 14 Oct 2019 11:09:24 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2019/add-array-of-types-in-a-column-postgres-rails/</guid>
+      <description>Recently I found a nice feature when defining a column on migrations, is to use array option in the creation of a column:
+class MyMigration &amp;lt; ActiveRecord::Migration[5.2] def change # Defines a column that stores an array of a type. add_column :transactions, :categories, :string, array: true, default: [] end end With this on categories you can storage an array of values, it&amp;rsquo;s useful instead of use jsonb because as json you may also need to create the key to store values (hash).</description>
+    </item>
+    
+    <item>
+      <title>Install yarn if you are using Nodejs with ASDF</title>
+      <link>https://carakan.net/blog/2019/install-yarn-if-you-are-using-nodejs-with-asdf/</link>
+      <pubDate>Tue, 24 Sep 2019 12:14:44 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2019/install-yarn-if-you-are-using-nodejs-with-asdf/</guid>
+      <description>I’m using ASDF to install any language that I needed, so problems become when I have to install yarn a js package manager but to do that has a lot of ways of install yarn and problems increasing with nodejs installed using ASDF more problems become using the brew recipe and it doesn’t work with ASDF.
+I found a practical solution: is to install a separate yarn recipe into ASDF.</description>
+    </item>
+    
+    <item>
+      <title>Upgrade to Latest Version on ASDF</title>
+      <link>https://carakan.net/blog/2019/upgrade-to-last-version-on-asdf/</link>
+      <pubDate>Tue, 17 Sep 2019 10:44:57 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2019/upgrade-to-last-version-on-asdf/</guid>
+      <description>ASDF is an incredible version manager, to install/upgrade to latest version available of an language you can do the following steps:
+asdf list-all &amp;lt;language&amp;gt; this show all of the versions available to install, select the latest:
+asdf install &amp;lt;language&amp;gt; x.y.z and edit if you have a global ~/.tool-versions to use that version everywhere:
+&amp;lt;languaje&amp;gt; x.y.z real example to upgrade to latest version of erlang (10/17/2019):
+asdf list-all erlang asdf install erlang 22.</description>
+    </item>
+    
+  </channel>
+</rss>

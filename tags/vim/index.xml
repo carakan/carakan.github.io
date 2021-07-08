@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>vim on carakan</title>
+    <link>https://carakan.net/tags/vim/</link>
+    <description>Recent content in vim on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 15 Nov 2017 00:11:01 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lint and Format code with vim and ALE</title>
+      <link>https://carakan.net/blog/2017-11-15_lint-and-format-code-with-vim-and-ale/</link>
+      <pubDate>Wed, 15 Nov 2017 00:11:01 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/2017-11-15_lint-and-format-code-with-vim-and-ale/</guid>
+      <description>Currently I’m writing JS and Elixir code and I’ve using a lot of plugins to help me about misspelling in my code, first I was using Syntastic, later I was using Neomake but now I fell in love with ALE and I try to explain why.
+Ale knows clearly about if a plugin/addon shows an error that plugin/addon can fix that error if is possible.
+For example if I’m using eslint and I see this error:</description>
+    </item>
+    
+    <item>
+      <title>My dotfiles</title>
+      <link>https://carakan.net/blog/my-dotfiles/</link>
+      <pubDate>Mon, 21 Dec 2015 02:57:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/my-dotfiles/</guid>
+      <description>Yes, I finally setup my work environment to work across in my differents machines, I used this tools for that:
+ Tmux Powerline fonts patched (I uploaded my fonts patched) Iterm2 (v3.3) NeoVim Oh-My-Zsh Spf13 vim configuration  Check out my public repo in that I wrote how to install if you want reuse my config.</description>
+    </item>
+    
+  </channel>
+</rss>

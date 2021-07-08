@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>2009 on carakan</title>
+    <link>https://carakan.net/tags/2009/</link>
+    <description>Recent content in 2009 on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 20 Dec 2009 01:32:21 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/2009/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Soy una super estrella</title>
+      <link>https://carakan.net/blog/soy-una-super-estrella/</link>
+      <pubDate>Sun, 20 Dec 2009 01:32:21 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/soy-una-super-estrella/</guid>
+      <description>Pues si, por eso deje olvidado mi blog, he estado muy ocupado salvando gatos encima de los arboles, ayudando a prevenir el calentamiento global, por eso me hicieron este reconocimiento antes de fin de año, disfrutenlo.</description>
+    </item>
+    
+    <item>
+      <title>Hackearon mi site</title>
+      <link>https://carakan.net/blog/hackearon-mi-site/</link>
+      <pubDate>Sun, 06 Dec 2009 16:02:46 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/hackearon-mi-site/</guid>
+      <description>lamentablemente hace una semana que me hackearon el site, en si no borraron nada sino que modificaron el index.php de mi template de WP, asi que por el momento estara con la plantilla por defecto, asi de fea, hasta que lo arregle. Lamentamos las molestias :P</description>
+    </item>
+    
+    <item>
+      <title>[off-topic] El referéndum en Bolivia</title>
+      <link>https://carakan.net/blog/off-topic-el-referndum-en-bolivia/</link>
+      <pubDate>Mon, 26 Jan 2009 16:31:26 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/off-topic-el-referndum-en-bolivia/</guid>
+      <description>Gracias a MedranoPrensa, que realiza periodismo 2.0 desde la ciudad del Alto – Bolivia, me cedió el poder compartir las fotos que tomo en esta fiesta democrática en la que gano el CAMBIO.
+
+
+A pesar de que masivamente en medios de comunicación, se informo que al aprobarse esta nueva constitución habrían mas:
+ Comunismo ¿WTF????? Se quitara la propiedad privada Y Dios ya no estará en Bolivia :P  Pero aun así, gano el SI con datos desde el 65% aproximado, ahora toca simplemente esperar el CAMBIO.</description>
+    </item>
+    
+    <item>
+      <title>You tube el año en un video</title>
+      <link>https://carakan.net/blog/you-tube-el-ao-en-un-video/</link>
+      <pubDate>Fri, 02 Jan 2009 15:42:21 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/you-tube-el-ao-en-un-video/</guid>
+      <description>You Tube apuesta siempre por la viralidad, y ahora nos muestran un video bastante insolito.
+via: blog de You Tube y Desde mi blog.</description>
+    </item>
+    
+  </channel>
+</rss>

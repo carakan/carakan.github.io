@@ -1,0 +1,1490 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on carakan</title>
+    <link>https://carakan.net/tags/</link>
+    <description>Recent content in Tags on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 25 Jun 2021 11:15:20 -0400</lastBuildDate><atom:link href="https://carakan.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>lightroom</title>
+      <link>https://carakan.net/tags/lightroom/</link>
+      <pubDate>Fri, 25 Jun 2021 11:15:20 -0400</pubDate>
+      
+      <guid>https://carakan.net/tags/lightroom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TIL</title>
+      <link>https://carakan.net/tags/til/</link>
+      <pubDate>Fri, 25 Jun 2021 11:15:20 -0400</pubDate>
+      
+      <guid>https://carakan.net/tags/til/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>backups</title>
+      <link>https://carakan.net/tags/backups/</link>
+      <pubDate>Tue, 23 Feb 2021 17:01:57 -0400</pubDate>
+      
+      <guid>https://carakan.net/tags/backups/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>postgresql</title>
+      <link>https://carakan.net/tags/postgresql/</link>
+      <pubDate>Tue, 23 Feb 2021 17:01:57 -0400</pubDate>
+      
+      <guid>https://carakan.net/tags/postgresql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>psql</title>
+      <link>https://carakan.net/tags/psql/</link>
+      <pubDate>Tue, 02 Feb 2021 22:12:37 -0400</pubDate>
+      
+      <guid>https://carakan.net/tags/psql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bundle</title>
+      <link>https://carakan.net/tags/bundle/</link>
+      <pubDate>Wed, 25 Nov 2020 12:24:29 -0400</pubDate>
+      
+      <guid>https://carakan.net/tags/bundle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ruby</title>
+      <link>https://carakan.net/tags/ruby/</link>
+      <pubDate>Wed, 25 Nov 2020 12:24:29 -0400</pubDate>
+      
+      <guid>https://carakan.net/tags/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>neovim</title>
+      <link>https://carakan.net/tags/neovim/</link>
+      <pubDate>Tue, 25 Aug 2020 09:39:14 -0400</pubDate>
+      
+      <guid>https://carakan.net/tags/neovim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vim-test</title>
+      <link>https://carakan.net/tags/vim-test/</link>
+      <pubDate>Tue, 25 Aug 2020 09:39:14 -0400</pubDate>
+      
+      <guid>https://carakan.net/tags/vim-test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>active admin</title>
+      <link>https://carakan.net/tags/active-admin/</link>
+      <pubDate>Tue, 10 Dec 2019 12:22:05 -0400</pubDate>
+      
+      <guid>https://carakan.net/tags/active-admin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devise</title>
+      <link>https://carakan.net/tags/devise/</link>
+      <pubDate>Tue, 10 Dec 2019 12:22:05 -0400</pubDate>
+      
+      <guid>https://carakan.net/tags/devise/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rails</title>
+      <link>https://carakan.net/tags/rails/</link>
+      <pubDate>Tue, 10 Dec 2019 12:22:05 -0400</pubDate>
+      
+      <guid>https://carakan.net/tags/rails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dotfiles</title>
+      <link>https://carakan.net/tags/dotfiles/</link>
+      <pubDate>Mon, 21 Oct 2019 11:51:11 -0400</pubDate>
+      
+      <guid>https://carakan.net/tags/dotfiles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>asdf</title>
+      <link>https://carakan.net/tags/asdf/</link>
+      <pubDate>Mon, 14 Oct 2019 11:09:24 -0400</pubDate>
+      
+      <guid>https://carakan.net/tags/asdf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>version manager</title>
+      <link>https://carakan.net/tags/version-manager/</link>
+      <pubDate>Mon, 14 Oct 2019 11:09:24 -0400</pubDate>
+      
+      <guid>https://carakan.net/tags/version-manager/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>elixirLS</title>
+      <link>https://carakan.net/tags/elixirls/</link>
+      <pubDate>Sun, 22 Sep 2019 22:30:04 -0400</pubDate>
+      
+      <guid>https://carakan.net/tags/elixirls/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emberjs</title>
+      <link>https://carakan.net/tags/emberjs/</link>
+      <pubDate>Mon, 16 Sep 2019 10:16:01 -0400</pubDate>
+      
+      <guid>https://carakan.net/tags/emberjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>prettier</title>
+      <link>https://carakan.net/tags/prettier/</link>
+      <pubDate>Mon, 16 Sep 2019 10:16:01 -0400</pubDate>
+      
+      <guid>https://carakan.net/tags/prettier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>direnv</title>
+      <link>https://carakan.net/tags/direnv/</link>
+      <pubDate>Thu, 12 Sep 2019 12:15:47 -0400</pubDate>
+      
+      <guid>https://carakan.net/tags/direnv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>envrc</title>
+      <link>https://carakan.net/tags/envrc/</link>
+      <pubDate>Thu, 12 Sep 2019 12:15:47 -0400</pubDate>
+      
+      <guid>https://carakan.net/tags/envrc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>railscasts</title>
+      <link>https://carakan.net/tags/railscasts/</link>
+      <pubDate>Tue, 27 Nov 2018 21:51:19 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/railscasts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vscode</title>
+      <link>https://carakan.net/tags/vscode/</link>
+      <pubDate>Tue, 27 Nov 2018 21:51:19 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/vscode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elixir</title>
+      <link>https://carakan.net/tags/elixir/</link>
+      <pubDate>Wed, 03 Oct 2018 18:49:26 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/elixir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open source</title>
+      <link>https://carakan.net/tags/open-source/</link>
+      <pubDate>Wed, 03 Oct 2018 18:49:26 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tooling</title>
+      <link>https://carakan.net/tags/tooling/</link>
+      <pubDate>Wed, 15 Nov 2017 00:11:01 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/tooling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vim</title>
+      <link>https://carakan.net/tags/vim/</link>
+      <pubDate>Wed, 15 Nov 2017 00:11:01 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blockchain</title>
+      <link>https://carakan.net/tags/blockchain/</link>
+      <pubDate>Fri, 08 Sep 2017 16:08:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/blockchain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emprendimiento</title>
+      <link>https://carakan.net/tags/emprendimiento/</link>
+      <pubDate>Fri, 08 Sep 2017 16:08:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/emprendimiento/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>startups</title>
+      <link>https://carakan.net/tags/startups/</link>
+      <pubDate>Fri, 08 Sep 2017 16:08:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/startups/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devop</title>
+      <link>https://carakan.net/tags/devop/</link>
+      <pubDate>Fri, 24 Jun 2016 17:27:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/devop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>http2</title>
+      <link>https://carakan.net/tags/http2/</link>
+      <pubDate>Fri, 24 Jun 2016 17:27:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/http2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>passenger</title>
+      <link>https://carakan.net/tags/passenger/</link>
+      <pubDate>Fri, 24 Jun 2016 17:27:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/passenger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>folgama</title>
+      <link>https://carakan.net/tags/folgama/</link>
+      <pubDate>Tue, 24 Nov 2015 03:17:52 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/folgama/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Re-Begin</title>
+      <link>https://carakan.net/tags/re-begin/</link>
+      <pubDate>Fri, 13 Mar 2015 01:15:24 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/re-begin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>database session</title>
+      <link>https://carakan.net/tags/database-session/</link>
+      <pubDate>Fri, 13 Mar 2015 01:11:09 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/database-session/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tips</title>
+      <link>https://carakan.net/tags/tips/</link>
+      <pubDate>Fri, 13 Mar 2015 01:11:09 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fotografia</title>
+      <link>https://carakan.net/tags/fotografia/</link>
+      <pubDate>Tue, 16 Sep 2014 17:07:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/fotografia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>modelaje</title>
+      <link>https://carakan.net/tags/modelaje/</link>
+      <pubDate>Tue, 16 Sep 2014 17:07:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/modelaje/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thais</title>
+      <link>https://carakan.net/tags/thais/</link>
+      <pubDate>Tue, 16 Sep 2014 17:07:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/thais/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>carakan</title>
+      <link>https://carakan.net/tags/carakan/</link>
+      <pubDate>Tue, 13 May 2014 04:29:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/carakan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2013</title>
+      <link>https://carakan.net/tags/2013/</link>
+      <pubDate>Thu, 27 Jun 2013 22:50:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bolivia</title>
+      <link>https://carakan.net/tags/bolivia/</link>
+      <pubDate>Thu, 27 Jun 2013 22:50:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/bolivia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>carnaval oruro</title>
+      <link>https://carakan.net/tags/carnaval-oruro/</link>
+      <pubDate>Mon, 20 Feb 2012 23:43:14 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/carnaval-oruro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uncategorized</title>
+      <link>https://carakan.net/tags/uncategorized/</link>
+      <pubDate>Mon, 20 Feb 2012 23:43:14 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/uncategorized/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>canon digital</title>
+      <link>https://carakan.net/tags/canon-digital/</link>
+      <pubDate>Wed, 29 Jun 2011 03:34:45 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/canon-digital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>libertad de expresion</title>
+      <link>https://carakan.net/tags/libertad-de-expresion/</link>
+      <pubDate>Wed, 29 Jun 2011 03:34:45 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/libertad-de-expresion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>periodismo</title>
+      <link>https://carakan.net/tags/periodismo/</link>
+      <pubDate>Wed, 29 Jun 2011 03:34:45 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/periodismo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2011</title>
+      <link>https://carakan.net/tags/2011/</link>
+      <pubDate>Mon, 27 Jun 2011 15:04:54 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/2011/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ocio</title>
+      <link>https://carakan.net/tags/ocio/</link>
+      <pubDate>Tue, 22 Mar 2011 02:37:23 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/ocio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sorprendente</title>
+      <link>https://carakan.net/tags/sorprendente/</link>
+      <pubDate>Tue, 22 Mar 2011 02:37:23 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/sorprendente/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>youtube</title>
+      <link>https://carakan.net/tags/youtube/</link>
+      <pubDate>Tue, 22 Mar 2011 02:37:23 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/youtube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web 2.0</title>
+      <link>https://carakan.net/tags/web-2.0/</link>
+      <pubDate>Tue, 15 Feb 2011 17:13:13 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/web-2.0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ideales</title>
+      <link>https://carakan.net/tags/ideales/</link>
+      <pubDate>Tue, 21 Dec 2010 12:39:49 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/ideales/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internet en Bolivia</title>
+      <link>https://carakan.net/tags/internet-en-bolivia/</link>
+      <pubDate>Tue, 21 Dec 2010 12:39:49 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/internet-en-bolivia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web 2.0 en Bolivia</title>
+      <link>https://carakan.net/tags/web-2.0-en-bolivia/</link>
+      <pubDate>Tue, 21 Dec 2010 12:39:49 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/web-2.0-en-bolivia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emprender</title>
+      <link>https://carakan.net/tags/emprender/</link>
+      <pubDate>Thu, 18 Nov 2010 12:18:03 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/emprender/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>redes sociales</title>
+      <link>https://carakan.net/tags/redes-sociales/</link>
+      <pubDate>Thu, 18 Nov 2010 12:18:03 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/redes-sociales/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web 2.5</title>
+      <link>https://carakan.net/tags/web-2.5/</link>
+      <pubDate>Thu, 18 Nov 2010 12:18:03 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/web-2.5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>facebook</title>
+      <link>https://carakan.net/tags/facebook/</link>
+      <pubDate>Wed, 13 Oct 2010 01:56:35 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/facebook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Media</title>
+      <link>https://carakan.net/tags/social-media/</link>
+      <pubDate>Wed, 13 Oct 2010 01:56:35 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/social-media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>latino america</title>
+      <link>https://carakan.net/tags/latino-america/</link>
+      <pubDate>Mon, 07 Jun 2010 12:03:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/latino-america/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UMSA</title>
+      <link>https://carakan.net/tags/umsa/</link>
+      <pubDate>Mon, 07 Jun 2010 12:03:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/umsa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>no se</title>
+      <link>https://carakan.net/tags/no-se/</link>
+      <pubDate>Sat, 08 May 2010 23:37:18 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/no-se/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>humor</title>
+      <link>https://carakan.net/tags/humor/</link>
+      <pubDate>Sun, 02 May 2010 17:21:51 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/humor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mexico</title>
+      <link>https://carakan.net/tags/mexico/</link>
+      <pubDate>Sun, 25 Apr 2010 21:42:51 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/mexico/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>personal</title>
+      <link>https://carakan.net/tags/personal/</link>
+      <pubDate>Sun, 25 Apr 2010 21:42:51 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>navidad</title>
+      <link>https://carakan.net/tags/navidad/</link>
+      <pubDate>Thu, 24 Dec 2009 19:22:28 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/navidad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2009</title>
+      <link>https://carakan.net/tags/2009/</link>
+      <pubDate>Sun, 20 Dec 2009 01:32:21 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/2009/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hackeado</title>
+      <link>https://carakan.net/tags/hackeado/</link>
+      <pubDate>Sun, 06 Dec 2009 16:02:46 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/hackeado/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>atix</title>
+      <link>https://carakan.net/tags/atix/</link>
+      <pubDate>Tue, 14 Jul 2009 03:03:45 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/atix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dos años</title>
+      <link>https://carakan.net/tags/dos-a%C3%B1os/</link>
+      <pubDate>Wed, 24 Jun 2009 23:17:32 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/dos-a%C3%B1os/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>un año</title>
+      <link>https://carakan.net/tags/un-a%C3%B1o/</link>
+      <pubDate>Wed, 24 Jun 2009 23:17:32 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/un-a%C3%B1o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Canal PAT</title>
+      <link>https://carakan.net/tags/canal-pat/</link>
+      <pubDate>Sat, 20 Jun 2009 00:11:20 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/canal-pat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lost</title>
+      <link>https://carakan.net/tags/lost/</link>
+      <pubDate>Sat, 20 Jun 2009 00:11:20 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/lost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>empredimiento</title>
+      <link>https://carakan.net/tags/empredimiento/</link>
+      <pubDate>Fri, 05 Jun 2009 15:17:59 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/empredimiento/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>garfield</title>
+      <link>https://carakan.net/tags/garfield/</link>
+      <pubDate>Fri, 05 Jun 2009 00:24:30 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/garfield/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sorojchi</title>
+      <link>https://carakan.net/tags/sorojchi/</link>
+      <pubDate>Fri, 05 Jun 2009 00:24:30 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/sorojchi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>twitter</title>
+      <link>https://carakan.net/tags/twitter/</link>
+      <pubDate>Tue, 12 May 2009 13:45:46 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/twitter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Messenger</title>
+      <link>https://carakan.net/tags/messenger/</link>
+      <pubDate>Fri, 24 Apr 2009 00:05:36 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/messenger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ruby on rails</title>
+      <link>https://carakan.net/tags/ruby-on-rails/</link>
+      <pubDate>Thu, 23 Apr 2009 00:32:39 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/ruby-on-rails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mujeres</title>
+      <link>https://carakan.net/tags/mujeres/</link>
+      <pubDate>Wed, 08 Apr 2009 15:06:41 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/mujeres/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dengue</title>
+      <link>https://carakan.net/tags/dengue/</link>
+      <pubDate>Fri, 13 Mar 2009 22:14:22 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/dengue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>curiosidades</title>
+      <link>https://carakan.net/tags/curiosidades/</link>
+      <pubDate>Mon, 09 Mar 2009 16:28:50 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/curiosidades/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>casasmap</title>
+      <link>https://carakan.net/tags/casasmap/</link>
+      <pubDate>Sat, 28 Feb 2009 00:16:57 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/casasmap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google maps</title>
+      <link>https://carakan.net/tags/google-maps/</link>
+      <pubDate>Sat, 28 Feb 2009 00:16:57 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/google-maps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Artistas 2.0</title>
+      <link>https://carakan.net/tags/artistas-2.0/</link>
+      <pubDate>Wed, 28 Jan 2009 16:17:08 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/artistas-2.0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://carakan.net/tags/git/</link>
+      <pubDate>Tue, 27 Jan 2009 15:36:32 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>libro</title>
+      <link>https://carakan.net/tags/libro/</link>
+      <pubDate>Mon, 26 Jan 2009 23:50:48 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/libro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>off-topic</title>
+      <link>https://carakan.net/tags/off-topic/</link>
+      <pubDate>Mon, 26 Jan 2009 16:31:26 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/off-topic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>referendum</title>
+      <link>https://carakan.net/tags/referendum/</link>
+      <pubDate>Mon, 26 Jan 2009 16:31:26 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/referendum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bienes raices bolivia</title>
+      <link>https://carakan.net/tags/bienes-raices-bolivia/</link>
+      <pubDate>Fri, 23 Jan 2009 23:21:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/bienes-raices-bolivia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>startup</title>
+      <link>https://carakan.net/tags/startup/</link>
+      <pubDate>Fri, 23 Jan 2009 23:21:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/startup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Obama 2.0</title>
+      <link>https://carakan.net/tags/obama-2.0/</link>
+      <pubDate>Tue, 20 Jan 2009 16:56:05 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/obama-2.0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ingles</title>
+      <link>https://carakan.net/tags/ingles/</link>
+      <pubDate>Mon, 05 Jan 2009 16:32:37 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/ingles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>videos</title>
+      <link>https://carakan.net/tags/videos/</link>
+      <pubDate>Fri, 02 Jan 2009 15:42:21 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/videos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>empremdimiento</title>
+      <link>https://carakan.net/tags/empremdimiento/</link>
+      <pubDate>Thu, 18 Dec 2008 15:29:34 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/empremdimiento/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>webprende</title>
+      <link>https://carakan.net/tags/webprende/</link>
+      <pubDate>Thu, 18 Dec 2008 15:29:34 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/webprende/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>revista atix</title>
+      <link>https://carakan.net/tags/revista-atix/</link>
+      <pubDate>Wed, 17 Dec 2008 21:02:17 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/revista-atix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software libre</title>
+      <link>https://carakan.net/tags/software-libre/</link>
+      <pubDate>Wed, 17 Dec 2008 21:02:17 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/software-libre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>informatica</title>
+      <link>https://carakan.net/tags/informatica/</link>
+      <pubDate>Wed, 17 Dec 2008 00:07:02 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/informatica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tecnologia</title>
+      <link>https://carakan.net/tags/tecnologia/</link>
+      <pubDate>Wed, 10 Dec 2008 13:00:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/tecnologia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>entrevistas a blogs internacionales</title>
+      <link>https://carakan.net/tags/entrevistas-a-blogs-internacionales/</link>
+      <pubDate>Wed, 03 Dec 2008 13:30:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/entrevistas-a-blogs-internacionales/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ExpoMype</title>
+      <link>https://carakan.net/tags/expomype/</link>
+      <pubDate>Tue, 02 Dec 2008 20:53:42 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/expomype/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ExpoMype 2008</title>
+      <link>https://carakan.net/tags/expomype-2008/</link>
+      <pubDate>Tue, 02 Dec 2008 20:53:42 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/expomype-2008/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bruce lee</title>
+      <link>https://carakan.net/tags/bruce-lee/</link>
+      <pubDate>Mon, 01 Dec 2008 16:03:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/bruce-lee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gmail</title>
+      <link>https://carakan.net/tags/gmail/</link>
+      <pubDate>Thu, 20 Nov 2008 00:44:46 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/gmail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>red de blogs</title>
+      <link>https://carakan.net/tags/red-de-blogs/</link>
+      <pubDate>Wed, 19 Nov 2008 21:30:04 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/red-de-blogs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>si existe</title>
+      <link>https://carakan.net/tags/si-existe/</link>
+      <pubDate>Wed, 19 Nov 2008 14:11:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/si-existe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>yahoo</title>
+      <link>https://carakan.net/tags/yahoo/</link>
+      <pubDate>Tue, 18 Nov 2008 16:25:42 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/yahoo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linkedin</title>
+      <link>https://carakan.net/tags/linkedin/</link>
+      <pubDate>Sat, 15 Nov 2008 13:00:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/linkedin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Goyi</title>
+      <link>https://carakan.net/tags/goyi/</link>
+      <pubDate>Wed, 05 Nov 2008 13:00:54 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/goyi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tema goyi</title>
+      <link>https://carakan.net/tags/tema-goyi/</link>
+      <pubDate>Wed, 05 Nov 2008 13:00:54 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/tema-goyi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tema worpress</title>
+      <link>https://carakan.net/tags/tema-worpress/</link>
+      <pubDate>Wed, 05 Nov 2008 13:00:54 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/tema-worpress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thema wordpress</title>
+      <link>https://carakan.net/tags/thema-wordpress/</link>
+      <pubDate>Wed, 05 Nov 2008 13:00:54 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/thema-wordpress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wordpress</title>
+      <link>https://carakan.net/tags/wordpress/</link>
+      <pubDate>Wed, 05 Nov 2008 13:00:54 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/wordpress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elecciones USA 2008</title>
+      <link>https://carakan.net/tags/elecciones-usa-2008/</link>
+      <pubDate>Tue, 04 Nov 2008 15:24:59 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/elecciones-usa-2008/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>politica 2.0</title>
+      <link>https://carakan.net/tags/politica-2.0/</link>
+      <pubDate>Tue, 04 Nov 2008 15:24:59 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/politica-2.0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>css</title>
+      <link>https://carakan.net/tags/css/</link>
+      <pubDate>Tue, 04 Nov 2008 14:26:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google crome</title>
+      <link>https://carakan.net/tags/google-crome/</link>
+      <pubDate>Mon, 03 Nov 2008 13:00:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/google-crome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>https://carakan.net/tags/windows/</link>
+      <pubDate>Mon, 03 Nov 2008 13:00:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wiebia</title>
+      <link>https://carakan.net/tags/wiebia/</link>
+      <pubDate>Tue, 28 Oct 2008 21:32:29 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/wiebia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>azafatas</title>
+      <link>https://carakan.net/tags/azafatas/</link>
+      <pubDate>Thu, 23 Oct 2008 16:39:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/azafatas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rails Summit Brazil 2008</title>
+      <link>https://carakan.net/tags/rails-summit-brazil-2008/</link>
+      <pubDate>Thu, 23 Oct 2008 16:39:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/rails-summit-brazil-2008/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iphone</title>
+      <link>https://carakan.net/tags/iphone/</link>
+      <pubDate>Wed, 15 Oct 2008 13:26:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/iphone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Entrevistas a blogs bolivianos</title>
+      <link>https://carakan.net/tags/entrevistas-a-blogs-bolivianos/</link>
+      <pubDate>Mon, 13 Oct 2008 14:56:23 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/entrevistas-a-blogs-bolivianos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>malware</title>
+      <link>https://carakan.net/tags/malware/</link>
+      <pubDate>Fri, 03 Oct 2008 23:59:17 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/malware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virus</title>
+      <link>https://carakan.net/tags/virus/</link>
+      <pubDate>Fri, 03 Oct 2008 23:59:17 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/virus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virus alert</title>
+      <link>https://carakan.net/tags/virus-alert/</link>
+      <pubDate>Fri, 03 Oct 2008 23:59:17 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/virus-alert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dominio gratis</title>
+      <link>https://carakan.net/tags/dominio-gratis/</link>
+      <pubDate>Tue, 30 Sep 2008 16:10:52 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/dominio-gratis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>qhacer</title>
+      <link>https://carakan.net/tags/qhacer/</link>
+      <pubDate>Wed, 17 Sep 2008 21:33:40 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/qhacer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bloguiviano destacado</title>
+      <link>https://carakan.net/tags/bloguiviano-destacado/</link>
+      <pubDate>Fri, 05 Sep 2008 20:40:46 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/bloguiviano-destacado/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google chrome</title>
+      <link>https://carakan.net/tags/google-chrome/</link>
+      <pubDate>Tue, 02 Sep 2008 21:15:50 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/google-chrome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>resumen</title>
+      <link>https://carakan.net/tags/resumen/</link>
+      <pubDate>Fri, 29 Aug 2008 14:00:31 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/resumen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ajax</title>
+      <link>https://carakan.net/tags/ajax/</link>
+      <pubDate>Thu, 21 Aug 2008 20:36:43 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/ajax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript no obtrusivo</title>
+      <link>https://carakan.net/tags/javascript-no-obtrusivo/</link>
+      <pubDate>Thu, 21 Aug 2008 20:36:43 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/javascript-no-obtrusivo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jquery</title>
+      <link>https://carakan.net/tags/jquery/</link>
+      <pubDate>Thu, 21 Aug 2008 20:36:43 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/jquery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>enlaces</title>
+      <link>https://carakan.net/tags/enlaces/</link>
+      <pubDate>Tue, 19 Aug 2008 23:34:55 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/enlaces/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bloguivianos</title>
+      <link>https://carakan.net/tags/bloguivianos/</link>
+      <pubDate>Fri, 15 Aug 2008 15:55:09 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/bloguivianos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>breves</title>
+      <link>https://carakan.net/tags/breves/</link>
+      <pubDate>Mon, 11 Aug 2008 22:12:06 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/breves/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ImageMagick</title>
+      <link>https://carakan.net/tags/imagemagick/</link>
+      <pubDate>Wed, 06 Aug 2008 18:59:05 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/imagemagick/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mod_rails</title>
+      <link>https://carakan.net/tags/mod_rails/</link>
+      <pubDate>Wed, 06 Aug 2008 18:59:05 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/mod_rails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>parodia</title>
+      <link>https://carakan.net/tags/parodia/</link>
+      <pubDate>Wed, 23 Jul 2008 16:27:59 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/parodia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>webs sociales</title>
+      <link>https://carakan.net/tags/webs-sociales/</link>
+      <pubDate>Wed, 23 Jul 2008 15:35:35 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/webs-sociales/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Id</title>
+      <link>https://carakan.net/tags/open-id/</link>
+      <pubDate>Fri, 18 Jul 2008 16:29:31 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/open-id/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>REST</title>
+      <link>https://carakan.net/tags/rest/</link>
+      <pubDate>Fri, 18 Jul 2008 16:29:31 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/rest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>innovacion</title>
+      <link>https://carakan.net/tags/innovacion/</link>
+      <pubDate>Tue, 24 Jun 2008 14:52:57 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/innovacion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gemas</title>
+      <link>https://carakan.net/tags/gemas/</link>
+      <pubDate>Wed, 11 Jun 2008 15:58:41 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/gemas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oracle</title>
+      <link>https://carakan.net/tags/oracle/</link>
+      <pubDate>Wed, 11 Jun 2008 15:58:41 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/oracle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pl-sql</title>
+      <link>https://carakan.net/tags/pl-sql/</link>
+      <pubDate>Wed, 11 Jun 2008 15:58:41 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/pl-sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metodologias</title>
+      <link>https://carakan.net/tags/metodologias/</link>
+      <pubDate>Fri, 06 Jun 2008 21:11:20 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/metodologias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cake</title>
+      <link>https://carakan.net/tags/cake/</link>
+      <pubDate>Mon, 03 Mar 2008 13:31:50 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/cake/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bienes raices</title>
+      <link>https://carakan.net/tags/bienes-raices/</link>
+      <pubDate>Thu, 07 Feb 2008 16:23:36 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/bienes-raices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>laboratorio</title>
+      <link>https://carakan.net/tags/laboratorio/</link>
+      <pubDate>Thu, 07 Feb 2008 16:23:36 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/laboratorio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>netbeans</title>
+      <link>https://carakan.net/tags/netbeans/</link>
+      <pubDate>Mon, 14 Jan 2008 22:16:57 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/netbeans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cronica</title>
+      <link>https://carakan.net/tags/cronica/</link>
+      <pubDate>Thu, 10 Jan 2008 23:15:07 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/cronica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oruro</title>
+      <link>https://carakan.net/tags/oruro/</link>
+      <pubDate>Thu, 10 Jan 2008 23:15:07 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/oruro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sali de la U</title>
+      <link>https://carakan.net/tags/sali-de-la-u/</link>
+      <pubDate>Wed, 19 Dec 2007 20:40:06 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/sali-de-la-u/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proyecto de grado</title>
+      <link>https://carakan.net/tags/proyecto-de-grado/</link>
+      <pubDate>Sat, 08 Dec 2007 13:10:36 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/proyecto-de-grado/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DCE</title>
+      <link>https://carakan.net/tags/dce/</link>
+      <pubDate>Thu, 06 Dec 2007 21:55:05 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/dce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RUP y UML</title>
+      <link>https://carakan.net/tags/rup-y-uml/</link>
+      <pubDate>Thu, 08 Nov 2007 01:26:14 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/rup-y-uml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scrum</title>
+      <link>https://carakan.net/tags/scrum/</link>
+      <pubDate>Fri, 05 Oct 2007 19:40:13 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/scrum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>c sharp</title>
+      <link>https://carakan.net/tags/c-sharp/</link>
+      <pubDate>Tue, 11 Sep 2007 21:15:35 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/c-sharp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>inf-121</title>
+      <link>https://carakan.net/tags/inf-121/</link>
+      <pubDate>Tue, 11 Sep 2007 20:15:22 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/inf-121/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>inicio</title>
+      <link>https://carakan.net/tags/inicio/</link>
+      <pubDate>Sun, 24 Jun 2007 16:58:14 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/inicio/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

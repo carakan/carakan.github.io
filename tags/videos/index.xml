@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>videos on carakan</title>
+    <link>https://carakan.net/tags/videos/</link>
+    <description>Recent content in videos on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 02 Jan 2009 15:42:21 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>You tube el año en un video</title>
+      <link>https://carakan.net/blog/you-tube-el-ao-en-un-video/</link>
+      <pubDate>Fri, 02 Jan 2009 15:42:21 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/you-tube-el-ao-en-un-video/</guid>
+      <description>You Tube apuesta siempre por la viralidad, y ahora nos muestran un video bastante insolito.
+via: blog de You Tube y Desde mi blog.</description>
+    </item>
+    
+  </channel>
+</rss>

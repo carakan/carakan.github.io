@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>vscode on carakan</title>
+    <link>https://carakan.net/tags/vscode/</link>
+    <description>Recent content in vscode on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 27 Nov 2018 21:51:19 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>“NewRailscasts” My first VScode Theme</title>
+      <link>https://carakan.net/blog/2018-11-27_newrailscasts-my-first-vscode-theme/</link>
+      <pubDate>Tue, 27 Nov 2018 21:51:19 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/2018-11-27_newrailscasts-my-first-vscode-theme/</guid>
+      <description>I ported my adaption of the ancient railscasts theme for (neo)vim to VSCode, its solarized, supports very well javascript, typescript, ruby and elixir, here’s some screenshots:
+TypeScript
+Html + erb
+Elixir
+If you like try to install only follow this link or search in Extensions “New Railscasts”, also if you use vim you can install the new-railscasts from my repo.</description>
+    </item>
+    
+  </channel>
+</rss>

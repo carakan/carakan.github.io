@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>rails on carakan</title>
+    <link>https://carakan.net/tags/rails/</link>
+    <description>Recent content in rails on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 10 Dec 2019 12:22:05 -0400</lastBuildDate><atom:link href="https://carakan.net/tags/rails/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to do email only sign up using default active-admin setup</title>
+      <link>https://carakan.net/blog/2019/how-to-email-only-sign-up-using-default-active-admin-setup/</link>
+      <pubDate>Tue, 10 Dec 2019 12:22:05 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2019/how-to-email-only-sign-up-using-default-active-admin-setup/</guid>
+      <description>Context   The idea is to develop the same requirement as devise describe in their guide:
+  The project is using the admin_user approach and sets the default setup included on activeadmin.
+  (NOTE) One other recommended solution is to migrate the admin_user model to user and configure devise normally as a separate engine.
+  Guide   If you haven&amp;rsquo;t already, enable the confirmable module</description>
+    </item>
+    
+    <item>
+      <title>Create a Form With Two Actions on Activeadmin</title>
+      <link>https://carakan.net/blog/til-create-a-form-with-two-actions-activeadmin/</link>
+      <pubDate>Wed, 11 Sep 2019 18:22:45 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/til-create-a-form-with-two-actions-activeadmin/</guid>
+      <description>In a project that already using Activeadmin I had the requeriment of modify the actual form to create a student, but without validating that, so the solution was create into the model of active admin form and declare the form with two actions, one with the clasical behaviour and other when passed the params[:managed] with a custom route
+ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :student, as: :select, collection: User.</description>
+    </item>
+    
+    <item>
+      <title>great plugin for share session in rails apps between wordpress blog</title>
+      <link>https://carakan.net/blog/great-plugin-for-share-session-in-rails-apps-between-wordpress-blog/</link>
+      <pubDate>Fri, 13 Mar 2015 01:11:09 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/great-plugin-for-share-session-in-rails-apps-between-wordpress-blog/</guid>
+      <description>In one project, the client wants to share same user credentials between rails app to wordpress site, I&amp;rsquo;ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:
+rails login  this plugin only need a small API for enable login i created this code in model user:
+def wp_json { user: { email: self.</description>
+    </item>
+    
+  </channel>
+</rss>

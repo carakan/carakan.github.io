@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>c sharp on carakan</title>
+    <link>https://carakan.net/tags/c-sharp/</link>
+    <description>Recent content in c sharp on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 11 Sep 2007 21:15:35 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/c-sharp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Premio por desarrollador 4 estrellas</title>
+      <link>https://carakan.net/blog/premio-por-desarrollador-4-estrellas/</link>
+      <pubDate>Tue, 11 Sep 2007 21:15:35 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/premio-por-desarrollador-4-estrellas/</guid>
+      <description>Si me llego el premio de la Microsoft por obtener la cuarta estrella en el programa desarrollador cinco estrellas, es un CD con un Emulador de vuelos Flight Simulator X, lo instale y no se, no me atrayen estas cosas, gane la cuarta estrella cuando aparecio, fui el primero en Bolivia, ademas la intencion de la estrella solidaria con la idea que solamente den &amp;ldquo;premio&amp;rdquo; a los tres primeros paises que tengan mas desarrolladores 4 estrellas, humm me hace pensar&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>Salio la guia definitiva de la materia INF-121</title>
+      <link>https://carakan.net/blog/salio-la-guia-definitiva-de-la-materia-inf-121/</link>
+      <pubDate>Tue, 11 Sep 2007 20:15:22 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/salio-la-guia-definitiva-de-la-materia-inf-121/</guid>
+      <description>Si a través del trabajo tanto de docentes y universitarios, salio a la luz el informe-guia de la materia INF-121, carrera de informática. Agradecer a todos los que nos apoyaron y que aqui los mencionamos: Lic. Celia Tarquino Peralta. Lic. Carmen Huanca. Univ. Carlos Ramos Kantuta (this) Univ. Ramiro Huayller Zuleta Univ. Juan Carlos Condori Univ. Elmer Mendoza Es una alegria que docentes apuesten por lo nuevo y el apoyo, ademas que se abarcan en esta guia lenguajes de programacion como: Java y C#, tomando para ello el IDE Sharp Develop que es Open Source.</description>
+    </item>
+    
+  </channel>
+</rss>

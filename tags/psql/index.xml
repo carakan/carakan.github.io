@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>psql on carakan</title>
+    <link>https://carakan.net/tags/psql/</link>
+    <description>Recent content in psql on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 02 Feb 2021 22:12:37 -0400</lastBuildDate><atom:link href="https://carakan.net/tags/psql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Postgres: Create Db User and bring Access</title>
+      <link>https://carakan.net/blog/2021/create-db-user-and-access/</link>
+      <pubDate>Tue, 02 Feb 2021 22:12:37 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2021/create-db-user-and-access/</guid>
+      <description>Short version:
+sudo -u postgres psql create database mydb; create user myuser with encrypted password &amp;#39;password&amp;#39;; grant all privileges on database mydb to myuser; </description>
+    </item>
+    
+  </channel>
+</rss>

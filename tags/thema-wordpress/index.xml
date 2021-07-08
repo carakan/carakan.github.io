@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>thema wordpress on carakan</title>
+    <link>https://carakan.net/tags/thema-wordpress/</link>
+    <description>Recent content in thema wordpress on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 05 Nov 2008 13:00:54 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/thema-wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tema wordpress - Goyi</title>
+      <link>https://carakan.net/blog/tema-wordpress-goyi/</link>
+      <pubDate>Wed, 05 Nov 2008 13:00:54 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/tema-wordpress-goyi/</guid>
+      <description>[caption id=&amp;ldquo;attachment_499&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;250&amp;rdquo; caption=&amp;ldquo;Suplento Goyi de Bolivia&amp;rdquo;][/caption] Uno de los mas grandes personajes infantiles por Bolivia, es sin duda Goyi, que por estos momentos ha entrado en el olvido, muchos se acordaran el suplemento de Goyi que fue muy acogido por la niñez boliviana, como una forma de dar gracias a este personaje que con sus vivencias enseño a muchas generaciones de niños, El tema que presento es simple y moderno en español y tonos pasteles que espero que les guste, actualize muchas cosas con la API de Wordpress, incluye: avatars, trackbacks y no es muy pesado.</description>
+    </item>
+    
+    <item>
+      <title>Nueva imagen de Bolivia On Rails y tema wp español</title>
+      <link>https://carakan.net/blog/nueva-imagen-de-bolivia-on-rails-y-tema-wp/</link>
+      <pubDate>Mon, 22 Sep 2008 15:07:58 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/nueva-imagen-de-bolivia-on-rails-y-tema-wp/</guid>
+      <description>Este fin de semana estuve trabajando en la nueva imagen de Bolivia on Rails, un sitio dedicado al desarrollo de ruby on rails dentro y fuera de Bolivia, lo deje un poco estancado este proyecto pero gracias a la colaboración de Boris Barroso estoy retomando el camino y además quiero informar de que ahora los tutoriales o cosas relacionadas con Rails serán publicadas en el Sitio de Bolivia on rails. [caption id=&amp;ldquo;attachment_420&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;563&amp;rdquo; caption=&amp;ldquo;Bolivia on rails&amp;rdquo;][/caption] Otra noticia que se hará costumbre es que pongo a disposición el thema en Wordpress para que puedan utilizarlo en sus propios blogs, es un tema oscuro que me gusta por la combinación de colores, lo traduje y ahora lo comparto además que dejo el fuente de la cabecera en photoshop para que puedan editarlo, así que disfrútenlo.</description>
+    </item>
+    
+  </channel>
+</rss>

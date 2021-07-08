@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>ruby on rails | carakan</title>
+<meta name="keywords" content="" />
+<meta name="description" content="Carlos Ramos, some histories and quick tips">
+<meta name="author" content="Carlos Ramos">
+<link rel="canonical" href="https://carakan.net/tags/ruby-on-rails/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.35cd0f65a15cafa92372b8313deef5960aae04b90ad722f2bbf509eb0468137e.css" integrity="sha256-Nc0PZaFcr6kjcrgxPe71lgquBLkK1yLyu/UJ6wRoE34=" rel="preload stylesheet" as="style">
+<link rel="preload" href="https://carakan.net/img/avatar.jpg" as="image">
+<link rel="icon" href="https://carakan.net/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://carakan.net/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://carakan.net/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://carakan.net/apple-touch-icon.png">
+<link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.85.0" />
+<link rel="alternate" type="application/rss+xml" href="https://carakan.net/tags/ruby-on-rails/index.xml">
+<meta property="og:title" content="ruby on rails" />
+<meta property="og:description" content="Carlos Ramos, some histories and quick tips" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://carakan.net/tags/ruby-on-rails/" /><meta property="og:image" content="https://carakan.net/papermod-cover.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://carakan.net/papermod-cover.png"/>
+
+<meta name="twitter:title" content="ruby on rails"/>
+<meta name="twitter:description" content="Carlos Ramos, some histories and quick tips"/>
+
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<noscript>
+    <style type="text/css">
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: #1d1e20;
+                --entry: #2e2e33;
+                --primary: rgba(255, 255, 255, 0.84);
+                --secondary: rgba(255, 255, 255, 0.56);
+                --tertiary: rgba(255, 255, 255, 0.16);
+                --content: rgba(255, 255, 255, 0.74);
+                --hljs-bg: #2e2e33;
+                --code-bg: #37383e;
+                --border: #333;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://carakan.net/" accesskey="h" title="carakan (Alt + H)">carakan</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://carakan.net/blog" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://carakan.net/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://carakan.net/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://carakan.net/">Home</a>&nbsp;»&nbsp;<a href="https://carakan.net/tags/">Tags</a></div>
+  <h1>ruby on rails</h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Una RailsConf Latina en Brasil</h2>
+  </header>
+  <section class="entry-content">
+    <p>Si el 15 e 16 de Octubre en San Paulo, Brasil se llevara a cabo el evento Rails Summit Brazil 2008, podría decir la mas grande del tipo para sudamerica y por que no la primera, gracias al trabajo de Favio Akita. El listado de Participantes es el siguiente:
+ David Hansson (por Video Conferencia) Charles Nutter e Thomas Enebo desarrolladores de JRuby, Ninh Bui e Hongli Lai de Phusion (mod_rails)....</p>
+  </section>
+  <footer class="entry-footer">July 10, 2008&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <a class="entry-link" aria-label="post link to Una RailsConf Latina en Brasil" href="https://carakan.net/blog/una-railsconf-latina-en-brasil/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>En Puerto Rico lo ven ahora, en Argentina lo vieron hace tres años y en Bolivia hace un año</h2>
+  </header>
+  <section class="entry-content">
+    <p>Escribo este post al leer el Blog Argentina on Rails, el cual el autor Pedro Visintin es entrevistado por Radar TI un sitio puertoriqueño de desarrollo, en el cual se hace incapie en que Rails es lo que fue Java en los 90, el gran boom en cuanto a desarrollo de software se refiere. Saludos a Pedro por la evangelización que realiza en toda america latina y decirle que aqui en Bolivia tiene todo el apoyo....</p>
+  </section>
+  <footer class="entry-footer">June 16, 2008&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <a class="entry-link" aria-label="post link to En Puerto Rico lo ven ahora, en Argentina lo vieron hace tres años y en Bolivia hace un año" href="https://carakan.net/blog/en-puerto-rico-lo-ven-ahora-en-argentina-lo-vieron-hace-tres-anos-y-en-bolivia-hace-un-ano-2/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Llamar a procedimientos PL/SQL de Oracle con ruby-plsql</h2>
+  </header>
+  <section class="entry-content">
+    <p>Buscando una manera mas sencilla de poder llamar a procedimientos almacenados de Oracle pl/sql, encontré la gema ruby-plsql que es una simple API para procedimientos almacenados en oracle, su uso es muy sencillo como el siguiente:
+Si tenemos el siguiente paquete:
+CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCHAR2, p_out OUT VARCHAR2) IS BEGIN p_out := &#39;Se introdujo: &#39; || p_in; END; END; Ahora dentro del código, como ejemplo dentro del controlador:...</p>
+  </section>
+  <footer class="entry-footer">June 11, 2008&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <a class="entry-link" aria-label="post link to Llamar a procedimientos PL/SQL de Oracle con ruby-plsql" href="https://carakan.net/blog/llamar-a-procedimientos-plsql-de-oracle-con-ruby-plsql/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Salio a la luz ruby enterprise edition</h2>
+  </header>
+  <section class="entry-content">
+    <p>Salio rubyenterprice ideal para servidores de alto trafico, vps, hosting compartido, mejora en el consumo de memoria, una gran alternativa a los clasicos mongreles.</p>
+  </section>
+  <footer class="entry-footer">June 10, 2008&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <a class="entry-link" aria-label="post link to Salio a la luz ruby enterprise edition" href="https://carakan.net/blog/salio-a-la-luz-ruby-enterprise-edition/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Mejorar la conexión a Oracle con Rails 2.1</h2>
+  </header>
+  <section class="entry-content">
+    <p>Dentro del trabajo con Oracle y Rails, existen dos gemas que nos permiten conectar y manipular los datos estas son las gemas OCI-8 y active-record-oracle-adapter, pero existen algunos fallos dentro del Active-Record-Oracle-Adapter, uno lo indique en un post anterior, es por eso que en rayapps se escribe sobre como mejorar algunas cosas a este adaptador, es por eso que el autor de esos post publica ahora una gema que tiene incluido los patch y algunas mejoras esto es la gema activerecord-oracle_enhanced-adapter...</p>
+  </section>
+  <footer class="entry-footer">June 7, 2008&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <a class="entry-link" aria-label="post link to Mejorar la conexión a Oracle con Rails 2.1" href="https://carakan.net/blog/mejorar-la-conexion-a-oracle-con-rails-21/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Lanzamiento de Rails 2.1 y ruby 1.8.7</h2>
+  </header>
+  <section class="entry-content">
+    <p>Parece que la RailsConf 2008 nos tiene traera bastantes sorpresas ya que anuncian el lanzamiento oficial de la version 1.8.7 del lenguaje de programacion ruby, que esta lista para bajar desde aqui. Ademas se lanza oficialmente la tan esperada version 2.1 de Rails, que creo esperaron para lucirse en la RailsConf 2008, si quieres aprender/saber sobre las nuevas caracteristicas de Rails que ofrece las encontraras en : Rails Cast para Rails 2....</p>
+  </section>
+  <footer class="entry-footer">June 2, 2008&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <a class="entry-link" aria-label="post link to Lanzamiento de Rails 2.1 y ruby 1.8.7" href="https://carakan.net/blog/lanzamiento-de-rails-21-y-ruby-187/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Video Tutoriales de Git</h2>
+  </header>
+  <section class="entry-content">
+    <p>En la web de Estado Beta, encontre un enlace a una pagina que esta publicando periodicamente screen-cast de Git, el nuevo sistema de versionado de codigo fuente del staff de Rails y otros proyectos mesclados con Rails o Ruby. Bueno ya estoy viendo estos screen cast para aprenderlos, acotar que estaba viendo mercurial que ya tiene soporte a mi IDE favorito NetBeans hasta que llego Git el cual no esta soportado por NetBeans, asi que si estan interesados este es el enlace: Gitcasts....</p>
+  </section>
+  <footer class="entry-footer">May 28, 2008&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <a class="entry-link" aria-label="post link to Video Tutoriales de Git" href="https://carakan.net/blog/video-tutoriales-de-git/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>QHacer ya esta online.</h2>
+  </header>
+  <section class="entry-content">
+    <p>La version beta permanente ya esta lista, gracias al esfuerzo de Elmer.
+
+ Como explique anteriormente, es un sitio para compartir tus actividades importantes, al modo 2.0, y que ademas empezo como una web para el aprendizaje de Ruby on Rails, pero ahora le estamos metiendo ganas y vamos a hacer un referente dentro de la web 2.0 en Bolivia.</p>
+  </section>
+  <footer class="entry-footer">April 18, 2008&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <a class="entry-link" aria-label="post link to QHacer ya esta online." href="https://carakan.net/blog/qhacer-ya-esta-online/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Y ahora que es lo que hacemos???</h2>
+  </header>
+  <section class="entry-content">
+    <p>Escribo de tiempo y es que el trabajo me esta apresando :( , pero ahora quiero hablar de uno de los proyectos que estamos desarrollando en Wiebia labs, bastante profesional el nombresito no?, bueno nuestro hijo que todavía se esta gestando es qhacer.com una web 2.0 para poder compartir nuestras actividades importantes y diarias, esta en fase bastante alpha :) asi que visitenla y sugieran mejoras. Ahh el sitio esta siendo desarrollado por Elmer Freddy Mendoza, un compañero que esta fascinado igualmente que yo con el mundo Rails, junto con Ramiro Huayller, ya somos tres las personas que publicamente saben de Ruby on Rails en Bolivia!...</p>
+  </section>
+  <footer class="entry-footer">April 16, 2008&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <a class="entry-link" aria-label="post link to Y ahora que es lo que hacemos???" href="https://carakan.net/blog/y-ahora-que-es-lo-que-hacemos/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Novedades en Ruby 1.9 y proximo lanzamiento de ruby 1.8.7</h2>
+  </header>
+  <section class="entry-content">
+    <p>Segun leo en pagina de infoq, ya se lanzo una nueva versión de desarrollo de ruby en la rama 1.9, que todavia esta en desarrollo :( Ruby 1.9.0-1, el cual corrigen y mejoran esta versión, ademas que se viene para el mes de abril la versión 1.8.7 (estable) una versión que se aproximara a la 1.9 en algunas caracteristicas. Visto en InfoQ.</p>
+  </section>
+  <footer class="entry-footer">March 5, 2008&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <a class="entry-link" aria-label="post link to Novedades en Ruby 1.9 y proximo lanzamiento de ruby 1.8.7" href="https://carakan.net/blog/novedades-en-ruby-19-y-lanzamiento-de-ruby-187/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Noticias cortas</h2>
+  </header>
+  <section class="entry-content">
+    <p>Microsoft quiere comprar Yahoo por nada menos de 44.600 Millones de $ un duro golpe a la Web 2.0???? El lenguaje de programacion Ruby es mas rapido que PHP, es lo que afirman en este blog, el cual haciendo una prueba con mismos problemas y resuluciones para cada tipo de lenguaje es una muy buen punto a favor de Rails, y eso que las pruebas estan realizadas con la version 1....</p>
+  </section>
+  <footer class="entry-footer">February 1, 2008&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <a class="entry-link" aria-label="post link to Noticias cortas" href="https://carakan.net/blog/noticias-cortas/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Conectarse de rails 2.0.2 a oracle en windows</h2>
+  </header>
+  <section class="entry-content">
+    <p>Recientemente estoy trabajando en un proyecto de contabilidad dentro del cual utiliza como base de datos a oracle 10g, para desarrollar la interfaz web veníamos planeando la utilización de ASP.NET, del cual recientemente obtuve la quinta estrella, pero se requería en el tiempo más corto posible y que además sea adaptable a cambios futuros y que además corriese dentro del sistema operativo Windows, asi que plantee como opción la utilización de Ruby on Rails como la plataforma de desarrollo, del cual aceptaron y se está desarrollando en tiempo record!...</p>
+  </section>
+  <footer class="entry-footer">January 14, 2008&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <a class="entry-link" aria-label="post link to Conectarse de rails 2.0.2 a oracle en windows" href="https://carakan.net/blog/conectarse-de-rails-202-a-oracle/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://carakan.net/tags/ruby-on-rails/">« Prev Page</a>
+    <a class="next" href="https://carakan.net/tags/ruby-on-rails/page/3/">Next Page »</a>
+  </nav>
+</footer>
+    </main>
+    <footer class="footer">
+    <span>&copy; 2021 <a href="https://carakan.net/">carakan</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
+    <button class="top-link" id="top-link" type="button" accesskey="g">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+            <path d="M12 6H0l6-6z" />
+        </svg>
+    </button>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+    menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

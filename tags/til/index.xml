@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>TIL on carakan</title>
+    <link>https://carakan.net/tags/til/</link>
+    <description>Recent content in TIL on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 25 Jun 2021 11:15:20 -0400</lastBuildDate><atom:link href="https://carakan.net/tags/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dropbox ignore files/directories</title>
+      <link>https://carakan.net/blog/2021/dropbox-ignore-files-directories/</link>
+      <pubDate>Fri, 25 Jun 2021 11:15:20 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2021/dropbox-ignore-files-directories/</guid>
+      <description>Ignoring files or directories in dropbox is a hard thing, I thought it has like git, a .gitignore to config that, but no, we need to do a command for each file/dir, for example to ignore the files that creates a lightroom catalog (.lrcat) we need to do:
+xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previews.lrdata xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previews.lrdata xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Helper.lrdata and to not longer ignore files we need this command:</description>
+    </item>
+    
+    <item>
+      <title>Make Backup/Restore Postgres Database With No Owner</title>
+      <link>https://carakan.net/blog/2021/make-backup-postgres-database-with-no-owner/</link>
+      <pubDate>Tue, 23 Feb 2021 17:01:57 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2021/make-backup-postgres-database-with-no-owner/</guid>
+      <description>to do backup:
+pg_dump dbname -O -x &amp;gt; backupname.sql To restore:
+psql dbname &amp;lt; backupname.sql Options documentation:
+-O &amp;lt;-- No owner -x &amp;lt;-- No privileges </description>
+    </item>
+    
+    <item>
+      <title>Postgres: Create Db User and bring Access</title>
+      <link>https://carakan.net/blog/2021/create-db-user-and-access/</link>
+      <pubDate>Tue, 02 Feb 2021 22:12:37 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2021/create-db-user-and-access/</guid>
+      <description>Short version:
+sudo -u postgres psql create database mydb; create user myuser with encrypted password &amp;#39;password&amp;#39;; grant all privileges on database mydb to myuser; </description>
+    </item>
+    
+    <item>
+      <title>Install Ancient Gems ffi</title>
+      <link>https://carakan.net/blog/2020/install-ancient-gems-ffi/</link>
+      <pubDate>Wed, 25 Nov 2020 12:24:29 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2020/install-ancient-gems-ffi/</guid>
+      <description>To install a ancient ffi (&amp;lt;= 1.9.18) in Catalina MacOS or newer OS we need to use this command:
+gem install ffi -v &amp;#39;1.9.18&amp;#39; -- --with-cflags=&amp;#34;-Wno-error=implicit-function-declaration&amp;#34; </description>
+    </item>
+    
+    <item>
+      <title>Configure Vim Test to Work With Docker</title>
+      <link>https://carakan.net/blog/2020/configure-vim-test-to-work-with-docker/</link>
+      <pubDate>Tue, 25 Aug 2020 09:39:14 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2020/configure-vim-test-to-work-with-docker/</guid>
+      <description>Recently I started to work with Docker in a project, and I ever use vim-test to run test using vim, now to integrate in current docker workflow we need to configure vim-test.
+For example to configure to run rspec test inside app:
+let test#ruby#rspec#executable = &amp;#39;docker-compose exec -e RAILS_ENV=test app rspec&amp;#39;to run inside to already running app docker container.
+It is very important to add -e RAILS_ENV=test to send envinroment variables and set test env inside the rails app.</description>
+    </item>
+    
+    <item>
+      <title>How to Install Mariadb Mysql2 Driver Ruby</title>
+      <link>https://carakan.net/blog/2020/how-to-install-mariadb-mysql2-driver-ruby/</link>
+      <pubDate>Wed, 19 Aug 2020 20:41:10 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2020/how-to-install-mariadb-mysql2-driver-ruby/</guid>
+      <description>In a project I had troubles triying to install mysql2 gem with a older version of mariadb installed via homebrew.
+the solution is to send the path of the installation.
+gem install mysql2 -- --with-mysql-config=$(brew --prefix mariadb@10.2)/bin/mysql_config </description>
+    </item>
+    
+    <item>
+      <title>Configuring Python3 on Neovim</title>
+      <link>https://carakan.net/blog/2020/configuring-python-on-neovim/</link>
+      <pubDate>Mon, 27 Apr 2020 15:17:47 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2020/configuring-python-on-neovim/</guid>
+      <description>The idea is to configure correctly the support of python3 into neovim, let&amp;rsquo;s start.
+first this configuration is using macOS, by default python3 is installed on macOS and the default route of the executables are:
+which python3 # =&amp;gt; /usr/bin/python3 which pip3 # =&amp;gt; /usr/bin/pip3 And that&amp;rsquo;s it! but normally if you are using homebrew you also installed the python3 using a formula, personally I do not to recomend that but it will work.</description>
+    </item>
+    
+    <item>
+      <title>How to Install Older Versions of Ruby</title>
+      <link>https://carakan.net/blog/2019/how-to-install-older-versions-of-ruby/</link>
+      <pubDate>Fri, 24 Jan 2020 15:46:05 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2019/how-to-install-older-versions-of-ruby/</guid>
+      <description>The problem is with RVM and renv and not with asdf, so my first suggestion is to change to asdf
+if you keep with RVM: install older versions of ruby &amp;lt;2.3 with support for openssl 1.0x you can follow these instructions:
+# before you install command line tools and gcc xcode-select --install brew install gcc # installation procedure cd /usr/local/src curl -O https://www.openssl.org/source/openssl-1.0.2t.tar.gz tar xzf openssl-1.0.2t.tar.gz cd openssl-1.0.2t ./Configure darwin64-x86_64-cc make sudo make install export LDFLAGS=“-L/usr/local/ssl/lib” export CPPFLAGS=“-I/usr/local/ssl/include” export PKG_CONFIG_PATH=“/usr/local/ssl/lib/pkgconfig” rvm reinstall 2.</description>
+    </item>
+    
+    <item>
+      <title>How to Sync Vscode Plugins Over Your Dotfiles</title>
+      <link>https://carakan.net/blog/2019/how-to-sync-vscode-plugins-over-your-dotfiles/</link>
+      <pubDate>Mon, 21 Oct 2019 11:51:11 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2019/how-to-sync-vscode-plugins-over-your-dotfiles/</guid>
+      <description>I was looking a simple way to get sync all of my current setup of vscode, I did&amp;rsquo;t found a proper way to do with another plugin, but I found a commands to do this sync.
+first to have a list of plugins installed and save to a file:
+code --list-extensions &amp;gt; vscode-extensions.list to restore, read that file and install all plugins:
+cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat vscode-extensions.</description>
+    </item>
+    
+    <item>
+      <title>Add Array of Types in a Column using Postgres and Rails</title>
+      <link>https://carakan.net/blog/2019/add-array-of-types-in-a-column-postgres-rails/</link>
+      <pubDate>Mon, 14 Oct 2019 11:09:24 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2019/add-array-of-types-in-a-column-postgres-rails/</guid>
+      <description>Recently I found a nice feature when defining a column on migrations, is to use array option in the creation of a column:
+class MyMigration &amp;lt; ActiveRecord::Migration[5.2] def change # Defines a column that stores an array of a type. add_column :transactions, :categories, :string, array: true, default: [] end end With this on categories you can storage an array of values, it&amp;rsquo;s useful instead of use jsonb because as json you may also need to create the key to store values (hash).</description>
+    </item>
+    
+    <item>
+      <title>Install yarn if you are using Nodejs with ASDF</title>
+      <link>https://carakan.net/blog/2019/install-yarn-if-you-are-using-nodejs-with-asdf/</link>
+      <pubDate>Tue, 24 Sep 2019 12:14:44 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2019/install-yarn-if-you-are-using-nodejs-with-asdf/</guid>
+      <description>I’m using ASDF to install any language that I needed, so problems become when I have to install yarn a js package manager but to do that has a lot of ways of install yarn and problems increasing with nodejs installed using ASDF more problems become using the brew recipe and it doesn’t work with ASDF.
+I found a practical solution: is to install a separate yarn recipe into ASDF.</description>
+    </item>
+    
+    <item>
+      <title>Configure and install last elixir-ls in Neovim</title>
+      <link>https://carakan.net/blog/2019/configure-elixir-ls-in-neovim/</link>
+      <pubDate>Sun, 22 Sep 2019 22:30:04 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2019/configure-elixir-ls-in-neovim/</guid>
+      <description>The last version of ElixirLS have a lot of improvements, for example a new robust code suggestion provided by elixir-sense, intellisense with code documentation and other larger changes, but now i didn&amp;rsquo;t see an actual release to use it, so in this post we will clone the last repo, compile and will install in our local dev to take advantage of these new features.
+First clone and generate the executables of elixirLS:</description>
+    </item>
+    
+    <item>
+      <title>Upgrade to Latest Version on ASDF</title>
+      <link>https://carakan.net/blog/2019/upgrade-to-last-version-on-asdf/</link>
+      <pubDate>Tue, 17 Sep 2019 10:44:57 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2019/upgrade-to-last-version-on-asdf/</guid>
+      <description>ASDF is an incredible version manager, to install/upgrade to latest version available of an language you can do the following steps:
+asdf list-all &amp;lt;language&amp;gt; this show all of the versions available to install, select the latest:
+asdf install &amp;lt;language&amp;gt; x.y.z and edit if you have a global ~/.tool-versions to use that version everywhere:
+&amp;lt;languaje&amp;gt; x.y.z real example to upgrade to latest version of erlang (10/17/2019):
+asdf list-all erlang asdf install erlang 22.</description>
+    </item>
+    
+    <item>
+      <title>Enable Prettier in Ember templates</title>
+      <link>https://carakan.net/blog/2019/enable-prettier-in-handlebars-ember/</link>
+      <pubDate>Mon, 16 Sep 2019 10:16:01 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2019/enable-prettier-in-handlebars-ember/</guid>
+      <description>Prettier is an opinionated code formatter, has built-in a lot of code formatters for languages, one of that is for handlebars (glimmer/mustache) but is hidden by default, to enable we only need to do this:
+create a .prettierrc in your home (~) with :
+{ &amp;#34;overrides&amp;#34;: [ { &amp;#34;files&amp;#34;: &amp;#34;*.hbs&amp;#34;, &amp;#34;options&amp;#34;: { &amp;#34;parser&amp;#34;: &amp;#34;glimmer&amp;#34; // ... other custom configurations } } ] } and now you can use in your favorite editor or simple use directly with the CLI, for example:</description>
+    </item>
+    
+    <item>
+      <title>How to Show Hex Colors on Neovim</title>
+      <link>https://carakan.net/blog/2019/how-to-show-hex-colors-on-neovim/</link>
+      <pubDate>Thu, 12 Sep 2019 15:49:33 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2019/how-to-show-hex-colors-on-neovim/</guid>
+      <description>One thing that I like is to show HEX colors on css, html and even on javascript using NEOVIM, to do that I was using Colorizer plugin but now I switched to use vim-hexokinase and it&amp;rsquo;s asynchronous!
+to install you might need to install before go language:
+brew install go and this is my config:
+let g:Hexokinase_ftOptInPatterns = { \  &amp;#39;css&amp;#39;: &amp;#39;full_hex,triple_hex,rgb,rgba,hsl,hsla,colour_names&amp;#39;, \  &amp;#39;html&amp;#39;: &amp;#39;full_hex,rgb,rgba,hsl,hsla&amp;#39;, \  &amp;#39;javascript&amp;#39;: &amp;#39;full_hex,rgb,rgba,hsl,hsla&amp;#39; \ } let g:Hexokinase_virtualText = &amp;#39; ██████&amp;#39; watch all of my dotfiles</description>
+    </item>
+    
+    <item>
+      <title>How to Manage Environment Variables</title>
+      <link>https://carakan.net/blog/2019/how-to-manage-env-vars/</link>
+      <pubDate>Thu, 12 Sep 2019 12:15:47 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2019/how-to-manage-env-vars/</guid>
+      <description>In many projects that i have been working I want to manage GLOBAL&amp;rsquo;s variables, so to do that use direnv.
+to install (MacOS):
+brew install direnv Now the project needs to create a file .envrc like this:
+# Stripe Credentials export STRIPE_PRIVATE_KEY=&amp;#34;xxxxxxxxxxxx&amp;#34; export STRIPE_WEBHOOK_SECRET=&amp;#34;xxxxxxxxxxxxxxxx&amp;#34; entering in that directory direnv asks to allow the execution and use of that variables, so:
+direnv allow . And that&amp;rsquo;s it! you don&amp;rsquo;t need a custom solution for every programming language.</description>
+    </item>
+    
+    <item>
+      <title>Create a Form With Two Actions on Activeadmin</title>
+      <link>https://carakan.net/blog/til-create-a-form-with-two-actions-activeadmin/</link>
+      <pubDate>Wed, 11 Sep 2019 18:22:45 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/til-create-a-form-with-two-actions-activeadmin/</guid>
+      <description>In a project that already using Activeadmin I had the requeriment of modify the actual form to create a student, but without validating that, so the solution was create into the model of active admin form and declare the form with two actions, one with the clasical behaviour and other when passed the params[:managed] with a custom route
+ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :student, as: :select, collection: User.</description>
+    </item>
+    
+  </channel>
+</rss>

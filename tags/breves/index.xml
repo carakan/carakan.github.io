@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>breves on carakan</title>
+    <link>https://carakan.net/tags/breves/</link>
+    <description>Recent content in breves on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 11 Aug 2008 22:12:06 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/breves/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Breves 11/08/2008</title>
+      <link>https://carakan.net/blog/breves-11082008/</link>
+      <pubDate>Mon, 11 Aug 2008 22:12:06 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/breves-11082008/</guid>
+      <description>Actualizacion de seguridad para RubyEnterpriseEdition y nueva version de Passenger (mod_rails) PHP 4 discuntinuado, por fin!!! Por que no hay un TechCrounch en Español? Net Framework 3.5 SP1 lanzado. Black Hat SEO, el reverso oscuro me atrapa</description>
+    </item>
+    
+  </channel>
+</rss>

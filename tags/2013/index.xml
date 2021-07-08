@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>2013 on carakan</title>
+    <link>https://carakan.net/tags/2013/</link>
+    <description>Recent content in 2013 on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 27 Jun 2013 22:50:00 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/2013/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Un breve resumen de lo que aconteció hasta este momento</title>
+      <link>https://carakan.net/blog/un-breve-resumen-de-lo-que-acontecio-hasta-este-momento/</link>
+      <pubDate>Thu, 27 Jun 2013 22:50:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/un-breve-resumen-de-lo-que-acontecio-hasta-este-momento/</guid>
+      <description>Pues vi mi ultimo post &amp;hellip; ya paso mas de un año sin actualizar el blog, este espacio que me encantaba escribir lo que aprendia, veia y sentia.
+este es el update rapido:
+ Soy lider de una consultora de desarrollo de software Zenlabs, enfocada en Ruby on Rails Fanatico a la fotografia, metiendo un poco a lo profesional http://www.flickr.com/photos/carakan/ Deje barado folgama.com pero estoy tratando de re-activarlo.  ahora estoy viendo de fortalecer la comunidad de Ruby y Rails en Bolivia, esta es mi meta a corto plazo.</description>
+    </item>
+    
+  </channel>
+</rss>

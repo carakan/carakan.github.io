@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>dotfiles on carakan</title>
+    <link>https://carakan.net/tags/dotfiles/</link>
+    <description>Recent content in dotfiles on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 21 Oct 2019 11:51:11 -0400</lastBuildDate><atom:link href="https://carakan.net/tags/dotfiles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Sync Vscode Plugins Over Your Dotfiles</title>
+      <link>https://carakan.net/blog/2019/how-to-sync-vscode-plugins-over-your-dotfiles/</link>
+      <pubDate>Mon, 21 Oct 2019 11:51:11 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2019/how-to-sync-vscode-plugins-over-your-dotfiles/</guid>
+      <description>I was looking a simple way to get sync all of my current setup of vscode, I did&amp;rsquo;t found a proper way to do with another plugin, but I found a commands to do this sync.
+first to have a list of plugins installed and save to a file:
+code --list-extensions &amp;gt; vscode-extensions.list to restore, read that file and install all plugins:
+cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat vscode-extensions.</description>
+    </item>
+    
+    <item>
+      <title>My dotfiles</title>
+      <link>https://carakan.net/blog/my-dotfiles/</link>
+      <pubDate>Mon, 21 Dec 2015 02:57:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/my-dotfiles/</guid>
+      <description>Yes, I finally setup my work environment to work across in my differents machines, I used this tools for that:
+ Tmux Powerline fonts patched (I uploaded my fonts patched) Iterm2 (v3.3) NeoVim Oh-My-Zsh Spf13 vim configuration  Check out my public repo in that I wrote how to install if you want reuse my config.</description>
+    </item>
+    
+  </channel>
+</rss>

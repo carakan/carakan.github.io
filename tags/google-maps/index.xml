@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>google maps on carakan</title>
+    <link>https://carakan.net/tags/google-maps/</link>
+    <description>Recent content in google maps on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 28 Feb 2009 00:16:57 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/google-maps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Maps en todas las ciudades de Bolivia</title>
+      <link>https://carakan.net/blog/google-maps-en-todas-las-ciudades-de-bolivia/</link>
+      <pubDate>Sat, 28 Feb 2009 00:16:57 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/google-maps-en-todas-las-ciudades-de-bolivia/</guid>
+      <description>Gracias al Blog de Google maps para Latinoamérica, y que estamos en constante monitoreo de las actividades en relación al mejoramiento del servicio que se ofrece a Bolivia, nos enteramos que ya se cubrió el servicio de Google maps en las 10 ciudades principales de Bolivia.
+Anteriormente solo se disponía el servicio en las ciudades de La Paz y El Alto, y se relegaban a por lo menos dos ciudades también importantes como son Cochabamba y Santa Cruz, esto es gracias Map Maker, el cual permite personalizar varios lugares, los mas generales fueron actualizados en Google Maps, enriqueciéndolo y haciéndolo mas completo.</description>
+    </item>
+    
+  </channel>
+</rss>

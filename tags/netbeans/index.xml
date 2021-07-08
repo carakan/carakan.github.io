@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>netbeans on carakan</title>
+    <link>https://carakan.net/tags/netbeans/</link>
+    <description>Recent content in netbeans on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 14 Jan 2008 22:16:57 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/netbeans/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conectarse de rails 2.0.2 a oracle en windows</title>
+      <link>https://carakan.net/blog/conectarse-de-rails-202-a-oracle/</link>
+      <pubDate>Mon, 14 Jan 2008 22:16:57 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/conectarse-de-rails-202-a-oracle/</guid>
+      <description>Recientemente estoy trabajando en un proyecto de contabilidad dentro del cual utiliza como base de datos a oracle 10g, para desarrollar la interfaz web veníamos planeando la utilización de ASP.NET, del cual recientemente obtuve la quinta estrella, pero se requería en el tiempo más corto posible y que además sea adaptable a cambios futuros y que además corriese dentro del sistema operativo Windows, asi que plantee como opción la utilización de Ruby on Rails como la plataforma de desarrollo, del cual aceptaron y se está desarrollando en tiempo record!</description>
+    </item>
+    
+    <item>
+      <title>Salio NetBeans 6.0</title>
+      <link>https://carakan.net/blog/salio-netbeans-60/</link>
+      <pubDate>Tue, 04 Dec 2007 23:13:35 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/salio-netbeans-60/</guid>
+      <description>Salio la release de NetBeans 6.0, con una total integración de Ruby on rails y subversion, por lo ultimo me estoy inclinando mas por NetBeans que por Aptana, aunque a veces también utilizo los dos :) Una de las caracteristicas mas buenas del entorno segun mi opinion es la integracion con subversion, muestra las modificaciones en el codigo contra la ultima revision sin tener que recurrir con diff, ayuda bastante cuando no sabes donde hicieron o hiciste cambios, ademas el instalador de NetBeans es solamente de 19 Megas, algo mas portable que Aptana, ambos NetBeans y Aptana son gratuitos.</description>
+    </item>
+    
+    <item>
+      <title>Salio netbeans 6.0 beta 2</title>
+      <link>https://carakan.net/blog/salio-netbeans-60-beta-2/</link>
+      <pubDate>Tue, 23 Oct 2007 21:55:22 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/salio-netbeans-60-beta-2/</guid>
+      <description>Pues al estar tratando de bajar una copia del netbeans 6.0 beta1, ya que lo perdi por ahi, me percate que en el sitio ya esta disponible el beta 2 de este IDE, asi que lo estoy bajando aver que trae de nuevo esto. La verdad que no encontre informacion oficial de la salida de beta 2, asi que tengo la primicia :). Descargar.</description>
+    </item>
+    
+    <item>
+      <title>Usando NetBeans en Linux</title>
+      <link>https://carakan.net/blog/usando-netbeans-en-linux/</link>
+      <pubDate>Wed, 03 Oct 2007 14:39:18 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/usando-netbeans-en-linux/</guid>
+      <description>Estoy tratando de migrar mis desarrollos de ruby on rails a la plataforma Linux por que el guindows me hace renegar bastante, Leopart donde esta que no te veo?, un problema al principio fue el poder utilizar gettext 1.9 en mi proyecto, Video-Tutorial gracias al compañero Vincent Gozalves, a un principio funciono, un simple controlador y sus dos vistas, funciona!!!, me dije por mis dentros así que empecé a desarrollar todo el sitio, terminando ahora me faltaba solamente la traducción, así que hice mi “rake updatepo” y me mando este maldito mensaje:</description>
+    </item>
+    
+  </channel>
+</rss>

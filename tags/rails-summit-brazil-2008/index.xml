@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Rails Summit Brazil 2008 on carakan</title>
+    <link>https://carakan.net/tags/rails-summit-brazil-2008/</link>
+    <description>Recent content in Rails Summit Brazil 2008 on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 23 Oct 2008 16:39:00 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/rails-summit-brazil-2008/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Azafatas de la Rails Summit Latino-americano</title>
+      <link>https://carakan.net/blog/azafatas-la-rails-summit-latina/</link>
+      <pubDate>Thu, 23 Oct 2008 16:39:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/azafatas-la-rails-summit-latina/</guid>
+      <description>Ya termino el evento de la Rails Summit de Sao Paulo Brasil, no pude ir por factores económicos (si voy por una laptop), la verdad que me quede con las ganas de ir y sobre las cosas que hubiera aprendido, como un consuelo encontré algo que me gusto de este encuentro fue la creación de un proyecto (repositorio) en GitHub llamado morena open source, donde se recolectan fotos y videos referidas a las azafatas brasileras del evento, unas son estas.</description>
+    </item>
+    
+    <item>
+      <title>Rails Summit de Brazil en español</title>
+      <link>https://carakan.net/blog/rails-summit-de-brazil-en-espanol/</link>
+      <pubDate>Sat, 12 Jul 2008 17:31:26 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/rails-summit-de-brazil-en-espanol/</guid>
+      <description>En el blog de Argentina on Rails, nos dan la grata noticia, que es posible que la rails summit de brasil se de en español, es por eso que se necesita de llenar una pequeña encuesta, hecha por Favio, es de vital información para la organización del la conferencia, yo ya la llene y es bastante simple. La encuesta</description>
+    </item>
+    
+    <item>
+      <title>Una RailsConf Latina en Brasil</title>
+      <link>https://carakan.net/blog/una-railsconf-latina-en-brasil/</link>
+      <pubDate>Thu, 10 Jul 2008 18:35:18 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/una-railsconf-latina-en-brasil/</guid>
+      <description>Si el 15 e 16 de Octubre en San Paulo, Brasil se llevara a cabo el evento Rails Summit Brazil 2008, podría decir la mas grande del tipo para sudamerica y por que no la primera, gracias al trabajo de Favio Akita. El listado de Participantes es el siguiente:
+ David Hansson (por Video Conferencia) Charles Nutter e Thomas Enebo desarrolladores de JRuby, Ninh Bui e Hongli Lai de Phusion (mod_rails).</description>
+    </item>
+    
+  </channel>
+</rss>

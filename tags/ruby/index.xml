@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ruby on carakan</title>
+    <link>https://carakan.net/tags/ruby/</link>
+    <description>Recent content in ruby on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 25 Nov 2020 12:24:29 -0400</lastBuildDate><atom:link href="https://carakan.net/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Ancient Gems ffi</title>
+      <link>https://carakan.net/blog/2020/install-ancient-gems-ffi/</link>
+      <pubDate>Wed, 25 Nov 2020 12:24:29 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2020/install-ancient-gems-ffi/</guid>
+      <description>To install a ancient ffi (&amp;lt;= 1.9.18) in Catalina MacOS or newer OS we need to use this command:
+gem install ffi -v &amp;#39;1.9.18&amp;#39; -- --with-cflags=&amp;#34;-Wno-error=implicit-function-declaration&amp;#34; </description>
+    </item>
+    
+    <item>
+      <title>How to Install Mariadb Mysql2 Driver Ruby</title>
+      <link>https://carakan.net/blog/2020/how-to-install-mariadb-mysql2-driver-ruby/</link>
+      <pubDate>Wed, 19 Aug 2020 20:41:10 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2020/how-to-install-mariadb-mysql2-driver-ruby/</guid>
+      <description>In a project I had troubles triying to install mysql2 gem with a older version of mariadb installed via homebrew.
+the solution is to send the path of the installation.
+gem install mysql2 -- --with-mysql-config=$(brew --prefix mariadb@10.2)/bin/mysql_config </description>
+    </item>
+    
+    <item>
+      <title>How to Install Older Versions of Ruby</title>
+      <link>https://carakan.net/blog/2019/how-to-install-older-versions-of-ruby/</link>
+      <pubDate>Fri, 24 Jan 2020 15:46:05 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2019/how-to-install-older-versions-of-ruby/</guid>
+      <description>The problem is with RVM and renv and not with asdf, so my first suggestion is to change to asdf
+if you keep with RVM: install older versions of ruby &amp;lt;2.3 with support for openssl 1.0x you can follow these instructions:
+# before you install command line tools and gcc xcode-select --install brew install gcc # installation procedure cd /usr/local/src curl -O https://www.openssl.org/source/openssl-1.0.2t.tar.gz tar xzf openssl-1.0.2t.tar.gz cd openssl-1.0.2t ./Configure darwin64-x86_64-cc make sudo make install export LDFLAGS=“-L/usr/local/ssl/lib” export CPPFLAGS=“-I/usr/local/ssl/include” export PKG_CONFIG_PATH=“/usr/local/ssl/lib/pkgconfig” rvm reinstall 2.</description>
+    </item>
+    
+    <item>
+      <title>install passenger 5, ruby 2.x, nginx 1.10.x and enable HTTP/2</title>
+      <link>https://carakan.net/blog/install-passenger-5-ruby-2-x-nginx-1-10-x-and-enable-http2/</link>
+      <pubDate>Fri, 24 Jun 2016 17:27:00 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/install-passenger-5-ruby-2-x-nginx-1-10-x-and-enable-http2/</guid>
+      <description>Recently I found that passenger in the last version now uses nginx 1.10.x by default, as you knows since nginx 1.9.x nginx enables support for http2 but the 1.9.x on nginx is beta and when released the line 1.10 is production ready. The process will be describe for ubuntu 14.4 and 16.4:
+Install Dependencies apt-get update -y apt-get upgrade -y apt-get install sudo -y install the required packages:
+sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate python-docutils pkg-config cmake nodejs git-core Install Ruby For production sites is a MUST install from sources without using any versions managers like RVM, RENV or whatever this is why leads to hard to diagnose problems.</description>
+    </item>
+    
+    <item>
+      <title>Revista Atix numero 7 liberado.</title>
+      <link>https://carakan.net/blog/revista-atix-numero-7-liberado/</link>
+      <pubDate>Tue, 27 Jan 2009 15:36:32 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/revista-atix-numero-7-liberado/</guid>
+      <description>La revista sobre el software libre: Atix, lanzo la séptima entrega de su revista, que apuesta por el conocimiento libre y que para este numero lo entrega con el siguiente lema:
+ Un nuevo año…. un nuevo reto, pon tu mejor empeño para lograr tu reto de este año.  cuenta con la tercera parte del desarrollo de una aplicación de gestión de artículos ATIX, en Ruby on Rails, en la que explico como reutilizar código a través de plugins o gemas, utilizar el repositorio de gemas de Git Hub y manipular la gema Will_paginate.</description>
+    </item>
+    
+    <item>
+      <title>Revista Atix numero 6 liberado.</title>
+      <link>https://carakan.net/blog/revista-atix-numero-6-liberado/</link>
+      <pubDate>Wed, 17 Dec 2008 21:02:17 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/revista-atix-numero-6-liberado/</guid>
+      <description>La revista sobre el software libre: Atix, lanzo la sexta entrega de su revista, que apuesta por el conocimiento libre y que para este numero lo entrega con el siguiente lema:
+ El ser todos iguales, nos llevará a tener y vivir un futuro mejor.
+ Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicación en Ruby on Rails, con el cual hablo sobre la nueva versión de Rails la 2.</description>
+    </item>
+    
+    <item>
+      <title>Nueva imagen de Bolivia On Rails y tema wp español</title>
+      <link>https://carakan.net/blog/nueva-imagen-de-bolivia-on-rails-y-tema-wp/</link>
+      <pubDate>Mon, 22 Sep 2008 15:07:58 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/nueva-imagen-de-bolivia-on-rails-y-tema-wp/</guid>
+      <description>Este fin de semana estuve trabajando en la nueva imagen de Bolivia on Rails, un sitio dedicado al desarrollo de ruby on rails dentro y fuera de Bolivia, lo deje un poco estancado este proyecto pero gracias a la colaboración de Boris Barroso estoy retomando el camino y además quiero informar de que ahora los tutoriales o cosas relacionadas con Rails serán publicadas en el Sitio de Bolivia on rails. [caption id=&amp;ldquo;attachment_420&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;563&amp;rdquo; caption=&amp;ldquo;Bolivia on rails&amp;rdquo;][/caption] Otra noticia que se hará costumbre es que pongo a disposición el thema en Wordpress para que puedan utilizarlo en sus propios blogs, es un tema oscuro que me gusta por la combinación de colores, lo traduje y ahora lo comparto además que dejo el fuente de la cabecera en photoshop para que puedan editarlo, así que disfrútenlo.</description>
+    </item>
+    
+    <item>
+      <title>Nuevo version del interprete ruby para entornos windows</title>
+      <link>https://carakan.net/blog/nuevo-version-del-interprete-ruby-para-entornos-windows/</link>
+      <pubDate>Thu, 07 Aug 2008 14:59:08 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/nuevo-version-del-interprete-ruby-para-entornos-windows/</guid>
+      <description>Gracias a Favio Akita me entere de una nueva version del interprete de Ruby para los entornos windows, tengo algunos proyectos corriendo sobre esta plataforma, esta nueva version esta siendo desarrollado por Luis Lavena, el cual es 20% mas veloz, he realizado las pruebas y vi que tiene algunos defectos menores pero logre instalar rails 2.1.0 y las gemas mas importantes para la puesta en producción y comparto para que vean lo bien que se pinta esta nueva versión.</description>
+    </item>
+    
+    <item>
+      <title>Problema de ImageMagick (rmagick) y passenger (mod_rails)</title>
+      <link>https://carakan.net/blog/problema-de-imagemagick-y-passenger-mod_rails/</link>
+      <pubDate>Wed, 06 Aug 2008 18:59:05 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/problema-de-imagemagick-y-passenger-mod_rails/</guid>
+      <description>Recientemente en uno de mis proyectos estamos utilizando el plugin para subir archivos paperclip tutorial, este plugin tiene características de re-dimension de imágenes pero dentro de nuestro servidor web no funcionaba, lo que nos parecio bastante raro, buscando por internet encontré que el problema se debía al momento de usar mod_rails, el cual no cargaba las librerías necesarias, en este caso a ImageMagick, aqui el mismo problema pero para oracle y algunas de sus librerias.</description>
+    </item>
+    
+    <item>
+      <title>Nace Bolivia on Rails</title>
+      <link>https://carakan.net/blog/nace-bolivia-on-rails/</link>
+      <pubDate>Mon, 14 Jul 2008 23:47:19 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/nace-bolivia-on-rails/</guid>
+      <description>Si hoy 14 de julio nace oficialmente el sitio de desarrollo de Ruby on Rails en Bolivia, nos vamos a enfocar en un principio la facilidad y elegancia al momento de desarrollar en este fabuloso framework web. Esperamos sus comentarios.</description>
+    </item>
+    
+    <item>
+      <title>Rails Summit de Brazil en español</title>
+      <link>https://carakan.net/blog/rails-summit-de-brazil-en-espanol/</link>
+      <pubDate>Sat, 12 Jul 2008 17:31:26 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/rails-summit-de-brazil-en-espanol/</guid>
+      <description>En el blog de Argentina on Rails, nos dan la grata noticia, que es posible que la rails summit de brasil se de en español, es por eso que se necesita de llenar una pequeña encuesta, hecha por Favio, es de vital información para la organización del la conferencia, yo ya la llene y es bastante simple. La encuesta</description>
+    </item>
+    
+    <item>
+      <title>En Puerto Rico lo ven ahora, en Argentina lo vieron hace tres años y en Bolivia hace un año</title>
+      <link>https://carakan.net/blog/en-puerto-rico-lo-ven-ahora-en-argentina-lo-vieron-hace-tres-anos-y-en-bolivia-hace-un-ano-2/</link>
+      <pubDate>Mon, 16 Jun 2008 19:11:55 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/en-puerto-rico-lo-ven-ahora-en-argentina-lo-vieron-hace-tres-anos-y-en-bolivia-hace-un-ano-2/</guid>
+      <description>Escribo este post al leer el Blog Argentina on Rails, el cual el autor Pedro Visintin es entrevistado por Radar TI un sitio puertoriqueño de desarrollo, en el cual se hace incapie en que Rails es lo que fue Java en los 90, el gran boom en cuanto a desarrollo de software se refiere. Saludos a Pedro por la evangelización que realiza en toda america latina y decirle que aqui en Bolivia tiene todo el apoyo.</description>
+    </item>
+    
+    <item>
+      <title>Llamar a procedimientos PL/SQL de Oracle con ruby-plsql</title>
+      <link>https://carakan.net/blog/llamar-a-procedimientos-plsql-de-oracle-con-ruby-plsql/</link>
+      <pubDate>Wed, 11 Jun 2008 15:58:41 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/llamar-a-procedimientos-plsql-de-oracle-con-ruby-plsql/</guid>
+      <description>Buscando una manera mas sencilla de poder llamar a procedimientos almacenados de Oracle pl/sql, encontré la gema ruby-plsql que es una simple API para procedimientos almacenados en oracle, su uso es muy sencillo como el siguiente:
+Si tenemos el siguiente paquete:
+CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCHAR2, p_out OUT VARCHAR2) IS BEGIN p_out := &amp;#39;Se introdujo: &amp;#39; || p_in; END; END; Ahora dentro del código, como ejemplo dentro del controlador:</description>
+    </item>
+    
+    <item>
+      <title>Salio a la luz ruby enterprise edition</title>
+      <link>https://carakan.net/blog/salio-a-la-luz-ruby-enterprise-edition/</link>
+      <pubDate>Tue, 10 Jun 2008 18:29:51 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/salio-a-la-luz-ruby-enterprise-edition/</guid>
+      <description>Salio rubyenterprice ideal para servidores de alto trafico, vps, hosting compartido, mejora en el consumo de memoria, una gran alternativa a los clasicos mongreles.</description>
+    </item>
+    
+    <item>
+      <title>Mejorar la conexión a Oracle con Rails 2.1</title>
+      <link>https://carakan.net/blog/mejorar-la-conexion-a-oracle-con-rails-21/</link>
+      <pubDate>Sat, 07 Jun 2008 22:31:58 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/mejorar-la-conexion-a-oracle-con-rails-21/</guid>
+      <description>Dentro del trabajo con Oracle y Rails, existen dos gemas que nos permiten conectar y manipular los datos estas son las gemas OCI-8 y active-record-oracle-adapter, pero existen algunos fallos dentro del Active-Record-Oracle-Adapter, uno lo indique en un post anterior, es por eso que en rayapps se escribe sobre como mejorar algunas cosas a este adaptador, es por eso que el autor de esos post publica ahora una gema que tiene incluido los patch y algunas mejoras esto es la gema activerecord-oracle_enhanced-adapter</description>
+    </item>
+    
+    <item>
+      <title>Lanzamiento de Rails 2.1 y ruby 1.8.7</title>
+      <link>https://carakan.net/blog/lanzamiento-de-rails-21-y-ruby-187/</link>
+      <pubDate>Mon, 02 Jun 2008 19:42:24 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/lanzamiento-de-rails-21-y-ruby-187/</guid>
+      <description>Parece que la RailsConf 2008 nos tiene traera bastantes sorpresas ya que anuncian el lanzamiento oficial de la version 1.8.7 del lenguaje de programacion ruby, que esta lista para bajar desde aqui. Ademas se lanza oficialmente la tan esperada version 2.1 de Rails, que creo esperaron para lucirse en la RailsConf 2008, si quieres aprender/saber sobre las nuevas caracteristicas de Rails que ofrece las encontraras en : Rails Cast para Rails 2.</description>
+    </item>
+    
+    <item>
+      <title>Video Tutoriales de Git</title>
+      <link>https://carakan.net/blog/video-tutoriales-de-git/</link>
+      <pubDate>Wed, 28 May 2008 22:45:42 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/video-tutoriales-de-git/</guid>
+      <description>En la web de Estado Beta, encontre un enlace a una pagina que esta publicando periodicamente screen-cast de Git, el nuevo sistema de versionado de codigo fuente del staff de Rails y otros proyectos mesclados con Rails o Ruby. Bueno ya estoy viendo estos screen cast para aprenderlos, acotar que estaba viendo mercurial que ya tiene soporte a mi IDE favorito NetBeans hasta que llego Git el cual no esta soportado por NetBeans, asi que si estan interesados este es el enlace: Gitcasts.</description>
+    </item>
+    
+    <item>
+      <title>Novedades en Ruby 1.9 y proximo lanzamiento de ruby 1.8.7</title>
+      <link>https://carakan.net/blog/novedades-en-ruby-19-y-lanzamiento-de-ruby-187/</link>
+      <pubDate>Wed, 05 Mar 2008 14:04:48 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/novedades-en-ruby-19-y-lanzamiento-de-ruby-187/</guid>
+      <description>Segun leo en pagina de infoq, ya se lanzo una nueva versión de desarrollo de ruby en la rama 1.9, que todavia esta en desarrollo :( Ruby 1.9.0-1, el cual corrigen y mejoran esta versión, ademas que se viene para el mes de abril la versión 1.8.7 (estable) una versión que se aproximara a la 1.9 en algunas caracteristicas. Visto en InfoQ.</description>
+    </item>
+    
+  </channel>
+</rss>

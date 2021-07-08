@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ImageMagick on carakan</title>
+    <link>https://carakan.net/tags/imagemagick/</link>
+    <description>Recent content in ImageMagick on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 06 Aug 2008 18:59:05 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/imagemagick/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problema de ImageMagick (rmagick) y passenger (mod_rails)</title>
+      <link>https://carakan.net/blog/problema-de-imagemagick-y-passenger-mod_rails/</link>
+      <pubDate>Wed, 06 Aug 2008 18:59:05 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/problema-de-imagemagick-y-passenger-mod_rails/</guid>
+      <description>Recientemente en uno de mis proyectos estamos utilizando el plugin para subir archivos paperclip tutorial, este plugin tiene características de re-dimension de imágenes pero dentro de nuestro servidor web no funcionaba, lo que nos parecio bastante raro, buscando por internet encontré que el problema se debía al momento de usar mod_rails, el cual no cargaba las librerías necesarias, en este caso a ImageMagick, aqui el mismo problema pero para oracle y algunas de sus librerias.</description>
+    </item>
+    
+  </channel>
+</rss>

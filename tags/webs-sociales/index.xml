@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>webs sociales on carakan</title>
+    <link>https://carakan.net/tags/webs-sociales/</link>
+    <description>Recent content in webs sociales on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 23 Jul 2008 15:35:35 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/webs-sociales/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google va por digg</title>
+      <link>https://carakan.net/blog/google-va-por-digg/</link>
+      <pubDate>Wed, 23 Jul 2008 15:35:35 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/google-va-por-digg/</guid>
+      <description>Leo en techCrunch la posibilidad de compra de Digg por parte de google, lo que soponiria la socializacion de las busquedas, algo que tenia pensado ya desde el año pasado, esto es que el contenido seria evaluado por las personas a traves de rankings, algo bastante prometedor para el conocimiento social y que permitiria detener el webspam.</description>
+    </item>
+    
+  </channel>
+</rss>

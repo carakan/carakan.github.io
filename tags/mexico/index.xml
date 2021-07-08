@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>mexico on carakan</title>
+    <link>https://carakan.net/tags/mexico/</link>
+    <description>Recent content in mexico on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 25 Apr 2010 21:42:51 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/mexico/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Novedades abril 2010</title>
+      <link>https://carakan.net/blog/novedades-2/</link>
+      <pubDate>Sun, 25 Apr 2010 21:42:51 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/novedades-2/</guid>
+      <description>Despues de tiempo escribo en mi blog y es para anunciarles buenas noticias, y no tan buenas, aqui les comento: Tengo una oferta de trabajo en la empresa Freshout, para irme a Guadalajara México :) Folgama trae mas funcionalidad he añadido los comentarios y el me gusta de facebook dentro de todas las paginas, asimismo arregle la parte de multimedia para que sea mas comprensible subir imágenes como videos, puedes probarlo aqui.</description>
+    </item>
+    
+  </channel>
+</rss>

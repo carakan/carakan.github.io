@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ExpoMype on carakan</title>
+    <link>https://carakan.net/tags/expomype/</link>
+    <description>Recent content in ExpoMype on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 02 Dec 2008 20:53:42 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/expomype/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wiebia y CasasMap estarán en la ExpoMype 2008</title>
+      <link>https://carakan.net/blog/wiebia-y-casasmap-estarn-en-la-expomype-2008/</link>
+      <pubDate>Tue, 02 Dec 2008 20:53:42 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/wiebia-y-casasmap-estarn-en-la-expomype-2008/</guid>
+      <description>Wiebia, desarrollo web 2.0 en Bolivia, y su producto Casasmap, venta de Bienes Raíces, serán presentados a la comunidad Boliviana en la feria ExpoMypes 2008, que se llevara a cabo los días 5, 6 y 7 de diciembre en Santa Cruz – Bolivia.
+Como anteriormente escribí Casasmap es una mashup que utiliza Google Maps (Geolocalización), fotos, videos de Youtube y posibilidad de ingresar comentarios por cada anuncio, lo interesante de esto es que es totalmente gratuito el registro de la primer anuncio, así como el registro del usuario.</description>
+    </item>
+    
+  </channel>
+</rss>

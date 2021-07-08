@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Messenger on carakan</title>
+    <link>https://carakan.net/tags/messenger/</link>
+    <description>Recent content in Messenger on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 24 Apr 2009 00:05:36 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/messenger/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Actualiza tu mensaje personal del Messenger desde Twitter (reload)</title>
+      <link>https://carakan.net/blog/actualiza-tu-mensaje-personal-del-messenger-desde-twitter-reload/</link>
+      <pubDate>Fri, 24 Apr 2009 00:05:36 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/actualiza-tu-mensaje-personal-del-messenger-desde-twitter-reload/</guid>
+      <description>Con este pequeño y sencillo tutorial lograremos que nuestro mensaje personal del Windows Live Messenger se actualice de acuerdo a lo que publiquemos en Twitter.
+Requerimientos:
+  Cualquier versión de Windows Live Messenger
+  Messenger Plus! Live
+  Una vez que tengamos instalado ambos programas nos dirigimos al menú Plus! del Messenger.
+
+Luego de que estemos en el recuadro de “Preferencias y opciones” nos dirigimos a “Scripts”.</description>
+    </item>
+    
+  </channel>
+</rss>

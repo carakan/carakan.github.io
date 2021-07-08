@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Dengue on carakan</title>
+    <link>https://carakan.net/tags/dengue/</link>
+    <description>Recent content in Dengue on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 13 Mar 2009 22:14:22 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/dengue/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El rap del dengue</title>
+      <link>https://carakan.net/blog/el-rap-del-dengue/</link>
+      <pubDate>Fri, 13 Mar 2009 22:14:22 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/el-rap-del-dengue/</guid>
+      <description>En estos tiempos en que esta azotando a toda la parte caliente de Bolivia, un pequeño momento de diversión saludable. :D Visto en</description>
+    </item>
+    
+  </channel>
+</rss>

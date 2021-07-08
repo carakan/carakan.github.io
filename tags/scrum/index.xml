@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>scrum on carakan</title>
+    <link>https://carakan.net/tags/scrum/</link>
+    <description>Recent content in scrum on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 05 Oct 2007 19:40:13 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/scrum/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scrum en la intemperie (II) - Identificación de Roles y Actores</title>
+      <link>https://carakan.net/blog/scrum-en-la-intemperie-ii-identificacion-de-roles-y-actores/</link>
+      <pubDate>Fri, 05 Oct 2007 19:40:13 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/scrum-en-la-intemperie-ii-identificacion-de-roles-y-actores/</guid>
+      <description>Siguiendo con la serie de post, que ha la vez formaran lo que es la documentación de mi proyecto de grado, definiremos los roles dentro del proyecto: Scrum define 2 grandes tipos de roles: Comprometidos (pigs): Tienen autoridad para hacer lo necesario para que salga adelante el proyecto. Están totalmente comprometidos con el proyecto, son : Product Owner, Scrum Master y Team ó Equipo de trabajo. Interesados (hens): Son espectadores. No deben interferir innecesariamente.</description>
+    </item>
+    
+    <item>
+      <title>Scrum en la intemperie - Combinando scrum y rails</title>
+      <link>https://carakan.net/blog/conbinando-scrum-y-rails/</link>
+      <pubDate>Wed, 19 Sep 2007 22:37:42 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/conbinando-scrum-y-rails/</guid>
+      <description>Si, estoy haciendo mi proyecto de grado para la culminacion de mi carrera (Informatica), y para esto estoy haciendo uso de varios conceptos, filosofias, tecnologias que la verdad si no me confundo en mis ideas, confundire a mis tutores/revisores :P. Este es el listado de todos los conceptos que estoy utilizando en mi proyecto.
+ Manifiesto agil. Scrum. Ruby on rails. Ajax. REST.  Todo lo anterior se esta plasmando en el sitio de reservas de clases de español del instituto exclusivo que por ahora esta enlazado a este link.</description>
+    </item>
+    
+  </channel>
+</rss>

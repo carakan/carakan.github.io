@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>git on carakan</title>
+    <link>https://carakan.net/tags/git/</link>
+    <description>Recent content in git on carakan</description>
+    <image>
+      <url>https://carakan.net/papermod-cover.png</url>
+      <link>https://carakan.net/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 27 Jan 2009 15:36:32 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Revista Atix numero 7 liberado.</title>
+      <link>https://carakan.net/blog/revista-atix-numero-7-liberado/</link>
+      <pubDate>Tue, 27 Jan 2009 15:36:32 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/revista-atix-numero-7-liberado/</guid>
+      <description>La revista sobre el software libre: Atix, lanzo la séptima entrega de su revista, que apuesta por el conocimiento libre y que para este numero lo entrega con el siguiente lema:
+ Un nuevo año…. un nuevo reto, pon tu mejor empeño para lograr tu reto de este año.  cuenta con la tercera parte del desarrollo de una aplicación de gestión de artículos ATIX, en Ruby on Rails, en la que explico como reutilizar código a través de plugins o gemas, utilizar el repositorio de gemas de Git Hub y manipular la gema Will_paginate.</description>
+    </item>
+    
+    <item>
+      <title>Video Tutoriales de Git</title>
+      <link>https://carakan.net/blog/video-tutoriales-de-git/</link>
+      <pubDate>Wed, 28 May 2008 22:45:42 +0000</pubDate>
+      
+      <guid>https://carakan.net/blog/video-tutoriales-de-git/</guid>
+      <description>En la web de Estado Beta, encontre un enlace a una pagina que esta publicando periodicamente screen-cast de Git, el nuevo sistema de versionado de codigo fuente del staff de Rails y otros proyectos mesclados con Rails o Ruby. Bueno ya estoy viendo estos screen cast para aprenderlos, acotar que estaba viendo mercurial que ya tiene soporte a mi IDE favorito NetBeans hasta que llego Git el cual no esta soportado por NetBeans, asi que si estan interesados este es el enlace: Gitcasts.</description>
+    </item>
+    
+  </channel>
+</rss>
