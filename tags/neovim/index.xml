@@ -12,10 +12,10 @@
     <lastBuildDate>Tue, 25 Aug 2020 09:39:14 -0400</lastBuildDate><atom:link href="https://carakan.net/tags/neovim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Configure Vim Test to Work With Docker</title>
-      <link>https://carakan.net/blog/2020/configure-vim-test-to-work-with-docker/</link>
+      <link>https://carakan.net/blog/2020/08/configure-vim-test-to-work-with-docker/</link>
       <pubDate>Tue, 25 Aug 2020 09:39:14 -0400</pubDate>
       
-      <guid>https://carakan.net/blog/2020/configure-vim-test-to-work-with-docker/</guid>
+      <guid>https://carakan.net/blog/2020/08/configure-vim-test-to-work-with-docker/</guid>
       <description>Recently I started to work with Docker in a project, and I ever use vim-test to run test using vim, now to integrate in current docker workflow we need to configure vim-test.
 For example to configure to run rspec test inside app:
 let test#ruby#rspec#executable = &amp;#39;docker-compose exec -e RAILS_ENV=test app rspec&amp;#39;to run inside to already running app docker container.
@@ -24,10 +24,10 @@ It is very important to add -e RAILS_ENV=test to send envinroment variables and 
     
     <item>
       <title>Configuring Python3 on Neovim</title>
-      <link>https://carakan.net/blog/2020/configuring-python-on-neovim/</link>
+      <link>https://carakan.net/blog/2020/04/configuring-python3-on-neovim/</link>
       <pubDate>Mon, 27 Apr 2020 15:17:47 -0400</pubDate>
       
-      <guid>https://carakan.net/blog/2020/configuring-python-on-neovim/</guid>
+      <guid>https://carakan.net/blog/2020/04/configuring-python3-on-neovim/</guid>
       <description>The idea is to configure correctly the support of python3 into neovim, let&amp;rsquo;s start.
 first this configuration is using macOS, by default python3 is installed on macOS and the default route of the executables are:
 which python3 # =&amp;gt; /usr/bin/python3 which pip3 # =&amp;gt; /usr/bin/pip3 And that&amp;rsquo;s it! but normally if you are using homebrew you also installed the python3 using a formula, personally I do not to recomend that but it will work.</description>
@@ -35,20 +35,20 @@ which python3 # =&amp;gt; /usr/bin/python3 which pip3 # =&amp;gt; /usr/bin/pip3 
     
     <item>
       <title>Configure and install last elixir-ls in Neovim</title>
-      <link>https://carakan.net/blog/2019/configure-elixir-ls-in-neovim/</link>
+      <link>https://carakan.net/blog/2019/09/configure-and-install-last-elixir-ls-in-neovim/</link>
       <pubDate>Sun, 22 Sep 2019 22:30:04 -0400</pubDate>
       
-      <guid>https://carakan.net/blog/2019/configure-elixir-ls-in-neovim/</guid>
+      <guid>https://carakan.net/blog/2019/09/configure-and-install-last-elixir-ls-in-neovim/</guid>
       <description>The last version of ElixirLS have a lot of improvements, for example a new robust code suggestion provided by elixir-sense, intellisense with code documentation and other larger changes, but now i didn&amp;rsquo;t see an actual release to use it, so in this post we will clone the last repo, compile and will install in our local dev to take advantage of these new features.
 First clone and generate the executables of elixirLS:</description>
     </item>
     
     <item>
       <title>How to Show Hex Colors on Neovim</title>
-      <link>https://carakan.net/blog/2019/how-to-show-hex-colors-on-neovim/</link>
+      <link>https://carakan.net/blog/2019/09/how-to-show-hex-colors-on-neovim/</link>
       <pubDate>Thu, 12 Sep 2019 15:49:33 -0400</pubDate>
       
-      <guid>https://carakan.net/blog/2019/how-to-show-hex-colors-on-neovim/</guid>
+      <guid>https://carakan.net/blog/2019/09/how-to-show-hex-colors-on-neovim/</guid>
       <description>One thing that I like is to show HEX colors on css, html and even on javascript using NEOVIM, to do that I was using Colorizer plugin but now I switched to use vim-hexokinase and it&amp;rsquo;s asynchronous!
 to install you might need to install before go language:
 brew install go and this is my config:

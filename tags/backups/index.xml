@@ -12,10 +12,10 @@
     <lastBuildDate>Tue, 23 Feb 2021 17:01:57 -0400</lastBuildDate><atom:link href="https://carakan.net/tags/backups/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Make Backup/Restore Postgres Database With No Owner</title>
-      <link>https://carakan.net/blog/2021/make-backup-postgres-database-with-no-owner/</link>
+      <link>https://carakan.net/blog/2021/02/make-backup/restore-postgres-database-with-no-owner/</link>
       <pubDate>Tue, 23 Feb 2021 17:01:57 -0400</pubDate>
       
-      <guid>https://carakan.net/blog/2021/make-backup-postgres-database-with-no-owner/</guid>
+      <guid>https://carakan.net/blog/2021/02/make-backup/restore-postgres-database-with-no-owner/</guid>
       <description>to do backup:
 pg_dump dbname -O -x &amp;gt; backupname.sql To restore:
 psql dbname &amp;lt; backupname.sql Options documentation:

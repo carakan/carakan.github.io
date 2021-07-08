@@ -12,10 +12,10 @@
     <lastBuildDate>Tue, 02 Feb 2021 22:12:37 -0400</lastBuildDate><atom:link href="https://carakan.net/tags/psql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Postgres: Create Db User and bring Access</title>
-      <link>https://carakan.net/blog/2021/create-db-user-and-access/</link>
+      <link>https://carakan.net/blog/2021/02/postgres-create-db-user-and-bring-access/</link>
       <pubDate>Tue, 02 Feb 2021 22:12:37 -0400</pubDate>
       
-      <guid>https://carakan.net/blog/2021/create-db-user-and-access/</guid>
+      <guid>https://carakan.net/blog/2021/02/postgres-create-db-user-and-bring-access/</guid>
       <description>Short version:
 sudo -u postgres psql create database mydb; create user myuser with encrypted password &amp;#39;password&amp;#39;; grant all privileges on database mydb to myuser; </description>
     </item>

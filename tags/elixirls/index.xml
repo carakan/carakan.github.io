@@ -12,10 +12,10 @@
     <lastBuildDate>Sun, 22 Sep 2019 22:30:04 -0400</lastBuildDate><atom:link href="https://carakan.net/tags/elixirls/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Configure and install last elixir-ls in Neovim</title>
-      <link>https://carakan.net/blog/2019/configure-elixir-ls-in-neovim/</link>
+      <link>https://carakan.net/blog/2019/09/configure-and-install-last-elixir-ls-in-neovim/</link>
       <pubDate>Sun, 22 Sep 2019 22:30:04 -0400</pubDate>
       
-      <guid>https://carakan.net/blog/2019/configure-elixir-ls-in-neovim/</guid>
+      <guid>https://carakan.net/blog/2019/09/configure-and-install-last-elixir-ls-in-neovim/</guid>
       <description>The last version of ElixirLS have a lot of improvements, for example a new robust code suggestion provided by elixir-sense, intellisense with code documentation and other larger changes, but now i didn&amp;rsquo;t see an actual release to use it, so in this post we will clone the last repo, compile and will install in our local dev to take advantage of these new features.
 First clone and generate the executables of elixirLS:</description>
     </item>

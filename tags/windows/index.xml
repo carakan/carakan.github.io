@@ -9,22 +9,13 @@
       <link>https://carakan.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 03 Nov 2008 13:00:00 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Aug 2008 14:59:08 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>En que se parecen Windows y Google Crome?</title>
-      <link>https://carakan.net/blog/en-que-se-parecen-windows-y-google-crome/</link>
-      <pubDate>Mon, 03 Nov 2008 13:00:00 +0000</pubDate>
-      
-      <guid>https://carakan.net/blog/en-que-se-parecen-windows-y-google-crome/</guid>
-      <description>Ahora se por que se odian :D Visto en Ribosomatic</description>
-    </item>
-    
-    <item>
-      <title>Nuevo version del interprete ruby para entornos windows</title>
-      <link>https://carakan.net/blog/nuevo-version-del-interprete-ruby-para-entornos-windows/</link>
+      <title>Nueva version del interprete ruby para entornos windows</title>
+      <link>https://carakan.net/blog/2008/08/nueva-version-del-interprete-ruby-para-entornos-windows/</link>
       <pubDate>Thu, 07 Aug 2008 14:59:08 +0000</pubDate>
       
-      <guid>https://carakan.net/blog/nuevo-version-del-interprete-ruby-para-entornos-windows/</guid>
+      <guid>https://carakan.net/blog/2008/08/nueva-version-del-interprete-ruby-para-entornos-windows/</guid>
       <description>Gracias a Favio Akita me entere de una nueva version del interprete de Ruby para los entornos windows, tengo algunos proyectos corriendo sobre esta plataforma, esta nueva version esta siendo desarrollado por Luis Lavena, el cual es 20% mas veloz, he realizado las pruebas y vi que tiene algunos defectos menores pero logre instalar rails 2.1.0 y las gemas mas importantes para la puesta en producción y comparto para que vean lo bien que se pinta esta nueva versión.</description>
     </item>
     

@@ -12,20 +12,20 @@
     <lastBuildDate>Thu, 21 Aug 2008 20:36:43 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/jquery/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chat AJAX no-obstrusivo con Jquery</title>
-      <link>https://carakan.net/blog/chat-no-obstrusivo-con-jquery/</link>
+      <link>https://carakan.net/blog/2008/08/chat-ajax-no-obstrusivo-con-jquery/</link>
       <pubDate>Thu, 21 Aug 2008 20:36:43 +0000</pubDate>
       
-      <guid>https://carakan.net/blog/chat-no-obstrusivo-con-jquery/</guid>
+      <guid>https://carakan.net/blog/2008/08/chat-ajax-no-obstrusivo-con-jquery/</guid>
       <description>El desarrollo web actual esta evolucionando gracias a la tecnología que cambia dia a dia, perfeccionándose, pero esto puede ser inútil si no va ligada a una metodología o guias de estilo proporcionadas por personas con experiencia, recientemente apareció el termino de javascript no obtrusivo, que la propia wikipedia define como:
   Separación de la funcionalidad JavaScript (la &amp;ldquo;capa del comportamiento&amp;rdquo;) de las capas de estructura/contenido y de presentación de un página.</description>
     </item>
     
     <item>
       <title>Manual de Jquery y lo que debes de saber antes de meterte a Ajax</title>
-      <link>https://carakan.net/blog/manual-de-jquery-y-lo-que-debes-de-saber-antes-de-meterte-a-ajax/</link>
+      <link>https://carakan.net/blog/2007/12/manual-de-jquery-y-lo-que-debes-de-saber-antes-de-meterte-a-ajax/</link>
       <pubDate>Sun, 09 Dec 2007 05:39:40 +0000</pubDate>
       
-      <guid>https://carakan.net/blog/manual-de-jquery-y-lo-que-debes-de-saber-antes-de-meterte-a-ajax/</guid>
+      <guid>https://carakan.net/blog/2007/12/manual-de-jquery-y-lo-que-debes-de-saber-antes-de-meterte-a-ajax/</guid>
       <description>Hace bastante tiempo vi un tutorial de como aprender Html, css, javascript para el desarrollo de sitios web 2.0 denominados HTML Ya, CSS Ya, DHTML Ya , gracias a estos tutoriales, made in argentina, pude aprender diseño, javascript y primordialmente Ajax. Ahora vemos que dentro de estas iniciativas esta un completo tutorial de jquery. Suficiente para desarrollar cualquier solucion web profesionalmente. Le estoy echando un ojo a esto y complementando con lo poco que se de la libreria Prototype.</description>
     </item>
     

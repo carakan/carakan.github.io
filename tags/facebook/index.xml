@@ -9,59 +9,50 @@
       <link>https://carakan.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 13 Oct 2010 01:56:35 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/facebook/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Facebook script for select all friends</title>
-      <link>https://carakan.net/blog/facebook-script-for-select-all-friends/</link>
-      <pubDate>Wed, 13 Oct 2010 01:56:35 +0000</pubDate>
-      
-      <guid>https://carakan.net/blog/facebook-script-for-select-all-friends/</guid>
-      <description>This code is like to fs.select_all() javascript:elms=document.getElementById(&amp;lsquo;friends&amp;rsquo;).getElementsByTagName(&amp;lsquo;li&amp;rsquo;);for(var fid in elms){if(typeof elms[fid] === &amp;lsquo;object&amp;rsquo; &amp;amp;&amp;amp; elms[fid].className != &amp;ldquo;disabled&amp;rdquo;){fs.click(elms[fid]);}} Only select the new friends whitout invites. Enjoy It!!</description>
-    </item>
-    
+    <lastBuildDate>Sun, 02 May 2010 17:21:51 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/facebook/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>La cancion oficial del Feisbu o feisbuc :P</title>
-      <link>https://carakan.net/blog/la-cancion-oficial-del-feisbuk-p/</link>
+      <link>https://carakan.net/blog/2010/05/la-cancion-oficial-del-feisbu-o-feisbuc-p/</link>
       <pubDate>Sun, 02 May 2010 17:21:51 +0000</pubDate>
       
-      <guid>https://carakan.net/blog/la-cancion-oficial-del-feisbuk-p/</guid>
+      <guid>https://carakan.net/blog/2010/05/la-cancion-oficial-del-feisbu-o-feisbuc-p/</guid>
       <description>Esto es el colmo XD</description>
     </item>
     
     <item>
       <title>Lanzamiento oficial de la red social del folclore Folgama.com</title>
-      <link>https://carakan.net/blog/lanzamiento-oficial-de-la-red-social-del-folclore-folgamacom/</link>
+      <link>https://carakan.net/blog/2009/06/lanzamiento-oficial-de-la-red-social-del-folclore-folgama.com/</link>
       <pubDate>Fri, 05 Jun 2009 15:17:59 +0000</pubDate>
       
-      <guid>https://carakan.net/blog/lanzamiento-oficial-de-la-red-social-del-folclore-folgamacom/</guid>
+      <guid>https://carakan.net/blog/2009/06/lanzamiento-oficial-de-la-red-social-del-folclore-folgama.com/</guid>
       <description>Dentro de Bolivia existe un sinfín de expresiones culturales en torno a nuestro folclore, como una manera de difundir nuestra cultura he creado un “Proyecto de Difusión Virtual del Folclore Boliviano” al que llame folgama.com. Técnicamente Folgama, es una red social vertical en torno al folclore, algo mas especifico que redes sociales conocidas como Facebook, MySpace, Hi5 o Sonico que crean los objetos sociales en torno a las relaciones personales (Amigos) creando un espacio virtual de socialización gigante, lo malo es que son muy generalistas y no toman en cuenta aspectos específicos o temáticas.</description>
     </item>
     
     <item>
       <title>Los problemas de no ser abiertos en facebook</title>
-      <link>https://carakan.net/blog/los-problemas-de-no-ser-abiertos-en-facebook/</link>
+      <link>https://carakan.net/blog/2009/05/los-problemas-de-no-ser-abiertos-en-facebook/</link>
       <pubDate>Mon, 25 May 2009 16:18:48 +0000</pubDate>
       
-      <guid>https://carakan.net/blog/los-problemas-de-no-ser-abiertos-en-facebook/</guid>
+      <guid>https://carakan.net/blog/2009/05/los-problemas-de-no-ser-abiertos-en-facebook/</guid>
       <description>Desde hace ya tiempo han sucedido una serie de problemas en la privacidad dentro de la información de los usuarios que se almacena en una de las redes mas sociales del mundo facebook, es por que ahora vemos que facebook pronto arremeterá como en tiempos de Microsoft y tratar de cobrar por todo y nada.
 Digo esto por que recientemente estoy realizando una pequeña aplicación dentro de facebook y la plataforma que te brindan no es la mas “Abierta” que se diga al contrario de Twitter que recientemente presento su integración con OAuth que es mas transparente y de lejos la mejor, pero lo malo es que las personas normales usan Facebook y los Geeks twitter, así que no se puede elegir, sino que elijan por ti.</description>
     </item>
     
     <item>
       <title>Y facebook se vuelve cada día mas usual</title>
-      <link>https://carakan.net/blog/y-facebook-se-vuelve-cada-da-mas-usual/</link>
+      <link>https://carakan.net/blog/2008/11/y-facebook-se-vuelve-cada-d%C3%ADa-mas-usual/</link>
       <pubDate>Fri, 28 Nov 2008 14:04:00 +0000</pubDate>
       
-      <guid>https://carakan.net/blog/y-facebook-se-vuelve-cada-da-mas-usual/</guid>
+      <guid>https://carakan.net/blog/2008/11/y-facebook-se-vuelve-cada-d%C3%ADa-mas-usual/</guid>
       <description>Solo esta caricatura demuestra lo usual que es utilizar facebook en un mundo que cada dia esta mas y mas conectado:</description>
     </item>
     
     <item>
       <title>Noticias breves</title>
-      <link>https://carakan.net/blog/noticias-breves-2/</link>
+      <link>https://carakan.net/blog/2008/09/noticias-breves/</link>
       <pubDate>Tue, 30 Sep 2008 16:10:52 +0000</pubDate>
       
-      <guid>https://carakan.net/blog/noticias-breves-2/</guid>
+      <guid>https://carakan.net/blog/2008/09/noticias-breves/</guid>
       <description>Lista de las 25 personas mas influyentes en el mundillo del internet y que tenemos que conocerlos. Cuanto genera en dinero las aplicaciones de terceros dentro de Facebook, ya me estoy animando a realizar algunas pruebas. Richard Stellman nos dice que el Cloud computing es una trampa, esto esta para el analisis Quieres tener gratis dominios .biz por un año Carlos Leopoldo nos explica como (expira en octubre), enlace directo.</description>
     </item>
     

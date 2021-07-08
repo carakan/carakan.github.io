@@ -12,10 +12,10 @@
     <lastBuildDate>Wed, 11 Jun 2008 15:58:41 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/oracle/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Llamar a procedimientos PL/SQL de Oracle con ruby-plsql</title>
-      <link>https://carakan.net/blog/llamar-a-procedimientos-plsql-de-oracle-con-ruby-plsql/</link>
+      <link>https://carakan.net/blog/2008/06/llamar-a-procedimientos-pl/sql-de-oracle-con-ruby-plsql/</link>
       <pubDate>Wed, 11 Jun 2008 15:58:41 +0000</pubDate>
       
-      <guid>https://carakan.net/blog/llamar-a-procedimientos-plsql-de-oracle-con-ruby-plsql/</guid>
+      <guid>https://carakan.net/blog/2008/06/llamar-a-procedimientos-pl/sql-de-oracle-con-ruby-plsql/</guid>
       <description>Buscando una manera mas sencilla de poder llamar a procedimientos almacenados de Oracle pl/sql, encontré la gema ruby-plsql que es una simple API para procedimientos almacenados en oracle, su uso es muy sencillo como el siguiente:
 Si tenemos el siguiente paquete:
 CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCHAR2, p_out OUT VARCHAR2) IS BEGIN p_out := &amp;#39;Se introdujo: &amp;#39; || p_in; END; END; Ahora dentro del código, como ejemplo dentro del controlador:</description>
@@ -23,19 +23,19 @@ CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCH
     
     <item>
       <title>Mejorar la conexión a Oracle con Rails 2.1</title>
-      <link>https://carakan.net/blog/mejorar-la-conexion-a-oracle-con-rails-21/</link>
+      <link>https://carakan.net/blog/2008/06/mejorar-la-conexi%C3%B3n-a-oracle-con-rails-2.1/</link>
       <pubDate>Sat, 07 Jun 2008 22:31:58 +0000</pubDate>
       
-      <guid>https://carakan.net/blog/mejorar-la-conexion-a-oracle-con-rails-21/</guid>
+      <guid>https://carakan.net/blog/2008/06/mejorar-la-conexi%C3%B3n-a-oracle-con-rails-2.1/</guid>
       <description>Dentro del trabajo con Oracle y Rails, existen dos gemas que nos permiten conectar y manipular los datos estas son las gemas OCI-8 y active-record-oracle-adapter, pero existen algunos fallos dentro del Active-Record-Oracle-Adapter, uno lo indique en un post anterior, es por eso que en rayapps se escribe sobre como mejorar algunas cosas a este adaptador, es por eso que el autor de esos post publica ahora una gema que tiene incluido los patch y algunas mejoras esto es la gema activerecord-oracle_enhanced-adapter</description>
     </item>
     
     <item>
       <title>Conectarse de rails 2.0.2 a oracle en windows</title>
-      <link>https://carakan.net/blog/conectarse-de-rails-202-a-oracle/</link>
+      <link>https://carakan.net/blog/2008/01/conectarse-de-rails-2.0.2-a-oracle-en-windows/</link>
       <pubDate>Mon, 14 Jan 2008 22:16:57 +0000</pubDate>
       
-      <guid>https://carakan.net/blog/conectarse-de-rails-202-a-oracle/</guid>
+      <guid>https://carakan.net/blog/2008/01/conectarse-de-rails-2.0.2-a-oracle-en-windows/</guid>
       <description>Recientemente estoy trabajando en un proyecto de contabilidad dentro del cual utiliza como base de datos a oracle 10g, para desarrollar la interfaz web veníamos planeando la utilización de ASP.NET, del cual recientemente obtuve la quinta estrella, pero se requería en el tiempo más corto posible y que además sea adaptable a cambios futuros y que además corriese dentro del sistema operativo Windows, asi que plantee como opción la utilización de Ruby on Rails como la plataforma de desarrollo, del cual aceptaron y se está desarrollando en tiempo record!</description>
     </item>
     
