@@ -9,16 +9,7 @@
       <link>https://carakan.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 23 Oct 2008 16:39:00 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/rails-summit-brazil-2008/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Azafatas de la Rails Summit Latino-americano</title>
-      <link>https://carakan.net/blog/azafatas-la-rails-summit-latina/</link>
-      <pubDate>Thu, 23 Oct 2008 16:39:00 +0000</pubDate>
-      
-      <guid>https://carakan.net/blog/azafatas-la-rails-summit-latina/</guid>
-      <description>Ya termino el evento de la Rails Summit de Sao Paulo Brasil, no pude ir por factores económicos (si voy por una laptop), la verdad que me quede con las ganas de ir y sobre las cosas que hubiera aprendido, como un consuelo encontré algo que me gusto de este encuentro fue la creación de un proyecto (repositorio) en GitHub llamado morena open source, donde se recolectan fotos y videos referidas a las azafatas brasileras del evento, unas son estas.</description>
-    </item>
-    
+    <lastBuildDate>Sat, 12 Jul 2008 17:31:26 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/rails-summit-brazil-2008/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rails Summit de Brazil en español</title>
       <link>https://carakan.net/blog/rails-summit-de-brazil-en-espanol/</link>
