@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://carakan.net/sitemap.xml
