@@ -24,7 +24,7 @@ psql dbname &lt; backupname.sql Options documentation:
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.85.0" />
+<meta name="generator" content="Hugo 0.87.0" />
 <meta property="og:title" content="Make Backup/Restore Postgres Database With No Owner" />
 <meta property="og:description" content="to do backup:
 pg_dump dbname -O -x &gt; backupname.sql To restore:
@@ -207,11 +207,11 @@ psql dbname &lt; backupname.sql Options documentation:
 </div>
   </header> 
   <div class="post-content"><p>to do backup:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">pg_dump dbname -O -x &gt; backupname.sql
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">pg_dump dbname -O -x &gt; backupname.sql
 </code></pre></div><p>To restore:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">psql dbname &lt; backupname.sql
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">psql dbname &lt; backupname.sql
 </code></pre></div><p>Options documentation:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-txt" data-lang="txt">-O &lt;-- No owner
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-txt" data-lang="txt">-O &lt;-- No owner
 -x &lt;-- No privileges
 </code></pre></div>
 

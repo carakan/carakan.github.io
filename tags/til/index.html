@@ -19,7 +19,7 @@
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.85.0" />
+<meta name="generator" content="Hugo 0.87.0" />
 <link rel="alternate" type="application/rss+xml" href="https://carakan.net/tags/til/index.xml">
 <meta property="og:title" content="TIL" />
 <meta property="og:description" content="Carlos Ramos, some histories and quick tips" />
@@ -133,6 +133,20 @@
 <header class="page-header"><div class="breadcrumbs"><a href="https://carakan.net/">Home</a>&nbsp;»&nbsp;<a href="https://carakan.net/tags/">Tags</a></div>
   <h1>TIL</h1>
 </header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Ruby Safe Operator Tip</h2>
+  </header>
+  <section class="entry-content">
+    <p>In my current project I’m using (abusing) of the ruby safe operator &amp;, that is a native implementation of the null pattern, for example, in a chain of messages:
+user.billings.first.cost It could thrown an error when for example the billings of an user is empty and first returns a nil object and then nil.cost creates an Exception.
+with the safe operator &amp; this avoid the error:
+user.billings.first&amp;.cost =&gt; 5.3838 so in the last part using &amp; is not causing an error because the safe operator logic is:...</p>
+  </section>
+  <footer class="entry-footer">August 11, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <a class="entry-link" aria-label="post link to Ruby Safe Operator Tip" href="https://carakan.net/blog/2021/08/ruby-safe-operator-tip/"></a>
+</article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
@@ -273,18 +287,6 @@ I found a practical solution: is to install a separate yarn recipe into ASDF....
   </section>
   <footer class="entry-footer">September 24, 2019&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Install yarn if you are using Nodejs with ASDF" href="https://carakan.net/blog/2019/09/install-yarn-if-you-are-using-nodejs-with-asdf/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2>Configure and install last elixir-ls in Neovim</h2>
-  </header>
-  <section class="entry-content">
-    <p>The last version of ElixirLS have a lot of improvements, for example a new robust code suggestion provided by elixir-sense, intellisense with code documentation and other larger changes, but now i didn’t see an actual release to use it, so in this post we will clone the last repo, compile and will install in our local dev to take advantage of these new features.
-First clone and generate the executables of elixirLS:...</p>
-  </section>
-  <footer class="entry-footer">September 22, 2019&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
-  <a class="entry-link" aria-label="post link to Configure and install last elixir-ls in Neovim" href="https://carakan.net/blog/2019/09/configure-and-install-last-elixir-ls-in-neovim/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

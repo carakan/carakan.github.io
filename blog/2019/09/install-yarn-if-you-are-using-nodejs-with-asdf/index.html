@@ -22,7 +22,7 @@ I found a practical solution: is to install a separate yarn recipe into ASDF.">
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.85.0" />
+<meta name="generator" content="Hugo 0.87.0" />
 <meta property="og:title" content="Install yarn if you are using Nodejs with ASDF" />
 <meta property="og:description" content="I’m using ASDF to install any language that I needed, so problems become when I have to install yarn a js package manager but to do that has a lot of ways of install yarn and problems increasing with nodejs installed using ASDF more problems become using the brew recipe and it doesn’t work with ASDF.
 I found a practical solution: is to install a separate yarn recipe into ASDF." />
@@ -202,7 +202,7 @@ I found a practical solution: is to install a separate yarn recipe into ASDF."/>
   </header> 
   <div class="post-content"><p>I’m using ASDF to install any language that I needed, so problems become when I have to install yarn a js package manager but to do that has a lot of ways of install yarn and problems increasing with nodejs installed using ASDF more problems become using the brew recipe and it doesn’t work with ASDF.</p>
 <p>I found a practical solution: is to install a separate <code>yarn</code> recipe into ASDF.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">asdf plugin-add yarn https://github.com/twuni/asdf-yarn.git
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">asdf plugin-add yarn https://github.com/twuni/asdf-yarn.git
 asdf list-all yarn
 asdf install yarn 1.18.0 <span style="color:#75715e"># install last version</span>
 </code></pre></div><p>Also, you can find your favorite tool to install over ASDF into this <a href="https://asdf-vm.com/#/plugins-all">list</a>.</p>

@@ -23,7 +23,7 @@ sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdb
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.85.0" />
+<meta name="generator" content="Hugo 0.87.0" />
 <meta property="og:title" content="install passenger 5, ruby 2.x, nginx 1.10.x and enable HTTP/2" />
 <meta property="og:description" content="Recently I found that passenger in the last version now uses nginx 1.10.x by default, as you knows since nginx 1.9.x nginx enables support for http2 but the 1.9.x on nginx is beta and when released the line 1.10 is production ready. The process will be describe for ubuntu 14.4 and 16.4:
 Install Dependencies apt-get update -y apt-get upgrade -y apt-get install sudo -y install the required packages:
@@ -205,18 +205,18 @@ sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdb
   </header> 
   <div class="post-content"><p>Recently I found that passenger in the last version now uses nginx 1.10.x by default, as you knows since nginx 1.9.x nginx enables support for <a href="https://en.wikipedia.org/wiki/HTTP/2">http2</a> but the 1.9.x on nginx is <em>beta</em> and when released the line 1.10 is production ready. The process will be describe for ubuntu 14.4 and 16.4:</p>
 <h2 id="install-dependencies">Install Dependencies<a hidden class="anchor" aria-hidden="true" href="#install-dependencies">#</a></h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">apt-get update -y
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">apt-get update -y
 apt-get upgrade -y
 apt-get install sudo -y
 </code></pre></div><p>install the required packages:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate python-docutils pkg-config cmake nodejs git-core
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate python-docutils pkg-config cmake nodejs git-core
 </code></pre></div><h2 id="install-ruby">Install Ruby<a hidden class="anchor" aria-hidden="true" href="#install-ruby">#</a></h2>
 <p>For production sites is a <em>MUST</em> install from sources without using any versions
 managers like RVM, RENV or whatever this is why leads to hard to diagnose
 problems. Remove the old Ruby 1.8 if present:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get remove ruby1.8
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get remove ruby1.8
 </code></pre></div><p>Download Ruby and compile it:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir /tmp/ruby <span style="color:#f92672">&amp;&amp;</span> cd /tmp/ruby
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir /tmp/ruby <span style="color:#f92672">&amp;&amp;</span> cd /tmp/ruby
 curl -O --progress https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.1.tar.gz
 tar xzf ruby-2.3.1.tar.gz
 cd ruby-2.3.1
@@ -224,9 +224,9 @@ cd ruby-2.3.1
 make
 sudo make install
 </code></pre></div><p>Install the passenger Gem:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo gem install passenger --no-ri --no-rdoc
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo gem install passenger --no-ri --no-rdoc
 </code></pre></div><p>Now we need to install nginx manually, enable http2 and add the dependency to passenger:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">mkdir /tmp/nginx <span style="color:#f92672">&amp;&amp;</span> cd /tmp/nginx
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">mkdir /tmp/nginx <span style="color:#f92672">&amp;&amp;</span> cd /tmp/nginx
 curl -O --progress https://nginx.org/download/nginx-1.10.1.tar.gz
 tar xzf nginx-1.10.1.tar.gz
 cd nginx-1.10.1
@@ -244,7 +244,7 @@ sudo make install
 </code></pre></div><p>and thats it! you now have nginx + passenger + http2</p>
 <h2 id="enable-http2-on-vhost">Enable http2 on vhost<a hidden class="anchor" aria-hidden="true" href="#enable-http2-on-vhost">#</a></h2>
 <p><a href="https://http2.github.io/faq/#does-http2-require-encryption">only in https ;)</a></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">server <span style="color:#f92672">{</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">server <span style="color:#f92672">{</span>
   listen <span style="color:#ae81ff">443</span> ssl http2;
   server_name somedomain.com;
   ssl_certificate path_to_your.crt;

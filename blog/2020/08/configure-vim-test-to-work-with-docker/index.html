@@ -24,7 +24,7 @@ It is very important to add -e RAILS_ENV=test to send envinroment variables and 
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.85.0" />
+<meta name="generator" content="Hugo 0.87.0" />
 <meta property="og:title" content="Configure Vim Test to Work With Docker" />
 <meta property="og:description" content="Recently I started to work with Docker in a project, and I ever use vim-test to run test using vim, now to integrate in current docker workflow we need to configure vim-test.
 For example to configure to run rspec test inside app:
@@ -210,7 +210,7 @@ It is very important to add -e RAILS_ENV=test to send envinroment variables and 
 <a href="https://github.com/vim-test/vim-test">vim-test</a> to run test using vim, now to
 integrate in current docker workflow we need to configure vim-test.</p>
 <p>For example to configure to run rspec test inside <code>app</code>:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim"><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">test</span>#<span style="color:#a6e22e">ruby</span>#<span style="color:#a6e22e">rspec</span>#<span style="color:#a6e22e">executable</span> = <span style="color:#e6db74">&#39;docker-compose exec -e RAILS_ENV=test app rspec&#39;</span><span style="color:#960050;background-color:#1e0010">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim"><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">test</span>#<span style="color:#a6e22e">ruby</span>#<span style="color:#a6e22e">rspec</span>#<span style="color:#a6e22e">executable</span> = <span style="color:#e6db74">&#39;docker-compose exec -e RAILS_ENV=test app rspec&#39;</span><span style="color:#960050;background-color:#1e0010">
 </span></code></pre></div><p>to run inside to already running <code>app</code> docker container.</p>
 <p>It is very important to add <code>-e RAILS_ENV=test</code> to send envinroment variables
 and set test env inside the rails app.</p>

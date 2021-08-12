@@ -9,7 +9,19 @@
       <link>https://carakan.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 25 Jun 2021 11:15:20 -0400</lastBuildDate><atom:link href="https://carakan.net/tags/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Aug 2021 22:28:29 -0400</lastBuildDate><atom:link href="https://carakan.net/tags/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ruby Safe Operator Tip</title>
+      <link>https://carakan.net/blog/2021/08/ruby-safe-operator-tip/</link>
+      <pubDate>Wed, 11 Aug 2021 22:28:29 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2021/08/ruby-safe-operator-tip/</guid>
+      <description>In my current project I&amp;rsquo;m using (abusing) of the ruby safe operator &amp;amp;, that is a native implementation of the null pattern, for example, in a chain of messages:
+user.billings.first.cost It could thrown an error when for example the billings of an user is empty and first returns a nil object and then nil.cost creates an Exception.
+with the safe operator &amp;amp; this avoid the error:
+user.billings.first&amp;amp;.cost =&amp;gt; 5.3838 so in the last part using &amp;amp; is not causing an error because the safe operator logic is:</description>
+    </item>
+    
     <item>
       <title>Dropbox ignore files/directories</title>
       <link>https://carakan.net/blog/2021/06/dropbox-ignore-files-directories/</link>

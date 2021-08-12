@@ -22,7 +22,7 @@ sudo -u postgres psql create database mydb; create user myuser with encrypted pa
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.85.0" />
+<meta name="generator" content="Hugo 0.87.0" />
 <meta property="og:title" content="Postgres: Create Db User and bring Access" />
 <meta property="og:description" content="Short version:
 sudo -u postgres psql create database mydb; create user myuser with encrypted password &#39;password&#39;; grant all privileges on database mydb to myuser; " />
@@ -201,8 +201,8 @@ sudo -u postgres psql create database mydb; create user myuser with encrypted pa
 </div>
   </header> 
   <div class="post-content"><p>Short version:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">sudo -u postgres psql
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SQL" data-lang="SQL"><span style="color:#66d9ef">create</span> <span style="color:#66d9ef">database</span> mydb;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">sudo -u postgres psql
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SQL" data-lang="SQL"><span style="color:#66d9ef">create</span> <span style="color:#66d9ef">database</span> mydb;
 <span style="color:#66d9ef">create</span> <span style="color:#66d9ef">user</span> myuser <span style="color:#66d9ef">with</span> <span style="color:#66d9ef">encrypted</span> password <span style="color:#e6db74">&#39;password&#39;</span>;
 <span style="color:#66d9ef">grant</span> <span style="color:#66d9ef">all</span> <span style="color:#66d9ef">privileges</span> <span style="color:#66d9ef">on</span> <span style="color:#66d9ef">database</span> mydb <span style="color:#66d9ef">to</span> myuser;
 </code></pre></div>

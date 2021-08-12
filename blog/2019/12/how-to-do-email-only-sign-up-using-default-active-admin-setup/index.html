@@ -24,7 +24,7 @@
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.85.0" />
+<meta name="generator" content="Hugo 0.87.0" />
 <meta property="og:title" content="How to do email only sign up using default active-admin setup" />
 <meta property="og:description" content="Context   The idea is to develop the same requirement as devise describe in their guide:
   The project is using the admin_user approach and sets the default setup included on activeadmin.
@@ -232,7 +232,7 @@ normally as a separate engine.</p>
 </li>
 <li>
 <p>Override the Devise definition of password_required? in your model <code>admin_user</code>:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">protected</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">protected</span>
 
 <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">password_required?</span>
   confirmed? ? <span style="color:#66d9ef">super</span> : <span style="color:#66d9ef">false</span>
@@ -248,7 +248,7 @@ normally as a separate engine.</p>
 <li>
 <p>Override the Devise definition of <code>after_confirmation_path_for</code> in your <code>ConfirmationsController</code>:</p>
 <p>To work correctly you must need to create a monkey patching as described below:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#75715e"># config/initializers/active_admin_devise_confirmations_controller.rb</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#75715e"># config/initializers/active_admin_devise_confirmations_controller.rb</span>
 <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ActiveAdmin</span><span style="color:#f92672">::</span><span style="color:#66d9ef">Devise</span><span style="color:#f92672">::</span><span style="color:#66d9ef">ConfirmationsController</span>
   <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">after_confirmation_path_for</span>(_resource_name, resource)
     token <span style="color:#f92672">=</span> resource<span style="color:#f92672">.</span>send(<span style="color:#e6db74">:set_reset_password_token</span>)
@@ -261,7 +261,7 @@ normally as a separate engine.</p>
 </li>
 <li>
 <p>Add a test in your model to catch any changes in Devise&rsquo;s behavior in the future (because set_reset_password_token is a protected method):</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">describe <span style="color:#e6db74">&#39;#set_reset_password_token&#39;</span> <span style="color:#66d9ef">do</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">describe <span style="color:#e6db74">&#39;#set_reset_password_token&#39;</span> <span style="color:#66d9ef">do</span>
   it <span style="color:#e6db74">&#39;returns the plaintext token&#39;</span> <span style="color:#66d9ef">do</span>
     potential_token <span style="color:#f92672">=</span> subject<span style="color:#f92672">.</span>send(<span style="color:#e6db74">:set_reset_password_token</span>)
     potential_token_digest <span style="color:#f92672">=</span>

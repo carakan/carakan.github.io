@@ -9,22 +9,31 @@
       <link>https://carakan.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 25 Jun 2021 11:15:20 -0400</lastBuildDate><atom:link href="https://carakan.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Aug 2021 22:28:29 -0400</lastBuildDate><atom:link href="https://carakan.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>lightroom</title>
-      <link>https://carakan.net/tags/lightroom/</link>
-      <pubDate>Fri, 25 Jun 2021 11:15:20 -0400</pubDate>
+      <title>ruby</title>
+      <link>https://carakan.net/tags/ruby/</link>
+      <pubDate>Wed, 11 Aug 2021 22:28:29 -0400</pubDate>
       
-      <guid>https://carakan.net/tags/lightroom/</guid>
+      <guid>https://carakan.net/tags/ruby/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TIL</title>
       <link>https://carakan.net/tags/til/</link>
-      <pubDate>Fri, 25 Jun 2021 11:15:20 -0400</pubDate>
+      <pubDate>Wed, 11 Aug 2021 22:28:29 -0400</pubDate>
       
       <guid>https://carakan.net/tags/til/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lightroom</title>
+      <link>https://carakan.net/tags/lightroom/</link>
+      <pubDate>Fri, 25 Jun 2021 11:15:20 -0400</pubDate>
+      
+      <guid>https://carakan.net/tags/lightroom/</guid>
       <description></description>
     </item>
     
@@ -61,15 +70,6 @@
       <pubDate>Wed, 25 Nov 2020 12:24:29 -0400</pubDate>
       
       <guid>https://carakan.net/tags/bundle/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ruby</title>
-      <link>https://carakan.net/tags/ruby/</link>
-      <pubDate>Wed, 25 Nov 2020 12:24:29 -0400</pubDate>
-      
-      <guid>https://carakan.net/tags/ruby/</guid>
       <description></description>
     </item>
     
@@ -542,24 +542,6 @@
     </item>
     
     <item>
-      <title>dos años</title>
-      <link>https://carakan.net/tags/dos-a%C3%B1os/</link>
-      <pubDate>Wed, 24 Jun 2009 23:17:32 +0000</pubDate>
-      
-      <guid>https://carakan.net/tags/dos-a%C3%B1os/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>un año</title>
-      <link>https://carakan.net/tags/un-a%C3%B1o/</link>
-      <pubDate>Wed, 24 Jun 2009 23:17:32 +0000</pubDate>
-      
-      <guid>https://carakan.net/tags/un-a%C3%B1o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>sorojchi</title>
       <link>https://carakan.net/tags/sorojchi/</link>
       <pubDate>Fri, 05 Jun 2009 00:24:30 +0000</pubDate>
@@ -934,6 +916,15 @@
       <pubDate>Sat, 12 Jul 2008 17:31:26 +0000</pubDate>
       
       <guid>https://carakan.net/tags/rails-summit-brazil-2008/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>un año</title>
+      <link>https://carakan.net/tags/un-a%C3%B1o/</link>
+      <pubDate>Wed, 25 Jun 2008 18:36:43 +0000</pubDate>
+      
+      <guid>https://carakan.net/tags/un-a%C3%B1o/</guid>
       <description></description>
     </item>
     

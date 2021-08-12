@@ -25,7 +25,7 @@ direnv allow . And that&rsquo;s it! you don&rsquo;t need a custom solution for e
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.85.0" />
+<meta name="generator" content="Hugo 0.87.0" />
 <meta property="og:title" content="How to Manage Environment Variables" />
 <meta property="og:description" content="In many projects that i have been working I want to manage GLOBAL&rsquo;s variables, so to do that use direnv.
 to install (MacOS):
@@ -212,14 +212,14 @@ direnv allow . And that&rsquo;s it! you don&rsquo;t need a custom solution for e
   <div class="post-content"><p>In many projects that i have been working I want to manage GLOBAL&rsquo;s variables, so
 to do that use <a href="https://direnv.net/">direnv</a>.</p>
 <p>to install (MacOS):</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">brew install direnv
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">brew install direnv
 </code></pre></div><p>Now the project needs to create a file <code>.envrc</code> like this:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#75715e"># Stripe Credentials</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#75715e"># Stripe Credentials</span>
 export STRIPE_PRIVATE_KEY<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;xxxxxxxxxxxx&#34;</span>
 export STRIPE_WEBHOOK_SECRET<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;xxxxxxxxxxxxxxxx&#34;</span>
 </code></pre></div><p>entering in that directory <code>direnv</code> asks to <strong>allow</strong> the execution and use of
 that variables, so:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">direnv allow .
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">direnv allow .
 </code></pre></div><p>And that&rsquo;s it! you don&rsquo;t need a custom solution for every programming language.</p>
 
 

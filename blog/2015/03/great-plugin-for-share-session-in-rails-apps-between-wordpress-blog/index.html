@@ -23,7 +23,7 @@ def wp_json { user: { email: self.">
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.85.0" />
+<meta name="generator" content="Hugo 0.87.0" />
 <meta property="og:title" content="great plugin for share session in rails apps between wordpress blog" />
 <meta property="og:description" content="In one project, the client wants to share same user credentials between rails app to wordpress site, I&rsquo;ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:
 rails login  this plugin only need a small API for enable login i created this code in model user:
@@ -207,7 +207,7 @@ def wp_json { user: { email: self."/>
 <p><a href="https://wordpress.org/plugins/rails-login/" title="wordpress plugin for share session with rails app">rails login
 </a>
 this plugin only need a small API for enable login i created this code in model user:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">wp_json</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">wp_json</span>
   {
     <span style="color:#e6db74">user</span>: {
       <span style="color:#e6db74">email</span>: self<span style="color:#f92672">.</span>email,
@@ -223,7 +223,7 @@ this plugin only need a small API for enable login i created this code in model 
   }
 <span style="color:#66d9ef">end</span>
 </code></pre></div><p>and in the rails controller I created this:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">current</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">current</span>
   session <span style="color:#f92672">=</span> <span style="color:#66d9ef">Session</span><span style="color:#f92672">.</span>where(<span style="color:#e6db74">session_id</span>: params<span style="color:#f92672">[</span><span style="color:#e6db74">:id</span><span style="color:#f92672">]</span>)<span style="color:#f92672">.</span>first
   respond_to <span style="color:#66d9ef">do</span> <span style="color:#f92672">|</span>format<span style="color:#f92672">|</span>
     format<span style="color:#f92672">.</span>json <span style="color:#66d9ef">do</span>

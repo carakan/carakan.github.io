@@ -23,7 +23,7 @@ CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCH
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.85.0" />
+<meta name="generator" content="Hugo 0.87.0" />
 <meta property="og:title" content="Llamar a procedimientos PL/SQL de Oracle con ruby-plsql" />
 <meta property="og:description" content="Buscando una manera mas sencilla de poder llamar a procedimientos almacenados de Oracle pl/sql, encontré la gema ruby-plsql que es una simple API para procedimientos almacenados en oracle, su uso es muy sencillo como el siguiente:
 Si tenemos el siguiente paquete:
@@ -205,14 +205,14 @@ CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCH
   </header> 
   <div class="post-content"><p>Buscando una manera mas sencilla de poder llamar a procedimientos almacenados de Oracle pl/sql, encontré la gema ruby-plsql que es una simple API para procedimientos almacenados en oracle, su uso es muy sencillo como el siguiente:</p>
 <p>Si tenemos el siguiente paquete:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#66d9ef">CREATE</span> <span style="color:#66d9ef">OR</span> <span style="color:#66d9ef">REPLACE</span> PACKAGE BODY scott.pck_prueba <span style="color:#66d9ef">IS</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#66d9ef">CREATE</span> <span style="color:#66d9ef">OR</span> <span style="color:#66d9ef">REPLACE</span> PACKAGE BODY scott.pck_prueba <span style="color:#66d9ef">IS</span>
     <span style="color:#66d9ef">PROCEDURE</span> LeeDatos(p_in VARCHAR2, p_out <span style="color:#66d9ef">OUT</span> VARCHAR2) <span style="color:#66d9ef">IS</span>
        <span style="color:#66d9ef">BEGIN</span>
        p_out :<span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Se introdujo: &#39;</span> <span style="color:#f92672">||</span> p_in;
     <span style="color:#66d9ef">END</span>;
 <span style="color:#66d9ef">END</span>;
 </code></pre></div><p>Ahora dentro del código, como ejemplo dentro del controlador:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">require <span style="color:#960050;background-color:#1e0010">“</span>ruby_plsql<span style="color:#960050;background-color:#1e0010">”</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">require <span style="color:#960050;background-color:#1e0010">“</span>ruby_plsql<span style="color:#960050;background-color:#1e0010">”</span>
 <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UsuariosController</span> <span style="color:#f92672">&lt;</span> <span style="color:#66d9ef">ApplicationController</span>
   <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">index</span>
     @usuarios <span style="color:#f92672">=</span> <span style="color:#66d9ef">Usuario</span><span style="color:#f92672">.</span>all
@@ -224,7 +224,7 @@ CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCH
 </code></pre></div><p>Y para mostrar el dato, en la vista:</p>
 <pre><code class="language-erb" data-lang="erb"> &lt;%= @hola[:p_out] %&gt;
 </code></pre><p>Para poder instalar la gema solamente teclee:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#f92672">[</span>sudo<span style="color:#f92672">]</span> gem install ruby-plsql
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#f92672">[</span>sudo<span style="color:#f92672">]</span> gem install ruby-plsql
 </code></pre></div><p>Realmente me facilito bastante el trabajo, me gusta el concepto y el uso que engloba la metaprogramacion.</p>
 <p><strong>Nota.-</strong> Trabajando con la gema note que no trabaja en procedimientos con variables de entrada y salida, sino solamente de entrada o salida.</p>
 

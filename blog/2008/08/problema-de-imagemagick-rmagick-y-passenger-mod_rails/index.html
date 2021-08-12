@@ -21,7 +21,7 @@
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.85.0" />
+<meta name="generator" content="Hugo 0.87.0" />
 <meta property="og:title" content="Problema de ImageMagick (rmagick) y passenger (mod_rails)" />
 <meta property="og:description" content="Recientemente en uno de mis proyectos estamos utilizando el plugin para subir archivos paperclip tutorial, este plugin tiene características de re-dimension de imágenes pero dentro de nuestro servidor web no funcionaba, lo que nos parecio bastante raro, buscando por internet encontré que el problema se debía al momento de usar mod_rails, el cual no cargaba las librerías necesarias, en este caso a ImageMagick, aqui el mismo problema pero para oracle y algunas de sus librerias." />
 <meta property="og:type" content="article" />
@@ -198,20 +198,20 @@
 </div>
   </header> 
   <div class="post-content"><p>Recientemente en uno de mis proyectos estamos utilizando el plugin para subir archivos <a href="http://jimneath.org/2008/04/17/paperclip-attaching-files-in-rails/">paperclip tutorial</a>, este plugin tiene características de re-dimension de imágenes pero dentro de nuestro servidor web no funcionaba, lo que nos parecio bastante raro, buscando por internet encontré que el problema se debía al momento de usar mod_rails, el cual no cargaba las librerías necesarias, en este caso a ImageMagick, <a href="http://blog.rayapps.com/2008/05/21/using-mod_rails-with-rails-applications-on-oracle/">aqui el mismo problema pero para oracle y algunas de sus librerias</a>. La solución es la siguiente: Ir a la carpeta del ejecutable de ruby, en mi caso utilizo <a href="http://www.rubyenterpriseedition.com/">ruby-enterprise</a> y que instale en /opt/ruby/bin, o en una carpeta cualquiera que tengas acceso se crea el archivo ruby_rmagick asi:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">sudo vi /opt/ruby/ruby_rmagick
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">sudo vi /opt/ruby/ruby_rmagick
 </code></pre></div><p>Y dentro de este archivo se añade:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#75715e">#!/bin/bash
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#75715e">#!/bin/bash
 </span><span style="color:#75715e"></span>export MAGICK_HOME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/usr/local/lib/ImageMagick-6.4.2&#34;</span> <span style="color:#75715e"># ruta a ImageMagick</span>
 export DYLD_LIBRARY_PATH<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$MAGICK_HOME<span style="color:#e6db74">/lib&#34;</span>
 export PATH<span style="color:#f92672">=</span>$MAGICK_HOME/bin:/usr/local/bin/:$PATH /opt/ruby/bin/ruby $*  <span style="color:#75715e"># ruta al Interprete de ruby</span>
 </code></pre></div><p>Esto añade las variables necesarias y llama al interprete de ruby, lo guardamos y le asignamos permisos de ejecucion:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">sudo chmod +x /opt/ruby/ruby_rmagick
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">sudo chmod +x /opt/ruby/ruby_rmagick
 </code></pre></div><p>Ahora editamos el archivo con el que se configuro mod_rails para que cargue el nuevo archivo que acabamos de grabar:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">LoadModule passenger_module /opt/ruby/lib/ruby/gems/1.8/gems/passenger-2.0.2/ext/apache2/mod_passenger.so
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">LoadModule passenger_module /opt/ruby/lib/ruby/gems/1.8/gems/passenger-2.0.2/ext/apache2/mod_passenger.so
 PassengerRoot /opt/ruby/lib/ruby/gems/1.8/gems/passenger-2.0.2
 PassengerRuby /opt/ruby/bin/ruby_rmagick    <span style="color:#75715e"># Aqui se cambia al nuevo interprete</span>
 </code></pre></div><p>Este archivo de configuracion es para passenger 2.0.2 para versiones 1.X.X debes de cambiar</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">RailsRuby /usr/local/bin/ruby_rmagick
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">RailsRuby /usr/local/bin/ruby_rmagick
 </code></pre></div><p>Actualizacion: <strong>18 junio 2009</strong> He arreglado un poco las instrucciones, al parecer lo hice muy a la rapida.</p>
 
 

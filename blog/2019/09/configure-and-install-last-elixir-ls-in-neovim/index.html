@@ -22,7 +22,7 @@ First clone and generate the executables of elixirLS:">
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.85.0" />
+<meta name="generator" content="Hugo 0.87.0" />
 <meta property="og:title" content="Configure and install last elixir-ls in Neovim" />
 <meta property="og:description" content="The last version of ElixirLS have a lot of improvements, for example a new robust code suggestion provided by elixir-sense, intellisense with code documentation and other larger changes, but now i didn&rsquo;t see an actual release to use it, so in this post we will clone the last repo, compile and will install in our local dev to take advantage of these new features.
 First clone and generate the executables of elixirLS:" />
@@ -208,7 +208,7 @@ post we will clone the last repo, compile and will install in our local dev to
 take advantage of these new features.</p>
 <p>First clone and generate the executables of
 <a href="https://github.com/elixir-lsp/elixir-ls"><code>elixirLS</code></a>:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">mkdir ~/lsp
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">mkdir ~/lsp
 git clone https://github.com/elixir-lsp/elixir-ls.git
 cd elixir-ls
 mix deps.get
@@ -216,7 +216,7 @@ mix compile
 MIX_ENV<span style="color:#f92672">=</span>production mix elixir_ls.release -o ~/lsp/elixir-ls
 </code></pre></div><p>now we need to configure into <a href="https://github.com/neoclide/coc.nvim"><code>coc.nvim</code></a>
 to use this new LSP server in section <code>languageserver</code>:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">  <span style="color:#e6db74">&#34;languageserver&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">  <span style="color:#e6db74">&#34;languageserver&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> {
     <span style="color:#f92672">&#34;elixir&#34;</span>: {
       <span style="color:#f92672">&#34;command&#34;</span>: <span style="color:#e6db74">&#34;/Users/&lt;your-username&gt;/lsp/elixir-ls/language_server.sh&#34;</span>,
       <span style="color:#f92672">&#34;filetypes&#34;</span>: [<span style="color:#e6db74">&#34;elixir&#34;</span>, <span style="color:#e6db74">&#34;eelixir&#34;</span>],

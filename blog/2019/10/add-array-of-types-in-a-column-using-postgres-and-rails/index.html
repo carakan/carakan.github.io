@@ -22,7 +22,7 @@ class MyMigration &lt; ActiveRecord::Migration[5.2] def change # Defines a colum
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.85.0" />
+<meta name="generator" content="Hugo 0.87.0" />
 <meta property="og:title" content="Add Array of Types in a Column using Postgres and Rails" />
 <meta property="og:description" content="Recently I found a nice feature when defining a column on migrations, is to use array option in the creation of a column:
 class MyMigration &lt; ActiveRecord::Migration[5.2] def change # Defines a column that stores an array of a type. add_column :transactions, :categories, :string, array: true, default: [] end end With this on categories you can storage an array of values, it&rsquo;s useful instead of use jsonb because as json you may also need to create the key to store values (hash)." />
@@ -202,7 +202,7 @@ class MyMigration &lt; ActiveRecord::Migration[5.2] def change # Defines a colum
   </header> 
   <div class="post-content"><p>Recently I found a nice feature when defining a column on migrations, is to use <code>array</code>
 option in the creation of a column:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyMigration</span> <span style="color:#f92672">&lt;</span> <span style="color:#66d9ef">ActiveRecord</span><span style="color:#f92672">::</span><span style="color:#66d9ef">Migration</span><span style="color:#f92672">[</span><span style="color:#ae81ff">5</span><span style="color:#f92672">.</span><span style="color:#ae81ff">2</span><span style="color:#f92672">]</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyMigration</span> <span style="color:#f92672">&lt;</span> <span style="color:#66d9ef">ActiveRecord</span><span style="color:#f92672">::</span><span style="color:#66d9ef">Migration</span><span style="color:#f92672">[</span><span style="color:#ae81ff">5</span><span style="color:#f92672">.</span><span style="color:#ae81ff">2</span><span style="color:#f92672">]</span>
   <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">change</span>
     <span style="color:#75715e"># Defines a column that stores an array of a type.</span>
     add_column <span style="color:#e6db74">:transactions</span>, <span style="color:#e6db74">:categories</span>, <span style="color:#e6db74">:string</span>, <span style="color:#e6db74">array</span>: <span style="color:#66d9ef">true</span>, <span style="color:#e6db74">default</span>: <span style="color:#f92672">[]</span>
@@ -211,7 +211,7 @@ option in the creation of a column:</p>
 </code></pre></div><p>With this on <code>categories</code> you can storage an array of values, it&rsquo;s useful instead of use
 <code>jsonb</code> because as json you may also need to create the key to store values (hash).</p>
 <p>this is how to use:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">record<span style="color:#f92672">.</span>categories <span style="color:#f92672">=</span> <span style="color:#f92672">[</span><span style="color:#e6db74">&#34;food&#34;</span>, <span style="color:#e6db74">&#34;travel&#34;</span><span style="color:#f92672">]</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">record<span style="color:#f92672">.</span>categories <span style="color:#f92672">=</span> <span style="color:#f92672">[</span><span style="color:#e6db74">&#34;food&#34;</span>, <span style="color:#e6db74">&#34;travel&#34;</span><span style="color:#f92672">]</span>
 record<span style="color:#f92672">.</span>save
 </code></pre></div>
 

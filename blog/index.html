@@ -19,7 +19,7 @@
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.85.0" />
+<meta name="generator" content="Hugo 0.87.0" />
 <link rel="alternate" type="application/rss+xml" href="https://carakan.net/blog/index.xml">
 <meta property="og:title" content="Blogs" />
 <meta property="og:description" content="Carlos Ramos, some histories and quick tips" />
@@ -148,6 +148,20 @@
 <header class="page-header"><div class="breadcrumbs"><a href="https://carakan.net/">Home</a></div>
   <h1>Blogs</h1>
 </header>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Ruby Safe Operator Tip</h2>
+  </header>
+  <section class="entry-content">
+    <p>In my current project I’m using (abusing) of the ruby safe operator &amp;, that is a native implementation of the null pattern, for example, in a chain of messages:
+user.billings.first.cost It could thrown an error when for example the billings of an user is empty and first returns a nil object and then nil.cost creates an Exception.
+with the safe operator &amp; this avoid the error:
+user.billings.first&amp;.cost =&gt; 5.3838 so in the last part using &amp; is not causing an error because the safe operator logic is:...</p>
+  </section>
+  <footer class="entry-footer">August 11, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <a class="entry-link" aria-label="post link to Ruby Safe Operator Tip" href="https://carakan.net/blog/2021/08/ruby-safe-operator-tip/"></a>
+</article>
 
 <article class="post-entry"> 
   <header class="entry-header">
@@ -290,18 +304,6 @@ class MyMigration &lt; ActiveRecord::Migration[5.2] def change # Defines a colum
   </section>
   <footer class="entry-footer">October 14, 2019&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Add Array of Types in a Column using Postgres and Rails" href="https://carakan.net/blog/2019/10/add-array-of-types-in-a-column-using-postgres-and-rails/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>Install yarn if you are using Nodejs with ASDF</h2>
-  </header>
-  <section class="entry-content">
-    <p>I’m using ASDF to install any language that I needed, so problems become when I have to install yarn a js package manager but to do that has a lot of ways of install yarn and problems increasing with nodejs installed using ASDF more problems become using the brew recipe and it doesn’t work with ASDF.
-I found a practical solution: is to install a separate yarn recipe into ASDF....</p>
-  </section>
-  <footer class="entry-footer">September 24, 2019&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
-  <a class="entry-link" aria-label="post link to Install yarn if you are using Nodejs with ASDF" href="https://carakan.net/blog/2019/09/install-yarn-if-you-are-using-nodejs-with-asdf/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

@@ -23,7 +23,7 @@ For example if I’m using eslint and I see this error:">
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.85.0" />
+<meta name="generator" content="Hugo 0.87.0" />
 <meta property="og:title" content="Lint and Format code with vim and ALE" />
 <meta property="og:description" content="Currently I’m writing JS and Elixir code and I’ve using a lot of plugins to help me about misspelling in my code, first I was using Syntastic, later I was using Neomake but now I fell in love with ALE and I try to explain why.
 Ale knows clearly about if a plugin/addon shows an error that plugin/addon can fix that error if is possible.
@@ -215,7 +215,7 @@ For example if I’m using eslint and I see this error:"/>
 <p>Another amazing feature is to queue fixer’s, let me explain this:</p>
 <p>Prettier is a amazing <strong>opinionated</strong> code formatter for a lot of languages and provides a few options to configure, and if we can use ‘prettier + eslint’, I see a lot of issues with this combination, for example <a href="https://github.com/prettier/prettier/issues/812">this</a>. To avoid this, people made a lot of workarounds (npm’s, disabling rules, etc.), but in my opinion any code formatter only live in the IDE/editor and not in the project as dependency.</p>
 <p>So with Ale you can only do that:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim"><span style="color:#75715e">&#34; vimrc</span><span style="color:#960050;background-color:#1e0010">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim"><span style="color:#75715e">&#34; vimrc</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">g</span>:<span style="color:#a6e22e">ale_fixers</span> = {<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>\   <span style="color:#e6db74">&#39;javascript&#39;</span>: [<span style="color:#e6db74">&#39;prettier&#39;</span>, <span style="color:#e6db74">&#39;eslint&#39;</span>]<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>\}<span style="color:#960050;background-color:#1e0010">

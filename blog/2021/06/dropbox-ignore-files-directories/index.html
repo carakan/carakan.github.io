@@ -22,7 +22,7 @@ xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previ
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.85.0" />
+<meta name="generator" content="Hugo 0.87.0" />
 <meta property="og:title" content="Dropbox ignore files/directories" />
 <meta property="og:description" content="Ignoring files or directories in dropbox is a hard thing, I thought it has like git, a .gitignore to config that, but no, we need to do a command for each file/dir, for example to ignore the files that creates a lightroom catalog (.lrcat) we need to do:
 xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previews.lrdata xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previews.lrdata xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Helper.lrdata and to not longer ignore files we need this command:" />
@@ -203,12 +203,12 @@ xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previ
   <div class="post-content"><p>Ignoring files or directories in dropbox is a hard thing, I thought it has like git,
 a <code>.gitignore</code> to config that, but no, we need to do a command for each file/dir, for example to ignore
 the files that creates a lightroom catalog (.lrcat) we need to do:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">xattr -w com.dropbox.ignored <span style="color:#ae81ff">1</span> /Users/username/Dropbox/lightroom/2021-v10<span style="color:#ae81ff">\ </span>Previews.lrdata
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">xattr -w com.dropbox.ignored <span style="color:#ae81ff">1</span> /Users/username/Dropbox/lightroom/2021-v10<span style="color:#ae81ff">\ </span>Previews.lrdata
 xattr -w com.dropbox.ignored <span style="color:#ae81ff">1</span> /Users/username/Dropbox/lightroom/2021-v10<span style="color:#ae81ff">\ </span>Previews.lrdata
 xattr -w com.dropbox.ignored <span style="color:#ae81ff">1</span> /Users/username/Dropbox/lightroom/2021-v10<span style="color:#ae81ff">\ </span>Helper.lrdata
 
 </code></pre></div><p>and to not longer ignore files we need this command:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">xattr -d com.dropbox.ignored /Users/yourname/Dropbox<span style="color:#ae81ff">\ \(</span>Personal<span style="color:#ae81ff">\)</span>/YourFileName.pdf
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">xattr -d com.dropbox.ignored /Users/yourname/Dropbox<span style="color:#ae81ff">\ \(</span>Personal<span style="color:#ae81ff">\)</span>/YourFileName.pdf
 </code></pre></div>
 
   </div>
@@ -218,6 +218,11 @@ xattr -w com.dropbox.ignored <span style="color:#ae81ff">1</span> /Users/usernam
       <li><a href="https://carakan.net/tags/lightroom/">lightroom</a></li>
     </ul>
 <nav class="paginav">
+  <a class="prev" href="https://carakan.net/blog/2021/08/ruby-safe-operator-tip/">
+    <span class="title">« Prev Page</span>
+    <br>
+    <span>Ruby Safe Operator Tip</span>
+  </a>
   <a class="next" href="https://carakan.net/blog/2021/02/make-backup/restore-postgres-database-with-no-owner/">
     <span class="title">Next Page »</span>
     <br>
