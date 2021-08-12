@@ -197,15 +197,6 @@ CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCH
     </item>
     
     <item>
-      <title>Y ahora que es lo que hacemos???</title>
-      <link>https://carakan.net/blog/2008/04/y-ahora-que-es-lo-que-hacemos/</link>
-      <pubDate>Wed, 16 Apr 2008 15:31:54 +0000</pubDate>
-      
-      <guid>https://carakan.net/blog/2008/04/y-ahora-que-es-lo-que-hacemos/</guid>
-      <description>Escribo de tiempo y es que el trabajo me esta apresando :( , pero ahora quiero hablar de uno de los proyectos que estamos desarrollando en Wiebia labs, bastante profesional el nombresito no?, bueno nuestro hijo que todavía se esta gestando es qhacer.com una web 2.0 para poder compartir nuestras actividades importantes y diarias, esta en fase bastante alpha :) asi que visitenla y sugieran mejoras. Ahh el sitio esta siendo desarrollado por Elmer Freddy Mendoza, un compañero que esta fascinado igualmente que yo con el mundo Rails, junto con Ramiro Huayller, ya somos tres las personas que publicamente saben de Ruby on Rails en Bolivia!</description>
-    </item>
-    
-    <item>
       <title>Novedades en Ruby 1.9 y proximo lanzamiento de ruby 1.8.7</title>
       <link>https://carakan.net/blog/2008/03/novedades-en-ruby-1.9-y-proximo-lanzamiento-de-ruby-1.8.7/</link>
       <pubDate>Wed, 05 Mar 2008 14:04:48 +0000</pubDate>
@@ -230,15 +221,6 @@ CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCH
       
       <guid>https://carakan.net/blog/2008/01/conectarse-de-rails-2.0.2-a-oracle-en-windows/</guid>
       <description>Recientemente estoy trabajando en un proyecto de contabilidad dentro del cual utiliza como base de datos a oracle 10g, para desarrollar la interfaz web veníamos planeando la utilización de ASP.NET, del cual recientemente obtuve la quinta estrella, pero se requería en el tiempo más corto posible y que además sea adaptable a cambios futuros y que además corriese dentro del sistema operativo Windows, asi que plantee como opción la utilización de Ruby on Rails como la plataforma de desarrollo, del cual aceptaron y se está desarrollando en tiempo record!</description>
-    </item>
-    
-    <item>
-      <title>Realice mi predefensa de mi proyecto de grado</title>
-      <link>https://carakan.net/blog/2007/12/realice-mi-predefensa-de-mi-proyecto-de-grado/</link>
-      <pubDate>Sat, 08 Dec 2007 13:10:36 +0000</pubDate>
-      
-      <guid>https://carakan.net/blog/2007/12/realice-mi-predefensa-de-mi-proyecto-de-grado/</guid>
-      <description>Como una de los requisitos para la culminación de mi carrera es la predefensa de mi proyecto de grado, lo realice bien, con esto ya estoy a un paso de defenderla. Mi proyecto se realiza bajo los conceptos de Scrum, Web 2.0 y frameworks de desarrollo, el titulo es &amp;ldquo;Sistema web integrado de planificación pedagógica y control de pagos&amp;rdquo;, desarrollado en Ruby on rails, con la colaboración exhaustiva de mis docentes tutor: Lic.</description>
     </item>
     
     <item>

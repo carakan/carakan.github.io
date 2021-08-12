@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Mejorar la conexión a Oracle con Rails 2.1 | carakan</title>
-<meta name="keywords" content="oracle, oracle, ruby, ruby on rails, ruby on rails, web 2.0" />
+<meta name="keywords" content="oracle, ruby, ruby on rails" />
 <meta name="description" content="Dentro del trabajo con Oracle y Rails, existen dos gemas que nos permiten conectar y manipular los datos estas son las gemas OCI-8 y active-record-oracle-adapter, pero existen algunos fallos dentro del Active-Record-Oracle-Adapter, uno lo indique en un post anterior, es por eso que en rayapps se escribe sobre como mejorar algunas cosas a este adaptador, es por eso que el autor de esos post publica ahora una gema que tiene incluido los patch y algunas mejoras esto es la gema activerecord-oracle_enhanced-adapter">
 <meta name="author" content="Carlos Ramos">
 <link rel="canonical" href="https://carakan.net/blog/2008/06/mejorar-la-conexi%C3%B3n-a-oracle-con-rails-2.1/" />
@@ -64,9 +64,9 @@
   "name": "Mejorar la conexión a Oracle con Rails 2.1",
   "description": "Dentro del trabajo con Oracle y Rails, existen dos gemas que nos permiten conectar y manipular los datos estas son las gemas OCI-8 y active-record-oracle-adapter, pero existen algunos fallos dentro del Active-Record-Oracle-Adapter, uno lo indique en un post anterior, es por eso que en rayapps se escribe sobre como mejorar algunas cosas a este adaptador, es por eso que el autor de esos post publica ahora una gema que tiene incluido los patch y algunas mejoras esto es la gema activerecord-oracle_enhanced-adapter",
   "keywords": [
-    "oracle", "oracle", "ruby", "ruby on rails", "ruby on rails", "web 2.0"
+    "oracle", "ruby", "ruby on rails"
   ],
-  "articleBody": "Dentro del trabajo con Oracle y Rails, existen dos gemas que nos permiten conectar y manipular los datos estas son las gemas OCI-8 y active-record-oracle-adapter, pero existen algunos fallos dentro del Active-Record-Oracle-Adapter, uno lo indique en un post anterior, es por eso que en rayapps se escribe sobre como mejorar algunas cosas a este adaptador, es por eso que el autor de esos post publica ahora una gema que tiene incluido los patch y algunas mejoras esto es la gema activerecord-oracle_enhanced-adapter\nSu instalación es simple:\ngem install activerecord-oracle_enhanced-adapter\nTiene muchas características que se describen aquí.\nPara su utilización simplemente se debe cambiar dentro del database.yml el adapter de oracle a oracle_ enhanced\ndevelopment:\nadapter: oracle_enhanced\ndatabase: wiebia\nusername: scott\npassword: gotama\nUn gran aporte para los que trabajamos con oracle\n",
+  "articleBody": "Dentro del trabajo con Oracle y Rails, existen dos gemas que nos permiten conectar y manipular los datos estas son las gemas OCI-8 y active-record-oracle-adapter, pero existen algunos fallos dentro del Active-Record-Oracle-Adapter, uno lo indique en un post anterior, es por eso que en rayapps se escribe sobre como mejorar algunas cosas a este adaptador, es por eso que el autor de esos post publica ahora una gema que tiene incluido los patch y algunas mejoras esto es la gema activerecord-oracle_enhanced-adapter\nSu instalación es simple:\ngem install activerecord-oracle\\_enhanced-adapter Tiene muchas características que se describen aquí.\nPara su utilización simplemente se debe cambiar dentro del database.yml el adapter de oracle a oracle_ enhanced\ndevelopment: adapter: oracle\\_enhanced database: wiebia username: scott password: gotama Un gran aporte para los que trabajamos con oracle.\n",
   "wordCount" : "130",
   "inLanguage": "en",
   "datePublished": "2008-06-07T22:31:58Z",
@@ -199,15 +199,15 @@
   </header> 
   <div class="post-content"><p>Dentro del trabajo con Oracle y Rails, existen dos gemas que nos permiten conectar y manipular los datos estas son las gemas OCI-8 y active-record-oracle-adapter, pero existen algunos fallos dentro del Active-Record-Oracle-Adapter, uno lo <a href="http://carakan.com/index.php/2008/01/14/conectarse-de-rails-202-a-oracle/">indique en un post anterior</a>, es por eso que en <a href="http://blog.rayapps.com">rayapps</a> se escribe sobre como mejorar algunas cosas a este adaptador, es por eso que el autor de esos post publica ahora una gema que tiene incluido los patch y algunas mejoras esto es la gema activerecord-oracle_enhanced-adapter</p>
 <p>Su instalación es simple:</p>
-<p>gem install activerecord-oracle_enhanced-adapter</p>
-<p>Tiene muchas características que se describen <a href="http://blog.rayapps.com/2008/05/13/activerecord-oracle-enhanced-adapter/">aquí</a>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">gem install activerecord-oracle<span style="color:#ae81ff">\_</span>enhanced-adapter
+</code></pre></div><p>Tiene muchas características que se describen <a href="http://blog.rayapps.com/2008/05/13/activerecord-oracle-enhanced-adapter/">aquí</a>.</p>
 <p>Para su utilización simplemente se debe cambiar dentro del database.yml  el adapter de oracle a oracle_ enhanced</p>
-<p>development:</p>
-<p>adapter: oracle_enhanced</p>
-<p>database: wiebia</p>
-<p>username: scott</p>
-<p>password: gotama</p>
-<p>Un gran aporte para los que trabajamos con oracle</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#f92672">development</span>:
+  <span style="color:#f92672">adapter</span>: <span style="color:#ae81ff">oracle\_enhanced</span>
+  <span style="color:#f92672">database</span>: <span style="color:#ae81ff">wiebia</span>
+  <span style="color:#f92672">username</span>: <span style="color:#ae81ff">scott</span>
+  <span style="color:#f92672">password</span>: <span style="color:#ae81ff">gotama</span>
+</code></pre></div><p>Un gran aporte para los que trabajamos con oracle.</p>
 
 
   </div>
@@ -216,7 +216,6 @@
       <li><a href="https://carakan.net/tags/oracle/">oracle</a></li>
       <li><a href="https://carakan.net/tags/ruby/">ruby</a></li>
       <li><a href="https://carakan.net/tags/ruby-on-rails/">ruby on rails</a></li>
-      <li><a href="https://carakan.net/tags/web-2.0/">web 2.0</a></li>
     </ul>
 <nav class="paginav">
   <a class="prev" href="https://carakan.net/blog/2008/06/la-primera-red-social-boliviana/">
@@ -233,7 +232,7 @@
 
 <div class="share-buttons">
     <a target="_blank" rel="noopener noreferrer" aria-label="share Mejorar la conexión a Oracle con Rails 2.1 on twitter"
-        href="https://twitter.com/intent/tweet/?text=Mejorar%20la%20conexi%c3%b3n%20a%20Oracle%20con%20Rails%202.1&amp;url=https%3a%2f%2fcarakan.net%2fblog%2f2008%2f06%2fmejorar-la-conexi%25C3%25B3n-a-oracle-con-rails-2.1%2f&amp;hashtags=oracle%2coracle%2cruby%2crubyonrails%2crubyonrails%2cweb2.0">
+        href="https://twitter.com/intent/tweet/?text=Mejorar%20la%20conexi%c3%b3n%20a%20Oracle%20con%20Rails%202.1&amp;url=https%3a%2f%2fcarakan.net%2fblog%2f2008%2f06%2fmejorar-la-conexi%25C3%25B3n-a-oracle-con-rails-2.1%2f&amp;hashtags=oracle%2cruby%2crubyonrails">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />
