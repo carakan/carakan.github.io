@@ -16,10 +16,10 @@
       <pubDate>Wed, 11 Aug 2021 22:28:29 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2021/08/ruby-safe-operator-tip/</guid>
-      <description>In my current project I&amp;rsquo;m using (abusing) of the ruby safe operator &amp;amp;, that is a native implementation of the null pattern, for example, in a chain of messages:
+      <description>In my current work I&amp;rsquo;m using (abusing) of the ruby safe operator &amp;amp;,that is a native implementation of the null pattern, for example, in a chain of messages:
 user.billings.first.cost It could thrown an error when for example the billings of an user is empty and first returns a nil object and then nil.cost creates an Exception.
-with the safe operator &amp;amp; this avoid the error:
-user.billings.first&amp;amp;.cost # =&amp;gt; 5.3838 so in the last part using &amp;amp; is not causing an error because the safe operator logic is:</description>
+With the safe operator &amp;amp; this avoids the error:
+user.billings.first&amp;amp;.cost # =&amp;gt; 5.3838 So in the last part using &amp;amp; is not causing an error because the safe operator logic is:</description>
     </item>
     
     <item>
@@ -765,7 +765,7 @@ Via</description>
 Requerimientos:
  Cualquier versión de Windows Live Messenger Messenger Plus! Live  Una vez que tengamos instalado ambos programas nos dirigimos al menú Plus! del Messenger.
 
-Luego de que estemos en el recuadro de “Preferencias y opciones” nos dirigimos a “Scripts”. Hacemos clic en “Crear nuevo…” le ponemos el nombre que deseamos y aceptamos.</description>
+Luego de que estemos en el recuadro de “Preferencias y opciones” nos dirigimos a “Scripts”. Hacemos clic en “Crear nuevo…” le ponemos el nombre que deseamos y aceptamos.</description>
     </item>
     
     <item>
@@ -1771,7 +1771,8 @@ Visto en el blog de Carlos Blanco</description>
       <pubDate>Wed, 16 Jul 2008 18:54:27 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/07/mejorado-nuestro-sistema-de-blogs/</guid>
-      <description>Ahora si wiebia.com soporta la creación de blogs personalizados, con su propio subdominio, ademas se han realizado cambios en la estructura del sitio, asi que estas cordialmente invitado a crear tu blog. Ademas hemos añadido nuestros terminos de referencia.</description>
+      <description>Ahora si wiebia.com soporta la creación de blogs personalizados, con su propio subdominio, ademas se han realizado cambios en la estructura del sitio, asi que estas cordialmente invitado a crear tu blog.
+Ademas hemos añadido nuestros terminos de referencia.</description>
     </item>
     
     <item>
