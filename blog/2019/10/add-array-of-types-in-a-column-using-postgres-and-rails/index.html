@@ -22,7 +22,7 @@ class MyMigration &lt; ActiveRecord::Migration[5.2] def change # Defines a colum
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.87.0" />
+<meta name="generator" content="Hugo 0.88.1" />
 <meta property="og:title" content="Add Array of Types in a Column using Postgres and Rails" />
 <meta property="og:description" content="Recently I found a nice feature when defining a column on migrations, is to use array option in the creation of a column:
 class MyMigration &lt; ActiveRecord::Migration[5.2] def change # Defines a column that stores an array of a type. add_column :transactions, :categories, :string, array: true, default: [] end end With this on categories you can storage an array of values, it&rsquo;s useful instead of use jsonb because as json you may also need to create the key to store values (hash)." />

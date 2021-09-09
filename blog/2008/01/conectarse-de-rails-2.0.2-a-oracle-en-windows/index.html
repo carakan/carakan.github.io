@@ -21,7 +21,7 @@
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.87.0" />
+<meta name="generator" content="Hugo 0.88.1" />
 <meta property="og:title" content="Conectarse de rails 2.0.2 a oracle en windows" />
 <meta property="og:description" content="Recientemente estoy trabajando en un proyecto de contabilidad dentro del cual utiliza como base de datos a oracle 10g, para desarrollar la interfaz web veníamos planeando la utilización de ASP.NET, del cual recientemente obtuve la quinta estrella, pero se requería en el tiempo más corto posible y que además sea adaptable a cambios futuros y que además corriese dentro del sistema operativo Windows, asi que plantee como opción la utilización de Ruby on Rails como la plataforma de desarrollo, del cual aceptaron y se está desarrollando en tiempo record!" />
 <meta property="og:type" content="article" />
@@ -201,7 +201,7 @@
  nos adentramos dentro de la carpeta InstantRails y hacemos doble click en el ejecutable, listo eso es todo ya tenemos instalado Ruby on Rails. Ahora en la ventana que se abre una ventana pequeña en la cual pulsamos en la I y seleccionamos Rails Applications &gt; Open Ruby console window: <img loading="lazy" src="http://carakan.com/wp-content/uploads/2008/01/ventana-instantrails.JPG" alt="ventana-instantrails.JPG"  />
  Nos saldrá el intérprete de comandos cargando ruby. Ahora tenemos que bajar la librería ruby-OCI8 de <a href="http://rubyforge.org/projects/ruby-oci8/">http://rubyforge.org/projects/ruby-oci8/</a> seleccionamos la versión para win-32 (ruby-oci8-1.0.0-mswin32.rb) la guardamos en C:\InstantRails\rails_apps ahora en la consola abierta tecleamos:<code>ruby ruby-oci8-1.0.0-mswin32.rb(enter)</code>Nos preguntara si deseamos copier los siguientes archives y escribimos:```
 Yes(enter)</p>
-<pre><code>
+<pre tabindex="0"><code>
 ![consola.JPG](http://carakan.com/wp-content/uploads/2008/01/consola.JPG)
 
 Ya tenemos instalado la librería ruby-oci8, ahora tenemos que instalar el adaptador especifico para rails que para la versión 2 es llamado activerecord-oracle-adapter versión 1.0 y que por ahora no se encuentra dentro de los repositorios de rubyforge.org sino en los repositorios de rubyonrails.org asi que dentro de la consola tecleamos lo siguiente:```

@@ -23,7 +23,7 @@ CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCH
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.87.0" />
+<meta name="generator" content="Hugo 0.88.1" />
 <meta property="og:title" content="Llamar a procedimientos PL/SQL de Oracle con ruby-plsql" />
 <meta property="og:description" content="Buscando una manera mas sencilla de poder llamar a procedimientos almacenados de Oracle pl/sql, encontré la gema ruby-plsql que es una simple API para procedimientos almacenados en oracle, su uso es muy sencillo como el siguiente:
 Si tenemos el siguiente paquete:
@@ -222,7 +222,7 @@ CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCH
   <span style="color:#66d9ef">end</span>
 <span style="color:#66d9ef">end</span>
 </code></pre></div><p>Y para mostrar el dato, en la vista:</p>
-<pre><code class="language-erb" data-lang="erb"> &lt;%= @hola[:p_out] %&gt;
+<pre tabindex="0"><code class="language-erb" data-lang="erb"> &lt;%= @hola[:p_out] %&gt;
 </code></pre><p>Para poder instalar la gema solamente teclee:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh"><span style="color:#f92672">[</span>sudo<span style="color:#f92672">]</span> gem install ruby-plsql
 </code></pre></div><p>Realmente me facilito bastante el trabajo, me gusta el concepto y el uso que engloba la metaprogramacion.</p>

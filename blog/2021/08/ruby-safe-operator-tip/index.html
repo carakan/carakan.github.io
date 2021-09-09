@@ -10,7 +10,7 @@
 <meta name="description" content="In my current project I&rsquo;m using (abusing) of the ruby safe operator &amp;, that is a native implementation of the null pattern, for example, in a chain of messages:
 user.billings.first.cost It could thrown an error when for example the billings of an user is empty and first returns a nil object and then nil.cost creates an Exception.
 with the safe operator &amp; this avoid the error:
-user.billings.first&amp;.cost =&gt; 5.3838 so in the last part using &amp; is not causing an error because the safe operator logic is:">
+user.billings.first&amp;.cost # =&gt; 5.3838 so in the last part using &amp; is not causing an error because the safe operator logic is:">
 <meta name="author" content="Carlos Ramos">
 <link rel="canonical" href="https://carakan.net/blog/2021/08/ruby-safe-operator-tip/" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.35cd0f65a15cafa92372b8313deef5960aae04b90ad722f2bbf509eb0468137e.css" integrity="sha256-Nc0PZaFcr6kjcrgxPe71lgquBLkK1yLyu/UJ6wRoE34=" rel="preload stylesheet" as="style">
@@ -24,12 +24,12 @@ user.billings.first&amp;.cost =&gt; 5.3838 so in the last part using &amp; is no
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.87.0" />
+<meta name="generator" content="Hugo 0.88.1" />
 <meta property="og:title" content="Ruby Safe Operator Tip" />
 <meta property="og:description" content="In my current project I&rsquo;m using (abusing) of the ruby safe operator &amp;, that is a native implementation of the null pattern, for example, in a chain of messages:
 user.billings.first.cost It could thrown an error when for example the billings of an user is empty and first returns a nil object and then nil.cost creates an Exception.
 with the safe operator &amp; this avoid the error:
-user.billings.first&amp;.cost =&gt; 5.3838 so in the last part using &amp; is not causing an error because the safe operator logic is:" />
+user.billings.first&amp;.cost # =&gt; 5.3838 so in the last part using &amp; is not causing an error because the safe operator logic is:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://carakan.net/blog/2021/08/ruby-safe-operator-tip/" /><meta property="og:image" content="https://carakan.net/papermod-cover.png"/><meta property="article:section" content="blog" />
 <meta property="article:published_time" content="2021-08-11T22:28:29-04:00" />
@@ -42,7 +42,7 @@ user.billings.first&amp;.cost =&gt; 5.3838 so in the last part using &amp; is no
 <meta name="twitter:description" content="In my current project I&rsquo;m using (abusing) of the ruby safe operator &amp;, that is a native implementation of the null pattern, for example, in a chain of messages:
 user.billings.first.cost It could thrown an error when for example the billings of an user is empty and first returns a nil object and then nil.cost creates an Exception.
 with the safe operator &amp; this avoid the error:
-user.billings.first&amp;.cost =&gt; 5.3838 so in the last part using &amp; is not causing an error because the safe operator logic is:"/>
+user.billings.first&amp;.cost # =&gt; 5.3838 so in the last part using &amp; is not causing an error because the safe operator logic is:"/>
 
 
 <script type="application/ld+json">
@@ -71,12 +71,12 @@ user.billings.first&amp;.cost =&gt; 5.3838 so in the last part using &amp; is no
   "@type": "BlogPosting",
   "headline": "Ruby Safe Operator Tip",
   "name": "Ruby Safe Operator Tip",
-  "description": "In my current project I\u0026rsquo;m using (abusing) of the ruby safe operator \u0026amp;, that is a native implementation of the null pattern, for example, in a chain of messages:\nuser.billings.first.cost It could thrown an error when for example the billings of an user is empty and first returns a nil object and then nil.cost creates an Exception.\nwith the safe operator \u0026amp; this avoid the error:\nuser.billings.first\u0026amp;.cost =\u0026gt; 5.3838 so in the last part using \u0026amp; is not causing an error because the safe operator logic is:",
+  "description": "In my current project I\u0026rsquo;m using (abusing) of the ruby safe operator \u0026amp;, that is a native implementation of the null pattern, for example, in a chain of messages:\nuser.billings.first.cost It could thrown an error when for example the billings of an user is empty and first returns a nil object and then nil.cost creates an Exception.\nwith the safe operator \u0026amp; this avoid the error:\nuser.billings.first\u0026amp;.cost # =\u0026gt; 5.3838 so in the last part using \u0026amp; is not causing an error because the safe operator logic is:",
   "keywords": [
     "TIL", "ruby"
   ],
-  "articleBody": "In my current project I’m using (abusing) of the ruby safe operator \u0026, that is a native implementation of the null pattern, for example, in a chain of messages:\nuser.billings.first.cost It could thrown an error when for example the billings of an user is empty and first returns a nil object and then nil.cost creates an Exception.\nwith the safe operator \u0026 this avoid the error:\nuser.billings.first\u0026.cost = 5.3838 so in the last part using \u0026 is not causing an error because the safe operator logic is:\nnil\u0026.any_method # = nil at the internals Ruby is adding with metaprogramation any method into the class NilClass and that method only returns nil, is totally useful to avoid runtime errors.\nThe problem here is when need to compare values, especifically with the methods ending with ?:\nnil.nil? # returns: true nil\u0026.nil? # returns: nil nil.empty? # returns: true nil\u0026.empty? # returns: nil nil.blank? # returns: true nil\u0026.blank? # returns: nil nil.present? # returns: false nil\u0026.present? # returns: nil And evaluating nil in conditionals is false, for example this trivial code:\nif user.store.purchases.empty? send_email_suggesting_products end if the user does not have an store, nil.purchases throws an exception, avoiding the error the code looks like:\nif user.store\u0026.purchases\u0026.empty? send_email_suggesting_products end This code avoid the runtime error but add a new logic error, this code never send and email, that is because nil\u0026.empty? always return nil if the store is nil.\nTo avoid this behaviour only delete \u0026 at the end, the code is now:\nif user.store\u0026.purchases.empty? send_email_suggesting_products end now nil.empty? (in rails) returns the correct true and sends the email.\nConclusion Use safe operator \u0026 with confidence, but when is a method that compares values, in ruby world is any method ending with ? avoid the use of \u0026.\n",
-  "wordCount" : "294",
+  "articleBody": "In my current project I’m using (abusing) of the ruby safe operator \u0026, that is a native implementation of the null pattern, for example, in a chain of messages:\nuser.billings.first.cost It could thrown an error when for example the billings of an user is empty and first returns a nil object and then nil.cost creates an Exception.\nwith the safe operator \u0026 this avoid the error:\nuser.billings.first\u0026.cost # = 5.3838 so in the last part using \u0026 is not causing an error because the safe operator logic is:\nnil\u0026.any_method # = nil at the internals Ruby is adding with metaprogramation any method into the class NilClass and that method only returns nil, is totally useful to avoid runtime errors.\nThe problem here is when need to compare values, especifically with the methods ending with ?:\nnil.nil? # returns: true nil\u0026.nil? # returns: nil nil.empty? # returns: true nil\u0026.empty? # returns: nil nil.blank? # returns: true nil\u0026.blank? # returns: nil nil.present? # returns: false nil\u0026.present? # returns: nil And evaluating nil in conditionals is false, for example this trivial code:\nif user.store.purchases.empty? send_email_suggesting_products end if the user does not have an store, nil.purchases throws an exception, avoiding the error the code looks like:\nif user.store\u0026.purchases\u0026.empty? send_email_suggesting_products end This code avoid the runtime error but add a new logic error, this code never send and email, that is because nil\u0026.empty? always return nil if the store is nil.\nTo avoid this behaviour only delete \u0026 at the end, the code is now:\nif user.store\u0026.purchases.empty? send_email_suggesting_products end now nil.empty? (in rails) returns the correct true and sends the email.\nConclusion Use safe operator \u0026 with confidence, but when is a method that compares values, in ruby world is any method ending with ? avoid the use of \u0026.\n",
+  "wordCount" : "295",
   "inLanguage": "en",
   "datePublished": "2021-08-11T22:28:29-04:00",
   "dateModified": "2021-08-11T22:28:29-04:00",
@@ -213,8 +213,8 @@ for example, in a chain of messages:</p>
 </code></pre></div><p>It could thrown an error when for example the <code>billings</code> of an user is empty and <code>first</code> returns a nil object and then
 <code>nil.cost</code> creates an Exception.</p>
 <p>with the safe operator <code>&amp;</code> this avoid the error:</p>
-<pre><code>user.billings.first&amp;.cost =&gt; 5.3838
-</code></pre><p>so in the last part using <code>&amp;</code> is not causing an error because the safe operator logic is:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">user<span style="color:#f92672">.</span>billings<span style="color:#f92672">.</span>first<span style="color:#f92672">&amp;.</span>cost <span style="color:#75715e"># =&gt; 5.3838</span>
+</code></pre></div><p>so in the last part using <code>&amp;</code> is not causing an error because the safe operator logic is:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">nil</span><span style="color:#f92672">&amp;.</span>any_method <span style="color:#75715e"># =&gt; nil</span>
 </code></pre></div><p>at the internals Ruby is adding with metaprogramation any method into the class <code>NilClass</code>
 and that method <em>only</em> returns <code>nil</code>, is totally useful to avoid runtime errors.</p>

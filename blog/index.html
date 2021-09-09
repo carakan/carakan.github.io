@@ -19,7 +19,7 @@
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.87.0" />
+<meta name="generator" content="Hugo 0.88.1" />
 <link rel="alternate" type="application/rss+xml" href="https://carakan.net/blog/index.xml">
 <meta property="og:title" content="Blogs" />
 <meta property="og:description" content="Carlos Ramos, some histories and quick tips" />
@@ -157,7 +157,7 @@
     <p>In my current project I’m using (abusing) of the ruby safe operator &amp;, that is a native implementation of the null pattern, for example, in a chain of messages:
 user.billings.first.cost It could thrown an error when for example the billings of an user is empty and first returns a nil object and then nil.cost creates an Exception.
 with the safe operator &amp; this avoid the error:
-user.billings.first&amp;.cost =&gt; 5.3838 so in the last part using &amp; is not causing an error because the safe operator logic is:...</p>
+user.billings.first&amp;.cost # =&gt; 5.3838 so in the last part using &amp; is not causing an error because the safe operator logic is:...</p>
   </section>
   <footer class="entry-footer">August 11, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Ruby Safe Operator Tip" href="https://carakan.net/blog/2021/08/ruby-safe-operator-tip/"></a>

@@ -19,7 +19,7 @@
       <description>In my current project I&amp;rsquo;m using (abusing) of the ruby safe operator &amp;amp;, that is a native implementation of the null pattern, for example, in a chain of messages:
 user.billings.first.cost It could thrown an error when for example the billings of an user is empty and first returns a nil object and then nil.cost creates an Exception.
 with the safe operator &amp;amp; this avoid the error:
-user.billings.first&amp;amp;.cost =&amp;gt; 5.3838 so in the last part using &amp;amp; is not causing an error because the safe operator logic is:</description>
+user.billings.first&amp;amp;.cost # =&amp;gt; 5.3838 so in the last part using &amp;amp; is not causing an error because the safe operator logic is:</description>
     </item>
     
     <item>
@@ -228,7 +228,7 @@ ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :stu
       <pubDate>Tue, 27 Aug 2019 09:20:38 -0400</pubDate>
       
       <guid>https://carakan.net/about/</guid>
-      <description>I am a software computer scientist with a large experience solving problems using agile practices. I have been working with Ruby on Rails for about 12 years and is my framework of choice. Fell in love with the Ruby way of doing things and its syntax, also recently open-minded with functional programming and Elixir language and the ocean of knowledge with OTP. I am obsessed with writing elegant code and well tested; I am a big fan of DDD as my choice when need to take architect decisions.</description>
+      <description>I am a software computer scientist with a large experience solving problems using agile practices. I have been working with Ruby on Rails for about 12 years and is my framework of choice. Fell in love with the Ruby way of doing things and its syntax, also recently open-minded with functional programming and Elixir language and the ocean of knowledge with OTP. I am obsessed with writing elegant code and well tested; I am a big fan of DDD as my choice when take architectural decisions.</description>
     </item>
     
     <item>

@@ -19,7 +19,7 @@
       <description>In my current project I&amp;rsquo;m using (abusing) of the ruby safe operator &amp;amp;, that is a native implementation of the null pattern, for example, in a chain of messages:
 user.billings.first.cost It could thrown an error when for example the billings of an user is empty and first returns a nil object and then nil.cost creates an Exception.
 with the safe operator &amp;amp; this avoid the error:
-user.billings.first&amp;amp;.cost =&amp;gt; 5.3838 so in the last part using &amp;amp; is not causing an error because the safe operator logic is:</description>
+user.billings.first&amp;amp;.cost # =&amp;gt; 5.3838 so in the last part using &amp;amp; is not causing an error because the safe operator logic is:</description>
     </item>
     
     <item>
