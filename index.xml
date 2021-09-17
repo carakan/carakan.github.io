@@ -228,7 +228,7 @@ ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :stu
       <pubDate>Tue, 27 Aug 2019 09:20:38 -0400</pubDate>
       
       <guid>https://carakan.net/about/</guid>
-      <description>I am a software computer scientist with a large experience solving problems using agile practices. I have been working with Ruby on Rails for about 12 years and is my framework of choice. Fell in love with the Ruby way of doing things and its syntax, also recently open-minded with functional programming and Elixir language and the ocean of knowledge with OTP. I am obsessed with writing elegant code and well tested; I am a big fan of DDD as my choice when take architectural decisions.</description>
+      <description>I am a software computer scientist with a large experience solving problems using agile practices. I have been working with Ruby on Rails for about 12 years and is my framework of choice. Fell in love with the Ruby way of doing things and its syntax, also recently open-minded with functional programming and Elixir language and the ocean of knowledge with OTP. I am obsessed with writing elegant code and well tested; I am a big fan of DDD as my choice when take architectural decisions.</description>
     </item>
     
     <item>
