@@ -7,13 +7,12 @@
 <meta name="robots" content="index, follow">
 <title>Configuring Python3 on Neovim | carakan</title>
 <meta name="keywords" content="TIL, neovim" />
-<meta name="description" content="The idea is to configure correctly the support of python3 into neovim, let&rsquo;s start.
+<meta name="description" content="The idea of this post is to configure correctly the support of python3 on neovim, let&rsquo;s start.
 first this configuration is using macOS, by default python3 is installed on macOS and the default route of the executables are:
 which python3 # =&gt; /usr/bin/python3 which pip3 # =&gt; /usr/bin/pip3 And that&rsquo;s it! but normally if you are using homebrew you also installed the python3 using a formula, personally I do not to recomend that but it will work.">
 <meta name="author" content="Carlos Ramos">
 <link rel="canonical" href="https://carakan.net/blog/2020/04/configuring-python3-on-neovim/" />
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.35cd0f65a15cafa92372b8313deef5960aae04b90ad722f2bbf509eb0468137e.css" integrity="sha256-Nc0PZaFcr6kjcrgxPe71lgquBLkK1yLyu/UJ6wRoE34=" rel="preload stylesheet" as="style">
-<link rel="preload" href="https://carakan.net/img/avatar.jpg" as="image">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.6f60056d44d3f7eb69a4bc6c332b59960f3a995802bded244750232f33713c49.css" integrity="sha256-b2AFbUTT9&#43;tppLxsMytZlg86mVgCve0kR1AjLzNxPEk=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://carakan.net/favicon.ico">
@@ -23,9 +22,45 @@ which python3 # =&gt; /usr/bin/python3 which pip3 # =&gt; /usr/bin/pip3 And that
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.88.1" />
-<meta property="og:title" content="Configuring Python3 on Neovim" />
-<meta property="og:description" content="The idea is to configure correctly the support of python3 into neovim, let&rsquo;s start.
+<meta name="generator" content="Hugo 0.89.2" />
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Configuring Python3 on Neovim" />
+<meta property="og:description" content="The idea of this post is to configure correctly the support of python3 on neovim, let&rsquo;s start.
 first this configuration is using macOS, by default python3 is installed on macOS and the default route of the executables are:
 which python3 # =&gt; /usr/bin/python3 which pip3 # =&gt; /usr/bin/pip3 And that&rsquo;s it! but normally if you are using homebrew you also installed the python3 using a formula, personally I do not to recomend that but it will work." />
 <meta property="og:type" content="article" />
@@ -37,7 +72,7 @@ which python3 # =&gt; /usr/bin/python3 which pip3 # =&gt; /usr/bin/pip3 And that
 <meta name="twitter:image" content="https://carakan.net/papermod-cover.png"/>
 
 <meta name="twitter:title" content="Configuring Python3 on Neovim"/>
-<meta name="twitter:description" content="The idea is to configure correctly the support of python3 into neovim, let&rsquo;s start.
+<meta name="twitter:description" content="The idea of this post is to configure correctly the support of python3 on neovim, let&rsquo;s start.
 first this configuration is using macOS, by default python3 is installed on macOS and the default route of the executables are:
 which python3 # =&gt; /usr/bin/python3 which pip3 # =&gt; /usr/bin/pip3 And that&rsquo;s it! but normally if you are using homebrew you also installed the python3 using a formula, personally I do not to recomend that but it will work."/>
 
@@ -68,12 +103,12 @@ which python3 # =&gt; /usr/bin/python3 which pip3 # =&gt; /usr/bin/pip3 And that
   "@type": "BlogPosting",
   "headline": "Configuring Python3 on Neovim",
   "name": "Configuring Python3 on Neovim",
-  "description": "The idea is to configure correctly the support of python3 into neovim, let\u0026rsquo;s start.\nfirst this configuration is using macOS, by default python3 is installed on macOS and the default route of the executables are:\nwhich python3 # =\u0026gt; /usr/bin/python3 which pip3 # =\u0026gt; /usr/bin/pip3 And that\u0026rsquo;s it! but normally if you are using homebrew you also installed the python3 using a formula, personally I do not to recomend that but it will work.",
+  "description": "The idea of this post is to configure correctly the support of python3 on neovim, let\u0026rsquo;s start.\nfirst this configuration is using macOS, by default python3 is installed on macOS and the default route of the executables are:\nwhich python3 # =\u0026gt; /usr/bin/python3 which pip3 # =\u0026gt; /usr/bin/pip3 And that\u0026rsquo;s it! but normally if you are using homebrew you also installed the python3 using a formula, personally I do not to recomend that but it will work.",
   "keywords": [
     "TIL", "neovim"
   ],
-  "articleBody": "The idea is to configure correctly the support of python3 into neovim, let’s start.\nfirst this configuration is using macOS, by default python3 is installed on macOS and the default route of the executables are:\nwhich python3 # = /usr/bin/python3 which pip3 # = /usr/bin/pip3 And that’s it! but normally if you are using homebrew you also installed the python3 using a formula, personally I do not to recomend that but it will work. you need to know where is installed that two executables.\nNow we need to install the pynvim library:\npip3 install pynvim # to upgrade (you already installed pynvim) pip3 install --upgrade pynvim # uninstall old version of neovim-python (maybe need this) pip3 uninstall neovim Now we edit the vimrc to enable python3 and disable python2\n\" Disable python2 supportlet g:loaded_python_provider = 0\" Don't enable explicitly python3 it doesn't work and disables python3\" this only works for DISABLE, python3 is enabled by default\" let g:loaded_python3_provider = 1\" set the route of the executablelet g:python3_host_prog = '/usr/bin/python3'\" Explicitly tells to neovim use python3 when evaluate python codeset pyxversion=3to ensure is correctly configured python3 launch neovim and run this command:\n:checkhealthAnd check the python3 support.\nWith this steps your setup it will run fine python3 and disable python2, currently all current plugins supports python3.\n",
-  "wordCount" : "215",
+  "articleBody": "The idea of this post is to configure correctly the support of python3 on neovim, let’s start.\nfirst this configuration is using macOS, by default python3 is installed on macOS and the default route of the executables are:\nwhich python3 # = /usr/bin/python3 which pip3 # = /usr/bin/pip3 And that’s it! but normally if you are using homebrew you also installed the python3 using a formula, personally I do not to recomend that but it will work. you need to know where is installed that two executables.\nNow we need to install the pynvim library:\npip3 install pynvim # to upgrade (you already installed pynvim) pip3 install --upgrade pynvim # uninstall old version of neovim-python (maybe need this) pip3 uninstall neovim Now we edit the vimrc to enable python3 and disable python2\n\" Disable python2 supportlet g:loaded_python_provider = 0\" Don't enable explicitly python3 it doesn't work and disables python3\" this only works for DISABLE, python3 is enabled by default\" let g:loaded_python3_provider = 1\" set the route of the executablelet g:python3_host_prog = '/usr/bin/python3'\" Explicitly tells to neovim use python3 when evaluate python codeset pyxversion=3to ensure is correctly configured python3 launch neovim and run this command:\n:checkhealthAnd check the python3 support.\nWith this steps your setup it will run fine python3 and disable python2, currently all current plugins supports python3.\n",
+  "wordCount" : "218",
   "inLanguage": "en",
   "datePublished": "2020-04-27T15:17:47-04:00",
   "dateModified": "2020-04-27T15:17:47-04:00",
@@ -108,43 +143,6 @@ which python3 # =&gt; /usr/bin/python3 which pip3 # =&gt; /usr/bin/pip3 And that
     }
 
 </script>
-<noscript>
-    <style type="text/css">
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
-
-    </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: #1d1e20;
-                --entry: #2e2e33;
-                --primary: rgba(255, 255, 255, 0.84);
-                --secondary: rgba(255, 255, 255, 0.56);
-                --tertiary: rgba(255, 255, 255, 0.16);
-                --content: rgba(255, 255, 255, 0.74);
-                --hljs-bg: #2e2e33;
-                --code-bg: #37383e;
-                --border: #333;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
-</noscript>
 
 <header class="header">
     <nav class="nav">
@@ -200,10 +198,11 @@ which python3 # =&gt; /usr/bin/python3 which pip3 # =&gt; /usr/bin/pip3 And that
     <h1 class="post-title">
       Configuring Python3 on Neovim
     </h1>
-    <div class="post-meta">April 27, 2020&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos&nbsp;|&nbsp;<a href="https://github.com/carakan/blog/2020/configuring-python-on-neovim.md" rel="noopener noreferrer" target="_blank">.</a>
+    <div class="post-meta"><span title='2020-04-27 15:17:47 -0400 -04'>April 27, 2020</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos&nbsp;|&nbsp;<a href="https://github.com/carakan/blog/2020/configuring-python-on-neovim.md" rel="noopener noreferrer" target="_blank">.</a>
+
 </div>
   </header> 
-  <div class="post-content"><p>The idea is to configure correctly the support of python3 into neovim, let&rsquo;s start.</p>
+  <div class="post-content"><p>The idea of this post is to configure correctly the support of python3 on neovim, let&rsquo;s start.</p>
 <p>first this configuration is using macOS, by default python3 is installed on macOS
 and the default route of the executables are:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">which python3 <span style="color:#75715e"># =&gt; /usr/bin/python3</span>
@@ -241,6 +240,7 @@ current plugins supports python3.</p>
 
 
   </div>
+
   <footer class="post-footer">
     <ul class="post-tags">
       <li><a href="https://carakan.net/tags/til/">TIL</a></li>
@@ -258,6 +258,7 @@ current plugins supports python3.</p>
     <span>How to Install Older Versions of Ruby</span>
   </a>
 </nav>
+
 
 <div class="share-buttons">
     <a target="_blank" rel="noopener noreferrer" aria-label="share Configuring Python3 on Neovim on twitter"
@@ -307,7 +308,8 @@ current plugins supports python3.</p>
   </footer>
 </article>
     </main>
-    <footer class="footer">
+    
+<footer class="footer">
     <span>&copy; 2021 <a href="https://carakan.net/">carakan</a></span>
     <span>
         Powered by
@@ -315,19 +317,19 @@ current plugins supports python3.</p>
         <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
-    <button class="top-link" id="top-link" type="button" accesskey="g">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-            <path d="M12 6H0l6-6z" />
-        </svg>
-    </button>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
 </a>
 
 <script>
     let menu = document.getElementById('menu')
-    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-    menu.onscroll = function () {
-        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
     }
 
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {

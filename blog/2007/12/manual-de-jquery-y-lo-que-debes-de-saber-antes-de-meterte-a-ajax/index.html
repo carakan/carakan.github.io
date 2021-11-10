@@ -10,8 +10,7 @@
 <meta name="description" content="Hace bastante tiempo vi un tutorial de como aprender Html, css, javascript para el desarrollo de sitios web 2.0 denominados HTML Ya, CSS Ya, DHTML Ya , gracias a estos tutoriales, made in argentina, pude aprender diseño, javascript y primordialmente Ajax. Ahora vemos que dentro de estas iniciativas esta un completo tutorial de jquery. Suficiente para desarrollar cualquier solucion web profesionalmente. Le estoy echando un ojo a esto y complementando con lo poco que se de la libreria Prototype.">
 <meta name="author" content="Carlos Ramos">
 <link rel="canonical" href="https://carakan.net/blog/2007/12/manual-de-jquery-y-lo-que-debes-de-saber-antes-de-meterte-a-ajax/" />
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.35cd0f65a15cafa92372b8313deef5960aae04b90ad722f2bbf509eb0468137e.css" integrity="sha256-Nc0PZaFcr6kjcrgxPe71lgquBLkK1yLyu/UJ6wRoE34=" rel="preload stylesheet" as="style">
-<link rel="preload" href="https://carakan.net/img/avatar.jpg" as="image">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.6f60056d44d3f7eb69a4bc6c332b59960f3a995802bded244750232f33713c49.css" integrity="sha256-b2AFbUTT9&#43;tppLxsMytZlg86mVgCve0kR1AjLzNxPEk=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://carakan.net/favicon.ico">
@@ -21,8 +20,44 @@
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.88.1" />
-<meta property="og:title" content="Manual de Jquery y lo que debes de saber antes de meterte a Ajax" />
+<meta name="generator" content="Hugo 0.89.2" />
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Manual de Jquery y lo que debes de saber antes de meterte a Ajax" />
 <meta property="og:description" content="Hace bastante tiempo vi un tutorial de como aprender Html, css, javascript para el desarrollo de sitios web 2.0 denominados HTML Ya, CSS Ya, DHTML Ya , gracias a estos tutoriales, made in argentina, pude aprender diseño, javascript y primordialmente Ajax. Ahora vemos que dentro de estas iniciativas esta un completo tutorial de jquery. Suficiente para desarrollar cualquier solucion web profesionalmente. Le estoy echando un ojo a esto y complementando con lo poco que se de la libreria Prototype." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://carakan.net/blog/2007/12/manual-de-jquery-y-lo-que-debes-de-saber-antes-de-meterte-a-ajax/" /><meta property="og:image" content="https://carakan.net/papermod-cover.png"/><meta property="article:section" content="blog" />
@@ -102,43 +137,6 @@
     }
 
 </script>
-<noscript>
-    <style type="text/css">
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
-
-    </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: #1d1e20;
-                --entry: #2e2e33;
-                --primary: rgba(255, 255, 255, 0.84);
-                --secondary: rgba(255, 255, 255, 0.56);
-                --tertiary: rgba(255, 255, 255, 0.16);
-                --content: rgba(255, 255, 255, 0.74);
-                --hljs-bg: #2e2e33;
-                --code-bg: #37383e;
-                --border: #333;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
-</noscript>
 
 <header class="header">
     <nav class="nav">
@@ -194,13 +192,15 @@
     <h1 class="post-title">
       Manual de Jquery y lo que debes de saber antes de meterte a Ajax
     </h1>
-    <div class="post-meta">December 9, 2007&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos&nbsp;|&nbsp;<a href="https://github.com/carakan/blog/manual-de-jquery-y-lo-que-debes-de-saber-antes-de-meterte-a-ajax.md" rel="noopener noreferrer" target="_blank">.</a>
+    <div class="post-meta"><span title='2007-12-09 05:39:40 +0000 +0000'>December 9, 2007</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos&nbsp;|&nbsp;<a href="https://github.com/carakan/blog/manual-de-jquery-y-lo-que-debes-de-saber-antes-de-meterte-a-ajax.md" rel="noopener noreferrer" target="_blank">.</a>
+
 </div>
   </header> 
   <div class="post-content"><p>Hace bastante tiempo vi un tutorial de como aprender Html, css, javascript para el <a href="http://wiebia.com">desarrollo de sitios web 2.0</a> denominados <a href="http://www.htmlya.com.ar/">HTML Ya</a>, <a href="http://www.cssya.com.ar/">CSS Ya</a>, <a href="http://www.dhtmlya.com.ar/">DHTML Ya</a> , gracias a estos tutoriales, made in argentina, pude aprender diseño, javascript y primordialmente <a href="http://www.ajaxya.com.ar/">Ajax.</a> Ahora vemos que dentro de estas iniciativas esta un completo tutorial de <a href="http://jquery.com/">jquery.</a> Suficiente para desarrollar cualquier solucion web profesionalmente. Le estoy echando un ojo a esto y complementando con lo poco que se de la libreria <a href="http://www.prototypejs.org">Prototype.</a> <a href="http://www.javascriptya.com.ar/jquery/">Introducción a la librería jQuery (JavaScript)</a> <strong>Actualizacion</strong>: Gracias a este <a href="http://www.lacaraoscura.com/2007/11/15/jrails-plugin-para-rails-que-reemplaza-prototypescriptaculous-por-jquery/">sitio</a>, para los que trabajan con Ruby on rails, y ven a Prototype+Scriptaculus muy pesado, existe un plugin helper que nos permite trabajar como seda con esto de jquery, <a href="http://ennerchi.com/projects/jrails">jrails</a>. <strong>Actualizacion (28/08/2008):</strong> He desarrollado un <a href="http://www.carakan.info/2008/08/21/chat-no-obstrusivo-con-jquery/" title="chat con jquery no obtrusivo">Chat no obtrusivo con jquery</a>.</p>
 
 
   </div>
+
   <footer class="post-footer">
     <ul class="post-tags">
       <li><a href="https://carakan.net/tags/ajax/">ajax</a></li>
@@ -218,6 +218,7 @@
     <span>Realice mi predefensa de mi proyecto de grado</span>
   </a>
 </nav>
+
 
 <div class="share-buttons">
     <a target="_blank" rel="noopener noreferrer" aria-label="share Manual de Jquery y lo que debes de saber antes de meterte a Ajax on twitter"
@@ -267,7 +268,8 @@
   </footer>
 </article>
     </main>
-    <footer class="footer">
+    
+<footer class="footer">
     <span>&copy; 2021 <a href="https://carakan.net/">carakan</a></span>
     <span>
         Powered by
@@ -275,19 +277,19 @@
         <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
-    <button class="top-link" id="top-link" type="button" accesskey="g">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-            <path d="M12 6H0l6-6z" />
-        </svg>
-    </button>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
 </a>
 
 <script>
     let menu = document.getElementById('menu')
-    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-    menu.onscroll = function () {
-        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
     }
 
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {

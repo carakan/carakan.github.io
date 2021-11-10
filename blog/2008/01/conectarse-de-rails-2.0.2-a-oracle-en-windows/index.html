@@ -10,8 +10,7 @@
 <meta name="description" content="Recientemente estoy trabajando en un proyecto de contabilidad dentro del cual utiliza como base de datos a oracle 10g, para desarrollar la interfaz web veníamos planeando la utilización de ASP.NET, del cual recientemente obtuve la quinta estrella, pero se requería en el tiempo más corto posible y que además sea adaptable a cambios futuros y que además corriese dentro del sistema operativo Windows, asi que plantee como opción la utilización de Ruby on Rails como la plataforma de desarrollo, del cual aceptaron y se está desarrollando en tiempo record!">
 <meta name="author" content="Carlos Ramos">
 <link rel="canonical" href="https://carakan.net/blog/2008/01/conectarse-de-rails-2.0.2-a-oracle-en-windows/" />
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.35cd0f65a15cafa92372b8313deef5960aae04b90ad722f2bbf509eb0468137e.css" integrity="sha256-Nc0PZaFcr6kjcrgxPe71lgquBLkK1yLyu/UJ6wRoE34=" rel="preload stylesheet" as="style">
-<link rel="preload" href="https://carakan.net/img/avatar.jpg" as="image">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.6f60056d44d3f7eb69a4bc6c332b59960f3a995802bded244750232f33713c49.css" integrity="sha256-b2AFbUTT9&#43;tppLxsMytZlg86mVgCve0kR1AjLzNxPEk=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://carakan.net/favicon.ico">
@@ -21,8 +20,44 @@
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.88.1" />
-<meta property="og:title" content="Conectarse de rails 2.0.2 a oracle en windows" />
+<meta name="generator" content="Hugo 0.89.2" />
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Conectarse de rails 2.0.2 a oracle en windows" />
 <meta property="og:description" content="Recientemente estoy trabajando en un proyecto de contabilidad dentro del cual utiliza como base de datos a oracle 10g, para desarrollar la interfaz web veníamos planeando la utilización de ASP.NET, del cual recientemente obtuve la quinta estrella, pero se requería en el tiempo más corto posible y que además sea adaptable a cambios futuros y que además corriese dentro del sistema operativo Windows, asi que plantee como opción la utilización de Ruby on Rails como la plataforma de desarrollo, del cual aceptaron y se está desarrollando en tiempo record!" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://carakan.net/blog/2008/01/conectarse-de-rails-2.0.2-a-oracle-en-windows/" /><meta property="og:image" content="https://carakan.net/papermod-cover.png"/><meta property="article:section" content="blog" />
@@ -102,43 +137,6 @@
     }
 
 </script>
-<noscript>
-    <style type="text/css">
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
-
-    </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: #1d1e20;
-                --entry: #2e2e33;
-                --primary: rgba(255, 255, 255, 0.84);
-                --secondary: rgba(255, 255, 255, 0.56);
-                --tertiary: rgba(255, 255, 255, 0.16);
-                --content: rgba(255, 255, 255, 0.74);
-                --hljs-bg: #2e2e33;
-                --code-bg: #37383e;
-                --border: #333;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
-</noscript>
 
 <header class="header">
     <nav class="nav">
@@ -194,7 +192,8 @@
     <h1 class="post-title">
       Conectarse de rails 2.0.2 a oracle en windows
     </h1>
-    <div class="post-meta">January 14, 2008&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Carlos Ramos&nbsp;|&nbsp;<a href="https://github.com/carakan/blog/conectarse-de-rails-202-a-oracle.md" rel="noopener noreferrer" target="_blank">.</a>
+    <div class="post-meta"><span title='2008-01-14 22:16:57 +0000 +0000'>January 14, 2008</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Carlos Ramos&nbsp;|&nbsp;<a href="https://github.com/carakan/blog/conectarse-de-rails-202-a-oracle.md" rel="noopener noreferrer" target="_blank">.</a>
+
 </div>
   </header> 
   <div class="post-content"><p>Recientemente estoy trabajando en un proyecto de contabilidad dentro del cual utiliza como base de datos a oracle 10g, para desarrollar la interfaz web veníamos planeando la utilización de ASP.NET, del cual recientemente obtuve la quinta estrella, pero se requería en el tiempo más corto posible y que además sea adaptable a cambios futuros y que además corriese dentro del sistema operativo Windows, asi que plantee como opción la utilización de Ruby on Rails como la plataforma de desarrollo, del cual aceptaron y se está desarrollando en tiempo record!!! Bueno en este tutorial explicare la instalación de Rails + adaptador de oracle para conectarse a oracle + un parche para que corra satisfactoriamente las migraciones. Comenzamos. Para el desarrollo con Rails dentro de Windows debemos de bajar el paquete InstantRails que contiene ya instalados Ruby 1.8.6 + Rails 2.0.2 Los bajamos y descomprimimos dentro de la unidad c: <img loading="lazy" src="http://carakan.com/wp-content/uploads/2008/01/instant-rails.JPG" alt="instant-rails.JPG"  />
@@ -216,6 +215,7 @@ gem install activerecord-oracle-adapter –source [http://gems.rubyonrails.org](
 ```Con respecto de oracle debemos de cerciorarnos que estén corriendo los servicios de listener y de la base de datos. Bien hasta aquí es el tutorial, espero que les funcione, sino pásenme las preguntas.</code></pre>
 
   </div>
+
   <footer class="post-footer">
     <ul class="post-tags">
       <li><a href="https://carakan.net/tags/netbeans/">netbeans</a></li>
@@ -234,6 +234,7 @@ gem install activerecord-oracle-adapter –source [http://gems.rubyonrails.org](
     <span>Salió a la venta el periódico crónica</span>
   </a>
 </nav>
+
 
 <div class="share-buttons">
     <a target="_blank" rel="noopener noreferrer" aria-label="share Conectarse de rails 2.0.2 a oracle en windows on twitter"
@@ -283,7 +284,8 @@ gem install activerecord-oracle-adapter –source [http://gems.rubyonrails.org](
   </footer>
 </article>
     </main>
-    <footer class="footer">
+    
+<footer class="footer">
     <span>&copy; 2021 <a href="https://carakan.net/">carakan</a></span>
     <span>
         Powered by
@@ -291,19 +293,19 @@ gem install activerecord-oracle-adapter –source [http://gems.rubyonrails.org](
         <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
-    <button class="top-link" id="top-link" type="button" accesskey="g">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-            <path d="M12 6H0l6-6z" />
-        </svg>
-    </button>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
 </a>
 
 <script>
     let menu = document.getElementById('menu')
-    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-    menu.onscroll = function () {
-        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
     }
 
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {

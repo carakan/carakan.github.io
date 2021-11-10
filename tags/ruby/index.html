@@ -10,8 +10,7 @@
 <meta name="description" content="Carlos Ramos, some histories and quick tips">
 <meta name="author" content="Carlos Ramos">
 <link rel="canonical" href="https://carakan.net/tags/ruby/" />
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.35cd0f65a15cafa92372b8313deef5960aae04b90ad722f2bbf509eb0468137e.css" integrity="sha256-Nc0PZaFcr6kjcrgxPe71lgquBLkK1yLyu/UJ6wRoE34=" rel="preload stylesheet" as="style">
-<link rel="preload" href="https://carakan.net/img/avatar.jpg" as="image">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.6f60056d44d3f7eb69a4bc6c332b59960f3a995802bded244750232f33713c49.css" integrity="sha256-b2AFbUTT9&#43;tppLxsMytZlg86mVgCve0kR1AjLzNxPEk=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://carakan.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://carakan.net/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://carakan.net/favicon-32x32.png">
@@ -19,9 +18,45 @@
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.88.1" />
+<meta name="generator" content="Hugo 0.89.2" />
 <link rel="alternate" type="application/rss+xml" href="https://carakan.net/tags/ruby/index.xml">
-<meta property="og:title" content="ruby" />
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="ruby" />
 <meta property="og:description" content="Carlos Ramos, some histories and quick tips" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://carakan.net/tags/ruby/" /><meta property="og:image" content="https://carakan.net/papermod-cover.png"/>
@@ -45,43 +80,6 @@
     }
 
 </script>
-<noscript>
-    <style type="text/css">
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
-
-    </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: #1d1e20;
-                --entry: #2e2e33;
-                --primary: rgba(255, 255, 255, 0.84);
-                --secondary: rgba(255, 255, 255, 0.56);
-                --tertiary: rgba(255, 255, 255, 0.16);
-                --content: rgba(255, 255, 255, 0.74);
-                --hljs-bg: #2e2e33;
-                --code-bg: #37383e;
-                --border: #333;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
-</noscript>
 
 <header class="header">
     <nav class="nav">
@@ -136,148 +134,160 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>Ruby Safe Operator Tip</h2>
+    <h2>Ruby Safe Operator Tip
+    </h2>
   </header>
   <section class="entry-content">
-    <p>In my current work I’m using (abusing) of the ruby safe operator &amp;,that is a native implementation of the null pattern, for example, in a chain of messages:
-user.billings.first.cost It could thrown an error when for example the billings of an user is empty and first returns a nil object and then nil.cost creates an Exception.
+    <p>In my current work, I’m using (abusing) of the ruby safe operator &amp;, which is a native implementation of the null pattern, for example, in a chain of messages:
+user.billings.first.cost It could be thrown an error when for example the billings of a user is empty and first returns a nil object and then nil.cost creates an Exception.
 With the safe operator &amp; this avoids the error:
-user.billings.first&amp;.cost # =&gt; 5.3838 So in the last part using &amp; is not causing an error because the safe operator logic is:...</p>
+user.billings.first&amp;.cost # =&gt; 5....</p>
   </section>
-  <footer class="entry-footer">August 11, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <footer class="entry-footer"><span title='2021-08-11 22:28:29 -0400 -04'>August 11, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Ruby Safe Operator Tip" href="https://carakan.net/blog/2021/08/ruby-safe-operator-tip/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>Install Ancient Gems ffi</h2>
+    <h2>Install Ancient Gems ffi
+    </h2>
   </header>
   <section class="entry-content">
     <p>To install a ancient ffi (&lt;= 1.9.18) in Catalina MacOS or newer OS we need to use this command:
 gem install ffi -v &#39;1.9.18&#39; -- --with-cflags=&#34;-Wno-error=implicit-function-declaration&#34; </p>
   </section>
-  <footer class="entry-footer">November 25, 2020&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <footer class="entry-footer"><span title='2020-11-25 12:24:29 -0400 -04'>November 25, 2020</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Install Ancient Gems ffi" href="https://carakan.net/blog/2020/11/install-ancient-gems-ffi/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>How to Install Mariadb Mysql2 Driver Ruby</h2>
+    <h2>How to Install Mariadb Mysql2 Driver Ruby
+    </h2>
   </header>
   <section class="entry-content">
     <p>In a project I had troubles triying to install mysql2 gem with a older version of mariadb installed via homebrew.
 the solution is to send the path of the installation.
 gem install mysql2 -- --with-mysql-config=$(brew --prefix mariadb@10.2)/bin/mysql_config </p>
   </section>
-  <footer class="entry-footer">August 19, 2020&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <footer class="entry-footer"><span title='2020-08-19 20:41:10 -0400 -04'>August 19, 2020</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to How to Install Mariadb Mysql2 Driver Ruby" href="https://carakan.net/blog/2020/08/how-to-install-mariadb-mysql2-driver-ruby/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>How to Install Older Versions of Ruby</h2>
+    <h2>How to Install Older Versions of Ruby
+    </h2>
   </header>
   <section class="entry-content">
     <p>The problem is with RVM and renv and not with asdf, so my first suggestion is to change to asdf
 if you keep with RVM: install older versions of ruby &lt;2.3 with support for openssl 1.0x you can follow these instructions:
 # before you install command line tools and gcc xcode-select --install brew install gcc # installation procedure cd /usr/local/src curl -O https://www.openssl.org/source/openssl-1.0.2t.tar.gz tar xzf openssl-1.0.2t.tar.gz cd openssl-1.0.2t ./Configure darwin64-x86_64-cc make sudo make install export LDFLAGS=“-L/usr/local/ssl/lib” export CPPFLAGS=“-I/usr/local/ssl/include” export PKG_CONFIG_PATH=“/usr/local/ssl/lib/pkgconfig” rvm reinstall 2....</p>
   </section>
-  <footer class="entry-footer">January 24, 2020&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <footer class="entry-footer"><span title='2020-01-24 15:46:05 -0400 -04'>January 24, 2020</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to How to Install Older Versions of Ruby" href="https://carakan.net/blog/2020/01/how-to-install-older-versions-of-ruby/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>install passenger 5, ruby 2.x, nginx 1.10.x and enable HTTP/2</h2>
+    <h2>install passenger 5, ruby 2.x, nginx 1.10.x and enable HTTP/2
+    </h2>
   </header>
   <section class="entry-content">
     <p>Recently I found that passenger in the last version now uses nginx 1.10.x by default, as you knows since nginx 1.9.x nginx enables support for http2 but the 1.9.x on nginx is beta and when released the line 1.10 is production ready. The process will be describe for ubuntu 14.4 and 16.4:
 Install Dependencies apt-get update -y apt-get upgrade -y apt-get install sudo -y install the required packages:
 sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate python-docutils pkg-config cmake nodejs git-core Install Ruby For production sites is a MUST install from sources without using any versions managers like RVM, RENV or whatever this is why leads to hard to diagnose problems....</p>
   </section>
-  <footer class="entry-footer">June 24, 2016&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <footer class="entry-footer"><span title='2016-06-24 17:27:00 +0000 +0000'>June 24, 2016</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to install passenger 5, ruby 2.x, nginx 1.10.x and enable HTTP/2" href="https://carakan.net/blog/2016/06/install-passenger-5-ruby-2.x-nginx-1.10.x-and-enable-http/2/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>great plugin for share session in rails apps between wordpress blog</h2>
+    <h2>great plugin for share session in rails apps between wordpress blog
+    </h2>
   </header>
   <section class="entry-content">
     <p>In one project, the client wants to share same user credentials between rails app to wordpress site, I’ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:
 rails login  this plugin only need a small API for enable login i created this code in model user:
 def wp_json { user: { email: self....</p>
   </section>
-  <footer class="entry-footer">March 13, 2015&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <footer class="entry-footer"><span title='2015-03-13 01:11:09 +0000 +0000'>March 13, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to great plugin for share session in rails apps between wordpress blog" href="https://carakan.net/blog/2015/03/great-plugin-for-share-session-in-rails-apps-between-wordpress-blog/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>Revista Atix numero 7 liberado.</h2>
+    <h2>Revista Atix numero 7 liberado.
+    </h2>
   </header>
   <section class="entry-content">
     <p>La revista sobre el software libre: Atix, lanzo la séptima entrega de su revista, que apuesta por el conocimiento libre y que para este numero lo entrega con el siguiente lema:
  Un nuevo año…. un nuevo reto, pon tu mejor empeño para lograr tu reto de este año.  cuenta con la tercera parte del desarrollo de una aplicación de gestión de artículos ATIX, en Ruby on Rails, en la que explico como reutilizar código a través de plugins o gemas, utilizar el repositorio de gemas de Git Hub y manipular la gema Will_paginate....</p>
   </section>
-  <footer class="entry-footer">January 27, 2009&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <footer class="entry-footer"><span title='2009-01-27 15:36:32 +0000 +0000'>January 27, 2009</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Revista Atix numero 7 liberado." href="https://carakan.net/blog/2009/01/revista-atix-numero-7-liberado./"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>Revista Atix numero 6 liberado.</h2>
+    <h2>Revista Atix numero 6 liberado.
+    </h2>
   </header>
   <section class="entry-content">
     <p>La revista sobre el software libre: Atix, lanzo la sexta entrega de su revista, que apuesta por el conocimiento libre y que para este numero lo entrega con el siguiente lema:
  El ser todos iguales, nos llevará a tener y vivir un futuro mejor.
  Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicación en Ruby on Rails, con el cual hablo sobre la nueva versión de Rails la 2....</p>
   </section>
-  <footer class="entry-footer">December 17, 2008&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <footer class="entry-footer"><span title='2008-12-17 21:02:17 +0000 +0000'>December 17, 2008</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Revista Atix numero 6 liberado." href="https://carakan.net/blog/2008/12/revista-atix-numero-6-liberado./"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>Nueva imagen de Bolivia On Rails y tema wp español</h2>
+    <h2>Nueva imagen de Bolivia On Rails y tema wp español
+    </h2>
   </header>
   <section class="entry-content">
     <p>Este fin de semana estuve trabajando en la nueva imagen de Bolivia on Rails, un sitio dedicado al desarrollo de ruby on rails dentro y fuera de Bolivia, lo deje un poco estancado este proyecto pero gracias a la colaboración de Boris Barroso estoy retomando el camino y además quiero informar de que ahora los tutoriales o cosas relacionadas con Rails serán publicadas en el Sitio de Bolivia on rails. [caption id=“attachment_420” align=“alignnone” width=“563” caption=“Bolivia on rails”][/caption] Otra noticia que se hará costumbre es que pongo a disposición el thema en Wordpress para que puedan utilizarlo en sus propios blogs, es un tema oscuro que me gusta por la combinación de colores, lo traduje y ahora lo comparto además que dejo el fuente de la cabecera en photoshop para que puedan editarlo, así que disfrútenlo....</p>
   </section>
-  <footer class="entry-footer">September 22, 2008&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <footer class="entry-footer"><span title='2008-09-22 15:07:58 +0000 +0000'>September 22, 2008</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Nueva imagen de Bolivia On Rails y tema wp español" href="https://carakan.net/blog/2008/09/nueva-imagen-de-bolivia-on-rails-y-tema-wp-espa%C3%B1ol/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>Nueva version del interprete ruby para entornos windows</h2>
+    <h2>Nueva version del interprete ruby para entornos windows
+    </h2>
   </header>
   <section class="entry-content">
     <p>Gracias a Favio Akita me entere de una nueva version del interprete de Ruby para los entornos windows, tengo algunos proyectos corriendo sobre esta plataforma, esta nueva version esta siendo desarrollado por Luis Lavena, el cual es 20% mas veloz, he realizado las pruebas y vi que tiene algunos defectos menores pero logre instalar rails 2.1.0 y las gemas mas importantes para la puesta en producción y comparto para que vean lo bien que se pinta esta nueva versión....</p>
   </section>
-  <footer class="entry-footer">August 7, 2008&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <footer class="entry-footer"><span title='2008-08-07 14:59:08 +0000 +0000'>August 7, 2008</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Nueva version del interprete ruby para entornos windows" href="https://carakan.net/blog/2008/08/nueva-version-del-interprete-ruby-para-entornos-windows/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>Problema de ImageMagick (rmagick) y passenger (mod_rails)</h2>
+    <h2>Problema de ImageMagick (rmagick) y passenger (mod_rails)
+    </h2>
   </header>
   <section class="entry-content">
     <p>Recientemente en uno de mis proyectos estamos utilizando el plugin para subir archivos paperclip tutorial, este plugin tiene características de re-dimension de imágenes pero dentro de nuestro servidor web no funcionaba, lo que nos parecio bastante raro, buscando por internet encontré que el problema se debía al momento de usar mod_rails, el cual no cargaba las librerías necesarias, en este caso a ImageMagick, aqui el mismo problema pero para oracle y algunas de sus librerias....</p>
   </section>
-  <footer class="entry-footer">August 6, 2008&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <footer class="entry-footer"><span title='2008-08-06 18:59:05 +0000 +0000'>August 6, 2008</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Problema de ImageMagick (rmagick) y passenger (mod_rails)" href="https://carakan.net/blog/2008/08/problema-de-imagemagick-rmagick-y-passenger-mod_rails/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>Nace Bolivia on Rails</h2>
+    <h2>Nace Bolivia on Rails
+    </h2>
   </header>
   <section class="entry-content">
     <p>Si hoy 14 de julio nace oficialmente el sitio de desarrollo de Ruby on Rails en Bolivia, nos vamos a enfocar en un principio la facilidad y elegancia al momento de desarrollar en este fabuloso framework web. Esperamos sus comentarios.</p>
   </section>
-  <footer class="entry-footer">July 14, 2008&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <footer class="entry-footer"><span title='2008-07-14 23:47:19 +0000 +0000'>July 14, 2008</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Nace Bolivia on Rails" href="https://carakan.net/blog/2008/07/nace-bolivia-on-rails/"></a>
 </article>
 <footer class="page-footer">
@@ -286,7 +296,8 @@ def wp_json { user: { email: self....</p>
   </nav>
 </footer>
     </main>
-    <footer class="footer">
+    
+<footer class="footer">
     <span>&copy; 2021 <a href="https://carakan.net/">carakan</a></span>
     <span>
         Powered by
@@ -294,19 +305,19 @@ def wp_json { user: { email: self....</p>
         <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
-    <button class="top-link" id="top-link" type="button" accesskey="g">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-            <path d="M12 6H0l6-6z" />
-        </svg>
-    </button>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
 </a>
 
 <script>
     let menu = document.getElementById('menu')
-    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-    menu.onscroll = function () {
-        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
     }
 
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {

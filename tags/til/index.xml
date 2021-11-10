@@ -16,10 +16,10 @@
       <pubDate>Wed, 11 Aug 2021 22:28:29 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2021/08/ruby-safe-operator-tip/</guid>
-      <description>In my current work I&amp;rsquo;m using (abusing) of the ruby safe operator &amp;amp;,that is a native implementation of the null pattern, for example, in a chain of messages:
-user.billings.first.cost It could thrown an error when for example the billings of an user is empty and first returns a nil object and then nil.cost creates an Exception.
+      <description>In my current work, I&amp;rsquo;m using (abusing) of the ruby safe operator &amp;amp;, which is a native implementation of the null pattern, for example, in a chain of messages:
+user.billings.first.cost It could be thrown an error when for example the billings of a user is empty and first returns a nil object and then nil.cost creates an Exception.
 With the safe operator &amp;amp; this avoids the error:
-user.billings.first&amp;amp;.cost # =&amp;gt; 5.3838 So in the last part using &amp;amp; is not causing an error because the safe operator logic is:</description>
+user.billings.first&amp;amp;.cost # =&amp;gt; 5.</description>
     </item>
     
     <item>
@@ -93,7 +93,7 @@ gem install mysql2 -- --with-mysql-config=$(brew --prefix mariadb@10.2)/bin/mysq
       <pubDate>Mon, 27 Apr 2020 15:17:47 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2020/04/configuring-python3-on-neovim/</guid>
-      <description>The idea is to configure correctly the support of python3 into neovim, let&amp;rsquo;s start.
+      <description>The idea of this post is to configure correctly the support of python3 on neovim, let&amp;rsquo;s start.
 first this configuration is using macOS, by default python3 is installed on macOS and the default route of the executables are:
 which python3 # =&amp;gt; /usr/bin/python3 which pip3 # =&amp;gt; /usr/bin/pip3 And that&amp;rsquo;s it! but normally if you are using homebrew you also installed the python3 using a formula, personally I do not to recomend that but it will work.</description>
     </item>
@@ -172,7 +172,7 @@ asdf list-all erlang asdf install erlang 22.</description>
       <guid>https://carakan.net/blog/2019/09/enable-prettier-in-ember-templates/</guid>
       <description>Prettier is an opinionated code formatter, has built-in a lot of code formatters for languages, one of that is for handlebars (glimmer/mustache) but is hidden by default, to enable we only need to do this:
 create a .prettierrc in your home (~) with :
-{ &amp;#34;overrides&amp;#34;: [ { &amp;#34;files&amp;#34;: &amp;#34;*.hbs&amp;#34;, &amp;#34;options&amp;#34;: { &amp;#34;parser&amp;#34;: &amp;#34;glimmer&amp;#34; // ... other custom configurations } } ] } and now you can use in your favorite editor or simple use directly with the CLI, for example:</description>
+{ &amp;#34;overrides&amp;#34;: [ { &amp;#34;files&amp;#34;: &amp;#34;*.hbs&amp;#34;, &amp;#34;options&amp;#34;: { &amp;#34;parser&amp;#34;: &amp;#34;glimmer&amp;#34; // ... other custom configurations  } } ] } and now you can use in your favorite editor or simple use directly with the CLI, for example:</description>
     </item>
     
     <item>

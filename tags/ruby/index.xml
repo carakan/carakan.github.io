@@ -16,10 +16,10 @@
       <pubDate>Wed, 11 Aug 2021 22:28:29 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2021/08/ruby-safe-operator-tip/</guid>
-      <description>In my current work I&amp;rsquo;m using (abusing) of the ruby safe operator &amp;amp;,that is a native implementation of the null pattern, for example, in a chain of messages:
-user.billings.first.cost It could thrown an error when for example the billings of an user is empty and first returns a nil object and then nil.cost creates an Exception.
+      <description>In my current work, I&amp;rsquo;m using (abusing) of the ruby safe operator &amp;amp;, which is a native implementation of the null pattern, for example, in a chain of messages:
+user.billings.first.cost It could be thrown an error when for example the billings of a user is empty and first returns a nil object and then nil.cost creates an Exception.
 With the safe operator &amp;amp; this avoids the error:
-user.billings.first&amp;amp;.cost # =&amp;gt; 5.3838 So in the last part using &amp;amp; is not causing an error because the safe operator logic is:</description>
+user.billings.first&amp;amp;.cost # =&amp;gt; 5.</description>
     </item>
     
     <item>

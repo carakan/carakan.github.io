@@ -28,7 +28,7 @@ It is very important to add -e RAILS_ENV=test to send envinroment variables and 
       <pubDate>Mon, 27 Apr 2020 15:17:47 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2020/04/configuring-python3-on-neovim/</guid>
-      <description>The idea is to configure correctly the support of python3 into neovim, let&amp;rsquo;s start.
+      <description>The idea of this post is to configure correctly the support of python3 on neovim, let&amp;rsquo;s start.
 first this configuration is using macOS, by default python3 is installed on macOS and the default route of the executables are:
 which python3 # =&amp;gt; /usr/bin/python3 which pip3 # =&amp;gt; /usr/bin/pip3 And that&amp;rsquo;s it! but normally if you are using homebrew you also installed the python3 using a formula, personally I do not to recomend that but it will work.</description>
     </item>
