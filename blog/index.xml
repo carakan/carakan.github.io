@@ -106,7 +106,7 @@ which python3 # =&amp;gt; /usr/bin/python3 which pip3 # =&amp;gt; /usr/bin/pip3 
       <guid>https://carakan.net/blog/2020/01/how-to-install-older-versions-of-ruby/</guid>
       <description>The problem is with RVM and renv and not with asdf, so my first suggestion is to change to asdf
 if you keep with RVM: install older versions of ruby &amp;lt;2.3 with support for openssl 1.0x you can follow these instructions:
-# before you install command line tools and gcc xcode-select --install brew install gcc # installation procedure cd /usr/local/src curl -O https://www.openssl.org/source/openssl-1.0.2t.tar.gz tar xzf openssl-1.0.2t.tar.gz cd openssl-1.0.2t ./Configure darwin64-x86_64-cc make sudo make install export LDFLAGS=“-L/usr/local/ssl/lib” export CPPFLAGS=“-I/usr/local/ssl/include” export PKG_CONFIG_PATH=“/usr/local/ssl/lib/pkgconfig” rvm reinstall 2.</description>
+# before you install command line tools and gcc xcode-select --install brew install gcc  # installation procedure cd /usr/local/src curl -O https://www.openssl.org/source/openssl-1.0.2t.tar.gz tar xzf openssl-1.0.2t.tar.gz cd openssl-1.0.2t ./Configure darwin64-x86_64-cc make sudo make install export LDFLAGS=“-L/usr/local/ssl/lib” export CPPFLAGS=“-I/usr/local/ssl/include” export PKG_CONFIG_PATH=“/usr/local/ssl/lib/pkgconfig” rvm reinstall 2.</description>
     </item>
     
     <item>
@@ -140,7 +140,7 @@ cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat
       
       <guid>https://carakan.net/blog/2019/10/add-array-of-types-in-a-column-using-postgres-and-rails/</guid>
       <description>Recently I found a nice feature when defining a column on migrations, is to use array option in the creation of a column:
-class MyMigration &amp;lt; ActiveRecord::Migration[5.2] def change # Defines a column that stores an array of a type. add_column :transactions, :categories, :string, array: true, default: [] end end With this on categories you can storage an array of values, it&amp;rsquo;s useful instead of use jsonb because as json you may also need to create the key to store values (hash).</description>
+class MyMigration &amp;lt; ActiveRecord::Migration[5.2]  def change  # Defines a column that stores an array of a type.  add_column :transactions, :categories, :string, array: true, default: []  end end With this on categories you can storage an array of values, it&amp;rsquo;s useful instead of use jsonb because as json you may also need to create the key to store values (hash).</description>
     </item>
     
     <item>
@@ -184,7 +184,7 @@ asdf list-all erlang asdf install erlang 22.</description>
       <guid>https://carakan.net/blog/2019/09/enable-prettier-in-ember-templates/</guid>
       <description>Prettier is an opinionated code formatter, has built-in a lot of code formatters for languages, one of that is for handlebars (glimmer/mustache) but is hidden by default, to enable we only need to do this:
 create a .prettierrc in your home (~) with :
-{ &amp;#34;overrides&amp;#34;: [ { &amp;#34;files&amp;#34;: &amp;#34;*.hbs&amp;#34;, &amp;#34;options&amp;#34;: { &amp;#34;parser&amp;#34;: &amp;#34;glimmer&amp;#34; // ... other custom configurations  } } ] } and now you can use in your favorite editor or simple use directly with the CLI, for example:</description>
+{  &amp;#34;overrides&amp;#34;: [  {  &amp;#34;files&amp;#34;: &amp;#34;*.hbs&amp;#34;,  &amp;#34;options&amp;#34;: {  &amp;#34;parser&amp;#34;: &amp;#34;glimmer&amp;#34;  // ... other custom configurations  }  }  ] } and now you can use in your favorite editor or simple use directly with the CLI, for example:</description>
     </item>
     
     <item>
@@ -219,7 +219,7 @@ direnv allow . And that&amp;rsquo;s it! you don&amp;rsquo;t need a custom soluti
       
       <guid>https://carakan.net/blog/2019/09/create-a-form-with-two-actions-on-activeadmin/</guid>
       <description>In a project that already using Activeadmin I had the requeriment of modify the actual form to create a student, but without validating that, so the solution was create into the model of active admin form and declare the form with two actions, one with the clasical behaviour and other when passed the params[:managed] with a custom route
-ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :student, as: :select, collection: User.</description>
+ActiveAdmin.register InvestmentItem do  # ..  form do |f|  f.inputs do  f.</description>
     </item>
     
     <item>
@@ -320,7 +320,7 @@ happy blogging.</description>
       <guid>https://carakan.net/blog/2015/03/great-plugin-for-share-session-in-rails-apps-between-wordpress-blog/</guid>
       <description>In one project, the client wants to share same user credentials between rails app to wordpress site, I&amp;rsquo;ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:
 rails login  this plugin only need a small API for enable login i created this code in model user:
-def wp_json { user: { email: self.</description>
+def wp_json  {  user: {  email: self.</description>
     </item>
     
     <item>
@@ -444,7 +444,7 @@ Aprovechar las oportunidades.</description>
       <pubDate>Wed, 13 Oct 2010 01:56:35 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2010/10/facebook-script-for-select-all-friends/</guid>
-      <description>This code is like to fs.select_all() javascript:elms=document.getElementById(&amp;lsquo;friends&amp;rsquo;).getElementsByTagName(&amp;lsquo;li&amp;rsquo;);for(var fid in elms){if(typeof elms[fid] === &amp;lsquo;object&amp;rsquo; &amp;amp;&amp;amp; elms[fid].className != &amp;ldquo;disabled&amp;rdquo;){fs.click(elms[fid]);}} Only select the new friends whitout invites. Enjoy It!!</description>
+      <description>This code is like to fs.select_all() javascript:elms=document.getElementById(&amp;lsquo;friends&amp;rsquo;).getElementsByTagName(&amp;rsquo;li&amp;rsquo;);for(var fid in elms){if(typeof elms[fid] === &amp;lsquo;object&amp;rsquo; &amp;amp;&amp;amp; elms[fid].className != &amp;ldquo;disabled&amp;rdquo;){fs.click(elms[fid]);}} Only select the new friends whitout invites. Enjoy It!!</description>
     </item>
     
     <item>
@@ -1494,7 +1494,7 @@ Lo mas curioso es el dominio de este blog que subio de -1 a 3 en dos meses desde
       
       <guid>https://carakan.net/blog/2008/09/entrevistas-a-blogs-importantes-de-bolivia-rocko/</guid>
       <description>Ficha técnica:
- Nombre: Rolando López T. Url Blog: http://rocko.blogia.com Proyectos: No sabe / No responde  [caption id=&amp;ldquo;attachment_384&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;550&amp;rdquo; caption=&amp;ldquo;El blog es el protagonista.&amp;quot;][/caption] Me es un placer el poder ahora publicar la entrevista del que fue el pionero en la blogosfera boliviana, el primer blog boliviano, un personaje que define que &amp;ldquo;El blog es una herramienta individual que te hace universal&amp;rdquo;, ahora con esta pequeña descripción sigamos con la entrevista.</description>
+ Nombre: Rolando López T. Url Blog: http://rocko.blogia.com Proyectos: No sabe / No responde  [caption id=&amp;ldquo;attachment_384&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;550&amp;rdquo; caption=&amp;ldquo;El blog es el protagonista.&amp;rdquo;][/caption] Me es un placer el poder ahora publicar la entrevista del que fue el pionero en la blogosfera boliviana, el primer blog boliviano, un personaje que define que &amp;ldquo;El blog es una herramienta individual que te hace universal&amp;rdquo;, ahora con esta pequeña descripción sigamos con la entrevista.</description>
     </item>
     
     <item>
@@ -1523,7 +1523,7 @@ Lo mas curioso es el dominio de este blog que subio de -1 a 3 en dos meses desde
       
       <guid>https://carakan.net/blog/2008/09/entrevistas-a-blogs-de-bolivia-capsula-del-tiempo/</guid>
       <description>Ficha técnica:
- Nombre: Vania Balderrama Url Blog: http://balduquesa.blogspot.com Proyectos: Cápsula del Tiempo  [caption id=&amp;ldquo;attachment_356&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; caption=&amp;ldquo;blog de Vania Aguirre.&amp;quot;][/caption] ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)? Me inicié por pura casualidad, buscando la foto de un árbol (toborochi) para ponerlo en mi perfil de Skype de la oficina. Buscando la foto del mentado árbol, me tropecé con el blog de Puky Gutiérrez &amp;ldquo;Toborochi urbano&amp;rdquo; que esas veces formaba parte del portal de Mundo al Revés.</description>
+ Nombre: Vania Balderrama Url Blog: http://balduquesa.blogspot.com Proyectos: Cápsula del Tiempo  [caption id=&amp;ldquo;attachment_356&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; caption=&amp;ldquo;blog de Vania Aguirre.&amp;rdquo;][/caption] ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)? Me inicié por pura casualidad, buscando la foto de un árbol (toborochi) para ponerlo en mi perfil de Skype de la oficina. Buscando la foto del mentado árbol, me tropecé con el blog de Puky Gutiérrez &amp;ldquo;Toborochi urbano&amp;rdquo; que esas veces formaba parte del portal de Mundo al Revés.</description>
     </item>
     
     <item>
@@ -1601,7 +1601,7 @@ Había animado a un amigo a que se abra un blog, en el 2006, su blog trata de te
       <guid>https://carakan.net/blog/2008/08/entrevistas-a-blogs-bolivianos-willy-andres/</guid>
       <description>[caption id=&amp;ldquo;attachment_290&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;110&amp;rdquo; caption=&amp;ldquo;Willy Andres&amp;rdquo;][/caption] El Perfil:
  Nombre: Willy A. Acosta Ortega Url Blog: Proyectos:  www.creaticaltda.com www.corbecsoluciones.com www.firefoxbolivia.com www.piensabolivia.com www.camiridigital.com www.blogsbolivia.com y otros que se vienen.
-[caption id=&amp;ldquo;attachment_292&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; caption=&amp;ldquo;Blog de Willy Andres.&amp;quot;][/caption] ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)? Es una historia interesante y curiosa. Conocí a Sebastina Molina (www.planb.com.bo) quien ya estaba con esto de los blogs y me muestra la herramienta wordpress (www.</description>
+[caption id=&amp;ldquo;attachment_292&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; caption=&amp;ldquo;Blog de Willy Andres.&amp;rdquo;][/caption] ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)? Es una historia interesante y curiosa. Conocí a Sebastina Molina (www.planb.com.bo) quien ya estaba con esto de los blogs y me muestra la herramienta wordpress (www.</description>
     </item>
     
     <item>
@@ -1623,7 +1623,7 @@ Había animado a un amigo a que se abra un blog, en el 2006, su blog trata de te
       
       <guid>https://carakan.net/blog/2008/08/entrevistas-a-blogs-bolivianos-maria-cristina-moreno/</guid>
       <description>El Perfil:
- Nombre: Maria Cristina Moreno. Url Blog: www.mariacristinamoreno.blogspot.com Proyectos: Estar entre los 10 más leídos de Bolivia.  [caption id=&amp;ldquo;attachment_280&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; caption=&amp;ldquo;Portada del blog de Maria Cristina Moreno.&amp;quot;][/caption] ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)? Me inicie en el mundo de Blogger el 26 de Agosto del 2006, mi primer post fue titulado de &amp;ldquo;Hormiga a Gigante&amp;rdquo;, referente a que antes sin un blog era una persona común y corriente, y el tener acceso a un blog me daba la posibilidad de viajar por todo el mundo gratis y así mismo conocer a mucha gente que quiere expresar los que siente o piensa.</description>
+ Nombre: Maria Cristina Moreno. Url Blog: www.mariacristinamoreno.blogspot.com Proyectos: Estar entre los 10 más leídos de Bolivia.  [caption id=&amp;ldquo;attachment_280&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; caption=&amp;ldquo;Portada del blog de Maria Cristina Moreno.&amp;rdquo;][/caption] ¿Cómo te iniciaste en el mundo de los blogs (primer blog, primer post)? Me inicie en el mundo de Blogger el 26 de Agosto del 2006, mi primer post fue titulado de &amp;ldquo;Hormiga a Gigante&amp;rdquo;, referente a que antes sin un blog era una persona común y corriente, y el tener acceso a un blog me daba la posibilidad de viajar por todo el mundo gratis y así mismo conocer a mucha gente que quiere expresar los que siente o piensa.</description>
     </item>
     
     <item>
@@ -1867,7 +1867,7 @@ Ademas hemos añadido nuestros terminos de referencia.</description>
       <guid>https://carakan.net/blog/2008/06/llamar-a-procedimientos-pl/sql-de-oracle-con-ruby-plsql/</guid>
       <description>Buscando una manera mas sencilla de poder llamar a procedimientos almacenados de Oracle pl/sql, encontré la gema ruby-plsql que es una simple API para procedimientos almacenados en oracle, su uso es muy sencillo como el siguiente:
 Si tenemos el siguiente paquete:
-CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCHAR2, p_out OUT VARCHAR2) IS BEGIN p_out := &amp;#39;Se introdujo: &amp;#39; || p_in; END; END; Ahora dentro del código, como ejemplo dentro del controlador:</description>
+CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS  PROCEDURE LeeDatos(p_in VARCHAR2, p_out OUT VARCHAR2) IS  BEGIN  p_out := &amp;#39;Se introdujo: &amp;#39; || p_in;  END; END; Ahora dentro del código, como ejemplo dentro del controlador:</description>
     </item>
     
     <item>

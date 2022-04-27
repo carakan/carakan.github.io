@@ -13,7 +13,7 @@ which python3 # =&gt; /usr/bin/python3 which pip3 # =&gt; /usr/bin/pip3 And that
 <meta name="author" content="Carlos Ramos">
 <link rel="canonical" href="https://carakan.net/blog/2020/04/configuring-python3-on-neovim/" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.6f60056d44d3f7eb69a4bc6c332b59960f3a995802bded244750232f33713c49.css" integrity="sha256-b2AFbUTT9&#43;tppLxsMytZlg86mVgCve0kR1AjLzNxPEk=" rel="preload stylesheet" as="style">
-<script defer crossorigin="anonymous" src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.2840b7fccd34145847db71a290569594bdbdb00047097f75d6495d162f5d7dff.js" integrity="sha256-KEC3/M00FFhH23GikFaVlL29sABHCX911kldFi9dff8="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://carakan.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://carakan.net/favicon-16x16.png">
@@ -22,7 +22,7 @@ which python3 # =&gt; /usr/bin/python3 which pip3 # =&gt; /usr/bin/pip3 And that
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.92.1" />
+<meta name="generator" content="Hugo 0.97.3" />
 <noscript>
     <style>
         #theme-toggle,
@@ -107,7 +107,7 @@ which python3 # =&gt; /usr/bin/python3 which pip3 # =&gt; /usr/bin/pip3 And that
   "keywords": [
     "TIL", "neovim"
   ],
-  "articleBody": "The idea of this post is to configure correctly the support of python3 on neovim, let’s start.\nfirst this configuration is using macOS, by default python3 is installed on macOS and the default route of the executables are:\nwhich python3 # = /usr/bin/python3 which pip3 # = /usr/bin/pip3 And that’s it! but normally if you are using homebrew you also installed the python3 using a formula, personally I do not to recomend that but it will work. you need to know where is installed that two executables.\nNow we need to install the pynvim library:\npip3 install pynvim # to upgrade (you already installed pynvim) pip3 install --upgrade pynvim # uninstall old version of neovim-python (maybe need this) pip3 uninstall neovim Now we edit the vimrc to enable python3 and disable python2\n\" Disable python2 supportlet g:loaded_python_provider = 0\" Don't enable explicitly python3 it doesn't work and disables python3\" this only works for DISABLE, python3 is enabled by default\" let g:loaded_python3_provider = 1\" set the route of the executablelet g:python3_host_prog = '/usr/bin/python3'\" Explicitly tells to neovim use python3 when evaluate python codeset pyxversion=3to ensure is correctly configured python3 launch neovim and run this command:\n:checkhealthAnd check the python3 support.\nWith this steps your setup it will run fine python3 and disable python2, currently all current plugins supports python3.\n",
+  "articleBody": "The idea of this post is to configure correctly the support of python3 on neovim, let’s start.\nfirst this configuration is using macOS, by default python3 is installed on macOS and the default route of the executables are:\nwhich python3 # = /usr/bin/python3 which pip3 # = /usr/bin/pip3 And that’s it! but normally if you are using homebrew you also installed the python3 using a formula, personally I do not to recomend that but it will work. you need to know where is installed that two executables.\nNow we need to install the pynvim library:\npip3 install pynvim  # to upgrade (you already installed pynvim) pip3 install --upgrade pynvim  # uninstall old version of neovim-python (maybe need this) pip3 uninstall neovim Now we edit the vimrc to enable python3 and disable python2\n\" Disable python2 supportlet g:loaded_python_provider = 0\" Don't enable explicitly python3 it doesn't work and disables python3\" this only works for DISABLE, python3 is enabled by default\" let g:loaded_python3_provider = 1\" set the route of the executablelet g:python3_host_prog = '/usr/bin/python3'\" Explicitly tells to neovim use python3 when evaluate python codeset pyxversion=3to ensure is correctly configured python3 launch neovim and run this command:\n:checkhealthAnd check the python3 support.\nWith this steps your setup it will run fine python3 and disable python2, currently all current plugins supports python3.\n",
   "wordCount" : "218",
   "inLanguage": "en",
   "datePublished": "2020-04-27T15:17:47-04:00",
@@ -205,36 +205,35 @@ which python3 # =&gt; /usr/bin/python3 which pip3 # =&gt; /usr/bin/pip3 And that
   <div class="post-content"><p>The idea of this post is to configure correctly the support of python3 on neovim, let&rsquo;s start.</p>
 <p>first this configuration is using macOS, by default python3 is installed on macOS
 and the default route of the executables are:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">which python3 <span style="color:#75715e"># =&gt; /usr/bin/python3</span>
-which pip3    <span style="color:#75715e"># =&gt; /usr/bin/pip3</span>
-</code></pre></div><p>And that&rsquo;s it! but normally if you are using homebrew you also installed the python3
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>which python3 <span style="color:#75715e"># =&gt; /usr/bin/python3</span>
+</span></span><span style="display:flex;"><span>which pip3    <span style="color:#75715e"># =&gt; /usr/bin/pip3</span>
+</span></span></code></pre></div><p>And that&rsquo;s it! but normally if you are using homebrew you also installed the python3
 using a formula, personally I do not to recomend that but it will work. you need to know
 where is installed that two executables.</p>
 <p>Now we need to install the pynvim library:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">pip3 install pynvim
-
-<span style="color:#75715e"># to upgrade (you already installed pynvim)</span>
-pip3 install --upgrade pynvim
-
-<span style="color:#75715e"># uninstall old version of neovim-python (maybe need this)</span>
-pip3 uninstall neovim
-
-</code></pre></div><p>Now we edit the vimrc to enable python3 and disable python2</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim"><span style="color:#75715e">&#34; Disable python2 support</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">g</span>:<span style="color:#a6e22e">loaded_python_provider</span> = <span style="color:#ae81ff">0</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#75715e">
-</span><span style="color:#75715e">&#34; Don&#39;t enable explicitly python3 it doesn&#39;t work and disables python3</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#75715e">&#34; this only works for DISABLE, python3 is enabled by default</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#75715e">&#34; let g:loaded_python3_provider = 1</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#75715e">
-</span><span style="color:#75715e">&#34; set the route of the executable</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">g</span>:<span style="color:#a6e22e">python3_host_prog</span> = <span style="color:#e6db74">&#39;/usr/bin/python3&#39;</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#75715e">
-</span><span style="color:#75715e">&#34; Explicitly tells to neovim use python3 when evaluate python code</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">set</span> <span style="color:#a6e22e">pyxversion</span>=<span style="color:#ae81ff">3</span><span style="color:#960050;background-color:#1e0010">
-</span></code></pre></div><p>to ensure is correctly configured python3 launch neovim and run this command:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim">:<span style="color:#a6e22e">checkhealth</span><span style="color:#960050;background-color:#1e0010">
-</span></code></pre></div><p>And check the python3 support.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>pip3 install pynvim
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># to upgrade (you already installed pynvim)</span>
+</span></span><span style="display:flex;"><span>pip3 install --upgrade pynvim
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># uninstall old version of neovim-python (maybe need this)</span>
+</span></span><span style="display:flex;"><span>pip3 uninstall neovim
+</span></span></code></pre></div><p>Now we edit the vimrc to enable python3 and disable python2</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vim" data-lang="vim"><span style="display:flex;"><span><span style="color:#75715e">&#34; Disable python2 support</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">g</span>:<span style="color:#a6e22e">loaded_python_provider</span> = <span style="color:#ae81ff">0</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">&#34; Don&#39;t enable explicitly python3 it doesn&#39;t work and disables python3</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#75715e">&#34; this only works for DISABLE, python3 is enabled by default</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#75715e">&#34; let g:loaded_python3_provider = 1</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">&#34; set the route of the executable</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">g</span>:<span style="color:#a6e22e">python3_host_prog</span> = <span style="color:#e6db74">&#39;/usr/bin/python3&#39;</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">&#34; Explicitly tells to neovim use python3 when evaluate python code</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">set</span> <span style="color:#a6e22e">pyxversion</span>=<span style="color:#ae81ff">3</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div><p>to ensure is correctly configured python3 launch neovim and run this command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vim" data-lang="vim"><span style="display:flex;"><span>:<span style="color:#a6e22e">checkhealth</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div><p>And check the python3 support.</p>
 <p>With this steps your setup it will run fine python3 and disable python2, currently all
 current plugins supports python3.</p>
 

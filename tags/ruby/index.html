@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.92.1" />
+<meta name="generator" content="Hugo 0.97.3" />
 <link rel="alternate" type="application/rss+xml" href="https://carakan.net/tags/ruby/index.xml">
 <noscript>
     <style>
@@ -182,7 +182,7 @@ gem install mysql2 -- --with-mysql-config=$(brew --prefix mariadb@10.2)/bin/mysq
   <section class="entry-content">
     <p>The problem is with RVM and renv and not with asdf, so my first suggestion is to change to asdf
 if you keep with RVM: install older versions of ruby &lt;2.3 with support for openssl 1.0x you can follow these instructions:
-# before you install command line tools and gcc xcode-select --install brew install gcc # installation procedure cd /usr/local/src curl -O https://www.openssl.org/source/openssl-1.0.2t.tar.gz tar xzf openssl-1.0.2t.tar.gz cd openssl-1.0.2t ./Configure darwin64-x86_64-cc make sudo make install export LDFLAGS=“-L/usr/local/ssl/lib” export CPPFLAGS=“-I/usr/local/ssl/include” export PKG_CONFIG_PATH=“/usr/local/ssl/lib/pkgconfig” rvm reinstall 2....</p>
+# before you install command line tools and gcc xcode-select --install brew install gcc  # installation procedure cd /usr/local/src curl -O https://www.openssl.org/source/openssl-1.0.2t.tar.gz tar xzf openssl-1.0.2t.tar.gz cd openssl-1.0.2t ./Configure darwin64-x86_64-cc make sudo make install export LDFLAGS=“-L/usr/local/ssl/lib” export CPPFLAGS=“-I/usr/local/ssl/include” export PKG_CONFIG_PATH=“/usr/local/ssl/lib/pkgconfig” rvm reinstall 2....</p>
   </section>
   <footer class="entry-footer"><span title='2020-01-24 15:46:05 -0400 -04'>January 24, 2020</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to How to Install Older Versions of Ruby" href="https://carakan.net/blog/2020/01/how-to-install-older-versions-of-ruby/"></a>
@@ -210,7 +210,7 @@ sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdb
   <section class="entry-content">
     <p>In one project, the client wants to share same user credentials between rails app to wordpress site, I’ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:
 rails login  this plugin only need a small API for enable login i created this code in model user:
-def wp_json { user: { email: self....</p>
+def wp_json  {  user: {  email: self....</p>
   </section>
   <footer class="entry-footer"><span title='2015-03-13 01:11:09 +0000 +0000'>March 13, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to great plugin for share session in rails apps between wordpress blog" href="https://carakan.net/blog/2015/03/great-plugin-for-share-session-in-rails-apps-between-wordpress-blog/"></a>

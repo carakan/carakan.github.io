@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.92.1" />
+<meta name="generator" content="Hugo 0.97.3" />
 <link rel="alternate" type="application/rss+xml" href="https://carakan.net/blog/index.xml">
 <noscript>
     <style>
@@ -267,7 +267,7 @@ which python3 # =&gt; /usr/bin/python3 which pip3 # =&gt; /usr/bin/pip3 And that
   <section class="entry-content">
     <p>The problem is with RVM and renv and not with asdf, so my first suggestion is to change to asdf
 if you keep with RVM: install older versions of ruby &lt;2.3 with support for openssl 1.0x you can follow these instructions:
-# before you install command line tools and gcc xcode-select --install brew install gcc # installation procedure cd /usr/local/src curl -O https://www.openssl.org/source/openssl-1.0.2t.tar.gz tar xzf openssl-1.0.2t.tar.gz cd openssl-1.0.2t ./Configure darwin64-x86_64-cc make sudo make install export LDFLAGS=“-L/usr/local/ssl/lib” export CPPFLAGS=“-I/usr/local/ssl/include” export PKG_CONFIG_PATH=“/usr/local/ssl/lib/pkgconfig” rvm reinstall 2....</p>
+# before you install command line tools and gcc xcode-select --install brew install gcc  # installation procedure cd /usr/local/src curl -O https://www.openssl.org/source/openssl-1.0.2t.tar.gz tar xzf openssl-1.0.2t.tar.gz cd openssl-1.0.2t ./Configure darwin64-x86_64-cc make sudo make install export LDFLAGS=“-L/usr/local/ssl/lib” export CPPFLAGS=“-I/usr/local/ssl/include” export PKG_CONFIG_PATH=“/usr/local/ssl/lib/pkgconfig” rvm reinstall 2....</p>
   </section>
   <footer class="entry-footer"><span title='2020-01-24 15:46:05 -0400 -04'>January 24, 2020</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to How to Install Older Versions of Ruby" href="https://carakan.net/blog/2020/01/how-to-install-older-versions-of-ruby/"></a>
@@ -310,7 +310,7 @@ cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat
   </header>
   <section class="entry-content">
     <p>Recently I found a nice feature when defining a column on migrations, is to use array option in the creation of a column:
-class MyMigration &lt; ActiveRecord::Migration[5.2] def change # Defines a column that stores an array of a type. add_column :transactions, :categories, :string, array: true, default: [] end end With this on categories you can storage an array of values, it’s useful instead of use jsonb because as json you may also need to create the key to store values (hash)....</p>
+class MyMigration &lt; ActiveRecord::Migration[5.2]  def change  # Defines a column that stores an array of a type.  add_column :transactions, :categories, :string, array: true, default: []  end end With this on categories you can storage an array of values, it’s useful instead of use jsonb because as json you may also need to create the key to store values (hash)....</p>
   </section>
   <footer class="entry-footer"><span title='2019-10-14 11:09:24 -0400 -04'>October 14, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Add Array of Types in a Column using Postgres and Rails" href="https://carakan.net/blog/2019/10/add-array-of-types-in-a-column-using-postgres-and-rails/"></a>

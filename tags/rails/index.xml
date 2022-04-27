@@ -29,7 +29,7 @@
       
       <guid>https://carakan.net/blog/2019/09/create-a-form-with-two-actions-on-activeadmin/</guid>
       <description>In a project that already using Activeadmin I had the requeriment of modify the actual form to create a student, but without validating that, so the solution was create into the model of active admin form and declare the form with two actions, one with the clasical behaviour and other when passed the params[:managed] with a custom route
-ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :student, as: :select, collection: User.</description>
+ActiveAdmin.register InvestmentItem do  # ..  form do |f|  f.inputs do  f.</description>
     </item>
     
     <item>
@@ -40,7 +40,7 @@ ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :stu
       <guid>https://carakan.net/blog/2015/03/great-plugin-for-share-session-in-rails-apps-between-wordpress-blog/</guid>
       <description>In one project, the client wants to share same user credentials between rails app to wordpress site, I&amp;rsquo;ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:
 rails login  this plugin only need a small API for enable login i created this code in model user:
-def wp_json { user: { email: self.</description>
+def wp_json  {  user: {  email: self.</description>
     </item>
     
   </channel>

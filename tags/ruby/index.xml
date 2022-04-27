@@ -51,7 +51,7 @@ gem install mysql2 -- --with-mysql-config=$(brew --prefix mariadb@10.2)/bin/mysq
       <guid>https://carakan.net/blog/2020/01/how-to-install-older-versions-of-ruby/</guid>
       <description>The problem is with RVM and renv and not with asdf, so my first suggestion is to change to asdf
 if you keep with RVM: install older versions of ruby &amp;lt;2.3 with support for openssl 1.0x you can follow these instructions:
-# before you install command line tools and gcc xcode-select --install brew install gcc # installation procedure cd /usr/local/src curl -O https://www.openssl.org/source/openssl-1.0.2t.tar.gz tar xzf openssl-1.0.2t.tar.gz cd openssl-1.0.2t ./Configure darwin64-x86_64-cc make sudo make install export LDFLAGS=“-L/usr/local/ssl/lib” export CPPFLAGS=“-I/usr/local/ssl/include” export PKG_CONFIG_PATH=“/usr/local/ssl/lib/pkgconfig” rvm reinstall 2.</description>
+# before you install command line tools and gcc xcode-select --install brew install gcc  # installation procedure cd /usr/local/src curl -O https://www.openssl.org/source/openssl-1.0.2t.tar.gz tar xzf openssl-1.0.2t.tar.gz cd openssl-1.0.2t ./Configure darwin64-x86_64-cc make sudo make install export LDFLAGS=“-L/usr/local/ssl/lib” export CPPFLAGS=“-I/usr/local/ssl/include” export PKG_CONFIG_PATH=“/usr/local/ssl/lib/pkgconfig” rvm reinstall 2.</description>
     </item>
     
     <item>
@@ -73,7 +73,7 @@ sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdb
       <guid>https://carakan.net/blog/2015/03/great-plugin-for-share-session-in-rails-apps-between-wordpress-blog/</guid>
       <description>In one project, the client wants to share same user credentials between rails app to wordpress site, I&amp;rsquo;ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:
 rails login  this plugin only need a small API for enable login i created this code in model user:
-def wp_json { user: { email: self.</description>
+def wp_json  {  user: {  email: self.</description>
     </item>
     
     <item>
@@ -159,7 +159,7 @@ def wp_json { user: { email: self.</description>
       <guid>https://carakan.net/blog/2008/06/llamar-a-procedimientos-pl/sql-de-oracle-con-ruby-plsql/</guid>
       <description>Buscando una manera mas sencilla de poder llamar a procedimientos almacenados de Oracle pl/sql, encontré la gema ruby-plsql que es una simple API para procedimientos almacenados en oracle, su uso es muy sencillo como el siguiente:
 Si tenemos el siguiente paquete:
-CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCHAR2, p_out OUT VARCHAR2) IS BEGIN p_out := &amp;#39;Se introdujo: &amp;#39; || p_in; END; END; Ahora dentro del código, como ejemplo dentro del controlador:</description>
+CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS  PROCEDURE LeeDatos(p_in VARCHAR2, p_out OUT VARCHAR2) IS  BEGIN  p_out := &amp;#39;Se introdujo: &amp;#39; || p_in;  END; END; Ahora dentro del código, como ejemplo dentro del controlador:</description>
     </item>
     
     <item>

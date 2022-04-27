@@ -14,7 +14,7 @@ cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat
 <meta name="author" content="Carlos Ramos">
 <link rel="canonical" href="https://carakan.net/blog/2019/10/how-to-sync-vscode-plugins-over-your-dotfiles/" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.6f60056d44d3f7eb69a4bc6c332b59960f3a995802bded244750232f33713c49.css" integrity="sha256-b2AFbUTT9&#43;tppLxsMytZlg86mVgCve0kR1AjLzNxPEk=" rel="preload stylesheet" as="style">
-<script defer crossorigin="anonymous" src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.2840b7fccd34145847db71a290569594bdbdb00047097f75d6495d162f5d7dff.js" integrity="sha256-KEC3/M00FFhH23GikFaVlL29sABHCX911kldFi9dff8="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://carakan.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://carakan.net/favicon-16x16.png">
@@ -23,7 +23,7 @@ cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.92.1" />
+<meta name="generator" content="Hugo 0.97.3" />
 <noscript>
     <style>
         #theme-toggle,
@@ -208,12 +208,12 @@ cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat
   <div class="post-content"><p>I was looking a simple way to get sync all of my current setup of vscode, I did&rsquo;t found a
 proper way to do with another plugin, but I found a commands to do this sync.</p>
 <p>first to have a list of plugins installed and save to a file:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">code --list-extensions &gt; vscode-extensions.list
-</code></pre></div><p>to restore, read that file and install all plugins:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">cat vscode-extensions.list | xargs -L <span style="color:#ae81ff">1</span> code --install-extension 
-<span style="color:#75715e"># using bat</span>
-bat vscode-extensions.list --plain | xargs -L <span style="color:#ae81ff">1</span> code --install-extension
-</code></pre></div><p>you can easily put this list in your dotfiles <a href="https://github.com/carakan/dotfiles/blob/master/vscode-extensions.list">example</a>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>code --list-extensions &gt; vscode-extensions.list
+</span></span></code></pre></div><p>to restore, read that file and install all plugins:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>cat vscode-extensions.list | xargs -L <span style="color:#ae81ff">1</span> code --install-extension 
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># using bat</span>
+</span></span><span style="display:flex;"><span>bat vscode-extensions.list --plain | xargs -L <span style="color:#ae81ff">1</span> code --install-extension
+</span></span></code></pre></div><p>you can easily put this list in your dotfiles <a href="https://github.com/carakan/dotfiles/blob/master/vscode-extensions.list">example</a>.</p>
 
 
   </div>

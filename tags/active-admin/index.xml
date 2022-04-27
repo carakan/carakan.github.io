@@ -29,7 +29,7 @@
       
       <guid>https://carakan.net/blog/2019/09/create-a-form-with-two-actions-on-activeadmin/</guid>
       <description>In a project that already using Activeadmin I had the requeriment of modify the actual form to create a student, but without validating that, so the solution was create into the model of active admin form and declare the form with two actions, one with the clasical behaviour and other when passed the params[:managed] with a custom route
-ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :student, as: :select, collection: User.</description>
+ActiveAdmin.register InvestmentItem do  # ..  form do |f|  f.inputs do  f.</description>
     </item>
     
   </channel>

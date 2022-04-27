@@ -146,7 +146,7 @@ Revista Atix.</description>
       <guid>https://carakan.net/blog/2008/06/llamar-a-procedimientos-pl/sql-de-oracle-con-ruby-plsql/</guid>
       <description>Buscando una manera mas sencilla de poder llamar a procedimientos almacenados de Oracle pl/sql, encontré la gema ruby-plsql que es una simple API para procedimientos almacenados en oracle, su uso es muy sencillo como el siguiente:
 Si tenemos el siguiente paquete:
-CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCHAR2, p_out OUT VARCHAR2) IS BEGIN p_out := &amp;#39;Se introdujo: &amp;#39; || p_in; END; END; Ahora dentro del código, como ejemplo dentro del controlador:</description>
+CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS  PROCEDURE LeeDatos(p_in VARCHAR2, p_out OUT VARCHAR2) IS  BEGIN  p_out := &amp;#39;Se introdujo: &amp;#39; || p_in;  END; END; Ahora dentro del código, como ejemplo dentro del controlador:</description>
     </item>
     
     <item>

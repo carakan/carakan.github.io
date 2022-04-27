@@ -106,7 +106,7 @@ which python3 # =&amp;gt; /usr/bin/python3 which pip3 # =&amp;gt; /usr/bin/pip3 
       <guid>https://carakan.net/blog/2020/01/how-to-install-older-versions-of-ruby/</guid>
       <description>The problem is with RVM and renv and not with asdf, so my first suggestion is to change to asdf
 if you keep with RVM: install older versions of ruby &amp;lt;2.3 with support for openssl 1.0x you can follow these instructions:
-# before you install command line tools and gcc xcode-select --install brew install gcc # installation procedure cd /usr/local/src curl -O https://www.openssl.org/source/openssl-1.0.2t.tar.gz tar xzf openssl-1.0.2t.tar.gz cd openssl-1.0.2t ./Configure darwin64-x86_64-cc make sudo make install export LDFLAGS=“-L/usr/local/ssl/lib” export CPPFLAGS=“-I/usr/local/ssl/include” export PKG_CONFIG_PATH=“/usr/local/ssl/lib/pkgconfig” rvm reinstall 2.</description>
+# before you install command line tools and gcc xcode-select --install brew install gcc  # installation procedure cd /usr/local/src curl -O https://www.openssl.org/source/openssl-1.0.2t.tar.gz tar xzf openssl-1.0.2t.tar.gz cd openssl-1.0.2t ./Configure darwin64-x86_64-cc make sudo make install export LDFLAGS=“-L/usr/local/ssl/lib” export CPPFLAGS=“-I/usr/local/ssl/include” export PKG_CONFIG_PATH=“/usr/local/ssl/lib/pkgconfig” rvm reinstall 2.</description>
     </item>
     
     <item>
@@ -128,7 +128,7 @@ cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat
       
       <guid>https://carakan.net/blog/2019/10/add-array-of-types-in-a-column-using-postgres-and-rails/</guid>
       <description>Recently I found a nice feature when defining a column on migrations, is to use array option in the creation of a column:
-class MyMigration &amp;lt; ActiveRecord::Migration[5.2] def change # Defines a column that stores an array of a type. add_column :transactions, :categories, :string, array: true, default: [] end end With this on categories you can storage an array of values, it&amp;rsquo;s useful instead of use jsonb because as json you may also need to create the key to store values (hash).</description>
+class MyMigration &amp;lt; ActiveRecord::Migration[5.2]  def change  # Defines a column that stores an array of a type.  add_column :transactions, :categories, :string, array: true, default: []  end end With this on categories you can storage an array of values, it&amp;rsquo;s useful instead of use jsonb because as json you may also need to create the key to store values (hash).</description>
     </item>
     
     <item>
@@ -172,7 +172,7 @@ asdf list-all erlang asdf install erlang 22.</description>
       <guid>https://carakan.net/blog/2019/09/enable-prettier-in-ember-templates/</guid>
       <description>Prettier is an opinionated code formatter, has built-in a lot of code formatters for languages, one of that is for handlebars (glimmer/mustache) but is hidden by default, to enable we only need to do this:
 create a .prettierrc in your home (~) with :
-{ &amp;#34;overrides&amp;#34;: [ { &amp;#34;files&amp;#34;: &amp;#34;*.hbs&amp;#34;, &amp;#34;options&amp;#34;: { &amp;#34;parser&amp;#34;: &amp;#34;glimmer&amp;#34; // ... other custom configurations  } } ] } and now you can use in your favorite editor or simple use directly with the CLI, for example:</description>
+{  &amp;#34;overrides&amp;#34;: [  {  &amp;#34;files&amp;#34;: &amp;#34;*.hbs&amp;#34;,  &amp;#34;options&amp;#34;: {  &amp;#34;parser&amp;#34;: &amp;#34;glimmer&amp;#34;  // ... other custom configurations  }  }  ] } and now you can use in your favorite editor or simple use directly with the CLI, for example:</description>
     </item>
     
     <item>
@@ -207,7 +207,7 @@ direnv allow . And that&amp;rsquo;s it! you don&amp;rsquo;t need a custom soluti
       
       <guid>https://carakan.net/blog/2019/09/create-a-form-with-two-actions-on-activeadmin/</guid>
       <description>In a project that already using Activeadmin I had the requeriment of modify the actual form to create a student, but without validating that, so the solution was create into the model of active admin form and declare the form with two actions, one with the clasical behaviour and other when passed the params[:managed] with a custom route
-ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :student, as: :select, collection: User.</description>
+ActiveAdmin.register InvestmentItem do  # ..  form do |f|  f.inputs do  f.</description>
     </item>
     
   </channel>
