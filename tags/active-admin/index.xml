@@ -16,10 +16,11 @@
       <pubDate>Tue, 10 Dec 2019 12:22:05 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2019/12/how-to-do-email-only-sign-up-using-default-active-admin-setup/</guid>
-      <description>Context   The idea is to develop the same requirement as devise describe in their guide:
-  The project is using the admin_user approach and sets the default setup included on activeadmin.
-  (NOTE) One other recommended solution is to migrate the admin_user model to user and configure devise normally as a separate engine.
-  Guide   If you haven&amp;rsquo;t already, enable the confirmable module</description>
+      <description>Context The idea is to develop the same requirement as devise describe in their guide:
+The project is using the admin_user approach and sets the default setup included on activeadmin.
+(NOTE) One other recommended solution is to migrate the admin_user model to user and configure devise normally as a separate engine.
+Guide If you haven&amp;rsquo;t already, enable the confirmable module
+If you haven&amp;rsquo;t already, follow the Devise instructions for configuring views, install in app/views/active_admin/devise</description>
     </item>
     
     <item>
@@ -29,7 +30,7 @@
       
       <guid>https://carakan.net/blog/2019/09/create-a-form-with-two-actions-on-activeadmin/</guid>
       <description>In a project that already using Activeadmin I had the requeriment of modify the actual form to create a student, but without validating that, so the solution was create into the model of active admin form and declare the form with two actions, one with the clasical behaviour and other when passed the params[:managed] with a custom route
-ActiveAdmin.register InvestmentItem do  # ..  form do |f|  f.inputs do  f.</description>
+ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :student, as: :select, collection: User.</description>
     </item>
     
   </channel>

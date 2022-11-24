@@ -39,8 +39,7 @@ Un año de emprendimiento y la satisfacción de haber cumplido nuestro primer ci
       
       <guid>https://carakan.net/blog/2009/03/revista-atix-numero-8/</guid>
       <description>Hoy se lanzo el numero 8 de la revista sobre software libre ATIX, en el cual apoye con la cuarta parte de “Desarrollo ágil con Ruby on Rails”, el lema para esta versión de la revista es:
- El ser vistos desde otros horizontes, nos compromete más en nuestro trabajo.  
-Descarga del archivo (PDF).
+El ser vistos desde otros horizontes, nos compromete más en nuestro trabajo. Descarga del archivo (PDF).
 Revista Atix.</description>
     </item>
     
@@ -51,7 +50,7 @@ Revista Atix.</description>
       
       <guid>https://carakan.net/blog/2009/01/revista-atix-numero-7-liberado./</guid>
       <description>La revista sobre el software libre: Atix, lanzo la séptima entrega de su revista, que apuesta por el conocimiento libre y que para este numero lo entrega con el siguiente lema:
- Un nuevo año…. un nuevo reto, pon tu mejor empeño para lograr tu reto de este año.  cuenta con la tercera parte del desarrollo de una aplicación de gestión de artículos ATIX, en Ruby on Rails, en la que explico como reutilizar código a través de plugins o gemas, utilizar el repositorio de gemas de Git Hub y manipular la gema Will_paginate.</description>
+Un nuevo año…. un nuevo reto, pon tu mejor empeño para lograr tu reto de este año. cuenta con la tercera parte del desarrollo de una aplicación de gestión de artículos ATIX, en Ruby on Rails, en la que explico como reutilizar código a través de plugins o gemas, utilizar el repositorio de gemas de Git Hub y manipular la gema Will_paginate.</description>
     </item>
     
     <item>
@@ -61,8 +60,8 @@ Revista Atix.</description>
       
       <guid>https://carakan.net/blog/2008/12/revista-atix-numero-6-liberado./</guid>
       <description>La revista sobre el software libre: Atix, lanzo la sexta entrega de su revista, que apuesta por el conocimiento libre y que para este numero lo entrega con el siguiente lema:
- El ser todos iguales, nos llevará a tener y vivir un futuro mejor.
- Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicación en Ruby on Rails, con el cual hablo sobre la nueva versión de Rails la 2.</description>
+El ser todos iguales, nos llevará a tener y vivir un futuro mejor.
+Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicación en Ruby on Rails, con el cual hablo sobre la nueva versión de Rails la 2.</description>
     </item>
     
     <item>
@@ -80,7 +79,7 @@ Revista Atix.</description>
       <pubDate>Mon, 22 Sep 2008 15:07:58 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/09/nueva-imagen-de-bolivia-on-rails-y-tema-wp-espa%C3%B1ol/</guid>
-      <description>Este fin de semana estuve trabajando en la nueva imagen de Bolivia on Rails, un sitio dedicado al desarrollo de ruby on rails dentro y fuera de Bolivia, lo deje un poco estancado este proyecto pero gracias a la colaboración de Boris Barroso estoy retomando el camino y además quiero informar de que ahora los tutoriales o cosas relacionadas con Rails serán publicadas en el Sitio de Bolivia on rails. [caption id=&amp;ldquo;attachment_420&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;563&amp;rdquo; caption=&amp;ldquo;Bolivia on rails&amp;rdquo;][/caption] Otra noticia que se hará costumbre es que pongo a disposición el thema en Wordpress para que puedan utilizarlo en sus propios blogs, es un tema oscuro que me gusta por la combinación de colores, lo traduje y ahora lo comparto además que dejo el fuente de la cabecera en photoshop para que puedan editarlo, así que disfrútenlo.</description>
+      <description>Este fin de semana estuve trabajando en la nueva imagen de Bolivia on Rails, un sitio dedicado al desarrollo de ruby on rails dentro y fuera de Bolivia, lo deje un poco estancado este proyecto pero gracias a la colaboración de Boris Barroso estoy retomando el camino y además quiero informar de que ahora los tutoriales o cosas relacionadas con Rails serán publicadas en el Sitio de Bolivia on rails. [caption id=&amp;ldquo;attachment_420&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;563&amp;rdquo; caption=&amp;ldquo;Bolivia on rails&amp;rdquo;] [/caption] Otra noticia que se hará costumbre es que pongo a disposición el thema en Wordpress para que puedan utilizarlo en sus propios blogs, es un tema oscuro que me gusta por la combinación de colores, lo traduje y ahora lo comparto además que dejo el fuente de la cabecera en photoshop para que puedan editarlo, así que disfrútenlo.</description>
     </item>
     
     <item>
@@ -126,7 +125,7 @@ Revista Atix.</description>
       
       <guid>https://carakan.net/blog/2008/07/una-railsconf-latina-en-brasil/</guid>
       <description>Si el 15 e 16 de Octubre en San Paulo, Brasil se llevara a cabo el evento Rails Summit Brazil 2008, podría decir la mas grande del tipo para sudamerica y por que no la primera, gracias al trabajo de Favio Akita. El listado de Participantes es el siguiente:
- David Hansson (por Video Conferencia) Charles Nutter e Thomas Enebo desarrolladores de JRuby, Ninh Bui e Hongli Lai de Phusion (mod_rails).</description>
+David Hansson (por Video Conferencia) Charles Nutter e Thomas Enebo desarrolladores de JRuby, Ninh Bui e Hongli Lai de Phusion (mod_rails). David Chelimsky (RSpec) Chris Wanstrath (Github) Dr.</description>
     </item>
     
     <item>
@@ -146,7 +145,7 @@ Revista Atix.</description>
       <guid>https://carakan.net/blog/2008/06/llamar-a-procedimientos-pl/sql-de-oracle-con-ruby-plsql/</guid>
       <description>Buscando una manera mas sencilla de poder llamar a procedimientos almacenados de Oracle pl/sql, encontré la gema ruby-plsql que es una simple API para procedimientos almacenados en oracle, su uso es muy sencillo como el siguiente:
 Si tenemos el siguiente paquete:
-CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS  PROCEDURE LeeDatos(p_in VARCHAR2, p_out OUT VARCHAR2) IS  BEGIN  p_out := &amp;#39;Se introdujo: &amp;#39; || p_in;  END; END; Ahora dentro del código, como ejemplo dentro del controlador:</description>
+CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCHAR2, p_out OUT VARCHAR2) IS BEGIN p_out := &amp;#39;Se introdujo: &amp;#39; || p_in; END; END; Ahora dentro del código, como ejemplo dentro del controlador:</description>
     </item>
     
     <item>
@@ -192,8 +191,7 @@ CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS  PROCEDURE LeeDatos(p_in VARC
       
       <guid>https://carakan.net/blog/2008/04/qhacer-ya-esta-online./</guid>
       <description>La version beta permanente ya esta lista, gracias al esfuerzo de Elmer.
-
- Como explique anteriormente, es un sitio para compartir tus actividades importantes, al modo 2.0, y que ademas empezo como una web para el aprendizaje de Ruby on Rails, pero ahora le estamos metiendo ganas y vamos a hacer un referente dentro de la web 2.0 en Bolivia.</description>
+Como explique anteriormente, es un sitio para compartir tus actividades importantes, al modo 2.0, y que ademas empezo como una web para el aprendizaje de Ruby on Rails, pero ahora le estamos metiendo ganas y vamos a hacer un referente dentro de la web 2.0 en Bolivia.</description>
     </item>
     
     <item>
@@ -229,7 +227,7 @@ CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS  PROCEDURE LeeDatos(p_in VARC
       <pubDate>Fri, 07 Dec 2007 22:54:13 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2007/12/parieron-a-rails-2.0/</guid>
-      <description>Ja, el titulo es bastante fuerte, pero como varios blogs ya lo escribieron y no quiero abstenerme de la noticia y ademas ver como impacta esto&amp;hellip; Bueno en el blog oficial de Ruby on rails, lanzan la noticia del lanzamiento de rails 2.0, con sus nuevas funcionalidades, ademas puedes bajar el pdf descriptivo de la mano de Peepcode gracias a este supercoco. Fuente.</description>
+      <description>Ja, el titulo es bastante fuerte, pero como varios blogs ya lo escribieron y no quiero abstenerme de la noticia y ademas ver como impacta esto&amp;hellip; Bueno en el blog oficial de Ruby on rails, lanzan la noticia del lanzamiento de rails 2.0, con sus nuevas funcionalidades, ademas puedes bajar el pdf descriptivo de la mano de Peepcode gracias a este supercoco. Fuente. </description>
     </item>
     
     <item>
@@ -268,7 +266,7 @@ y según parece el valor de format no lo llena al hacer la petición en el naveg
       <pubDate>Tue, 23 Oct 2007 21:55:22 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2007/10/salio-netbeans-6.0-beta-2/</guid>
-      <description>Pues al estar tratando de bajar una copia del netbeans 6.0 beta1, ya que lo perdi por ahi, me percate que en el sitio ya esta disponible el beta 2 de este IDE, asi que lo estoy bajando aver que trae de nuevo esto. La verdad que no encontre informacion oficial de la salida de beta 2, asi que tengo la primicia :). Descargar.</description>
+      <description>Pues al estar tratando de bajar una copia del netbeans 6.0 beta1, ya que lo perdi por ahi, me percate que en el sitio ya esta disponible el beta 2 de este IDE, asi que lo estoy bajando aver que trae de nuevo esto. La verdad que no encontre informacion oficial de la salida de beta 2, asi que tengo la primicia :). Descargar. </description>
     </item>
     
     <item>
@@ -287,7 +285,7 @@ y según parece el valor de format no lo llena al hacer la petición en el naveg
       
       <guid>https://carakan.net/blog/2007/09/scrum-en-la-intemperie-combinando-scrum-y-rails/</guid>
       <description>Si, estoy haciendo mi proyecto de grado para la culminacion de mi carrera (Informatica), y para esto estoy haciendo uso de varios conceptos, filosofias, tecnologias que la verdad si no me confundo en mis ideas, confundire a mis tutores/revisores :P. Este es el listado de todos los conceptos que estoy utilizando en mi proyecto.
- Manifiesto agil. Scrum. Ruby on rails. Ajax. REST.  Todo lo anterior se esta plasmando en el sitio de reservas de clases de español del instituto exclusivo que por ahora esta enlazado a este link.</description>
+Manifiesto agil. Scrum. Ruby on rails. Ajax. REST. Todo lo anterior se esta plasmando en el sitio de reservas de clases de español del instituto exclusivo que por ahora esta enlazado a este link.</description>
     </item>
     
   </channel>

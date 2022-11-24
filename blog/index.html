@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.97.3" />
+<meta name="generator" content="Hugo 0.106.0">
 <link rel="alternate" type="application/rss+xml" href="https://carakan.net/blog/index.xml">
 <noscript>
     <style>
@@ -224,7 +224,7 @@ gem install ffi -v &#39;1.9.18&#39; -- --with-cflags=&#34;-Wno-error=implicit-fu
   <section class="entry-content">
     <p>Recently I started to work with Docker in a project, and I ever use vim-test to run test using vim, now to integrate in current docker workflow we need to configure vim-test.
 For example to configure to run rspec test inside app:
-let test#ruby#rspec#executable = &#39;docker-compose exec -e RAILS_ENV=test app rspec&#39;to run inside to already running app docker container.
+let test#ruby#rspec#executable = &#39;docker-compose exec -e RAILS_ENV=test app rspec&#39; to run inside to already running app docker container.
 It is very important to add -e RAILS_ENV=test to send envinroment variables and set test env inside the rails app....</p>
   </section>
   <footer class="entry-footer"><span title='2020-08-25 09:39:14 -0400 -04'>August 25, 2020</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
@@ -267,7 +267,7 @@ which python3 # =&gt; /usr/bin/python3 which pip3 # =&gt; /usr/bin/pip3 And that
   <section class="entry-content">
     <p>The problem is with RVM and renv and not with asdf, so my first suggestion is to change to asdf
 if you keep with RVM: install older versions of ruby &lt;2.3 with support for openssl 1.0x you can follow these instructions:
-# before you install command line tools and gcc xcode-select --install brew install gcc  # installation procedure cd /usr/local/src curl -O https://www.openssl.org/source/openssl-1.0.2t.tar.gz tar xzf openssl-1.0.2t.tar.gz cd openssl-1.0.2t ./Configure darwin64-x86_64-cc make sudo make install export LDFLAGS=“-L/usr/local/ssl/lib” export CPPFLAGS=“-I/usr/local/ssl/include” export PKG_CONFIG_PATH=“/usr/local/ssl/lib/pkgconfig” rvm reinstall 2....</p>
+# before you install command line tools and gcc xcode-select --install brew install gcc # installation procedure cd /usr/local/src curl -O https://www.openssl.org/source/openssl-1.0.2t.tar.gz tar xzf openssl-1.0.2t.tar.gz cd openssl-1.0.2t ./Configure darwin64-x86_64-cc make sudo make install export LDFLAGS=“-L/usr/local/ssl/lib” export CPPFLAGS=“-I/usr/local/ssl/include” export PKG_CONFIG_PATH=“/usr/local/ssl/lib/pkgconfig” rvm reinstall 2....</p>
   </section>
   <footer class="entry-footer"><span title='2020-01-24 15:46:05 -0400 -04'>January 24, 2020</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to How to Install Older Versions of Ruby" href="https://carakan.net/blog/2020/01/how-to-install-older-versions-of-ruby/"></a>
@@ -279,10 +279,11 @@ if you keep with RVM: install older versions of ruby &lt;2.3 with support for op
     </h2>
   </header>
   <section class="entry-content">
-    <p>Context   The idea is to develop the same requirement as devise describe in their guide:
-  The project is using the admin_user approach and sets the default setup included on activeadmin.
-  (NOTE) One other recommended solution is to migrate the admin_user model to user and configure devise normally as a separate engine.
-  Guide   If you haven’t already, enable the confirmable module...</p>
+    <p>Context The idea is to develop the same requirement as devise describe in their guide:
+The project is using the admin_user approach and sets the default setup included on activeadmin.
+(NOTE) One other recommended solution is to migrate the admin_user model to user and configure devise normally as a separate engine.
+Guide If you haven’t already, enable the confirmable module
+If you haven’t already, follow the Devise instructions for configuring views, install in app/views/active_admin/devise...</p>
   </section>
   <footer class="entry-footer"><span title='2019-12-10 12:22:05 -0400 -04'>December 10, 2019</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to How to do email only sign up using default active-admin setup" href="https://carakan.net/blog/2019/12/how-to-do-email-only-sign-up-using-default-active-admin-setup/"></a>
@@ -310,7 +311,7 @@ cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat
   </header>
   <section class="entry-content">
     <p>Recently I found a nice feature when defining a column on migrations, is to use array option in the creation of a column:
-class MyMigration &lt; ActiveRecord::Migration[5.2]  def change  # Defines a column that stores an array of a type.  add_column :transactions, :categories, :string, array: true, default: []  end end With this on categories you can storage an array of values, it’s useful instead of use jsonb because as json you may also need to create the key to store values (hash)....</p>
+class MyMigration &lt; ActiveRecord::Migration[5.2] def change # Defines a column that stores an array of a type. add_column :transactions, :categories, :string, array: true, default: [] end end With this on categories you can storage an array of values, it’s useful instead of use jsonb because as json you may also need to create the key to store values (hash)....</p>
   </section>
   <footer class="entry-footer"><span title='2019-10-14 11:09:24 -0400 -04'>October 14, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Add Array of Types in a Column using Postgres and Rails" href="https://carakan.net/blog/2019/10/add-array-of-types-in-a-column-using-postgres-and-rails/"></a>

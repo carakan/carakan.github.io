@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.97.3" />
+<meta name="generator" content="Hugo 0.106.0">
 <link rel="alternate" type="application/rss+xml" href="https://carakan.net/tags/neovim/index.xml">
 <noscript>
     <style>
@@ -140,7 +140,7 @@
   <section class="entry-content">
     <p>Recently I started to work with Docker in a project, and I ever use vim-test to run test using vim, now to integrate in current docker workflow we need to configure vim-test.
 For example to configure to run rspec test inside app:
-let test#ruby#rspec#executable = &#39;docker-compose exec -e RAILS_ENV=test app rspec&#39;to run inside to already running app docker container.
+let test#ruby#rspec#executable = &#39;docker-compose exec -e RAILS_ENV=test app rspec&#39; to run inside to already running app docker container.
 It is very important to add -e RAILS_ENV=test to send envinroment variables and set test env inside the rails app....</p>
   </section>
   <footer class="entry-footer"><span title='2020-08-25 09:39:14 -0400 -04'>August 25, 2020</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
@@ -183,7 +183,7 @@ First clone and generate the executables of elixirLS:...</p>
     <p>One thing that I like is to show HEX colors on css, html and even on javascript using NEOVIM, to do that I was using Colorizer plugin but now I switched to use vim-hexokinase and it’s asynchronous!
 to install you might need to install before go language:
 brew install go and this is my config:
-let g:Hexokinase_ftOptInPatterns = { \  &#39;css&#39;: &#39;full_hex,triple_hex,rgb,rgba,hsl,hsla,colour_names&#39;, \  &#39;html&#39;: &#39;full_hex,rgb,rgba,hsl,hsla&#39;, \  &#39;javascript&#39;: &#39;full_hex,rgb,rgba,hsl,hsla&#39; \ } let g:Hexokinase_virtualText = &#39; ██████&#39; watch all of my dotfiles...</p>
+let g:Hexokinase_ftOptInPatterns = { \ &#39;css&#39;: &#39;full_hex,triple_hex,rgb,rgba,hsl,hsla,colour_names&#39;, \ &#39;html&#39;: &#39;full_hex,rgb,rgba,hsl,hsla&#39;, \ &#39;javascript&#39;: &#39;full_hex,rgb,rgba,hsl,hsla&#39; \ } let g:Hexokinase_virtualText = &#39; ██████&#39; watch all of my dotfiles...</p>
   </section>
   <footer class="entry-footer"><span title='2019-09-12 15:49:33 -0400 -04'>September 12, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to How to Show Hex Colors on Neovim" href="https://carakan.net/blog/2019/09/how-to-show-hex-colors-on-neovim/"></a>

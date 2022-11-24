@@ -18,7 +18,7 @@
       <guid>https://carakan.net/blog/2020/08/configure-vim-test-to-work-with-docker/</guid>
       <description>Recently I started to work with Docker in a project, and I ever use vim-test to run test using vim, now to integrate in current docker workflow we need to configure vim-test.
 For example to configure to run rspec test inside app:
-let test#ruby#rspec#executable = &amp;#39;docker-compose exec -e RAILS_ENV=test app rspec&amp;#39;to run inside to already running app docker container.
+let test#ruby#rspec#executable = &amp;#39;docker-compose exec -e RAILS_ENV=test app rspec&amp;#39; to run inside to already running app docker container.
 It is very important to add -e RAILS_ENV=test to send envinroment variables and set test env inside the rails app.</description>
     </item>
     

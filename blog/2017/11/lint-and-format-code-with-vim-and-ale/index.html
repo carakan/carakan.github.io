@@ -13,7 +13,7 @@ For example if I’m using eslint and I see this error:">
 <meta name="author" content="Carlos Ramos">
 <link rel="canonical" href="https://carakan.net/blog/2017/11/lint-and-format-code-with-vim-and-ale/" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.6f60056d44d3f7eb69a4bc6c332b59960f3a995802bded244750232f33713c49.css" integrity="sha256-b2AFbUTT9&#43;tppLxsMytZlg86mVgCve0kR1AjLzNxPEk=" rel="preload stylesheet" as="style">
-<script defer crossorigin="anonymous" src="/assets/js/highlight.min.2840b7fccd34145847db71a290569594bdbdb00047097f75d6495d162f5d7dff.js" integrity="sha256-KEC3/M00FFhH23GikFaVlL29sABHCX911kldFi9dff8="
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.b95bacdc39e37a332a9f883b1e78be4abc1fdca2bc1f2641f55e3cd3dabd4d61.js" integrity="sha256-uVus3DnjejMqn4g7Hni&#43;Srwf3KK8HyZB9V4809q9TWE="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://carakan.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://carakan.net/favicon-16x16.png">
@@ -22,7 +22,7 @@ For example if I’m using eslint and I see this error:">
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.97.3" />
+<meta name="generator" content="Hugo 0.106.0">
 <noscript>
     <style>
         #theme-toggle,
@@ -107,8 +107,8 @@ For example if I’m using eslint and I see this error:"/>
   "keywords": [
     "vim", "tooling"
   ],
-  "articleBody": "Currently I’m writing JS and Elixir code and I’ve using a lot of plugins to help me about misspelling in my code, first I was using Syntastic, later I was using Neomake but now I fell in love with ALE and I try to explain why.\nAle knows clearly about if a plugin/addon shows an error that plugin/addon can fix that error if is possible.\nFor example if I’m using eslint and I see this error:\nI want to ALE fix this (automatically) to:\nThat is easy and is built-in by default.\nAnother amazing feature is to queue fixer’s, let me explain this:\nPrettier is a amazing opinionated code formatter for a lot of languages and provides a few options to configure, and if we can use ‘prettier + eslint’, I see a lot of issues with this combination, for example this. To avoid this, people made a lot of workarounds (npm’s, disabling rules, etc.), but in my opinion any code formatter only live in the IDE/editor and not in the project as dependency.\nSo with Ale you can only do that:\n\" vimrclet g:ale_fixers = {\\ 'javascript': ['prettier', 'eslint']\\}then Ale first apply fixes/format from prettier and later with eslint, AWESOME!\nFinally Ale has support to newest elixir code formatter!\nLater in a next post I would like to explain step by step all the configurations.\n",
-  "wordCount" : "226",
+  "articleBody": "Currently I’m writing JS and Elixir code and I’ve using a lot of plugins to help me about misspelling in my code, first I was using Syntastic, later I was using Neomake but now I fell in love with ALE and I try to explain why.\nAle knows clearly about if a plugin/addon shows an error that plugin/addon can fix that error if is possible.\nFor example if I’m using eslint and I see this error:\nI want to ALE fix this (automatically) to:\nThat is easy and is built-in by default.\nAnother amazing feature is to queue fixer’s, let me explain this:\nPrettier is a amazing opinionated code formatter for a lot of languages and provides a few options to configure, and if we can use ‘prettier + eslint’, I see a lot of issues with this combination, for example this. To avoid this, people made a lot of workarounds (npm’s, disabling rules, etc.), but in my opinion any code formatter only live in the IDE/editor and not in the project as dependency.\nSo with Ale you can only do that:\n\" vimrc let g:ale_fixers = { \\ 'javascript': ['prettier', 'eslint'] \\} then Ale first apply fixes/format from prettier and later with eslint, AWESOME!\nFinally Ale has support to newest elixir code formatter!\nLater in a next post I would like to explain step by step all the configurations.\n",
+  "wordCount" : "230",
   "inLanguage": "en",
   "datePublished": "2017-11-15T00:11:01.059Z",
   "dateModified": "2019-07-18T21:50:20-04:00",

@@ -14,7 +14,7 @@ cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat
 <meta name="author" content="Carlos Ramos">
 <link rel="canonical" href="https://carakan.net/blog/2019/10/how-to-sync-vscode-plugins-over-your-dotfiles/" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.6f60056d44d3f7eb69a4bc6c332b59960f3a995802bded244750232f33713c49.css" integrity="sha256-b2AFbUTT9&#43;tppLxsMytZlg86mVgCve0kR1AjLzNxPEk=" rel="preload stylesheet" as="style">
-<script defer crossorigin="anonymous" src="/assets/js/highlight.min.2840b7fccd34145847db71a290569594bdbdb00047097f75d6495d162f5d7dff.js" integrity="sha256-KEC3/M00FFhH23GikFaVlL29sABHCX911kldFi9dff8="
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.b95bacdc39e37a332a9f883b1e78be4abc1fdca2bc1f2641f55e3cd3dabd4d61.js" integrity="sha256-uVus3DnjejMqn4g7Hni&#43;Srwf3KK8HyZB9V4809q9TWE="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://carakan.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://carakan.net/favicon-16x16.png">
@@ -23,7 +23,7 @@ cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.97.3" />
+<meta name="generator" content="Hugo 0.106.0">
 <noscript>
     <style>
         #theme-toggle,
@@ -110,7 +110,7 @@ cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat
   "keywords": [
     "TIL", "dotfiles"
   ],
-  "articleBody": "I was looking a simple way to get sync all of my current setup of vscode, I did’t found a proper way to do with another plugin, but I found a commands to do this sync.\nfirst to have a list of plugins installed and save to a file:\ncode --list-extensions  vscode-extensions.list to restore, read that file and install all plugins:\ncat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat vscode-extensions.list --plain | xargs -L 1 code --install-extension you can easily put this list in your dotfiles example.\n",
+  "articleBody": "I was looking a simple way to get sync all of my current setup of vscode, I did’t found a proper way to do with another plugin, but I found a commands to do this sync.\nfirst to have a list of plugins installed and save to a file:\ncode --list-extensions \u003e vscode-extensions.list to restore, read that file and install all plugins:\ncat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat vscode-extensions.list --plain | xargs -L 1 code --install-extension you can easily put this list in your dotfiles example.\n",
   "wordCount" : "92",
   "inLanguage": "en",
   "datePublished": "2019-10-21T11:51:11-04:00",

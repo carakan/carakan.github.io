@@ -8,12 +8,12 @@
 <title>great plugin for share session in rails apps between wordpress blog | carakan</title>
 <meta name="keywords" content="database session, Rails, ruby" />
 <meta name="description" content="In one project, the client wants to share same user credentials between rails app to wordpress site, I&rsquo;ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:
-rails login  this plugin only need a small API for enable login i created this code in model user:
-def wp_json  {  user: {  email: self.">
+rails login this plugin only need a small API for enable login i created this code in model user:
+def wp_json { user: { email: self.">
 <meta name="author" content="Carlos Ramos">
 <link rel="canonical" href="https://carakan.net/blog/2015/03/great-plugin-for-share-session-in-rails-apps-between-wordpress-blog/" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.6f60056d44d3f7eb69a4bc6c332b59960f3a995802bded244750232f33713c49.css" integrity="sha256-b2AFbUTT9&#43;tppLxsMytZlg86mVgCve0kR1AjLzNxPEk=" rel="preload stylesheet" as="style">
-<script defer crossorigin="anonymous" src="/assets/js/highlight.min.2840b7fccd34145847db71a290569594bdbdb00047097f75d6495d162f5d7dff.js" integrity="sha256-KEC3/M00FFhH23GikFaVlL29sABHCX911kldFi9dff8="
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.b95bacdc39e37a332a9f883b1e78be4abc1fdca2bc1f2641f55e3cd3dabd4d61.js" integrity="sha256-uVus3DnjejMqn4g7Hni&#43;Srwf3KK8HyZB9V4809q9TWE="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://carakan.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://carakan.net/favicon-16x16.png">
@@ -22,7 +22,7 @@ def wp_json  {  user: {  email: self.">
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.97.3" />
+<meta name="generator" content="Hugo 0.106.0">
 <noscript>
     <style>
         #theme-toggle,
@@ -61,8 +61,8 @@ def wp_json  {  user: {  email: self.">
     </style>
 </noscript><meta property="og:title" content="great plugin for share session in rails apps between wordpress blog" />
 <meta property="og:description" content="In one project, the client wants to share same user credentials between rails app to wordpress site, I&rsquo;ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:
-rails login  this plugin only need a small API for enable login i created this code in model user:
-def wp_json  {  user: {  email: self." />
+rails login this plugin only need a small API for enable login i created this code in model user:
+def wp_json { user: { email: self." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://carakan.net/blog/2015/03/great-plugin-for-share-session-in-rails-apps-between-wordpress-blog/" /><meta property="og:image" content="https://carakan.net/papermod-cover.png"/><meta property="article:section" content="blog" />
 <meta property="article:published_time" content="2015-03-13T01:11:09&#43;00:00" />
@@ -73,8 +73,8 @@ def wp_json  {  user: {  email: self." />
 
 <meta name="twitter:title" content="great plugin for share session in rails apps between wordpress blog"/>
 <meta name="twitter:description" content="In one project, the client wants to share same user credentials between rails app to wordpress site, I&rsquo;ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:
-rails login  this plugin only need a small API for enable login i created this code in model user:
-def wp_json  {  user: {  email: self."/>
+rails login this plugin only need a small API for enable login i created this code in model user:
+def wp_json { user: { email: self."/>
 
 
 <script type="application/ld+json">
@@ -103,12 +103,12 @@ def wp_json  {  user: {  email: self."/>
   "@type": "BlogPosting",
   "headline": "great plugin for share session in rails apps between wordpress blog",
   "name": "great plugin for share session in rails apps between wordpress blog",
-  "description": "In one project, the client wants to share same user credentials between rails app to wordpress site, I\u0026rsquo;ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:\nrails login  this plugin only need a small API for enable login i created this code in model user:\ndef wp_json  {  user: {  email: self.",
+  "description": "In one project, the client wants to share same user credentials between rails app to wordpress site, I\u0026rsquo;ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:\nrails login this plugin only need a small API for enable login i created this code in model user:\ndef wp_json { user: { email: self.",
   "keywords": [
     "database session", "Rails", "ruby"
   ],
-  "articleBody": "In one project, the client wants to share same user credentials between rails app to wordpress site, I’ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:\nrails login  this plugin only need a small API for enable login i created this code in model user:\ndef wp_json  {  user: {  email: self.email,  first_name: self.firstname,  last_name: self.lastname,  description: '',  username: self.usernames,  login: self.email,  nickname: self.firstname,  display_name: \"#{self.firstname}#{self.lastname}\",  url: 'http://my-wp-installation.com'  }  } end and in the rails controller I created this:\ndef current  session = Session.where(session_id: params[:id]).first  respond_to do |format|  format.json do  if session \u0026\u0026 session.user  render json: session.user.wp_json  else  render json: { user: '' }.to_json  end  end  end end to work this integration the project must need to use database session store.\n",
-  "wordCount" : "142",
+  "articleBody": "In one project, the client wants to share same user credentials between rails app to wordpress site, I’ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:\nrails login this plugin only need a small API for enable login i created this code in model user:\ndef wp_json { user: { email: self.email, first_name: self.firstname, last_name: self.lastname, description: '', username: self.usernames, login: self.email, nickname: self.firstname, display_name: \"#{self.firstname} #{self.lastname}\", url: 'http://my-wp-installation.com' } } end and in the rails controller I created this:\ndef current session = Session.where(session_id: params[:id]).first respond_to do |format| format.json do if session \u0026\u0026 session.user render json: session.user.wp_json else render json: { user: '' }.to_json end end end end to work this integration the project must need to use database session store.\n",
+  "wordCount" : "143",
   "inLanguage": "en",
   "datePublished": "2015-03-13T01:11:09Z",
   "dateModified": "2015-03-13T01:11:09Z",
