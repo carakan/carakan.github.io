@@ -224,12 +224,12 @@ ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :stu
     </item>
     
     <item>
-      <title>About</title>
+      <title>About Me</title>
       <link>https://carakan.net/about/</link>
       <pubDate>Tue, 27 Aug 2019 09:20:38 -0400</pubDate>
       
       <guid>https://carakan.net/about/</guid>
-      <description>I am a software computer scientist with long experience solving problems using a lot of communication with the end-user. I have been working with Ruby/Rails for about 12 years, and it is my language/framework of choice. Fell in love with Ruby’s way of doing things and its syntax. Also open-minded and like the functional programming (Elixir/Erlang) and the ocean of knowledge with OTP. I am obsessed with delivering products/solutions writing elegant code and well tested in a short time; I am a big fan of DDD as my choice when making design/architectural decisions.</description>
+      <description>I am a software enginner, team leader with long experience solving business problems for clients. I have been working with Ruby/Rails for about 12 years, and it is my language/framework of choice. Fell in love with Ruby’s way of doing things and its syntax. Also open-minded and like the functional programming (Elixir/Erlang) and the ocean of knowledge with OTP. I am obsessed with delivering products/solutions writing elegant code and well tested in a short time; I am a big fan of DDD as my choice when making design/architectural decisions.</description>
     </item>
     
     <item>
