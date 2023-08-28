@@ -5,10 +5,12 @@
     <link>https://carakan.net/tags/vim-test/</link>
     <description>Recent content in vim-test on carakan</description>
     <image>
+      <title>carakan</title>
       <url>https://carakan.net/papermod-cover.png</url>
       <link>https://carakan.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Tue, 25 Aug 2020 09:39:14 -0400</lastBuildDate><atom:link href="https://carakan.net/tags/vim-test/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Configure Vim Test to Work With Docker</title>

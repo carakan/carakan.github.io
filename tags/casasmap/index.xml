@@ -5,10 +5,12 @@
     <link>https://carakan.net/tags/casasmap/</link>
     <description>Recent content in casasmap on carakan</description>
     <image>
+      <title>carakan</title>
       <url>https://carakan.net/papermod-cover.png</url>
       <link>https://carakan.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Sat, 28 Feb 2009 00:16:57 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/casasmap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google Maps en todas las ciudades de Bolivia</title>

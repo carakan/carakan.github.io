@@ -5,10 +5,12 @@
     <link>https://carakan.net/tags/elixirls/</link>
     <description>Recent content in elixirLS on carakan</description>
     <image>
+      <title>carakan</title>
       <url>https://carakan.net/papermod-cover.png</url>
       <link>https://carakan.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Sun, 22 Sep 2019 22:30:04 -0400</lastBuildDate><atom:link href="https://carakan.net/tags/elixirls/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Configure and install last elixir-ls in Neovim</title>

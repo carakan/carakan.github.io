@@ -6,11 +6,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Blogs | carakan</title>
-<meta name="keywords" content="" />
+<meta name="keywords" content="">
 <meta name="description" content="Blogs - carakan">
 <meta name="author" content="Carlos Ramos">
-<link rel="canonical" href="https://carakan.net/blog/" />
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.6f60056d44d3f7eb69a4bc6c332b59960f3a995802bded244750232f33713c49.css" integrity="sha256-b2AFbUTT9&#43;tppLxsMytZlg86mVgCve0kR1AjLzNxPEk=" rel="preload stylesheet" as="style">
+<link rel="canonical" href="https://carakan.net/blog/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.3540a22d0e3fdc0674973ced72c7e240ce0e7301acd21a66b2a4c96aa35bc032.css" integrity="sha256-NUCiLQ4/3AZ0lzztcsfiQM4OcwGs0hpmsqTJaqNbwDI=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://carakan.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://carakan.net/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://carakan.net/favicon-32x32.png">
@@ -18,7 +18,6 @@
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.110.0">
 <link rel="alternate" type="application/rss+xml" href="https://carakan.net/blog/index.xml">
 <noscript>
     <style>
@@ -100,14 +99,14 @@
     <nav class="nav">
         <div class="logo">
             <a href="https://carakan.net/" accesskey="h" title="carakan (Alt + H)">carakan</a>
-            <span class="logo-switches">
+            <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -121,7 +120,7 @@
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
-            </span>
+            </div>
         </div>
         <ul id="menu">
             <li>
@@ -144,7 +143,9 @@
 </header>
 <main class="main"> 
 <header class="page-header"><div class="breadcrumbs"><a href="https://carakan.net/">Home</a></div>
-  <h1>Blogs</h1>
+  <h1>
+    Blogs
+  </h1>
 </header>
 
 <article class="post-entry"> 
@@ -152,12 +153,12 @@
     <h2>Ruby Safe Operator Tip
     </h2>
   </header>
-  <section class="entry-content">
+  <div class="entry-content">
     <p>In my current work, I’m using (abusing) of the ruby safe operator &amp;, which is a native implementation of the null pattern, for example, in a chain of messages:
 user.billings.first.cost It could be thrown an error when for example the billings of a user is empty and first returns a nil object and then nil.cost creates an Exception.
 With the safe operator &amp; this avoids the error:
 user.billings.first&amp;.cost # =&gt; 5....</p>
-  </section>
+  </div>
   <footer class="entry-footer"><span title='2021-08-11 22:28:29 -0400 -04'>August 11, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Ruby Safe Operator Tip" href="https://carakan.net/blog/2021/08/ruby-safe-operator-tip/"></a>
 </article>
@@ -167,10 +168,10 @@ user.billings.first&amp;.cost # =&gt; 5....</p>
     <h2>Dropbox ignore files/directories
     </h2>
   </header>
-  <section class="entry-content">
+  <div class="entry-content">
     <p>Ignoring files or directories in dropbox is a hard thing, I thought it has like git, a .gitignore to config that, but no, we need to do a command for each file/dir, for example to ignore the files that creates a lightroom catalog (.lrcat) we need to do:
 xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previews.lrdata xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previews.lrdata xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Helper.lrdata and to not longer ignore files we need this command:...</p>
-  </section>
+  </div>
   <footer class="entry-footer"><span title='2021-06-25 11:15:20 -0400 -04'>June 25, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Dropbox ignore files/directories" href="https://carakan.net/blog/2021/06/dropbox-ignore-files-directories/"></a>
 </article>
@@ -180,12 +181,12 @@ xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previ
     <h2>Make Backup/Restore Postgres Database With No Owner
     </h2>
   </header>
-  <section class="entry-content">
+  <div class="entry-content">
     <p>to do backup:
 pg_dump dbname -O -x &gt; backupname.sql To restore:
 psql dbname &lt; backupname.sql Options documentation:
 -O &lt;-- No owner -x &lt;-- No privileges </p>
-  </section>
+  </div>
   <footer class="entry-footer"><span title='2021-02-23 17:01:57 -0400 -04'>February 23, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Make Backup/Restore Postgres Database With No Owner" href="https://carakan.net/blog/2021/02/make-backup/restore-postgres-database-with-no-owner/"></a>
 </article>
@@ -195,10 +196,10 @@ psql dbname &lt; backupname.sql Options documentation:
     <h2>Postgres: Create Db User and bring Access
     </h2>
   </header>
-  <section class="entry-content">
+  <div class="entry-content">
     <p>Short version:
 sudo -u postgres psql create database mydb; create user myuser with encrypted password &#39;password&#39;; grant all privileges on database mydb to myuser; </p>
-  </section>
+  </div>
   <footer class="entry-footer"><span title='2021-02-02 22:12:37 -0400 -04'>February 2, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Postgres: Create Db User and bring Access" href="https://carakan.net/blog/2021/02/postgres-create-db-user-and-bring-access/"></a>
 </article>
@@ -208,10 +209,10 @@ sudo -u postgres psql create database mydb; create user myuser with encrypted pa
     <h2>Install Ancient Gems ffi
     </h2>
   </header>
-  <section class="entry-content">
+  <div class="entry-content">
     <p>To install a ancient ffi (&lt;= 1.9.18) in Catalina MacOS or newer OS we need to use this command:
 gem install ffi -v &#39;1.9.18&#39; -- --with-cflags=&#34;-Wno-error=implicit-function-declaration&#34; </p>
-  </section>
+  </div>
   <footer class="entry-footer"><span title='2020-11-25 12:24:29 -0400 -04'>November 25, 2020</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Install Ancient Gems ffi" href="https://carakan.net/blog/2020/11/install-ancient-gems-ffi/"></a>
 </article>
@@ -221,12 +222,12 @@ gem install ffi -v &#39;1.9.18&#39; -- --with-cflags=&#34;-Wno-error=implicit-fu
     <h2>Configure Vim Test to Work With Docker
     </h2>
   </header>
-  <section class="entry-content">
+  <div class="entry-content">
     <p>Recently I started to work with Docker in a project, and I ever use vim-test to run test using vim, now to integrate in current docker workflow we need to configure vim-test.
 For example to configure to run rspec test inside app:
 let test#ruby#rspec#executable = &#39;docker-compose exec -e RAILS_ENV=test app rspec&#39; to run inside to already running app docker container.
 It is very important to add -e RAILS_ENV=test to send envinroment variables and set test env inside the rails app....</p>
-  </section>
+  </div>
   <footer class="entry-footer"><span title='2020-08-25 09:39:14 -0400 -04'>August 25, 2020</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Configure Vim Test to Work With Docker" href="https://carakan.net/blog/2020/08/configure-vim-test-to-work-with-docker/"></a>
 </article>
@@ -236,11 +237,11 @@ It is very important to add -e RAILS_ENV=test to send envinroment variables and 
     <h2>How to Install Mariadb Mysql2 Driver Ruby
     </h2>
   </header>
-  <section class="entry-content">
+  <div class="entry-content">
     <p>In a project I had troubles triying to install mysql2 gem with a older version of mariadb installed via homebrew.
 the solution is to send the path of the installation.
 gem install mysql2 -- --with-mysql-config=$(brew --prefix mariadb@10.2)/bin/mysql_config </p>
-  </section>
+  </div>
   <footer class="entry-footer"><span title='2020-08-19 20:41:10 -0400 -04'>August 19, 2020</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to How to Install Mariadb Mysql2 Driver Ruby" href="https://carakan.net/blog/2020/08/how-to-install-mariadb-mysql2-driver-ruby/"></a>
 </article>
@@ -250,11 +251,11 @@ gem install mysql2 -- --with-mysql-config=$(brew --prefix mariadb@10.2)/bin/mysq
     <h2>Configuring Python3 on Neovim
     </h2>
   </header>
-  <section class="entry-content">
+  <div class="entry-content">
     <p>The idea of this post is to configure correctly the support of python3 on neovim, let’s start.
 first this configuration is using macOS, by default python3 is installed on macOS and the default route of the executables are:
 which python3 # =&gt; /usr/bin/python3 which pip3 # =&gt; /usr/bin/pip3 And that’s it! but normally if you are using homebrew you also installed the python3 using a formula, personally I do not to recomend that but it will work....</p>
-  </section>
+  </div>
   <footer class="entry-footer"><span title='2020-04-27 15:17:47 -0400 -04'>April 27, 2020</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Configuring Python3 on Neovim" href="https://carakan.net/blog/2020/04/configuring-python3-on-neovim/"></a>
 </article>
@@ -264,11 +265,11 @@ which python3 # =&gt; /usr/bin/python3 which pip3 # =&gt; /usr/bin/pip3 And that
     <h2>How to Install Older Versions of Ruby
     </h2>
   </header>
-  <section class="entry-content">
+  <div class="entry-content">
     <p>The problem is with RVM and renv and not with asdf, so my first suggestion is to change to asdf
 if you keep with RVM: install older versions of ruby &lt;2.3 with support for openssl 1.0x you can follow these instructions:
 # before you install command line tools and gcc xcode-select --install brew install gcc # installation procedure cd /usr/local/src curl -O https://www.openssl.org/source/openssl-1.0.2t.tar.gz tar xzf openssl-1.0.2t.tar.gz cd openssl-1.0.2t ./Configure darwin64-x86_64-cc make sudo make install export LDFLAGS=“-L/usr/local/ssl/lib” export CPPFLAGS=“-I/usr/local/ssl/include” export PKG_CONFIG_PATH=“/usr/local/ssl/lib/pkgconfig” rvm reinstall 2....</p>
-  </section>
+  </div>
   <footer class="entry-footer"><span title='2020-01-24 15:46:05 -0400 -04'>January 24, 2020</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to How to Install Older Versions of Ruby" href="https://carakan.net/blog/2020/01/how-to-install-older-versions-of-ruby/"></a>
 </article>
@@ -278,13 +279,13 @@ if you keep with RVM: install older versions of ruby &lt;2.3 with support for op
     <h2>How to do email only sign up using default active-admin setup
     </h2>
   </header>
-  <section class="entry-content">
+  <div class="entry-content">
     <p>Context The idea is to develop the same requirement as devise describe in their guide:
 The project is using the admin_user approach and sets the default setup included on activeadmin.
 (NOTE) One other recommended solution is to migrate the admin_user model to user and configure devise normally as a separate engine.
 Guide If you haven’t already, enable the confirmable module
 If you haven’t already, follow the Devise instructions for configuring views, install in app/views/active_admin/devise...</p>
-  </section>
+  </div>
   <footer class="entry-footer"><span title='2019-12-10 12:22:05 -0400 -04'>December 10, 2019</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to How to do email only sign up using default active-admin setup" href="https://carakan.net/blog/2019/12/how-to-do-email-only-sign-up-using-default-active-admin-setup/"></a>
 </article>
@@ -294,12 +295,12 @@ If you haven’t already, follow the Devise instructions for configuring views, 
     <h2>How to Sync Vscode Plugins Over Your Dotfiles
     </h2>
   </header>
-  <section class="entry-content">
+  <div class="entry-content">
     <p>I was looking a simple way to get sync all of my current setup of vscode, I did’t found a proper way to do with another plugin, but I found a commands to do this sync.
 first to have a list of plugins installed and save to a file:
 code --list-extensions &gt; vscode-extensions.list to restore, read that file and install all plugins:
 cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat vscode-extensions....</p>
-  </section>
+  </div>
   <footer class="entry-footer"><span title='2019-10-21 11:51:11 -0400 -04'>October 21, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to How to Sync Vscode Plugins Over Your Dotfiles" href="https://carakan.net/blog/2019/10/how-to-sync-vscode-plugins-over-your-dotfiles/"></a>
 </article>
@@ -309,16 +310,17 @@ cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat
     <h2>Add Array of Types in a Column using Postgres and Rails
     </h2>
   </header>
-  <section class="entry-content">
+  <div class="entry-content">
     <p>Recently I found a nice feature when defining a column on migrations, is to use array option in the creation of a column:
 class MyMigration &lt; ActiveRecord::Migration[5.2] def change # Defines a column that stores an array of a type. add_column :transactions, :categories, :string, array: true, default: [] end end With this on categories you can storage an array of values, it’s useful instead of use jsonb because as json you may also need to create the key to store values (hash)....</p>
-  </section>
+  </div>
   <footer class="entry-footer"><span title='2019-10-14 11:09:24 -0400 -04'>October 14, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Add Array of Types in a Column using Postgres and Rails" href="https://carakan.net/blog/2019/10/add-array-of-types-in-a-column-using-postgres-and-rails/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
-    <a class="next" href="https://carakan.net/blog/page/2/">Next Page »</a>
+    <a class="next" href="https://carakan.net/blog/page/2/">Next&nbsp;&nbsp;»
+    </a>
   </nav>
 </footer>
     </main>
@@ -328,7 +330,7 @@ class MyMigration &lt; ActiveRecord::Migration[5.2] def change # Defines a colum
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">

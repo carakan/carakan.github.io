@@ -6,11 +6,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>rails | carakan</title>
-<meta name="keywords" content="" />
+<meta name="keywords" content="">
 <meta name="description" content="Carlos Ramos, some histories and quick tips">
 <meta name="author" content="Carlos Ramos">
-<link rel="canonical" href="https://carakan.net/tags/rails/" />
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.6f60056d44d3f7eb69a4bc6c332b59960f3a995802bded244750232f33713c49.css" integrity="sha256-b2AFbUTT9&#43;tppLxsMytZlg86mVgCve0kR1AjLzNxPEk=" rel="preload stylesheet" as="style">
+<link rel="canonical" href="https://carakan.net/tags/rails/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.3540a22d0e3fdc0674973ced72c7e240ce0e7301acd21a66b2a4c96aa35bc032.css" integrity="sha256-NUCiLQ4/3AZ0lzztcsfiQM4OcwGs0hpmsqTJaqNbwDI=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://carakan.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://carakan.net/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://carakan.net/favicon-32x32.png">
@@ -18,7 +18,6 @@
 <link rel="mask-icon" href="https://carakan.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.110.0">
 <link rel="alternate" type="application/rss+xml" href="https://carakan.net/tags/rails/index.xml">
 <noscript>
     <style>
@@ -85,14 +84,14 @@
     <nav class="nav">
         <div class="logo">
             <a href="https://carakan.net/" accesskey="h" title="carakan (Alt + H)">carakan</a>
-            <span class="logo-switches">
+            <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -106,7 +105,7 @@
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
-            </span>
+            </div>
         </div>
         <ul id="menu">
             <li>
@@ -129,7 +128,9 @@
 </header>
 <main class="main"> 
 <header class="page-header"><div class="breadcrumbs"><a href="https://carakan.net/">Home</a>&nbsp;»&nbsp;<a href="https://carakan.net/tags/">Tags</a></div>
-  <h1>rails</h1>
+  <h1>
+    rails
+  </h1>
 </header>
 
 <article class="post-entry tag-entry"> 
@@ -137,13 +138,13 @@
     <h2>How to do email only sign up using default active-admin setup
     </h2>
   </header>
-  <section class="entry-content">
+  <div class="entry-content">
     <p>Context The idea is to develop the same requirement as devise describe in their guide:
 The project is using the admin_user approach and sets the default setup included on activeadmin.
 (NOTE) One other recommended solution is to migrate the admin_user model to user and configure devise normally as a separate engine.
 Guide If you haven’t already, enable the confirmable module
 If you haven’t already, follow the Devise instructions for configuring views, install in app/views/active_admin/devise...</p>
-  </section>
+  </div>
   <footer class="entry-footer"><span title='2019-12-10 12:22:05 -0400 -04'>December 10, 2019</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to How to do email only sign up using default active-admin setup" href="https://carakan.net/blog/2019/12/how-to-do-email-only-sign-up-using-default-active-admin-setup/"></a>
 </article>
@@ -153,10 +154,10 @@ If you haven’t already, follow the Devise instructions for configuring views, 
     <h2>Create a Form With Two Actions on Activeadmin
     </h2>
   </header>
-  <section class="entry-content">
+  <div class="entry-content">
     <p>In a project that already using Activeadmin I had the requeriment of modify the actual form to create a student, but without validating that, so the solution was create into the model of active admin form and declare the form with two actions, one with the clasical behaviour and other when passed the params[:managed] with a custom route
 ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :student, as: :select, collection: User....</p>
-  </section>
+  </div>
   <footer class="entry-footer"><span title='2019-09-11 18:22:45 -0400 -04'>September 11, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Create a Form With Two Actions on Activeadmin" href="https://carakan.net/blog/2019/09/create-a-form-with-two-actions-on-activeadmin/"></a>
 </article>
@@ -166,11 +167,11 @@ ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :stu
     <h2>great plugin for share session in rails apps between wordpress blog
     </h2>
   </header>
-  <section class="entry-content">
+  <div class="entry-content">
     <p>In one project, the client wants to share same user credentials between rails app to wordpress site, I’ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:
 rails login this plugin only need a small API for enable login i created this code in model user:
 def wp_json { user: { email: self....</p>
-  </section>
+  </div>
   <footer class="entry-footer"><span title='2015-03-13 01:11:09 +0000 +0000'>March 13, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to great plugin for share session in rails apps between wordpress blog" href="https://carakan.net/blog/2015/03/great-plugin-for-share-session-in-rails-apps-between-wordpress-blog/"></a>
 </article>
@@ -181,7 +182,7 @@ def wp_json { user: { email: self....</p>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">

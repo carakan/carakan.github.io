@@ -5,10 +5,12 @@
     <link>https://carakan.net/tags/psql/</link>
     <description>Recent content in psql on carakan</description>
     <image>
+      <title>carakan</title>
       <url>https://carakan.net/papermod-cover.png</url>
       <link>https://carakan.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Tue, 02 Feb 2021 22:12:37 -0400</lastBuildDate><atom:link href="https://carakan.net/tags/psql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Postgres: Create Db User and bring Access</title>

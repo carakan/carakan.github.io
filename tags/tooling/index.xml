@@ -5,10 +5,12 @@
     <link>https://carakan.net/tags/tooling/</link>
     <description>Recent content in tooling on carakan</description>
     <image>
+      <title>carakan</title>
       <url>https://carakan.net/papermod-cover.png</url>
       <link>https://carakan.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Wed, 15 Nov 2017 00:11:01 +0000</lastBuildDate><atom:link href="https://carakan.net/tags/tooling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lint and Format code with vim and ALE</title>

@@ -5,10 +5,12 @@
     <link>https://carakan.net/tags/active-admin/</link>
     <description>Recent content in active admin on carakan</description>
     <image>
+      <title>carakan</title>
       <url>https://carakan.net/papermod-cover.png</url>
       <link>https://carakan.net/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Tue, 10 Dec 2019 12:22:05 -0400</lastBuildDate><atom:link href="https://carakan.net/tags/active-admin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to do email only sign up using default active-admin setup</title>
