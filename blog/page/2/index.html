@@ -150,6 +150,19 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2>Add Array of Types in a Column using Postgres and Rails
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Recently I found a nice feature when defining a column on migrations, is to use array option in the creation of a column:
+class MyMigration &lt; ActiveRecord::Migration[5.2] def change # Defines a column that stores an array of a type. add_column :transactions, :categories, :string, array: true, default: [] end end With this on categories you can storage an array of values, it’s useful instead of use jsonb because as json you may also need to create the key to store values (hash)....</p>
+  </div>
+  <footer class="entry-footer"><span title='2019-10-14 11:09:24 -0400 -04'>October 14, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <a class="entry-link" aria-label="post link to Add Array of Types in a Column using Postgres and Rails" href="https://carakan.net/blog/2019/10/add-array-of-types-in-a-column-using-postgres-and-rails/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2>Install yarn if you are using Nodejs with ASDF
     </h2>
   </header>
@@ -307,20 +320,6 @@ using startups, ideas, etc
   </div>
   <footer class="entry-footer"><span title='2017-09-08 16:08:00 +0000 +0000'>September 8, 2017</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Blockchain, IOT, AI and any ‘hipster’ tech" href="https://carakan.net/blog/2017/09/blockchain-iot-ai-and-any-hipster-tech/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>install passenger 5, ruby 2.x, nginx 1.10.x and enable HTTP/2
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Recently I found that passenger in the last version now uses nginx 1.10.x by default, as you knows since nginx 1.9.x nginx enables support for http2 but the 1.9.x on nginx is beta and when released the line 1.10 is production ready. The process will be describe for ubuntu 14.4 and 16.4:
-Install Dependencies apt-get update -y apt-get upgrade -y apt-get install sudo -y install the required packages:
-sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate python-docutils pkg-config cmake nodejs git-core Install Ruby For production sites is a MUST install from sources without using any versions managers like RVM, RENV or whatever this is why leads to hard to diagnose problems....</p>
-  </div>
-  <footer class="entry-footer"><span title='2016-06-24 17:27:00 +0000 +0000'>June 24, 2016</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos</footer>
-  <a class="entry-link" aria-label="post link to install passenger 5, ruby 2.x, nginx 1.10.x and enable HTTP/2" href="https://carakan.net/blog/2016/06/install-passenger-5-ruby-2.x-nginx-1.10.x-and-enable-http/2/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
