@@ -2,25 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://carakan.net/tags/asdf/</loc>
+    <lastmod>2023-10-13T10:29:20-04:00</lastmod>
+  </url><url>
     <loc>https://carakan.net/blog/</loc>
     <lastmod>2023-10-13T10:29:20-04:00</lastmod>
   </url><url>
     <loc>https://carakan.net/</loc>
     <lastmod>2023-10-13T10:29:20-04:00</lastmod>
   </url><url>
+    <loc>https://carakan.net/tags/elixir/</loc>
+    <lastmod>2023-10-13T10:29:20-04:00</lastmod>
+  </url><url>
     <loc>https://carakan.net/blog/2023/10/how-to-install-livebook-with-asdf/</loc>
+    <lastmod>2023-10-13T10:29:20-04:00</lastmod>
+  </url><url>
+    <loc>https://carakan.net/tags/livebook/</loc>
+    <lastmod>2023-10-13T10:29:20-04:00</lastmod>
+  </url><url>
+    <loc>https://carakan.net/tags/</loc>
+    <lastmod>2023-10-13T10:29:20-04:00</lastmod>
+  </url><url>
+    <loc>https://carakan.net/tags/til/</loc>
     <lastmod>2023-10-13T10:29:20-04:00</lastmod>
   </url><url>
     <loc>https://carakan.net/tags/ruby/</loc>
     <lastmod>2021-08-11T22:28:29-04:00</lastmod>
   </url><url>
     <loc>https://carakan.net/blog/2021/08/ruby-safe-operator-tip/</loc>
-    <lastmod>2021-08-11T22:28:29-04:00</lastmod>
-  </url><url>
-    <loc>https://carakan.net/tags/</loc>
-    <lastmod>2021-08-11T22:28:29-04:00</lastmod>
-  </url><url>
-    <loc>https://carakan.net/tags/til/</loc>
     <lastmod>2021-08-11T22:28:29-04:00</lastmod>
   </url><url>
     <loc>https://carakan.net/blog/2021/06/dropbox-ignore-files-directories/</loc>
@@ -89,9 +98,6 @@
     <loc>https://carakan.net/blog/2019/10/add-array-of-types-in-a-column-using-postgres-and-rails/</loc>
     <lastmod>2019-10-14T11:09:24-04:00</lastmod>
   </url><url>
-    <loc>https://carakan.net/tags/asdf/</loc>
-    <lastmod>2019-10-14T11:09:24-04:00</lastmod>
-  </url><url>
     <loc>https://carakan.net/tags/version-manager/</loc>
     <lastmod>2019-10-14T11:09:24-04:00</lastmod>
   </url><url>
@@ -142,9 +148,6 @@
   </url><url>
     <loc>https://carakan.net/tags/vscode/</loc>
     <lastmod>2019-07-18T21:50:22-04:00</lastmod>
-  </url><url>
-    <loc>https://carakan.net/tags/elixir/</loc>
-    <lastmod>2019-07-18T21:50:21-04:00</lastmod>
   </url><url>
     <loc>https://carakan.net/blog/2018/10/my-first-elixir-library-softrepo/</loc>
     <lastmod>2019-07-18T21:50:21-04:00</lastmod>

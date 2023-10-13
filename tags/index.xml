@@ -11,22 +11,49 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Aug 2021 22:28:29 -0400</lastBuildDate><atom:link href="https://carakan.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Oct 2023 10:29:20 -0400</lastBuildDate><atom:link href="https://carakan.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ruby</title>
-      <link>https://carakan.net/tags/ruby/</link>
-      <pubDate>Wed, 11 Aug 2021 22:28:29 -0400</pubDate>
+      <title>asdf</title>
+      <link>https://carakan.net/tags/asdf/</link>
+      <pubDate>Fri, 13 Oct 2023 10:29:20 -0400</pubDate>
       
-      <guid>https://carakan.net/tags/ruby/</guid>
+      <guid>https://carakan.net/tags/asdf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elixir</title>
+      <link>https://carakan.net/tags/elixir/</link>
+      <pubDate>Fri, 13 Oct 2023 10:29:20 -0400</pubDate>
+      
+      <guid>https://carakan.net/tags/elixir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>livebook</title>
+      <link>https://carakan.net/tags/livebook/</link>
+      <pubDate>Fri, 13 Oct 2023 10:29:20 -0400</pubDate>
+      
+      <guid>https://carakan.net/tags/livebook/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TIL</title>
       <link>https://carakan.net/tags/til/</link>
-      <pubDate>Wed, 11 Aug 2021 22:28:29 -0400</pubDate>
+      <pubDate>Fri, 13 Oct 2023 10:29:20 -0400</pubDate>
       
       <guid>https://carakan.net/tags/til/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ruby</title>
+      <link>https://carakan.net/tags/ruby/</link>
+      <pubDate>Wed, 11 Aug 2021 22:28:29 -0400</pubDate>
+      
+      <guid>https://carakan.net/tags/ruby/</guid>
       <description></description>
     </item>
     
@@ -130,15 +157,6 @@
     </item>
     
     <item>
-      <title>asdf</title>
-      <link>https://carakan.net/tags/asdf/</link>
-      <pubDate>Mon, 14 Oct 2019 11:09:24 -0400</pubDate>
-      
-      <guid>https://carakan.net/tags/asdf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>version manager</title>
       <link>https://carakan.net/tags/version-manager/</link>
       <pubDate>Mon, 14 Oct 2019 11:09:24 -0400</pubDate>
@@ -207,15 +225,6 @@
       <pubDate>Tue, 27 Nov 2018 21:51:19 +0000</pubDate>
       
       <guid>https://carakan.net/tags/vscode/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Elixir</title>
-      <link>https://carakan.net/tags/elixir/</link>
-      <pubDate>Wed, 03 Oct 2018 18:49:26 +0000</pubDate>
-      
-      <guid>https://carakan.net/tags/elixir/</guid>
       <description></description>
     </item>
     
