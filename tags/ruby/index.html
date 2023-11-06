@@ -144,7 +144,7 @@ user.billings.first.cost It could be thrown an error when for example the billin
 With the safe operator &amp; this avoids the error:
 user.billings.first&amp;.cost # =&gt; 5....</p>
   </div>
-  <footer class="entry-footer"><span title='2021-08-11 22:28:29 -0400 -04'>August 11, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <footer class="entry-footer">&lt;span title=&#39;2021-08-11 22:28:29 -0400 -04&#39;&gt;August 11, 2021&lt;/span&gt;&amp;nbsp;·&amp;nbsp;2 min&amp;nbsp;·&amp;nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Ruby Safe Operator Tip" href="https://carakan.net/blog/2021/08/ruby-safe-operator-tip/"></a>
 </article>
 
@@ -157,7 +157,7 @@ user.billings.first&amp;.cost # =&gt; 5....</p>
     <p>To install a ancient ffi (&lt;= 1.9.18) in Catalina MacOS or newer OS we need to use this command:
 gem install ffi -v &#39;1.9.18&#39; -- --with-cflags=&#34;-Wno-error=implicit-function-declaration&#34; </p>
   </div>
-  <footer class="entry-footer"><span title='2020-11-25 12:24:29 -0400 -04'>November 25, 2020</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <footer class="entry-footer">&lt;span title=&#39;2020-11-25 12:24:29 -0400 -04&#39;&gt;November 25, 2020&lt;/span&gt;&amp;nbsp;·&amp;nbsp;1 min&amp;nbsp;·&amp;nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Install Ancient Gems ffi" href="https://carakan.net/blog/2020/11/install-ancient-gems-ffi/"></a>
 </article>
 
@@ -171,7 +171,7 @@ gem install ffi -v &#39;1.9.18&#39; -- --with-cflags=&#34;-Wno-error=implicit-fu
 the solution is to send the path of the installation.
 gem install mysql2 -- --with-mysql-config=$(brew --prefix mariadb@10.2)/bin/mysql_config </p>
   </div>
-  <footer class="entry-footer"><span title='2020-08-19 20:41:10 -0400 -04'>August 19, 2020</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <footer class="entry-footer">&lt;span title=&#39;2020-08-19 20:41:10 -0400 -04&#39;&gt;August 19, 2020&lt;/span&gt;&amp;nbsp;·&amp;nbsp;1 min&amp;nbsp;·&amp;nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to How to Install Mariadb Mysql2 Driver Ruby" href="https://carakan.net/blog/2020/08/how-to-install-mariadb-mysql2-driver-ruby/"></a>
 </article>
 
@@ -185,7 +185,7 @@ gem install mysql2 -- --with-mysql-config=$(brew --prefix mariadb@10.2)/bin/mysq
 if you keep with RVM: install older versions of ruby &lt;2.3 with support for openssl 1.0x you can follow these instructions:
 # before you install command line tools and gcc xcode-select --install brew install gcc # installation procedure cd /usr/local/src curl -O https://www.openssl.org/source/openssl-1.0.2t.tar.gz tar xzf openssl-1.0.2t.tar.gz cd openssl-1.0.2t ./Configure darwin64-x86_64-cc make sudo make install export LDFLAGS=“-L/usr/local/ssl/lib” export CPPFLAGS=“-I/usr/local/ssl/include” export PKG_CONFIG_PATH=“/usr/local/ssl/lib/pkgconfig” rvm reinstall 2....</p>
   </div>
-  <footer class="entry-footer"><span title='2020-01-24 15:46:05 -0400 -04'>January 24, 2020</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <footer class="entry-footer">&lt;span title=&#39;2020-01-24 15:46:05 -0400 -04&#39;&gt;January 24, 2020&lt;/span&gt;&amp;nbsp;·&amp;nbsp;1 min&amp;nbsp;·&amp;nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to How to Install Older Versions of Ruby" href="https://carakan.net/blog/2020/01/how-to-install-older-versions-of-ruby/"></a>
 </article>
 
@@ -199,7 +199,7 @@ if you keep with RVM: install older versions of ruby &lt;2.3 with support for op
 Install Dependencies apt-get update -y apt-get upgrade -y apt-get install sudo -y install the required packages:
 sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate python-docutils pkg-config cmake nodejs git-core Install Ruby For production sites is a MUST install from sources without using any versions managers like RVM, RENV or whatever this is why leads to hard to diagnose problems....</p>
   </div>
-  <footer class="entry-footer"><span title='2016-06-24 17:27:00 +0000 +0000'>June 24, 2016</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <footer class="entry-footer">&lt;span title=&#39;2016-06-24 17:27:00 &#43;0000 &#43;0000&#39;&gt;June 24, 2016&lt;/span&gt;&amp;nbsp;·&amp;nbsp;2 min&amp;nbsp;·&amp;nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to install passenger 5, ruby 2.x, nginx 1.10.x and enable HTTP/2" href="https://carakan.net/blog/2016/06/install-passenger-5-ruby-2.x-nginx-1.10.x-and-enable-http/2/"></a>
 </article>
 
@@ -213,7 +213,7 @@ sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdb
 rails login this plugin only need a small API for enable login i created this code in model user:
 def wp_json { user: { email: self....</p>
   </div>
-  <footer class="entry-footer"><span title='2015-03-13 01:11:09 +0000 +0000'>March 13, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <footer class="entry-footer">&lt;span title=&#39;2015-03-13 01:11:09 &#43;0000 &#43;0000&#39;&gt;March 13, 2015&lt;/span&gt;&amp;nbsp;·&amp;nbsp;1 min&amp;nbsp;·&amp;nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to great plugin for share session in rails apps between wordpress blog" href="https://carakan.net/blog/2015/03/great-plugin-for-share-session-in-rails-apps-between-wordpress-blog/"></a>
 </article>
 
@@ -226,7 +226,7 @@ def wp_json { user: { email: self....</p>
     <p>La revista sobre el software libre: Atix, lanzo la séptima entrega de su revista, que apuesta por el conocimiento libre y que para este numero lo entrega con el siguiente lema:
 Un nuevo año…. un nuevo reto, pon tu mejor empeño para lograr tu reto de este año. cuenta con la tercera parte del desarrollo de una aplicación de gestión de artículos ATIX, en Ruby on Rails, en la que explico como reutilizar código a través de plugins o gemas, utilizar el repositorio de gemas de Git Hub y manipular la gema Will_paginate....</p>
   </div>
-  <footer class="entry-footer"><span title='2009-01-27 15:36:32 +0000 +0000'>January 27, 2009</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <footer class="entry-footer">&lt;span title=&#39;2009-01-27 15:36:32 &#43;0000 &#43;0000&#39;&gt;January 27, 2009&lt;/span&gt;&amp;nbsp;·&amp;nbsp;1 min&amp;nbsp;·&amp;nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Revista Atix numero 7 liberado." href="https://carakan.net/blog/2009/01/revista-atix-numero-7-liberado./"></a>
 </article>
 
@@ -240,7 +240,7 @@ Un nuevo año…. un nuevo reto, pon tu mejor empeño para lograr tu reto de est
 El ser todos iguales, nos llevará a tener y vivir un futuro mejor.
 Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicación en Ruby on Rails, con el cual hablo sobre la nueva versión de Rails la 2....</p>
   </div>
-  <footer class="entry-footer"><span title='2008-12-17 21:02:17 +0000 +0000'>December 17, 2008</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <footer class="entry-footer">&lt;span title=&#39;2008-12-17 21:02:17 &#43;0000 &#43;0000&#39;&gt;December 17, 2008&lt;/span&gt;&amp;nbsp;·&amp;nbsp;1 min&amp;nbsp;·&amp;nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Revista Atix numero 6 liberado." href="https://carakan.net/blog/2008/12/revista-atix-numero-6-liberado./"></a>
 </article>
 
@@ -252,7 +252,7 @@ Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicaci
   <div class="entry-content">
     <p>Este fin de semana estuve trabajando en la nueva imagen de Bolivia on Rails, un sitio dedicado al desarrollo de ruby on rails dentro y fuera de Bolivia, lo deje un poco estancado este proyecto pero gracias a la colaboración de Boris Barroso estoy retomando el camino y además quiero informar de que ahora los tutoriales o cosas relacionadas con Rails serán publicadas en el Sitio de Bolivia on rails. [caption id=“attachment_420” align=“alignnone” width=“563” caption=“Bolivia on rails”] [/caption] Otra noticia que se hará costumbre es que pongo a disposición el thema en Wordpress para que puedan utilizarlo en sus propios blogs, es un tema oscuro que me gusta por la combinación de colores, lo traduje y ahora lo comparto además que dejo el fuente de la cabecera en photoshop para que puedan editarlo, así que disfrútenlo....</p>
   </div>
-  <footer class="entry-footer"><span title='2008-09-22 15:07:58 +0000 +0000'>September 22, 2008</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <footer class="entry-footer">&lt;span title=&#39;2008-09-22 15:07:58 &#43;0000 &#43;0000&#39;&gt;September 22, 2008&lt;/span&gt;&amp;nbsp;·&amp;nbsp;1 min&amp;nbsp;·&amp;nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Nueva imagen de Bolivia On Rails y tema wp español" href="https://carakan.net/blog/2008/09/nueva-imagen-de-bolivia-on-rails-y-tema-wp-espa%C3%B1ol/"></a>
 </article>
 
@@ -264,7 +264,7 @@ Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicaci
   <div class="entry-content">
     <p>Gracias a Favio Akita me entere de una nueva version del interprete de Ruby para los entornos windows, tengo algunos proyectos corriendo sobre esta plataforma, esta nueva version esta siendo desarrollado por Luis Lavena, el cual es 20% mas veloz, he realizado las pruebas y vi que tiene algunos defectos menores pero logre instalar rails 2.1.0 y las gemas mas importantes para la puesta en producción y comparto para que vean lo bien que se pinta esta nueva versión....</p>
   </div>
-  <footer class="entry-footer"><span title='2008-08-07 14:59:08 +0000 +0000'>August 7, 2008</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <footer class="entry-footer">&lt;span title=&#39;2008-08-07 14:59:08 &#43;0000 &#43;0000&#39;&gt;August 7, 2008&lt;/span&gt;&amp;nbsp;·&amp;nbsp;1 min&amp;nbsp;·&amp;nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Nueva version del interprete ruby para entornos windows" href="https://carakan.net/blog/2008/08/nueva-version-del-interprete-ruby-para-entornos-windows/"></a>
 </article>
 
@@ -276,7 +276,7 @@ Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicaci
   <div class="entry-content">
     <p>Recientemente en uno de mis proyectos estamos utilizando el plugin para subir archivos paperclip tutorial, este plugin tiene características de re-dimension de imágenes pero dentro de nuestro servidor web no funcionaba, lo que nos parecio bastante raro, buscando por internet encontré que el problema se debía al momento de usar mod_rails, el cual no cargaba las librerías necesarias, en este caso a ImageMagick, aqui el mismo problema pero para oracle y algunas de sus librerias....</p>
   </div>
-  <footer class="entry-footer"><span title='2008-08-06 18:59:05 +0000 +0000'>August 6, 2008</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <footer class="entry-footer">&lt;span title=&#39;2008-08-06 18:59:05 &#43;0000 &#43;0000&#39;&gt;August 6, 2008&lt;/span&gt;&amp;nbsp;·&amp;nbsp;2 min&amp;nbsp;·&amp;nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Problema de ImageMagick (rmagick) y passenger (mod_rails)" href="https://carakan.net/blog/2008/08/problema-de-imagemagick-rmagick-y-passenger-mod_rails/"></a>
 </article>
 
@@ -288,7 +288,7 @@ Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicaci
   <div class="entry-content">
     <p>Si hoy 14 de julio nace oficialmente el sitio de desarrollo de Ruby on Rails en Bolivia, nos vamos a enfocar en un principio la facilidad y elegancia al momento de desarrollar en este fabuloso framework web. Esperamos sus comentarios.</p>
   </div>
-  <footer class="entry-footer"><span title='2008-07-14 23:47:19 +0000 +0000'>July 14, 2008</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <footer class="entry-footer">&lt;span title=&#39;2008-07-14 23:47:19 &#43;0000 &#43;0000&#39;&gt;July 14, 2008&lt;/span&gt;&amp;nbsp;·&amp;nbsp;1 min&amp;nbsp;·&amp;nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Nace Bolivia on Rails" href="https://carakan.net/blog/2008/07/nace-bolivia-on-rails/"></a>
 </article>
 <footer class="page-footer">
