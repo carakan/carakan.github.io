@@ -11,7 +11,19 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Dec 2019 12:22:05 -0400</lastBuildDate><atom:link href="https://carakan.net/tags/rails/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Dec 2023 21:21:54 -0400</lastBuildDate><atom:link href="https://carakan.net/tags/rails/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Start New Rails Project With Bun</title>
+      <link>https://carakan.net/blog/2023/12/start-new-rails-project-with-bun/</link>
+      <pubDate>Fri, 01 Dec 2023 21:21:54 -0400</pubDate>
+      
+      <guid>https://carakan.net/blog/2023/12/start-new-rails-project-with-bun/</guid>
+      <description>Starting from rails 7.1 is possible to create a new rails app using bun+tailwind, only run:
+rails new new_awesome_project -a propshaft -j bun --css tailwind --database=postgresql this won&amp;rsquo;t use the tailwind gem, it&amp;rsquo;s using npm&amp;rsquo;s packages managed with bun.
+to see on browser start dev server:
+bin/dev </description>
+    </item>
+    
     <item>
       <title>How to do email only sign up using default active-admin setup</title>
       <link>https://carakan.net/blog/2019/12/how-to-do-email-only-sign-up-using-default-active-admin-setup/</link>

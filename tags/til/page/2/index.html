@@ -135,6 +135,19 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2>Add Array of Types in a Column using Postgres and Rails
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Recently I found a nice feature when defining a column on migrations, is to use array option in the creation of a column:
+class MyMigration &lt; ActiveRecord::Migration[5.2] def change # Defines a column that stores an array of a type. add_column :transactions, :categories, :string, array: true, default: [] end end With this on categories you can storage an array of values, it’s useful instead of use jsonb because as json you may also need to create the key to store values (hash)....</p>
+  </div>
+  <footer class="entry-footer"><span title='2019-10-14 11:09:24 -0400 -04'>October 14, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <a class="entry-link" aria-label="post link to Add Array of Types in a Column using Postgres and Rails" href="https://carakan.net/blog/2019/10/add-array-of-types-in-a-column-using-postgres-and-rails/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2>Install yarn if you are using Nodejs with ASDF
     </h2>
   </header>

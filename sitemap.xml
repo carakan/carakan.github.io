@@ -2,13 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://carakan.net/tags/asdf/</loc>
-    <lastmod>2023-10-13T10:29:20-04:00</lastmod>
-  </url><url>
     <loc>https://carakan.net/blog/</loc>
-    <lastmod>2023-10-13T10:29:20-04:00</lastmod>
+    <lastmod>2023-12-01T21:21:54-04:00</lastmod>
+  </url><url>
+    <loc>https://carakan.net/tags/bun/</loc>
+    <lastmod>2023-12-01T21:21:54-04:00</lastmod>
   </url><url>
     <loc>https://carakan.net/</loc>
+    <lastmod>2023-12-01T21:21:54-04:00</lastmod>
+  </url><url>
+    <loc>https://carakan.net/tags/rails/</loc>
+    <lastmod>2023-12-01T21:21:54-04:00</lastmod>
+  </url><url>
+    <loc>https://carakan.net/blog/2023/12/start-new-rails-project-with-bun/</loc>
+    <lastmod>2023-12-01T21:21:54-04:00</lastmod>
+  </url><url>
+    <loc>https://carakan.net/tags/</loc>
+    <lastmod>2023-12-01T21:21:54-04:00</lastmod>
+  </url><url>
+    <loc>https://carakan.net/tags/til/</loc>
+    <lastmod>2023-12-01T21:21:54-04:00</lastmod>
+  </url><url>
+    <loc>https://carakan.net/tags/asdf/</loc>
     <lastmod>2023-10-13T10:29:20-04:00</lastmod>
   </url><url>
     <loc>https://carakan.net/tags/elixir/</loc>
@@ -18,12 +33,6 @@
     <lastmod>2023-10-13T10:29:20-04:00</lastmod>
   </url><url>
     <loc>https://carakan.net/tags/livebook/</loc>
-    <lastmod>2023-10-13T10:29:20-04:00</lastmod>
-  </url><url>
-    <loc>https://carakan.net/tags/</loc>
-    <lastmod>2023-10-13T10:29:20-04:00</lastmod>
-  </url><url>
-    <loc>https://carakan.net/tags/til/</loc>
     <lastmod>2023-10-13T10:29:20-04:00</lastmod>
   </url><url>
     <loc>https://carakan.net/tags/ruby/</loc>
@@ -84,9 +93,6 @@
     <lastmod>2019-12-10T12:22:05-04:00</lastmod>
   </url><url>
     <loc>https://carakan.net/blog/2019/12/how-to-do-email-only-sign-up-using-default-active-admin-setup/</loc>
-    <lastmod>2019-12-10T12:22:05-04:00</lastmod>
-  </url><url>
-    <loc>https://carakan.net/tags/rails/</loc>
     <lastmod>2019-12-10T12:22:05-04:00</lastmod>
   </url><url>
     <loc>https://carakan.net/tags/dotfiles/</loc>

@@ -135,6 +135,21 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2>Start New Rails Project With Bun
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Starting from rails 7.1 is possible to create a new rails app using bun&#43;tailwind, only run:
+rails new new_awesome_project -a propshaft -j bun --css tailwind --database=postgresql this won’t use the tailwind gem, it’s using npm’s packages managed with bun.
+to see on browser start dev server:
+bin/dev </p>
+  </div>
+  <footer class="entry-footer"><span title='2023-12-01 21:21:54 -0400 -04'>December 1, 2023</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <a class="entry-link" aria-label="post link to Start New Rails Project With Bun" href="https://carakan.net/blog/2023/12/start-new-rails-project-with-bun/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2>How to Install Livebook With Asdf
     </h2>
   </header>
@@ -285,19 +300,6 @@ cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat
   </div>
   <footer class="entry-footer"><span title='2019-10-21 11:51:11 -0400 -04'>October 21, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to How to Sync Vscode Plugins Over Your Dotfiles" href="https://carakan.net/blog/2019/10/how-to-sync-vscode-plugins-over-your-dotfiles/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2>Add Array of Types in a Column using Postgres and Rails
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Recently I found a nice feature when defining a column on migrations, is to use array option in the creation of a column:
-class MyMigration &lt; ActiveRecord::Migration[5.2] def change # Defines a column that stores an array of a type. add_column :transactions, :categories, :string, array: true, default: [] end end With this on categories you can storage an array of values, it’s useful instead of use jsonb because as json you may also need to create the key to store values (hash)....</p>
-  </div>
-  <footer class="entry-footer"><span title='2019-10-14 11:09:24 -0400 -04'>October 14, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
-  <a class="entry-link" aria-label="post link to Add Array of Types in a Column using Postgres and Rails" href="https://carakan.net/blog/2019/10/add-array-of-types-in-a-column-using-postgres-and-rails/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
