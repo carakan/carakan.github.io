@@ -18,8 +18,8 @@
       <pubDate>Fri, 01 Dec 2023 21:21:54 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2023/12/start-new-rails-project-with-bun/</guid>
-      <description>Starting from rails 7.1 is possible to create a new rails app using bun+tailwind, only run:
-rails new new_awesome_project -a propshaft -j bun --css tailwind --database=postgresql this won&amp;rsquo;t use the tailwind gem, it&amp;rsquo;s using npm&amp;rsquo;s packages managed with bun.
+      <description>Starting from rails 7.1 is possible to create a new rails app using bun+tailwind, to start using them only needs to run:
+rails new new_awesome_project -a propshaft -j bun --css tailwind --database=postgresql This won&amp;rsquo;t use the tailwind gem, it&amp;rsquo;s using npm&amp;rsquo;s packages managed with bun.
 to see on browser start dev server:
 bin/dev </description>
     </item>
