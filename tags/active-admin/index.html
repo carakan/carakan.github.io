@@ -10,7 +10,7 @@
 <meta name="description" content="Carlos Ramos, software developer">
 <meta name="author" content="Carlos Ramos">
 <link rel="canonical" href="https://carakan.net/tags/active-admin/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.5cfc680b1eeaeef9efbced92d46c2a9e876b72ee14fba85846afc4cff9e6e6f8.css" integrity="sha256-XPxoCx7q7vnvvO2S1Gwqnodrcu4U&#43;6hYRq/Ez/nm5vg=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f9f91002fe82ae229ce4b8ec18eafc3a9d22a76ba6da1975bd754e6e4f35999e.css" integrity="sha256-&#43;fkQAv6CriKc5LjsGOr8Op0ip2um2hl1vXVObk81mZ4=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://carakan.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://carakan.net/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://carakan.net/favicon-32x32.png">
@@ -56,10 +56,7 @@
         }
 
     </style>
-</noscript>
-  
-
-<meta property="og:title" content="Active Admin" />
+</noscript><meta property="og:title" content="Active Admin" />
 <meta property="og:description" content="Carlos Ramos, software developer" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://carakan.net/tags/active-admin/" /><meta property="og:image" content="https://carakan.net/papermod-cover.png"/>
@@ -149,7 +146,8 @@
 The project is using the admin_user approach and sets the default setup included on activeadmin.
 (NOTE) One other recommended solution is to migrate the admin_user model to user and configure devise normally as a separate engine.
 Guide If you haven’t already, enable the confirmable module
-If you haven’t already, follow the Devise instructions for configuring views, install in app/views/active_admin/devise...</p>
+If you haven’t already, follow the Devise instructions for configuring views, install in app/views/active_admin/devise
+...</p>
   </div>
   <footer class="entry-footer"><span title='2019-12-10 12:22:05 -0400 -04'>December 10, 2019</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to How to do email only sign up using default active-admin setup" href="https://carakan.net/blog/2019/12/how-to-do-email-only-sign-up-using-default-active-admin-setup/"></a>
@@ -162,7 +160,8 @@ If you haven’t already, follow the Devise instructions for configuring views, 
   </header>
   <div class="entry-content">
     <p>In a project that already using Activeadmin I had the requeriment of modify the actual form to create a student, but without validating that, so the solution was create into the model of active admin form and declare the form with two actions, one with the clasical behaviour and other when passed the params[:managed] with a custom route
-ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :student, as: :select, collection: User....</p>
+ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :student, as: :select, collection: User.students f.input :amount unless params[:managed] f.input :course, as: :select, collection: Course.all f.input :created_at end end if params[:managed] f.action :submit, as: :input, button_html: { formaction: :managed_create } else f.actions # this go to create/update end end # ... controller do def managed_create # do whatewer you want end end end Then button_html: { formaction: :managed_create } options in a :submit, does the trick.
+...</p>
   </div>
   <footer class="entry-footer"><span title='2019-09-11 18:22:45 -0400 -04'>September 11, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Create a Form With Two Actions on Activeadmin" href="https://carakan.net/blog/2019/09/create-a-form-with-two-actions-on-activeadmin/"></a>
@@ -170,7 +169,7 @@ ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :stu
     </main>
     
 <footer class="footer">
-    <span>&copy; 2024 <a href="https://carakan.net/">carakan</a></span>
+    <span>&copy; 2025 <a href="https://carakan.net/">carakan</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

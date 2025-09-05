@@ -18,9 +18,11 @@
       <pubDate>Wed, 17 Dec 2008 21:02:17 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/12/revista-atix-numero-6-liberado./</guid>
-      <description>La revista sobre el software libre: Atix, lanzo la sexta entrega de su revista, que apuesta por el conocimiento libre y que para este numero lo entrega con el siguiente lema:
-El ser todos iguales, nos llevará a tener y vivir un futuro mejor.
-Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicación en Ruby on Rails, con el cual hablo sobre la nueva versión de Rails la 2.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.carakan.info/proyectos/atix/atix06.pdf&#34; title=&#34;Revista Atix numero 6&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://www.carakan.info/wp-content/uploads/2008/12/revista-atix-6-carakan.jpg&#34; alt=&#34;revista_atix_6_carakan&#34;  title=&#34;revista_atix_6_carakan&#34;  /&gt;
+&lt;/a&gt; La revista sobre el software libre: &lt;a href=&#34;http://atix.opentelematics.org/&#34; title=&#34;revista atix&#34;&gt;Atix&lt;/a&gt;, lanzo la sexta entrega de su revista, que apuesta por el conocimiento libre y que para este numero lo entrega con el siguiente lema:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;El ser todos iguales, nos llevará a tener y vivir un futuro mejor.&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicación en &lt;a href=&#34;http://www.rubyonrails.org.es/&#34; title=&#34;Ruby on Rails&#34;&gt;Ruby on Rails&lt;/a&gt;, con el cual hablo sobre la nueva versión de Rails la 2.2 como realizar una migración de anteriores versiones, y manejo de relaciones con Active Record. &lt;a href=&#34;http://www.carakan.info/proyectos/atix/atix06.pdf&#34; title=&#34;Revista Atix numero 6&#34;&gt;Descargar Revista Atix #6&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -29,7 +31,7 @@ Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicaci
       <pubDate>Tue, 11 Nov 2008 14:07:13 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/11/revista-atix-numero-5/</guid>
-      <description>La revista Atix, es una revista que habla del software libre en general dentro de America latina y Bolivia, me place comunicar que en este numero cinco, he colaborado desinteresadamente haciendo un articulo sobre Ruby on Rails, que se repartira en varias entregas, espero que les guste, tambien dentro de la revista se habla de los frameworks Django, Ext, el sistema de seguimiento de proyectos Trac y otros, ademas otra forma de colaborar es de ser un mirror de descarga, para la difucion de la revista.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://atix.opentelematics.org&#34;&gt;La revista Atix&lt;/a&gt;, es una revista que habla del software libre en general dentro de America latina y Bolivia, me place comunicar que en este numero cinco, he colaborado desinteresadamente haciendo un articulo sobre &lt;a href=&#34;http://www.boliviaonrails.com&#34;&gt;Ruby on Rails&lt;/a&gt;, que se repartira en varias entregas, espero que les guste, tambien dentro de la revista se habla de los frameworks &lt;a href=&#34;http://www.djangoproject.com/&#34;&gt;Django&lt;/a&gt;, &lt;a href=&#34;http://extjs.com/&#34;&gt;Ext&lt;/a&gt;, el sistema de seguimiento de proyectos Trac y otros, ademas otra forma de colaborar es de ser un mirror de descarga, para la difucion de la revista. &lt;a href=&#34;http://www.carakan.info/proyectos/atix/atix05.pdf&#34;&gt;Descargar Revista Atix 5&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

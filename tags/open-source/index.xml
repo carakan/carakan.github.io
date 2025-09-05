@@ -18,10 +18,15 @@
       <pubDate>Wed, 03 Oct 2018 18:49:26 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2018/10/my-first-elixir-library-softrepo/</guid>
-      <description>don’t destroy sensible data
-It’s a placer to announce my first library, this handle soft-delete using directly a Repo wrapper, so the main idea is to have a global lib/module that represent all of the logic to do soft-delete of records.
-The setup and usage has been written on the README of soft_repo.
-Future The idea is to have a basic library that handles soft-delete, but in a future I&amp;rsquo;ll implement:</description>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://carakan.net/blog/2018/10/my-first-elixir-library-softrepo/images/1.jpeg&#34; alt=&#34;image&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;don’t destroy sensible data&lt;/p&gt;
+&lt;p&gt;It’s a placer to announce my first library, this handle soft-delete using directly
+a Repo wrapper, so the main idea is to have a global lib/module that represent all
+of the logic to do soft-delete of records.&lt;/p&gt;
+&lt;p&gt;The setup and usage has been written on the &lt;a href=&#34;https://github.com/carakan/soft_repo&#34;&gt;README of soft_repo&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;future&#34;&gt;Future&lt;/h3&gt;
+&lt;p&gt;The idea is to have a basic library that handles soft-delete, but in a future I&amp;rsquo;ll implement:&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -18,8 +18,16 @@
       <pubDate>Mon, 14 Oct 2019 11:09:24 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2019/10/add-array-of-types-in-a-column-using-postgres-and-rails/</guid>
-      <description>Recently I found a nice feature when defining a column on migrations, is to use array option in the creation of a column:
-class MyMigration &amp;lt; ActiveRecord::Migration[5.2] def change # Defines a column that stores an array of a type. add_column :transactions, :categories, :string, array: true, default: [] end end With this on categories you can storage an array of values, it&amp;rsquo;s useful instead of use jsonb because as json you may also need to create the key to store values (hash).</description>
+      <description>&lt;p&gt;Recently I found a nice feature when defining a column on migrations, is to use &lt;code&gt;array&lt;/code&gt;
+option in the creation of a column:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;MyMigration&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;ActiveRecord&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;Migration&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;change&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# Defines a column that stores an array of a type.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    add_column &lt;span style=&#34;color:#e6db74&#34;&gt;:transactions&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;:categories&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;:string&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;array&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;default&lt;/span&gt;: &lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;With this on &lt;code&gt;categories&lt;/code&gt; you can storage an array of values, it&amp;rsquo;s useful instead of use
+&lt;code&gt;jsonb&lt;/code&gt; because as json you may also need to create the key to store values (hash).&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -28,11 +36,19 @@ class MyMigration &amp;lt; ActiveRecord::Migration[5.2] def change # Defines a c
       <pubDate>Tue, 17 Sep 2019 10:44:57 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2019/09/upgrade-to-latest-version-on-asdf/</guid>
-      <description>ASDF is an incredible version manager, to install/upgrade to latest version available of an language you can do the following steps:
-asdf list-all &amp;lt;language&amp;gt; this show all of the versions available to install, select the latest:
-asdf install &amp;lt;language&amp;gt; x.y.z and edit if you have a global ~/.tool-versions to use that version everywhere:
-&amp;lt;languaje&amp;gt; x.y.z real example to upgrade to latest version of erlang (10/17/2019):
-asdf list-all erlang asdf install erlang 22.</description>
+      <description>&lt;p&gt;ASDF is an incredible version manager, to install/upgrade to latest version available
+of an language you can do the following steps:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;asdf list-all &amp;lt;language&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;this show all of the versions available to install, select the latest:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;asdf install &amp;lt;language&amp;gt; x.y.z
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;and edit if you have a global &lt;code&gt;~/.tool-versions&lt;/code&gt; to use that version everywhere:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;languaje&amp;gt; x.y.z
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;real-example&#34;&gt;real example&lt;/h2&gt;
+&lt;p&gt;to upgrade to latest version of erlang &lt;strong&gt;(10/17/2019)&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;asdf list-all erlang
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;asdf install erlang 22.1
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;asdf global erlang 22.1
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>

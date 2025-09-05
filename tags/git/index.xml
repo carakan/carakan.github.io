@@ -18,8 +18,12 @@
       <pubDate>Tue, 27 Jan 2009 15:36:32 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2009/01/revista-atix-numero-7-liberado./</guid>
-      <description>La revista sobre el software libre: Atix, lanzo la séptima entrega de su revista, que apuesta por el conocimiento libre y que para este numero lo entrega con el siguiente lema:
-Un nuevo año…. un nuevo reto, pon tu mejor empeño para lograr tu reto de este año. cuenta con la tercera parte del desarrollo de una aplicación de gestión de artículos ATIX, en Ruby on Rails, en la que explico como reutilizar código a través de plugins o gemas, utilizar el repositorio de gemas de Git Hub y manipular la gema Will_paginate.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.carakan.info/wp-content/uploads/2009/01/caja07-bla220x300.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://www.carakan.info/wp-content/uploads/2009/01/caja07-bla220x300-thumb.jpg&#34; alt=&#34;caja07_bla-220x300&#34;  title=&#34;caja07_bla-220x300&#34;  /&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;La revista sobre el software libre: &lt;a href=&#34;http://atix.opentelematics.org/&#34;&gt;Atix&lt;/a&gt;, lanzo la séptima entrega de su revista, que apuesta por el conocimiento libre y que para este numero lo entrega con el siguiente lema:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h4 id=&#34;un-nuevo-año-un-nuevo-reto-pon-tu-mejor-empeño-para-lograr-tu-reto-de-este-año&#34;&gt;Un nuevo año…. un nuevo reto, pon tu mejor empeño para lograr tu reto de este año.&lt;/h4&gt;&lt;/blockquote&gt;
+&lt;p&gt;cuenta con la tercera parte del desarrollo de una aplicación de gestión de artículos ATIX, en &lt;a href=&#34;http://www.rubyonrails.org.es/&#34;&gt;Ruby on Rails&lt;/a&gt;, en la que explico como reutilizar código a través de plugins o gemas, utilizar el repositorio de gemas de &lt;a href=&#34;http://github.com/&#34;&gt;Git Hub&lt;/a&gt; y manipular la gema &lt;a href=&#34;http://github.com/mislav/will_paginate/tree/master&#34;&gt;Will_paginate&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -28,7 +32,7 @@ Un nuevo año…. un nuevo reto, pon tu mejor empeño para lograr tu reto de est
       <pubDate>Wed, 28 May 2008 22:45:42 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/05/video-tutoriales-de-git/</guid>
-      <description>En la web de Estado Beta, encontre un enlace a una pagina que esta publicando periodicamente screen-cast de Git, el nuevo sistema de versionado de codigo fuente del staff de Rails y otros proyectos mesclados con Rails o Ruby. Bueno ya estoy viendo estos screen cast para aprenderlos, acotar que estaba viendo mercurial que ya tiene soporte a mi IDE favorito NetBeans hasta que llego Git el cual no esta soportado por NetBeans, asi que si estan interesados este es el enlace: Gitcasts.</description>
+      <description>&lt;p&gt;En la web de &lt;a href=&#34;http://www.estadobeta.com/2008/05/26/gitcasts/&#34;&gt;Estado Beta&lt;/a&gt;, encontre un enlace a una pagina que esta publicando periodicamente screen-cast de Git, el nuevo sistema de versionado de codigo fuente del staff de Rails y otros proyectos mesclados con Rails o Ruby. Bueno ya estoy viendo estos screen cast para aprenderlos, acotar que estaba viendo &lt;a href=&#34;http://www.selenic.com/mercurial/wiki/&#34;&gt;mercurial&lt;/a&gt; que ya tiene soporte a mi IDE favorito NetBeans hasta que llego Git el cual no esta soportado por NetBeans, asi que si estan interesados este es el enlace:  &lt;a href=&#34;http://www.gitcasts.com/&#34;&gt;Gitcasts&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>

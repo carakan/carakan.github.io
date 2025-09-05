@@ -10,7 +10,7 @@
 <meta name="description" content="Blogs - carakan">
 <meta name="author" content="Carlos Ramos">
 <link rel="canonical" href="https://carakan.net/blog/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.5cfc680b1eeaeef9efbced92d46c2a9e876b72ee14fba85846afc4cff9e6e6f8.css" integrity="sha256-XPxoCx7q7vnvvO2S1Gwqnodrcu4U&#43;6hYRq/Ez/nm5vg=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f9f91002fe82ae229ce4b8ec18eafc3a9d22a76ba6da1975bd754e6e4f35999e.css" integrity="sha256-&#43;fkQAv6CriKc5LjsGOr8Op0ip2um2hl1vXVObk81mZ4=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://carakan.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://carakan.net/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://carakan.net/favicon-32x32.png">
@@ -56,10 +56,7 @@
         }
 
     </style>
-</noscript>
-  
-
-<meta property="og:title" content="Blogs" />
+</noscript><meta property="og:title" content="Blogs" />
 <meta property="og:description" content="Carlos Ramos, software developer" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://carakan.net/blog/" /><meta property="og:image" content="https://carakan.net/papermod-cover.png"/>
@@ -163,7 +160,8 @@
     <p>I was looking a simple way to get sync all of my current setup of vscode, I did’t found a proper way to do with another plugin, but I found a commands to do this sync.
 first to have a list of plugins installed and save to a file:
 code --list-extensions &gt; vscode-extensions.list to restore, read that file and install all plugins:
-cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat vscode-extensions....</p>
+cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat vscode-extensions.list --plain | xargs -L 1 code --install-extension you can easily put this list in your dotfiles example.
+...</p>
   </div>
   <footer class="entry-footer"><span title='2019-10-21 11:51:11 -0400 -04'>October 21, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to How to Sync Vscode Plugins Over Your Dotfiles" href="https://carakan.net/blog/2019/10/how-to-sync-vscode-plugins-over-your-dotfiles/"></a>
@@ -176,7 +174,8 @@ cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat
   </header>
   <div class="entry-content">
     <p>Recently I found a nice feature when defining a column on migrations, is to use array option in the creation of a column:
-class MyMigration &lt; ActiveRecord::Migration[5.2] def change # Defines a column that stores an array of a type. add_column :transactions, :categories, :string, array: true, default: [] end end With this on categories you can storage an array of values, it’s useful instead of use jsonb because as json you may also need to create the key to store values (hash)....</p>
+class MyMigration &lt; ActiveRecord::Migration[5.2] def change # Defines a column that stores an array of a type. add_column :transactions, :categories, :string, array: true, default: [] end end With this on categories you can storage an array of values, it’s useful instead of use jsonb because as json you may also need to create the key to store values (hash).
+...</p>
   </div>
   <footer class="entry-footer"><span title='2019-10-14 11:09:24 -0400 -04'>October 14, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Add Array of Types in a Column using Postgres and Rails" href="https://carakan.net/blog/2019/10/add-array-of-types-in-a-column-using-postgres-and-rails/"></a>
@@ -189,7 +188,8 @@ class MyMigration &lt; ActiveRecord::Migration[5.2] def change # Defines a colum
   </header>
   <div class="entry-content">
     <p>I’m using ASDF to install any language that I needed, so problems become when I have to install yarn a js package manager but to do that has a lot of ways of install yarn and problems increasing with nodejs installed using ASDF more problems become using the brew recipe and it doesn’t work with ASDF.
-I found a practical solution: is to install a separate yarn recipe into ASDF....</p>
+I found a practical solution: is to install a separate yarn recipe into ASDF.
+...</p>
   </div>
   <footer class="entry-footer"><span title='2019-09-24 12:14:44 -0400 -04'>September 24, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Install yarn if you are using Nodejs with ASDF" href="https://carakan.net/blog/2019/09/install-yarn-if-you-are-using-nodejs-with-asdf/"></a>
@@ -202,7 +202,8 @@ I found a practical solution: is to install a separate yarn recipe into ASDF....
   </header>
   <div class="entry-content">
     <p>The last version of ElixirLS have a lot of improvements, for example a new robust code suggestion provided by elixir-sense, intellisense with code documentation and other larger changes, but now i didn’t see an actual release to use it, so in this post we will clone the last repo, compile and will install in our local dev to take advantage of these new features.
-First clone and generate the executables of elixirLS:...</p>
+First clone and generate the executables of elixirLS:
+...</p>
   </div>
   <footer class="entry-footer"><span title='2019-09-22 22:30:04 -0400 -04'>September 22, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Configure and install last elixir-ls in Neovim" href="https://carakan.net/blog/2019/09/configure-and-install-last-elixir-ls-in-neovim/"></a>
@@ -218,7 +219,7 @@ First clone and generate the executables of elixirLS:...</p>
 asdf list-all &lt;language&gt; this show all of the versions available to install, select the latest:
 asdf install &lt;language&gt; x.y.z and edit if you have a global ~/.tool-versions to use that version everywhere:
 &lt;languaje&gt; x.y.z real example to upgrade to latest version of erlang (10/17/2019):
-asdf list-all erlang asdf install erlang 22....</p>
+asdf list-all erlang asdf install erlang 22.1 asdf global erlang 22.1 </p>
   </div>
   <footer class="entry-footer"><span title='2019-09-17 10:44:57 -0400 -04'>September 17, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Upgrade to Latest Version on ASDF" href="https://carakan.net/blog/2019/09/upgrade-to-latest-version-on-asdf/"></a>
@@ -232,7 +233,8 @@ asdf list-all erlang asdf install erlang 22....</p>
   <div class="entry-content">
     <p>Prettier is an opinionated code formatter, has built-in a lot of code formatters for languages, one of that is for handlebars (glimmer/mustache) but is hidden by default, to enable we only need to do this:
 create a .prettierrc in your home (~) with :
-{ &#34;overrides&#34;: [ { &#34;files&#34;: &#34;*.hbs&#34;, &#34;options&#34;: { &#34;parser&#34;: &#34;glimmer&#34; // ... other custom configurations } } ] } and now you can use in your favorite editor or simple use directly with the CLI, for example:...</p>
+{ &#34;overrides&#34;: [ { &#34;files&#34;: &#34;*.hbs&#34;, &#34;options&#34;: { &#34;parser&#34;: &#34;glimmer&#34; // ... other custom configurations } } ] } and now you can use in your favorite editor or simple use directly with the CLI, for example:
+...</p>
   </div>
   <footer class="entry-footer"><span title='2019-09-16 10:16:01 -0400 -04'>September 16, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Enable Prettier in Ember templates" href="https://carakan.net/blog/2019/09/enable-prettier-in-ember-templates/"></a>
@@ -247,7 +249,9 @@ create a .prettierrc in your home (~) with :
     <p>One thing that I like is to show HEX colors on css, html and even on javascript using NEOVIM, to do that I was using Colorizer plugin but now I switched to use vim-hexokinase and it’s asynchronous!
 to install you might need to install before go language:
 brew install go and this is my config:
-let g:Hexokinase_ftOptInPatterns = { \ &#39;css&#39;: &#39;full_hex,triple_hex,rgb,rgba,hsl,hsla,colour_names&#39;, \ &#39;html&#39;: &#39;full_hex,rgb,rgba,hsl,hsla&#39;, \ &#39;javascript&#39;: &#39;full_hex,rgb,rgba,hsl,hsla&#39; \ } let g:Hexokinase_virtualText = &#39; ██████&#39; watch all of my dotfiles...</p>
+let g:Hexokinase_ftOptInPatterns = { \ &#39;css&#39;: &#39;full_hex,triple_hex,rgb,rgba,hsl,hsla,colour_names&#39;, \ &#39;html&#39;: &#39;full_hex,rgb,rgba,hsl,hsla&#39;, \ &#39;javascript&#39;: &#39;full_hex,rgb,rgba,hsl,hsla&#39; \ } let g:Hexokinase_virtualText = &#39; ██████&#39; watch all of my dotfiles
+Happy coding!
+...</p>
   </div>
   <footer class="entry-footer"><span title='2019-09-12 15:49:33 -0400 -04'>September 12, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to How to Show Hex Colors on Neovim" href="https://carakan.net/blog/2019/09/how-to-show-hex-colors-on-neovim/"></a>
@@ -263,7 +267,8 @@ let g:Hexokinase_ftOptInPatterns = { \ &#39;css&#39;: &#39;full_hex,triple_hex,r
 to install (MacOS):
 brew install direnv Now the project needs to create a file .envrc like this:
 # Stripe Credentials export STRIPE_PRIVATE_KEY=&#34;xxxxxxxxxxxx&#34; export STRIPE_WEBHOOK_SECRET=&#34;xxxxxxxxxxxxxxxx&#34; entering in that directory direnv asks to allow the execution and use of that variables, so:
-direnv allow . And that’s it! you don’t need a custom solution for every programming language....</p>
+direnv allow . And that’s it! you don’t need a custom solution for every programming language.
+...</p>
   </div>
   <footer class="entry-footer"><span title='2019-09-12 12:15:47 -0400 -04'>September 12, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to How to Manage Environment Variables" href="https://carakan.net/blog/2019/09/how-to-manage-environment-variables/"></a>
@@ -276,7 +281,8 @@ direnv allow . And that’s it! you don’t need a custom solution for every pro
   </header>
   <div class="entry-content">
     <p>In a project that already using Activeadmin I had the requeriment of modify the actual form to create a student, but without validating that, so the solution was create into the model of active admin form and declare the form with two actions, one with the clasical behaviour and other when passed the params[:managed] with a custom route
-ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :student, as: :select, collection: User....</p>
+ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :student, as: :select, collection: User.students f.input :amount unless params[:managed] f.input :course, as: :select, collection: Course.all f.input :created_at end end if params[:managed] f.action :submit, as: :input, button_html: { formaction: :managed_create } else f.actions # this go to create/update end end # ... controller do def managed_create # do whatewer you want end end end Then button_html: { formaction: :managed_create } options in a :submit, does the trick.
+...</p>
   </div>
   <footer class="entry-footer"><span title='2019-09-11 18:22:45 -0400 -04'>September 11, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Create a Form With Two Actions on Activeadmin" href="https://carakan.net/blog/2019/09/create-a-form-with-two-actions-on-activeadmin/"></a>
@@ -292,7 +298,8 @@ ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :stu
 TypeScript
 Html &#43; erb
 Elixir
-If you like try to install only follow this link or search in Extensions “New Railscasts”, also if you use vim you can install the new-railscasts from my repo.</p>
+If you like try to install only follow this link or search in Extensions “New Railscasts”, also if you use vim you can install the new-railscasts from my repo.
+</p>
   </div>
   <footer class="entry-footer"><span title='2018-11-27 21:51:19.696 +0000 UTC'>November 27, 2018</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to “NewRailscasts” My first VScode Theme" href="https://carakan.net/blog/2018/11/newrailscasts-my-first-vscode-theme/"></a>
@@ -304,10 +311,11 @@ If you like try to install only follow this link or search in Extensions “New 
     </h2>
   </header>
   <div class="entry-content">
-    <p>don’t destroy sensible data
+    <p> don’t destroy sensible data
 It’s a placer to announce my first library, this handle soft-delete using directly a Repo wrapper, so the main idea is to have a global lib/module that represent all of the logic to do soft-delete of records.
 The setup and usage has been written on the README of soft_repo.
-Future The idea is to have a basic library that handles soft-delete, but in a future I’ll implement:...</p>
+Future The idea is to have a basic library that handles soft-delete, but in a future I’ll implement:
+...</p>
   </div>
   <footer class="entry-footer"><span title='2018-10-03 18:49:26.082 +0000 UTC'>October 3, 2018</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to My first elixir library: SoftRepo" href="https://carakan.net/blog/2018/10/my-first-elixir-library-softrepo/"></a>
@@ -321,7 +329,8 @@ Future The idea is to have a basic library that handles soft-delete, but in a fu
   <div class="entry-content">
     <p>Currently I’m writing JS and Elixir code and I’ve using a lot of plugins to help me about misspelling in my code, first I was using Syntastic, later I was using Neomake but now I fell in love with ALE and I try to explain why.
 Ale knows clearly about if a plugin/addon shows an error that plugin/addon can fix that error if is possible.
-For example if I’m using eslint and I see this error:...</p>
+For example if I’m using eslint and I see this error:
+...</p>
   </div>
   <footer class="entry-footer"><span title='2017-11-15 00:11:01.059 +0000 UTC'>November 15, 2017</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Lint and Format code with vim and ALE" href="https://carakan.net/blog/2017/11/lint-and-format-code-with-vim-and-ale/"></a>
@@ -338,7 +347,7 @@ For example if I’m using eslint and I see this error:...</p>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2024 <a href="https://carakan.net/">carakan</a></span>
+    <span>&copy; 2025 <a href="https://carakan.net/">carakan</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

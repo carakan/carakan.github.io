@@ -18,10 +18,14 @@
       <pubDate>Tue, 25 Aug 2020 09:39:14 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2020/08/configure-vim-test-to-work-with-docker/</guid>
-      <description>Recently I started to work with Docker in a project, and I ever use vim-test to run test using vim, now to integrate in current docker workflow we need to configure vim-test.
-For example to configure to run rspec test inside app:
-let test#ruby#rspec#executable = &amp;#39;docker-compose exec -e RAILS_ENV=test app rspec&amp;#39; to run inside to already running app docker container.
-It is very important to add -e RAILS_ENV=test to send envinroment variables and set test env inside the rails app.</description>
+      <description>&lt;p&gt;Recently I started to work with Docker in a project, and I ever use
+&lt;a href=&#34;https://github.com/vim-test/vim-test&#34;&gt;vim-test&lt;/a&gt; to run test using vim, now to
+integrate in current docker workflow we need to configure vim-test.&lt;/p&gt;
+&lt;p&gt;For example to configure to run rspec test inside &lt;code&gt;app&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-vim&#34; data-lang=&#34;vim&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;test&lt;/span&gt;#&lt;span style=&#34;color:#a6e22e&#34;&gt;ruby&lt;/span&gt;#&lt;span style=&#34;color:#a6e22e&#34;&gt;rspec&lt;/span&gt;#&lt;span style=&#34;color:#a6e22e&#34;&gt;executable&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;docker-compose exec -e RAILS_ENV=test app rspec&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;to run inside to already running &lt;code&gt;app&lt;/code&gt; docker container.&lt;/p&gt;
+&lt;p&gt;It is very important to add &lt;code&gt;-e RAILS_ENV=test&lt;/code&gt; to send envinroment variables
+and set test env inside the rails app.&lt;/p&gt;</description>
     </item>
     
   </channel>

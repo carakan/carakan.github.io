@@ -18,7 +18,7 @@
       <pubDate>Wed, 06 Aug 2008 18:59:05 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/08/problema-de-imagemagick-rmagick-y-passenger-mod_rails/</guid>
-      <description>Recientemente en uno de mis proyectos estamos utilizando el plugin para subir archivos paperclip tutorial, este plugin tiene características de re-dimension de imágenes pero dentro de nuestro servidor web no funcionaba, lo que nos parecio bastante raro, buscando por internet encontré que el problema se debía al momento de usar mod_rails, el cual no cargaba las librerías necesarias, en este caso a ImageMagick, aqui el mismo problema pero para oracle y algunas de sus librerias.</description>
+      <description>&lt;p&gt;Recientemente en uno de mis proyectos estamos utilizando el plugin para subir archivos &lt;a href=&#34;http://jimneath.org/2008/04/17/paperclip-attaching-files-in-rails/&#34;&gt;paperclip tutorial&lt;/a&gt;, este plugin tiene características de re-dimension de imágenes pero dentro de nuestro servidor web no funcionaba, lo que nos parecio bastante raro, buscando por internet encontré que el problema se debía al momento de usar mod_rails, el cual no cargaba las librerías necesarias, en este caso a ImageMagick, &lt;a href=&#34;http://blog.rayapps.com/2008/05/21/using-mod_rails-with-rails-applications-on-oracle/&#34;&gt;aqui el mismo problema pero para oracle y algunas de sus librerias&lt;/a&gt;. La solución es la siguiente: Ir a la carpeta del ejecutable de ruby, en mi caso utilizo &lt;a href=&#34;http://www.rubyenterpriseedition.com/&#34;&gt;ruby-enterprise&lt;/a&gt; y que instale en /opt/ruby/bin, o en una carpeta cualquiera que tengas acceso se crea el archivo ruby_rmagick asi:&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -18,9 +18,9 @@
       <pubDate>Thu, 23 Apr 2009 00:32:39 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2009/04/libero-mi-primer-proyecto-grande-en-rails-tematic/</guid>
-      <description>Después de un año tengo ahora la alegría de entregar este primer proyecto que realice, el cual esta desarrollado en Rails 2.0, el cual por ese entonces se necesito hacer un hibrido entre PHP y Rails, funcionando a la perfección, la url del repositorio GItHub es:
-Proyecto Tematic.
-La idea principal de este proyecto es la de crear un sistema de foros, noticias y chat dentro del trabajo de periodistas, el trabajo quedo discontinuado, pero pretendo reanudarlo enfocando la necesidad de acá, Bolivia, en el cual se necesitan las herramientas necesarias para los periodistas.</description>
+      <description>&lt;p&gt;Después de un año tengo ahora la alegría de entregar este primer proyecto que realice, el cual esta desarrollado en Rails 2.0, el cual por ese entonces se necesito hacer un hibrido entre PHP y Rails, funcionando a la perfección, la url del repositorio GItHub es:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://github.com/carakan/tematic/tree/master&#34;&gt;Proyecto Tematic.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;La idea principal de este proyecto es la de crear un sistema de foros, noticias y chat dentro del trabajo de periodistas, el trabajo quedo discontinuado, pero pretendo reanudarlo enfocando la necesidad de acá, Bolivia, en el cual se necesitan las herramientas necesarias para los periodistas.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -29,9 +29,12 @@ La idea principal de este proyecto es la de crear un sistema de foros, noticias 
       <pubDate>Mon, 20 Apr 2009 23:38:53 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2009/04/revista-atix-numero-9-celebraci%C3%B3n-de-su-primer-a%C3%B1o/</guid>
-      <description>Hoy se entrega a todo el publico la novena entrega de esta revista dedicada a software libre, en la cual presento mi ultimo articulo dedicado a la comunidad Ruby on Rails, uso de AJAX para el login dentro del sistema de registro de artículos ATIX.
-El lema para este ejemplar es:
-Un año de emprendimiento y la satisfacción de haber cumplido nuestro primer ciclo. Quedan invitados a descargar éste número y a disfrutar de su contenido, ademas que existe hoy (20 de abril) un pequeño evento en el Auditorio de Entel, La Paz – Bolivia por el aniversario de esta revista.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.carakan.info/wp-content/uploads/2009/04/caja09-bla220x300.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://www.carakan.info/wp-content/uploads/2009/04/caja09-bla220x300-thumb.jpg&#34; alt=&#34;caja09_bla-220x300&#34;  title=&#34;caja09_bla-220x300&#34;  /&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hoy se entrega a todo el publico la novena entrega de esta revista dedicada a software libre, en la cual presento mi ultimo articulo dedicado a la comunidad &lt;a href=&#34;http://www.boliviaonrails.com&#34;&gt;Ruby on Rails&lt;/a&gt;, uso de AJAX para el login dentro del sistema de registro de artículos ATIX.&lt;/p&gt;
+&lt;p&gt;El lema para este ejemplar es:&lt;/p&gt;
+&lt;h5 id=&#34;un-año-de-emprendimiento-y-la-satisfacción-de-haber-cumplido-nuestro-primer-ciclo&#34;&gt;Un año de emprendimiento y la satisfacción de haber cumplido nuestro primer ciclo.&lt;/h5&gt;
+&lt;p&gt;Quedan invitados a descargar éste número y a disfrutar de su contenido, ademas que existe hoy (20 de abril) un pequeño evento en el Auditorio de Entel, La Paz – Bolivia  por el aniversario de esta revista.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -40,9 +43,13 @@ Un año de emprendimiento y la satisfacción de haber cumplido nuestro primer ci
       <pubDate>Mon, 09 Mar 2009 22:46:49 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2009/03/revista-atix-numero-8/</guid>
-      <description>Hoy se lanzo el numero 8 de la revista sobre software libre ATIX, en el cual apoye con la cuarta parte de “Desarrollo ágil con Ruby on Rails”, el lema para esta versión de la revista es:
-El ser vistos desde otros horizontes, nos compromete más en nuestro trabajo. Descarga del archivo (PDF).
-Revista Atix.</description>
+      <description>&lt;p&gt;Hoy se lanzo el numero 8 de la revista sobre software libre ATIX, en el cual apoye con la cuarta parte de “Desarrollo ágil con Ruby on Rails”, el lema para esta versión de la revista es:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h4 id=&#34;el-ser-vistos-desde-otros-horizontes-nos-compromete-más-en-nuestro-trabajo&#34;&gt;El ser vistos desde otros horizontes, nos compromete más en nuestro trabajo.&lt;/h4&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.carakan.info/wp-content/uploads/2009/03/caja08-tra220x300.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://www.carakan.info/wp-content/uploads/2009/03/caja08-tra220x300-thumb.jpg&#34; alt=&#34;caja08_tra-220x300&#34;  title=&#34;caja08_tra-220x300&#34;  /&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.carakan.info/proyectos/atix/atix08.pdf&#34;&gt;Descarga del archivo (PDF)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://atix.opentelematics.org/&#34;&gt;Revista Atix&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -51,8 +58,12 @@ Revista Atix.</description>
       <pubDate>Tue, 27 Jan 2009 15:36:32 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2009/01/revista-atix-numero-7-liberado./</guid>
-      <description>La revista sobre el software libre: Atix, lanzo la séptima entrega de su revista, que apuesta por el conocimiento libre y que para este numero lo entrega con el siguiente lema:
-Un nuevo año…. un nuevo reto, pon tu mejor empeño para lograr tu reto de este año. cuenta con la tercera parte del desarrollo de una aplicación de gestión de artículos ATIX, en Ruby on Rails, en la que explico como reutilizar código a través de plugins o gemas, utilizar el repositorio de gemas de Git Hub y manipular la gema Will_paginate.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.carakan.info/wp-content/uploads/2009/01/caja07-bla220x300.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://www.carakan.info/wp-content/uploads/2009/01/caja07-bla220x300-thumb.jpg&#34; alt=&#34;caja07_bla-220x300&#34;  title=&#34;caja07_bla-220x300&#34;  /&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;La revista sobre el software libre: &lt;a href=&#34;http://atix.opentelematics.org/&#34;&gt;Atix&lt;/a&gt;, lanzo la séptima entrega de su revista, que apuesta por el conocimiento libre y que para este numero lo entrega con el siguiente lema:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h4 id=&#34;un-nuevo-año-un-nuevo-reto-pon-tu-mejor-empeño-para-lograr-tu-reto-de-este-año&#34;&gt;Un nuevo año…. un nuevo reto, pon tu mejor empeño para lograr tu reto de este año.&lt;/h4&gt;&lt;/blockquote&gt;
+&lt;p&gt;cuenta con la tercera parte del desarrollo de una aplicación de gestión de artículos ATIX, en &lt;a href=&#34;http://www.rubyonrails.org.es/&#34;&gt;Ruby on Rails&lt;/a&gt;, en la que explico como reutilizar código a través de plugins o gemas, utilizar el repositorio de gemas de &lt;a href=&#34;http://github.com/&#34;&gt;Git Hub&lt;/a&gt; y manipular la gema &lt;a href=&#34;http://github.com/mislav/will_paginate/tree/master&#34;&gt;Will_paginate&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -61,9 +72,11 @@ Un nuevo año…. un nuevo reto, pon tu mejor empeño para lograr tu reto de est
       <pubDate>Wed, 17 Dec 2008 21:02:17 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/12/revista-atix-numero-6-liberado./</guid>
-      <description>La revista sobre el software libre: Atix, lanzo la sexta entrega de su revista, que apuesta por el conocimiento libre y que para este numero lo entrega con el siguiente lema:
-El ser todos iguales, nos llevará a tener y vivir un futuro mejor.
-Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicación en Ruby on Rails, con el cual hablo sobre la nueva versión de Rails la 2.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.carakan.info/proyectos/atix/atix06.pdf&#34; title=&#34;Revista Atix numero 6&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://www.carakan.info/wp-content/uploads/2008/12/revista-atix-6-carakan.jpg&#34; alt=&#34;revista_atix_6_carakan&#34;  title=&#34;revista_atix_6_carakan&#34;  /&gt;
+&lt;/a&gt; La revista sobre el software libre: &lt;a href=&#34;http://atix.opentelematics.org/&#34; title=&#34;revista atix&#34;&gt;Atix&lt;/a&gt;, lanzo la sexta entrega de su revista, que apuesta por el conocimiento libre y que para este numero lo entrega con el siguiente lema:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;El ser todos iguales, nos llevará a tener y vivir un futuro mejor.&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicación en &lt;a href=&#34;http://www.rubyonrails.org.es/&#34; title=&#34;Ruby on Rails&#34;&gt;Ruby on Rails&lt;/a&gt;, con el cual hablo sobre la nueva versión de Rails la 2.2 como realizar una migración de anteriores versiones, y manejo de relaciones con Active Record. &lt;a href=&#34;http://www.carakan.info/proyectos/atix/atix06.pdf&#34; title=&#34;Revista Atix numero 6&#34;&gt;Descargar Revista Atix #6&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -72,7 +85,7 @@ Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicaci
       <pubDate>Tue, 11 Nov 2008 14:07:13 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/11/revista-atix-numero-5/</guid>
-      <description>La revista Atix, es una revista que habla del software libre en general dentro de America latina y Bolivia, me place comunicar que en este numero cinco, he colaborado desinteresadamente haciendo un articulo sobre Ruby on Rails, que se repartira en varias entregas, espero que les guste, tambien dentro de la revista se habla de los frameworks Django, Ext, el sistema de seguimiento de proyectos Trac y otros, ademas otra forma de colaborar es de ser un mirror de descarga, para la difucion de la revista.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://atix.opentelematics.org&#34;&gt;La revista Atix&lt;/a&gt;, es una revista que habla del software libre en general dentro de America latina y Bolivia, me place comunicar que en este numero cinco, he colaborado desinteresadamente haciendo un articulo sobre &lt;a href=&#34;http://www.boliviaonrails.com&#34;&gt;Ruby on Rails&lt;/a&gt;, que se repartira en varias entregas, espero que les guste, tambien dentro de la revista se habla de los frameworks &lt;a href=&#34;http://www.djangoproject.com/&#34;&gt;Django&lt;/a&gt;, &lt;a href=&#34;http://extjs.com/&#34;&gt;Ext&lt;/a&gt;, el sistema de seguimiento de proyectos Trac y otros, ademas otra forma de colaborar es de ser un mirror de descarga, para la difucion de la revista. &lt;a href=&#34;http://www.carakan.info/proyectos/atix/atix05.pdf&#34;&gt;Descargar Revista Atix 5&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -81,7 +94,8 @@ Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicaci
       <pubDate>Mon, 22 Sep 2008 15:07:58 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/09/nueva-imagen-de-bolivia-on-rails-y-tema-wp-espa%C3%B1ol/</guid>
-      <description>Este fin de semana estuve trabajando en la nueva imagen de Bolivia on Rails, un sitio dedicado al desarrollo de ruby on rails dentro y fuera de Bolivia, lo deje un poco estancado este proyecto pero gracias a la colaboración de Boris Barroso estoy retomando el camino y además quiero informar de que ahora los tutoriales o cosas relacionadas con Rails serán publicadas en el Sitio de Bolivia on rails. [caption id=&amp;ldquo;attachment_420&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;563&amp;rdquo; caption=&amp;ldquo;Bolivia on rails&amp;rdquo;] [/caption] Otra noticia que se hará costumbre es que pongo a disposición el thema en Wordpress para que puedan utilizarlo en sus propios blogs, es un tema oscuro que me gusta por la combinación de colores, lo traduje y ahora lo comparto además que dejo el fuente de la cabecera en photoshop para que puedan editarlo, así que disfrútenlo.</description>
+      <description>&lt;p&gt;Este fin de semana estuve trabajando en la nueva imagen de &lt;a href=&#34;http://www.boliviaonrails.com&#34; title=&#34;Ruby on Rails en Bolivia&#34;&gt;Bolivia on Rails&lt;/a&gt;, un sitio dedicado al desarrollo de ruby on rails dentro y fuera de Bolivia, lo deje un poco estancado este proyecto pero gracias a la colaboración  de &lt;a href=&#34;http://www.redecuanime.com&#34;&gt;Boris Barroso&lt;/a&gt; estoy retomando el camino y además quiero informar de que ahora los tutoriales o cosas relacionadas con Rails serán publicadas en el Sitio de &lt;a href=&#34;http://www.boliviaonrails.com&#34; title=&#34;Web 2.0 Bolivia&#34;&gt;Bolivia on rails&lt;/a&gt;. [caption id=&amp;ldquo;attachment_420&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;563&amp;rdquo; caption=&amp;ldquo;Bolivia on rails&amp;rdquo;]&lt;a href=&#34;http://www.carakan.info/wp-content/uploads/2008/09/backend_bolivia_on_rails.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://www.carakan.info/wp-content/uploads/2008/09/backend_bolivia_on_rails.jpg&#34; alt=&#34;Bolivia on rails&#34;  title=&#34;backend bolivia on rails&#34;  /&gt;
+&lt;/a&gt;[/caption] Otra noticia que se hará costumbre es que pongo a disposición el thema en Wordpress para que puedan utilizarlo en sus propios blogs, es un tema oscuro que me gusta por la combinación de colores, lo traduje y ahora lo comparto además que dejo el fuente de la cabecera en photoshop para que puedan editarlo, así que disfrútenlo. &lt;a href=&#34;http://www.boliviaonrails.com&#34; title=&#34;Demo del thema&#34;&gt;Demo&lt;/a&gt;, &lt;a href=&#34;http://www.carakan.info/proyectos/wordpress/balance-black_cara.zip&#34; title=&#34;Thema wordpress&#34;&gt;Descargar thema wordpress.&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -90,7 +104,7 @@ Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicaci
       <pubDate>Thu, 07 Aug 2008 14:59:08 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/08/nueva-version-del-interprete-ruby-para-entornos-windows/</guid>
-      <description>Gracias a Favio Akita me entere de una nueva version del interprete de Ruby para los entornos windows, tengo algunos proyectos corriendo sobre esta plataforma, esta nueva version esta siendo desarrollado por Luis Lavena, el cual es 20% mas veloz, he realizado las pruebas y vi que tiene algunos defectos menores pero logre instalar rails 2.1.0 y las gemas mas importantes para la puesta en producción y comparto para que vean lo bien que se pinta esta nueva versión.</description>
+      <description>&lt;p&gt;Gracias a Favio Akita me entere de una &lt;a href=&#34;http://www.akitaonrails.com/2008/7/26/still-playing-with-ruby-on-windows&#34;&gt;nueva version del interprete de Ruby&lt;/a&gt; para los entornos windows, tengo algunos proyectos corriendo sobre esta plataforma, esta nueva version esta siendo desarrollado por Luis Lavena, el cual es 20% mas veloz, he realizado las pruebas y vi que tiene algunos defectos menores pero logre instalar rails 2.1.0 y las gemas mas importantes para la puesta en producción y comparto para que vean lo bien que se pinta esta nueva versión. &lt;a href=&#34;http://www.carakan.info/ruby/Ruby18.rar&#34; title=&#34;Ruby&#34;&gt;Descargar.&lt;/a&gt; &lt;strong&gt;Nota&lt;/strong&gt;: He parchado la gema mongrel, ya que hace una referencia al antiguo runtime [MSWin] y no al actual [MinGW], Ademas el paquete es de proposito evaluativo. &lt;strong&gt;Nota 2:&lt;/strong&gt; Las gemas instaladas son:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -99,7 +113,7 @@ Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicaci
       <pubDate>Wed, 06 Aug 2008 18:59:05 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/08/problema-de-imagemagick-rmagick-y-passenger-mod_rails/</guid>
-      <description>Recientemente en uno de mis proyectos estamos utilizando el plugin para subir archivos paperclip tutorial, este plugin tiene características de re-dimension de imágenes pero dentro de nuestro servidor web no funcionaba, lo que nos parecio bastante raro, buscando por internet encontré que el problema se debía al momento de usar mod_rails, el cual no cargaba las librerías necesarias, en este caso a ImageMagick, aqui el mismo problema pero para oracle y algunas de sus librerias.</description>
+      <description>&lt;p&gt;Recientemente en uno de mis proyectos estamos utilizando el plugin para subir archivos &lt;a href=&#34;http://jimneath.org/2008/04/17/paperclip-attaching-files-in-rails/&#34;&gt;paperclip tutorial&lt;/a&gt;, este plugin tiene características de re-dimension de imágenes pero dentro de nuestro servidor web no funcionaba, lo que nos parecio bastante raro, buscando por internet encontré que el problema se debía al momento de usar mod_rails, el cual no cargaba las librerías necesarias, en este caso a ImageMagick, &lt;a href=&#34;http://blog.rayapps.com/2008/05/21/using-mod_rails-with-rails-applications-on-oracle/&#34;&gt;aqui el mismo problema pero para oracle y algunas de sus librerias&lt;/a&gt;. La solución es la siguiente: Ir a la carpeta del ejecutable de ruby, en mi caso utilizo &lt;a href=&#34;http://www.rubyenterpriseedition.com/&#34;&gt;ruby-enterprise&lt;/a&gt; y que instale en /opt/ruby/bin, o en una carpeta cualquiera que tengas acceso se crea el archivo ruby_rmagick asi:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -108,7 +122,7 @@ Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicaci
       <pubDate>Fri, 18 Jul 2008 16:29:31 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/07/open-id-rest-y-rails/</guid>
-      <description>Estoy trabajando en el desarrollo de un portal deportivo, dentro de desarrollo del mismo se eligió el soporte a Open ID dentro de la autentificación, al estar desarrollando el mismo me presentaba un problema bastante raro, después de identificarme dentro del proveedor de Open ID me rediria al controlador de manejo de sesiones pero a la acción show, debería de redirigirme a create para la evaluacion de la identificacion, el problema se soluciona subiendo el map.</description>
+      <description>&lt;p&gt;Estoy trabajando en el desarrollo de un portal deportivo, dentro de desarrollo del mismo se eligió el soporte a Open ID dentro de la autentificación, al estar desarrollando el mismo me presentaba un problema bastante raro, después de identificarme dentro del proveedor de Open ID me rediria al controlador de manejo de sesiones pero a la acción show, debería de redirigirme a create para la evaluacion de la identificacion, el problema se soluciona subiendo el map.open_id_complete antes de definir el map.resource para las sesiones, la ruta correcta es como sigue:```&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -117,7 +131,7 @@ Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicaci
       <pubDate>Mon, 14 Jul 2008 23:47:19 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/07/nace-bolivia-on-rails/</guid>
-      <description>Si hoy 14 de julio nace oficialmente el sitio de desarrollo de Ruby on Rails en Bolivia, nos vamos a enfocar en un principio la facilidad y elegancia al momento de desarrollar en este fabuloso framework web. Esperamos sus comentarios.</description>
+      <description>&lt;p&gt;Si hoy 14 de julio nace oficialmente el sitio de desarrollo de Ruby on Rails en Bolivia, nos vamos a enfocar en un principio la facilidad y elegancia al momento de desarrollar en este fabuloso framework web. Esperamos sus comentarios.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -126,8 +140,17 @@ Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicaci
       <pubDate>Thu, 10 Jul 2008 18:35:18 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/07/una-railsconf-latina-en-brasil/</guid>
-      <description>Si el 15 e 16 de Octubre en San Paulo, Brasil se llevara a cabo el evento Rails Summit Brazil 2008, podría decir la mas grande del tipo para sudamerica y por que no la primera, gracias al trabajo de Favio Akita. El listado de Participantes es el siguiente:
-David Hansson (por Video Conferencia) Charles Nutter e Thomas Enebo desarrolladores de JRuby, Ninh Bui e Hongli Lai de Phusion (mod_rails). David Chelimsky (RSpec) Chris Wanstrath (Github) Dr.</description>
+      <description>&lt;p&gt;Si el 15 e 16 de Octubre en San Paulo, Brasil se llevara a cabo el evento Rails Summit Brazil 2008, podría decir la mas grande del tipo para sudamerica y por que no la primera, gracias al trabajo de &lt;a href=&#34;http://www.akitaonrails.com/2008/7/4/est-chegando-a-hora-rails-summit-brazil-2008&#34;&gt;Favio Akita&lt;/a&gt;. El listado de Participantes es el siguiente:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.loudthinking.com/&#34;&gt;&lt;strong&gt;David Hansson&lt;/strong&gt;&lt;/a&gt; (por Video Conferencia)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://headius.blogspot.com/&#34;&gt;&lt;strong&gt;Charles Nutter&lt;/strong&gt;&lt;/a&gt; e &lt;a href=&#34;http://www.bloglines.com/blog/ThomasEEnebo&#34;&gt;&lt;strong&gt;Thomas Enebo&lt;/strong&gt;&lt;/a&gt; desarrolladores de JRuby,&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ninh.nl/blog/&#34;&gt;&lt;strong&gt;Ninh Bui&lt;/strong&gt;&lt;/a&gt; e &lt;a href=&#34;http://izumi.plan99.net/blog/&#34;&gt;&lt;strong&gt;Hongli Lai&lt;/strong&gt;&lt;/a&gt; de &lt;a href=&#34;http://phusion.nl/&#34;&gt;Phusion&lt;/a&gt; (mod_rails).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.davidchelimsky.net/&#34;&gt;&lt;strong&gt;David Chelimsky&lt;/strong&gt;&lt;/a&gt; (&lt;a href=&#34;http://rspec.info/&#34;&gt;RSpec)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://errtheblog.com/&#34;&gt;&lt;strong&gt;Chris Wanstrath&lt;/strong&gt;&lt;/a&gt; (&lt;a href=&#34;http://github.com/&#34;&gt;Github&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://drnicwilliams.com/&#34;&gt;&lt;strong&gt;Dr. Nic Williams&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.jroller.com/obie/&#34;&gt;&lt;strong&gt;Obie Fernandez&lt;/strong&gt;&lt;/a&gt; (the rails way)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;y varios mas. Una gran noticia para la comunidad Rails hispana. Haber si puedo realizar el viaje :D&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -136,7 +159,7 @@ David Hansson (por Video Conferencia) Charles Nutter e Thomas Enebo desarrollado
       <pubDate>Mon, 16 Jun 2008 19:11:55 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/06/en-puerto-rico-lo-ven-ahora-en-argentina-lo-vieron-hace-tres-a%C3%B1os-y-en-bolivia-hace-un-a%C3%B1o/</guid>
-      <description>Escribo este post al leer el Blog Argentina on Rails, el cual el autor Pedro Visintin es entrevistado por Radar TI un sitio puertoriqueño de desarrollo, en el cual se hace incapie en que Rails es lo que fue Java en los 90, el gran boom en cuanto a desarrollo de software se refiere. Saludos a Pedro por la evangelización que realiza en toda america latina y decirle que aqui en Bolivia tiene todo el apoyo.</description>
+      <description>&lt;p&gt;Escribo este post al leer el Blog &lt;a href=&#34;http://blogs.onrails.com.ar&#34;&gt;Argentina on Rails&lt;/a&gt;, el cual el autor Pedro Visintin es entrevistado por &lt;a href=&#34;http://radarti.com/&#34;&gt;Radar TI&lt;/a&gt; un sitio puertoriqueño de desarrollo, en el cual se hace incapie en que Rails es lo que fue Java en los 90, el gran boom en cuanto a desarrollo de software se refiere. Saludos a Pedro por la evangelización que realiza en toda america latina y decirle que aqui en Bolivia tiene todo el apoyo. enlace: &lt;a href=&#34;http://blogs.onrails.com.ar/2008/6/13/gartner-lo-ve-ahora-pero-nosotros-lo-vimos-hace-casi-3-aos&#34;&gt;Gartner lo ve ahora pero nosotros lo vimos hace casi 3 años&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -145,9 +168,25 @@ David Hansson (por Video Conferencia) Charles Nutter e Thomas Enebo desarrollado
       <pubDate>Wed, 11 Jun 2008 15:58:41 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/06/llamar-a-procedimientos-pl/sql-de-oracle-con-ruby-plsql/</guid>
-      <description>Buscando una manera mas sencilla de poder llamar a procedimientos almacenados de Oracle pl/sql, encontré la gema ruby-plsql que es una simple API para procedimientos almacenados en oracle, su uso es muy sencillo como el siguiente:
-Si tenemos el siguiente paquete:
-CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCHAR2, p_out OUT VARCHAR2) IS BEGIN p_out := &amp;#39;Se introdujo: &amp;#39; || p_in; END; END; Ahora dentro del código, como ejemplo dentro del controlador:</description>
+      <description>&lt;p&gt;Buscando una manera mas sencilla de poder llamar a procedimientos almacenados de Oracle pl/sql, encontré la gema ruby-plsql que es una simple API para procedimientos almacenados en oracle, su uso es muy sencillo como el siguiente:&lt;/p&gt;
+&lt;p&gt;Si tenemos el siguiente paquete:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;CREATE&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;OR&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;REPLACE&lt;/span&gt; PACKAGE BODY scott.pck_prueba &lt;span style=&#34;color:#66d9ef&#34;&gt;IS&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;PROCEDURE&lt;/span&gt; LeeDatos(p_in VARCHAR2, p_out &lt;span style=&#34;color:#66d9ef&#34;&gt;OUT&lt;/span&gt; VARCHAR2) &lt;span style=&#34;color:#66d9ef&#34;&gt;IS&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       &lt;span style=&#34;color:#66d9ef&#34;&gt;BEGIN&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       p_out :&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Se introdujo: &amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; p_in;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;END&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;END&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Ahora dentro del código, como ejemplo dentro del controlador:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;require &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;“&lt;/span&gt;ruby_plsql&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;”&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;UsuariosController&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;ApplicationController&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;index&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    @usuarios &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Usuario&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;all
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    plsql&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;connection &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;OCI8&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;new(&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;”&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;SCOTT&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;”&lt;/span&gt;, &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;“&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;PASS&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;”&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    @hola &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; plsql&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;pck_prueba&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;LeeDatos(&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;”&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;Hola&lt;/span&gt; desde &lt;span style=&#34;color:#66d9ef&#34;&gt;Oracle&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;”&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    plsql&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;logoff
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Y para mostrar el dato, en la vista:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -156,7 +195,7 @@ CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCH
       <pubDate>Tue, 10 Jun 2008 18:29:51 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/06/salio-a-la-luz-ruby-enterprise-edition/</guid>
-      <description>Salio rubyenterprice ideal para servidores de alto trafico, vps, hosting compartido, mejora en el consumo de memoria, una gran alternativa a los clasicos mongreles.</description>
+      <description>&lt;p&gt;Salio &lt;a href=&#34;http://www.rubyenterpriseedition.com/&#34;&gt;rubyenterprice&lt;/a&gt; ideal para servidores de alto trafico, vps, hosting compartido, mejora en el consumo de memoria, una gran alternativa a los clasicos mongreles.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -165,7 +204,7 @@ CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCH
       <pubDate>Sat, 07 Jun 2008 22:31:58 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/06/mejorar-la-conexi%C3%B3n-a-oracle-con-rails-2.1/</guid>
-      <description>Dentro del trabajo con Oracle y Rails, existen dos gemas que nos permiten conectar y manipular los datos estas son las gemas OCI-8 y active-record-oracle-adapter, pero existen algunos fallos dentro del Active-Record-Oracle-Adapter, uno lo indique en un post anterior, es por eso que en rayapps se escribe sobre como mejorar algunas cosas a este adaptador, es por eso que el autor de esos post publica ahora una gema que tiene incluido los patch y algunas mejoras esto es la gema activerecord-oracle_enhanced-adapter</description>
+      <description>&lt;p&gt;Dentro del trabajo con Oracle y Rails, existen dos gemas que nos permiten conectar y manipular los datos estas son las gemas OCI-8 y active-record-oracle-adapter, pero existen algunos fallos dentro del Active-Record-Oracle-Adapter, uno lo &lt;a href=&#34;http://carakan.com/index.php/2008/01/14/conectarse-de-rails-202-a-oracle/&#34;&gt;indique en un post anterior&lt;/a&gt;, es por eso que en &lt;a href=&#34;http://blog.rayapps.com&#34;&gt;rayapps&lt;/a&gt; se escribe sobre como mejorar algunas cosas a este adaptador, es por eso que el autor de esos post publica ahora una gema que tiene incluido los patch y algunas mejoras esto es la gema activerecord-oracle_enhanced-adapter&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -174,7 +213,7 @@ CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCH
       <pubDate>Mon, 02 Jun 2008 19:42:24 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/06/lanzamiento-de-rails-2.1-y-ruby-1.8.7/</guid>
-      <description>Parece que la RailsConf 2008 nos tiene traera bastantes sorpresas ya que anuncian el lanzamiento oficial de la version 1.8.7 del lenguaje de programacion ruby, que esta lista para bajar desde aqui. Ademas se lanza oficialmente la tan esperada version 2.1 de Rails, que creo esperaron para lucirse en la RailsConf 2008, si quieres aprender/saber sobre las nuevas caracteristicas de Rails que ofrece las encontraras en : Rails Cast para Rails 2.</description>
+      <description>&lt;p&gt;Parece que la &lt;a href=&#34;http://en.oreilly.com/rails2008/public/content/home&#34;&gt;RailsConf 2008&lt;/a&gt; nos tiene traera bastantes sorpresas ya que anuncian el &lt;a href=&#34;http://www.rubyinside.com/ruby-187-released-912.html&#34;&gt;lanzamiento oficial de la version 1.8.7&lt;/a&gt; del lenguaje de programacion ruby, que esta lista para bajar desde &lt;a href=&#34;http://www.ruby-lang.org/en/news/2008/05/31/ruby-1-8-7-has-been-released/&#34;&gt;aqui.&lt;/a&gt; Ademas se &lt;a href=&#34;http://weblog.rubyonrails.com/2008/6/1/rails-2-1-time-zones-dirty-caching-gem-dependencies-caching-etc&#34;&gt;lanza oficialmente la tan esperada version 2.1 de Rail&lt;/a&gt;s, que creo esperaron para lucirse en la RailsConf 2008, si quieres aprender/saber sobre las nuevas caracteristicas de Rails que ofrece las encontraras en : &lt;a href=&#34;http://railscasts.com/tags/20&#34;&gt;Rails Cast para Rails 2.1&lt;/a&gt;. Y por ultimo se &lt;a href=&#34;http://www.railsjedi.com/posts/52-The-Holy-Grail-for-Rails-Deployment&#34;&gt;anuncia la version 2.0 de Passanger&lt;/a&gt;, que soporta ahora Rack. Tantas buenas noticias para un lunes :D&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -183,7 +222,7 @@ CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCH
       <pubDate>Wed, 28 May 2008 22:45:42 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/05/video-tutoriales-de-git/</guid>
-      <description>En la web de Estado Beta, encontre un enlace a una pagina que esta publicando periodicamente screen-cast de Git, el nuevo sistema de versionado de codigo fuente del staff de Rails y otros proyectos mesclados con Rails o Ruby. Bueno ya estoy viendo estos screen cast para aprenderlos, acotar que estaba viendo mercurial que ya tiene soporte a mi IDE favorito NetBeans hasta que llego Git el cual no esta soportado por NetBeans, asi que si estan interesados este es el enlace: Gitcasts.</description>
+      <description>&lt;p&gt;En la web de &lt;a href=&#34;http://www.estadobeta.com/2008/05/26/gitcasts/&#34;&gt;Estado Beta&lt;/a&gt;, encontre un enlace a una pagina que esta publicando periodicamente screen-cast de Git, el nuevo sistema de versionado de codigo fuente del staff de Rails y otros proyectos mesclados con Rails o Ruby. Bueno ya estoy viendo estos screen cast para aprenderlos, acotar que estaba viendo &lt;a href=&#34;http://www.selenic.com/mercurial/wiki/&#34;&gt;mercurial&lt;/a&gt; que ya tiene soporte a mi IDE favorito NetBeans hasta que llego Git el cual no esta soportado por NetBeans, asi que si estan interesados este es el enlace:  &lt;a href=&#34;http://www.gitcasts.com/&#34;&gt;Gitcasts&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -192,8 +231,10 @@ CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCH
       <pubDate>Fri, 18 Apr 2008 15:36:19 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/04/qhacer-ya-esta-online./</guid>
-      <description>La version beta permanente ya esta lista, gracias al esfuerzo de Elmer.
-Como explique anteriormente, es un sitio para compartir tus actividades importantes, al modo 2.0, y que ademas empezo como una web para el aprendizaje de Ruby on Rails, pero ahora le estamos metiendo ganas y vamos a hacer un referente dentro de la web 2.0 en Bolivia.</description>
+      <description>&lt;p&gt;La version beta permanente ya esta lista, gracias al esfuerzo de Elmer.&lt;a href=&#34;http://carakan.com/index.php/2008/04/18/qhacer-ya-esta-online/y-ahora-que-es-lo-que-hacemos/&#34; title=&#34;Y ahora que es lo que hacemos&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://carakan.com/index.php/2008/04/18/qhacer-ya-esta-online/y-ahora-que-es-lo-que-hacemos/&#34; title=&#34;Y ahora que es lo que hacemos&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://carakan.com/wp-content/uploads/2008/04/qhacer.jpg&#34; alt=&#34;Y ahora que es lo que hacemos&#34;  /&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; Como &lt;a href=&#34;http://carakan.com/index.php/2008/04/16/y-ahora-que-es-lo-que-hacemos/&#34;&gt;explique anteriormente&lt;/a&gt;, es un sitio para compartir tus actividades importantes, al modo 2.0, y que ademas empezo como una web para el aprendizaje de &lt;a href=&#34;http://www.rubyonrails.org&#34;&gt;Ruby on Rails&lt;/a&gt;, pero ahora le estamos metiendo ganas y vamos a hacer un referente dentro de la &lt;a href=&#34;http://www.wiebia.com&#34;&gt;web 2.0 en Bolivia&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -202,7 +243,7 @@ Como explique anteriormente, es un sitio para compartir tus actividades importan
       <pubDate>Wed, 05 Mar 2008 14:04:48 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/03/novedades-en-ruby-1.9-y-proximo-lanzamiento-de-ruby-1.8.7/</guid>
-      <description>Segun leo en pagina de infoq, ya se lanzo una nueva versión de desarrollo de ruby en la rama 1.9, que todavia esta en desarrollo :( Ruby 1.9.0-1, el cual corrigen y mejoran esta versión, ademas que se viene para el mes de abril la versión 1.8.7 (estable) una versión que se aproximara a la 1.9 en algunas caracteristicas. Visto en InfoQ.</description>
+      <description>&lt;p&gt;Segun leo en pagina de infoq, ya se lanzo una nueva versión de desarrollo de ruby en la rama 1.9, que todavia esta en desarrollo :( &lt;a href=&#34;http://www.ruby-forum.com/topic/144498#new&#34;&gt;Ruby 1.9.0-1&lt;/a&gt;, el cual corrigen y mejoran esta versión, ademas que se viene para el mes de abril la versión 1.8.7 (estable) una versión que se aproximara a la 1.9 en algunas caracteristicas. Visto en &lt;a href=&#34;http://www.infoq.com/news/2008/03/ruby-1-9-0-1-released&#34;&gt;InfoQ.&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -211,7 +252,10 @@ Como explique anteriormente, es un sitio para compartir tus actividades importan
       <pubDate>Fri, 01 Feb 2008 17:09:52 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/02/noticias-cortas/</guid>
-      <description>Microsoft quiere comprar Yahoo por nada menos de 44.600 Millones de $ un duro golpe a la Web 2.0???? El lenguaje de programacion Ruby es mas rapido que PHP, es lo que afirman en este blog, el cual haciendo una prueba con mismos problemas y resuluciones para cada tipo de lenguaje es una muy buen punto a favor de Rails, y eso que las pruebas estan realizadas con la version 1.</description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Microsoft quiere comprar Yahoo&lt;/strong&gt; por nada menos de &lt;a href=&#34;http://despuesdegoogle.com/2008/02/01/microsoft-compra-yahoo/&#34;&gt;44.600 Millones de $&lt;/a&gt; un duro golpe a la Web 2.0????&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;El lenguaje de programacion Ruby es mas rapido que PHP&lt;/strong&gt;, es lo que afirman en este &lt;a href=&#34;http://izumi.plan99.net/blog/index.php/2008/01/17/ruby-vs-php-performance/&#34;&gt;blog&lt;/a&gt;, el cual haciendo una prueba con mismos problemas y resuluciones para cada tipo de lenguaje es una muy buen punto a favor de Rails, y eso que las pruebas estan realizadas con la version 1.8.6 y no con la 1.9 y su nueva maquina virtual &lt;a href=&#34;http://en.wikipedia.org/wiki/YARV&#34;&gt;YARV&lt;/a&gt;, segun tambien he podido leer que se quejan los PHP&amp;rsquo;eros que el algoritmo no esta afinado y que solamente lo hizo alguien que tenia conocimientos muy elementales del lenguaje, pero me pregunto ¿Es posible que una ves que estas trasteando con un lenguaje de programacion por 1 o 2 o mas años recien puedas escribir codigo decente y rapido?. Animence al cambio y dejen de quejarse.&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -220,7 +264,10 @@ Como explique anteriormente, es un sitio para compartir tus actividades importan
       <pubDate>Mon, 14 Jan 2008 22:16:57 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/01/conectarse-de-rails-2.0.2-a-oracle-en-windows/</guid>
-      <description>Recientemente estoy trabajando en un proyecto de contabilidad dentro del cual utiliza como base de datos a oracle 10g, para desarrollar la interfaz web veníamos planeando la utilización de ASP.NET, del cual recientemente obtuve la quinta estrella, pero se requería en el tiempo más corto posible y que además sea adaptable a cambios futuros y que además corriese dentro del sistema operativo Windows, asi que plantee como opción la utilización de Ruby on Rails como la plataforma de desarrollo, del cual aceptaron y se está desarrollando en tiempo record!</description>
+      <description>&lt;p&gt;Recientemente estoy trabajando en un proyecto de contabilidad dentro del cual utiliza como base de datos a oracle 10g, para desarrollar la interfaz web veníamos planeando la utilización de ASP.NET, del cual recientemente obtuve la quinta estrella, pero se requería en el tiempo más corto posible y que además sea adaptable a cambios futuros y que además corriese dentro del sistema operativo Windows, asi que plantee como opción la utilización de Ruby on Rails como la plataforma de desarrollo, del cual aceptaron y se está desarrollando en tiempo record!!! Bueno en este tutorial explicare la instalación de Rails + adaptador de oracle para conectarse a oracle + un parche para que corra satisfactoriamente las migraciones. Comenzamos. Para el desarrollo con Rails dentro de Windows debemos de bajar el paquete InstantRails que contiene ya instalados Ruby 1.8.6 + Rails 2.0.2 Los bajamos y descomprimimos dentro de la unidad c: &lt;img loading=&#34;lazy&#34; src=&#34;http://carakan.com/wp-content/uploads/2008/01/instant-rails.JPG&#34; alt=&#34;instant-rails.JPG&#34;  /&gt;
+ nos adentramos dentro de la carpeta InstantRails y hacemos doble click en el ejecutable, listo eso es todo ya tenemos instalado Ruby on Rails. Ahora en la ventana que se abre una ventana pequeña en la cual pulsamos en la I y seleccionamos Rails Applications &amp;gt; Open Ruby console window: &lt;img loading=&#34;lazy&#34; src=&#34;http://carakan.com/wp-content/uploads/2008/01/ventana-instantrails.JPG&#34; alt=&#34;ventana-instantrails.JPG&#34;  /&gt;
+ Nos saldrá el intérprete de comandos cargando ruby. Ahora tenemos que bajar la librería ruby-OCI8 de &lt;a href=&#34;http://rubyforge.org/projects/ruby-oci8/&#34;&gt;http://rubyforge.org/projects/ruby-oci8/&lt;/a&gt; seleccionamos la versión para win-32 (ruby-oci8-1.0.0-mswin32.rb) la guardamos en C:\InstantRails\rails_apps ahora en la consola abierta tecleamos:&lt;code&gt;ruby ruby-oci8-1.0.0-mswin32.rb(enter)&lt;/code&gt;Nos preguntara si deseamos copier los siguientes archives y escribimos:```
+Yes(enter)&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -229,7 +276,7 @@ Como explique anteriormente, es un sitio para compartir tus actividades importan
       <pubDate>Fri, 07 Dec 2007 22:54:13 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2007/12/parieron-a-rails-2.0/</guid>
-      <description>Ja, el titulo es bastante fuerte, pero como varios blogs ya lo escribieron y no quiero abstenerme de la noticia y ademas ver como impacta esto&amp;hellip; Bueno en el blog oficial de Ruby on rails, lanzan la noticia del lanzamiento de rails 2.0, con sus nuevas funcionalidades, ademas puedes bajar el pdf descriptivo de la mano de Peepcode gracias a este supercoco. Fuente. </description>
+      <description>&lt;p&gt;Ja, el titulo es bastante fuerte, pero como varios blogs ya lo escribieron y no quiero abstenerme de la noticia y ademas ver como impacta esto&amp;hellip; Bueno en el blog oficial de Ruby on rails, lanzan la noticia del &lt;a href=&#34;http://weblog.rubyonrails.com/2007/12/7/rails-2-0-it-s-done&#34;&gt;lanzamiento de rails 2.0,&lt;/a&gt; con sus nuevas funcionalidades, ademas puedes bajar el pdf descriptivo de la mano de &lt;a href=&#34;http://peepcode.com/&#34;&gt;Peepcode&lt;/a&gt; gracias a este &lt;a href=&#34;http://twitter.com/supercoco9/statuses/478509522&#34;&gt;supercoco&lt;/a&gt;. &lt;a href=&#34;http://apuntesderails.amaiac.net/archives/2007/12/7/rails_20_ya_est%C3%A1_aqui/&#34;&gt;Fuente. &lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -238,7 +285,7 @@ Como explique anteriormente, es un sitio para compartir tus actividades importan
       <pubDate>Tue, 04 Dec 2007 23:13:35 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2007/12/salio-netbeans-6.0/</guid>
-      <description>Salio la release de NetBeans 6.0, con una total integración de Ruby on rails y subversion, por lo ultimo me estoy inclinando mas por NetBeans que por Aptana, aunque a veces también utilizo los dos :) Una de las caracteristicas mas buenas del entorno segun mi opinion es la integracion con subversion, muestra las modificaciones en el codigo contra la ultima revision sin tener que recurrir con diff, ayuda bastante cuando no sabes donde hicieron o hiciste cambios, ademas el instalador de NetBeans es solamente de 19 Megas, algo mas portable que Aptana, ambos NetBeans y Aptana son gratuitos.</description>
+      <description>&lt;p&gt;Salio la release de NetBeans 6.0, con una total integración de Ruby on rails y subversion, por lo ultimo me estoy inclinando mas por NetBeans que por &lt;a href=&#34;http://www.aptana.com&#34;&gt;Aptana&lt;/a&gt;, aunque a veces también utilizo los dos :) Una de las caracteristicas mas buenas del entorno segun mi opinion es la integracion con subversion, muestra las modificaciones en el codigo contra la ultima revision sin tener que recurrir con diff, ayuda bastante cuando no sabes donde hicieron o hiciste cambios, ademas el instalador de NetBeans es solamente de 19 Megas, algo mas portable que Aptana, ambos NetBeans y Aptana son gratuitos. Bueno mientras intento instalar Leopard en mi pc usare NetBeans. &lt;a href=&#34;http://sunmicro.vo.llnwd.net/c1/netbeans/6.0/final/&#34;&gt;Descargar Netbeans 6.0&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -247,8 +294,7 @@ Como explique anteriormente, es un sitio para compartir tus actividades importan
       <pubDate>Wed, 28 Nov 2007 20:17:48 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2007/11/conferencias-del-congreso-rails-hispano-2007/</guid>
-      <description>Siguiendo a varios blogs que hablan sobre Ror, con Google Reader, veo que la anterior semana termino la conferencia Rails Hispana, allá en España, y la verdad uno quisiera que existan tales conferencias acá en Latinoamerica, pero siguiendo unos post vi que publicaban sus ponencias, además me intereso como hacerle competencia a google con rails, busque todas las ponencias, muy buenas por cierto, y están alojadas en slideshare aqui.
-También encontré un post con enlaces a diferentes blogs y sus ponencias de la mano de apuntes de rails, bueno espero que allá en España no se enojen por publicar sus ponencias :)</description>
+      <description>&lt;p&gt;Siguiendo a varios blogs que hablan sobre Ror, con &lt;a href=&#34;http://carakan.com/index.php/2007/09/25/aprender-a-manejar-los-feeds-y-google-reader/&#34;&gt;Google Reader&lt;/a&gt;, veo que la anterior semana termino la conferencia Rails Hispana, allá en España, y la verdad uno quisiera que existan tales conferencias acá en Latinoamerica, pero siguiendo unos &lt;a href=&#34;http://feeds.feedburner.com/~r/javiervidal/~3/190592010/&#34;&gt;post&lt;/a&gt; vi que publicaban sus ponencias, además me intereso como hacerle &lt;a href=&#34;http://www.jaimeiniesta.com/2007/11/26/codigos-del-taller-de-aranas-web/&#34;&gt;competencia a google con rails&lt;/a&gt;, busque todas las ponencias, muy buenas por cierto, y están alojadas en slideshare &lt;a href=&#34;http://www.slideshare.net/tag/conferenciarails2007&#34; title=&#34;Todos las conferencias de Rails Hispan0 2007&#34;&gt;&lt;strong&gt;aqui&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -257,9 +303,9 @@ También encontré un post con enlaces a diferentes blogs y sus ponencias de la 
       <pubDate>Mon, 26 Nov 2007 22:16:59 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2007/11/mozilla-3-beta-1-no-se-deja-con-rest-ruby-on-rails/</guid>
-      <description>Haciendo mi proyecto de grado/trabajo, trabajando e implementando diferentes tipos de respuestas bajo el diseño REST, cuando al estar probando Mozilla 3 B1, veía que no respondia a las peticiones vacias que no tenian el formato ej: /inscritos, me daba el error. Aparentemente no encontraba el valor del format en la linea de codigo:
-respond_to do |format|
-y según parece el valor de format no lo llena al hacer la petición en el navegador Mozilla 3 B1, así que tuve que desintalar este beta, debe de tener ciertos problemas o bugs de desarrollo(que macana el 2.</description>
+      <description>&lt;p&gt;Haciendo mi proyecto de grado/trabajo, trabajando e implementando diferentes tipos de respuestas bajo el diseño REST, cuando al estar probando Mozilla 3 B1, veía que no respondia a las peticiones vacias que no tenian el formato ej: &lt;strong&gt;/inscritos&lt;/strong&gt;, me daba el error. Aparentemente no encontraba el valor del format en la linea de codigo:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;respond_to do |format|&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;y según parece el valor de format no lo llena al hacer la petición en el navegador Mozilla 3 B1, así que tuve que desintalar este beta, debe de tener ciertos problemas o bugs de desarrollo(que macana el 2.0.9 me chupa la &lt;a href=&#34;http://www.anieto2k.com/2007/11/22/%c2%bfcuanta-memoria-esta-consumiendo-firefox-en-el-mundo/&#34;&gt;memoria&lt;/a&gt;). Lo mas curioso es que trate de arreglar este supuesto error del format, haciendo en cada request una filtración del parámetro params[:format], que por defecto sea html y si es Ajax (request.xhr?) no asignaba el valor .html. Perdi como tres horas tratando de arreglar este supuesto error :( &lt;strong&gt;Nota (18 agosto 2008):&lt;/strong&gt; Vi que este error solo ocurren en la rama 1.2.x de Rails asi que solamente queda actualizar los proyectos a una rama superior, la actual es (2.1.0).&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -268,7 +314,7 @@ y según parece el valor de format no lo llena al hacer la petición en el naveg
       <pubDate>Tue, 23 Oct 2007 21:55:22 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2007/10/salio-netbeans-6.0-beta-2/</guid>
-      <description>Pues al estar tratando de bajar una copia del netbeans 6.0 beta1, ya que lo perdi por ahi, me percate que en el sitio ya esta disponible el beta 2 de este IDE, asi que lo estoy bajando aver que trae de nuevo esto. La verdad que no encontre informacion oficial de la salida de beta 2, asi que tengo la primicia :). Descargar. </description>
+      <description>&lt;p&gt;Pues al estar tratando de bajar una copia del netbeans 6.0 beta1, ya que lo perdi por ahi, me percate que en el sitio ya esta disponible el beta 2 de este IDE, asi que lo estoy bajando aver que trae de nuevo esto. La verdad que no encontre informacion oficial de la salida de beta 2, asi que tengo la primicia :). &lt;a href=&#34;http://download.netbeans.org/netbeans/6.0/beta2/&#34; title=&#34;Bajar NetBeans 6.0 beta 2&#34;&gt;Descargar. &lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -277,7 +323,7 @@ y según parece el valor de format no lo llena al hacer la petición en el naveg
       <pubDate>Wed, 03 Oct 2007 14:39:18 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2007/10/usando-netbeans-en-linux/</guid>
-      <description>Estoy tratando de migrar mis desarrollos de ruby on rails a la plataforma Linux por que el guindows me hace renegar bastante, Leopart donde esta que no te veo?, un problema al principio fue el poder utilizar gettext 1.9 en mi proyecto, Video-Tutorial gracias al compañero Vincent Gozalves, a un principio funciono, un simple controlador y sus dos vistas, funciona!!!, me dije por mis dentros así que empecé a desarrollar todo el sitio, terminando ahora me faltaba solamente la traducción, así que hice mi “rake updatepo” y me mando este maldito mensaje:</description>
+      <description>&lt;p&gt;Estoy tratando de migrar mis desarrollos de ruby on rails a la plataforma Linux por que el guindows me hace renegar bastante, Leopart donde esta que no te veo?, un problema al principio fue el poder utilizar &lt;a href=&#34;http://rubyforge.org/frs/?group_id=855&#34;&gt;gettext 1.9&lt;/a&gt; en mi proyecto, Video-Tutorial gracias al compañero &lt;a href=&#34;http://www.vicentgozalbes.com/articles/category/tutoriales/&#34; title=&#34;Videotutoriales de Ruby on rails&#34;&gt;Vincent Gozalves&lt;/a&gt;, a un principio funciono, un simple controlador y sus dos vistas, funciona!!!, me dije por mis dentros así que empecé a desarrollar todo el sitio, terminando ahora me faltaba solamente la traducción, así que hice mi “rake updatepo” y me mando este maldito mensaje:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -286,8 +332,15 @@ y según parece el valor de format no lo llena al hacer la petición en el naveg
       <pubDate>Wed, 19 Sep 2007 22:37:42 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2007/09/scrum-en-la-intemperie-combinando-scrum-y-rails/</guid>
-      <description>Si, estoy haciendo mi proyecto de grado para la culminacion de mi carrera (Informatica), y para esto estoy haciendo uso de varios conceptos, filosofias, tecnologias que la verdad si no me confundo en mis ideas, confundire a mis tutores/revisores :P. Este es el listado de todos los conceptos que estoy utilizando en mi proyecto.
-Manifiesto agil. Scrum. Ruby on rails. Ajax. REST. Todo lo anterior se esta plasmando en el sitio de reservas de clases de español del instituto exclusivo que por ahora esta enlazado a este link.</description>
+      <description>&lt;p&gt;Si, estoy haciendo mi proyecto de grado para la culminacion de mi carrera (Informatica), y para esto estoy haciendo uso de varios conceptos, filosofias, tecnologias que la verdad si no me confundo en mis ideas, confundire a mis tutores/revisores :P. Este es el listado de todos los conceptos que estoy utilizando en mi proyecto.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://es.wikipedia.org/wiki/Manifiesto_%C3%A1gil&#34;&gt;Manifiesto agil&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://es.wikipedia.org/wiki/Scrum&#34;&gt;Scrum&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://es.wikipedia.org/wiki/Ruby_on_Rails&#34;&gt;Ruby on rails&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://es.wikipedia.org/wiki/AJAX&#34;&gt;Ajax&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://es.wikipedia.org/wiki/Representational_State_Transfer&#34;&gt;REST&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Todo lo anterior se esta plasmando en el sitio de reservas de clases de español del &lt;a href=&#34;http://www.instituto-exclusivo.com&#34; title=&#34;Instituto Exclusivo de Idiomas&#34;&gt;instituto exclusivo&lt;/a&gt; que por ahora esta enlazado a este &lt;a href=&#34;http://instituto.ie-spaansonline.com&#34; title=&#34;sistema de reservas&#34;&gt;link.&lt;/a&gt; La verdad que todo esto me esta gustando bastante y espero que en la Umsa comprendan mis ideas, ya que ruby on rails es una herramienta perfecta para el desarrollo agil, y una metodologia avalada como &lt;em&gt;agil&lt;/em&gt; es SCRUM asi que solamente hay que estar atando los cabos sueltos. En proximos post, detallare como estoy haciendo el product backlog, los sprints.&lt;/p&gt;</description>
     </item>
     
   </channel>

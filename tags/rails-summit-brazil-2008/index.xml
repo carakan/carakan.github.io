@@ -18,7 +18,7 @@
       <pubDate>Sat, 12 Jul 2008 17:31:26 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/07/rails-summit-de-brazil-en-espa%C3%B1ol/</guid>
-      <description>En el blog de Argentina on Rails, nos dan la grata noticia, que es posible que la rails summit de brasil se de en español, es por eso que se necesita de llenar una pequeña encuesta, hecha por Favio, es de vital información para la organización del la conferencia, yo ya la llene y es bastante simple. La encuesta</description>
+      <description>&lt;p&gt;En el blog de &lt;a href=&#34;http://onrails.com.ar&#34;&gt;Argentina on Rails&lt;/a&gt;, nos dan la grata noticia, que es posible que la rails summit de brasil se de en español, es por eso que se necesita de llenar una pequeña encuesta, hecha por Favio, es de vital información para la organización del la conferencia, yo ya la llene y es bastante simple. &lt;a href=&#34;http://railssummit2008.questionform.com/public/encuesta&#34;&gt;La encuesta&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -27,8 +27,17 @@
       <pubDate>Thu, 10 Jul 2008 18:35:18 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/07/una-railsconf-latina-en-brasil/</guid>
-      <description>Si el 15 e 16 de Octubre en San Paulo, Brasil se llevara a cabo el evento Rails Summit Brazil 2008, podría decir la mas grande del tipo para sudamerica y por que no la primera, gracias al trabajo de Favio Akita. El listado de Participantes es el siguiente:
-David Hansson (por Video Conferencia) Charles Nutter e Thomas Enebo desarrolladores de JRuby, Ninh Bui e Hongli Lai de Phusion (mod_rails). David Chelimsky (RSpec) Chris Wanstrath (Github) Dr.</description>
+      <description>&lt;p&gt;Si el 15 e 16 de Octubre en San Paulo, Brasil se llevara a cabo el evento Rails Summit Brazil 2008, podría decir la mas grande del tipo para sudamerica y por que no la primera, gracias al trabajo de &lt;a href=&#34;http://www.akitaonrails.com/2008/7/4/est-chegando-a-hora-rails-summit-brazil-2008&#34;&gt;Favio Akita&lt;/a&gt;. El listado de Participantes es el siguiente:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.loudthinking.com/&#34;&gt;&lt;strong&gt;David Hansson&lt;/strong&gt;&lt;/a&gt; (por Video Conferencia)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://headius.blogspot.com/&#34;&gt;&lt;strong&gt;Charles Nutter&lt;/strong&gt;&lt;/a&gt; e &lt;a href=&#34;http://www.bloglines.com/blog/ThomasEEnebo&#34;&gt;&lt;strong&gt;Thomas Enebo&lt;/strong&gt;&lt;/a&gt; desarrolladores de JRuby,&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ninh.nl/blog/&#34;&gt;&lt;strong&gt;Ninh Bui&lt;/strong&gt;&lt;/a&gt; e &lt;a href=&#34;http://izumi.plan99.net/blog/&#34;&gt;&lt;strong&gt;Hongli Lai&lt;/strong&gt;&lt;/a&gt; de &lt;a href=&#34;http://phusion.nl/&#34;&gt;Phusion&lt;/a&gt; (mod_rails).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.davidchelimsky.net/&#34;&gt;&lt;strong&gt;David Chelimsky&lt;/strong&gt;&lt;/a&gt; (&lt;a href=&#34;http://rspec.info/&#34;&gt;RSpec)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://errtheblog.com/&#34;&gt;&lt;strong&gt;Chris Wanstrath&lt;/strong&gt;&lt;/a&gt; (&lt;a href=&#34;http://github.com/&#34;&gt;Github&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://drnicwilliams.com/&#34;&gt;&lt;strong&gt;Dr. Nic Williams&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.jroller.com/obie/&#34;&gt;&lt;strong&gt;Obie Fernandez&lt;/strong&gt;&lt;/a&gt; (the rails way)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;y varios mas. Una gran noticia para la comunidad Rails hispana. Haber si puedo realizar el viaje :D&lt;/p&gt;</description>
     </item>
     
   </channel>

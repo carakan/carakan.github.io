@@ -18,8 +18,13 @@
       <pubDate>Thu, 21 Aug 2008 20:36:43 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/08/chat-ajax-no-obstrusivo-con-jquery/</guid>
-      <description>El desarrollo web actual esta evolucionando gracias a la tecnología que cambia dia a dia, perfeccionándose, pero esto puede ser inútil si no va ligada a una metodología o guias de estilo proporcionadas por personas con experiencia, recientemente apareció el termino de javascript no obtrusivo, que la propia wikipedia define como:
-Separación de la funcionalidad JavaScript (la &amp;ldquo;capa del comportamiento&amp;rdquo;) de las capas de estructura/contenido y de presentación de un página.</description>
+      <description>&lt;p&gt;El desarrollo web actual esta evolucionando gracias a la tecnología que cambia dia a dia, perfeccionándose, pero esto puede ser inútil si no va ligada a una metodología o guias de estilo proporcionadas por personas con experiencia, recientemente apareció el termino de &lt;a href=&#34;http://es.wikipedia.org/wiki/JavaScript_no_obstructivo&#34;&gt;javascript no obtrusivo&lt;/a&gt;, que la propia wikipedia define como:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Separación de la funcionalidad JavaScript (la &amp;ldquo;capa del comportamiento&amp;rdquo;) de las capas de estructura/contenido y de presentación de un página.&lt;/li&gt;
+&lt;li&gt;Uso de buenas prácticas a fin de evitar los problemas de incompatibilidad de la programación tradicional en JavaScript (tales como inconsistencias entre &lt;a href=&#34;http://es.wikipedia.org/wiki/Navegador_web&#34; title=&#34;Navegador web&#34;&gt;navegadores&lt;/a&gt; y falta de &lt;a href=&#34;http://es.wikipedia.org/wiki/Escalabilidad&#34; title=&#34;Escalabilidad&#34;&gt;escalabilidad&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;p&gt;Esto es que se crea dentro de cada pagina Html normal, tres capas distinguibles que son:&lt;/p&gt;</description>
     </item>
     
   </channel>

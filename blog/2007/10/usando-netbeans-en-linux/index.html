@@ -10,7 +10,7 @@
 <meta name="description" content="Estoy tratando de migrar mis desarrollos de ruby on rails a la plataforma Linux por que el guindows me hace renegar bastante, Leopart donde esta que no te veo?, un problema al principio fue el poder utilizar gettext 1.9 en mi proyecto, Video-Tutorial gracias al compañero Vincent Gozalves, a un principio funciono, un simple controlador y sus dos vistas, funciona!!!, me dije por mis dentros así que empecé a desarrollar todo el sitio, terminando ahora me faltaba solamente la traducción, así que hice mi “rake updatepo” y me mando este maldito mensaje:">
 <meta name="author" content="Carlos Ramos">
 <link rel="canonical" href="https://carakan.net/blog/2007/10/usando-netbeans-en-linux/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.5cfc680b1eeaeef9efbced92d46c2a9e876b72ee14fba85846afc4cff9e6e6f8.css" integrity="sha256-XPxoCx7q7vnvvO2S1Gwqnodrcu4U&#43;6hYRq/Ez/nm5vg=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f9f91002fe82ae229ce4b8ec18eafc3a9d22a76ba6da1975bd754e6e4f35999e.css" integrity="sha256-&#43;fkQAv6CriKc5LjsGOr8Op0ip2um2hl1vXVObk81mZ4=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://carakan.net/favicon.ico">
@@ -57,10 +57,7 @@
         }
 
     </style>
-</noscript>
-  
-
-<meta property="og:title" content="Usando NetBeans en Linux" />
+</noscript><meta property="og:title" content="Usando NetBeans en Linux" />
 <meta property="og:description" content="Estoy tratando de migrar mis desarrollos de ruby on rails a la plataforma Linux por que el guindows me hace renegar bastante, Leopart donde esta que no te veo?, un problema al principio fue el poder utilizar gettext 1.9 en mi proyecto, Video-Tutorial gracias al compañero Vincent Gozalves, a un principio funciono, un simple controlador y sus dos vistas, funciona!!!, me dije por mis dentros así que empecé a desarrollar todo el sitio, terminando ahora me faltaba solamente la traducción, así que hice mi “rake updatepo” y me mando este maldito mensaje:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://carakan.net/blog/2007/10/usando-netbeans-en-linux/" /><meta property="og:image" content="https://carakan.net/papermod-cover.png"/><meta property="article:section" content="blog" />
@@ -100,7 +97,7 @@
   "@type": "BlogPosting",
   "headline": "Usando NetBeans en Linux",
   "name": "Usando NetBeans en Linux",
-  "description": "Estoy tratando de migrar mis desarrollos de ruby on rails a la plataforma Linux por que el guindows me hace renegar bastante, Leopart donde esta que no te veo?, un problema al principio fue el poder utilizar gettext 1.9 en mi proyecto, Video-Tutorial gracias al compañero Vincent Gozalves, a un principio funciono, un simple controlador y sus dos vistas, funciona!!!, me dije por mis dentros así que empecé a desarrollar todo el sitio, terminando ahora me faltaba solamente la traducción, así que hice mi “rake updatepo” y me mando este maldito mensaje:",
+  "description": "Estoy tratando de migrar mis desarrollos de ruby on rails a la plataforma Linux por que el guindows me hace renegar bastante, Leopart donde esta que no te veo?, un problema al principio fue el poder utilizar gettext 1.9 en mi proyecto, Video-Tutorial gracias al compañero Vincent Gozalves, a un principio funciono, un simple controlador y sus dos vistas, funciona!!!, me dije por mis dentros así que empecé a desarrollar todo el sitio, terminando ahora me faltaba solamente la traducción, así que hice mi “rake updatepo” y me mando este maldito mensaje:\n",
   "keywords": [
     "netbeans", "ruby on rails", "tecnologia"
   ],
@@ -210,7 +207,7 @@
 <p>(See full trace by running task with &ndash;trace)</p>
 <p>Que maldito mensaje…</p>
 <p>Bueno pensé en su momento que solamente era un error en el <em>tipeo</em>, pero nada todos tenían sus benditos _(‘’), rebusque y nada.</p>
-<p>Asi que intente probar en mi recién instalado <a href="http://ubuntusoftware.info/Ubuntu_Ultimate_1.4/" title="El poder de Linux">Ubuntu ultímate 1.4</a> con Ruby on rails 1.2.3, me había costado instalar ruby, las gemas y rails, pero gracias a estos <a href="http://wiki.onrails.com.ar/wiki/show/Instalacion+de+Ruby+on+Rails+local">tutoriales</a> y aunque me costo, para colmo aca, Bolivia, es un tanto difícil de conseguir una decente conexión de internet, tuve que estar bajando manualmente las gemas, <em>source code</em>, y demás vainas, pero logre instalar todo.</p>
+<p>Asi que intente probar en mi recién instalado <a href="http://ubuntusoftware.info/Ubuntu_Ultimate_1.4/" title="El poder de Linux">Ubuntu ultímate 1.4</a> con Ruby on rails 1.2.3, me había costado instalar ruby, las gemas y rails, pero gracias a estos <a href="http://wiki.onrails.com.ar/wiki/show/Instalacion&#43;de&#43;Ruby&#43;on&#43;Rails&#43;local">tutoriales</a> y aunque me costo, para colmo aca, Bolivia, es un tanto difícil de conseguir una decente conexión de internet, tuve que estar bajando manualmente las gemas, <em>source code</em>, y demás vainas, pero logre instalar todo.</p>
 <p>Ahora le toca instalar la gema Gettext, que alivio no tiene dependencias, así que descargue la 1.9 la ultima version me trajo problemas, la 1.10, en mi VPS, así que ahorrarme problemas con el 1.9 esta bien y si funciona, no me muestra los errores del guindows que mostre mas arriba, veo con rabia contenida a mi partición C con su instalación guindows XP, ni pensar instalar Vista.</p>
 <p>Ahora bien para poder trabajar con soltura necesito mi poderoso IDE Aptana + RadRails, que es para mi un excelente IDE de trabajo, pero lastimosamente no puedo por que la versión descargable solamente contiene Aptana y no RadRails, busco por internet pero nada, ¿Qué hago?, el mero hecho de abrir Aptana y instalar RadRails no lo puedo necesitaría de instalar Linux y hacer correr Aptana, quise hacer una virtuolizacion de pclinux, todo iba bien cuando de repente no reconocía la red WTF?? Maldito Windows, y Virtual PC, así que resignado tuve que manejar dos sistemas operativos: hacia el desarrollo en Windows y luego para la traducción Ubuntu, hasta que…</p>
 <p>Veía uno de los <a href="http://www.cduv.org/">blogs</a> que realmente es bueno en cuestión de Rails, y en uno de sus post realizo un <a href="http://www.cduv.org/2007/09/25/netbeans-ide-60-beta-1-screencast/"><em>screencast</em></a> del manejo de NetBeans 6 beta 1, anteriormente probé la versión M10 y entre Aptana y NetBeans opte por mucho Aptana, pero ..hum.. Tiene la versión para que corra en Linux, y además lo han separado de toda la vaina de desarrollo de Java un instalador de solamente 20 Megas, esta es formidable!!! Lo <a href="http://dlc.sun.com/netbeans/download/6_0/beta1/">descargue</a> era un archivo .sh, de muy fácil instalación pero además debes de tener instalado el JDK 1.5+ asi que baje el bendito <a href="http://java.sun.com/javase/downloads/index.jsp">jdk1.6.0.2</a> de unos 50 megas, y este es el procedimiento de instalación:</p>
@@ -310,7 +307,7 @@
     </main>
     
 <footer class="footer">
-    <span>&copy; 2024 <a href="https://carakan.net/">carakan</a></span>
+    <span>&copy; 2025 <a href="https://carakan.net/">carakan</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

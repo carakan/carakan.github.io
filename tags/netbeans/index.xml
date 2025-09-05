@@ -18,7 +18,10 @@
       <pubDate>Mon, 14 Jan 2008 22:16:57 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/01/conectarse-de-rails-2.0.2-a-oracle-en-windows/</guid>
-      <description>Recientemente estoy trabajando en un proyecto de contabilidad dentro del cual utiliza como base de datos a oracle 10g, para desarrollar la interfaz web veníamos planeando la utilización de ASP.NET, del cual recientemente obtuve la quinta estrella, pero se requería en el tiempo más corto posible y que además sea adaptable a cambios futuros y que además corriese dentro del sistema operativo Windows, asi que plantee como opción la utilización de Ruby on Rails como la plataforma de desarrollo, del cual aceptaron y se está desarrollando en tiempo record!</description>
+      <description>&lt;p&gt;Recientemente estoy trabajando en un proyecto de contabilidad dentro del cual utiliza como base de datos a oracle 10g, para desarrollar la interfaz web veníamos planeando la utilización de ASP.NET, del cual recientemente obtuve la quinta estrella, pero se requería en el tiempo más corto posible y que además sea adaptable a cambios futuros y que además corriese dentro del sistema operativo Windows, asi que plantee como opción la utilización de Ruby on Rails como la plataforma de desarrollo, del cual aceptaron y se está desarrollando en tiempo record!!! Bueno en este tutorial explicare la instalación de Rails + adaptador de oracle para conectarse a oracle + un parche para que corra satisfactoriamente las migraciones. Comenzamos. Para el desarrollo con Rails dentro de Windows debemos de bajar el paquete InstantRails que contiene ya instalados Ruby 1.8.6 + Rails 2.0.2 Los bajamos y descomprimimos dentro de la unidad c: &lt;img loading=&#34;lazy&#34; src=&#34;http://carakan.com/wp-content/uploads/2008/01/instant-rails.JPG&#34; alt=&#34;instant-rails.JPG&#34;  /&gt;
+ nos adentramos dentro de la carpeta InstantRails y hacemos doble click en el ejecutable, listo eso es todo ya tenemos instalado Ruby on Rails. Ahora en la ventana que se abre una ventana pequeña en la cual pulsamos en la I y seleccionamos Rails Applications &amp;gt; Open Ruby console window: &lt;img loading=&#34;lazy&#34; src=&#34;http://carakan.com/wp-content/uploads/2008/01/ventana-instantrails.JPG&#34; alt=&#34;ventana-instantrails.JPG&#34;  /&gt;
+ Nos saldrá el intérprete de comandos cargando ruby. Ahora tenemos que bajar la librería ruby-OCI8 de &lt;a href=&#34;http://rubyforge.org/projects/ruby-oci8/&#34;&gt;http://rubyforge.org/projects/ruby-oci8/&lt;/a&gt; seleccionamos la versión para win-32 (ruby-oci8-1.0.0-mswin32.rb) la guardamos en C:\InstantRails\rails_apps ahora en la consola abierta tecleamos:&lt;code&gt;ruby ruby-oci8-1.0.0-mswin32.rb(enter)&lt;/code&gt;Nos preguntara si deseamos copier los siguientes archives y escribimos:```
+Yes(enter)&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -27,7 +30,7 @@
       <pubDate>Tue, 04 Dec 2007 23:13:35 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2007/12/salio-netbeans-6.0/</guid>
-      <description>Salio la release de NetBeans 6.0, con una total integración de Ruby on rails y subversion, por lo ultimo me estoy inclinando mas por NetBeans que por Aptana, aunque a veces también utilizo los dos :) Una de las caracteristicas mas buenas del entorno segun mi opinion es la integracion con subversion, muestra las modificaciones en el codigo contra la ultima revision sin tener que recurrir con diff, ayuda bastante cuando no sabes donde hicieron o hiciste cambios, ademas el instalador de NetBeans es solamente de 19 Megas, algo mas portable que Aptana, ambos NetBeans y Aptana son gratuitos.</description>
+      <description>&lt;p&gt;Salio la release de NetBeans 6.0, con una total integración de Ruby on rails y subversion, por lo ultimo me estoy inclinando mas por NetBeans que por &lt;a href=&#34;http://www.aptana.com&#34;&gt;Aptana&lt;/a&gt;, aunque a veces también utilizo los dos :) Una de las caracteristicas mas buenas del entorno segun mi opinion es la integracion con subversion, muestra las modificaciones en el codigo contra la ultima revision sin tener que recurrir con diff, ayuda bastante cuando no sabes donde hicieron o hiciste cambios, ademas el instalador de NetBeans es solamente de 19 Megas, algo mas portable que Aptana, ambos NetBeans y Aptana son gratuitos. Bueno mientras intento instalar Leopard en mi pc usare NetBeans. &lt;a href=&#34;http://sunmicro.vo.llnwd.net/c1/netbeans/6.0/final/&#34;&gt;Descargar Netbeans 6.0&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -36,7 +39,7 @@
       <pubDate>Tue, 23 Oct 2007 21:55:22 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2007/10/salio-netbeans-6.0-beta-2/</guid>
-      <description>Pues al estar tratando de bajar una copia del netbeans 6.0 beta1, ya que lo perdi por ahi, me percate que en el sitio ya esta disponible el beta 2 de este IDE, asi que lo estoy bajando aver que trae de nuevo esto. La verdad que no encontre informacion oficial de la salida de beta 2, asi que tengo la primicia :). Descargar. </description>
+      <description>&lt;p&gt;Pues al estar tratando de bajar una copia del netbeans 6.0 beta1, ya que lo perdi por ahi, me percate que en el sitio ya esta disponible el beta 2 de este IDE, asi que lo estoy bajando aver que trae de nuevo esto. La verdad que no encontre informacion oficial de la salida de beta 2, asi que tengo la primicia :). &lt;a href=&#34;http://download.netbeans.org/netbeans/6.0/beta2/&#34; title=&#34;Bajar NetBeans 6.0 beta 2&#34;&gt;Descargar. &lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -45,7 +48,7 @@
       <pubDate>Wed, 03 Oct 2007 14:39:18 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2007/10/usando-netbeans-en-linux/</guid>
-      <description>Estoy tratando de migrar mis desarrollos de ruby on rails a la plataforma Linux por que el guindows me hace renegar bastante, Leopart donde esta que no te veo?, un problema al principio fue el poder utilizar gettext 1.9 en mi proyecto, Video-Tutorial gracias al compañero Vincent Gozalves, a un principio funciono, un simple controlador y sus dos vistas, funciona!!!, me dije por mis dentros así que empecé a desarrollar todo el sitio, terminando ahora me faltaba solamente la traducción, así que hice mi “rake updatepo” y me mando este maldito mensaje:</description>
+      <description>&lt;p&gt;Estoy tratando de migrar mis desarrollos de ruby on rails a la plataforma Linux por que el guindows me hace renegar bastante, Leopart donde esta que no te veo?, un problema al principio fue el poder utilizar &lt;a href=&#34;http://rubyforge.org/frs/?group_id=855&#34;&gt;gettext 1.9&lt;/a&gt; en mi proyecto, Video-Tutorial gracias al compañero &lt;a href=&#34;http://www.vicentgozalbes.com/articles/category/tutoriales/&#34; title=&#34;Videotutoriales de Ruby on rails&#34;&gt;Vincent Gozalves&lt;/a&gt;, a un principio funciono, un simple controlador y sus dos vistas, funciona!!!, me dije por mis dentros así que empecé a desarrollar todo el sitio, terminando ahora me faltaba solamente la traducción, así que hice mi “rake updatepo” y me mando este maldito mensaje:&lt;/p&gt;</description>
     </item>
     
   </channel>

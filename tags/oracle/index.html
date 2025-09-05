@@ -10,7 +10,7 @@
 <meta name="description" content="Carlos Ramos, software developer">
 <meta name="author" content="Carlos Ramos">
 <link rel="canonical" href="https://carakan.net/tags/oracle/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.5cfc680b1eeaeef9efbced92d46c2a9e876b72ee14fba85846afc4cff9e6e6f8.css" integrity="sha256-XPxoCx7q7vnvvO2S1Gwqnodrcu4U&#43;6hYRq/Ez/nm5vg=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f9f91002fe82ae229ce4b8ec18eafc3a9d22a76ba6da1975bd754e6e4f35999e.css" integrity="sha256-&#43;fkQAv6CriKc5LjsGOr8Op0ip2um2hl1vXVObk81mZ4=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://carakan.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://carakan.net/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://carakan.net/favicon-32x32.png">
@@ -56,10 +56,7 @@
         }
 
     </style>
-</noscript>
-  
-
-<meta property="og:title" content="Oracle" />
+</noscript><meta property="og:title" content="Oracle" />
 <meta property="og:description" content="Carlos Ramos, software developer" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://carakan.net/tags/oracle/" /><meta property="og:image" content="https://carakan.net/papermod-cover.png"/>
@@ -147,7 +144,9 @@
   <div class="entry-content">
     <p>Buscando una manera mas sencilla de poder llamar a procedimientos almacenados de Oracle pl/sql, encontré la gema ruby-plsql que es una simple API para procedimientos almacenados en oracle, su uso es muy sencillo como el siguiente:
 Si tenemos el siguiente paquete:
-CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCHAR2, p_out OUT VARCHAR2) IS BEGIN p_out := &#39;Se introdujo: &#39; || p_in; END; END; Ahora dentro del código, como ejemplo dentro del controlador:...</p>
+CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCHAR2, p_out OUT VARCHAR2) IS BEGIN p_out := &#39;Se introdujo: &#39; || p_in; END; END; Ahora dentro del código, como ejemplo dentro del controlador:
+require “ruby_plsql” class UsuariosController &lt; ApplicationController def index @usuarios = Usuario.all plsql.connection = OCI8.new(”SCOTT”, “PASS”) @hola = plsql.pck_prueba.LeeDatos(”Hola desde Oracle”) plsql.logoff end end Y para mostrar el dato, en la vista:
+...</p>
   </div>
   <footer class="entry-footer"><span title='2008-06-11 15:58:41 +0000 +0000'>June 11, 2008</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Llamar a procedimientos PL/SQL de Oracle con ruby-plsql" href="https://carakan.net/blog/2008/06/llamar-a-procedimientos-pl/sql-de-oracle-con-ruby-plsql/"></a>
@@ -159,7 +158,8 @@ CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCH
     </h2>
   </header>
   <div class="entry-content">
-    <p>Dentro del trabajo con Oracle y Rails, existen dos gemas que nos permiten conectar y manipular los datos estas son las gemas OCI-8 y active-record-oracle-adapter, pero existen algunos fallos dentro del Active-Record-Oracle-Adapter, uno lo indique en un post anterior, es por eso que en rayapps se escribe sobre como mejorar algunas cosas a este adaptador, es por eso que el autor de esos post publica ahora una gema que tiene incluido los patch y algunas mejoras esto es la gema activerecord-oracle_enhanced-adapter...</p>
+    <p>Dentro del trabajo con Oracle y Rails, existen dos gemas que nos permiten conectar y manipular los datos estas son las gemas OCI-8 y active-record-oracle-adapter, pero existen algunos fallos dentro del Active-Record-Oracle-Adapter, uno lo indique en un post anterior, es por eso que en rayapps se escribe sobre como mejorar algunas cosas a este adaptador, es por eso que el autor de esos post publica ahora una gema que tiene incluido los patch y algunas mejoras esto es la gema activerecord-oracle_enhanced-adapter
+...</p>
   </div>
   <footer class="entry-footer"><span title='2008-06-07 22:31:58 +0000 +0000'>June 7, 2008</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Mejorar la conexión a Oracle con Rails 2.1" href="https://carakan.net/blog/2008/06/mejorar-la-conexi%C3%B3n-a-oracle-con-rails-2.1/"></a>
@@ -171,7 +171,8 @@ CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCH
     </h2>
   </header>
   <div class="entry-content">
-    <p>Recientemente estoy trabajando en un proyecto de contabilidad dentro del cual utiliza como base de datos a oracle 10g, para desarrollar la interfaz web veníamos planeando la utilización de ASP.NET, del cual recientemente obtuve la quinta estrella, pero se requería en el tiempo más corto posible y que además sea adaptable a cambios futuros y que además corriese dentro del sistema operativo Windows, asi que plantee como opción la utilización de Ruby on Rails como la plataforma de desarrollo, del cual aceptaron y se está desarrollando en tiempo record!...</p>
+    <p>Recientemente estoy trabajando en un proyecto de contabilidad dentro del cual utiliza como base de datos a oracle 10g, para desarrollar la interfaz web veníamos planeando la utilización de ASP.NET, del cual recientemente obtuve la quinta estrella, pero se requería en el tiempo más corto posible y que además sea adaptable a cambios futuros y que además corriese dentro del sistema operativo Windows, asi que plantee como opción la utilización de Ruby on Rails como la plataforma de desarrollo, del cual aceptaron y se está desarrollando en tiempo record!!! Bueno en este tutorial explicare la instalación de Rails &#43; adaptador de oracle para conectarse a oracle &#43; un parche para que corra satisfactoriamente las migraciones. Comenzamos. Para el desarrollo con Rails dentro de Windows debemos de bajar el paquete InstantRails que contiene ya instalados Ruby 1.8.6 &#43; Rails 2.0.2 Los bajamos y descomprimimos dentro de la unidad c: nos adentramos dentro de la carpeta InstantRails y hacemos doble click en el ejecutable, listo eso es todo ya tenemos instalado Ruby on Rails. Ahora en la ventana que se abre una ventana pequeña en la cual pulsamos en la I y seleccionamos Rails Applications &gt; Open Ruby console window: Nos saldrá el intérprete de comandos cargando ruby. Ahora tenemos que bajar la librería ruby-OCI8 de http://rubyforge.org/projects/ruby-oci8/ seleccionamos la versión para win-32 (ruby-oci8-1.0.0-mswin32.rb) la guardamos en C:\InstantRails\rails_apps ahora en la consola abierta tecleamos:ruby ruby-oci8-1.0.0-mswin32.rb(enter)Nos preguntara si deseamos copier los siguientes archives y escribimos:``` Yes(enter)
+...</p>
   </div>
   <footer class="entry-footer"><span title='2008-01-14 22:16:57 +0000 +0000'>January 14, 2008</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Conectarse de rails 2.0.2 a oracle en windows" href="https://carakan.net/blog/2008/01/conectarse-de-rails-2.0.2-a-oracle-en-windows/"></a>
@@ -179,7 +180,7 @@ CREATE OR REPLACE PACKAGE BODY scott.pck_prueba IS PROCEDURE LeeDatos(p_in VARCH
     </main>
     
 <footer class="footer">
-    <span>&copy; 2024 <a href="https://carakan.net/">carakan</a></span>
+    <span>&copy; 2025 <a href="https://carakan.net/">carakan</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

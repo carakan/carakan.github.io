@@ -18,7 +18,7 @@
       <pubDate>Thu, 07 Aug 2008 14:59:08 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/08/nueva-version-del-interprete-ruby-para-entornos-windows/</guid>
-      <description>Gracias a Favio Akita me entere de una nueva version del interprete de Ruby para los entornos windows, tengo algunos proyectos corriendo sobre esta plataforma, esta nueva version esta siendo desarrollado por Luis Lavena, el cual es 20% mas veloz, he realizado las pruebas y vi que tiene algunos defectos menores pero logre instalar rails 2.1.0 y las gemas mas importantes para la puesta en producción y comparto para que vean lo bien que se pinta esta nueva versión.</description>
+      <description>&lt;p&gt;Gracias a Favio Akita me entere de una &lt;a href=&#34;http://www.akitaonrails.com/2008/7/26/still-playing-with-ruby-on-windows&#34;&gt;nueva version del interprete de Ruby&lt;/a&gt; para los entornos windows, tengo algunos proyectos corriendo sobre esta plataforma, esta nueva version esta siendo desarrollado por Luis Lavena, el cual es 20% mas veloz, he realizado las pruebas y vi que tiene algunos defectos menores pero logre instalar rails 2.1.0 y las gemas mas importantes para la puesta en producción y comparto para que vean lo bien que se pinta esta nueva versión. &lt;a href=&#34;http://www.carakan.info/ruby/Ruby18.rar&#34; title=&#34;Ruby&#34;&gt;Descargar.&lt;/a&gt; &lt;strong&gt;Nota&lt;/strong&gt;: He parchado la gema mongrel, ya que hace una referencia al antiguo runtime [MSWin] y no al actual [MinGW], Ademas el paquete es de proposito evaluativo. &lt;strong&gt;Nota 2:&lt;/strong&gt; Las gemas instaladas son:&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -18,10 +18,13 @@
       <pubDate>Fri, 01 Dec 2023 21:21:54 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2023/12/start-new-rails-project-with-bun/</guid>
-      <description>Starting from rails 7.1 is possible to create a new rails app using bun+tailwind, to start using them only needs to run:
-rails new new_awesome_project -a propshaft -j bun --css tailwind --database=postgresql This won&amp;rsquo;t use the tailwind gem, it&amp;rsquo;s using npm&amp;rsquo;s packages managed with bun.
-to see on browser start dev server:
-bin/dev </description>
+      <description>&lt;p&gt;Starting from rails 7.1 is possible to create a new rails app using bun+tailwind,
+to start using them only needs to run:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rails new new_awesome_project -a propshaft -j bun --css tailwind --database&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;postgresql
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This won&amp;rsquo;t use the tailwind gem, it&amp;rsquo;s using npm&amp;rsquo;s packages managed with bun.&lt;/p&gt;
+&lt;p&gt;to see on browser start dev server:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bin/dev
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -30,11 +33,26 @@ bin/dev </description>
       <pubDate>Tue, 10 Dec 2019 12:22:05 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2019/12/how-to-do-email-only-sign-up-using-default-active-admin-setup/</guid>
-      <description>Context The idea is to develop the same requirement as devise describe in their guide:
-The project is using the admin_user approach and sets the default setup included on activeadmin.
-(NOTE) One other recommended solution is to migrate the admin_user model to user and configure devise normally as a separate engine.
-Guide If you haven&amp;rsquo;t already, enable the confirmable module
-If you haven&amp;rsquo;t already, follow the Devise instructions for configuring views, install in app/views/active_admin/devise</description>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The idea is to develop the same requirement as devise describe in &lt;a href=&#34;https://github.com/plataformatec/devise/wiki/How-To:-Email-only-sign-up&#34;&gt;their guide&lt;/a&gt;:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The project is using the &lt;code&gt;admin_user&lt;/code&gt; approach and sets the default setup included on activeadmin.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;(NOTE)&lt;/strong&gt; One other recommended solution is to migrate the &lt;code&gt;admin_user&lt;/code&gt; model to &lt;code&gt;user&lt;/code&gt; and configure devise
+normally as a separate engine.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;guide&#34;&gt;Guide&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;If you haven&amp;rsquo;t already, enable the &lt;a href=&#34;https://github.com/plataformatec/devise/#configuring-models&#34;&gt;confirmable module&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If you haven&amp;rsquo;t already, follow the Devise instructions for &lt;a href=&#34;https://github.com/plataformatec/devise#configuring-views&#34;&gt;configuring views&lt;/a&gt;, install in &lt;code&gt;app/views/active_admin/devise&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -43,8 +61,37 @@ If you haven&amp;rsquo;t already, follow the Devise instructions for configuring
       <pubDate>Wed, 11 Sep 2019 18:22:45 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2019/09/create-a-form-with-two-actions-on-activeadmin/</guid>
-      <description>In a project that already using Activeadmin I had the requeriment of modify the actual form to create a student, but without validating that, so the solution was create into the model of active admin form and declare the form with two actions, one with the clasical behaviour and other when passed the params[:managed] with a custom route
-ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :student, as: :select, collection: User.</description>
+      <description>&lt;p&gt;In a project that already using Activeadmin I had the requeriment of modify the actual
+form to create a student, but without validating that, so the solution was create into
+the model of active admin &lt;code&gt;form&lt;/code&gt; and declare the form with two actions, one with
+the clasical behaviour and other when passed the &lt;code&gt;params[:managed]&lt;/code&gt; with a custom route&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;ActiveAdmin&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;register &lt;span style=&#34;color:#66d9ef&#34;&gt;InvestmentItem&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# ..&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  form &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;f&lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    f&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;inputs &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      f&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;input &lt;span style=&#34;color:#e6db74&#34;&gt;:student&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;as&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;:select&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;collection&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;User&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;students
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      f&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;input &lt;span style=&#34;color:#e6db74&#34;&gt;:amount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;unless&lt;/span&gt; params&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;:managed&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        f&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;input &lt;span style=&#34;color:#e6db74&#34;&gt;:course&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;as&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;:select&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;collection&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Course&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;all
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        f&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;input &lt;span style=&#34;color:#e6db74&#34;&gt;:created_at&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; params&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;:managed&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      f&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;action &lt;span style=&#34;color:#e6db74&#34;&gt;:submit&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;as&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;:input&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;button_html&lt;/span&gt;: { &lt;span style=&#34;color:#e6db74&#34;&gt;formaction&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;:managed_create&lt;/span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      f&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;actions &lt;span style=&#34;color:#75715e&#34;&gt;# this go to create/update&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# ...&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  controller &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;managed_create&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#75715e&#34;&gt;# do whatewer you want&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then &lt;code&gt;button_html: { formaction: :managed_create }&lt;/code&gt; options in a &lt;code&gt;:submit&lt;/code&gt;, does the trick.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -53,9 +100,10 @@ ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :stu
       <pubDate>Fri, 13 Mar 2015 01:11:09 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2015/03/great-plugin-for-share-session-in-rails-apps-between-wordpress-blog/</guid>
-      <description>In one project, the client wants to share same user credentials between rails app to wordpress site, I&amp;rsquo;ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:
-rails login this plugin only need a small API for enable login i created this code in model user:
-def wp_json { user: { email: self.</description>
+      <description>&lt;p&gt;In one project, the client wants to share same user credentials between rails app to wordpress site, I&amp;rsquo;ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wordpress.org/plugins/rails-login/&#34; title=&#34;wordpress plugin for share session with rails app&#34;&gt;rails login
+&lt;/a&gt;
+this plugin only need a small API for enable login i created this code in model user:&lt;/p&gt;</description>
     </item>
     
   </channel>

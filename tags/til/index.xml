@@ -18,10 +18,13 @@
       <pubDate>Fri, 01 Dec 2023 21:21:54 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2023/12/start-new-rails-project-with-bun/</guid>
-      <description>Starting from rails 7.1 is possible to create a new rails app using bun+tailwind, to start using them only needs to run:
-rails new new_awesome_project -a propshaft -j bun --css tailwind --database=postgresql This won&amp;rsquo;t use the tailwind gem, it&amp;rsquo;s using npm&amp;rsquo;s packages managed with bun.
-to see on browser start dev server:
-bin/dev </description>
+      <description>&lt;p&gt;Starting from rails 7.1 is possible to create a new rails app using bun+tailwind,
+to start using them only needs to run:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rails new new_awesome_project -a propshaft -j bun --css tailwind --database&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;postgresql
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This won&amp;rsquo;t use the tailwind gem, it&amp;rsquo;s using npm&amp;rsquo;s packages managed with bun.&lt;/p&gt;
+&lt;p&gt;to see on browser start dev server:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bin/dev
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -30,8 +33,26 @@ bin/dev </description>
       <pubDate>Fri, 13 Oct 2023 10:29:20 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2023/10/how-to-install-livebook-with-asdf/</guid>
-      <description>I&amp;rsquo;m reading this book Machine learning in Elixir so I tested elixir livebook on my macos using the .dmg installer , and it’s running smoothly. I decided to install it locally on my computer to know what is happening behind the scenes, so it’s straightforward; only need to run these commands:
-# install or update rebar and hex mix do local.rebar --force, local.hex --force # install as executable livebook mix escript.</description>
+      <description>&lt;p&gt;I&amp;rsquo;m reading this book &lt;a href=&#34;https://pragprog.com/titles/smelixir/machine-learning-in-elixir/&#34;&gt;Machine learning in Elixir&lt;/a&gt;
+so I tested elixir livebook on my macos using the &lt;a href=&#34;https://livebook.dev/releases/latest/LivebookInstall-latest-macos-universal.dmg&#34;&gt;.dmg installer&lt;/a&gt;
+, and it’s running smoothly. I decided to install it locally on my computer to
+know what is happening behind the scenes, so it’s straightforward; only need to
+run these commands:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# install or update rebar and hex&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mix &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; local.rebar --force, local.hex --force
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# install as executable livebook&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mix escript.install hex livebook
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# reshim asdf elixir&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;asdf reshim elixir
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Start the Livebook server anywhere&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;livebook server
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# See all the configuration options&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;livebook server --help
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;All of these install instructions are already explained in the &lt;a href=&#34;https://github.com/livebook-dev/livebook#escript&#34;&gt;README of livebook&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -40,10 +61,16 @@ bin/dev </description>
       <pubDate>Wed, 11 Aug 2021 22:28:29 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2021/08/ruby-safe-operator-tip/</guid>
-      <description>In my current work, I&amp;rsquo;m using (abusing) of the ruby safe operator &amp;amp;, which is a native implementation of the null pattern, for example, in a chain of messages:
-user.billings.first.cost It could be thrown an error when for example the billings of a user is empty and first returns a nil object and then nil.cost creates an Exception.
-With the safe operator &amp;amp; this avoids the error:
-user.billings.first&amp;amp;.cost # =&amp;gt; 5.</description>
+      <description>&lt;p&gt;In my current work, I&amp;rsquo;m using (abusing) of the ruby safe operator &lt;code&gt;&amp;amp;&lt;/code&gt;, which is a
+native implementation of &lt;a href=&#34;https://medium.com/@kelseydh/using-the-null-object-pattern-with-ruby-on-rails-b645ebf79785&#34;&gt;the null pattern&lt;/a&gt;,
+for example, in a chain of messages:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;user&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;billings&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;first&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cost
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It could be thrown an error when for example the &lt;code&gt;billings&lt;/code&gt; of a user is empty and
+&lt;code&gt;first&lt;/code&gt; returns a nil object and then &lt;code&gt;nil.cost&lt;/code&gt; creates an Exception.&lt;/p&gt;
+&lt;p&gt;With the safe operator &lt;code&gt;&amp;amp;&lt;/code&gt; this avoids the error:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;user&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;billings&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;first&lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;.&lt;/span&gt;cost &lt;span style=&#34;color:#75715e&#34;&gt;# =&amp;gt; 5.3838&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;So, in the last part of the code using the &lt;code&gt;&amp;amp;&lt;/code&gt; is not causing an error because the
+safe operator logic is:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -52,8 +79,13 @@ user.billings.first&amp;amp;.cost # =&amp;gt; 5.</description>
       <pubDate>Fri, 25 Jun 2021 11:15:20 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2021/06/dropbox-ignore-files-directories/</guid>
-      <description>Ignoring files or directories in dropbox is a hard thing, I thought it has like git, a .gitignore to config that, but no, we need to do a command for each file/dir, for example to ignore the files that creates a lightroom catalog (.lrcat) we need to do:
-xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previews.lrdata xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previews.lrdata xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Helper.lrdata and to not longer ignore files we need this command:</description>
+      <description>&lt;p&gt;Ignoring files or directories in dropbox is a hard thing, I thought it has like git,
+a &lt;code&gt;.gitignore&lt;/code&gt; to config that, but no, we need to do a command for each file/dir, for example to ignore
+the files that creates a lightroom catalog (.lrcat) we need to do:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xattr -w com.dropbox.ignored &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; /Users/username/Dropbox/lightroom/2021-v10&lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt;Previews.lrdata
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xattr -w com.dropbox.ignored &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; /Users/username/Dropbox/lightroom/2021-v10&lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt;Previews.lrdata
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xattr -w com.dropbox.ignored &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; /Users/username/Dropbox/lightroom/2021-v10&lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt;Helper.lrdata
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;and to not longer ignore files we need this command:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -62,10 +94,14 @@ xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previ
       <pubDate>Tue, 23 Feb 2021 17:01:57 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2021/02/make-backup/restore-postgres-database-with-no-owner/</guid>
-      <description>to do backup:
-pg_dump dbname -O -x &amp;gt; backupname.sql To restore:
-psql dbname &amp;lt; backupname.sql Options documentation:
--O &amp;lt;-- No owner -x &amp;lt;-- No privileges </description>
+      <description>&lt;p&gt;to do backup:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pg_dump dbname -O -x &amp;gt; backupname.sql
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To restore:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;psql dbname &amp;lt; backupname.sql
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Options documentation:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-O &amp;lt;-- No owner
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-x &amp;lt;-- No privileges
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -74,8 +110,12 @@ psql dbname &amp;lt; backupname.sql Options documentation:
       <pubDate>Tue, 02 Feb 2021 22:12:37 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2021/02/postgres-create-db-user-and-bring-access/</guid>
-      <description>Short version:
-sudo -u postgres psql create database mydb; create user myuser with encrypted password &amp;#39;password&amp;#39;; grant all privileges on database mydb to myuser; </description>
+      <description>&lt;p&gt;Short version:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo -u postgres psql
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-SQL&#34; data-lang=&#34;SQL&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;create&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;database&lt;/span&gt; mydb;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;create&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;user&lt;/span&gt; myuser &lt;span style=&#34;color:#66d9ef&#34;&gt;with&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;encrypted&lt;/span&gt; password &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;password&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;grant&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;all&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;privileges&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;on&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;database&lt;/span&gt; mydb &lt;span style=&#34;color:#66d9ef&#34;&gt;to&lt;/span&gt; myuser;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -84,8 +124,9 @@ sudo -u postgres psql create database mydb; create user myuser with encrypted pa
       <pubDate>Wed, 25 Nov 2020 12:24:29 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2020/11/install-ancient-gems-ffi/</guid>
-      <description>To install a ancient ffi (&amp;lt;= 1.9.18) in Catalina MacOS or newer OS we need to use this command:
-gem install ffi -v &amp;#39;1.9.18&amp;#39; -- --with-cflags=&amp;#34;-Wno-error=implicit-function-declaration&amp;#34; </description>
+      <description>&lt;p&gt;To install a ancient ffi (&amp;lt;= 1.9.18) in Catalina MacOS or newer OS we need to use this command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;gem install ffi -v &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;1.9.18&amp;#39;&lt;/span&gt; -- --with-cflags&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;-Wno-error=implicit-function-declaration&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -94,10 +135,14 @@ gem install ffi -v &amp;#39;1.9.18&amp;#39; -- --with-cflags=&amp;#34;-Wno-error
       <pubDate>Tue, 25 Aug 2020 09:39:14 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2020/08/configure-vim-test-to-work-with-docker/</guid>
-      <description>Recently I started to work with Docker in a project, and I ever use vim-test to run test using vim, now to integrate in current docker workflow we need to configure vim-test.
-For example to configure to run rspec test inside app:
-let test#ruby#rspec#executable = &amp;#39;docker-compose exec -e RAILS_ENV=test app rspec&amp;#39; to run inside to already running app docker container.
-It is very important to add -e RAILS_ENV=test to send envinroment variables and set test env inside the rails app.</description>
+      <description>&lt;p&gt;Recently I started to work with Docker in a project, and I ever use
+&lt;a href=&#34;https://github.com/vim-test/vim-test&#34;&gt;vim-test&lt;/a&gt; to run test using vim, now to
+integrate in current docker workflow we need to configure vim-test.&lt;/p&gt;
+&lt;p&gt;For example to configure to run rspec test inside &lt;code&gt;app&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-vim&#34; data-lang=&#34;vim&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;test&lt;/span&gt;#&lt;span style=&#34;color:#a6e22e&#34;&gt;ruby&lt;/span&gt;#&lt;span style=&#34;color:#a6e22e&#34;&gt;rspec&lt;/span&gt;#&lt;span style=&#34;color:#a6e22e&#34;&gt;executable&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;docker-compose exec -e RAILS_ENV=test app rspec&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;to run inside to already running &lt;code&gt;app&lt;/code&gt; docker container.&lt;/p&gt;
+&lt;p&gt;It is very important to add &lt;code&gt;-e RAILS_ENV=test&lt;/code&gt; to send envinroment variables
+and set test env inside the rails app.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -106,9 +151,11 @@ It is very important to add -e RAILS_ENV=test to send envinroment variables and 
       <pubDate>Wed, 19 Aug 2020 20:41:10 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2020/08/how-to-install-mariadb-mysql2-driver-ruby/</guid>
-      <description>In a project I had troubles triying to install mysql2 gem with a older version of mariadb installed via homebrew.
-the solution is to send the path of the installation.
-gem install mysql2 -- --with-mysql-config=$(brew --prefix mariadb@10.2)/bin/mysql_config </description>
+      <description>&lt;p&gt;In a project I had troubles triying to install mysql2 gem with a older version
+of mariadb installed via homebrew.&lt;/p&gt;
+&lt;p&gt;the solution is to send the path of the installation.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;gem install mysql2 &lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;with&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;mysql&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;config&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;$&lt;/span&gt;(brew &lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;prefix mariadb&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;@&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;bin&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;mysql_config 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -117,9 +164,15 @@ gem install mysql2 -- --with-mysql-config=$(brew --prefix mariadb@10.2)/bin/mysq
       <pubDate>Mon, 27 Apr 2020 15:17:47 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2020/04/configuring-python3-on-neovim/</guid>
-      <description>The idea of this post is to configure correctly the support of python3 on neovim, let&amp;rsquo;s start.
-first this configuration is using macOS, by default python3 is installed on macOS and the default route of the executables are:
-which python3 # =&amp;gt; /usr/bin/python3 which pip3 # =&amp;gt; /usr/bin/pip3 And that&amp;rsquo;s it! but normally if you are using homebrew you also installed the python3 using a formula, personally I do not to recomend that but it will work.</description>
+      <description>&lt;p&gt;The idea of this post is to configure correctly the support of python3 on neovim,
+let&amp;rsquo;s start.&lt;/p&gt;
+&lt;p&gt;first this configuration is using macOS, by default python3 is installed on macOS
+and the default route of the executables are:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;which python3 &lt;span style=&#34;color:#75715e&#34;&gt;# =&amp;gt; /usr/bin/python3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;which pip3    &lt;span style=&#34;color:#75715e&#34;&gt;# =&amp;gt; /usr/bin/pip3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And that&amp;rsquo;s it! but normally if you are using homebrew you also installed the python3
+using a formula, personally I do not to recomend that but it will work. you need
+to know where is installed that two executables.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -128,9 +181,27 @@ which python3 # =&amp;gt; /usr/bin/python3 which pip3 # =&amp;gt; /usr/bin/pip3 
       <pubDate>Fri, 24 Jan 2020 15:46:05 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2020/01/how-to-install-older-versions-of-ruby/</guid>
-      <description>The problem is with RVM and renv and not with asdf, so my first suggestion is to change to asdf
-if you keep with RVM: install older versions of ruby &amp;lt;2.3 with support for openssl 1.0x you can follow these instructions:
-# before you install command line tools and gcc xcode-select --install brew install gcc # installation procedure cd /usr/local/src curl -O https://www.openssl.org/source/openssl-1.0.2t.tar.gz tar xzf openssl-1.0.2t.tar.gz cd openssl-1.0.2t ./Configure darwin64-x86_64-cc make sudo make install export LDFLAGS=“-L/usr/local/ssl/lib” export CPPFLAGS=“-I/usr/local/ssl/include” export PKG_CONFIG_PATH=“/usr/local/ssl/lib/pkgconfig” rvm reinstall 2.</description>
+      <description>&lt;p&gt;The problem is with RVM and renv and not with asdf, so my first suggestion is to change to
+&lt;a href=&#34;https://github.com/asdf-vm/asdf&#34;&gt;asdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;if you keep with RVM: install older versions of ruby &lt;code&gt;&amp;lt;2.3&lt;/code&gt; with support for openssl 1.0x you can follow
+these instructions:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# before you install command line tools and gcc&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xcode-select --install
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install gcc
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# installation procedure&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd /usr/local/src
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -O https://www.openssl.org/source/openssl-1.0.2t.tar.gz
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tar xzf openssl-1.0.2t.tar.gz
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd openssl-1.0.2t
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;./Configure darwin64-x86_64-cc
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;make
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo make install
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export LDFLAGS&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;“-L/usr/local/ssl/lib”
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export CPPFLAGS&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;“-I/usr/local/ssl/include”
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export PKG_CONFIG_PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;“/usr/local/ssl/lib/pkgconfig”
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rvm reinstall 2.3.8 --with-openssl-dir&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;/usr/local/ssl --with-openssl-include&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;/usr/local/ssl/include
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -139,10 +210,15 @@ if you keep with RVM: install older versions of ruby &amp;lt;2.3 with support fo
       <pubDate>Mon, 21 Oct 2019 11:51:11 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2019/10/how-to-sync-vscode-plugins-over-your-dotfiles/</guid>
-      <description>I was looking a simple way to get sync all of my current setup of vscode, I did&amp;rsquo;t found a proper way to do with another plugin, but I found a commands to do this sync.
-first to have a list of plugins installed and save to a file:
-code --list-extensions &amp;gt; vscode-extensions.list to restore, read that file and install all plugins:
-cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat vscode-extensions.</description>
+      <description>&lt;p&gt;I was looking a simple way to get sync all of my current setup of vscode, I did&amp;rsquo;t found a
+proper way to do with another plugin, but I found a commands to do this sync.&lt;/p&gt;
+&lt;p&gt;first to have a list of plugins installed and save to a file:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;code --list-extensions &amp;gt; vscode-extensions.list
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;to restore, read that file and install all plugins:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cat vscode-extensions.list | xargs -L &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; code --install-extension 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# using bat&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bat vscode-extensions.list --plain | xargs -L &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; code --install-extension
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;you can easily put this list in your dotfiles &lt;a href=&#34;https://github.com/carakan/dotfiles/blob/master/vscode-extensions.list&#34;&gt;example&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -151,8 +227,16 @@ cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat
       <pubDate>Mon, 14 Oct 2019 11:09:24 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2019/10/add-array-of-types-in-a-column-using-postgres-and-rails/</guid>
-      <description>Recently I found a nice feature when defining a column on migrations, is to use array option in the creation of a column:
-class MyMigration &amp;lt; ActiveRecord::Migration[5.2] def change # Defines a column that stores an array of a type. add_column :transactions, :categories, :string, array: true, default: [] end end With this on categories you can storage an array of values, it&amp;rsquo;s useful instead of use jsonb because as json you may also need to create the key to store values (hash).</description>
+      <description>&lt;p&gt;Recently I found a nice feature when defining a column on migrations, is to use &lt;code&gt;array&lt;/code&gt;
+option in the creation of a column:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;MyMigration&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;ActiveRecord&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;Migration&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;change&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# Defines a column that stores an array of a type.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    add_column &lt;span style=&#34;color:#e6db74&#34;&gt;:transactions&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;:categories&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;:string&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;array&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;default&lt;/span&gt;: &lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;With this on &lt;code&gt;categories&lt;/code&gt; you can storage an array of values, it&amp;rsquo;s useful instead of use
+&lt;code&gt;jsonb&lt;/code&gt; because as json you may also need to create the key to store values (hash).&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -161,8 +245,8 @@ class MyMigration &amp;lt; ActiveRecord::Migration[5.2] def change # Defines a c
       <pubDate>Tue, 24 Sep 2019 12:14:44 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2019/09/install-yarn-if-you-are-using-nodejs-with-asdf/</guid>
-      <description>I’m using ASDF to install any language that I needed, so problems become when I have to install yarn a js package manager but to do that has a lot of ways of install yarn and problems increasing with nodejs installed using ASDF more problems become using the brew recipe and it doesn’t work with ASDF.
-I found a practical solution: is to install a separate yarn recipe into ASDF.</description>
+      <description>&lt;p&gt;I’m using ASDF to install any language that I needed, so problems become when I have to install yarn a js package manager but to do that has a lot of ways of install yarn and problems increasing with nodejs installed using ASDF more problems become using the brew recipe and it doesn’t work with ASDF.&lt;/p&gt;
+&lt;p&gt;I found a practical solution: is to install a separate &lt;code&gt;yarn&lt;/code&gt; recipe into ASDF.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -171,8 +255,14 @@ I found a practical solution: is to install a separate yarn recipe into ASDF.</d
       <pubDate>Sun, 22 Sep 2019 22:30:04 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2019/09/configure-and-install-last-elixir-ls-in-neovim/</guid>
-      <description>The last version of ElixirLS have a lot of improvements, for example a new robust code suggestion provided by elixir-sense, intellisense with code documentation and other larger changes, but now i didn&amp;rsquo;t see an actual release to use it, so in this post we will clone the last repo, compile and will install in our local dev to take advantage of these new features.
-First clone and generate the executables of elixirLS:</description>
+      <description>&lt;p&gt;The last version of ElixirLS have a lot of improvements, for example a new robust code
+suggestion provided by &lt;a href=&#34;https://github.com/elixir-lsp/elixir_sense&#34;&gt;&lt;code&gt;elixir-sense&lt;/code&gt;&lt;/a&gt;,
+intellisense with code documentation and
+other larger changes, but now i didn&amp;rsquo;t see an actual release to use it, so in this
+post we will clone the last repo, compile and will install in our local dev to
+take advantage of these new features.&lt;/p&gt;
+&lt;p&gt;First clone and generate the executables of
+&lt;a href=&#34;https://github.com/elixir-lsp/elixir-ls&#34;&gt;&lt;code&gt;elixirLS&lt;/code&gt;&lt;/a&gt;:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -181,11 +271,19 @@ First clone and generate the executables of elixirLS:</description>
       <pubDate>Tue, 17 Sep 2019 10:44:57 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2019/09/upgrade-to-latest-version-on-asdf/</guid>
-      <description>ASDF is an incredible version manager, to install/upgrade to latest version available of an language you can do the following steps:
-asdf list-all &amp;lt;language&amp;gt; this show all of the versions available to install, select the latest:
-asdf install &amp;lt;language&amp;gt; x.y.z and edit if you have a global ~/.tool-versions to use that version everywhere:
-&amp;lt;languaje&amp;gt; x.y.z real example to upgrade to latest version of erlang (10/17/2019):
-asdf list-all erlang asdf install erlang 22.</description>
+      <description>&lt;p&gt;ASDF is an incredible version manager, to install/upgrade to latest version available
+of an language you can do the following steps:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;asdf list-all &amp;lt;language&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;this show all of the versions available to install, select the latest:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;asdf install &amp;lt;language&amp;gt; x.y.z
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;and edit if you have a global &lt;code&gt;~/.tool-versions&lt;/code&gt; to use that version everywhere:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;languaje&amp;gt; x.y.z
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;real-example&#34;&gt;real example&lt;/h2&gt;
+&lt;p&gt;to upgrade to latest version of erlang &lt;strong&gt;(10/17/2019)&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;asdf list-all erlang
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;asdf install erlang 22.1
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;asdf global erlang 22.1
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -194,9 +292,23 @@ asdf list-all erlang asdf install erlang 22.</description>
       <pubDate>Mon, 16 Sep 2019 10:16:01 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2019/09/enable-prettier-in-ember-templates/</guid>
-      <description>Prettier is an opinionated code formatter, has built-in a lot of code formatters for languages, one of that is for handlebars (glimmer/mustache) but is hidden by default, to enable we only need to do this:
-create a .prettierrc in your home (~) with :
-{ &amp;#34;overrides&amp;#34;: [ { &amp;#34;files&amp;#34;: &amp;#34;*.hbs&amp;#34;, &amp;#34;options&amp;#34;: { &amp;#34;parser&amp;#34;: &amp;#34;glimmer&amp;#34; // ... other custom configurations } } ] } and now you can use in your favorite editor or simple use directly with the CLI, for example:</description>
+      <description>&lt;p&gt;Prettier is an opinionated code formatter, has built-in a lot of code formatters for languages,
+one of that is for handlebars (glimmer/mustache) but is hidden by default, to enable we only
+need to do this:&lt;/p&gt;
+&lt;p&gt;create a &lt;code&gt;.prettierrc&lt;/code&gt; in your home (~) with :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;overrides&amp;#34;&lt;/span&gt;: [
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;files&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;*.hbs&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;options&amp;#34;&lt;/span&gt;: {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;parser&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;glimmer&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// ... other custom configurations
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;      }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  ]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;and now you can use in your favorite editor or simple use directly with the CLI,
+for example:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -205,10 +317,20 @@ create a .prettierrc in your home (~) with :
       <pubDate>Thu, 12 Sep 2019 15:49:33 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2019/09/how-to-show-hex-colors-on-neovim/</guid>
-      <description>One thing that I like is to show HEX colors on css, html and even on javascript using NEOVIM, to do that I was using Colorizer plugin but now I switched to use vim-hexokinase and it&amp;rsquo;s asynchronous!
-to install you might need to install before go language:
-brew install go and this is my config:
-let g:Hexokinase_ftOptInPatterns = { \ &amp;#39;css&amp;#39;: &amp;#39;full_hex,triple_hex,rgb,rgba,hsl,hsla,colour_names&amp;#39;, \ &amp;#39;html&amp;#39;: &amp;#39;full_hex,rgb,rgba,hsl,hsla&amp;#39;, \ &amp;#39;javascript&amp;#39;: &amp;#39;full_hex,rgb,rgba,hsl,hsla&amp;#39; \ } let g:Hexokinase_virtualText = &amp;#39; ██████&amp;#39; watch all of my dotfiles</description>
+      <description>&lt;p&gt;One thing that I like is to show HEX colors on css, html and even on javascript
+using NEOVIM, to do that I was using &lt;code&gt;Colorizer&lt;/code&gt; plugin but now I switched to use
+&lt;a href=&#34;https://github.com/RRethy/vim-hexokinase&#34;&gt;vim-hexokinase&lt;/a&gt; and it&amp;rsquo;s asynchronous!&lt;/p&gt;
+&lt;p&gt;to install you might need to install before go language:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install go
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;and this is my config:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;let g:Hexokinase_ftOptInPatterns &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;css&amp;#39;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;full_hex,triple_hex,rgb,rgba,hsl,hsla,colour_names&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;html&amp;#39;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;full_hex,rgb,rgba,hsl,hsla&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;javascript&amp;#39;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;full_hex,rgb,rgba,hsl,hsla&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;let g:Hexokinase_virtualText &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;     ██████&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/carakan/dotfiles&#34;&gt;watch all of my dotfiles&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Happy coding!&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -217,11 +339,18 @@ let g:Hexokinase_ftOptInPatterns = { \ &amp;#39;css&amp;#39;: &amp;#39;full_hex,
       <pubDate>Thu, 12 Sep 2019 12:15:47 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2019/09/how-to-manage-environment-variables/</guid>
-      <description>In many projects that i have been working I want to manage GLOBAL&amp;rsquo;s variables, so to do that use direnv.
-to install (MacOS):
-brew install direnv Now the project needs to create a file .envrc like this:
-# Stripe Credentials export STRIPE_PRIVATE_KEY=&amp;#34;xxxxxxxxxxxx&amp;#34; export STRIPE_WEBHOOK_SECRET=&amp;#34;xxxxxxxxxxxxxxxx&amp;#34; entering in that directory direnv asks to allow the execution and use of that variables, so:
-direnv allow . And that&amp;rsquo;s it! you don&amp;rsquo;t need a custom solution for every programming language.</description>
+      <description>&lt;p&gt;In many projects that i have been working I want to manage GLOBAL&amp;rsquo;s variables, so
+to do that use &lt;a href=&#34;https://direnv.net/&#34;&gt;direnv&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;to install (MacOS):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install direnv
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now the project needs to create a file &lt;code&gt;.envrc&lt;/code&gt; like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Stripe Credentials&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export STRIPE_PRIVATE_KEY&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;xxxxxxxxxxxx&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export STRIPE_WEBHOOK_SECRET&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;xxxxxxxxxxxxxxxx&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;entering in that directory &lt;code&gt;direnv&lt;/code&gt; asks to &lt;strong&gt;allow&lt;/strong&gt; the execution and use of
+that variables, so:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;direnv allow .
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And that&amp;rsquo;s it! you don&amp;rsquo;t need a custom solution for every programming language.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -230,8 +359,37 @@ direnv allow . And that&amp;rsquo;s it! you don&amp;rsquo;t need a custom soluti
       <pubDate>Wed, 11 Sep 2019 18:22:45 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2019/09/create-a-form-with-two-actions-on-activeadmin/</guid>
-      <description>In a project that already using Activeadmin I had the requeriment of modify the actual form to create a student, but without validating that, so the solution was create into the model of active admin form and declare the form with two actions, one with the clasical behaviour and other when passed the params[:managed] with a custom route
-ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :student, as: :select, collection: User.</description>
+      <description>&lt;p&gt;In a project that already using Activeadmin I had the requeriment of modify the actual
+form to create a student, but without validating that, so the solution was create into
+the model of active admin &lt;code&gt;form&lt;/code&gt; and declare the form with two actions, one with
+the clasical behaviour and other when passed the &lt;code&gt;params[:managed]&lt;/code&gt; with a custom route&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;ActiveAdmin&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;register &lt;span style=&#34;color:#66d9ef&#34;&gt;InvestmentItem&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# ..&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  form &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;f&lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    f&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;inputs &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      f&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;input &lt;span style=&#34;color:#e6db74&#34;&gt;:student&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;as&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;:select&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;collection&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;User&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;students
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      f&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;input &lt;span style=&#34;color:#e6db74&#34;&gt;:amount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;unless&lt;/span&gt; params&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;:managed&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        f&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;input &lt;span style=&#34;color:#e6db74&#34;&gt;:course&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;as&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;:select&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;collection&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Course&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;all
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        f&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;input &lt;span style=&#34;color:#e6db74&#34;&gt;:created_at&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; params&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;:managed&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      f&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;action &lt;span style=&#34;color:#e6db74&#34;&gt;:submit&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;as&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;:input&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;button_html&lt;/span&gt;: { &lt;span style=&#34;color:#e6db74&#34;&gt;formaction&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;:managed_create&lt;/span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      f&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;actions &lt;span style=&#34;color:#75715e&#34;&gt;# this go to create/update&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# ...&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  controller &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;managed_create&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#75715e&#34;&gt;# do whatewer you want&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then &lt;code&gt;button_html: { formaction: :managed_create }&lt;/code&gt; options in a &lt;code&gt;:submit&lt;/code&gt;, does the trick.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -18,9 +18,9 @@
       <pubDate>Wed, 15 Nov 2017 00:11:01 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2017/11/lint-and-format-code-with-vim-and-ale/</guid>
-      <description>Currently I’m writing JS and Elixir code and I’ve using a lot of plugins to help me about misspelling in my code, first I was using Syntastic, later I was using Neomake but now I fell in love with ALE and I try to explain why.
-Ale knows clearly about if a plugin/addon shows an error that plugin/addon can fix that error if is possible.
-For example if I’m using eslint and I see this error:</description>
+      <description>&lt;p&gt;Currently I’m writing JS and Elixir code and I’ve using a lot of plugins to help me about misspelling in my code, first I was using Syntastic, later I was using Neomake but now I fell in love with &lt;a href=&#34;https://github.com/w0rp/ale&#34;&gt;ALE&lt;/a&gt; and I try to explain why.&lt;/p&gt;
+&lt;p&gt;Ale knows clearly about if a plugin/addon shows an error that plugin/addon can fix that error if is possible.&lt;/p&gt;
+&lt;p&gt;For example if I’m using eslint and I see this error:&lt;/p&gt;</description>
     </item>
     
   </channel>

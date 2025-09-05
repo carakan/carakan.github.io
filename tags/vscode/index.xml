@@ -18,11 +18,19 @@
       <pubDate>Tue, 27 Nov 2018 21:51:19 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2018/11/newrailscasts-my-first-vscode-theme/</guid>
-      <description>I ported my adaption of the ancient railscasts theme for (neo)vim to VSCode, its solarized, supports very well javascript, typescript, ruby and elixir, here’s some screenshots:
-TypeScript
-Html + erb
-Elixir
-If you like try to install only follow this link or search in Extensions “New Railscasts”, also if you use vim you can install the new-railscasts from my repo.</description>
+      <description>&lt;p&gt;I ported my adaption of the ancient railscasts theme for (neo)vim to VSCode,
+its solarized, supports very well &lt;code&gt;javascript&lt;/code&gt;, &lt;code&gt;typescript&lt;/code&gt;, &lt;code&gt;ruby&lt;/code&gt; and &lt;code&gt;elixir&lt;/code&gt;,
+here’s some screenshots:&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://carakan.net/blog/2018/11/newrailscasts-my-first-vscode-theme/images/1.png&#34; alt=&#34;image&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;TypeScript&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://carakan.net/blog/2018/11/newrailscasts-my-first-vscode-theme/images/2.png&#34; alt=&#34;image&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;Html + erb&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://carakan.net/blog/2018/11/newrailscasts-my-first-vscode-theme/images/3.png&#34; alt=&#34;image&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;Elixir&lt;/p&gt;
+&lt;p&gt;If you like try to install only follow this &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=carakan.new-railscasts&#34;&gt;link&lt;/a&gt; or search in Extensions “New Railscasts”, also if you use vim you can &lt;a href=&#34;https://github.com/carakan/new-railscasts-theme&#34;&gt;install the new-railscasts from my repo.&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

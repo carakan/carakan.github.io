@@ -10,7 +10,7 @@
 <meta name="description" content="Carlos Ramos, software developer">
 <meta name="author" content="Carlos Ramos">
 <link rel="canonical" href="https://carakan.net/tags/ruby/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.5cfc680b1eeaeef9efbced92d46c2a9e876b72ee14fba85846afc4cff9e6e6f8.css" integrity="sha256-XPxoCx7q7vnvvO2S1Gwqnodrcu4U&#43;6hYRq/Ez/nm5vg=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f9f91002fe82ae229ce4b8ec18eafc3a9d22a76ba6da1975bd754e6e4f35999e.css" integrity="sha256-&#43;fkQAv6CriKc5LjsGOr8Op0ip2um2hl1vXVObk81mZ4=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://carakan.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://carakan.net/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://carakan.net/favicon-32x32.png">
@@ -56,10 +56,7 @@
         }
 
     </style>
-</noscript>
-  
-
-<meta property="og:title" content="Ruby" />
+</noscript><meta property="og:title" content="Ruby" />
 <meta property="og:description" content="Carlos Ramos, software developer" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://carakan.net/tags/ruby/" /><meta property="og:image" content="https://carakan.net/papermod-cover.png"/>
@@ -148,7 +145,8 @@
     <p>In my current work, I’m using (abusing) of the ruby safe operator &amp;, which is a native implementation of the null pattern, for example, in a chain of messages:
 user.billings.first.cost It could be thrown an error when for example the billings of a user is empty and first returns a nil object and then nil.cost creates an Exception.
 With the safe operator &amp; this avoids the error:
-user.billings.first&amp;.cost # =&gt; 5....</p>
+user.billings.first&amp;.cost # =&gt; 5.3838 So, in the last part of the code using the &amp; is not causing an error because the safe operator logic is:
+...</p>
   </div>
   <footer class="entry-footer"><span title='2021-08-11 22:28:29 -0400 -04'>August 11, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Ruby Safe Operator Tip" href="https://carakan.net/blog/2021/08/ruby-safe-operator-tip/"></a>
@@ -189,7 +187,7 @@ gem install mysql2 -- --with-mysql-config=$(brew --prefix mariadb@10.2)/bin/mysq
   <div class="entry-content">
     <p>The problem is with RVM and renv and not with asdf, so my first suggestion is to change to asdf
 if you keep with RVM: install older versions of ruby &lt;2.3 with support for openssl 1.0x you can follow these instructions:
-# before you install command line tools and gcc xcode-select --install brew install gcc # installation procedure cd /usr/local/src curl -O https://www.openssl.org/source/openssl-1.0.2t.tar.gz tar xzf openssl-1.0.2t.tar.gz cd openssl-1.0.2t ./Configure darwin64-x86_64-cc make sudo make install export LDFLAGS=“-L/usr/local/ssl/lib” export CPPFLAGS=“-I/usr/local/ssl/include” export PKG_CONFIG_PATH=“/usr/local/ssl/lib/pkgconfig” rvm reinstall 2....</p>
+# before you install command line tools and gcc xcode-select --install brew install gcc # installation procedure cd /usr/local/src curl -O https://www.openssl.org/source/openssl-1.0.2t.tar.gz tar xzf openssl-1.0.2t.tar.gz cd openssl-1.0.2t ./Configure darwin64-x86_64-cc make sudo make install export LDFLAGS=“-L/usr/local/ssl/lib” export CPPFLAGS=“-I/usr/local/ssl/include” export PKG_CONFIG_PATH=“/usr/local/ssl/lib/pkgconfig” rvm reinstall 2.3.8 --with-openssl-dir=/usr/local/ssl --with-openssl-include=/usr/local/ssl/include </p>
   </div>
   <footer class="entry-footer"><span title='2020-01-24 15:46:05 -0400 -04'>January 24, 2020</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to How to Install Older Versions of Ruby" href="https://carakan.net/blog/2020/01/how-to-install-older-versions-of-ruby/"></a>
@@ -203,7 +201,8 @@ if you keep with RVM: install older versions of ruby &lt;2.3 with support for op
   <div class="entry-content">
     <p>Recently I found that passenger in the last version now uses nginx 1.10.x by default, as you knows since nginx 1.9.x nginx enables support for http2 but the 1.9.x on nginx is beta and when released the line 1.10 is production ready. The process will be describe for ubuntu 14.4 and 16.4:
 Install Dependencies apt-get update -y apt-get upgrade -y apt-get install sudo -y install the required packages:
-sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate python-docutils pkg-config cmake nodejs git-core Install Ruby For production sites is a MUST install from sources without using any versions managers like RVM, RENV or whatever this is why leads to hard to diagnose problems....</p>
+sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate python-docutils pkg-config cmake nodejs git-core Install Ruby For production sites is a MUST install from sources without using any versions managers like RVM, RENV or whatever this is why leads to hard to diagnose problems. Remove the old Ruby 1.8 if present:
+...</p>
   </div>
   <footer class="entry-footer"><span title='2016-06-24 17:27:00 +0000 +0000'>June 24, 2016</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to install passenger 5, ruby 2.x, nginx 1.10.x and enable HTTP/2" href="https://carakan.net/blog/2016/06/install-passenger-5-ruby-2.x-nginx-1.10.x-and-enable-http/2/"></a>
@@ -217,7 +216,7 @@ sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdb
   <div class="entry-content">
     <p>In one project, the client wants to share same user credentials between rails app to wordpress site, I’ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:
 rails login this plugin only need a small API for enable login i created this code in model user:
-def wp_json { user: { email: self....</p>
+...</p>
   </div>
   <footer class="entry-footer"><span title='2015-03-13 01:11:09 +0000 +0000'>March 13, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to great plugin for share session in rails apps between wordpress blog" href="https://carakan.net/blog/2015/03/great-plugin-for-share-session-in-rails-apps-between-wordpress-blog/"></a>
@@ -229,8 +228,9 @@ def wp_json { user: { email: self....</p>
     </h2>
   </header>
   <div class="entry-content">
-    <p>La revista sobre el software libre: Atix, lanzo la séptima entrega de su revista, que apuesta por el conocimiento libre y que para este numero lo entrega con el siguiente lema:
-Un nuevo año…. un nuevo reto, pon tu mejor empeño para lograr tu reto de este año. cuenta con la tercera parte del desarrollo de una aplicación de gestión de artículos ATIX, en Ruby on Rails, en la que explico como reutilizar código a través de plugins o gemas, utilizar el repositorio de gemas de Git Hub y manipular la gema Will_paginate....</p>
+    <p> La revista sobre el software libre: Atix, lanzo la séptima entrega de su revista, que apuesta por el conocimiento libre y que para este numero lo entrega con el siguiente lema:
+Un nuevo año…. un nuevo reto, pon tu mejor empeño para lograr tu reto de este año. cuenta con la tercera parte del desarrollo de una aplicación de gestión de artículos ATIX, en Ruby on Rails, en la que explico como reutilizar código a través de plugins o gemas, utilizar el repositorio de gemas de Git Hub y manipular la gema Will_paginate.
+...</p>
   </div>
   <footer class="entry-footer"><span title='2009-01-27 15:36:32 +0000 +0000'>January 27, 2009</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Revista Atix numero 7 liberado." href="https://carakan.net/blog/2009/01/revista-atix-numero-7-liberado./"></a>
@@ -242,9 +242,10 @@ Un nuevo año…. un nuevo reto, pon tu mejor empeño para lograr tu reto de est
     </h2>
   </header>
   <div class="entry-content">
-    <p>La revista sobre el software libre: Atix, lanzo la sexta entrega de su revista, que apuesta por el conocimiento libre y que para este numero lo entrega con el siguiente lema:
+    <p> La revista sobre el software libre: Atix, lanzo la sexta entrega de su revista, que apuesta por el conocimiento libre y que para este numero lo entrega con el siguiente lema:
 El ser todos iguales, nos llevará a tener y vivir un futuro mejor.
-Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicación en Ruby on Rails, con el cual hablo sobre la nueva versión de Rails la 2....</p>
+Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicación en Ruby on Rails, con el cual hablo sobre la nueva versión de Rails la 2.2 como realizar una migración de anteriores versiones, y manejo de relaciones con Active Record. Descargar Revista Atix #6
+...</p>
   </div>
   <footer class="entry-footer"><span title='2008-12-17 21:02:17 +0000 +0000'>December 17, 2008</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Revista Atix numero 6 liberado." href="https://carakan.net/blog/2008/12/revista-atix-numero-6-liberado./"></a>
@@ -256,7 +257,8 @@ Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicaci
     </h2>
   </header>
   <div class="entry-content">
-    <p>Este fin de semana estuve trabajando en la nueva imagen de Bolivia on Rails, un sitio dedicado al desarrollo de ruby on rails dentro y fuera de Bolivia, lo deje un poco estancado este proyecto pero gracias a la colaboración de Boris Barroso estoy retomando el camino y además quiero informar de que ahora los tutoriales o cosas relacionadas con Rails serán publicadas en el Sitio de Bolivia on rails. [caption id=“attachment_420” align=“alignnone” width=“563” caption=“Bolivia on rails”] [/caption] Otra noticia que se hará costumbre es que pongo a disposición el thema en Wordpress para que puedan utilizarlo en sus propios blogs, es un tema oscuro que me gusta por la combinación de colores, lo traduje y ahora lo comparto además que dejo el fuente de la cabecera en photoshop para que puedan editarlo, así que disfrútenlo....</p>
+    <p>Este fin de semana estuve trabajando en la nueva imagen de Bolivia on Rails, un sitio dedicado al desarrollo de ruby on rails dentro y fuera de Bolivia, lo deje un poco estancado este proyecto pero gracias a la colaboración de Boris Barroso estoy retomando el camino y además quiero informar de que ahora los tutoriales o cosas relacionadas con Rails serán publicadas en el Sitio de Bolivia on rails. [caption id=“attachment_420” align=“alignnone” width=“563” caption=“Bolivia on rails”] [/caption] Otra noticia que se hará costumbre es que pongo a disposición el thema en Wordpress para que puedan utilizarlo en sus propios blogs, es un tema oscuro que me gusta por la combinación de colores, lo traduje y ahora lo comparto además que dejo el fuente de la cabecera en photoshop para que puedan editarlo, así que disfrútenlo. Demo, Descargar thema wordpress.
+...</p>
   </div>
   <footer class="entry-footer"><span title='2008-09-22 15:07:58 +0000 +0000'>September 22, 2008</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Nueva imagen de Bolivia On Rails y tema wp español" href="https://carakan.net/blog/2008/09/nueva-imagen-de-bolivia-on-rails-y-tema-wp-espa%C3%B1ol/"></a>
@@ -268,7 +270,8 @@ Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicaci
     </h2>
   </header>
   <div class="entry-content">
-    <p>Gracias a Favio Akita me entere de una nueva version del interprete de Ruby para los entornos windows, tengo algunos proyectos corriendo sobre esta plataforma, esta nueva version esta siendo desarrollado por Luis Lavena, el cual es 20% mas veloz, he realizado las pruebas y vi que tiene algunos defectos menores pero logre instalar rails 2.1.0 y las gemas mas importantes para la puesta en producción y comparto para que vean lo bien que se pinta esta nueva versión....</p>
+    <p>Gracias a Favio Akita me entere de una nueva version del interprete de Ruby para los entornos windows, tengo algunos proyectos corriendo sobre esta plataforma, esta nueva version esta siendo desarrollado por Luis Lavena, el cual es 20% mas veloz, he realizado las pruebas y vi que tiene algunos defectos menores pero logre instalar rails 2.1.0 y las gemas mas importantes para la puesta en producción y comparto para que vean lo bien que se pinta esta nueva versión. Descargar. Nota: He parchado la gema mongrel, ya que hace una referencia al antiguo runtime [MSWin] y no al actual [MinGW], Ademas el paquete es de proposito evaluativo. Nota 2: Las gemas instaladas son:
+...</p>
   </div>
   <footer class="entry-footer"><span title='2008-08-07 14:59:08 +0000 +0000'>August 7, 2008</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Nueva version del interprete ruby para entornos windows" href="https://carakan.net/blog/2008/08/nueva-version-del-interprete-ruby-para-entornos-windows/"></a>
@@ -280,7 +283,8 @@ Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicaci
     </h2>
   </header>
   <div class="entry-content">
-    <p>Recientemente en uno de mis proyectos estamos utilizando el plugin para subir archivos paperclip tutorial, este plugin tiene características de re-dimension de imágenes pero dentro de nuestro servidor web no funcionaba, lo que nos parecio bastante raro, buscando por internet encontré que el problema se debía al momento de usar mod_rails, el cual no cargaba las librerías necesarias, en este caso a ImageMagick, aqui el mismo problema pero para oracle y algunas de sus librerias....</p>
+    <p>Recientemente en uno de mis proyectos estamos utilizando el plugin para subir archivos paperclip tutorial, este plugin tiene características de re-dimension de imágenes pero dentro de nuestro servidor web no funcionaba, lo que nos parecio bastante raro, buscando por internet encontré que el problema se debía al momento de usar mod_rails, el cual no cargaba las librerías necesarias, en este caso a ImageMagick, aqui el mismo problema pero para oracle y algunas de sus librerias. La solución es la siguiente: Ir a la carpeta del ejecutable de ruby, en mi caso utilizo ruby-enterprise y que instale en /opt/ruby/bin, o en una carpeta cualquiera que tengas acceso se crea el archivo ruby_rmagick asi:
+...</p>
   </div>
   <footer class="entry-footer"><span title='2008-08-06 18:59:05 +0000 +0000'>August 6, 2008</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Problema de ImageMagick (rmagick) y passenger (mod_rails)" href="https://carakan.net/blog/2008/08/problema-de-imagemagick-rmagick-y-passenger-mod_rails/"></a>
@@ -292,7 +296,8 @@ Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicaci
     </h2>
   </header>
   <div class="entry-content">
-    <p>Si hoy 14 de julio nace oficialmente el sitio de desarrollo de Ruby on Rails en Bolivia, nos vamos a enfocar en un principio la facilidad y elegancia al momento de desarrollar en este fabuloso framework web. Esperamos sus comentarios.</p>
+    <p>Si hoy 14 de julio nace oficialmente el sitio de desarrollo de Ruby on Rails en Bolivia, nos vamos a enfocar en un principio la facilidad y elegancia al momento de desarrollar en este fabuloso framework web. Esperamos sus comentarios.
+</p>
   </div>
   <footer class="entry-footer"><span title='2008-07-14 23:47:19 +0000 +0000'>July 14, 2008</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Nace Bolivia on Rails" href="https://carakan.net/blog/2008/07/nace-bolivia-on-rails/"></a>
@@ -306,7 +311,7 @@ Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicaci
     </main>
     
 <footer class="footer">
-    <span>&copy; 2024 <a href="https://carakan.net/">carakan</a></span>
+    <span>&copy; 2025 <a href="https://carakan.net/">carakan</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

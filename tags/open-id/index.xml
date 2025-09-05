@@ -18,7 +18,7 @@
       <pubDate>Fri, 18 Jul 2008 16:29:31 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/07/open-id-rest-y-rails/</guid>
-      <description>Estoy trabajando en el desarrollo de un portal deportivo, dentro de desarrollo del mismo se eligió el soporte a Open ID dentro de la autentificación, al estar desarrollando el mismo me presentaba un problema bastante raro, después de identificarme dentro del proveedor de Open ID me rediria al controlador de manejo de sesiones pero a la acción show, debería de redirigirme a create para la evaluacion de la identificacion, el problema se soluciona subiendo el map.</description>
+      <description>&lt;p&gt;Estoy trabajando en el desarrollo de un portal deportivo, dentro de desarrollo del mismo se eligió el soporte a Open ID dentro de la autentificación, al estar desarrollando el mismo me presentaba un problema bastante raro, después de identificarme dentro del proveedor de Open ID me rediria al controlador de manejo de sesiones pero a la acción show, debería de redirigirme a create para la evaluacion de la identificacion, el problema se soluciona subiendo el map.open_id_complete antes de definir el map.resource para las sesiones, la ruta correcta es como sigue:```&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -18,9 +18,10 @@
       <pubDate>Fri, 13 Mar 2015 01:11:09 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2015/03/great-plugin-for-share-session-in-rails-apps-between-wordpress-blog/</guid>
-      <description>In one project, the client wants to share same user credentials between rails app to wordpress site, I&amp;rsquo;ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:
-rails login this plugin only need a small API for enable login i created this code in model user:
-def wp_json { user: { email: self.</description>
+      <description>&lt;p&gt;In one project, the client wants to share same user credentials between rails app to wordpress site, I&amp;rsquo;ve worked in the same problem 5 years ago creating a plugin for this, so wordpress change many features and I need this feature fast, googling i find this solution:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wordpress.org/plugins/rails-login/&#34; title=&#34;wordpress plugin for share session with rails app&#34;&gt;rails login
+&lt;/a&gt;
+this plugin only need a small API for enable login i created this code in model user:&lt;/p&gt;</description>
     </item>
     
   </channel>

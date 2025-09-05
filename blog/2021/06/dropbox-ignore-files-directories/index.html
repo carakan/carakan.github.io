@@ -7,11 +7,16 @@
 <meta name="robots" content="index, follow">
 <title>Dropbox ignore files/directories | carakan</title>
 <meta name="keywords" content="TIL, lightroom">
-<meta name="description" content="Ignoring files or directories in dropbox is a hard thing, I thought it has like git, a .gitignore to config that, but no, we need to do a command for each file/dir, for example to ignore the files that creates a lightroom catalog (.lrcat) we need to do:
-xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previews.lrdata xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previews.lrdata xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Helper.lrdata and to not longer ignore files we need this command:">
+<meta name="description" content="Ignoring files or directories in dropbox is a hard thing, I thought it has like git,
+a .gitignore to config that, but no, we need to do a command for each file/dir, for example to ignore
+the files that creates a lightroom catalog (.lrcat) we need to do:
+xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previews.lrdata
+xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previews.lrdata
+xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Helper.lrdata
+and to not longer ignore files we need this command:">
 <meta name="author" content="Carlos Ramos">
 <link rel="canonical" href="https://carakan.net/blog/2021/06/dropbox-ignore-files-directories/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.5cfc680b1eeaeef9efbced92d46c2a9e876b72ee14fba85846afc4cff9e6e6f8.css" integrity="sha256-XPxoCx7q7vnvvO2S1Gwqnodrcu4U&#43;6hYRq/Ez/nm5vg=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f9f91002fe82ae229ce4b8ec18eafc3a9d22a76ba6da1975bd754e6e4f35999e.css" integrity="sha256-&#43;fkQAv6CriKc5LjsGOr8Op0ip2um2hl1vXVObk81mZ4=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://carakan.net/favicon.ico">
@@ -58,12 +63,14 @@ xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previ
         }
 
     </style>
-</noscript>
-  
-
-<meta property="og:title" content="Dropbox ignore files/directories" />
-<meta property="og:description" content="Ignoring files or directories in dropbox is a hard thing, I thought it has like git, a .gitignore to config that, but no, we need to do a command for each file/dir, for example to ignore the files that creates a lightroom catalog (.lrcat) we need to do:
-xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previews.lrdata xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previews.lrdata xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Helper.lrdata and to not longer ignore files we need this command:" />
+</noscript><meta property="og:title" content="Dropbox ignore files/directories" />
+<meta property="og:description" content="Ignoring files or directories in dropbox is a hard thing, I thought it has like git,
+a .gitignore to config that, but no, we need to do a command for each file/dir, for example to ignore
+the files that creates a lightroom catalog (.lrcat) we need to do:
+xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previews.lrdata
+xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previews.lrdata
+xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Helper.lrdata
+and to not longer ignore files we need this command:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://carakan.net/blog/2021/06/dropbox-ignore-files-directories/" /><meta property="og:image" content="https://carakan.net/papermod-cover.png"/><meta property="article:section" content="blog" />
 <meta property="article:published_time" content="2021-06-25T11:15:20-04:00" />
@@ -73,8 +80,13 @@ xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previ
 <meta name="twitter:image" content="https://carakan.net/papermod-cover.png"/>
 
 <meta name="twitter:title" content="Dropbox ignore files/directories"/>
-<meta name="twitter:description" content="Ignoring files or directories in dropbox is a hard thing, I thought it has like git, a .gitignore to config that, but no, we need to do a command for each file/dir, for example to ignore the files that creates a lightroom catalog (.lrcat) we need to do:
-xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previews.lrdata xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previews.lrdata xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Helper.lrdata and to not longer ignore files we need this command:"/>
+<meta name="twitter:description" content="Ignoring files or directories in dropbox is a hard thing, I thought it has like git,
+a .gitignore to config that, but no, we need to do a command for each file/dir, for example to ignore
+the files that creates a lightroom catalog (.lrcat) we need to do:
+xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previews.lrdata
+xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previews.lrdata
+xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Helper.lrdata
+and to not longer ignore files we need this command:"/>
 
 
 <script type="application/ld+json">
@@ -103,7 +115,7 @@ xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previ
   "@type": "BlogPosting",
   "headline": "Dropbox ignore files/directories",
   "name": "Dropbox ignore files\/directories",
-  "description": "Ignoring files or directories in dropbox is a hard thing, I thought it has like git, a .gitignore to config that, but no, we need to do a command for each file/dir, for example to ignore the files that creates a lightroom catalog (.lrcat) we need to do:\nxattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\\ Previews.lrdata xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\\ Previews.lrdata xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\\ Helper.lrdata and to not longer ignore files we need this command:",
+  "description": "Ignoring files or directories in dropbox is a hard thing, I thought it has like git, a .gitignore to config that, but no, we need to do a command for each file/dir, for example to ignore the files that creates a lightroom catalog (.lrcat) we need to do:\nxattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\\ Previews.lrdata xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\\ Previews.lrdata xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\\ Helper.lrdata and to not longer ignore files we need this command:\n",
   "keywords": [
     "TIL", "lightroom"
   ],
@@ -293,7 +305,7 @@ the files that creates a lightroom catalog (.lrcat) we need to do:</p>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2024 <a href="https://carakan.net/">carakan</a></span>
+    <span>&copy; 2025 <a href="https://carakan.net/">carakan</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

@@ -18,9 +18,9 @@
       <pubDate>Wed, 15 Nov 2017 00:11:01 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2017/11/lint-and-format-code-with-vim-and-ale/</guid>
-      <description>Currently I’m writing JS and Elixir code and I’ve using a lot of plugins to help me about misspelling in my code, first I was using Syntastic, later I was using Neomake but now I fell in love with ALE and I try to explain why.
-Ale knows clearly about if a plugin/addon shows an error that plugin/addon can fix that error if is possible.
-For example if I’m using eslint and I see this error:</description>
+      <description>&lt;p&gt;Currently I’m writing JS and Elixir code and I’ve using a lot of plugins to help me about misspelling in my code, first I was using Syntastic, later I was using Neomake but now I fell in love with &lt;a href=&#34;https://github.com/w0rp/ale&#34;&gt;ALE&lt;/a&gt; and I try to explain why.&lt;/p&gt;
+&lt;p&gt;Ale knows clearly about if a plugin/addon shows an error that plugin/addon can fix that error if is possible.&lt;/p&gt;
+&lt;p&gt;For example if I’m using eslint and I see this error:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -29,8 +29,18 @@ For example if I’m using eslint and I see this error:</description>
       <pubDate>Mon, 21 Dec 2015 02:57:00 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2015/12/my-dotfiles/</guid>
-      <description>Yes, I finally setup my work environment to work across in my differents machines, I used this tools for that:
-Tmux Powerline fonts patched (I uploaded my fonts patched) Iterm2 (v3.3) NeoVim Oh-My-Zsh Spf13 vim configuration Check out my public repo in that I wrote how to install if you want reuse my config.</description>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://carakan.net/blog/my-dotfiles/Screenshot2016-03-09.png&#34; alt=&#34;image&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;Yes, I finally setup my work environment to work across in my differents machines, I used this tools for that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tmux.github.io/&#34;&gt;Tmux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ryanoasis/nerd-fonts&#34;&gt;Powerline fonts patched&lt;/a&gt; (I uploaded my fonts patched)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.iterm2.com/downloads.html&#34;&gt;Iterm2 (v3.3)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/neovim/neovim&#34;&gt;NeoVim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ohmyz.sh/&#34;&gt;Oh-My-Zsh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://vim.spf13.com/&#34;&gt;Spf13 vim configuration&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Check out my &lt;a href=&#34;https://github.com/carakan/dotfiles&#34;&gt;&lt;strong&gt;public repo&lt;/strong&gt;&lt;/a&gt; in that I wrote how to install if you want reuse my config.&lt;/p&gt;</description>
     </item>
     
   </channel>

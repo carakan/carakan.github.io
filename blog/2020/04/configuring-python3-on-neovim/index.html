@@ -7,12 +7,18 @@
 <meta name="robots" content="index, follow">
 <title>Configuring Python3 on Neovim | carakan</title>
 <meta name="keywords" content="TIL, neovim">
-<meta name="description" content="The idea of this post is to configure correctly the support of python3 on neovim, let&rsquo;s start.
-first this configuration is using macOS, by default python3 is installed on macOS and the default route of the executables are:
-which python3 # =&gt; /usr/bin/python3 which pip3 # =&gt; /usr/bin/pip3 And that&rsquo;s it! but normally if you are using homebrew you also installed the python3 using a formula, personally I do not to recomend that but it will work.">
+<meta name="description" content="The idea of this post is to configure correctly the support of python3 on neovim,
+let&rsquo;s start.
+first this configuration is using macOS, by default python3 is installed on macOS
+and the default route of the executables are:
+which python3 # =&gt; /usr/bin/python3
+which pip3    # =&gt; /usr/bin/pip3
+And that&rsquo;s it! but normally if you are using homebrew you also installed the python3
+using a formula, personally I do not to recomend that but it will work. you need
+to know where is installed that two executables.">
 <meta name="author" content="Carlos Ramos">
 <link rel="canonical" href="https://carakan.net/blog/2020/04/configuring-python3-on-neovim/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.5cfc680b1eeaeef9efbced92d46c2a9e876b72ee14fba85846afc4cff9e6e6f8.css" integrity="sha256-XPxoCx7q7vnvvO2S1Gwqnodrcu4U&#43;6hYRq/Ez/nm5vg=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f9f91002fe82ae229ce4b8ec18eafc3a9d22a76ba6da1975bd754e6e4f35999e.css" integrity="sha256-&#43;fkQAv6CriKc5LjsGOr8Op0ip2um2hl1vXVObk81mZ4=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://carakan.net/favicon.ico">
@@ -59,13 +65,16 @@ which python3 # =&gt; /usr/bin/python3 which pip3 # =&gt; /usr/bin/pip3 And that
         }
 
     </style>
-</noscript>
-  
-
-<meta property="og:title" content="Configuring Python3 on Neovim" />
-<meta property="og:description" content="The idea of this post is to configure correctly the support of python3 on neovim, let&rsquo;s start.
-first this configuration is using macOS, by default python3 is installed on macOS and the default route of the executables are:
-which python3 # =&gt; /usr/bin/python3 which pip3 # =&gt; /usr/bin/pip3 And that&rsquo;s it! but normally if you are using homebrew you also installed the python3 using a formula, personally I do not to recomend that but it will work." />
+</noscript><meta property="og:title" content="Configuring Python3 on Neovim" />
+<meta property="og:description" content="The idea of this post is to configure correctly the support of python3 on neovim,
+let&rsquo;s start.
+first this configuration is using macOS, by default python3 is installed on macOS
+and the default route of the executables are:
+which python3 # =&gt; /usr/bin/python3
+which pip3    # =&gt; /usr/bin/pip3
+And that&rsquo;s it! but normally if you are using homebrew you also installed the python3
+using a formula, personally I do not to recomend that but it will work. you need
+to know where is installed that two executables." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://carakan.net/blog/2020/04/configuring-python3-on-neovim/" /><meta property="og:image" content="https://carakan.net/papermod-cover.png"/><meta property="article:section" content="blog" />
 <meta property="article:published_time" content="2020-04-27T15:17:47-04:00" />
@@ -75,9 +84,15 @@ which python3 # =&gt; /usr/bin/python3 which pip3 # =&gt; /usr/bin/pip3 And that
 <meta name="twitter:image" content="https://carakan.net/papermod-cover.png"/>
 
 <meta name="twitter:title" content="Configuring Python3 on Neovim"/>
-<meta name="twitter:description" content="The idea of this post is to configure correctly the support of python3 on neovim, let&rsquo;s start.
-first this configuration is using macOS, by default python3 is installed on macOS and the default route of the executables are:
-which python3 # =&gt; /usr/bin/python3 which pip3 # =&gt; /usr/bin/pip3 And that&rsquo;s it! but normally if you are using homebrew you also installed the python3 using a formula, personally I do not to recomend that but it will work."/>
+<meta name="twitter:description" content="The idea of this post is to configure correctly the support of python3 on neovim,
+let&rsquo;s start.
+first this configuration is using macOS, by default python3 is installed on macOS
+and the default route of the executables are:
+which python3 # =&gt; /usr/bin/python3
+which pip3    # =&gt; /usr/bin/pip3
+And that&rsquo;s it! but normally if you are using homebrew you also installed the python3
+using a formula, personally I do not to recomend that but it will work. you need
+to know where is installed that two executables."/>
 
 
 <script type="application/ld+json">
@@ -106,7 +121,7 @@ which python3 # =&gt; /usr/bin/python3 which pip3 # =&gt; /usr/bin/pip3 And that
   "@type": "BlogPosting",
   "headline": "Configuring Python3 on Neovim",
   "name": "Configuring Python3 on Neovim",
-  "description": "The idea of this post is to configure correctly the support of python3 on neovim, let\u0026rsquo;s start.\nfirst this configuration is using macOS, by default python3 is installed on macOS and the default route of the executables are:\nwhich python3 # =\u0026gt; /usr/bin/python3 which pip3 # =\u0026gt; /usr/bin/pip3 And that\u0026rsquo;s it! but normally if you are using homebrew you also installed the python3 using a formula, personally I do not to recomend that but it will work.",
+  "description": "The idea of this post is to configure correctly the support of python3 on neovim, let\u0026rsquo;s start.\nfirst this configuration is using macOS, by default python3 is installed on macOS and the default route of the executables are:\nwhich python3 # =\u0026gt; /usr/bin/python3 which pip3 # =\u0026gt; /usr/bin/pip3 And that\u0026rsquo;s it! but normally if you are using homebrew you also installed the python3 using a formula, personally I do not to recomend that but it will work. you need to know where is installed that two executables.\n",
   "keywords": [
     "TIL", "neovim"
   ],
@@ -323,7 +338,7 @@ currently all plugins supports python3.</p>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2024 <a href="https://carakan.net/">carakan</a></span>
+    <span>&copy; 2025 <a href="https://carakan.net/">carakan</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

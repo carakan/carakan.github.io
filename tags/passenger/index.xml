@@ -18,9 +18,17 @@
       <pubDate>Fri, 24 Jun 2016 17:27:00 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2016/06/install-passenger-5-ruby-2.x-nginx-1.10.x-and-enable-http/2/</guid>
-      <description>Recently I found that passenger in the last version now uses nginx 1.10.x by default, as you knows since nginx 1.9.x nginx enables support for http2 but the 1.9.x on nginx is beta and when released the line 1.10 is production ready. The process will be describe for ubuntu 14.4 and 16.4:
-Install Dependencies apt-get update -y apt-get upgrade -y apt-get install sudo -y install the required packages:
-sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate python-docutils pkg-config cmake nodejs git-core Install Ruby For production sites is a MUST install from sources without using any versions managers like RVM, RENV or whatever this is why leads to hard to diagnose problems.</description>
+      <description>&lt;p&gt;Recently I found that passenger in the last version now uses nginx 1.10.x by default, as you knows since nginx 1.9.x nginx enables support for &lt;a href=&#34;https://en.wikipedia.org/wiki/HTTP/2&#34;&gt;http2&lt;/a&gt; but the 1.9.x on nginx is &lt;em&gt;beta&lt;/em&gt; and when released the line 1.10 is production ready. The process will be describe for ubuntu 14.4 and 16.4:&lt;/p&gt;
+&lt;h2 id=&#34;install-dependencies&#34;&gt;Install Dependencies&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get update -y
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get upgrade -y
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install sudo -y
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;install the required packages:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate python-docutils pkg-config cmake nodejs git-core
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;install-ruby&#34;&gt;Install Ruby&lt;/h2&gt;
+&lt;p&gt;For production sites is a &lt;em&gt;MUST&lt;/em&gt; install from sources without using any versions
+managers like RVM, RENV or whatever this is why leads to hard to diagnose
+problems. Remove the old Ruby 1.8 if present:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -29,7 +37,7 @@ sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdb
       <pubDate>Wed, 06 Aug 2008 18:59:05 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/08/problema-de-imagemagick-rmagick-y-passenger-mod_rails/</guid>
-      <description>Recientemente en uno de mis proyectos estamos utilizando el plugin para subir archivos paperclip tutorial, este plugin tiene características de re-dimension de imágenes pero dentro de nuestro servidor web no funcionaba, lo que nos parecio bastante raro, buscando por internet encontré que el problema se debía al momento de usar mod_rails, el cual no cargaba las librerías necesarias, en este caso a ImageMagick, aqui el mismo problema pero para oracle y algunas de sus librerias.</description>
+      <description>&lt;p&gt;Recientemente en uno de mis proyectos estamos utilizando el plugin para subir archivos &lt;a href=&#34;http://jimneath.org/2008/04/17/paperclip-attaching-files-in-rails/&#34;&gt;paperclip tutorial&lt;/a&gt;, este plugin tiene características de re-dimension de imágenes pero dentro de nuestro servidor web no funcionaba, lo que nos parecio bastante raro, buscando por internet encontré que el problema se debía al momento de usar mod_rails, el cual no cargaba las librerías necesarias, en este caso a ImageMagick, &lt;a href=&#34;http://blog.rayapps.com/2008/05/21/using-mod_rails-with-rails-applications-on-oracle/&#34;&gt;aqui el mismo problema pero para oracle y algunas de sus librerias&lt;/a&gt;. La solución es la siguiente: Ir a la carpeta del ejecutable de ruby, en mi caso utilizo &lt;a href=&#34;http://www.rubyenterpriseedition.com/&#34;&gt;ruby-enterprise&lt;/a&gt; y que instale en /opt/ruby/bin, o en una carpeta cualquiera que tengas acceso se crea el archivo ruby_rmagick asi:&lt;/p&gt;</description>
     </item>
     
   </channel>

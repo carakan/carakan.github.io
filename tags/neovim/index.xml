@@ -18,10 +18,14 @@
       <pubDate>Tue, 25 Aug 2020 09:39:14 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2020/08/configure-vim-test-to-work-with-docker/</guid>
-      <description>Recently I started to work with Docker in a project, and I ever use vim-test to run test using vim, now to integrate in current docker workflow we need to configure vim-test.
-For example to configure to run rspec test inside app:
-let test#ruby#rspec#executable = &amp;#39;docker-compose exec -e RAILS_ENV=test app rspec&amp;#39; to run inside to already running app docker container.
-It is very important to add -e RAILS_ENV=test to send envinroment variables and set test env inside the rails app.</description>
+      <description>&lt;p&gt;Recently I started to work with Docker in a project, and I ever use
+&lt;a href=&#34;https://github.com/vim-test/vim-test&#34;&gt;vim-test&lt;/a&gt; to run test using vim, now to
+integrate in current docker workflow we need to configure vim-test.&lt;/p&gt;
+&lt;p&gt;For example to configure to run rspec test inside &lt;code&gt;app&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-vim&#34; data-lang=&#34;vim&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;test&lt;/span&gt;#&lt;span style=&#34;color:#a6e22e&#34;&gt;ruby&lt;/span&gt;#&lt;span style=&#34;color:#a6e22e&#34;&gt;rspec&lt;/span&gt;#&lt;span style=&#34;color:#a6e22e&#34;&gt;executable&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;docker-compose exec -e RAILS_ENV=test app rspec&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;to run inside to already running &lt;code&gt;app&lt;/code&gt; docker container.&lt;/p&gt;
+&lt;p&gt;It is very important to add &lt;code&gt;-e RAILS_ENV=test&lt;/code&gt; to send envinroment variables
+and set test env inside the rails app.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -30,9 +34,15 @@ It is very important to add -e RAILS_ENV=test to send envinroment variables and 
       <pubDate>Mon, 27 Apr 2020 15:17:47 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2020/04/configuring-python3-on-neovim/</guid>
-      <description>The idea of this post is to configure correctly the support of python3 on neovim, let&amp;rsquo;s start.
-first this configuration is using macOS, by default python3 is installed on macOS and the default route of the executables are:
-which python3 # =&amp;gt; /usr/bin/python3 which pip3 # =&amp;gt; /usr/bin/pip3 And that&amp;rsquo;s it! but normally if you are using homebrew you also installed the python3 using a formula, personally I do not to recomend that but it will work.</description>
+      <description>&lt;p&gt;The idea of this post is to configure correctly the support of python3 on neovim,
+let&amp;rsquo;s start.&lt;/p&gt;
+&lt;p&gt;first this configuration is using macOS, by default python3 is installed on macOS
+and the default route of the executables are:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;which python3 &lt;span style=&#34;color:#75715e&#34;&gt;# =&amp;gt; /usr/bin/python3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;which pip3    &lt;span style=&#34;color:#75715e&#34;&gt;# =&amp;gt; /usr/bin/pip3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And that&amp;rsquo;s it! but normally if you are using homebrew you also installed the python3
+using a formula, personally I do not to recomend that but it will work. you need
+to know where is installed that two executables.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -41,8 +51,14 @@ which python3 # =&amp;gt; /usr/bin/python3 which pip3 # =&amp;gt; /usr/bin/pip3 
       <pubDate>Sun, 22 Sep 2019 22:30:04 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2019/09/configure-and-install-last-elixir-ls-in-neovim/</guid>
-      <description>The last version of ElixirLS have a lot of improvements, for example a new robust code suggestion provided by elixir-sense, intellisense with code documentation and other larger changes, but now i didn&amp;rsquo;t see an actual release to use it, so in this post we will clone the last repo, compile and will install in our local dev to take advantage of these new features.
-First clone and generate the executables of elixirLS:</description>
+      <description>&lt;p&gt;The last version of ElixirLS have a lot of improvements, for example a new robust code
+suggestion provided by &lt;a href=&#34;https://github.com/elixir-lsp/elixir_sense&#34;&gt;&lt;code&gt;elixir-sense&lt;/code&gt;&lt;/a&gt;,
+intellisense with code documentation and
+other larger changes, but now i didn&amp;rsquo;t see an actual release to use it, so in this
+post we will clone the last repo, compile and will install in our local dev to
+take advantage of these new features.&lt;/p&gt;
+&lt;p&gt;First clone and generate the executables of
+&lt;a href=&#34;https://github.com/elixir-lsp/elixir-ls&#34;&gt;&lt;code&gt;elixirLS&lt;/code&gt;&lt;/a&gt;:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -51,10 +67,20 @@ First clone and generate the executables of elixirLS:</description>
       <pubDate>Thu, 12 Sep 2019 15:49:33 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2019/09/how-to-show-hex-colors-on-neovim/</guid>
-      <description>One thing that I like is to show HEX colors on css, html and even on javascript using NEOVIM, to do that I was using Colorizer plugin but now I switched to use vim-hexokinase and it&amp;rsquo;s asynchronous!
-to install you might need to install before go language:
-brew install go and this is my config:
-let g:Hexokinase_ftOptInPatterns = { \ &amp;#39;css&amp;#39;: &amp;#39;full_hex,triple_hex,rgb,rgba,hsl,hsla,colour_names&amp;#39;, \ &amp;#39;html&amp;#39;: &amp;#39;full_hex,rgb,rgba,hsl,hsla&amp;#39;, \ &amp;#39;javascript&amp;#39;: &amp;#39;full_hex,rgb,rgba,hsl,hsla&amp;#39; \ } let g:Hexokinase_virtualText = &amp;#39; ██████&amp;#39; watch all of my dotfiles</description>
+      <description>&lt;p&gt;One thing that I like is to show HEX colors on css, html and even on javascript
+using NEOVIM, to do that I was using &lt;code&gt;Colorizer&lt;/code&gt; plugin but now I switched to use
+&lt;a href=&#34;https://github.com/RRethy/vim-hexokinase&#34;&gt;vim-hexokinase&lt;/a&gt; and it&amp;rsquo;s asynchronous!&lt;/p&gt;
+&lt;p&gt;to install you might need to install before go language:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install go
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;and this is my config:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;let g:Hexokinase_ftOptInPatterns &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;css&amp;#39;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;full_hex,triple_hex,rgb,rgba,hsl,hsla,colour_names&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;html&amp;#39;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;full_hex,rgb,rgba,hsl,hsla&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;javascript&amp;#39;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;full_hex,rgb,rgba,hsl,hsla&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;let g:Hexokinase_virtualText &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;     ██████&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/carakan/dotfiles&#34;&gt;watch all of my dotfiles&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Happy coding!&lt;/p&gt;</description>
     </item>
     
   </channel>

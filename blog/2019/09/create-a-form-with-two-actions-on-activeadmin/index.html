@@ -7,11 +7,40 @@
 <meta name="robots" content="index, follow">
 <title>Create a Form With Two Actions on Activeadmin | carakan</title>
 <meta name="keywords" content="TIL, active admin, rails">
-<meta name="description" content="In a project that already using Activeadmin I had the requeriment of modify the actual form to create a student, but without validating that, so the solution was create into the model of active admin form and declare the form with two actions, one with the clasical behaviour and other when passed the params[:managed] with a custom route
-ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :student, as: :select, collection: User.">
+<meta name="description" content="In a project that already using Activeadmin I had the requeriment of modify the actual
+form to create a student, but without validating that, so the solution was create into
+the model of active admin form and declare the form with two actions, one with
+the clasical behaviour and other when passed the params[:managed] with a custom route
+ActiveAdmin.register InvestmentItem do
+  # ..
+  form do |f|
+    f.inputs do
+      f.input :student, as: :select, collection: User.students
+      f.input :amount
+      unless params[:managed]
+        f.input :course, as: :select, collection: Course.all
+        f.input :created_at
+      end
+    end
+    if params[:managed]
+      f.action :submit, as: :input, button_html: { formaction: :managed_create }
+    else
+      f.actions # this go to create/update
+    end
+  end
+
+  # ...
+
+  controller do
+    def managed_create
+      # do whatewer you want
+    end
+  end
+end
+Then button_html: { formaction: :managed_create } options in a :submit, does the trick.">
 <meta name="author" content="Carlos Ramos">
 <link rel="canonical" href="https://carakan.net/blog/2019/09/create-a-form-with-two-actions-on-activeadmin/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.5cfc680b1eeaeef9efbced92d46c2a9e876b72ee14fba85846afc4cff9e6e6f8.css" integrity="sha256-XPxoCx7q7vnvvO2S1Gwqnodrcu4U&#43;6hYRq/Ez/nm5vg=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f9f91002fe82ae229ce4b8ec18eafc3a9d22a76ba6da1975bd754e6e4f35999e.css" integrity="sha256-&#43;fkQAv6CriKc5LjsGOr8Op0ip2um2hl1vXVObk81mZ4=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://carakan.net/favicon.ico">
@@ -58,12 +87,38 @@ ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :stu
         }
 
     </style>
-</noscript>
-  
+</noscript><meta property="og:title" content="Create a Form With Two Actions on Activeadmin" />
+<meta property="og:description" content="In a project that already using Activeadmin I had the requeriment of modify the actual
+form to create a student, but without validating that, so the solution was create into
+the model of active admin form and declare the form with two actions, one with
+the clasical behaviour and other when passed the params[:managed] with a custom route
+ActiveAdmin.register InvestmentItem do
+  # ..
+  form do |f|
+    f.inputs do
+      f.input :student, as: :select, collection: User.students
+      f.input :amount
+      unless params[:managed]
+        f.input :course, as: :select, collection: Course.all
+        f.input :created_at
+      end
+    end
+    if params[:managed]
+      f.action :submit, as: :input, button_html: { formaction: :managed_create }
+    else
+      f.actions # this go to create/update
+    end
+  end
 
-<meta property="og:title" content="Create a Form With Two Actions on Activeadmin" />
-<meta property="og:description" content="In a project that already using Activeadmin I had the requeriment of modify the actual form to create a student, but without validating that, so the solution was create into the model of active admin form and declare the form with two actions, one with the clasical behaviour and other when passed the params[:managed] with a custom route
-ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :student, as: :select, collection: User." />
+  # ...
+
+  controller do
+    def managed_create
+      # do whatewer you want
+    end
+  end
+end
+Then button_html: { formaction: :managed_create } options in a :submit, does the trick." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://carakan.net/blog/2019/09/create-a-form-with-two-actions-on-activeadmin/" /><meta property="og:image" content="https://carakan.net/papermod-cover.png"/><meta property="article:section" content="blog" />
 <meta property="article:published_time" content="2019-09-11T18:22:45-04:00" />
@@ -73,8 +128,37 @@ ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :stu
 <meta name="twitter:image" content="https://carakan.net/papermod-cover.png"/>
 
 <meta name="twitter:title" content="Create a Form With Two Actions on Activeadmin"/>
-<meta name="twitter:description" content="In a project that already using Activeadmin I had the requeriment of modify the actual form to create a student, but without validating that, so the solution was create into the model of active admin form and declare the form with two actions, one with the clasical behaviour and other when passed the params[:managed] with a custom route
-ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :student, as: :select, collection: User."/>
+<meta name="twitter:description" content="In a project that already using Activeadmin I had the requeriment of modify the actual
+form to create a student, but without validating that, so the solution was create into
+the model of active admin form and declare the form with two actions, one with
+the clasical behaviour and other when passed the params[:managed] with a custom route
+ActiveAdmin.register InvestmentItem do
+  # ..
+  form do |f|
+    f.inputs do
+      f.input :student, as: :select, collection: User.students
+      f.input :amount
+      unless params[:managed]
+        f.input :course, as: :select, collection: Course.all
+        f.input :created_at
+      end
+    end
+    if params[:managed]
+      f.action :submit, as: :input, button_html: { formaction: :managed_create }
+    else
+      f.actions # this go to create/update
+    end
+  end
+
+  # ...
+
+  controller do
+    def managed_create
+      # do whatewer you want
+    end
+  end
+end
+Then button_html: { formaction: :managed_create } options in a :submit, does the trick."/>
 
 
 <script type="application/ld+json">
@@ -103,7 +187,7 @@ ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :stu
   "@type": "BlogPosting",
   "headline": "Create a Form With Two Actions on Activeadmin",
   "name": "Create a Form With Two Actions on Activeadmin",
-  "description": "In a project that already using Activeadmin I had the requeriment of modify the actual form to create a student, but without validating that, so the solution was create into the model of active admin form and declare the form with two actions, one with the clasical behaviour and other when passed the params[:managed] with a custom route\nActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :student, as: :select, collection: User.",
+  "description": "In a project that already using Activeadmin I had the requeriment of modify the actual form to create a student, but without validating that, so the solution was create into the model of active admin form and declare the form with two actions, one with the clasical behaviour and other when passed the params[:managed] with a custom route\nActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :student, as: :select, collection: User.students f.input :amount unless params[:managed] f.input :course, as: :select, collection: Course.all f.input :created_at end end if params[:managed] f.action :submit, as: :input, button_html: { formaction: :managed_create } else f.actions # this go to create/update end end # ... controller do def managed_create # do whatewer you want end end end Then button_html: { formaction: :managed_create } options in a :submit, does the trick.\n",
   "keywords": [
     "TIL", "active admin", "rails"
   ],
@@ -317,7 +401,7 @@ the clasical behaviour and other when passed the <code>params[:managed]</code> w
     </main>
     
 <footer class="footer">
-    <span>&copy; 2024 <a href="https://carakan.net/">carakan</a></span>
+    <span>&copy; 2025 <a href="https://carakan.net/">carakan</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

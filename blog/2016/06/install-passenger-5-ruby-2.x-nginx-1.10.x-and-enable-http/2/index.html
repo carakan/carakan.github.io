@@ -8,11 +8,19 @@
 <title>install passenger 5, ruby 2.x, nginx 1.10.x and enable HTTP/2 | carakan</title>
 <meta name="keywords" content="devop, http2, passenger, ruby">
 <meta name="description" content="Recently I found that passenger in the last version now uses nginx 1.10.x by default, as you knows since nginx 1.9.x nginx enables support for http2 but the 1.9.x on nginx is beta and when released the line 1.10 is production ready. The process will be describe for ubuntu 14.4 and 16.4:
-Install Dependencies apt-get update -y apt-get upgrade -y apt-get install sudo -y install the required packages:
-sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate python-docutils pkg-config cmake nodejs git-core Install Ruby For production sites is a MUST install from sources without using any versions managers like RVM, RENV or whatever this is why leads to hard to diagnose problems.">
+Install Dependencies
+apt-get update -y
+apt-get upgrade -y
+apt-get install sudo -y
+install the required packages:
+sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate python-docutils pkg-config cmake nodejs git-core
+Install Ruby
+For production sites is a MUST install from sources without using any versions
+managers like RVM, RENV or whatever this is why leads to hard to diagnose
+problems. Remove the old Ruby 1.8 if present:">
 <meta name="author" content="Carlos Ramos">
 <link rel="canonical" href="https://carakan.net/blog/2016/06/install-passenger-5-ruby-2.x-nginx-1.10.x-and-enable-http/2/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.5cfc680b1eeaeef9efbced92d46c2a9e876b72ee14fba85846afc4cff9e6e6f8.css" integrity="sha256-XPxoCx7q7vnvvO2S1Gwqnodrcu4U&#43;6hYRq/Ez/nm5vg=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f9f91002fe82ae229ce4b8ec18eafc3a9d22a76ba6da1975bd754e6e4f35999e.css" integrity="sha256-&#43;fkQAv6CriKc5LjsGOr8Op0ip2um2hl1vXVObk81mZ4=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://carakan.net/favicon.ico">
@@ -59,13 +67,18 @@ sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdb
         }
 
     </style>
-</noscript>
-  
-
-<meta property="og:title" content="install passenger 5, ruby 2.x, nginx 1.10.x and enable HTTP/2" />
+</noscript><meta property="og:title" content="install passenger 5, ruby 2.x, nginx 1.10.x and enable HTTP/2" />
 <meta property="og:description" content="Recently I found that passenger in the last version now uses nginx 1.10.x by default, as you knows since nginx 1.9.x nginx enables support for http2 but the 1.9.x on nginx is beta and when released the line 1.10 is production ready. The process will be describe for ubuntu 14.4 and 16.4:
-Install Dependencies apt-get update -y apt-get upgrade -y apt-get install sudo -y install the required packages:
-sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate python-docutils pkg-config cmake nodejs git-core Install Ruby For production sites is a MUST install from sources without using any versions managers like RVM, RENV or whatever this is why leads to hard to diagnose problems." />
+Install Dependencies
+apt-get update -y
+apt-get upgrade -y
+apt-get install sudo -y
+install the required packages:
+sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate python-docutils pkg-config cmake nodejs git-core
+Install Ruby
+For production sites is a MUST install from sources without using any versions
+managers like RVM, RENV or whatever this is why leads to hard to diagnose
+problems. Remove the old Ruby 1.8 if present:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://carakan.net/blog/2016/06/install-passenger-5-ruby-2.x-nginx-1.10.x-and-enable-http/2/" /><meta property="og:image" content="https://carakan.net/papermod-cover.png"/><meta property="article:section" content="blog" />
 <meta property="article:published_time" content="2016-06-24T17:27:00+00:00" />
@@ -76,8 +89,16 @@ sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdb
 
 <meta name="twitter:title" content="install passenger 5, ruby 2.x, nginx 1.10.x and enable HTTP/2"/>
 <meta name="twitter:description" content="Recently I found that passenger in the last version now uses nginx 1.10.x by default, as you knows since nginx 1.9.x nginx enables support for http2 but the 1.9.x on nginx is beta and when released the line 1.10 is production ready. The process will be describe for ubuntu 14.4 and 16.4:
-Install Dependencies apt-get update -y apt-get upgrade -y apt-get install sudo -y install the required packages:
-sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate python-docutils pkg-config cmake nodejs git-core Install Ruby For production sites is a MUST install from sources without using any versions managers like RVM, RENV or whatever this is why leads to hard to diagnose problems."/>
+Install Dependencies
+apt-get update -y
+apt-get upgrade -y
+apt-get install sudo -y
+install the required packages:
+sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate python-docutils pkg-config cmake nodejs git-core
+Install Ruby
+For production sites is a MUST install from sources without using any versions
+managers like RVM, RENV or whatever this is why leads to hard to diagnose
+problems. Remove the old Ruby 1.8 if present:"/>
 
 
 <script type="application/ld+json">
@@ -106,7 +127,7 @@ sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdb
   "@type": "BlogPosting",
   "headline": "install passenger 5, ruby 2.x, nginx 1.10.x and enable HTTP/2",
   "name": "install passenger 5, ruby 2.x, nginx 1.10.x and enable HTTP\/2",
-  "description": "Recently I found that passenger in the last version now uses nginx 1.10.x by default, as you knows since nginx 1.9.x nginx enables support for http2 but the 1.9.x on nginx is beta and when released the line 1.10 is production ready. The process will be describe for ubuntu 14.4 and 16.4:\nInstall Dependencies apt-get update -y apt-get upgrade -y apt-get install sudo -y install the required packages:\nsudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate python-docutils pkg-config cmake nodejs git-core Install Ruby For production sites is a MUST install from sources without using any versions managers like RVM, RENV or whatever this is why leads to hard to diagnose problems.",
+  "description": "Recently I found that passenger in the last version now uses nginx 1.10.x by default, as you knows since nginx 1.9.x nginx enables support for http2 but the 1.9.x on nginx is beta and when released the line 1.10 is production ready. The process will be describe for ubuntu 14.4 and 16.4:\nInstall Dependencies apt-get update -y apt-get upgrade -y apt-get install sudo -y install the required packages:\nsudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate python-docutils pkg-config cmake nodejs git-core Install Ruby For production sites is a MUST install from sources without using any versions managers like RVM, RENV or whatever this is why leads to hard to diagnose problems. Remove the old Ruby 1.8 if present:\n",
   "keywords": [
     "devop", "http2", "passenger", "ruby"
   ],
@@ -343,7 +364,7 @@ correct init I suggest to use this <a href="https://github.com/JasonGiedymin/ngi
     </main>
     
 <footer class="footer">
-    <span>&copy; 2024 <a href="https://carakan.net/">carakan</a></span>
+    <span>&copy; 2025 <a href="https://carakan.net/">carakan</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

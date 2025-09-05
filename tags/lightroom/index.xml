@@ -18,8 +18,13 @@
       <pubDate>Fri, 25 Jun 2021 11:15:20 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2021/06/dropbox-ignore-files-directories/</guid>
-      <description>Ignoring files or directories in dropbox is a hard thing, I thought it has like git, a .gitignore to config that, but no, we need to do a command for each file/dir, for example to ignore the files that creates a lightroom catalog (.lrcat) we need to do:
-xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previews.lrdata xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Previews.lrdata xattr -w com.dropbox.ignored 1 /Users/username/Dropbox/lightroom/2021-v10\ Helper.lrdata and to not longer ignore files we need this command:</description>
+      <description>&lt;p&gt;Ignoring files or directories in dropbox is a hard thing, I thought it has like git,
+a &lt;code&gt;.gitignore&lt;/code&gt; to config that, but no, we need to do a command for each file/dir, for example to ignore
+the files that creates a lightroom catalog (.lrcat) we need to do:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xattr -w com.dropbox.ignored &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; /Users/username/Dropbox/lightroom/2021-v10&lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt;Previews.lrdata
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xattr -w com.dropbox.ignored &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; /Users/username/Dropbox/lightroom/2021-v10&lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt;Previews.lrdata
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xattr -w com.dropbox.ignored &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; /Users/username/Dropbox/lightroom/2021-v10&lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt;Helper.lrdata
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;and to not longer ignore files we need this command:&lt;/p&gt;</description>
     </item>
     
   </channel>

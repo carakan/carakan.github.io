@@ -10,7 +10,7 @@
 <meta name="description" content="Carlos Ramos, software developer">
 <meta name="author" content="Carlos Ramos">
 <link rel="canonical" href="https://carakan.net/tags/dotfiles/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.5cfc680b1eeaeef9efbced92d46c2a9e876b72ee14fba85846afc4cff9e6e6f8.css" integrity="sha256-XPxoCx7q7vnvvO2S1Gwqnodrcu4U&#43;6hYRq/Ez/nm5vg=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f9f91002fe82ae229ce4b8ec18eafc3a9d22a76ba6da1975bd754e6e4f35999e.css" integrity="sha256-&#43;fkQAv6CriKc5LjsGOr8Op0ip2um2hl1vXVObk81mZ4=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://carakan.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://carakan.net/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://carakan.net/favicon-32x32.png">
@@ -56,10 +56,7 @@
         }
 
     </style>
-</noscript>
-  
-
-<meta property="og:title" content="Dotfiles" />
+</noscript><meta property="og:title" content="Dotfiles" />
 <meta property="og:description" content="Carlos Ramos, software developer" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://carakan.net/tags/dotfiles/" /><meta property="og:image" content="https://carakan.net/papermod-cover.png"/>
@@ -148,7 +145,8 @@
     <p>I was looking a simple way to get sync all of my current setup of vscode, I did’t found a proper way to do with another plugin, but I found a commands to do this sync.
 first to have a list of plugins installed and save to a file:
 code --list-extensions &gt; vscode-extensions.list to restore, read that file and install all plugins:
-cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat vscode-extensions....</p>
+cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat vscode-extensions.list --plain | xargs -L 1 code --install-extension you can easily put this list in your dotfiles example.
+...</p>
   </div>
   <footer class="entry-footer"><span title='2019-10-21 11:51:11 -0400 -04'>October 21, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to How to Sync Vscode Plugins Over Your Dotfiles" href="https://carakan.net/blog/2019/10/how-to-sync-vscode-plugins-over-your-dotfiles/"></a>
@@ -160,8 +158,9 @@ cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat
     </h2>
   </header>
   <div class="entry-content">
-    <p>Yes, I finally setup my work environment to work across in my differents machines, I used this tools for that:
-Tmux Powerline fonts patched (I uploaded my fonts patched) Iterm2 (v3.3) NeoVim Oh-My-Zsh Spf13 vim configuration Check out my public repo in that I wrote how to install if you want reuse my config.</p>
+    <p> Yes, I finally setup my work environment to work across in my differents machines, I used this tools for that:
+Tmux Powerline fonts patched (I uploaded my fonts patched) Iterm2 (v3.3) NeoVim Oh-My-Zsh Spf13 vim configuration Check out my public repo in that I wrote how to install if you want reuse my config.
+</p>
   </div>
   <footer class="entry-footer"><span title='2015-12-21 02:57:00 +0000 +0000'>December 21, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to My dotfiles" href="https://carakan.net/blog/2015/12/my-dotfiles/"></a>
@@ -169,7 +168,7 @@ Tmux Powerline fonts patched (I uploaded my fonts patched) Iterm2 (v3.3) NeoVim 
     </main>
     
 <footer class="footer">
-    <span>&copy; 2024 <a href="https://carakan.net/">carakan</a></span>
+    <span>&copy; 2025 <a href="https://carakan.net/">carakan</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

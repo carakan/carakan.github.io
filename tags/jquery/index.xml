@@ -18,8 +18,13 @@
       <pubDate>Thu, 21 Aug 2008 20:36:43 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/08/chat-ajax-no-obstrusivo-con-jquery/</guid>
-      <description>El desarrollo web actual esta evolucionando gracias a la tecnología que cambia dia a dia, perfeccionándose, pero esto puede ser inútil si no va ligada a una metodología o guias de estilo proporcionadas por personas con experiencia, recientemente apareció el termino de javascript no obtrusivo, que la propia wikipedia define como:
-Separación de la funcionalidad JavaScript (la &amp;ldquo;capa del comportamiento&amp;rdquo;) de las capas de estructura/contenido y de presentación de un página.</description>
+      <description>&lt;p&gt;El desarrollo web actual esta evolucionando gracias a la tecnología que cambia dia a dia, perfeccionándose, pero esto puede ser inútil si no va ligada a una metodología o guias de estilo proporcionadas por personas con experiencia, recientemente apareció el termino de &lt;a href=&#34;http://es.wikipedia.org/wiki/JavaScript_no_obstructivo&#34;&gt;javascript no obtrusivo&lt;/a&gt;, que la propia wikipedia define como:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Separación de la funcionalidad JavaScript (la &amp;ldquo;capa del comportamiento&amp;rdquo;) de las capas de estructura/contenido y de presentación de un página.&lt;/li&gt;
+&lt;li&gt;Uso de buenas prácticas a fin de evitar los problemas de incompatibilidad de la programación tradicional en JavaScript (tales como inconsistencias entre &lt;a href=&#34;http://es.wikipedia.org/wiki/Navegador_web&#34; title=&#34;Navegador web&#34;&gt;navegadores&lt;/a&gt; y falta de &lt;a href=&#34;http://es.wikipedia.org/wiki/Escalabilidad&#34; title=&#34;Escalabilidad&#34;&gt;escalabilidad&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;p&gt;Esto es que se crea dentro de cada pagina Html normal, tres capas distinguibles que son:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -28,7 +33,7 @@ Separación de la funcionalidad JavaScript (la &amp;ldquo;capa del comportamient
       <pubDate>Sun, 09 Dec 2007 05:39:40 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2007/12/manual-de-jquery-y-lo-que-debes-de-saber-antes-de-meterte-a-ajax/</guid>
-      <description>Hace bastante tiempo vi un tutorial de como aprender Html, css, javascript para el desarrollo de sitios web 2.0 denominados HTML Ya, CSS Ya, DHTML Ya , gracias a estos tutoriales, made in argentina, pude aprender diseño, javascript y primordialmente Ajax. Ahora vemos que dentro de estas iniciativas esta un completo tutorial de jquery. Suficiente para desarrollar cualquier solucion web profesionalmente. Le estoy echando un ojo a esto y complementando con lo poco que se de la libreria Prototype.</description>
+      <description>&lt;p&gt;Hace bastante tiempo vi un tutorial de como aprender Html, css, javascript para el &lt;a href=&#34;http://wiebia.com&#34;&gt;desarrollo de sitios web 2.0&lt;/a&gt; denominados &lt;a href=&#34;http://www.htmlya.com.ar/&#34;&gt;HTML Ya&lt;/a&gt;, &lt;a href=&#34;http://www.cssya.com.ar/&#34;&gt;CSS Ya&lt;/a&gt;, &lt;a href=&#34;http://www.dhtmlya.com.ar/&#34;&gt;DHTML Ya&lt;/a&gt; , gracias a estos tutoriales, made in argentina, pude aprender diseño, javascript y primordialmente &lt;a href=&#34;http://www.ajaxya.com.ar/&#34;&gt;Ajax.&lt;/a&gt; Ahora vemos que dentro de estas iniciativas esta un completo tutorial de &lt;a href=&#34;http://jquery.com/&#34;&gt;jquery.&lt;/a&gt; Suficiente para desarrollar cualquier solucion web profesionalmente. Le estoy echando un ojo a esto y complementando con lo poco que se de la libreria &lt;a href=&#34;http://www.prototypejs.org&#34;&gt;Prototype.&lt;/a&gt; &lt;a href=&#34;http://www.javascriptya.com.ar/jquery/&#34;&gt;Introducción a la librería jQuery (JavaScript)&lt;/a&gt; &lt;strong&gt;Actualizacion&lt;/strong&gt;: Gracias a este &lt;a href=&#34;http://www.lacaraoscura.com/2007/11/15/jrails-plugin-para-rails-que-reemplaza-prototypescriptaculous-por-jquery/&#34;&gt;sitio&lt;/a&gt;, para los que trabajan con Ruby on rails, y ven a Prototype+Scriptaculus muy pesado, existe un plugin helper que nos permite trabajar como seda con esto de jquery, &lt;a href=&#34;http://ennerchi.com/projects/jrails&#34;&gt;jrails&lt;/a&gt;. &lt;strong&gt;Actualizacion (28/08/2008):&lt;/strong&gt; He desarrollado un &lt;a href=&#34;http://www.carakan.info/2008/08/21/chat-no-obstrusivo-con-jquery/&#34; title=&#34;chat con jquery no obtrusivo&#34;&gt;Chat no obtrusivo con jquery&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>

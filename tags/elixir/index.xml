@@ -18,8 +18,26 @@
       <pubDate>Fri, 13 Oct 2023 10:29:20 -0400</pubDate>
       
       <guid>https://carakan.net/blog/2023/10/how-to-install-livebook-with-asdf/</guid>
-      <description>I&amp;rsquo;m reading this book Machine learning in Elixir so I tested elixir livebook on my macos using the .dmg installer , and it’s running smoothly. I decided to install it locally on my computer to know what is happening behind the scenes, so it’s straightforward; only need to run these commands:
-# install or update rebar and hex mix do local.rebar --force, local.hex --force # install as executable livebook mix escript.</description>
+      <description>&lt;p&gt;I&amp;rsquo;m reading this book &lt;a href=&#34;https://pragprog.com/titles/smelixir/machine-learning-in-elixir/&#34;&gt;Machine learning in Elixir&lt;/a&gt;
+so I tested elixir livebook on my macos using the &lt;a href=&#34;https://livebook.dev/releases/latest/LivebookInstall-latest-macos-universal.dmg&#34;&gt;.dmg installer&lt;/a&gt;
+, and it’s running smoothly. I decided to install it locally on my computer to
+know what is happening behind the scenes, so it’s straightforward; only need to
+run these commands:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# install or update rebar and hex&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mix &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; local.rebar --force, local.hex --force
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# install as executable livebook&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mix escript.install hex livebook
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# reshim asdf elixir&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;asdf reshim elixir
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Start the Livebook server anywhere&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;livebook server
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# See all the configuration options&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;livebook server --help
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;All of these install instructions are already explained in the &lt;a href=&#34;https://github.com/livebook-dev/livebook#escript&#34;&gt;README of livebook&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -28,10 +46,15 @@
       <pubDate>Wed, 03 Oct 2018 18:49:26 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2018/10/my-first-elixir-library-softrepo/</guid>
-      <description>don’t destroy sensible data
-It’s a placer to announce my first library, this handle soft-delete using directly a Repo wrapper, so the main idea is to have a global lib/module that represent all of the logic to do soft-delete of records.
-The setup and usage has been written on the README of soft_repo.
-Future The idea is to have a basic library that handles soft-delete, but in a future I&amp;rsquo;ll implement:</description>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://carakan.net/blog/2018/10/my-first-elixir-library-softrepo/images/1.jpeg&#34; alt=&#34;image&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;don’t destroy sensible data&lt;/p&gt;
+&lt;p&gt;It’s a placer to announce my first library, this handle soft-delete using directly
+a Repo wrapper, so the main idea is to have a global lib/module that represent all
+of the logic to do soft-delete of records.&lt;/p&gt;
+&lt;p&gt;The setup and usage has been written on the &lt;a href=&#34;https://github.com/carakan/soft_repo&#34;&gt;README of soft_repo&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;future&#34;&gt;Future&lt;/h3&gt;
+&lt;p&gt;The idea is to have a basic library that handles soft-delete, but in a future I&amp;rsquo;ll implement:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -40,9 +63,9 @@ Future The idea is to have a basic library that handles soft-delete, but in a fu
       <pubDate>Tue, 24 Nov 2015 03:17:52 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2015/11/learning-elixir-programming-language/</guid>
-      <description>I’m really exited about to learn new programming language ‘Elixir’ running on top of Erlang OTP, I was reading some books like ‘Metaprograming with elixir’ and other things.
-The idea of learning is create a websocket for my startup folgama in that I’m planning to ’STREAM’ all of activities about a person, adding geolocalization, upload pictures, send messages.
-I’m going to share here some of my experience working on that.</description>
+      <description>&lt;p&gt;I’m really exited about to learn new programming language ‘Elixir’ running on top of Erlang OTP, I was reading some books like ‘Metaprograming with elixir’ and other things.&lt;/p&gt;
+&lt;p&gt;The idea of learning is create a websocket for my startup &lt;a href=&#34;http://www.carakan.info/category/folgama/&#34; title=&#34;social network&#34;&gt;folgama&lt;/a&gt; in that I’m planning to ’STREAM’ all of activities about a person, adding geolocalization, upload pictures, send messages.&lt;/p&gt;
+&lt;p&gt;I’m going to share here some of my experience working on that.&lt;/p&gt;</description>
     </item>
     
   </channel>

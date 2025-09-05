@@ -18,7 +18,7 @@
       <pubDate>Wed, 10 Dec 2008 13:00:00 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/12/videos-sobre-los-inform%C3%A1ticos/</guid>
-      <description>Nuestra profesión que todavía no es entendida, por la sociedad :P .</description>
+      <description>&lt;p&gt;Nuestra profesión que todavía no es entendida, por la sociedad :P .&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -27,7 +27,12 @@
       <pubDate>Thu, 29 May 2008 20:40:57 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2008/05/noticias-breves/</guid>
-      <description> 21 concejos para programar en ruby on rails. Como cambiar de imagenes en el header de una pagina con php. Has que firefox sea un record guiness. Consejos para mejorar el uso de los CSS evitando su abuso. </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.rubyinside.com/21-ruby-tricks-902.html&#34;&gt;21 concejos para programar en ruby on rails&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.devlounge.net/articles/rotating-banners-in-php&#34;&gt;Como cambiar de imagenes en el header de una pagina con php&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.spreadfirefox.com/es-ES/worldrecord&#34;&gt;Has que firefox sea un record guiness.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cssglobe.com/post/1815/css-diseases-divitis-classitis&#34;&gt;Consejos para mejorar el uso de los CSS evitando su abuso.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -36,7 +41,7 @@
       <pubDate>Fri, 28 Dec 2007 21:38:49 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2007/12/novedades-para-el-2008/</guid>
-      <description>Dejo una serie de post que la verdad me sorprendieron: Salio ruby 1.9 Aunque en la version development, arreglaran algunas bugs y ya estara la version para produccion. Windows Vista es un fracaso y canjearan la licencia por Xp!!! Ya lo sabia nunca lo instale, pero por ahora quiero instalar leopard en mi PC. Diferencien si es broma o no :)</description>
+      <description>&lt;p&gt;Dejo una serie de post que la verdad me sorprendieron: &lt;a href=&#34;http://www.rubyinside.com/ruby-19-is-released-680.html&#34;&gt;Salio ruby 1.9&lt;/a&gt; Aunque en la version development, arreglaran algunas bugs y ya estara la version para produccion. &lt;a href=&#34;http://www.online.com.es/2866/microsoft/microsoft-admite-el-fracaso-del-windows-vista/&#34;&gt;Windows Vista es un fracaso y canjearan la licencia por Xp!!!&lt;/a&gt; Ya lo sabia nunca lo instale, pero por ahora quiero instalar leopard en mi PC. Diferencien si es broma o no :)&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -45,7 +50,7 @@
       <pubDate>Wed, 03 Oct 2007 14:39:18 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2007/10/usando-netbeans-en-linux/</guid>
-      <description>Estoy tratando de migrar mis desarrollos de ruby on rails a la plataforma Linux por que el guindows me hace renegar bastante, Leopart donde esta que no te veo?, un problema al principio fue el poder utilizar gettext 1.9 en mi proyecto, Video-Tutorial gracias al compañero Vincent Gozalves, a un principio funciono, un simple controlador y sus dos vistas, funciona!!!, me dije por mis dentros así que empecé a desarrollar todo el sitio, terminando ahora me faltaba solamente la traducción, así que hice mi “rake updatepo” y me mando este maldito mensaje:</description>
+      <description>&lt;p&gt;Estoy tratando de migrar mis desarrollos de ruby on rails a la plataforma Linux por que el guindows me hace renegar bastante, Leopart donde esta que no te veo?, un problema al principio fue el poder utilizar &lt;a href=&#34;http://rubyforge.org/frs/?group_id=855&#34;&gt;gettext 1.9&lt;/a&gt; en mi proyecto, Video-Tutorial gracias al compañero &lt;a href=&#34;http://www.vicentgozalbes.com/articles/category/tutoriales/&#34; title=&#34;Videotutoriales de Ruby on rails&#34;&gt;Vincent Gozalves&lt;/a&gt;, a un principio funciono, un simple controlador y sus dos vistas, funciona!!!, me dije por mis dentros así que empecé a desarrollar todo el sitio, terminando ahora me faltaba solamente la traducción, así que hice mi “rake updatepo” y me mando este maldito mensaje:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -54,7 +59,10 @@
       <pubDate>Tue, 25 Sep 2007 21:46:28 +0000</pubDate>
       
       <guid>https://carakan.net/blog/2007/09/aprender-a-manejar-los-feeds-y-google-reader/</guid>
-      <description>Viendo que estamos en la época de la Web 2.0, veo muy necesario para un internauta el tener que buscar información variada que le interese, mi experiencia fue bastante singular, al momento de conocer un buen sitio, mas que todo algunos blogs, creí necesario tener que visitarlo cada cierto tiempo, así que cuando podía reescribía la URL para poder lo nuevo en ese blog, esto me fue cansando ya que era repetitivo, así que vi otras formas y encontré primeramente a los navegadores tenían una opción de guardar los Feeds pero esto no me convencía ya que acá, en Bolivia, todavía no se generalizado el uso de Internet y a veces debes de ir a Cafés Internet y donde has guardado tus feeds no están disponibles, así que me quede como en el principio, en nada.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://carakan.com/wp-content/uploads/2007/09/reader.JPG&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://carakan.com/wp-content/uploads/2007/09/reader.JPG&#34; alt=&#34;&#34;  /&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Viendo que estamos en la época de la Web 2.0, veo muy necesario para un internauta el tener que buscar información variada que le interese, mi experiencia fue bastante singular, al momento de conocer un buen sitio, mas que todo algunos blogs, creí necesario tener que visitarlo cada cierto tiempo, así que cuando podía reescribía la URL para poder lo nuevo en ese blog, esto me fue cansando ya que era repetitivo, así que vi otras formas y encontré primeramente a los navegadores tenían una opción de guardar los Feeds&lt;a href=&#34;http://carakan.com/wp-content/uploads/2007/09/logo_rss.JPG&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://carakan.com/wp-content/uploads/2007/09/logo_rss.JPG&#34; alt=&#34;&#34;  /&gt;
+&lt;/a&gt; pero esto no me convencía ya que acá, en Bolivia, todavía no se generalizado el uso de Internet y a veces debes de ir a Cafés Internet y donde has guardado tus feeds no están disponibles, así que me quede como en el principio, en  nada.&lt;/p&gt;</description>
     </item>
     
   </channel>
