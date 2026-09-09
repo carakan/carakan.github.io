@@ -1,0 +1,252 @@
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+%	The MIT License (MIT)
+%
+%	Copyright (c) 2021 Jitin Nair
+%
+%	Permission is hereby granted, free of charge, to any person obtaining a copy
+%	of this software and associated documentation files (the "Software"), to deal
+%	in the Software without restriction, including without limitation the rights
+%	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%	copies of the Software, and to permit persons to whom the Software is
+%	furnished to do so, subject to the following conditions:
+%
+%	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+%	THE SOFTWARE.
+%
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+% Carlos Ramos — resume based on the autoCV template (cv_template.tex)
+% Compile: tectonic carakan_resume.tex
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT DEFINITION
+%----------------------------------------------------------------------------------------
+
+% article class because we want to fully customize the page and not use a cv template
+\documentclass[a4paper,12pt]{article}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage{url}
+\usepackage{parskip}
+
+%other packages for formatting
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9]{geometry}
+
+%tabularx environment
+\usepackage{tabularx}
+
+%for lists within experience section
+\usepackage{enumitem}
+
+% centered version of 'X' col. type
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+%to prevent spillover of tabular into next pages
+\usepackage{supertabular}
+\usepackage{tabularx}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.47\textwidth}
+
+%custom \section
+\usepackage{titlesec}
+\usepackage{multicol}
+\usepackage{multirow}
+
+%CV Sections inspired by:
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{10pt}
+
+%Setup hyperref package, and colours for links
+\usepackage[unicode, draft=false]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+
+%for social icons
+\usepackage{fontawesome5}
+
+%per-job skills line: 20% smaller than body text (12pt -> 9.6pt)
+\newcommand{\skillsfont}{\fontsize{9.6}{11.5}\selectfont}
+
+%debug page outer frames
+%\usepackage{showframe}
+
+
+% job listing environments
+\newenvironment{jobshort}[2]
+    {
+    \begin{tabularx}{\linewidth}{@{}l X r@{}}
+    \textbf{#1} & \hfill &  #2 \\[3.75pt]
+    \end{tabularx}
+    }
+    {
+    }
+
+\newenvironment{joblong}[2]
+    {
+    \begin{tabularx}{\linewidth}{@{}l X r@{}}
+    \textbf{#1} & \hfill &  #2 \\[3.75pt]
+    \end{tabularx}
+    \begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt,label=--]
+    }
+    {
+    \end{itemize}
+    \end{minipage}
+    }
+
+
+
+%----------------------------------------------------------------------------------------
+%	BEGIN DOCUMENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+% non-numbered pages
+\pagestyle{empty}
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{Carlos Ramos} \\[7.5pt]
+\Large{Senior Software Engineer \& Team Leader} \\[7.5pt]
+\href{mailto:carakan@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ carakan@gmail.com} \ $|$ \
+\href{https://carakan.net}{\raisebox{-0.05\height}\faGlobe \ carakan.net} \ $|$ \
+\href{https://www.linkedin.com/in/carakan}{\raisebox{-0.05\height}\faLinkedin\ linkedin.com} \ $|$ \
+\href{https://github.com/carakan}{\raisebox{-0.05\height}\faGithub\ github.com} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+% EXPERIENCE SECTIONS
+%----------------------------------------------------------------------------------------
+
+%Interests/ Keywords/ Summary
+\section{Summary}
+Senior Software Engineer and Team Leader designing and shipping reliable
+products for international clients. Hands-on with \textbf{AI-assisted
+development}: AI agents for engineering workflows, local LLMs for
+privacy-sensitive work, and AI-assisted automation of production support.
+Deep experience across object-oriented, functional, and event-driven systems,
+DDD-based design, real-time features, and modernizing legacy codebases into
+scalable platforms.
+
+%Experience
+\section{Work Experience}
+
+\begin{joblong}{Kopius, Inc. --- Senior Ruby/Node.js Support Engineer}{Mar 2024 -- Present}
+\item Maintenance of a complex legacy system;
+      ticket management: logging, tracking, and prioritizing requests using
+      ticketing tools and \textbf{AI-driven automation}.
+\item Overseeing the decommissioning of the legacy system, which serves over
+      \textbf{100,000 active paying users}.
+\par\vspace{6pt}\item[]\skillsfont\textit{Skills:} Ruby, Bun, TypeScript, opencode, Jira Automation, AI Agents, PostgreSQL
+\end{joblong}
+
+\begin{joblong}{Kopius, Inc. --- Senior Ruby Backend Developer}{May 2022 -- Dec 2023}
+\item Legacy multi-tenant ERP/CRM system for
+      large-scale organizational use.
+\item Analyzed and optimized slow requests in the legacy application, debloated
+      production/test server memory consumption, and improved report generation
+      and storage --- saving approximately \textbf{\$50K USD in annual AWS costs}.
+\item Owned the new mobile backend API with real-time messaging and in-app/native
+      mobile calls (React Native/Expo integration), delivering a solid mobile app
+      to 1K+ users.
+\item Provided engineering support and internal tooling for production systems.
+\par\vspace{6pt}\item[]\skillsfont\textit{Skills:} Twilio, Amazon S3, Financial Reporting, Elasticsearch, Ruby, RSpec,
+      Sidekiq, WebRTC, PostgreSQL, Travis CI
+\end{joblong}
+
+\begin{joblong}{EMR-Bear, LLC --- Senior Software Developer}{May 2020 -- May 2022}
+\item In-house legacy Electronic Medical Record
+      (EMR) system transitioning to SaaS.
+\item Delivered a \textbf{telehealth video call feature} during the COVID-19
+      pandemic, helping thousands of people access remote care.
+\item Added features to legacy code, set up CI/CD, raised test coverage from
+      \textbf{0\% to 50\%}, and improved application security.
+\par\vspace{6pt}\item[]\skillsfont\textit{Skills:} Ruby on Rails, Amazon S3, RSpec, MariaDB, jQuery, React.js, Docker,
+      WebRTC, Twilio, GitHub Actions
+\end{joblong}
+
+\begin{joblong}{Zenlabs --- CTO / Senior Developer / Freelancer}{Sept 2007 -- Present}
+\item Led all engineering aspects --- strategy, architecture,
+      and delivery --- for small and medium-sized Latin American startups as CTO,
+      Team Leader, and Senior Developer. One startup received a \textbf{\$50K seed
+      round} in a startup accelerator.
+\item Built and led teams of developers delivering high-quality software across
+      multiple concurrent client projects.
+\par\vspace{6pt}\item[]\skillsfont\textit{Skills:} Ruby on Rails, MySQL, PostgreSQL, RSpec, Capybara, WebSockets,
+      Pusher.io, JSON, Mobile, AWS
+\end{joblong}
+
+\begin{joblong}{Expedition.ws --- Full-Stack Developer}{Dec 2016 -- Dec 2018}
+\item Social network for travelers focused on
+      streaming interactions: chat, geolocation, video, recommendations, and
+      virtual tours.
+\item Developed APIs in \textbf{Elixir/Phoenix with OTP}, real-time WebSocket
+      features, geolocation, and multimedia processing; integrated with Ember.js
+      and shipped a Progressive Web App (PWA) with web workers.
+\par\vspace{6pt}\item[]\skillsfont\textit{Skills:} Elixir, Phoenix, OTP, Ember.js, PostgreSQL, WebSockets, Mobile, TDD
+\end{joblong}
+
+\begin{joblong}{Mojix --- Senior Developer}{May 2015 -- Feb 2016}
+\item PINC YMS: extensive legacy warehouse management system
+      with IoT features for asset tracking.
+\item Transitioned asset monitoring from static polling to a real-time,
+      \textbf{Event Sourcing}-centric architecture for \textbf{50K connected assets}.
+\item Designed and implemented API interoperability as microservices.
+\item Improved performance of reports and dashboards, strengthened the test
+      suite, and set up CI/CD.
+\par\vspace{6pt}\item[]\skillsfont\textit{Skills:} Ruby on Rails, PostgreSQL, Redis, RSpec, CircleCI, Amazon S3, Amazon SQS
+\end{joblong}
+
+\begin{joblong}{TeraCode --- Software Developer}{Sept 2009 -- May 2010}
+\item Blueleaf: outsourced team building the first
+      production release of a fast-growing fintech startup.
+\item Delivered features with RSpec/TDD and integrated third-party services
+      using JSON, XML-RPC, and SOAP.
+\par\vspace{6pt}\item[]\skillsfont\textit{Skills:} Ruby on Rails, Haml, RSpec, MySQL
+\end{joblong}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+2007 -- 2012 & Bachelor of Computer Science at \textbf{Universidad Mayor de San Andr\'es} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+\section{Skills}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+AI &  \normalsize{AI Agents, Local LLMs, Prompt Engineering, Production Support Automation, AI-Assisted Development}\\
+Backend &  \normalsize{Ruby, Ruby on Rails, Elixir, Phoenix, OTP, Microservices, REST APIs}\\
+Frontend &  \normalsize{React.js, Ember.js, TypeScript, Progressive Web Apps (PWA)}\\
+Data \& Infra &  \normalsize{PostgreSQL, MySQL, Redis, Elasticsearch, RabbitMQ, Amazon Web Services (AWS), Docker, CI/CD (GitHub Actions, CircleCI, Travis CI)}\\
+Real-Time &  \normalsize{WebSockets, WebRTC, Event Sourcing, Twilio, Sidekiq}\\
+Practices &  \normalsize{Domain-Driven Design (DDD), Test-Driven Development (TDD), RSpec, Capybara, Telehealth, IoT}\\
+Leadership &  \normalsize{Team Leadership, Mentoring, Project Ownership, Async Remote Collaboration}\\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+\section{Languages}
+Spanish (Native) \ $|$ \ English (Full Professional Proficiency)
+
+\vfill
+\center{\footnotesize Last updated: \today}
+
+\end{document}

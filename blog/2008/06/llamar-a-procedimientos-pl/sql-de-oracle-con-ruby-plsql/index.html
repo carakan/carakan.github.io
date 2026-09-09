@@ -28,7 +28,7 @@ end
 Y para mostrar el dato, en la vista:">
 <meta name="author" content="Carlos Ramos">
 <link rel="canonical" href="https://carakan.net/blog/2008/06/llamar-a-procedimientos-pl/sql-de-oracle-con-ruby-plsql/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.f9f91002fe82ae229ce4b8ec18eafc3a9d22a76ba6da1975bd754e6e4f35999e.css" integrity="sha256-&#43;fkQAv6CriKc5LjsGOr8Op0ip2um2hl1vXVObk81mZ4=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.5cfc680b1eeaeef9efbced92d46c2a9e876b72ee14fba85846afc4cff9e6e6f8.css" integrity="sha256-XPxoCx7q7vnvvO2S1Gwqnodrcu4U&#43;6hYRq/Ez/nm5vg=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://carakan.net/favicon.ico">
@@ -254,14 +254,14 @@ Y para mostrar el dato, en la vista:"/>
   </header> 
   <div class="post-content"><p>Buscando una manera mas sencilla de poder llamar a procedimientos almacenados de Oracle pl/sql, encontré la gema ruby-plsql que es una simple API para procedimientos almacenados en oracle, su uso es muy sencillo como el siguiente:</p>
 <p>Si tenemos el siguiente paquete:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">CREATE</span> <span style="color:#66d9ef">OR</span> <span style="color:#66d9ef">REPLACE</span> PACKAGE BODY scott.pck_prueba <span style="color:#66d9ef">IS</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">CREATE</span> <span style="color:#66d9ef">OR</span> <span style="color:#66d9ef">REPLACE</span> PACKAGE BODY scott.pck_prueba <span style="color:#66d9ef">IS</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">PROCEDURE</span> LeeDatos(p_in VARCHAR2, p_out <span style="color:#66d9ef">OUT</span> VARCHAR2) <span style="color:#66d9ef">IS</span>
 </span></span><span style="display:flex;"><span>       <span style="color:#66d9ef">BEGIN</span>
 </span></span><span style="display:flex;"><span>       p_out :<span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Se introdujo: &#39;</span> <span style="color:#f92672">||</span> p_in;
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">END</span>;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">END</span>;
 </span></span></code></pre></div><p>Ahora dentro del código, como ejemplo dentro del controlador:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span>require <span style="color:#960050;background-color:#1e0010">“</span>ruby_plsql<span style="color:#960050;background-color:#1e0010">”</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span>require <span style="color:#960050;background-color:#1e0010">“</span>ruby_plsql<span style="color:#960050;background-color:#1e0010">”</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UsuariosController</span> <span style="color:#f92672">&lt;</span> <span style="color:#66d9ef">ApplicationController</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">index</span>
 </span></span><span style="display:flex;"><span>    @usuarios <span style="color:#f92672">=</span> <span style="color:#66d9ef">Usuario</span><span style="color:#f92672">.</span>all
@@ -271,9 +271,9 @@ Y para mostrar el dato, en la vista:"/>
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span></code></pre></div><p>Y para mostrar el dato, en la vista:</p>
-<pre tabindex="0"><code class="language-erb" data-lang="erb"> &lt;%= @hola[:p_out] %&gt;
-</code></pre><p>Para poder instalar la gema solamente teclee:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span><span style="color:#f92672">[</span>sudo<span style="color:#f92672">]</span> gem install ruby-plsql
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-erb" data-lang="erb"><span style="display:flex;"><span> <span style="color:#75715e">&lt;%=</span> @hola<span style="color:#f92672">[</span><span style="color:#e6db74">:p_out</span><span style="color:#f92672">]</span> <span style="color:#75715e">%&gt;</span>
+</span></span></code></pre></div><p>Para poder instalar la gema solamente teclee:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span><span style="color:#f92672">[</span>sudo<span style="color:#f92672">]</span> gem install ruby-plsql
 </span></span></code></pre></div><p>Realmente me facilito bastante el trabajo, me gusta el concepto y el uso que engloba la metaprogramacion.</p>
 <p><strong>Nota.-</strong> Trabajando con la gema note que no trabaja en procedimientos con variables de entrada y salida, sino solamente de entrada o salida.</p>
 
@@ -360,7 +360,7 @@ Y para mostrar el dato, en la vista:"/>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2025 <a href="https://carakan.net/">carakan</a></span>
+    <span>&copy; 2026 <a href="https://carakan.net/">carakan</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

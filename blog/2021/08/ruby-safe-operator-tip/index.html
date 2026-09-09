@@ -19,7 +19,7 @@ So, in the last part of the code using the &amp; is not causing an error because
 safe operator logic is:">
 <meta name="author" content="Carlos Ramos">
 <link rel="canonical" href="https://carakan.net/blog/2021/08/ruby-safe-operator-tip/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.f9f91002fe82ae229ce4b8ec18eafc3a9d22a76ba6da1975bd754e6e4f35999e.css" integrity="sha256-&#43;fkQAv6CriKc5LjsGOr8Op0ip2um2hl1vXVObk81mZ4=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.5cfc680b1eeaeef9efbced92d46c2a9e876b72ee14fba85846afc4cff9e6e6f8.css" integrity="sha256-XPxoCx7q7vnvvO2S1Gwqnodrcu4U&#43;6hYRq/Ez/nm5vg=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://carakan.net/favicon.ico">
@@ -228,20 +228,20 @@ safe operator logic is:"/>
   <div class="post-content"><p>In my current work, I&rsquo;m using (abusing) of the ruby safe operator <code>&amp;</code>, which is a
 native implementation of <a href="https://medium.com/@kelseydh/using-the-null-object-pattern-with-ruby-on-rails-b645ebf79785">the null pattern</a>,
 for example, in a chain of messages:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span>user<span style="color:#f92672">.</span>billings<span style="color:#f92672">.</span>first<span style="color:#f92672">.</span>cost
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span>user<span style="color:#f92672">.</span>billings<span style="color:#f92672">.</span>first<span style="color:#f92672">.</span>cost
 </span></span></code></pre></div><p>It could be thrown an error when for example the <code>billings</code> of a user is empty and
 <code>first</code> returns a nil object and then <code>nil.cost</code> creates an Exception.</p>
 <p>With the safe operator <code>&amp;</code> this avoids the error:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span>user<span style="color:#f92672">.</span>billings<span style="color:#f92672">.</span>first<span style="color:#f92672">&amp;.</span>cost <span style="color:#75715e"># =&gt; 5.3838</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span>user<span style="color:#f92672">.</span>billings<span style="color:#f92672">.</span>first<span style="color:#f92672">&amp;.</span>cost <span style="color:#75715e"># =&gt; 5.3838</span>
 </span></span></code></pre></div><p>So, in the last part of the code using the <code>&amp;</code> is not causing an error because the
 safe operator logic is:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">nil</span><span style="color:#f92672">&amp;.</span>any_method <span style="color:#75715e"># =&gt; nil</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">nil</span><span style="color:#f92672">&amp;.</span>any_method <span style="color:#75715e"># =&gt; nil</span>
 </span></span></code></pre></div><p>At the internals, the Ruby language is added with metaprogramming any method
 into the class <code>NilClass</code> and that method <em>only</em> returns <code>nil</code>, this is totally
 useful to avoid runtime errors.</p>
 <p>The problem appears when is needed to compare values, specifically with the
 methods ending with <code>?</code>, check this table:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">nil</span><span style="color:#f92672">.</span>nil?       <span style="color:#75715e"># returns: true</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">nil</span><span style="color:#f92672">.</span>nil?       <span style="color:#75715e"># returns: true</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">nil</span><span style="color:#f92672">&amp;.</span>nil?      <span style="color:#75715e"># returns: nil</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">nil</span><span style="color:#f92672">.</span>empty?     <span style="color:#75715e"># returns: true</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">nil</span><span style="color:#f92672">&amp;.</span>empty?    <span style="color:#75715e"># returns: nil</span>
@@ -250,19 +250,19 @@ methods ending with <code>?</code>, check this table:</p>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">nil</span><span style="color:#f92672">.</span>present?   <span style="color:#75715e"># returns: false</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">nil</span><span style="color:#f92672">&amp;.</span>present?  <span style="color:#75715e"># returns: nil</span>
 </span></span></code></pre></div><p>And evaluating <code>nil</code> in conditionals is <code>false</code>, for example, this trivial code:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> user<span style="color:#f92672">.</span>store<span style="color:#f92672">.</span>purchases<span style="color:#f92672">.</span>empty?
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> user<span style="color:#f92672">.</span>store<span style="color:#f92672">.</span>purchases<span style="color:#f92672">.</span>empty?
 </span></span><span style="display:flex;"><span>  send_email_suggesting_products
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span></code></pre></div><p>If the user does not have a store, <code>nil.purchases</code> throws an exception, avoiding
 the error the code looks like:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> user<span style="color:#f92672">.</span>store<span style="color:#f92672">&amp;.</span>purchases<span style="color:#f92672">&amp;.</span>empty?
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> user<span style="color:#f92672">.</span>store<span style="color:#f92672">&amp;.</span>purchases<span style="color:#f92672">&amp;.</span>empty?
 </span></span><span style="display:flex;"><span>  send_email_suggesting_products
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span></code></pre></div><p>This code avoids runtime errors but adds a new logic error, this code <em>never</em>
 sent an email, that is because <code>nil&amp;.empty?</code> always returns <code>nil</code> if the store
 is a <code>nil</code> value.</p>
 <p>To avoid this behavior only delete the <code>&amp;</code> at the end, now the code is:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> user<span style="color:#f92672">.</span>store<span style="color:#f92672">&amp;.</span>purchases<span style="color:#f92672">.</span>empty?
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> user<span style="color:#f92672">.</span>store<span style="color:#f92672">&amp;.</span>purchases<span style="color:#f92672">.</span>empty?
 </span></span><span style="display:flex;"><span>  send_email_suggesting_products
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span></code></pre></div><p>now <code>nil.empty?</code> (in rails) returns the correct <code>true</code> and sends the email.</p>
@@ -350,7 +350,7 @@ values, avoid or double-check the usage of <code>&amp;</code>.</p>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2025 <a href="https://carakan.net/">carakan</a></span>
+    <span>&copy; 2026 <a href="https://carakan.net/">carakan</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

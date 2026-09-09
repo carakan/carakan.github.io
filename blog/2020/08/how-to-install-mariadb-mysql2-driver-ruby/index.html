@@ -14,7 +14,7 @@ gem install mysql2 -- --with-mysql-config=$(brew --prefix mariadb@10.2)/bin/mysq
 ">
 <meta name="author" content="Carlos Ramos">
 <link rel="canonical" href="https://carakan.net/blog/2020/08/how-to-install-mariadb-mysql2-driver-ruby/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.f9f91002fe82ae229ce4b8ec18eafc3a9d22a76ba6da1975bd754e6e4f35999e.css" integrity="sha256-&#43;fkQAv6CriKc5LjsGOr8Op0ip2um2hl1vXVObk81mZ4=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.5cfc680b1eeaeef9efbced92d46c2a9e876b72ee14fba85846afc4cff9e6e6f8.css" integrity="sha256-XPxoCx7q7vnvvO2S1Gwqnodrcu4U&#43;6hYRq/Ez/nm5vg=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://carakan.net/favicon.ico">
@@ -213,7 +213,7 @@ gem install mysql2 -- --with-mysql-config=$(brew --prefix mariadb@10.2)/bin/mysq
   <div class="post-content"><p>In a project I had troubles triying to install mysql2 gem with a older version
 of mariadb installed via homebrew.</p>
 <p>the solution is to send the path of the installation.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span>gem install mysql2 <span style="color:#f92672">--</span> <span style="color:#f92672">--</span>with<span style="color:#f92672">-</span>mysql<span style="color:#f92672">-</span>config<span style="color:#f92672">=</span><span style="color:#960050;background-color:#1e0010">$</span>(brew <span style="color:#f92672">--</span>prefix mariadb<span style="color:#960050;background-color:#1e0010">@</span><span style="color:#ae81ff">10</span><span style="color:#f92672">.</span><span style="color:#ae81ff">2</span>)<span style="color:#f92672">/</span>bin<span style="color:#f92672">/</span>mysql_config 
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span>gem install mysql2 <span style="color:#f92672">--</span> <span style="color:#f92672">--</span>with<span style="color:#f92672">-</span>mysql<span style="color:#f92672">-</span>config<span style="color:#f92672">=</span><span style="color:#960050;background-color:#1e0010">$</span>(brew <span style="color:#f92672">--</span>prefix mariadb<span style="color:#960050;background-color:#1e0010">@</span><span style="color:#ae81ff">10</span><span style="color:#f92672">.</span><span style="color:#ae81ff">2</span>)<span style="color:#f92672">/</span>bin<span style="color:#f92672">/</span>mysql_config 
 </span></span></code></pre></div>
 
   </div>
@@ -296,7 +296,7 @@ of mariadb installed via homebrew.</p>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2025 <a href="https://carakan.net/">carakan</a></span>
+    <span>&copy; 2026 <a href="https://carakan.net/">carakan</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

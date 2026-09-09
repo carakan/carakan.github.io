@@ -10,7 +10,7 @@
 <meta name="description" content="Blogs - carakan">
 <meta name="author" content="Carlos Ramos">
 <link rel="canonical" href="https://carakan.net/blog/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.f9f91002fe82ae229ce4b8ec18eafc3a9d22a76ba6da1975bd754e6e4f35999e.css" integrity="sha256-&#43;fkQAv6CriKc5LjsGOr8Op0ip2um2hl1vXVObk81mZ4=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.5cfc680b1eeaeef9efbced92d46c2a9e876b72ee14fba85846afc4cff9e6e6f8.css" integrity="sha256-XPxoCx7q7vnvvO2S1Gwqnodrcu4U&#43;6hYRq/Ez/nm5vg=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://carakan.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://carakan.net/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://carakan.net/favicon-32x32.png">
@@ -153,6 +153,68 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2>Create a Form With Two Actions on Activeadmin
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>In a project that already using Activeadmin I had the requeriment of modify the actual form to create a student, but without validating that, so the solution was create into the model of active admin form and declare the form with two actions, one with the clasical behaviour and other when passed the params[:managed] with a custom route
+ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :student, as: :select, collection: User.students f.input :amount unless params[:managed] f.input :course, as: :select, collection: Course.all f.input :created_at end end if params[:managed] f.action :submit, as: :input, button_html: { formaction: :managed_create } else f.actions # this go to create/update end end # ... controller do def managed_create # do whatewer you want end end end Then button_html: { formaction: :managed_create } options in a :submit, does the trick.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2019-09-11 18:22:45 -0400 -04'>September 11, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <a class="entry-link" aria-label="post link to Create a Form With Two Actions on Activeadmin" href="https://carakan.net/blog/2019/09/create-a-form-with-two-actions-on-activeadmin/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>“NewRailscasts” My first VScode Theme
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>I ported my adaption of the ancient railscasts theme for (neo)vim to VSCode, its solarized, supports very well javascript, typescript, ruby and elixir, here’s some screenshots:
+TypeScript
+Html &#43; erb
+Elixir
+If you like try to install only follow this link or search in Extensions “New Railscasts”, also if you use vim you can install the new-railscasts from my repo.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-11-27 21:51:19.696 +0000 UTC'>November 27, 2018</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <a class="entry-link" aria-label="post link to “NewRailscasts” My first VScode Theme" href="https://carakan.net/blog/2018/11/newrailscasts-my-first-vscode-theme/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>My first elixir library: SoftRepo
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p> don’t destroy sensible data
+It’s a placer to announce my first library, this handle soft-delete using directly a Repo wrapper, so the main idea is to have a global lib/module that represent all of the logic to do soft-delete of records.
+The setup and usage has been written on the README of soft_repo.
+Future The idea is to have a basic library that handles soft-delete, but in a future I’ll implement:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-10-03 18:49:26.082 +0000 UTC'>October 3, 2018</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <a class="entry-link" aria-label="post link to My first elixir library: SoftRepo" href="https://carakan.net/blog/2018/10/my-first-elixir-library-softrepo/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Lint and Format code with vim and ALE
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Currently I’m writing JS and Elixir code and I’ve using a lot of plugins to help me about misspelling in my code, first I was using Syntastic, later I was using Neomake but now I fell in love with ALE and I try to explain why.
+Ale knows clearly about if a plugin/addon shows an error that plugin/addon can fix that error if is possible.
+For example if I’m using eslint and I see this error:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2017-11-15 00:11:01.059 +0000 UTC'>November 15, 2017</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <a class="entry-link" aria-label="post link to Lint and Format code with vim and ALE" href="https://carakan.net/blog/2017/11/lint-and-format-code-with-vim-and-ale/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2>Blockchain, IOT, AI and any ‘hipster’ tech
     </h2>
   </header>
@@ -161,6 +223,7 @@
 I think the real usage for now is about of speculation money and raise founds by:
 get a lot of money for my mediocre idea.
 using startups, ideas, etc
+“99% of Blockchain Startups Are Bullshit” — @jamie247 https://t.co/vWhSYWozeV #blockchain #machinelearning #ai #startups #vc pic.twitter.com/TFZGXKBYqw
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2017-09-08 16:08:00 +0000 +0000'>September 8, 2017</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
@@ -205,7 +268,7 @@ Tmux Powerline fonts patched (I uploaded my fonts patched) Iterm2 (v3.3) NeoVim 
     <p>I’m really exited about to learn new programming language ‘Elixir’ running on top of Erlang OTP, I was reading some books like ‘Metaprograming with elixir’ and other things.
 The idea of learning is create a websocket for my startup folgama in that I’m planning to ’STREAM’ all of activities about a person, adding geolocalization, upload pictures, send messages.
 I’m going to share here some of my experience working on that.
-...</p>
+</p>
   </div>
   <footer class="entry-footer"><span title='2015-11-24 03:17:52 +0000 +0000'>November 24, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to Learning Elixir programming language" href="https://carakan.net/blog/2015/11/learning-elixir-programming-language/"></a>
@@ -238,89 +301,6 @@ rails login this plugin only need a small API for enable login i created this co
   <footer class="entry-footer"><span title='2015-03-13 01:11:09 +0000 +0000'>March 13, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to great plugin for share session in rails apps between wordpress blog" href="https://carakan.net/blog/2015/03/great-plugin-for-share-session-in-rails-apps-between-wordpress-blog/"></a>
 </article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>Sesión de fotos a topceña Thais Alejandra
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p> Una muestra de fotos con la palla de la entrada universitaria 2014 que la publique en mi pagina de facebook Carlos Ramos, fotografo
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2014-09-16 17:07:00 +0000 +0000'>September 16, 2014</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
-  <a class="entry-link" aria-label="post link to Sesión de fotos a topceña Thais Alejandra" href="https://carakan.net/blog/2014/09/sesi%C3%B3n-de-fotos-a-topce%C3%B1a-thais-alejandra/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>Revivi!!!
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Hice revivir el blog, la verdad tengo bastantes cosas por escribir, algunas cosas que vivi y otras que simplemente que cualquier persona “normal” no las tomaria para bien si las leyera.
-Dentro de poco ire publicando mas cosas.
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2014-05-13 04:29:00 +0000 +0000'>May 13, 2014</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
-  <a class="entry-link" aria-label="post link to Revivi!!!" href="https://carakan.net/blog/2014/05/revivi/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>Un breve resumen de lo que aconteció hasta este momento
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Pues vi mi ultimo post … ya paso mas de un año sin actualizar el blog, este espacio que me encantaba escribir lo que aprendia, veia y sentia.
-este es el update rapido:
-Soy lider de una consultora de desarrollo de software Zenlabs, enfocada en Ruby on Rails Fanatico a la fotografia, metiendo un poco a lo profesional http://www.flickr.com/photos/carakan/ Deje barado folgama.com pero estoy tratando de re-activarlo. ahora estoy viendo de fortalecer la comunidad de Ruby y Rails en Bolivia, esta es mi meta a corto plazo.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2013-06-27 22:50:00 +0000 +0000'>June 27, 2013</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
-  <a class="entry-link" aria-label="post link to Un breve resumen de lo que aconteció hasta este momento" href="https://carakan.net/blog/2013/06/un-breve-resumen-de-lo-que-aconteci%C3%B3-hasta-este-momento/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>Carnaval de Oruro 2012
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Saque algunas fotos del carnaval de oruro 2012, espero les guste:
-carakan Carnaval de Oruro 2012 photoset
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2012-02-20 23:43:14 +0000 +0000'>February 20, 2012</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
-  <a class="entry-link" aria-label="post link to Carnaval de Oruro 2012" href="https://carakan.net/blog/2012/02/carnaval-de-oruro-2012/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>Canon digital en Argentina, la NADA invade latinoamerica
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Acabo de enterarme que se esta gestando el proyecto de la ley sobre el canon digital en el pais de Argentina al igual que en españa y que comente en mi blog sobre el tema, para que entiendas sobre el tema les muestro esta imagen que explica a fondo el canon digital.
-Visto en el denker uber
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2011-06-29 03:34:45 +0000 +0000'>June 29, 2011</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
-  <a class="entry-link" aria-label="post link to Canon digital en Argentina, la NADA invade latinoamerica" href="https://carakan.net/blog/2011/06/canon-digital-en-argentina-la-nada-invade-latinoamerica/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>Charla de Martin VARSAVSKY sobre la situación de España y Latinoamérica
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Hola de años! :) me encontre con este genial video que si bien merece escribir mi punto de vista al respecto, pero que la vedad por falta de tiempo y practica no lo hare, pues bien aqui va el video.
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2011-06-27 15:04:54 +0000 +0000'>June 27, 2011</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
-  <a class="entry-link" aria-label="post link to Charla de Martin VARSAVSKY sobre la situación de España y Latinoamérica" href="https://carakan.net/blog/2011/06/charla-de-martin-varsavsky-sobre-la-situaci%C3%B3n-de-espa%C3%B1a-y-latinoam%C3%A9rica/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="https://carakan.net/blog/page/2/">
@@ -333,7 +313,7 @@ Visto en el denker uber
     </main>
     
 <footer class="footer">
-    <span>&copy; 2025 <a href="https://carakan.net/">carakan</a></span>
+    <span>&copy; 2026 <a href="https://carakan.net/">carakan</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

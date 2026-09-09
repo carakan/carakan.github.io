@@ -20,10 +20,10 @@
       <guid>https://carakan.net/blog/2023/12/start-new-rails-project-with-bun/</guid>
       <description>&lt;p&gt;Starting from rails 7.1 is possible to create a new rails app using bun+tailwind,
 to start using them only needs to run:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rails new new_awesome_project -a propshaft -j bun --css tailwind --database&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;postgresql
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rails new new_awesome_project -a propshaft -j bun --css tailwind --database&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;postgresql
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This won&amp;rsquo;t use the tailwind gem, it&amp;rsquo;s using npm&amp;rsquo;s packages managed with bun.&lt;/p&gt;
 &lt;p&gt;to see on browser start dev server:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bin/dev
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bin/dev
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
@@ -38,7 +38,7 @@ so I tested elixir livebook on my macos using the &lt;a href=&#34;https://livebo
 , and it’s running smoothly. I decided to install it locally on my computer to
 know what is happening behind the scenes, so it’s straightforward; only need to
 run these commands:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# install or update rebar and hex&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# install or update rebar and hex&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mix &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; local.rebar --force, local.hex --force
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# install as executable livebook&lt;/span&gt;
@@ -64,11 +64,11 @@ run these commands:&lt;/p&gt;
       <description>&lt;p&gt;In my current work, I&amp;rsquo;m using (abusing) of the ruby safe operator &lt;code&gt;&amp;amp;&lt;/code&gt;, which is a
 native implementation of &lt;a href=&#34;https://medium.com/@kelseydh/using-the-null-object-pattern-with-ruby-on-rails-b645ebf79785&#34;&gt;the null pattern&lt;/a&gt;,
 for example, in a chain of messages:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;user&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;billings&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;first&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cost
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;user&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;billings&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;first&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cost
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It could be thrown an error when for example the &lt;code&gt;billings&lt;/code&gt; of a user is empty and
 &lt;code&gt;first&lt;/code&gt; returns a nil object and then &lt;code&gt;nil.cost&lt;/code&gt; creates an Exception.&lt;/p&gt;
 &lt;p&gt;With the safe operator &lt;code&gt;&amp;amp;&lt;/code&gt; this avoids the error:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;user&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;billings&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;first&lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;.&lt;/span&gt;cost &lt;span style=&#34;color:#75715e&#34;&gt;# =&amp;gt; 5.3838&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;user&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;billings&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;first&lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;.&lt;/span&gt;cost &lt;span style=&#34;color:#75715e&#34;&gt;# =&amp;gt; 5.3838&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;So, in the last part of the code using the &lt;code&gt;&amp;amp;&lt;/code&gt; is not causing an error because the
 safe operator logic is:&lt;/p&gt;</description>
     </item>
@@ -82,7 +82,7 @@ safe operator logic is:&lt;/p&gt;</description>
       <description>&lt;p&gt;Ignoring files or directories in dropbox is a hard thing, I thought it has like git,
 a &lt;code&gt;.gitignore&lt;/code&gt; to config that, but no, we need to do a command for each file/dir, for example to ignore
 the files that creates a lightroom catalog (.lrcat) we need to do:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xattr -w com.dropbox.ignored &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; /Users/username/Dropbox/lightroom/2021-v10&lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt;Previews.lrdata
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xattr -w com.dropbox.ignored &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; /Users/username/Dropbox/lightroom/2021-v10&lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt;Previews.lrdata
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xattr -w com.dropbox.ignored &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; /Users/username/Dropbox/lightroom/2021-v10&lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt;Previews.lrdata
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xattr -w com.dropbox.ignored &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; /Users/username/Dropbox/lightroom/2021-v10&lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt;Helper.lrdata
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;and to not longer ignore files we need this command:&lt;/p&gt;</description>
@@ -95,11 +95,11 @@ the files that creates a lightroom catalog (.lrcat) we need to do:&lt;/p&gt;
       
       <guid>https://carakan.net/blog/2021/02/make-backup/restore-postgres-database-with-no-owner/</guid>
       <description>&lt;p&gt;to do backup:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pg_dump dbname -O -x &amp;gt; backupname.sql
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pg_dump dbname -O -x &amp;gt; backupname.sql
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To restore:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;psql dbname &amp;lt; backupname.sql
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;psql dbname &amp;lt; backupname.sql
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Options documentation:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-O &amp;lt;-- No owner
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-O &amp;lt;-- No owner
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-x &amp;lt;-- No privileges
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
@@ -111,8 +111,8 @@ the files that creates a lightroom catalog (.lrcat) we need to do:&lt;/p&gt;
       
       <guid>https://carakan.net/blog/2021/02/postgres-create-db-user-and-bring-access/</guid>
       <description>&lt;p&gt;Short version:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo -u postgres psql
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-SQL&#34; data-lang=&#34;SQL&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;create&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;database&lt;/span&gt; mydb;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo -u postgres psql
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-SQL&#34; data-lang=&#34;SQL&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;create&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;database&lt;/span&gt; mydb;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;create&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;user&lt;/span&gt; myuser &lt;span style=&#34;color:#66d9ef&#34;&gt;with&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;encrypted&lt;/span&gt; password &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;password&amp;#39;&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;grant&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;all&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;privileges&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;on&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;database&lt;/span&gt; mydb &lt;span style=&#34;color:#66d9ef&#34;&gt;to&lt;/span&gt; myuser;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
@@ -125,7 +125,7 @@ the files that creates a lightroom catalog (.lrcat) we need to do:&lt;/p&gt;
       
       <guid>https://carakan.net/blog/2020/11/install-ancient-gems-ffi/</guid>
       <description>&lt;p&gt;To install a ancient ffi (&amp;lt;= 1.9.18) in Catalina MacOS or newer OS we need to use this command:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;gem install ffi -v &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;1.9.18&amp;#39;&lt;/span&gt; -- --with-cflags&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;-Wno-error=implicit-function-declaration&amp;#34;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;gem install ffi -v &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;1.9.18&amp;#39;&lt;/span&gt; -- --with-cflags&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;-Wno-error=implicit-function-declaration&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
@@ -139,7 +139,7 @@ the files that creates a lightroom catalog (.lrcat) we need to do:&lt;/p&gt;
 &lt;a href=&#34;https://github.com/vim-test/vim-test&#34;&gt;vim-test&lt;/a&gt; to run test using vim, now to
 integrate in current docker workflow we need to configure vim-test.&lt;/p&gt;
 &lt;p&gt;For example to configure to run rspec test inside &lt;code&gt;app&lt;/code&gt;:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-vim&#34; data-lang=&#34;vim&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;test&lt;/span&gt;#&lt;span style=&#34;color:#a6e22e&#34;&gt;ruby&lt;/span&gt;#&lt;span style=&#34;color:#a6e22e&#34;&gt;rspec&lt;/span&gt;#&lt;span style=&#34;color:#a6e22e&#34;&gt;executable&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;docker-compose exec -e RAILS_ENV=test app rspec&amp;#39;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-vim&#34; data-lang=&#34;vim&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;test&lt;/span&gt;#&lt;span style=&#34;color:#a6e22e&#34;&gt;ruby&lt;/span&gt;#&lt;span style=&#34;color:#a6e22e&#34;&gt;rspec&lt;/span&gt;#&lt;span style=&#34;color:#a6e22e&#34;&gt;executable&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;docker-compose exec -e RAILS_ENV=test app rspec&amp;#39;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;to run inside to already running &lt;code&gt;app&lt;/code&gt; docker container.&lt;/p&gt;
 &lt;p&gt;It is very important to add &lt;code&gt;-e RAILS_ENV=test&lt;/code&gt; to send envinroment variables
 and set test env inside the rails app.&lt;/p&gt;</description>
@@ -154,7 +154,7 @@ and set test env inside the rails app.&lt;/p&gt;</description>
       <description>&lt;p&gt;In a project I had troubles triying to install mysql2 gem with a older version
 of mariadb installed via homebrew.&lt;/p&gt;
 &lt;p&gt;the solution is to send the path of the installation.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;gem install mysql2 &lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;with&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;mysql&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;config&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;$&lt;/span&gt;(brew &lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;prefix mariadb&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;@&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;bin&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;mysql_config 
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;gem install mysql2 &lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;with&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;mysql&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;config&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;$&lt;/span&gt;(brew &lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;prefix mariadb&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;@&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;bin&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;mysql_config 
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
@@ -168,7 +168,7 @@ of mariadb installed via homebrew.&lt;/p&gt;
 let&amp;rsquo;s start.&lt;/p&gt;
 &lt;p&gt;first this configuration is using macOS, by default python3 is installed on macOS
 and the default route of the executables are:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;which python3 &lt;span style=&#34;color:#75715e&#34;&gt;# =&amp;gt; /usr/bin/python3&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;which python3 &lt;span style=&#34;color:#75715e&#34;&gt;# =&amp;gt; /usr/bin/python3&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;which pip3    &lt;span style=&#34;color:#75715e&#34;&gt;# =&amp;gt; /usr/bin/pip3&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And that&amp;rsquo;s it! but normally if you are using homebrew you also installed the python3
 using a formula, personally I do not to recomend that but it will work. you need
@@ -185,7 +185,7 @@ to know where is installed that two executables.&lt;/p&gt;</description>
 &lt;a href=&#34;https://github.com/asdf-vm/asdf&#34;&gt;asdf&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;if you keep with RVM: install older versions of ruby &lt;code&gt;&amp;lt;2.3&lt;/code&gt; with support for openssl 1.0x you can follow
 these instructions:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# before you install command line tools and gcc&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# before you install command line tools and gcc&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xcode-select --install
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install gcc
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
@@ -241,9 +241,9 @@ normally as a separate engine.&lt;/p&gt;
       <description>&lt;p&gt;I was looking a simple way to get sync all of my current setup of vscode, I did&amp;rsquo;t found a
 proper way to do with another plugin, but I found a commands to do this sync.&lt;/p&gt;
 &lt;p&gt;first to have a list of plugins installed and save to a file:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;code --list-extensions &amp;gt; vscode-extensions.list
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;code --list-extensions &amp;gt; vscode-extensions.list
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;to restore, read that file and install all plugins:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cat vscode-extensions.list | xargs -L &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; code --install-extension 
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cat vscode-extensions.list | xargs -L &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; code --install-extension 
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# using bat&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bat vscode-extensions.list --plain | xargs -L &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; code --install-extension
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;you can easily put this list in your dotfiles &lt;a href=&#34;https://github.com/carakan/dotfiles/blob/master/vscode-extensions.list&#34;&gt;example&lt;/a&gt;.&lt;/p&gt;</description>
@@ -257,7 +257,7 @@ proper way to do with another plugin, but I found a commands to do this sync.&lt
       <guid>https://carakan.net/blog/2019/10/add-array-of-types-in-a-column-using-postgres-and-rails/</guid>
       <description>&lt;p&gt;Recently I found a nice feature when defining a column on migrations, is to use &lt;code&gt;array&lt;/code&gt;
 option in the creation of a column:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;MyMigration&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;ActiveRecord&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;Migration&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;MyMigration&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;ActiveRecord&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;Migration&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;change&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# Defines a column that stores an array of a type.&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    add_column &lt;span style=&#34;color:#e6db74&#34;&gt;:transactions&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;:categories&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;:string&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;array&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;default&lt;/span&gt;: &lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt;
@@ -301,14 +301,14 @@ take advantage of these new features.&lt;/p&gt;
       <guid>https://carakan.net/blog/2019/09/upgrade-to-latest-version-on-asdf/</guid>
       <description>&lt;p&gt;ASDF is an incredible version manager, to install/upgrade to latest version available
 of an language you can do the following steps:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;asdf list-all &amp;lt;language&amp;gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;asdf list-all &amp;lt;language&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;this show all of the versions available to install, select the latest:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;asdf install &amp;lt;language&amp;gt; x.y.z
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;asdf install &amp;lt;language&amp;gt; x.y.z
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;and edit if you have a global &lt;code&gt;~/.tool-versions&lt;/code&gt; to use that version everywhere:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;languaje&amp;gt; x.y.z
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;languaje&amp;gt; x.y.z
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;real-example&#34;&gt;real example&lt;/h2&gt;
 &lt;p&gt;to upgrade to latest version of erlang &lt;strong&gt;(10/17/2019)&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;asdf list-all erlang
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;asdf list-all erlang
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;asdf install erlang 22.1
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;asdf global erlang 22.1
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
@@ -324,14 +324,14 @@ of an language you can do the following steps:&lt;/p&gt;
 one of that is for handlebars (glimmer/mustache) but is hidden by default, to enable we only
 need to do this:&lt;/p&gt;
 &lt;p&gt;create a &lt;code&gt;.prettierrc&lt;/code&gt; in your home (~) with :&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;overrides&amp;#34;&lt;/span&gt;: [
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;files&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;*.hbs&amp;#34;&lt;/span&gt;,
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;options&amp;#34;&lt;/span&gt;: {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;parser&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;glimmer&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// ... other custom configurations
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;      }
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      }
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  ]
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
@@ -349,9 +349,9 @@ for example:&lt;/p&gt;</description>
 using NEOVIM, to do that I was using &lt;code&gt;Colorizer&lt;/code&gt; plugin but now I switched to use
 &lt;a href=&#34;https://github.com/RRethy/vim-hexokinase&#34;&gt;vim-hexokinase&lt;/a&gt; and it&amp;rsquo;s asynchronous!&lt;/p&gt;
 &lt;p&gt;to install you might need to install before go language:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install go
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install go
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;and this is my config:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;let g:Hexokinase_ftOptInPatterns &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;let g:Hexokinase_ftOptInPatterns &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;css&amp;#39;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;full_hex,triple_hex,rgb,rgba,hsl,hsla,colour_names&amp;#39;&lt;/span&gt;,
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;html&amp;#39;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;full_hex,rgb,rgba,hsl,hsla&amp;#39;&lt;/span&gt;,
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;javascript&amp;#39;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;full_hex,rgb,rgba,hsl,hsla&amp;#39;&lt;/span&gt;
@@ -370,14 +370,14 @@ using NEOVIM, to do that I was using &lt;code&gt;Colorizer&lt;/code&gt; plugin b
       <description>&lt;p&gt;In many projects that i have been working I want to manage GLOBAL&amp;rsquo;s variables, so
 to do that use &lt;a href=&#34;https://direnv.net/&#34;&gt;direnv&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;to install (MacOS):&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install direnv
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install direnv
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now the project needs to create a file &lt;code&gt;.envrc&lt;/code&gt; like this:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Stripe Credentials&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Stripe Credentials&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export STRIPE_PRIVATE_KEY&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;xxxxxxxxxxxx&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export STRIPE_WEBHOOK_SECRET&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;xxxxxxxxxxxxxxxx&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;entering in that directory &lt;code&gt;direnv&lt;/code&gt; asks to &lt;strong&gt;allow&lt;/strong&gt; the execution and use of
 that variables, so:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;direnv allow .
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;direnv allow .
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And that&amp;rsquo;s it! you don&amp;rsquo;t need a custom solution for every programming language.&lt;/p&gt;</description>
     </item>
     
@@ -391,7 +391,7 @@ that variables, so:&lt;/p&gt;
 form to create a student, but without validating that, so the solution was create into
 the model of active admin &lt;code&gt;form&lt;/code&gt; and declare the form with two actions, one with
 the clasical behaviour and other when passed the &lt;code&gt;params[:managed]&lt;/code&gt; with a custom route&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;ActiveAdmin&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;register &lt;span style=&#34;color:#66d9ef&#34;&gt;InvestmentItem&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;ActiveAdmin&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;register &lt;span style=&#34;color:#66d9ef&#34;&gt;InvestmentItem&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# ..&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  form &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;f&lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    f&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;inputs &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;
@@ -480,8 +480,10 @@ of the logic to do soft-delete of records.&lt;/p&gt;
 &lt;p&gt;I have seen a lot of movement in new startups about this new tech trend, in my opinion we need to work on enhance this tech, because is too early in term of implementation, &lt;strong&gt;security&lt;/strong&gt; and real usage.&lt;/p&gt;
 &lt;p&gt;I think the real usage for now is about of &lt;strong&gt;speculation&lt;/strong&gt; money and raise founds by:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;get a lot of money for my mediocre idea.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;using startups, ideas, etc&lt;/p&gt;</description>
+&lt;p&gt;get a lot of money for my mediocre idea.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;using startups, ideas, etc&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;“99% of Blockchain Startups Are Bullshit” — &lt;a href=&#34;https://twitter.com/jamie247?ref_src=twsrc%5Etfw&#34;&gt;@jamie247&lt;/a&gt; &lt;a href=&#34;https://t.co/vWhSYWozeV&#34;&gt;https://t.co/vWhSYWozeV&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/blockchain?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#blockchain&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/machinelearning?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#machinelearning&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/ai?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#ai&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/startups?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#startups&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/vc?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#vc&lt;/a&gt; &lt;a href=&#34;https://t.co/TFZGXKBYqw&#34;&gt;pic.twitter.com/TFZGXKBYqw&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -492,11 +494,11 @@ of the logic to do soft-delete of records.&lt;/p&gt;
       <guid>https://carakan.net/blog/2016/06/install-passenger-5-ruby-2.x-nginx-1.10.x-and-enable-http/2/</guid>
       <description>&lt;p&gt;Recently I found that passenger in the last version now uses nginx 1.10.x by default, as you knows since nginx 1.9.x nginx enables support for &lt;a href=&#34;https://en.wikipedia.org/wiki/HTTP/2&#34;&gt;http2&lt;/a&gt; but the 1.9.x on nginx is &lt;em&gt;beta&lt;/em&gt; and when released the line 1.10 is production ready. The process will be describe for ubuntu 14.4 and 16.4:&lt;/p&gt;
 &lt;h2 id=&#34;install-dependencies&#34;&gt;Install Dependencies&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get update -y
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get update -y
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get upgrade -y
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install sudo -y
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;install the required packages:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate python-docutils pkg-config cmake nodejs git-core
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev curl openssh-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev logrotate python-docutils pkg-config cmake nodejs git-core
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;install-ruby&#34;&gt;Install Ruby&lt;/h2&gt;
 &lt;p&gt;For production sites is a &lt;em&gt;MUST&lt;/em&gt; install from sources without using any versions
 managers like RVM, RENV or whatever this is why leads to hard to diagnose
@@ -962,7 +964,8 @@ this plugin only need a small API for enable login i created this code in model 
 &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;La revista sobre el software libre, saca su decima edición con el lema:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;h4 id=&#34;marcamos-la-diferencia-en-un-año-de-existencia&#34;&gt;Marcamos la diferencia en un año de existencia.&lt;/h4&gt;&lt;/blockquote&gt;
+&lt;h4 id=&#34;marcamos-la-diferencia-en-un-año-de-existencia&#34;&gt;Marcamos la diferencia en un año de existencia.&lt;/h4&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Son diez números y mas de un año de existencia a esta revista que poco a poco y con el aporte de la comunidad va creciendo y difundiendo el software libre.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.carakan.info/proyectos/atix/atix10.pdf&#34;&gt;Descarga del numero 10 de la revista Atix.&lt;/a&gt;&lt;/p&gt;</description>
     </item>
@@ -1123,7 +1126,8 @@ this plugin only need a small API for enable login i created this code in model 
       <guid>https://carakan.net/blog/2009/03/revista-atix-numero-8/</guid>
       <description>&lt;p&gt;Hoy se lanzo el numero 8 de la revista sobre software libre ATIX, en el cual apoye con la cuarta parte de “Desarrollo ágil con Ruby on Rails”, el lema para esta versión de la revista es:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;h4 id=&#34;el-ser-vistos-desde-otros-horizontes-nos-compromete-más-en-nuestro-trabajo&#34;&gt;El ser vistos desde otros horizontes, nos compromete más en nuestro trabajo.&lt;/h4&gt;&lt;/blockquote&gt;
+&lt;h4 id=&#34;el-ser-vistos-desde-otros-horizontes-nos-compromete-más-en-nuestro-trabajo&#34;&gt;El ser vistos desde otros horizontes, nos compromete más en nuestro trabajo.&lt;/h4&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.carakan.info/wp-content/uploads/2009/03/caja08-tra220x300.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://www.carakan.info/wp-content/uploads/2009/03/caja08-tra220x300-thumb.jpg&#34; alt=&#34;caja08_tra-220x300&#34;  title=&#34;caja08_tra-220x300&#34;  /&gt;
 &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.carakan.info/proyectos/atix/atix08.pdf&#34;&gt;Descarga del archivo (PDF)&lt;/a&gt;.&lt;/p&gt;
@@ -1192,7 +1196,8 @@ this plugin only need a small API for enable login i created this code in model 
 &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;La revista sobre el software libre: &lt;a href=&#34;http://atix.opentelematics.org/&#34;&gt;Atix&lt;/a&gt;, lanzo la séptima entrega de su revista, que apuesta por el conocimiento libre y que para este numero lo entrega con el siguiente lema:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;h4 id=&#34;un-nuevo-año-un-nuevo-reto-pon-tu-mejor-empeño-para-lograr-tu-reto-de-este-año&#34;&gt;Un nuevo año…. un nuevo reto, pon tu mejor empeño para lograr tu reto de este año.&lt;/h4&gt;&lt;/blockquote&gt;
+&lt;h4 id=&#34;un-nuevo-año-un-nuevo-reto-pon-tu-mejor-empeño-para-lograr-tu-reto-de-este-año&#34;&gt;Un nuevo año…. un nuevo reto, pon tu mejor empeño para lograr tu reto de este año.&lt;/h4&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;cuenta con la tercera parte del desarrollo de una aplicación de gestión de artículos ATIX, en &lt;a href=&#34;http://www.rubyonrails.org.es/&#34;&gt;Ruby on Rails&lt;/a&gt;, en la que explico como reutilizar código a través de plugins o gemas, utilizar el repositorio de gemas de &lt;a href=&#34;http://github.com/&#34;&gt;Git Hub&lt;/a&gt; y manipular la gema &lt;a href=&#34;http://github.com/mislav/will_paginate/tree/master&#34;&gt;Will_paginate&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
@@ -1254,7 +1259,8 @@ this plugin only need a small API for enable login i created this code in model 
       <guid>https://carakan.net/blog/2009/01/frase-del-d%C3%ADa/</guid>
       <description>&lt;p&gt;A propósito del anunciada posesión del nuevo presidente de Estados Unidos, veo en el blog de &lt;a href=&#34;http://angelmaria.com&#34;&gt;Angel Maria&lt;/a&gt; la siguiente frase:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;h4 id=&#34;porqué-tanto-revuelo-por-un-presidente-negro-en-eeuu-en-áfrica-llevan-años-teniéndolos-y-no-salen-ni-los-procesos-electorales-ni-las-investiduras-ni-dan-tanto-la-plasta-en-los-medios&#34;&gt;Porqué tanto revuelo por un presidente negro en EE.UU, en África llevan años teniéndolos y no salen ni los procesos electorales, ni las investiduras ni dan tanto la plasta en los medios.&lt;/h4&gt;&lt;/blockquote&gt;
+&lt;h4 id=&#34;porqué-tanto-revuelo-por-un-presidente-negro-en-eeuu-en-áfrica-llevan-años-teniéndolos-y-no-salen-ni-los-procesos-electorales-ni-las-investiduras-ni-dan-tanto-la-plasta-en-los-medios&#34;&gt;Porqué tanto revuelo por un presidente negro en EE.UU, en África llevan años teniéndolos y no salen ni los procesos electorales, ni las investiduras ni dan tanto la plasta en los medios.&lt;/h4&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Sera la época de cambio que tanto espera USA, o simplemente es un globo bien inflado?&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://angelmaria.com/2009/01/20/frases-13/&#34;&gt;Visto en Angel Maria&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
@@ -1270,7 +1276,8 @@ this plugin only need a small API for enable login i created this code in model 
 &lt;p&gt;En todo emprendimiento siempre se va a ganar en foros, congresos, eventos se habla de casos éxito, pero ¿no puede aprenderse, incluso más, de los casos de fracaso?&lt;/p&gt;
 &lt;p&gt;Es que en España se creo el evento &lt;a href=&#34;http://www.fiascoawards.com&#34;&gt;Fiasco Awards 2009&lt;/a&gt; del que ellos mismos califican:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;h3 id=&#34;los-fiasco-awards-quieren-premiar-a-los-mejores-proyectos-del-ámbito-tic-que-han-acabado-en-fiasco-con-el-fin-de-potenciar-el-espíritu-crítico-fomentar-la-actitud-positiva-hacia-los-escollos-del-camino-hacia-el-éxito-y-para-qué-negarlo-para-divertirnos&#34;&gt;Los Fiasco Awards quieren premiar a los mejores proyectos del ámbito TIC que han acabado en FIASCO, con el fin de potenciar el espíritu crítico, fomentar la actitud positiva hacia los escollos del camino hacia el éxito y, para qué negarlo, para divertirnos!&lt;/h3&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;los-fiasco-awards-quieren-premiar-a-los-mejores-proyectos-del-ámbito-tic-que-han-acabado-en-fiasco-con-el-fin-de-potenciar-el-espíritu-crítico-fomentar-la-actitud-positiva-hacia-los-escollos-del-camino-hacia-el-éxito-y-para-qué-negarlo-para-divertirnos&#34;&gt;Los Fiasco Awards quieren premiar a los mejores proyectos del ámbito TIC que han acabado en FIASCO, con el fin de potenciar el espíritu crítico, fomentar la actitud positiva hacia los escollos del camino hacia el éxito y, para qué negarlo, para divertirnos!&lt;/h3&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Todo esto de manera critica, para aprender de los errores que se comenten al empezar una startup, y poder clarificar ideas en torno a lo que realmente es emprender, desde aca veremos los proyectos que se presenten.&lt;/p&gt;</description>
     </item>
     
@@ -1292,7 +1299,8 @@ this plugin only need a small API for enable login i created this code in model 
       <guid>https://carakan.net/blog/2009/01/el-english-del-presidente-del-banco-santander/</guid>
       <description>&lt;p&gt;Navegando por internet para aprender un poco mas ingles, y es que lo necesito, me encontre con este video, ojo es real no es ningun chiste, es el presidente de Banco Santander uno de los mas grandes dentro de españa.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;La mejor forma de motivarse es ponerse de ejemplo a personas que estan peor que tu :P&lt;/p&gt;&lt;/blockquote&gt;</description>
+&lt;p&gt;La mejor forma de motivarse es ponerse de ejemplo a personas que estan peor que tu :P&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
@@ -1347,7 +1355,8 @@ this plugin only need a small API for enable login i created this code in model 
       <description>&lt;p&gt;&lt;a href=&#34;http://www.carakan.info/proyectos/atix/atix06.pdf&#34; title=&#34;Revista Atix numero 6&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://www.carakan.info/wp-content/uploads/2008/12/revista-atix-6-carakan.jpg&#34; alt=&#34;revista_atix_6_carakan&#34;  title=&#34;revista_atix_6_carakan&#34;  /&gt;
 &lt;/a&gt; La revista sobre el software libre: &lt;a href=&#34;http://atix.opentelematics.org/&#34; title=&#34;revista atix&#34;&gt;Atix&lt;/a&gt;, lanzo la sexta entrega de su revista, que apuesta por el conocimiento libre y que para este numero lo entrega con el siguiente lema:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;El ser todos iguales, nos llevará a tener y vivir un futuro mejor.&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;El ser todos iguales, nos llevará a tener y vivir un futuro mejor.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Como una forma de apoyo, realice la segunda parte del desarrollo de una aplicación en &lt;a href=&#34;http://www.rubyonrails.org.es/&#34; title=&#34;Ruby on Rails&#34;&gt;Ruby on Rails&lt;/a&gt;, con el cual hablo sobre la nueva versión de Rails la 2.2 como realizar una migración de anteriores versiones, y manejo de relaciones con Active Record. &lt;a href=&#34;http://www.carakan.info/proyectos/atix/atix06.pdf&#34; title=&#34;Revista Atix numero 6&#34;&gt;Descargar Revista Atix #6&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
@@ -1555,7 +1564,8 @@ this plugin only need a small API for enable login i created this code in model 
  o el objetivo debe ser ganar dinero?&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Un objetivo es diferente de una dirección. Es, en realidad, un destino. Ganar más dinero es una dirección, no un objetivo. Un hombre cuya ambición es ganar más dinero tiene una dirección, pero no un objetivo.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Laurence J. peter. Las Fórmulas de Peter&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Laurence J. peter. Las Fórmulas de Peter&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Visto en &lt;a href=&#34;http://www.navegapolis.net/content/view/835/98/&#34; title=&#34;Naveganapolis&#34;&gt;Naveganapolis.&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
@@ -1770,7 +1780,8 @@ this plugin only need a small API for enable login i created this code in model 
       
       <guid>https://carakan.net/blog/2008/10/frase-del-dia/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Equivocarse es la otra cara del éxito&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Equivocarse es la otra cara del éxito&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Zaryn Dentzel&lt;/strong&gt;, fundador de &lt;a href=&#34;http://www.tuenti.com/&#34;&gt;Tuenti&lt;/a&gt; en la Ceremonia de &lt;a href=&#34;http://www.red-social.net/zaryn-dentzel-fundador-de-tuenti&#34;&gt;Apertura de Curso de IE Universidad en Segovia&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
@@ -2113,7 +2124,8 @@ this plugin only need a small API for enable login i created this code in model 
 &lt;ul&gt;
 &lt;li&gt;Separación de la funcionalidad JavaScript (la &amp;ldquo;capa del comportamiento&amp;rdquo;) de las capas de estructura/contenido y de presentación de un página.&lt;/li&gt;
 &lt;li&gt;Uso de buenas prácticas a fin de evitar los problemas de incompatibilidad de la programación tradicional en JavaScript (tales como inconsistencias entre &lt;a href=&#34;http://es.wikipedia.org/wiki/Navegador_web&#34; title=&#34;Navegador web&#34;&gt;navegadores&lt;/a&gt; y falta de &lt;a href=&#34;http://es.wikipedia.org/wiki/Escalabilidad&#34; title=&#34;Escalabilidad&#34;&gt;escalabilidad&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Esto es que se crea dentro de cada pagina Html normal, tres capas distinguibles que son:&lt;/p&gt;</description>
     </item>
     
@@ -2386,14 +2398,14 @@ algunas reaccionan bien, como el agua se acomoda al medio externo que se encuent
       <guid>https://carakan.net/blog/2008/06/llamar-a-procedimientos-pl/sql-de-oracle-con-ruby-plsql/</guid>
       <description>&lt;p&gt;Buscando una manera mas sencilla de poder llamar a procedimientos almacenados de Oracle pl/sql, encontré la gema ruby-plsql que es una simple API para procedimientos almacenados en oracle, su uso es muy sencillo como el siguiente:&lt;/p&gt;
 &lt;p&gt;Si tenemos el siguiente paquete:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;CREATE&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;OR&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;REPLACE&lt;/span&gt; PACKAGE BODY scott.pck_prueba &lt;span style=&#34;color:#66d9ef&#34;&gt;IS&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;CREATE&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;OR&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;REPLACE&lt;/span&gt; PACKAGE BODY scott.pck_prueba &lt;span style=&#34;color:#66d9ef&#34;&gt;IS&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;PROCEDURE&lt;/span&gt; LeeDatos(p_in VARCHAR2, p_out &lt;span style=&#34;color:#66d9ef&#34;&gt;OUT&lt;/span&gt; VARCHAR2) &lt;span style=&#34;color:#66d9ef&#34;&gt;IS&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       &lt;span style=&#34;color:#66d9ef&#34;&gt;BEGIN&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       p_out :&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Se introdujo: &amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; p_in;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;END&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;END&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Ahora dentro del código, como ejemplo dentro del controlador:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;require &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;“&lt;/span&gt;ruby_plsql&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;”&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;require &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;“&lt;/span&gt;ruby_plsql&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;”&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;UsuariosController&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;ApplicationController&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;index&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    @usuarios &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Usuario&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;all
@@ -2618,7 +2630,8 @@ ya esta solucionado.&lt;/p&gt;
       
       <guid>https://carakan.net/blog/2008/02/pensamiento-del-dia/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Si cada uno de nosotros contrata personas más pequeñas que uno, nos convertiremos en una empresa de enanos. Si contratamos personas más grandes, en cambio, seremos una empresa de gigantes.&lt;a href=&#34;http://en.wikipedia.org/wiki/David_Ogilvy&#34;&gt;- David Ogilvy&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Si cada uno de nosotros contrata personas más pequeñas que uno, nos convertiremos en una empresa de enanos. Si contratamos personas más grandes, en cambio, seremos una empresa de gigantes.&lt;a href=&#34;http://en.wikipedia.org/wiki/David_Ogilvy&#34;&gt;- David Ogilvy&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Visto en &lt;a href=&#34;http://www.elqudsi.com/articulos/piensa-en-grande/&#34;&gt;el-qudsi.&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
@@ -2996,10 +3009,10 @@ años, desarrollador en las plataformas .Net y &lt;a href=&#34;http://www.rubyon
     
     <item>
       <title>Algunas ideas sobre el protocolo de twitter</title>
-      <link>https://carakan.net/blog/1/01/algunas-ideas-sobre-el-protocolo-de-twitter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://carakan.net/blog/2007/06/algunas-ideas-sobre-el-protocolo-de-twitter/</link>
+      <pubDate>Fri, 01 Jun 2007 00:00:00 +0000</pubDate>
       
-      <guid>https://carakan.net/blog/1/01/algunas-ideas-sobre-el-protocolo-de-twitter/</guid>
+      <guid>https://carakan.net/blog/2007/06/algunas-ideas-sobre-el-protocolo-de-twitter/</guid>
       <description>&lt;p&gt;He estado en estos dias muy ocupado en distintos trabajos freelance y estoy viendo que existe una relativa semejansa de lo que es twitter y los chats, pero twitter solamente se limita a personas no a grupos de personas, entidades (que describire mas adelante), esto es practicamente aplicable si se concilia un protocolo robusto que no solamente describa el microblogging individual, sino el que a mi parecer sera el futuro la inmediates de comunicacion.&lt;/p&gt;</description>
     </item>
     

@@ -10,7 +10,7 @@
 <meta name="description" content="Blogs - carakan">
 <meta name="author" content="Carlos Ramos">
 <link rel="canonical" href="https://carakan.net/blog/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.f9f91002fe82ae229ce4b8ec18eafc3a9d22a76ba6da1975bd754e6e4f35999e.css" integrity="sha256-&#43;fkQAv6CriKc5LjsGOr8Op0ip2um2hl1vXVObk81mZ4=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.5cfc680b1eeaeef9efbced92d46c2a9e876b72ee14fba85846afc4cff9e6e6f8.css" integrity="sha256-XPxoCx7q7vnvvO2S1Gwqnodrcu4U&#43;6hYRq/Ez/nm5vg=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://carakan.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://carakan.net/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://carakan.net/favicon-32x32.png">
@@ -153,6 +153,37 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2>How to Install Older Versions of Ruby
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>The problem is with RVM and renv and not with asdf, so my first suggestion is to change to asdf
+if you keep with RVM: install older versions of ruby &lt;2.3 with support for openssl 1.0x you can follow these instructions:
+# before you install command line tools and gcc xcode-select --install brew install gcc # installation procedure cd /usr/local/src curl -O https://www.openssl.org/source/openssl-1.0.2t.tar.gz tar xzf openssl-1.0.2t.tar.gz cd openssl-1.0.2t ./Configure darwin64-x86_64-cc make sudo make install export LDFLAGS=“-L/usr/local/ssl/lib” export CPPFLAGS=“-I/usr/local/ssl/include” export PKG_CONFIG_PATH=“/usr/local/ssl/lib/pkgconfig” rvm reinstall 2.3.8 --with-openssl-dir=/usr/local/ssl --with-openssl-include=/usr/local/ssl/include </p>
+  </div>
+  <footer class="entry-footer"><span title='2020-01-24 15:46:05 -0400 -04'>January 24, 2020</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <a class="entry-link" aria-label="post link to How to Install Older Versions of Ruby" href="https://carakan.net/blog/2020/01/how-to-install-older-versions-of-ruby/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>How to do email only sign up using default active-admin setup
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Context The idea is to develop the same requirement as devise describe in their guide:
+The project is using the admin_user approach and sets the default setup included on activeadmin.
+(NOTE) One other recommended solution is to migrate the admin_user model to user and configure devise normally as a separate engine.
+Guide If you haven’t already, enable the confirmable module
+If you haven’t already, follow the Devise instructions for configuring views, install in app/views/active_admin/devise
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2019-12-10 12:22:05 -0400 -04'>December 10, 2019</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos</footer>
+  <a class="entry-link" aria-label="post link to How to do email only sign up using default active-admin setup" href="https://carakan.net/blog/2019/12/how-to-do-email-only-sign-up-using-default-active-admin-setup/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2>How to Sync Vscode Plugins Over Your Dotfiles
     </h2>
   </header>
@@ -161,7 +192,7 @@
 first to have a list of plugins installed and save to a file:
 code --list-extensions &gt; vscode-extensions.list to restore, read that file and install all plugins:
 cat vscode-extensions.list | xargs -L 1 code --install-extension # using bat bat vscode-extensions.list --plain | xargs -L 1 code --install-extension you can easily put this list in your dotfiles example.
-...</p>
+</p>
   </div>
   <footer class="entry-footer"><span title='2019-10-21 11:51:11 -0400 -04'>October 21, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to How to Sync Vscode Plugins Over Your Dotfiles" href="https://carakan.net/blog/2019/10/how-to-sync-vscode-plugins-over-your-dotfiles/"></a>
@@ -251,7 +282,7 @@ to install you might need to install before go language:
 brew install go and this is my config:
 let g:Hexokinase_ftOptInPatterns = { \ &#39;css&#39;: &#39;full_hex,triple_hex,rgb,rgba,hsl,hsla,colour_names&#39;, \ &#39;html&#39;: &#39;full_hex,rgb,rgba,hsl,hsla&#39;, \ &#39;javascript&#39;: &#39;full_hex,rgb,rgba,hsl,hsla&#39; \ } let g:Hexokinase_virtualText = &#39; ██████&#39; watch all of my dotfiles
 Happy coding!
-...</p>
+</p>
   </div>
   <footer class="entry-footer"><span title='2019-09-12 15:49:33 -0400 -04'>September 12, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to How to Show Hex Colors on Neovim" href="https://carakan.net/blog/2019/09/how-to-show-hex-colors-on-neovim/"></a>
@@ -268,72 +299,10 @@ to install (MacOS):
 brew install direnv Now the project needs to create a file .envrc like this:
 # Stripe Credentials export STRIPE_PRIVATE_KEY=&#34;xxxxxxxxxxxx&#34; export STRIPE_WEBHOOK_SECRET=&#34;xxxxxxxxxxxxxxxx&#34; entering in that directory direnv asks to allow the execution and use of that variables, so:
 direnv allow . And that’s it! you don’t need a custom solution for every programming language.
-...</p>
+</p>
   </div>
   <footer class="entry-footer"><span title='2019-09-12 12:15:47 -0400 -04'>September 12, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
   <a class="entry-link" aria-label="post link to How to Manage Environment Variables" href="https://carakan.net/blog/2019/09/how-to-manage-environment-variables/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>Create a Form With Two Actions on Activeadmin
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In a project that already using Activeadmin I had the requeriment of modify the actual form to create a student, but without validating that, so the solution was create into the model of active admin form and declare the form with two actions, one with the clasical behaviour and other when passed the params[:managed] with a custom route
-ActiveAdmin.register InvestmentItem do # .. form do |f| f.inputs do f.input :student, as: :select, collection: User.students f.input :amount unless params[:managed] f.input :course, as: :select, collection: Course.all f.input :created_at end end if params[:managed] f.action :submit, as: :input, button_html: { formaction: :managed_create } else f.actions # this go to create/update end end # ... controller do def managed_create # do whatewer you want end end end Then button_html: { formaction: :managed_create } options in a :submit, does the trick.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2019-09-11 18:22:45 -0400 -04'>September 11, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
-  <a class="entry-link" aria-label="post link to Create a Form With Two Actions on Activeadmin" href="https://carakan.net/blog/2019/09/create-a-form-with-two-actions-on-activeadmin/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>“NewRailscasts” My first VScode Theme
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>I ported my adaption of the ancient railscasts theme for (neo)vim to VSCode, its solarized, supports very well javascript, typescript, ruby and elixir, here’s some screenshots:
-TypeScript
-Html &#43; erb
-Elixir
-If you like try to install only follow this link or search in Extensions “New Railscasts”, also if you use vim you can install the new-railscasts from my repo.
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2018-11-27 21:51:19.696 +0000 UTC'>November 27, 2018</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
-  <a class="entry-link" aria-label="post link to “NewRailscasts” My first VScode Theme" href="https://carakan.net/blog/2018/11/newrailscasts-my-first-vscode-theme/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>My first elixir library: SoftRepo
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p> don’t destroy sensible data
-It’s a placer to announce my first library, this handle soft-delete using directly a Repo wrapper, so the main idea is to have a global lib/module that represent all of the logic to do soft-delete of records.
-The setup and usage has been written on the README of soft_repo.
-Future The idea is to have a basic library that handles soft-delete, but in a future I’ll implement:
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2018-10-03 18:49:26.082 +0000 UTC'>October 3, 2018</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Carlos Ramos</footer>
-  <a class="entry-link" aria-label="post link to My first elixir library: SoftRepo" href="https://carakan.net/blog/2018/10/my-first-elixir-library-softrepo/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>Lint and Format code with vim and ALE
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Currently I’m writing JS and Elixir code and I’ve using a lot of plugins to help me about misspelling in my code, first I was using Syntastic, later I was using Neomake but now I fell in love with ALE and I try to explain why.
-Ale knows clearly about if a plugin/addon shows an error that plugin/addon can fix that error if is possible.
-For example if I’m using eslint and I see this error:
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2017-11-15 00:11:01.059 +0000 UTC'>November 15, 2017</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Carlos Ramos</footer>
-  <a class="entry-link" aria-label="post link to Lint and Format code with vim and ALE" href="https://carakan.net/blog/2017/11/lint-and-format-code-with-vim-and-ale/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
@@ -347,7 +316,7 @@ For example if I’m using eslint and I see this error:
     </main>
     
 <footer class="footer">
-    <span>&copy; 2025 <a href="https://carakan.net/">carakan</a></span>
+    <span>&copy; 2026 <a href="https://carakan.net/">carakan</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

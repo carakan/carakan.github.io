@@ -22,7 +22,8 @@
 &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;La revista sobre el software libre: &lt;a href=&#34;http://atix.opentelematics.org/&#34;&gt;Atix&lt;/a&gt;, lanzo la séptima entrega de su revista, que apuesta por el conocimiento libre y que para este numero lo entrega con el siguiente lema:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;h4 id=&#34;un-nuevo-año-un-nuevo-reto-pon-tu-mejor-empeño-para-lograr-tu-reto-de-este-año&#34;&gt;Un nuevo año…. un nuevo reto, pon tu mejor empeño para lograr tu reto de este año.&lt;/h4&gt;&lt;/blockquote&gt;
+&lt;h4 id=&#34;un-nuevo-año-un-nuevo-reto-pon-tu-mejor-empeño-para-lograr-tu-reto-de-este-año&#34;&gt;Un nuevo año…. un nuevo reto, pon tu mejor empeño para lograr tu reto de este año.&lt;/h4&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;cuenta con la tercera parte del desarrollo de una aplicación de gestión de artículos ATIX, en &lt;a href=&#34;http://www.rubyonrails.org.es/&#34;&gt;Ruby on Rails&lt;/a&gt;, en la que explico como reutilizar código a través de plugins o gemas, utilizar el repositorio de gemas de &lt;a href=&#34;http://github.com/&#34;&gt;Git Hub&lt;/a&gt; y manipular la gema &lt;a href=&#34;http://github.com/mislav/will_paginate/tree/master&#34;&gt;Will_paginate&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
